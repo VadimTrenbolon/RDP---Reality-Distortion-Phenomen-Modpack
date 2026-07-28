@@ -1,0 +1,508 @@
+{
+	title: "Objetos  para el viaje",
+	icon: {
+		id: "retro_sophisticated_backpacks:backpack_leather",
+		tag: {
+			BackpackCapability: {
+				MemoryRespectNBT: [B;
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b
+				],
+				LockedSlots: [B;
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b
+				],
+				AccentColor: -10342886,
+				UUIDMost: 2339373665708558501L,
+				UpgradeSlotsSize: 1,
+				MemoryItems: {
+					Items: []
+				},
+				MainColor: -3382982,
+				BackpackInventory: {
+					Items: []
+				},
+				UpgradeSlots: {
+					Items: []
+				},
+				BackpackInventorySize: 27,
+				SortType: 0b,
+				UUIDLeast: -8450915131057458722L
+			}
+		},
+		ForgeCaps: {
+			Parent: {
+				MemoryRespectNBT: [B;
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b
+				],
+				LockedSlots: [B;
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b
+				],
+				AccentColor: -10342886,
+				UUIDMost: 2339373665708558501L,
+				UpgradeSlotsSize: 1,
+				MemoryItems: {
+					Items: []
+				},
+				BackpackInventory: {
+					Items: []
+				},
+				MainColor: -3382982,
+				SortType: 0b,
+				BackpackInventorySize: 27,
+				UpgradeSlots: {
+					Items: []
+				},
+				UUIDLeast: -8450915131057458722L
+			},
+			"retro_sophisticated_backpacks:backpack_capability": {
+				MemoryRespectNBT: [B;
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b
+				],
+				LockedSlots: [B;
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b,
+					0b
+				],
+				AccentColor: -10342886,
+				UUIDMost: -317904872835691469L,
+				UpgradeSlotsSize: 1,
+				MemoryItems: {
+					Items: []
+				},
+				BackpackInventory: {
+					Items: []
+				},
+				MainColor: -3382982,
+				SortType: 0b,
+				BackpackInventorySize: 27,
+				UpgradeSlots: {
+					Items: []
+				},
+				UUIDLeast: -5349164905778567834L
+			}
+		}
+	},
+	x: -13.0d,
+	y: 1.5d,
+	text: [
+		"En tu exploracion lo nesesitaras"
+	],
+	dependencies: [
+		"46c86588"
+	],
+	tasks: [{
+		uid: "22e8e783",
+		type: "item",
+		items: [{
+			id: "retro_sophisticated_backpacks:backpack_leather",
+			tag: {
+				BackpackCapability: {
+					MemoryRespectNBT: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					LockedSlots: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					AccentColor: -10342886,
+					UUIDMost: 2339373665708558501L,
+					UpgradeSlotsSize: 1,
+					MemoryItems: {
+						Items: []
+					},
+					MainColor: -3382982,
+					BackpackInventory: {
+						Items: []
+					},
+					UpgradeSlots: {
+						Items: []
+					},
+					BackpackInventorySize: 27,
+					SortType: 0b,
+					UUIDLeast: -8450915131057458722L
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					MemoryRespectNBT: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					LockedSlots: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					AccentColor: -10342886,
+					UUIDMost: 2339373665708558501L,
+					UpgradeSlotsSize: 1,
+					MemoryItems: {
+						Items: []
+					},
+					BackpackInventory: {
+						Items: []
+					},
+					MainColor: -3382982,
+					SortType: 0b,
+					BackpackInventorySize: 27,
+					UpgradeSlots: {
+						Items: []
+					},
+					UUIDLeast: -8450915131057458722L
+				},
+				"retro_sophisticated_backpacks:backpack_capability": {
+					MemoryRespectNBT: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					LockedSlots: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					AccentColor: -10342886,
+					UUIDMost: -1984876715532992195L,
+					UpgradeSlotsSize: 1,
+					MemoryItems: {
+						Items: []
+					},
+					BackpackInventory: {
+						Items: []
+					},
+					MainColor: -3382982,
+					SortType: 0b,
+					BackpackInventorySize: 27,
+					UpgradeSlots: {
+						Items: []
+					},
+					UUIDLeast: -6505918087348787376L
+				}
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d4db822b",
+		type: "item",
+		items: [{
+			id: "simpledifficulty:iron_canteen",
+			tag: {
+				CanteenType: 0,
+				Doses: 0
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c28e9142",
+		type: "item",
+		items: [{
+			item: "simpledifficulty:charcoal_filter"
+		}],
+		count: 3L
+	}]
+}

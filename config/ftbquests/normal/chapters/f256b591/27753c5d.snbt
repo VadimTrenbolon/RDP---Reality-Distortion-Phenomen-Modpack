@@ -1,0 +1,34 @@
+{
+	title: "Soy tu",
+	icon: {
+		id: "hbm:blueprints",
+		tag: {
+			pool: "discover.gerald"
+		}
+	},
+	x: 16.5d,
+	y: -16.0d,
+	text: [
+		"Praparacion para soy uz"
+	],
+	tasks: [{
+		uid: "06bd8922",
+		type: "item",
+		items: [{
+			id: "hbm:blueprints",
+			tag: {
+				pool: "discover.gerald"
+			}
+		}]
+	},
+	{
+		uid: "b4d8c3dd",
+		type: "item",
+		items: [{
+			id: "hbm:blueprints",
+			tag: {
+				pool: "discover.soyuz"
+			}
+		}]
+	}]
+}

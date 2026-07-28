@@ -1,0 +1,20 @@
+{
+	title: "nesesitas espacio?",
+	icon: "industrialrenewal:storage_chest",
+	x: -6.0d,
+	y: -3.0d,
+	text: [
+		"Con esto no nesesitaras mucho mas, §ntiene 4056 slots"
+	],
+	dependencies: [
+		"85c0e31c"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "1cdb538d",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:storage_chest"
+		}]
+	}]
+}

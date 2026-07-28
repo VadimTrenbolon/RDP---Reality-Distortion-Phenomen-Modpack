@@ -1,0 +1,62 @@
+{
+	title: "Armadura T",
+	icon: {
+		id: "hbm:t51_helmet",
+		tag: {
+			charge: 1000000L
+		}
+	},
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"Primara armadura que requiere energuia de NTM"
+	],
+	dependencies: [
+		"801ac060",
+		"e6f540eb"
+	],
+	tasks: [{
+		uid: "a779de87",
+		type: "item",
+		items: [{
+			id: "hbm:t51_helmet",
+			tag: {
+				charge: 1000000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "85469d85",
+		type: "item",
+		items: [{
+			id: "hbm:t51_plate",
+			tag: {
+				charge: 1000000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "adc87253",
+		type: "item",
+		items: [{
+			id: "hbm:t51_legs",
+			tag: {
+				charge: 1000000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "f8ca4537",
+		type: "item",
+		items: [{
+			id: "hbm:t51_boots",
+			tag: {
+				charge: 1000000L
+			}
+		}],
+		ignore_damage: 1b
+	}]
+}

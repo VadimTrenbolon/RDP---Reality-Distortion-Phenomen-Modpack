@@ -1,0 +1,45 @@
+{
+	title: "Camara reactiva",
+	icon: "techguns:itemshared 1 104",
+	x: 4.8d,
+	y: -13.6d,
+	text: [
+		"estructura multibloque,3x3 en el suelo el bloque principal al centro en los bordes, 3x3 de 2 de altura bloques de altura de cristal y 3x3 de los otros bloques",
+		"nesesita el item ese dentro",
+		"",
+		"ya con esto podras craftear cada cosa de TH"
+	],
+	dependencies: [
+		"954d2703"
+	],
+	size: 1.6d,
+	tasks: [{
+		uid: "5befc54c",
+		type: "item",
+		items: [{
+			item: "techguns:multiblockmachine 1 5"
+		}]
+	},
+	{
+		uid: "caf09cac",
+		type: "item",
+		items: [{
+			item: "techguns:multiblockmachine 17 3"
+		}],
+		count: 17L
+	},
+	{
+		uid: "bcfaecf3",
+		type: "item",
+		items: [{
+			item: "techguns:multiblockmachine 1 4"
+		}]
+	},
+	{
+		uid: "9b965e21",
+		type: "item",
+		items: [{
+			item: "techguns:itemshared 1 104"
+		}]
+	}]
+}

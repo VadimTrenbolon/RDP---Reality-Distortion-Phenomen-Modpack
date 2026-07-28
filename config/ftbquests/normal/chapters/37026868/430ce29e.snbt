@@ -1,0 +1,31 @@
+{
+	title: "circuito versatil",
+	icon: "hbm:circuit 1 11",
+	x: 10.5d,
+	y: 6.0d,
+	text: [
+		"material de crafteo para mas adelante",
+		"",
+		"",
+		"",
+		"Revisas el circuito, has encontrado 8 chapas"
+	],
+	dependencies: [
+		"dca055c0",
+		"d5e4f258",
+		"c9c24d09"
+	],
+	tasks: [{
+		uid: "2f16d757",
+		type: "item",
+		items: [{
+			item: "hbm:circuit 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "91f4cea1",
+		type: "item",
+		item: "hbm:cap_sparkle",
+		count: 8
+	}]
+}

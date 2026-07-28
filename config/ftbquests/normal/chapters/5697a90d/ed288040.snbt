@@ -1,0 +1,47 @@
+{
+	title: "armor cobalto",
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"11d5e0b6"
+	],
+	tasks: [{
+		uid: "701e5018",
+		type: "item",
+		items: [{
+			item: "hbm:cobalt_helmet"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "82129088",
+		type: "item",
+		items: [{
+			item: "hbm:cobalt_plate"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0595b52b",
+		type: "item",
+		items: [{
+			item: "hbm:cobalt_legs"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ab7e06eb",
+		type: "item",
+		items: [{
+			item: "hbm:cobalt_boots"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

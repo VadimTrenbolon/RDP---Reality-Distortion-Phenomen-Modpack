@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    1556899329
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Los parasitos no spawnearan esn estas zonas, solo los mal programados como pasifics o los con formas especiales de spawnear como dispachers y los que esta mueve\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMira we la verda la wea no funciona, por ello obligadamente tendras que usar el reward para este y solo se obtiene de aqui, no se puede craftear ni nada este\nseras kickiao si solo usas este sin tener el enviromental controller tomando energuia",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rftools:peaceful_module"
+      },
+      "name:8": "Modo pasifico",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1444971043,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "mobinhibitor:mobinhibitor_hostile"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "mobinhibitor:mobinhibitor_water"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "mobinhibitor:mobinhibitor_passive"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rftools:peaceful_module"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

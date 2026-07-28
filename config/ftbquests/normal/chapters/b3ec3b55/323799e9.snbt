@@ -1,0 +1,56 @@
+{
+	title: "Poder solar V1",
+	icon: "hbm:solar_mirror",
+	x: 11.5d,
+	y: -2.0d,
+	text: [
+		"Esto es para calentar liquidos siendo bastante rapido, en este momento servira para calentar awa conectalo a un motor a vapor y este an un condensador y q el agua vuelva al siclo",
+		"",
+		"consejo: el vapor es muy nesesario"
+	],
+	dependencies: [
+		"7ab59f44"
+	],
+	tasks: [{
+		uid: "75081614",
+		type: "item",
+		items: [{
+			item: "hbm:machine_solar_boiler"
+		}]
+	},
+	{
+		uid: "fdec2b55",
+		type: "item",
+		items: [{
+			id: "hbm:mirror_tool",
+			tag: {
+				posX: 17,
+				posY: 57,
+				posZ: 119
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "4a7fcbce",
+		type: "item",
+		items: [{
+			item: "hbm:machine_steam_engine"
+		}]
+	},
+	{
+		uid: "240a010e",
+		type: "item",
+		items: [{
+			item: "hbm:machine_condenser"
+		}]
+	},
+	{
+		uid: "c45a2a60",
+		type: "item",
+		items: [{
+			item: "hbm:solar_mirror"
+		}],
+		count: 128L
+	}]
+}

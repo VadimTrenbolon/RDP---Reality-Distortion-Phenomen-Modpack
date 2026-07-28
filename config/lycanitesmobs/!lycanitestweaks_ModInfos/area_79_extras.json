@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "area_79_extras",
+  "modName": "SCP XK Scenario",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

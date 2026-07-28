@@ -1,0 +1,30 @@
+{
+	title: "La Refinacion",
+	icon: "hbm:machine_refinery",
+	x: 10.0d,
+	y: 4.0d,
+	text: [
+		"Una vez con el ptrolewo caliente este se tiene que llevar aqui, esta maquinita los separara en sus deribados obiamente nesesita energuia",
+		"",
+		"Revisas el mecanismo, has encontrado 32 chaps"
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"3f2061b4",
+		"b845fada"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "b7c284c8",
+		type: "item",
+		items: [{
+			item: "hbm:machine_refinery"
+		}]
+	}],
+	rewards: [{
+		uid: "5bb4a386",
+		type: "item",
+		item: "hbm:cap_nuka",
+		count: 32
+	}]
+}

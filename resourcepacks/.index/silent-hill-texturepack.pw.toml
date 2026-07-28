@@ -1,0 +1,18 @@
+filename = 'Silent_Hill_Texture_Pack_128x_1.6.2.zip'
+name = '[Official] Silent Hill Resource Pack 128x 1.6.4'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.6.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Silent_Hill_Texture_Pack_128x_1.6.2.zip'
+
+[download]
+hash = '9c21354ab6e1a5d05b3a504527585ee0d5282dc3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 722238
+project-id = 47226

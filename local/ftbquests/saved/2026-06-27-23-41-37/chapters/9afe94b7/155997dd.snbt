@@ -1,0 +1,19 @@
+{
+	title: "cenizas Thermales",
+	icon: "hbm:powder_balefire",
+	x: -4.0d,
+	y: -9.5d,
+	text: [
+		"Otra manera y mas \"facil\" farmeable de conseguir balefire"
+	],
+	dependencies: [
+		"93068b5e"
+	],
+	tasks: [{
+		uid: "29a24d31",
+		type: "item",
+		items: [{
+			item: "hbm:powder_balefire"
+		}]
+	}]
+}

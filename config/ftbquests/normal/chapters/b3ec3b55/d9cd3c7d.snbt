@@ -1,0 +1,28 @@
+{
+	title: "Fermentacion y patas",
+	x: -10.0d,
+	y: 3.0d,
+	text: [
+		"Con la cuba saltaras en esta con algun material dentro de este ya sean uvas, oliba, bayas, miel etc obteniendo su jugo",
+		"",
+		"En el barril fedrmentas el liquido para por ejemplo obtener vino, es un proseso tardio",
+		"una vez completo lo puedes volver a colocar para aumentar su calidad"
+	],
+	dependencies: [
+		"f683592f"
+	],
+	tasks: [{
+		uid: "180eca69",
+		type: "item",
+		items: [{
+			item: "rustic:crushing_tub"
+		}]
+	},
+	{
+		uid: "1946247e",
+		type: "item",
+		items: [{
+			item: "rustic:brewing_barrel"
+		}]
+	}]
+}

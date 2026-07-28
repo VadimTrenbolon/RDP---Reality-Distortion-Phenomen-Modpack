@@ -1,0 +1,16 @@
+{
+	title: "Molde del palo",
+	x: -4.0d,
+	y: -0.5d,
+	text: [
+		"Nesesario para crear el mango de las herramientas"
+	],
+	tasks: [{
+		uid: "118633aa",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:mold 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

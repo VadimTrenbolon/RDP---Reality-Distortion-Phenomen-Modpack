@@ -1,0 +1,22 @@
+{
+	title: "Cobalto",
+	icon: "hbm:ingot_cobalt",
+	x: 2.0d,
+	y: -0.5d,
+	text: [
+		"En minas y meteoritos te encntraras con el cobalto en minas solo te dara su mineral en pepitas el cobalto s un mineral potene por ello como recomendacion es que te consigas su pico y con su habilidad de toque de seda para picarlo y no conseguir poco ya que sera algo nesesario",
+		"",
+		"Recomendacion: tambien pica redstone con toque de seda"
+	],
+	dependencies: [
+		"82f332c6"
+	],
+	tasks: [{
+		uid: "728a1610",
+		type: "item",
+		items: [{
+			item: "hbm:cobalt_pickaxe"
+		}],
+		ignore_damage: 1b
+	}]
+}

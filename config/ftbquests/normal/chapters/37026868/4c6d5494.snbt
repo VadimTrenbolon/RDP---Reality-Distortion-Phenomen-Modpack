@@ -1,0 +1,68 @@
+{
+	title: "Maquinaria material",
+	icon: "hbm:machine_arc_welder",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Maquinaria necesaria para crear nuevos materiales para mas maquinas",
+		"Consejo: puede que necesites mas industrial mixers",
+		"",
+		"la trituradora nesesita sus cuchillas estas se gastaran",
+		"",
+		"",
+		"Revisas los mecanismos, has encontrado 48 chaps"
+	],
+	dependencies: [
+		"969510e2"
+	],
+	tasks: [{
+		uid: "b2fd3727",
+		type: "item",
+		items: [{
+			item: "hbm:machine_chemical_plant"
+		}]
+	},
+	{
+		uid: "a5cfe689",
+		type: "item",
+		items: [{
+			item: "hbm:machine_arc_welder"
+		}]
+	},
+	{
+		uid: "fdcc5235",
+		type: "item",
+		items: [{
+			item: "hbm:machine_soldering_station"
+		}]
+	},
+	{
+		uid: "faf4b34e",
+		type: "item",
+		items: [{
+			item: "hbm:machine_mixer"
+		}]
+	},
+	{
+		uid: "d5ccd0d4",
+		type: "item",
+		items: [{
+			item: "hbm:machine_shredder"
+		}]
+	},
+	{
+		uid: "6804e2f1",
+		type: "item",
+		items: [{
+			item: "hbm:blades_titanium 2"
+		}],
+		count: 2L,
+		ignore_damage: 1b
+	}],
+	rewards: [{
+		uid: "fb3b1b69",
+		type: "item",
+		item: "hbm:cap_nuka",
+		count: 48
+	}]
+}

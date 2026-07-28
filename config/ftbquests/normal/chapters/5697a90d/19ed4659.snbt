@@ -1,0 +1,47 @@
+{
+	title: "armor hierro",
+	x: -3.0d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2a97cbe9"
+	],
+	tasks: [{
+		uid: "73950b69",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_helmet"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c7d5b861",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_chestplate"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3c83b759",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_leggings"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ff6f44f7",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_boots"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

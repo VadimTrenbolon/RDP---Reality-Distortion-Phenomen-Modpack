@@ -1,0 +1,21 @@
+{
+	title: "Pico mesa",
+	icon: "hbm:mese_pickaxe",
+	x: 14.5d,
+	y: -0.5d,
+	text: [
+		"de black mes"
+	],
+	dependencies: [
+		"2236c88c",
+		"ac9aa5b9"
+	],
+	tasks: [{
+		uid: "86aee64a",
+		type: "item",
+		items: [{
+			item: "hbm:mese_pickaxe"
+		}],
+		ignore_damage: 1b
+	}]
+}

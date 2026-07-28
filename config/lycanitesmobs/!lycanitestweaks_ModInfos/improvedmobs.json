@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "improvedmobs",
+  "modName": "Improved Mobs",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

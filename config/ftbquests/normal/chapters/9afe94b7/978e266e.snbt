@@ -1,0 +1,19 @@
+{
+	title: "Mas Prosesamiento",
+	icon: "hbm:machine_pyrooven",
+	x: -12.5d,
+	y: -9.0d,
+	text: [
+		"mas prosesamientro vro no mucho que decir, dale a  f1"
+	],
+	dependencies: [
+		"1b4b3872"
+	],
+	tasks: [{
+		uid: "a1169010",
+		type: "item",
+		items: [{
+			item: "hbm:machine_pyrooven"
+		}]
+	}]
+}

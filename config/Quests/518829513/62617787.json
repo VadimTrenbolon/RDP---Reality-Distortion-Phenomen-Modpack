@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    800868305
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Este almacen industrial guarda las baterias en su interior hasta 18 baterias azules en su maximo guarda 120M RF\nen la parte de arriba encontraras los puertos",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "industrialrenewal:ind_battery_bank"
+      },
+      "name:8": "Almacena mas energuia",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 62617787,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 18,
+          "id:8": "industrialrenewal:battery"
+        },
+        "1:10": {
+          "Count:3": 18,
+          "id:8": "industrialrenewal:battery_lithium"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "industrialrenewal:ind_battery_bank"
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    }
+  }
+}

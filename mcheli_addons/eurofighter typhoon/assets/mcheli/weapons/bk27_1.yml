@@ -1,0 +1,61 @@
+DisplayName: BK-27 RevolverCanon
+Type: machinegun1
+BaseDamage: 23
+Ballistics:
+  Acceleration: 12.0
+  AccelerationInWater: 1.0
+  Gravity: 0.0
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+Sound:
+  Volume: 7.0
+  Locations:
+    Fire: mcheli:bk27_1_snd
+Explosion:
+  Power: 1
+  Radio: 1.0
+  DestructionPower: 0
+  ExplosionAirburst: 1
+Camera:
+  Sight: movesight
+Missile:
+  Heat:
+    HeatCount: 6
+    MaxHeatCount: 300
+Ammo:
+  MagSize: 375
+  MaxAmmo: 375
+  ResupplyCount: 75
+  AmmoItems:
+  - Count: 10
+    Name: hbm:ingot_gunmetal
+    Meta: 0
+  - Count: 1
+    Name: hbm:ball_tatb
+    Meta: 0
+FireCooldown: 0
+Accuracy: 0.8
+Render:
+  MuzzleSmoke:
+  - Distance: 1.0
+    Size: 10.0
+    Range: 0.2
+    Age: 25
+    Count: 3
+    Color: '#64BEBEBE'
+  - Distance: -1.6
+    Size: 7.0
+    Range: 0.17
+    Age: 17
+    Count: 2
+    Color: '#A0A0A0A0'
+  - Distance: -3.5
+    Size: 5.0
+    Range: 0.15
+    Age: 10
+    Count: 1
+    Color: '#A0A0A0A0'
+  BulletModel: bullet_atom
+  Smoke:
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'

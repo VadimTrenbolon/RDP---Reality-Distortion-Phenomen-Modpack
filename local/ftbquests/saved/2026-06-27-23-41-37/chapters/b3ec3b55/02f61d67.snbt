@@ -1,0 +1,20 @@
+{
+	title: "Para mas adelante...",
+	icon: "immersiveengineering:treated_wood",
+	x: -4.0d,
+	y: -1.5d,
+	text: [
+		"con el creosota crea madera bañada en este servira bastante mas adelante"
+	],
+	dependencies: [
+		"91c3d7d6"
+	],
+	tasks: [{
+		uid: "07d2c81e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:treated_wood 64"
+		}],
+		count: 64L
+	}]
+}

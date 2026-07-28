@@ -1,0 +1,18 @@
+filename = 'ModernityAdjunct-f3-1.6.zip'
+name = 'Modernity Adjunct'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.11-Snapshot', '1.11', '1.11.1', '1.11.2', '1.12-Snapshot', '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Modernity Adjunct 1.6 (JE 1.11–1.12)'
+
+[download]
+hash = '8c8594bc078828e4d34afa838668ca7893f60d23'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6400214
+project-id = 1088911

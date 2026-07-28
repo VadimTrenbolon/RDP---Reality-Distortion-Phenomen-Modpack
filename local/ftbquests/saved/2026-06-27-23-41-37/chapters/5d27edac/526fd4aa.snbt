@@ -1,0 +1,40 @@
+{
+	title: "tecnologuia-238",
+	icon: "hbm:nugget_technetium",
+	x: -0.5d,
+	y: -10.0d,
+	text: [
+		"Con la llegada de U-238 ahora puedes crear armamento",
+		"balas, nukes, armas y mas objetos para avanzar",
+		"",
+		"con technium podras hacer una alternativa al cadmium",
+		"",
+		"y con P-239 podras crar varias cosillas"
+	],
+	dependencies: [
+		"a71c8174",
+		"175e2623"
+	],
+	tasks: [{
+		uid: "a0628f03",
+		type: "item",
+		items: [{
+			item: "hbm:nugget_technetium 9"
+		}],
+		count: 9L
+	},
+	{
+		uid: "22155ae8",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_u238"
+		}]
+	},
+	{
+		uid: "b226ae6a",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_pu239"
+		}]
+	}]
+}

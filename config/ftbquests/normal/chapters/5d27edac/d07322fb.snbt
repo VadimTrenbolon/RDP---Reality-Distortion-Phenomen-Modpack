@@ -1,0 +1,32 @@
+{
+	title: "Tier 3 expensivo",
+	icon: "hbm:item_expensive 1 4",
+	x: 7.5d,
+	y: -1.25d,
+	text: [
+		"Mas, Mas, Maaaaas Material",
+		"",
+		"",
+		"Revisas el mecanismo, has encontrado 32 chaps"
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"d868ad3a",
+		"e5ef9de9",
+		"92331170"
+	],
+	size: 2.5d,
+	tasks: [{
+		uid: "125461de",
+		type: "item",
+		items: [{
+			item: "hbm:item_expensive 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "0b461923",
+		type: "item",
+		item: "hbm:cap_rad",
+		count: 32
+	}]
+}

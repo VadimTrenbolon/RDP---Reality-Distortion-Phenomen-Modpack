@@ -1,0 +1,17 @@
+{
+	title: "Armas",
+	icon: {
+		id: "hbm:gun_folly",
+		tag: {
+			timer_0: 40,
+			state_0: 0b,
+			aiming: 0b,
+			cancel: 0b,
+			eqipped: 0b,
+			lastanim_0: 4
+		}
+	},
+	always_invisible: 0b,
+	group: 0,
+	default_quest_shape: ""
+}

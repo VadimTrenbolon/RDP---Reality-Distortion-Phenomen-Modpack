@@ -1,0 +1,18 @@
+{
+	title: "Dispara",
+	icon: "hbm:discharge",
+	x: 7.5d,
+	y: 0.0d,
+	text: [
+		"Dispara, no hay opcion, ellos se iran"
+	],
+	dependencies: [
+		"e75c5308"
+	],
+	tasks: [{
+		uid: "f4626c40",
+		type: "advancement",
+		advancement: "hbm:horizonsstart",
+		criterion: ""
+	}]
+}

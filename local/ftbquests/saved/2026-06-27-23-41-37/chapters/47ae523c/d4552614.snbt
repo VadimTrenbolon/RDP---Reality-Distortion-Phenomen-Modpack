@@ -1,0 +1,21 @@
+{
+	title: "deberia picar tanto?",
+	icon: "hbm:bismuth_pickaxe",
+	x: 9.5d,
+	y: -0.5d,
+	text: [
+		"no es como el cristal el bismuto?"
+	],
+	dependencies: [
+		"d5e4f258",
+		"b7c9e20b"
+	],
+	tasks: [{
+		uid: "7987b57a",
+		type: "item",
+		items: [{
+			item: "hbm:bismuth_pickaxe"
+		}],
+		ignore_damage: 1b
+	}]
+}

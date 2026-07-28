@@ -1,0 +1,17 @@
+{
+	title: "Pasifico",
+	icon: "rftools:peace_essence",
+	x: -2.0d,
+	y: 2.0d,
+	shape: "square",
+	text: [
+		"artefacto legendario que... ya sabras"
+	],
+	tasks: [{
+		uid: "a0e644b9",
+		type: "item",
+		items: [{
+			item: "rftools:peace_essence"
+		}]
+	}]
+}

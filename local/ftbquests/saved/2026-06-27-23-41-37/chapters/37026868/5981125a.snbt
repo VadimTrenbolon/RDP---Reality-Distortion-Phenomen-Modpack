@@ -1,0 +1,19 @@
+{
+	title: "1k",
+	icon: "refinedstorage:storage_part",
+	x: 11.5d,
+	y: 11.0d,
+	text: [
+		"1 bit"
+	],
+	dependencies: [
+		"72b2901c"
+	],
+	tasks: [{
+		uid: "52aa0c8e",
+		type: "item",
+		items: [{
+			item: "refinedstorage:storage_part"
+		}]
+	}]
+}

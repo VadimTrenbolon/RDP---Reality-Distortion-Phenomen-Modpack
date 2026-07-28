@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1008017253
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Para aleacion",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_mud"
+      },
+      "name:8": "Lingote de Barro",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 184485031,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_mud"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

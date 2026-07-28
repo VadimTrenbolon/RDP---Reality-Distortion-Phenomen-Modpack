@@ -1,0 +1,48 @@
+{
+	title: "Trenes",
+	icon: {
+		id: "immersiverailroading:item_rolling_stock",
+		tag: {
+			defID: "rolling_stock/locomotives/a1_peppercorn.json",
+			gauge: 1.435d
+		}
+	},
+	x: -4.0d,
+	y: -3.0d,
+	text: [
+		"Medio compricado comprender este mod, con el manual colocaras una estructura multibloque que deberas completar, una vez con todas podras empezar a crear trenes pero seguramente no sbaras como crearlos,",
+		"El diesel NTM funciona en estos trenes",
+		"",
+		"en yutub hay una muy buena serie tutorial del mod hecha por \"No  Rails Gaming\"",
+		"Link:"
+	],
+	dependencies: [
+		"02f61d67"
+	],
+	tasks: [{
+		uid: "1e5e5d51",
+		type: "item",
+		items: [{
+			id: "immersiverailroading:item_manual",
+			tag: {}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "fd76df75",
+		type: "item",
+		items: [{
+			id: "immersiverailroading:item_rail",
+			tag: {}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "896f45cb",
+		type: "item",
+		items: [{
+			item: "immersiverailroading:item_large_wrench"
+		}],
+		ignore_damage: 1b
+	}]
+}

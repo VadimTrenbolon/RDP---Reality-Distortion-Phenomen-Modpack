@@ -1,0 +1,19 @@
+{
+	title: "Wyvern?",
+	icon: "draconicevolution:wyvern_core",
+	x: 8.5d,
+	y: -1.0d,
+	text: [
+		"Los del I&F?"
+	],
+	dependencies: [
+		"83896e8f"
+	],
+	tasks: [{
+		uid: "fec2b4b9",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_core"
+		}]
+	}]
+}

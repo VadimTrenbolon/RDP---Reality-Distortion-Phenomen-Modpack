@@ -1,0 +1,31 @@
+{
+	title: "tier 1 expensive",
+	icon: "hbm:item_expensive",
+	x: 20.0d,
+	y: 0.0d,
+	text: [
+		"El modo extenzo esta activo estop causa que se nesesiten mas cosas para crear los diversos objetos",
+		"el primer objeto nesesario pra este es esta caja de aqui es muuuuy necesaria",
+		"",
+		"",
+		"",
+		"Has encontrado 128 chapas entre los mecanismos"
+	],
+	dependencies: [
+		"697615f3"
+	],
+	size: 4.0d,
+	tasks: [{
+		uid: "2afa7737",
+		type: "item",
+		items: [{
+			item: "hbm:item_expensive"
+		}]
+	}],
+	rewards: [{
+		uid: "49c3e290",
+		type: "item",
+		item: "hbm:cap_nuka",
+		count: 128
+	}]
+}

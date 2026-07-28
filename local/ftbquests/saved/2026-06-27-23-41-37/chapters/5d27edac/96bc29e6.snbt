@@ -1,0 +1,29 @@
+{
+	title: "El primer reactor",
+	icon: "hbm:machine_zirnox",
+	x: -3.5d,
+	y: -17.5d,
+	text: [
+		"Este es el primer reactor en la progresion nesesita de dioxido de carbono pra funcionar (se consigue del gas natural),",
+		"",
+		"recuerda usar turbinas pra usar el vapor para la energuia, ten torres condensadoras para convertir el vapor de vaja presion en agua, y reecuereda no hacer que el reactor se llene de vapor ni que su precion interna este arriba de 17 por mucho tiempo"
+	],
+	dependencies: [
+		"67541a74",
+		"3bb02d13"
+	],
+	tasks: [{
+		uid: "b077d94b",
+		type: "item",
+		items: [{
+			item: "hbm:machine_zirnox"
+		}]
+	},
+	{
+		uid: "70a0271b",
+		type: "item",
+		items: [{
+			item: "hbm:machine_tower_small"
+		}]
+	}]
+}

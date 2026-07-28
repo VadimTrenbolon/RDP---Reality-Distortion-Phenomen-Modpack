@@ -1,0 +1,20 @@
+{
+	title: "Habilidades en herramientas y armas",
+	icon: "hbm:alloy_pickaxe",
+	x: 0.0d,
+	y: -0.5d,
+	text: [
+		"apartir de la aleacion avanzada  las herramientas y armas tendran habilidades vinmainer,toque de seda, fortuna, etc.",
+		"",
+		"para activarleas se da click derecho con la herramienta o con alt se puenen activar en su menu"
+	],
+	dependencies: [
+		"13017367",
+		"7a175e00"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "6a54b7a7",
+		type: "checkmark"
+	}]
+}

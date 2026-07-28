@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    1960860193,
+    1410869985
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Verdaderamente algo complejo como antes lo mejor es que te veas un tutorial siempre recomendados los de savage vegeta, aunque si este es un caso especial ya que se recomienda hacer pruebas creativas con este\n\npara su correcto funcionamento nesesita un sircuito de  perfluoroametyl frio para refrigerarlo pero nesesitara compresores con mejoras de velosidad nivel 3 o overcloquiada",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:pa_detector"
+      },
+      "name:8": "Particulas Acereladas",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 469965414,
+  "tasks:9": {}
+}

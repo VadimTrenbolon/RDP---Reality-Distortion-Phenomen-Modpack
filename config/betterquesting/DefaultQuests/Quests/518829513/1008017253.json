@@ -1,0 +1,58 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    1419638769,
+    1429557069
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "El reactor watz es la primera estructura multibloque en si\nrequeria bastante material pa su creacion coloca el nucleo y contruya lo que pida a su al rededor\n\nVarios pueden apilarse para juntarlos soolo coloca la pump arriba de el ultimo tambien requerido si es solo uno, nesesitara recivir una señal de redstone para funcionar\n\nno genera energuia pr si solo si no que con refrigerante que se calentara potras calentar agua para vapor pero este tiene que pasar por una caja de fuego de intercambio para volver al reactor y haci crear un flujo infinito\n\nel combustible mep nesesitara de lep para iniciar la reaccion si no se tiene schrabidium\n\ncuidado si el barro venenoso se llena",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:watz"
+      },
+      "name:8": "Watz",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1008017253,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:struct_watz_core"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:watz_pump"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 5,
+          "id:8": "hbm:watz_pellet",
+          "tag:10": {
+            "yield:6": 4.989123339123628E8
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "hbm:watz_pellet",
+          "tag:10": {
+            "yield:6": 4.999967363776115E8
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "hbm:heater_heatex"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+	title: "Un buen almacen",
+	icon: "refinedstorage:grid 1 1",
+	x: 14.5d,
+	y: 11.5d,
+	text: [
+		"Ya deberias saber como funciona, si no te lo explicaran"
+	],
+	dependencies: [
+		"72b2901c"
+	],
+	tasks: [{
+		uid: "8431651c",
+		type: "item",
+		items: [{
+			id: "refinedstorage:controller",
+			tag: {
+				Energy: 0
+			}
+		}]
+	},
+	{
+		uid: "6f2fe692",
+		type: "item",
+		items: [{
+			item: "refinedstorage:disk_drive"
+		}]
+	},
+	{
+		uid: "7f7dbe34",
+		type: "item",
+		items: [{
+			item: "refinedstorage:grid 1 1"
+		}]
+	}]
+}

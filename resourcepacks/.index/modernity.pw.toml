@@ -1,0 +1,18 @@
+filename = 'Modernity-f3-3.10.2.zip'
+name = 'Modernity'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.11-Snapshot', '1.11', '1.11.1', '1.11.2', '1.12-Snapshot', '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Modernity 3.10.2 (JE 1.11–1.12)'
+
+[download]
+hash = '58babf749ab21af4a9a7c7f77ddce91e430ebedb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5789809
+project-id = 300317

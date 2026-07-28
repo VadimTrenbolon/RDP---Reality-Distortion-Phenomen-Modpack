@@ -1,0 +1,19 @@
+{
+	title: "Purificar",
+	icon: "hbm:machine_purex",
+	x: -1.5d,
+	y: -12.5d,
+	text: [
+		"Con el combustible de reactor enfriado lo tienes que procesar en el pures para conseguir partes del material del que esten hecho"
+	],
+	dependencies: [
+		"fcb74a7f"
+	],
+	tasks: [{
+		uid: "dee43de6",
+		type: "item",
+		items: [{
+			item: "hbm:machine_purex"
+		}]
+	}]
+}

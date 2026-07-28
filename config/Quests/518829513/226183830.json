@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    563197983
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "dejaras de ser humano? no hay vuelta atras",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "matteroverdrive:rogue_android_part",
+        "tag:10": {
+          "Type:1": 0
+        }
+      },
+      "name:8": "Androide",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 226183830,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "/summon matteroverdrive:mad_scientist",
+      "description:8": "...",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "matteroverdrive:rogue_android_part",
+          "tag:10": {
+            "Type:1": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "matteroverdrive:rogue_android_part",
+          "tag:10": {
+            "Type:1": 0
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "matteroverdrive:rogue_android_part",
+          "tag:10": {
+            "Type:1": 0
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "matteroverdrive:rogue_android_part",
+          "tag:10": {
+            "Type:1": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

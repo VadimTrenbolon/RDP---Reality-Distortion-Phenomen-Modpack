@@ -1,0 +1,20 @@
+{
+	title: "Tungsteno magnetizado",
+	icon: "hbm:ingot_magnetized_tungsten",
+	x: 3.0d,
+	y: -11.25d,
+	text: [
+		"Magnetizalo"
+	],
+	dependencies: [
+		"954d2703"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "916c05c2",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_magnetized_tungsten"
+		}]
+	}]
+}

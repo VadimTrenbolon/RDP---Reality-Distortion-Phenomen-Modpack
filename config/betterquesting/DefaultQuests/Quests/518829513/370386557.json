@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1045993603
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Realmente no creo que uses esto pero que sepas que protege mas contra la radiacion que los bloques de roca profunda",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:cmb_brick"
+      },
+      "name:8": "Proteccion CMB",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 370386557,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "hbm:cmb_brick"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

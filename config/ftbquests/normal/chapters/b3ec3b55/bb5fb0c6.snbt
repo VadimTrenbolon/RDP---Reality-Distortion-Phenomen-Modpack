@@ -1,0 +1,39 @@
+{
+	title: "Par de baterias nuevas",
+	icon: {
+		id: "hbm:battery_pack",
+		Damage: 2s,
+		tag: {
+			charge: 0L
+		}
+	},
+	x: -4.0d,
+	y: 4.5d,
+	text: [
+		"Hace poco hubo un rework en los bloques de bateria de ntm, aunque los seguiras encontrando en estructuras ya no los podras craftear",
+		"",
+		"ahora requieres de un paquete de bateria y un pequeño almacen",
+		"el aire comprimido lo consigues con un air lake"
+	],
+	dependencies: [
+		"3dafbb60"
+	],
+	tasks: [{
+		uid: "c687e903",
+		type: "item",
+		items: [{
+			id: "hbm:battery_pack",
+			Damage: 2s,
+			tag: {
+				charge: 0L
+			}
+		}]
+	},
+	{
+		uid: "bf67d4ad",
+		type: "item",
+		items: [{
+			item: "hbm:machine_battery_socket"
+		}]
+	}]
+}

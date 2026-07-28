@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    1953541674
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Se desbloquea el x6 De minerales y nuevas maneras de usar otrosd",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_crystallizer"
+      },
+      "name:8": "Acidificacion",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 736022058,
+  "tasks:9": {}
+}

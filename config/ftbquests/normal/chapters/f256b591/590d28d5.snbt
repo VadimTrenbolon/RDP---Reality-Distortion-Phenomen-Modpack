@@ -1,0 +1,20 @@
+{
+	title: "Xen",
+	icon: "hbm:crystal_xen",
+	x: -13.5d,
+	y: -5.0d,
+	text: [
+		"3 para cuando valve, cuidado con dropearlo"
+	],
+	dependencies: [
+		"2d9a1a27"
+	],
+	tasks: [{
+		uid: "314721d4",
+		type: "item",
+		items: [{
+			item: "hbm:crystal_xen"
+		}],
+		ignore_damage: 1b
+	}]
+}

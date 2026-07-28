@@ -1,0 +1,18 @@
+{
+	title: "Comienzo antique",
+	x: -17.5d,
+	y: 3.0d,
+	shape: "square",
+	text: [
+		"ya habras notado que las herramientas vanilla no se pueden conseguir, esto es porque ahora requeriras de un proceso mas largo",
+		"",
+		"Si no te dirigues directamente al bunker probablemente lo tengas que comenzar ya, igualmente lo tendras que hacer despues"
+	],
+	tasks: [{
+		uid: "873a254c",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}]
+	}]
+}

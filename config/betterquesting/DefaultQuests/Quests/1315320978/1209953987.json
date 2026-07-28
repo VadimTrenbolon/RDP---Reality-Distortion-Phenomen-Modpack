@@ -1,0 +1,20 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Al aparecer en el mundo aparecerás  con 2 accesorios:\n§f\nEl §6collar§f te dará una estadistica extra aleatoria dependiendo del color\n§cRojo: +1,5 de daño base\n§bCeleste: +15% de velocidad al correr\n§5Morado: +15% de oportunidad de desviar\n§dVioleta: -15% de gravedad\n§aVerde: +25% de velocidad al minar\n§0§r§fNegro: +10% de robar vida\n§1§r§9Azul: +25% de velocidad al nadar\n§f\nEl §4anillo de las 7 maldiciones§f este te dará la §cmodo maldito§f un modo que te dará §abeneficios§f y §cmaldiciones§f.\n\nDespués de colocarte el anillo no te lo podrás sacar siendo algo permanente,\nEn resumen este te permitirá usar objetos OP a cambio de morir por oneshot\n\nTraducción al español:\n§4Siete maldiciones caerán sobre quien lo porte:\n\nRecibes el doble de daño de CUALQUIER fuente. Las criaturas neutrales son agresivas contigo. La armadura es un 30 % menos efectiva. Los monstruos reciben un 50 % menos de daño de tu parte. Cuando estás en llamas, ardes para siempre. Cada muerte destroza tu alma. Sufres de insomnio incurable.\n\nSiete bendiciones recompensarán a quienes resistan:\n\n+1 Nivel de Saqueo\n\n+1 Nivel de Fortuna\n\n+400 % de experiencia obtenida.\n\n+10 Poder de Encantamiento en la Tabla de Encantamiento.\n\nObjetos únicos obtenidos de algunas criaturas.\n\nFuncionalidad del Anillo de Ender.\n\nPuedes crear y usar pátinas únicas.\n\n§fAdemas de ello en la parte superior de tu pantalla observaras \"§cDifficulty 0.0§f\" el numero 0.0 ira aumentado 0.1, 0.2, etc. Este indicara la dificultad general del mundo con el tiempo los mobs podran hacer cosas que los jugadores hacen colocar bloques, romperlos, mas vida y daño, §4habilidades pvp§f, usar §6caña de pescar§f, §2enderpearls§f, §ctnt§f, telarañas, etc.\nAl principio son raros pero con el tiempo se hacen mas raros.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enigmaticlegacy:cursed_ring"
+      },
+      "name:8": "Dificultad",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1209953987,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+	title: "Tier 4",
+	icon: "hbm:item_expensive 1 6",
+	always_invisible: 0b,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -9.0d,
+		y: 18.5d,
+		width: 150.0d,
+		height: 75.0d,
+		rotation: 0.0d,
+		image: "assets:quests/fog.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: -9.0d,
+		y: -5.5d,
+		width: 150.0d,
+		height: 75.0d,
+		rotation: 0.0d,
+		image: "assets:quests/arbo.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	}]
+}

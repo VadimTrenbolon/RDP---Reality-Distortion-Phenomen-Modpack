@@ -1,0 +1,18 @@
+{
+	title: "The frist Boss",
+	icon: "hbm:coin_maskman",
+	x: 2.0d,
+	y: -19.0d,
+	text: [
+		"Veras si estas  irradiado mientras estas en una cueva probablemente pararesera el hombre enmascarado. aparece cada 3 horas si un jugador cumple las condiciones, +50 rads y estar en una cueva",
+		"",
+		"Pelea bastante dificil si no estas preparado"
+	],
+	tasks: [{
+		uid: "13c045da",
+		type: "item",
+		items: [{
+			item: "hbm:coin_maskman"
+		}]
+	}]
+}

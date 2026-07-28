@@ -1,0 +1,21 @@
+filename = 'NTM Vanilled.zip'
+name = 'NTM Vanilled'
+side = 'client'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = 'v1.3'
+
+[download]
+hash = 'd895c19a944ba283cd44df5e7815b34891b1429ee9af58d29a220f33d4ae11c75692bea70462f70c9aa9e7380eb75fd4813adec224cb19ccb9c099570f1dcdfa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NHilOL5R/versions/6hVscktk/NTM Vanilled.zip'
+
+[update.modrinth]
+mod-id = 'NHilOL5R'
+version = '6hVscktk'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'M4Z75E5X'
+type = 'REQUIRED'

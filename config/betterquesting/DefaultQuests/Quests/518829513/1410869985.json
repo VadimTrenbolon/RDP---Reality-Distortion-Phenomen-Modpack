@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1454553986
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Material de crafteios",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 15,
+        "id:8": "hbm:circuit"
+      },
+      "name:8": "Proceso quantico",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1410869985,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "id:8": "hbm:circuit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

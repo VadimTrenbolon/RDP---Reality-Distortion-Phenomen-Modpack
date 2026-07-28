@@ -1,0 +1,76 @@
+{
+  "preRequisites:11": [
+    609522919
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Como la forja de tinker construct\nducto verde para aleaciones\nducto rojo para crafteos\n\nnecesita una fuente de calor abajo\nConsejo: las aleaciones son mas baratas en carbon el hacerlas aqui\n\n\nRevisas dentro del crucible, has encontrado 18 chaps",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_crucible"
+      },
+      "name:8": "Crucible",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1592564660,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 18,
+          "id:8": "hbm:cap_nuka"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_crucible"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:heater_firebox"
+        },
+        "2:10": {
+          "Count:3": 32,
+          "id:8": "hbm:foundry_channel"
+        },
+        "3:10": {
+          "Count:3": 8,
+          "id:8": "hbm:foundry_outlet"
+        },
+        "4:10": {
+          "Count:3": 4,
+          "id:8": "hbm:foundry_mold"
+        },
+        "5:10": {
+          "Count:3": 4,
+          "id:8": "hbm:foundry_basin"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 19,
+          "id:8": "hbm:mold"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "hbm:mold"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "hbm:mold"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

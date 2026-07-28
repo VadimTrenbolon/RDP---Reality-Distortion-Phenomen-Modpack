@@ -1,0 +1,44 @@
+DisplayName: RIM-66 Standart [Anti-Aircraft Missile]
+Type: aamissile
+BaseDamage: 134
+Ballistics:
+  Acceleration: 6.0
+  AccelerationInWater: 1.0
+  Gravity: 0.0
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+Sound:
+  Locations:
+    Fire: mcheli:missile_cruise_snd
+Explosion:
+  Power: 7
+  Radio: 7.0
+  DestructionPower: 7
+  ExplosionAirburst: 7
+  ProximityFuseDist: 2.0
+Camera:
+  Sight: missilesight
+Missile:
+  LockOn:
+    Time: 15
+Ammo:
+  ReloadTime: 110
+  MagSize: 8
+  MaxAmmo: 8
+  ResupplyCount: 8
+  AmmoItems:
+  - Count: 1
+    Name: hbm:ingot_gunmetal
+    Meta: 0
+  - Count: 4
+    Name: hbm:cordite
+    Meta: 0
+  - Count: 1
+    Name: hbm:circuit
+    Meta: 5
+FireCooldown: 20
+Render:
+  BulletModel: sm2
+  Smoke:
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'

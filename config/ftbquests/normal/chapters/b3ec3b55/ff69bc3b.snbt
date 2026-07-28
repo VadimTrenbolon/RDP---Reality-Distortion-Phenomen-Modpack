@@ -1,0 +1,18 @@
+{
+	title: "Mata un dragon de fuego",
+	icon: "iceandfire:dragonegg_red",
+	x: 10.0d,
+	y: 7.0d,
+	text: [
+		"spawnea en una estructura especial, ten cuidado con los brillantes"
+	],
+	dependencies: [
+		"f085f0b6"
+	],
+	tasks: [{
+		uid: "1816847b",
+		type: "kill",
+		entity: "iceandfire:firedragon",
+		value: 0L
+	}]
+}

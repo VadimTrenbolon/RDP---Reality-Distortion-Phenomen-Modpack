@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "thermalfoundation",
+  "modName": "Thermal Foundation",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    1781235922
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Dale a f1 sobre FEL\nNesesita algun crista  para funcionar",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_silex"
+      },
+      "name:8": "Lasers de ondas de luz",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1779282063,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_silex"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_fel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:laser_crystal_co2"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:laser_crystal_bismuth"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:laser_crystal_cmb"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:laser_crystal_bale"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "hbm:laser_crystal_digamma"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+	title: "Avanzando con cobalto",
+	icon: "hbm:cobalt_decorated_pickaxe",
+	x: 4.5d,
+	y: -0.5d,
+	text: [
+		"Con los bloques de meteoritos en polvo mas cobalto obtienes el mineral de meteorito, con este caliente en un yunque junto a un pico de cobalto obtendras el pico decorado con este se te desbloquearan mas habilidades de picos"
+	],
+	dependencies: [
+		"7f486443"
+	],
+	tasks: [{
+		uid: "72d09073",
+		type: "item",
+		items: [{
+			item: "hbm:cobalt_decorated_pickaxe"
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "2d16550a",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_meteorite"
+		}]
+	}]
+}

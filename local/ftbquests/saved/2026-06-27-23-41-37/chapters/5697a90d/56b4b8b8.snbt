@@ -1,0 +1,62 @@
+{
+	title: "Gordon Freeman",
+	icon: {
+		id: "hbm:hev_helmet",
+		tag: {
+			charge: 1000000L
+		}
+	},
+	x: 3.0d,
+	y: -1.5d,
+	text: [
+		"Perfecto para materiales peligrosos"
+	],
+	dependencies: [
+		"686c3cf8",
+		"801ac060"
+	],
+	tasks: [{
+		uid: "99af04ae",
+		type: "item",
+		items: [{
+			id: "hbm:hev_helmet",
+			tag: {
+				charge: 1000000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "154b14a2",
+		type: "item",
+		items: [{
+			id: "hbm:hev_plate",
+			tag: {
+				charge: 1000000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "c27c3c86",
+		type: "item",
+		items: [{
+			id: "hbm:hev_legs",
+			tag: {
+				charge: 1000000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "16df542c",
+		type: "item",
+		items: [{
+			id: "hbm:hev_boots",
+			tag: {
+				charge: 1000000L
+			}
+		}],
+		ignore_damage: 1b
+	}]
+}

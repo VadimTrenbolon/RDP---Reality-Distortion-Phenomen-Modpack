@@ -1,0 +1,15 @@
+{
+	title: "placas v1",
+	x: 0.0d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ce35d961",
+		type: "item",
+		items: [{
+			item: "hbm:plate_armor_titanium"
+		}]
+	}]
+}

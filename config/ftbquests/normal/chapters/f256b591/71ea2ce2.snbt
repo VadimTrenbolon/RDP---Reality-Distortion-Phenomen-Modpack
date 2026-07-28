@@ -1,0 +1,21 @@
+{
+	title: "Digmma - El Inicio y su Inicio del fin",
+	icon: "hbm:particle_digamma",
+	x: -3.75d,
+	y: 5.0d,
+	text: [
+		"..."
+	],
+	dependencies: [
+		"112d3900",
+		"1ce23dd5"
+	],
+	size: 2.5d,
+	tasks: [{
+		uid: "1c856a21",
+		type: "item",
+		items: [{
+			item: "hbm:particle_digamma"
+		}]
+	}]
+}

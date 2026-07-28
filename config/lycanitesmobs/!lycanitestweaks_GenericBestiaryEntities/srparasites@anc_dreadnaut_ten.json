@@ -1,0 +1,32 @@
+{
+  "loadDefault": true,
+  "entityID": "srparasites:anc_dreadnaut_ten",
+  "langKeyName": "srparasites.anc_dreadnaut_ten",
+  "langKeyPrefix": "",
+  "langKeySuffix": "",
+  "renderInitialSpawn": true,
+  "disableBestiaryEntry": true,
+  "bestiaryModifications": [
+    {
+      "modType": "nbtMod",
+      "knowledgeRank": 3,
+      "experienceRatio": 0.0,
+      "nbtTag": "",
+      "isDefault": false,
+      "userInput": true,
+      "refreshData": false,
+      "nbtType": "ALL",
+      "values": []
+    },
+    {
+      "modType": "srparasites:attacking",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0
+    },
+    {
+      "modType": "newSpawn",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0
+    }
+  ]
+}

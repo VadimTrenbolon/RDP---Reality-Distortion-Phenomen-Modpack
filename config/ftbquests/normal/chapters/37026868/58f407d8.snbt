@@ -1,0 +1,17 @@
+{
+	title: "Refinado Crackeado",
+	icon: "hbm:machine_refinery",
+	x: 25.5d,
+	y: 8.5d,
+	text: [
+		"Con este calentado btentras los hidrocarburos que te serviran para varias recetas",
+		"tambien disel y naptha creakeada que fuciona de combustible haci que con un generador de disel combustion u otro generaras energuia"
+	],
+	dependencies: [
+		"f5c44cee"
+	],
+	tasks: [{
+		uid: "b0220b2d",
+		type: "checkmark"
+	}]
+}

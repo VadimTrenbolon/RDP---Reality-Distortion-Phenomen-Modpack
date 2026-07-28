@@ -1,0 +1,21 @@
+{
+	title: "Agua infinita para maquinas",
+	icon: "hbm:inf_water",
+	x: 14.0d,
+	y: -1.5d,
+	text: [
+		"El agua es necesaria para bastantes recetas por ello con este se le dara agua a la maquina  cuando lo necesite",
+		"no funciona como cubo no se puede colocar"
+	],
+	dependencies: [
+		"697615f3"
+	],
+	tasks: [{
+		uid: "789104b7",
+		type: "item",
+		items: [{
+			item: "hbm:inf_water"
+		}],
+		ignore_damage: 1b
+	}]
+}

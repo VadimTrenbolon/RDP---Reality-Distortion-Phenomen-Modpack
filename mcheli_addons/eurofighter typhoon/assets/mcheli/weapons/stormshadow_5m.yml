@@ -1,0 +1,48 @@
+﻿DisplayName: Storm Shadow [Piercing 5m]
+CanLoadChunks: true
+Type: tvmissile
+BaseDamage: 250
+Ballistics:
+  Acceleration: 2.9
+  AccelerationInWater: 1.0
+  Gravity: 0.0
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+  Piercing: 5
+Sound:
+  Volume: 3.0
+  Locations:
+    Fire: mcheli:bomb_snd
+Explosion:
+  Power: 90
+  Radio: 90.0
+  DestructionPower: 14
+  ExplosionAirburst: 90
+Camera:
+  Sight: movesight
+Ammo:
+  ReloadTime: 300
+  MagSize: 1
+  MaxAmmo: 2
+  AmmoItems:
+  - Count: 8
+    Name: hbm:ingot_gunmetal
+    Meta: 0
+  - Count: 18
+    Name: hbm:ball_tatb
+    Meta: 0
+  - Count: 5
+    Name: hbm:circuit
+    Meta: 5
+  - Count: 1
+    Name: hbm:thruster_small
+    Meta: 0
+Mode: 2
+Render:
+  BulletModel: stormshadow
+  Smoke:
+    DisableSmoke: true
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'
+
+

@@ -1,0 +1,27 @@
+{
+	title: "Soyuz-FG",
+	icon: "hbm:missile_soyuz",
+	x: 14.0d,
+	y: -16.5d,
+	text: [
+		"cuetes y wea orbital"
+	],
+	dependencies: [
+		"27753c5d"
+	],
+	tasks: [{
+		uid: "b12dacaa",
+		type: "item",
+		items: [{
+			item: "hbm:missile_soyuz"
+		}]
+	},
+	{
+		uid: "f855091e",
+		type: "item",
+		items: [{
+			item: "hbm:missile_soyuz_lander"
+		}],
+		ignore_damage: 1b
+	}]
+}

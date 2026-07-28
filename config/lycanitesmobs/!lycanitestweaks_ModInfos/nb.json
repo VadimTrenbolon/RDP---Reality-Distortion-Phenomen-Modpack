@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "nb",
+  "modName": "Unseens Nether Backport",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

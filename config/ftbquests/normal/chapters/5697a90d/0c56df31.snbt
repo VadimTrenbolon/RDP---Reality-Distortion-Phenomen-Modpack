@@ -1,0 +1,16 @@
+{
+	title: "placas de armadura v2",
+	icon: "hbm:plate_armor_ajr",
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"Material para armadura"
+	],
+	tasks: [{
+		uid: "b8ab05bd",
+		type: "item",
+		items: [{
+			item: "hbm:plate_armor_ajr"
+		}]
+	}]
+}

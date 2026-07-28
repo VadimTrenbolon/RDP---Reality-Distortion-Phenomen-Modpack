@@ -1,0 +1,38 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Talvez dse un mob o talves de un cofre pero has encontrado una llave roja de un uso\n\nEn las minas encuentra el bloque usado como icono de esta quest y dale click derecho con la llave\n\n\nRotaste la llave para verla mejor, han aparecido 16 chapas repentinamente",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:stone_keyhole"
+      },
+      "name:8": "???",
+      "visibility:8": "COMPLETED"
+    }
+  },
+  "questID:3": 306385969,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "hbm:cap_star"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:key_red_cracked"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+	title: "lava energuetica",
+	icon: "hbm:machine_hephaestus",
+	x: 23.5d,
+	y: 12.0d,
+	text: [
+		"Colocalo sobre lava para que la consuma y genere energuia con este, el mejor lugar para colocarlo en un gran lago de lava o el nether"
+	],
+	dependencies: [
+		"3bb02d13"
+	],
+	tasks: [{
+		uid: "07f2a04f",
+		type: "item",
+		items: [{
+			item: "hbm:machine_hephaestus"
+		}]
+	}]
+}

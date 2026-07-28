@@ -1,0 +1,61 @@
+{
+	title: "Negro",
+	icon: {
+		id: "hbm:ajro_helmet",
+		tag: {
+			charge: 2500000L
+		}
+	},
+	x: 1.5d,
+	y: 3.0d,
+	text: [
+		"Mejora o Recolor?"
+	],
+	dependencies: [
+		"41acd224"
+	],
+	tasks: [{
+		uid: "827e5bd8",
+		type: "item",
+		items: [{
+			id: "hbm:ajro_helmet",
+			tag: {
+				charge: 2500000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "5e8f81c2",
+		type: "item",
+		items: [{
+			id: "hbm:ajro_plate",
+			tag: {
+				charge: 2500000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "fccaf0ec",
+		type: "item",
+		items: [{
+			id: "hbm:ajro_legs",
+			tag: {
+				charge: 2500000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "ce645f49",
+		type: "item",
+		items: [{
+			id: "hbm:ajro_boots",
+			tag: {
+				charge: 2500000L
+			}
+		}],
+		ignore_damage: 1b
+	}]
+}

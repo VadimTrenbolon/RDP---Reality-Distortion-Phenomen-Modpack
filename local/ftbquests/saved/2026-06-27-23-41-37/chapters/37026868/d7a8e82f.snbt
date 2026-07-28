@@ -1,0 +1,30 @@
+{
+	title: "Buen momento para coltan",
+	icon: {
+		id: "hbm:coltan_tool",
+		tag: {
+			colX: -124,
+			colZ: -1678
+		}
+	},
+	x: 20.0d,
+	y: 12.5d,
+	text: [
+		"atravez de esta brujula busca coltan y tras un largo proceso conviertelo en tantalium"
+	],
+	dependencies: [
+		"5d4c7208"
+	],
+	tasks: [{
+		uid: "b69f30d3",
+		type: "item",
+		items: [{
+			id: "hbm:coltan_tool",
+			tag: {
+				colX: -124,
+				colZ: -1678
+			}
+		}],
+		ignore_damage: 1b
+	}]
+}

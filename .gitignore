@@ -1,0 +1,90 @@
+########################################
+# Minecraft saves and user data
+########################################
+saves/
+screenshots/
+backupsmod/
+
+########################################
+# Logs and crash reports
+########################################
+logs/
+crash-reports/
+hs_err_pid*.log
+replay_pid*.log
+crafttweaker.log
+
+########################################
+# Cache
+########################################
+cache/
+tv-cache/
+local/
+llibrary/
+vintagefix/
+asm/
+CustomSkinLoader/
+
+########################################
+# Minimap data
+########################################
+xaero/
+XaeroWaypoints_BACKUP*/
+
+########################################
+# User-specific settings
+########################################
+options.txt
+usercache.json
+usernamecache.json
+
+########################################
+# Native libraries
+########################################
+OpenComputersMod-*.dll
+
+########################################
+# Third-party mods
+########################################
+mods/
+
+########################################
+# Generated files
+########################################
+*.log
+*.tmp
+
+########################################
+# Keep these folders under version control
+########################################
+!config/
+!scripts/
+!structures/
+!assets/
+!resources/
+!mcheli_addons/
+!srpextra/
+!fonts/
+!local/
+
+########################################
+# Project files
+########################################
+!icon.png
+!README.md
+!CHANGELOG.md
+!LICENSE
+
+########################################
+# Resource packs
+########################################
+
+# Ignore everything in resourcepacks
+resourcepacks/**
+
+# Keep the Prism Launcher metadata
+!resourcepacks/.index/
+!resourcepacks/.index/**
+
+# (Optional) Keep a README
+!resourcepacks/README.md

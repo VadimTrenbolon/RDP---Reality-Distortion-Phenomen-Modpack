@@ -1,0 +1,32 @@
+{
+	title: "Designacion",
+	icon: {
+		id: "hbm:sat_coord",
+		tag: {}
+	},
+	x: 14.5d,
+	y: -13.5d,
+	text: [
+		"Recuerda darle el mismo id a el satelite, no puede ser 0"
+	],
+	dependencies: [
+		"70cf4397",
+		"508fc711"
+	],
+	tasks: [{
+		uid: "507cf72b",
+		type: "item",
+		items: [{
+			id: "hbm:sat_coord",
+			tag: {}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "12e1f094",
+		type: "item",
+		items: [{
+			item: "hbm:machine_satlinker"
+		}]
+	}]
+}

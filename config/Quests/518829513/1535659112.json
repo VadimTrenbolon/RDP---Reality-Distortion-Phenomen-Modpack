@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    968291811
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Se tiene que mejorar para ser infinito, requerira mas draconium cada vez, recomiendo ver una review del mod",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:energy_storage_core"
+      },
+      "name:8": "Almacen Infinito",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1535659112,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:energy_storage_core"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "draconicevolution:energy_pylon"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 2,
+          "id:8": "draconicevolution:particle_generator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

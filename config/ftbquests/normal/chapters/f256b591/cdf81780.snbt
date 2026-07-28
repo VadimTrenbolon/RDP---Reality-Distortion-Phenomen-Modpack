@@ -1,0 +1,26 @@
+{
+	title: "indefinido",
+	icon: "hbm:undefined",
+	x: 12.0d,
+	y: 5.0d,
+	text: [
+		"indefinido, duplicado, duplicado, duplicado, indefinido, indefinido, duplicado, indefinido, duplicado, duplicado, duplicado, indefinido, indefinido, indefinido, duplicado, duplicado, duplicado, indefinido, indefinido, indefinido, duplicado, duplicado, duplicado, indefinido, indefinido,, duplicado, infinito"
+	],
+	dependencies: [
+		"2addc196"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "9de562f1",
+		type: "item",
+		items: [{
+			item: "hbm:undefined"
+		}]
+	}],
+	rewards: [{
+		uid: "b5f5f2b5",
+		type: "item",
+		item: "hbm:undefined",
+		count: 67
+	}]
+}

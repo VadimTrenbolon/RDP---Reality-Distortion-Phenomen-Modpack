@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "scp",
+  "modName": "SCP: Lockdown",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

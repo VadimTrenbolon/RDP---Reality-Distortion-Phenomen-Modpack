@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    62617787
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "El draconium el detonante de la gerra en este mundo es un mineral raro probeniente de dragones, en las cuevas son conosidos como fosil de dragon, podras encontrar mucho en cuevas de dragon y en el end",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:draconium_dust"
+      },
+      "name:8": "Los dragones ermano",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 732630329,
+  "tasks:9": {}
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    313455492
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Es toxico e, alternativa al vismuto en la mayoria de casos",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_arsenic"
+      },
+      "name:8": "Arsénico",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1977734514,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_arsenic"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

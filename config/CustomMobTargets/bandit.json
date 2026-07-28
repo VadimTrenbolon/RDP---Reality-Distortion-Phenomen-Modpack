@@ -1,0 +1,25 @@
+{
+  "entity": "techguns:bandit",
+  "targets": [
+    {
+	  "priority": 2,
+	  "check_sight": true,
+	  "entity": "minecraft:zombie"
+    },
+    {
+	  "priority": 2,
+	  "check_sight": true,
+	  "entity": "techguns:zombiefarmer"
+    },
+    {
+	  "priority": 2,
+	  "check_sight": true,
+	  "entity": "techguns:zombieminer"
+    },
+    {
+	  "priority": 2,
+	  "check_sight": true,
+	  "entity": "techguns:zombiepoliceman"
+    }
+  ]
+}

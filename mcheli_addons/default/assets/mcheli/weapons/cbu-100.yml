@@ -1,0 +1,34 @@
+DisplayName: CBU-100 Cluster Bomb
+CanLoadChunks: true
+Type: bomb
+BaseDamage: 18
+Ballistics:
+  Acceleration: 0.1
+  AccelerationInWater: 1.0
+  Gravity: -0.03
+  GravityInWater: -0.03
+  VelocityInWater: 0.999
+Sound:
+  Locations:
+    Fire: mcheli:bomb_snd
+Explosion:
+  Power: 3
+  DestructionPower: 3
+Ammo:
+  MagSize: 4
+  MaxAmmo: 4
+  ResupplyCount: 2
+  AmmoItems:
+  - Count: 2
+    Name: hbm:ingot_gunmetal
+    Meta: 0
+  - Count: 2
+    Name: hbm:ball_tatb
+    Meta: 0
+FireCooldown: 400
+Render:
+  BulletModel: cbu87
+  BombletModel: cbc
+  Smoke:
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'

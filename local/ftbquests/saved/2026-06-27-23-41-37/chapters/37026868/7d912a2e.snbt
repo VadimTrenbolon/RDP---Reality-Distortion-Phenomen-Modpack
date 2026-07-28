@@ -1,0 +1,27 @@
+{
+	title: "Separacion Fraccionaria",
+	icon: "hbm:machine_fraction_tower",
+	x: 12.5d,
+	y: 5.0d,
+	text: [
+		"Este no necesita energuia solo ten encuenta que si pones uno arriba del otro se juntaran nesesitas de un sparador para difderenciarlos verticalmente",
+		"para seleccionar resultado dale con el identificador de fluidos con el liquido que se fraccionara"
+	],
+	dependencies: [
+		"d18b0876"
+	],
+	tasks: [{
+		uid: "89242764",
+		type: "item",
+		items: [{
+			item: "hbm:machine_fraction_tower"
+		}]
+	},
+	{
+		uid: "b6ccae19",
+		type: "item",
+		items: [{
+			item: "hbm:fraction_spacer"
+		}]
+	}]
+}

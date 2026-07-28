@@ -1,0 +1,20 @@
+{
+	title: "The fracking",
+	icon: "hbm:canister_fuel 1 49",
+	x: 0.5d,
+	y: -20.0d,
+	text: [
+		"Para continuar nesesitaras la solucion de fracking con esta podras extraer petroleo infinito",
+		"eesto contaminara el ambiente volviendolo seco"
+	],
+	dependencies: [
+		"4e046624"
+	],
+	tasks: [{
+		uid: "1f3768d9",
+		type: "item",
+		items: [{
+			item: "hbm:canister_fuel 1 49"
+		}]
+	}]
+}

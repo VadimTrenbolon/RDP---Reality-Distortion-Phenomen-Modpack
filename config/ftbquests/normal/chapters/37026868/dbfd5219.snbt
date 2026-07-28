@@ -1,0 +1,19 @@
+{
+	title: "Vapor para comer",
+	icon: "hbm:machine_catalytic_cracker",
+	x: 21.0d,
+	y: 6.5d,
+	text: [
+		"mas derivados del petroleo"
+	],
+	dependencies: [
+		"3eae4cf2"
+	],
+	tasks: [{
+		uid: "b6aeb24f",
+		type: "item",
+		items: [{
+			item: "hbm:machine_catalytic_cracker"
+		}]
+	}]
+}

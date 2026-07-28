@@ -1,0 +1,12 @@
+{
+	title: "Plutonio 241",
+	icon: "hbm:ingot_pu241",
+	x: -10.0d,
+	y: 0.5d,
+	text: [
+		"nesesario para watz sin scrabidiumn"
+	],
+	dependencies: [
+		"ec9a0d4f"
+	]
+}

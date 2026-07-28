@@ -1,0 +1,50 @@
+{
+	title: "Mas vida",
+	icon: "bhc:red_heart",
+	x: -15.5d,
+	y: 0.0d,
+	shape: "heart",
+	text: [
+		"Coloca los contenedores dentro del colgante y colocalo"
+	],
+	tasks: [{
+		uid: "d03cbbe0",
+		type: "item",
+		items: [{
+			item: "bhc:heart_amulet"
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "87673399",
+		type: "item",
+		items: [{
+			item: "bhc:red_heart_canister 10"
+		}],
+		count: 10L
+	},
+	{
+		uid: "f184a93c",
+		type: "item",
+		items: [{
+			item: "bhc:yellow_heart_canister 10"
+		}],
+		count: 10L
+	},
+	{
+		uid: "aed2fc20",
+		type: "item",
+		items: [{
+			item: "bhc:blue_heart_canister 10"
+		}],
+		count: 10L
+	},
+	{
+		uid: "b441a1d9",
+		type: "item",
+		items: [{
+			item: "bhc:green_heart_canister 10"
+		}],
+		count: 10L
+	}]
+}

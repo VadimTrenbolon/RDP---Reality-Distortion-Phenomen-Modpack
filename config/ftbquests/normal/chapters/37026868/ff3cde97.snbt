@@ -1,0 +1,22 @@
+{
+	title: "Pistola de clavos",
+	icon: "hbm:boltgun",
+	x: 24.5d,
+	y: 10.0d,
+	text: [
+		"Los clavos requeridos cambian segun el bloque pero generalmente son bolts",
+		"",
+		"click derecho al bloque con el material requerido para ponerle clavos"
+	],
+	dependencies: [
+		"3bb02d13"
+	],
+	tasks: [{
+		uid: "0edb4361",
+		type: "item",
+		items: [{
+			item: "hbm:boltgun"
+		}],
+		ignore_damage: 1b
+	}]
+}

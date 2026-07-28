@@ -1,0 +1,21 @@
+{
+	title: "Para la fundidora",
+	x: -12.0d,
+	y: 0.0d,
+	text: [
+		"Material para la fundidora"
+	],
+	dependencies: [
+		"4d1edcbc",
+		"7cbd76fe",
+		"60752271"
+	],
+	tasks: [{
+		uid: "e9334594",
+		type: "item",
+		items: [{
+			item: "tconstruct:soil"
+		}],
+		count: 64L
+	}]
+}

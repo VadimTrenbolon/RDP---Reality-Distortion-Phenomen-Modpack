@@ -1,0 +1,27 @@
+{
+	title: "Lasers de ondas de luz",
+	icon: "hbm:machine_silex",
+	x: 11.5d,
+	y: -1.5d,
+	text: [
+		"Dale a f1 sobre FEL",
+		"Nesesita algun crista  para funcionar"
+	],
+	dependencies: [
+		"d07322fb"
+	],
+	tasks: [{
+		uid: "8d3ab5b1",
+		type: "item",
+		items: [{
+			item: "hbm:machine_silex"
+		}]
+	},
+	{
+		uid: "598d6c69",
+		type: "item",
+		items: [{
+			item: "hbm:machine_fel"
+		}]
+	}]
+}

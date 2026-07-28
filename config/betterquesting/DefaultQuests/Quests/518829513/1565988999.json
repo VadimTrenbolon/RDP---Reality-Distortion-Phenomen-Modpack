@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    568708055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "capas de tomar cualquier entidad sin mportar tamaño",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "gravitygun:gravitygun",
+        "tag:10": {
+          "GravityGun:10": {
+            "attackDistance:6": 2.081789016723633,
+            "attackLightning:3": 620484,
+            "lastZap:3": 620519,
+            "lastZapClaw:3": 1
+          }
+        }
+      },
+      "name:8": "Gravity Gun v2, sobrecargada",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1565988999,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gravitygun:gravitygun",
+          "tag:10": {
+            "GravityGun:10": {
+              "attackDistance:6": 2.081789016723633,
+              "attackLightning:3": 620757,
+              "lastZap:3": 620732,
+              "lastZapClaw:3": 1
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

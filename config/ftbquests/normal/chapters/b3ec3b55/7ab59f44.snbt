@@ -1,0 +1,20 @@
+{
+	title: "Cables",
+	icon: "hbm:red_cable",
+	x: 11.5d,
+	y: 0.0d,
+	text: [
+		"Hay diversos cables pero con este te basta y sobra"
+	],
+	dependencies: [
+		"d1e70035"
+	],
+	tasks: [{
+		uid: "647652d8",
+		type: "item",
+		items: [{
+			item: "hbm:red_cable 64"
+		}],
+		count: 64L
+	}]
+}

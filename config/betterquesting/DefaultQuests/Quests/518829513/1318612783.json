@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    92467959
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Eliminara cualquier entidad que lo atraviese, exepto jugadores\n\nnesesita un acoplamiento especial para funcionar, ambos lados tienen que estar conectados por smarts connectors\nhay un limite de 16 bloques de distancia",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "real protection"
+    }
+  },
+  "questID:3": 1318612783,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "portalstuff:fizzler"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "portalstuff:floor_button_base"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "id:8": "portalstuff:smart_wire"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

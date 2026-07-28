@@ -1,0 +1,37 @@
+{
+	title: "Camino aceitoso",
+	icon: "hbm:plant_flower 1 2",
+	x: -0.5d,
+	y: -22.0d,
+	text: [
+		"Para mas petroleo mucho mas petroleo nesesitas encontrar un deposito especial lo denotaras por la planta moztasa y la tierra aceitosa creciente en este",
+		"",
+		"Una vez con el lugar habra que comenzar con este, pero antes la mostaza se planta sobre suciedad aceitosa esta estando al lado de agua crecera lentamente puede acelerarce con polvo de hueso pero sera mas rapido el fertilizante industrial, notaras que esta crecido cuando la suciedad se convierta en tierra normal deberas usar tijeras para quitar las ojas y posteriormente usarla, siempre nesesitara suciedad aceitosa para crecer"
+	],
+	dependencies: [
+		"58987e6b"
+	],
+	tasks: [{
+		uid: "87013799",
+		type: "item",
+		items: [{
+			item: "hbm:plant_flower 5 2"
+		}],
+		count: 5L
+	},
+	{
+		uid: "f97d635a",
+		type: "item",
+		items: [{
+			item: "hbm:dirt_oily 5"
+		}],
+		count: 5L
+	},
+	{
+		uid: "b246760d",
+		type: "item",
+		items: [{
+			item: "hbm:plant_item 1 2"
+		}]
+	}]
+}

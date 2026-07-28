@@ -1,0 +1,54 @@
+{
+  "animation_settings": {
+    "animation": true,
+    "water": true,
+    "lava": true,
+    "fire": true,
+    "portal": true,
+    "block_animations": true,
+    "sculk_sensor": true
+  },
+  "particle_settings": {
+    "particles": true,
+    "rain_splash": true,
+    "block_break": true,
+    "block_breaking": true
+  },
+  "detail_settings": {
+    "sky": true,
+    "stars": true,
+    "sun_moon": true,
+    "rain_snow": true,
+    "biome_colors": true
+  },
+  "render_settings": {
+    "fog": true,
+    "fog_start": 100,
+    "clouds": false,
+    "multi_dimensional_clouds": true,
+    "cloud_height": 192,
+    "light_updates": true,
+    "item_frames": true,
+    "armor_stands": true,
+    "paintings": true,
+    "pistons": true,
+    "beacons": true,
+    "enchanting_table_books": true,
+    "player_name_tag": true,
+    "item_frame_name_tag": true,
+    "use_adaptive_sync": false,
+    "prevent_shaders": true
+  },
+  "extra_settings": {
+    "show_fps": true,
+    "show_coords": true,
+    "reduced_motion": false,
+    "instant_sneak": false,
+    "steady_debug_hud": false,
+    "steady_debug_hud_refresh_interval": 20,
+    "fps_overlay_color": 16777215,
+    "fps_counter_font_scale": 100,
+    "overlay_x_pos": 0,
+    "overlay_y_pos": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+	title: "Blindaje v3",
+	icon: "hbm:plate_armor_hev",
+	x: 3.0d,
+	y: -3.0d,
+	text: [
+		"HeV"
+	],
+	tasks: [{
+		uid: "b644909a",
+		type: "item",
+		items: [{
+			item: "hbm:plate_armor_hev"
+		}]
+	}]
+}

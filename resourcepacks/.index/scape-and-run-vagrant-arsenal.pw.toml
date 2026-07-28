@@ -1,0 +1,18 @@
+filename = 'Vagrant Arsenal 1.1.zip'
+name = 'Scape and Run: Vagrant Arsenal'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Vagrant Arsenal 1.1'
+
+[download]
+hash = 'fa86fac1bf076336da62f08bd260b16fae18f18d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6818721
+project-id = 1301098

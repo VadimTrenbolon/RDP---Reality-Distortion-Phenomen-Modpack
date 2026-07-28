@@ -1,0 +1,27 @@
+{
+  "loadDefault": true,
+  "entityID": "mekanism:babycreeper",
+  "langKeyName": "BabyCreeper",
+  "langKeyPrefix": "",
+  "langKeySuffix": "",
+  "renderInitialSpawn": true,
+  "disableBestiaryEntry": false,
+  "bestiaryModifications": [
+    {
+      "modType": "nbtMod",
+      "knowledgeRank": 3,
+      "experienceRatio": 0.0,
+      "nbtTag": "",
+      "isDefault": false,
+      "userInput": true,
+      "refreshData": false,
+      "nbtType": "ALL",
+      "values": []
+    },
+    {
+      "modType": "creeperCharged",
+      "knowledgeRank": 2,
+      "experienceRatio": 0.0
+    }
+  ]
+}

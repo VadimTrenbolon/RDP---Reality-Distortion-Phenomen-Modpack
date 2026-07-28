@@ -1,0 +1,19 @@
+{
+	title: "Ferro yunque tier 4",
+	icon: "hbm:anvil_ferrouranium",
+	x: 2.0d,
+	y: -4.5d,
+	text: [
+		"Tier 4 yunque"
+	],
+	dependencies: [
+		"92331170"
+	],
+	tasks: [{
+		uid: "b8936f37",
+		type: "item",
+		items: [{
+			item: "hbm:anvil_ferrouranium"
+		}]
+	}]
+}

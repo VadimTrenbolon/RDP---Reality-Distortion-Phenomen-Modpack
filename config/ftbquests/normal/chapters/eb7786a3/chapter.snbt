@@ -1,0 +1,7 @@
+{
+	title: "???",
+	icon: "hbm:stone_keyhole",
+	always_invisible: 1b,
+	group: 0,
+	default_quest_shape: ""
+}

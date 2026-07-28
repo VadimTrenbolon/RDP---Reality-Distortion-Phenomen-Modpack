@@ -1,0 +1,19 @@
+{
+	title: "Mas petroleo",
+	icon: "hbm:machine_pumpjack",
+	x: -2.5d,
+	y: -23.0d,
+	text: [
+		"Extrara mas rapido y mucho mas petroleo"
+	],
+	dependencies: [
+		"dc586c7d"
+	],
+	tasks: [{
+		uid: "ab91e4d3",
+		type: "item",
+		items: [{
+			item: "hbm:machine_pumpjack"
+		}]
+	}]
+}

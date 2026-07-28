@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    1567483877
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "para las granjas",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_autocrafter"
+      },
+      "name:8": "auto crafteo"
+    }
+  },
+  "questID:3": 108485883,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_autocrafter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

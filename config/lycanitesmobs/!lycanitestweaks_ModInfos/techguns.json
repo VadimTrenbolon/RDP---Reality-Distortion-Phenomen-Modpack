@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "techguns",
+  "modName": "Techguns Community Edition",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

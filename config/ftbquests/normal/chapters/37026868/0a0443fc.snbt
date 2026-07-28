@@ -1,0 +1,28 @@
+{
+	title: "Calidad del Suelo?",
+	icon: "hbm:ore_density_scanner",
+	x: -3.0d,
+	y: 1.5d,
+	text: [
+		"Con este aparatito sabras la calidad del suelo bajo tus pies, dependiendo de que calidad alla sera la cantidad de tipo de mineral que encontraras",
+		"",
+		"Light Metal: metales comunes (hierro, cobre, etc)",
+		"Heavy metal: Metales mas pesados (tungsteno, plomo, etc)",
+		"Rare earth: metales de tierras raras (cobalto, boro, etc)",
+		"Actinide: Metales pesados radiactivos (uranio y torio)",
+		"Non-metal: minerales no metalicos (carbon, azufre, etc)",
+		"Crystalline: crisatales (redstone, diamante, cinabrio, etc)"
+	],
+	dependencies: [
+		"24c85ae5",
+		"e341ba7e"
+	],
+	tasks: [{
+		uid: "d78061a1",
+		type: "item",
+		items: [{
+			item: "hbm:ore_density_scanner"
+		}],
+		ignore_damage: 1b
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "ore de schrabidium",
+	icon: "hbm:ore_schrabidium",
+	x: 1.5d,
+	y: -14.0d,
+	text: [
+		"El uranio se convertira en schrabidium o habra fallado y no se convertira, el no convertido no podra volverse a intentar convertir en schrabidium",
+		"",
+		"recuerda picar con fortuna"
+	],
+	dependencies: [
+		"e17bd29f"
+	],
+	tasks: [{
+		uid: "271b8ee3",
+		type: "item",
+		items: [{
+			item: "dynaores:raw_schrabidium 1 32767"
+		}]
+	},
+	{
+		uid: "fb458483",
+		type: "item",
+		items: [{
+			item: "hbm:ore_uranium_scorched"
+		}]
+	}]
+}

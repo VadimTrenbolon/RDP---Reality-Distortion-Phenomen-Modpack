@@ -1,0 +1,97 @@
+{
+	title: "A Cocinar",
+	x: -12.0d,
+	y: 5.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0641b262"
+	],
+	tasks: [{
+		uid: "2efbb805",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cuttingboarditem"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "624be794",
+		type: "item",
+		items: [{
+			item: "harvestcraft:potitem"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "718465ca",
+		type: "item",
+		items: [{
+			item: "harvestcraft:skilletitem"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c471aeba",
+		type: "item",
+		items: [{
+			item: "harvestcraft:saucepanitem"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a519099c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:bakewareitem"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "16d49f9d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:mortarandpestleitem"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "26c7aeef",
+		type: "item",
+		items: [{
+			item: "harvestcraft:mixingbowlitem"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4197611c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:well"
+		}]
+	},
+	{
+		uid: "c2b9ca1f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:freshwateritem"
+		}],
+		count: 64L
+	},
+	{
+		uid: "648d7a06",
+		type: "item",
+		items: [{
+			item: "harvestcraft:freshmilkitem"
+		}],
+		count: 64L
+	}]
+}

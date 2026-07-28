@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    266069739
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "La forma mas \"facil\" de consegirlocetrifugalo y obten eufemio",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:block_euphemium_cluster"
+      },
+      "name:8": "eufemio paso 2",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1056365790,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:block_euphemium_cluster"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

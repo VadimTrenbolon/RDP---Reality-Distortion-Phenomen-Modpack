@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1034399503,
+    97777455
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Una batalla bastante dificil, espero que no lo infecten",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:spawn_ufo"
+      },
+      "name:8": "Nos Invaden chat",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1986765467,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:spawn_ufo"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

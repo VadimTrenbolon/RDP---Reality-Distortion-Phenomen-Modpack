@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    102005178
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "mas prosesamientro vro no mucho que decir, dale a  f1",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_pyrooven"
+      },
+      "name:8": "Mas Prosesamiento",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1117600117,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_pyrooven"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

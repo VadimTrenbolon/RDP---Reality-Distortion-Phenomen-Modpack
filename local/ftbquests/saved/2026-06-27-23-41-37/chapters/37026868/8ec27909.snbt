@@ -1,0 +1,19 @@
+{
+	title: "Tier 5 yunque",
+	icon: "hbm:anvil_saturnite",
+	x: 6.5d,
+	y: 0.5d,
+	text: [
+		"En saturno esta el yunque vro"
+	],
+	dependencies: [
+		"cbf2934c"
+	],
+	tasks: [{
+		uid: "e61daa93",
+		type: "item",
+		items: [{
+			item: "hbm:anvil_saturnite"
+		}]
+	}]
+}

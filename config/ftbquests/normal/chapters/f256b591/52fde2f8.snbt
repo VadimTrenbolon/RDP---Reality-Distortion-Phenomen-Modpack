@@ -1,0 +1,38 @@
+{
+	title: "real protection",
+	icon: "portalstuff:fizzler",
+	x: 26.5d,
+	y: -3.0d,
+	text: [
+		"Eliminara cualquier entidad que lo atraviese, exepto jugadores",
+		"",
+		"nesesita un acoplamiento especial para funcionar, ambos lados tienen que estar conectados por smarts connectors",
+		"hay un limite de 16 bloques de distancia"
+	],
+	dependencies: [
+		"054264d0"
+	],
+	tasks: [{
+		uid: "9cb2580b",
+		type: "item",
+		items: [{
+			item: "portalstuff:fizzler 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "7983e6a6",
+		type: "item",
+		items: [{
+			item: "portalstuff:floor_button_base"
+		}]
+	},
+	{
+		uid: "02e84f71",
+		type: "item",
+		items: [{
+			item: "portalstuff:smart_wire 64"
+		}],
+		count: 64L
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Alternativa crakeada",
+	icon: "hbm:machine_catalytic_cracker",
+	x: 23.5d,
+	y: 7.0d,
+	text: [
+		"con vapor en la torre lo crackearas y lo calentaras para pasarlo por la refineria"
+	],
+	dependencies: [
+		"dbfd5219"
+	],
+	tasks: [{
+		uid: "09330e51",
+		type: "checkmark"
+	}]
+}

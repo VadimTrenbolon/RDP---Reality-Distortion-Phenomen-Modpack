@@ -1,0 +1,19 @@
+{
+	title: "Tier 3 en Yunque",
+	icon: "hbm:anvil_desh",
+	x: 15.5d,
+	y: 8.0d,
+	text: [
+		"Po..."
+	],
+	dependencies: [
+		"8c7a360c"
+	],
+	tasks: [{
+		uid: "ce23ec9b",
+		type: "item",
+		items: [{
+			item: "hbm:anvil_desh"
+		}]
+	}]
+}

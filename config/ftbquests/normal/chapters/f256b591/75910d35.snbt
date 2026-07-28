@@ -1,0 +1,19 @@
+{
+	title: "Ferrico",
+	icon: "hbm:ingot_schrabidate",
+	x: -7.5d,
+	y: -9.0d,
+	text: [
+		"Ferrico"
+	],
+	dependencies: [
+		"07cea204"
+	],
+	tasks: [{
+		uid: "6a19890e",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_schrabidate"
+		}]
+	}]
+}

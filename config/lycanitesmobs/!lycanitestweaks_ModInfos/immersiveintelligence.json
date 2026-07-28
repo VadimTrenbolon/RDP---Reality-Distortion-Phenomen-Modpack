@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "immersiveintelligence",
+  "modName": "Immersive Intelligence",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

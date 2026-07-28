@@ -1,0 +1,30 @@
+{
+	title: "mesa del ingeniero",
+	icon: "immersiveengineering:wooden_device0 1 2",
+	x: -6.0d,
+	y: -1.5d,
+	text: [
+		"algo necesario..."
+	],
+	dependencies: [
+		"899ea720"
+	],
+	tasks: [{
+		uid: "d9871391",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 2"
+		}]
+	},
+	{
+		uid: "7496f3a3",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "components"
+			}
+		}],
+		ignore_damage: 1b
+	}]
+}

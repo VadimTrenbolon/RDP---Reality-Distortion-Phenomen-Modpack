@@ -1,0 +1,20 @@
+{
+	title: "Nesesitaras almacenar muchos liquidos",
+	icon: "hbm:machine_fluidtank",
+	x: 2.5d,
+	y: 1.0d,
+	text: [
+		"..."
+	],
+	dependencies: [
+		"4c6d5494"
+	],
+	tasks: [{
+		uid: "ac93f885",
+		type: "item",
+		items: [{
+			item: "hbm:machine_fluidtank 16"
+		}],
+		count: 16L
+	}]
+}

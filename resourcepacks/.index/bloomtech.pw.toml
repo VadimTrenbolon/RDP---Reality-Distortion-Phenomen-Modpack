@@ -1,0 +1,21 @@
+filename = 'BloomTech-1.2.0.zip'
+name = 'BloomTech'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BloomTech-1.2.0.zip'
+
+[download]
+hash = '44103d119dcf2677a3f3130a663809b383396e51'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7501474
+project-id = 1395213
+
+[[x-prismlauncher-dependencies]]
+addonId = '1234162'
+type = 'REQUIRED'

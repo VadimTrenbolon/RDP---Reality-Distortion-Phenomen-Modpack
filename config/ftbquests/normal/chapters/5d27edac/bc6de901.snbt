@@ -1,0 +1,33 @@
+{
+	title: "Mas sub-productos del petroleo",
+	icon: "hbm:machine_catalytic_reformer",
+	x: 6.0d,
+	y: 2.0d,
+	text: [
+		"Asi es muchos mas subproductos nesesitaras muchos mas tanques"
+	],
+	dependencies: [
+		"d07322fb"
+	],
+	tasks: [{
+		uid: "5f0186b5",
+		type: "item",
+		items: [{
+			item: "hbm:machine_catalytic_reformer"
+		}]
+	},
+	{
+		uid: "35cbbbc8",
+		type: "item",
+		items: [{
+			item: "hbm:machine_hydrotreater"
+		}]
+	},
+	{
+		uid: "f90f8cc5",
+		type: "item",
+		items: [{
+			item: "hbm:machine_vacuum_distill"
+		}]
+	}]
+}

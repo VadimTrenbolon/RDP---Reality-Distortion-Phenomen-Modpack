@@ -1,0 +1,35 @@
+{
+	title: "Petroleo infinita",
+	icon: "hbm:machine_fracking_tower",
+	x: 7.0d,
+	y: -10.5d,
+	text: [
+		"Nesesita la solucion de fracking para funcionar y contaminara el ambiente",
+		"",
+		"",
+		"",
+		"",
+		"Revisas el suelo cercano a la maquina, has encontrado algo"
+	],
+	dependencies: [
+		"d07322fb",
+		"90dac9cb"
+	],
+	tasks: [{
+		uid: "26b4b771",
+		type: "item",
+		items: [{
+			item: "hbm:machine_fracking_tower"
+		}]
+	}],
+	rewards: [{
+		uid: "e816d242",
+		type: "item",
+		item: {
+			id: "hbm:blueprints",
+			tag: {
+				pool: "discover.soyuz"
+			}
+		}
+	}]
+}

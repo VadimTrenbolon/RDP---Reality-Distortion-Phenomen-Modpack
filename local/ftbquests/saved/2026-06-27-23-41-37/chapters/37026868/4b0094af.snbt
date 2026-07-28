@@ -1,0 +1,27 @@
+{
+	title: "Minerales X3",
+	icon: "hbm:machine_centrifuge",
+	x: -3.0d,
+	y: 3.0d,
+	text: [
+		"Esta maquinaria te permitira triplicar minerales  que den mas ademas del propio mineral, ademas de servir para otros crafteos",
+		"",
+		"Revisas el mecanismo, has encontrado 8 chaps"
+	],
+	dependencies: [
+		"24c85ae5"
+	],
+	tasks: [{
+		uid: "dff80f06",
+		type: "item",
+		items: [{
+			item: "hbm:machine_centrifuge"
+		}]
+	}],
+	rewards: [{
+		uid: "e11d3245",
+		type: "item",
+		item: "hbm:cap_nuka",
+		count: 8
+	}]
+}

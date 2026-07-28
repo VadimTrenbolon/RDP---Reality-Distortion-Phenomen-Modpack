@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    314874487,
+    1779282063
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Los residuos dejado por el combustible gastado del rbmk pasados por silex daran pepitas de residuos nucleares de corta o larga vida estos deberan pasar dentro del tambor hasta descomponerse para volver a ser pasados por silex",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_storage_drum"
+      },
+      "name:8": "Residuos",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1040128750,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_storage_drum"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "hbm:nuclear_waste_long"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "hbm:nuclear_waste_short"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

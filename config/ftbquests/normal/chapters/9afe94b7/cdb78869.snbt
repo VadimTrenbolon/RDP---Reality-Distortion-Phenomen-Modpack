@@ -1,0 +1,19 @@
+{
+	title: "Lingote de Barro",
+	icon: "hbm:ingot_mud",
+	x: -11.5d,
+	y: -5.5d,
+	text: [
+		"Para aleacion"
+	],
+	dependencies: [
+		"82073ad0"
+	],
+	tasks: [{
+		uid: "7321d29f",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_mud"
+		}]
+	}]
+}

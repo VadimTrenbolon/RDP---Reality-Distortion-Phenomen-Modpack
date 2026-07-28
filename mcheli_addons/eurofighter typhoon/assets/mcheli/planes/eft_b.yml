@@ -1,0 +1,771 @@
+DisplayName: Eurofighter Typhoon
+Category: M.F
+MaxFuel: 850
+MaxHP: 200
+FuelConsumption: 0.58
+RepairOtherVehicles:
+  Range: 0.0
+  Value: 10
+Camera:
+  ThirdPersonDist: 22.0
+  Pos:
+  - Pos: [0.0, 0.999, -1.379]
+Sound:
+  MoveSound: mcheli:eft_snd
+  Vol: 10.0
+PhysicalProperties:
+  Speed: 1.2
+  MotionFactor: 0.968
+  RotationSnapValue: 0.0
+  OnGroundPitch: -3.2
+  Mobility:
+    Yaw: 0.23
+    Pitch: 0.91
+    Roll: 1.88
+Render:
+  ParticleScale: 0.7
+  EnableSeaSurfaceParticle: true
+Weapons:
+- Type: system_on
+  Position: [0.0, 0.067, 0.0]
+- Type: bk27_1
+  Position: [-1.154, 1.899, 4.773]
+- Type: meteor
+  Position: [1.285, 1.09, 3.145]
+- Type: meteor
+  Position: [-1.285, 1.09, 3.145]
+- Type: meteor
+  Position: [1.368, 1.304, -3.211]
+- Type: meteor
+  Position: [-1.368, 1.304, -3.211]
+- Type: gbu-10
+  Position: [2.166, 1.209, 4.334]
+- Type: gbu-10
+  Position: [-2.166, 1.209, 4.334]
+- Type: spear_at
+  Position: [4.332, 0.709, 1.542]
+- Type: spear_at
+  Position: [-4.332, 0.709, 1.542]
+- Type: spear_at
+  Position: [4.332, 0.709, 1.663]
+- Type: spear_at
+  Position: [-4.332, 0.709, 1.663]
+- Type: spear_tv
+  Position: [4.582, 0.709, 1.542]
+- Type: spear_tv
+  Position: [-4.582, 0.709, 1.542]
+- Type: spear_tv
+  Position: [4.582, 0.709, 1.663]
+- Type: spear_tv
+  Position: [-4.582, 0.709, 1.663]
+- Type: deactivate_tv
+  Position: [0.0, 0.649, -1.379]
+- Type: aim120
+  Position: [5.415, 1.471, -0.85]
+- Type: aim120
+  Position: [5.415, 1.471, -0.85]
+- Type: stormshadow_5m
+  Position: [3.38, 1.221, 2.166]
+- Type: deactivate_tv1
+  Position: [0.0, 0.649, -1.379]
+- Type: stormshadow_2m
+  Position: [-3.38, 1.221, 2.166]
+- Type: targeting_pod_ph50s
+  Position: [0.0, 0.65, -1.38]
+- Type: targeting_pod_mob1
+  Position: [0.0, 0.65, -1.38]
+- Type: targeting_pod_block
+  Position: [0.0, 0.65, -1.38]
+Seats:
+- Position: [0.0, 2.434, 4.463]
+  Hud: plane
+BoundingBoxes:
+- Type: DEFAULT
+  Position: [0.0, 2.268, 8.449]
+  Size: [0.35, 0.35, 0.35]
+  DamageFactor: 0.8
+- Type: DEFAULT
+  Position: [0.0, 2.328, 7.854]
+  Size: [0.6, 0.6, 0.6]
+  DamageFactor: 0.9
+- Type: DEFAULT
+  Position: [0.0, 2.387, 6.962]
+  Size: [0.85, 0.85, 0.85]
+- Type: DEFAULT
+  Position: [0.0, 2.447, 5.772]
+  Size: [1.1, 0.95, 1.1]
+- Type: DEFAULT
+  Position: [0.0, 2.447, 4.284]
+  Size: [1.4, 1.0, 1.4]
+- Type: DEFAULT
+  Position: [0.0, 2.566, 2.499]
+  Size: [1.5, 1.05, 1.5]
+- Type: DEFAULT
+  Position: [0.357, 2.566, 0.952]
+  Size: [1.0, 1.0, 1.0]
+- Type: DEFAULT
+  Position: [-0.357, 2.566, 0.952]
+  Size: [1.0, 1.0, 1.0]
+- Type: DEFAULT
+  Position: [0.5, 2.506, -0.238]
+  Size: [0.95, 0.95, 0.95]
+- Type: DEFAULT
+  Position: [-0.5, 2.506, -0.238]
+  Size: [0.95, 0.95, 0.95]
+- Type: DEFAULT
+  Position: [0.535, 2.447, -1.428]
+  Size: [0.95, 0.95, 0.95]
+- Type: DEFAULT
+  Position: [-0.535, 2.447, -1.428]
+  Size: [0.95, 0.95, 0.95]
+- Type: DEFAULT
+  Position: [0.595, 2.387, -2.559]
+  Size: [0.95, 0.95, 0.95]
+- Type: DEFAULT
+  Position: [-0.595, 2.387, -2.559]
+  Size: [0.95, 0.95, 0.95]
+- Type: DEFAULT
+  Position: [0.595, 2.304, -3.749]
+  Size: [1.0, 1.0, 1.0]
+  DamageFactor: 1.1
+- Type: DEFAULT
+  Position: [-0.595, 2.304, -3.749]
+  Size: [1.0, 1.0, 1.0]
+  DamageFactor: 1.1
+- Type: DEFAULT
+  Position: [0.595, 2.113, -4.938]
+  Size: [1.0, 1.2, 1.0]
+  DamageFactor: 1.1
+- Type: DEFAULT
+  Position: [-0.595, 2.113, -4.938]
+  Size: [1.0, 1.2, 1.0]
+  DamageFactor: 1.1
+- Type: DEFAULT
+  Position: [0.595, 2.113, -6.128]
+  Size: [1.0, 1.05, 1.0]
+  DamageFactor: 1.1
+- Type: DEFAULT
+  Position: [-0.595, 2.113, -6.128]
+  Size: [1.0, 1.05, 1.0]
+  DamageFactor: 1.1
+- Type: DEFAULT
+  Position: [0.559, 2.066, -7.283]
+  Size: [0.9, 0.9, 0.9]
+- Type: DEFAULT
+  Position: [-0.559, 2.066, -7.283]
+  Size: [0.9, 0.9, 0.9]
+- Type: DEFAULT
+  Position: [0.559, 1.732, 2.856]
+  Size: [0.95, 0.95, 0.95]
+  DamageFactor: 0.9
+- Type: DEFAULT
+  Position: [-0.559, 1.732, 2.856]
+  Size: [0.95, 0.95, 0.95]
+  DamageFactor: 0.9
+- Type: DEFAULT
+  Position: [0.559, 1.732, 1.725]
+  Size: [0.95, 0.95, 0.95]
+  DamageFactor: 0.9
+- Type: DEFAULT
+  Position: [-0.559, 1.732, 1.725]
+  Size: [0.95, 0.95, 0.95]
+  DamageFactor: 0.9
+- Type: DEFAULT
+  Position: [0.559, 1.732, 0.595]
+  Size: [0.95, 0.95, 0.95]
+- Type: DEFAULT
+  Position: [-0.559, 1.732, 0.595]
+  Size: [0.95, 0.95, 0.95]
+- Type: DEFAULT
+  Position: [0.559, 1.792, -0.595]
+  Size: [0.95, 0.95, 0.95]
+- Type: DEFAULT
+  Position: [-0.559, 1.792, -0.595]
+  Size: [0.95, 0.95, 0.95]
+- Type: DEFAULT
+  Position: [0.559, 1.828, -1.785]
+  Size: [0.95, 0.95, 0.95]
+- Type: DEFAULT
+  Position: [-0.559, 1.828, -1.785]
+  Size: [0.95, 0.95, 0.95]
+- Type: DEFAULT
+  Position: [0.714, 1.78, -3.094]
+  Size: [1.2, 0.7, 1.2]
+- Type: DEFAULT
+  Position: [-0.714, 1.78, -3.094]
+  Size: [1.2, 0.7, 1.2]
+- Type: DEFAULT
+  Position: [1.725, 1.887, 0.19]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [1.773, 1.887, -1.023]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [1.821, 1.887, -2.213]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [1.844, 1.863, -3.451]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [1.844, 1.828, -4.701]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [3.034, 1.911, -1.19]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [3.034, 1.911, -2.404]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [3.034, 1.887, -3.653]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [3.034, 1.852, -4.879]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [4.225, 1.935, -2.808]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [4.225, 1.911, -3.998]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [4.225, 1.887, -5.188]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [5.415, 1.947, -4.284]
+  Size: [1.0, 0.2, 1.0]
+  DamageFactor: 0.5
+- Type: DEFAULT
+  Position: [5.415, 1.935, -5.498]
+  Size: [1.0, 0.2, 1.0]
+  DamageFactor: 0.5
+- Type: DEFAULT
+  Position: [1.999, 1.828, -5.831]
+  Size: [0.75, 0.1, 0.75]
+- Type: DEFAULT
+  Position: [2.82, 1.852, -5.855]
+  Size: [0.6, 0.1, 0.6]
+- Type: DEFAULT
+  Position: [3.582, 1.899, -5.831]
+  Size: [0.6, 0.1, 0.6]
+- Type: DEFAULT
+  Position: [4.379, 1.911, -5.795]
+  Size: [0.6, 0.1, 0.6]
+- Type: DEFAULT
+  Position: [-1.725, 1.887, 0.19]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [-1.773, 1.887, -1.023]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [-1.821, 1.887, -2.213]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [-1.844, 1.863, -3.451]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [-1.844, 1.828, -4.701]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [-3.034, 1.911, -1.19]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [-3.034, 1.911, -2.404]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [-3.034, 1.887, -3.653]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [-3.034, 1.852, -4.879]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [-4.225, 1.935, -2.808]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [-4.225, 1.911, -3.998]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [-4.225, 1.887, -5.188]
+  Size: [1.0, 0.2, 1.0]
+- Type: DEFAULT
+  Position: [-5.415, 1.947, -4.284]
+  Size: [1.0, 0.2, 1.0]
+  DamageFactor: 0.5
+- Type: DEFAULT
+  Position: [-5.415, 1.935, -5.498]
+  Size: [1.0, 0.2, 1.0]
+  DamageFactor: 0.5
+- Type: DEFAULT
+  Position: [-1.999, 1.828, -5.831]
+  Size: [0.75, 0.1, 0.75]
+- Type: DEFAULT
+  Position: [-2.82, 1.852, -5.855]
+  Size: [0.6, 0.1, 0.6]
+- Type: DEFAULT
+  Position: [-3.582, 1.899, -5.831]
+  Size: [0.6, 0.1, 0.6]
+- Type: DEFAULT
+  Position: [-4.379, 1.911, -5.795]
+  Size: [0.6, 0.1, 0.6]
+- Type: DEFAULT
+  Position: [0.0, 3.398, 4.403]
+  Size: [0.5, 0.5, 0.5]
+  DamageFactor: 2.0
+AircraftFeatures:
+  GunnerMode: true
+  NightVision: true
+  EntityRadar: true
+  EjectionSeat: true
+  ThrottleUpDown: 0.41
+  Flare:
+    Pos: [2.08, 1.7, -13.5]
+    Types:
+    - DOWN
+  ImpactAngles:
+    Entries:
+    - - 0.0
+      - 1.0
+PlaneFeatures:
+  VariableSweepWing: false
+  SweepWingSpeed: 0.1
+  EnableVtol: false
+  EnableAutoPilot: false
+Components:
+  Canopy:
+  - Position: [0.0, 3.589, 1.94]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: canopy0
+    MaxRotation: 0.33333334
+  - Position: [0.0, 3.589, 1.94]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: canopy
+    MaxRotation: 0.33333334
+  - Position: [0.0, 0.216, 0.124]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: canopy1
+    MaxRotation: 90.0
+    IsSliding: true
+  - Position: [0.0, 3.589, 1.94]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: canopy2
+    MaxRotation: 0.0
+  - Position: [0.0, 3.589, 1.94]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: canopy3
+    MaxRotation: 0.0
+  - Position: [0.0, 3.589, 1.94]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: canopy4
+    MaxRotation: 0.33333334
+  - Position: [0.0, 3.589, 1.94]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: canopy5
+    MaxRotation: 0.0
+  WeaponBay:
+  - Position: [0.0, 3.101, 4.225]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb0
+    WeaponName: system_on / bk27_1 / meteor / gbu-10 / spear_at / spear_tv / deactivate_tv / deactivate_tv1 / aim120 / stormshadow_5m / stormshadow_2m / targeting_pod_ph50s / targeting_pod_mob1 / targeting_pod_block
+    MaxRotation: 2.0
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb1
+    WeaponName: system_on / bk27_1 / meteor / gbu-10 / spear_at / spear_tv / deactivate_tv / deactivate_tv1 / aim120 / stormshadow_5m / stormshadow_2m / targeting_pod_ph50s / targeting_pod_mob1 / targeting_pod_block
+    MaxRotation: 1.11111105E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb2
+    WeaponName: system_on
+    MaxRotation: 5.5555553E-5
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb3
+    WeaponName: bk27_1 / meteor / gbu-10 / spear_at / spear_tv / deactivate_tv / deactivate_tv1 / aim120 / stormshadow_5m / stormshadow_2m / targeting_pod_ph50s / targeting_pod_mob1 / targeting_pod_block
+    MaxRotation: 5.5555553E-5
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb4
+    WeaponName: system_on/ spear_tv / deactivate_tv / deactivate_tv1 / stormshadow_5m / stormshadow_2m / targeting_pod_block
+    MaxRotation: 5.5555553E-5
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb5
+    WeaponName: bk27_1 / meteor / gbu-10 / spear_at / aim120 / targeting_pod_ph50s / targeting_pod_mob1
+    MaxRotation: 5.5555553E-5
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb6
+    WeaponName: system_on / bk27_1
+    MaxRotation: 5.5555553E-5
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb7
+    WeaponName: meteor / targeting_pod_ph50s / aim120
+    MaxRotation: 5.5555553E-5
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb8
+    WeaponName: targeting_pod_mob1 / gbu-10 / spear_at / spear_tv / deactivate_tv / deactivate_tv1 / stormshadow_5m / stormshadow_2m / targeting_pod_block
+    MaxRotation: 5.5555553E-5
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb9
+    WeaponName: system_on
+    MaxRotation: 2.2222221E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb10
+    WeaponName: bk27_1
+    MaxRotation: 2.2222221E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb11
+    WeaponName: meteor
+    MaxRotation: 2.2222221E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb12
+    WeaponName: gbu-10
+    MaxRotation: 2.2222221E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb13
+    WeaponName: spear_at
+    MaxRotation: 2.2222221E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb14
+    WeaponName: spear_tv
+    MaxRotation: 2.2222221E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb15
+    WeaponName: aim120
+    MaxRotation: 2.2222221E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb16
+    WeaponName: targeting_pod_ph50s
+    MaxRotation: 2.2222221E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb17
+    WeaponName: targeting_pod_mob1
+    MaxRotation: 2.2222221E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb18
+    WeaponName: targeting_pod_block
+    MaxRotation: 2.2222221E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb19
+    WeaponName: stormshadow_5m
+    MaxRotation: 2.2222221E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb20
+    WeaponName: stormshadow_2m
+    MaxRotation: 2.2222221E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb21
+    WeaponName: system_on
+    MaxRotation: 1.11111105E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb22
+    WeaponName: bk27_1 / meteor / gbu-10 / spear_at / spear_tv / deactivate_tv / deactivate_tv1 / stormshadow_5m / stormshadow_2m / aim120 / targeting_pod_ph50s / targeting_pod_mob1 / targeting_pod_block
+    MaxRotation: 1.11111105E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb23
+    WeaponName: system_on / spear_tv / deactivate_tv / deactivate_tv1 / stormshadow_5m / stormshadow_2m / targeting_pod_block
+    MaxRotation: 1.11111105E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb24
+    WeaponName: bk27_1 / meteor / gbu-10 / spear_at / aim120 / targeting_pod_ph50s / targeting_pod_mob1
+    MaxRotation: 1.11111105E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb25
+    WeaponName: system_on / bk27_1
+    MaxRotation: 1.11111105E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb26
+    WeaponName: meteor / targeting_pod_ph50s / aim120
+    MaxRotation: 1.11111105E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb27
+    WeaponName: targeting_pod_mob1 / gbu-10 / spear_at / spear_tv / deactivate_tv / deactivate_tv1 / stormshadow_5m / stormshadow_2m / targeting_pod_block
+    MaxRotation: 1.11111105E-4
+  - Position: [0.0, 2.447, 0.0]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb28
+    WeaponName: system_on / bk27_1 / meteor / gbu-10 / spear_at / spear_tv / deactivate_tv / deactivate_tv1 / aim120 / stormshadow_5m / stormshadow_2m / targeting_pod_ph50s / targeting_pod_mob1 / targeting_pod_block
+    MaxRotation: 1.11111105E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [-1.0, 0.0, 0.0]
+    PartName: wb29
+    WeaponName: system_on / bk27_1 / meteor / gbu-10 / spear_at / spear_tv / deactivate_tv / deactivate_tv1 / aim120 / stormshadow_5m / stormshadow_2m / targeting_pod_ph50s / targeting_pod_mob1 / targeting_pod_block
+    MaxRotation: 5.5555553E-5
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [0.0, 0.0, 1.0]
+    PartName: wb30
+    WeaponName: system_on / bk27_1 / meteor / gbu-10 / spear_at / spear_tv / deactivate_tv / deactivate_tv1 / aim120 / stormshadow_5m / stormshadow_2m / targeting_pod_ph50s / targeting_pod_mob1 / targeting_pod_block
+    MaxRotation: 5.5555557E-4
+  - Position: [0.0, 0.067, 3.57]
+    Rotation: [0.0, 0.0, 1.0]
+    PartName: wb31
+    WeaponName: system_on / bk27_1 / meteor / gbu-10 / spear_at / spear_tv / deactivate_tv / deactivate_tv1 / aim120 / stormshadow_5m / stormshadow_2m / targeting_pod_ph50s / targeting_pod_mob1 / targeting_pod_block
+    MaxRotation: -5.5555557E-4
+  SteeringWheel:
+  - Position: [0.0, 2.793, 4.863]
+    Rotation: [0.0, 0.0, -1.0]
+    PartName: steering_wheel0
+    Direction: 12.0
+    Pivot: [0.0, 2.793, 4.863]
+  - Position: [3.92, 1.888, -5.334]
+    Rotation: [208.47, 9.17, -14.21]
+    PartName: steering_wheel1
+    Direction: 30.0
+    Pivot: [3.92, 1.888, -5.334]
+  - Position: [4.561, 1.828, -5.366]
+    Rotation: [17.13, 0.0, -1.18]
+    PartName: steering_wheel2
+    Direction: 30.0
+    Pivot: [4.561, 1.828, -5.366]
+  - Position: [-3.92, 1.888, -5.334]
+    Rotation: [-208.47, 9.17, -14.21]
+    PartName: steering_wheel3
+    Direction: 30.0
+    Pivot: [-3.92, 1.888, -5.334]
+  - Position: [-4.561, 1.828, -5.366]
+    Rotation: [-17.13, 0.0, -1.18]
+    PartName: steering_wheel4
+    Direction: 30.0
+    Pivot: [-4.561, 1.828, -5.366]
+  LandingGear:
+  - Position: [0.0, 1.209, 2.689]
+    Rotation: [1.0, 0.0, 0.0]
+    PartName: lg0
+    MaxRotation: 111.0
+  - Position: [0.0, -1.433, -0.357]
+    Rotation: [1.0, 0.0, 0.0]
+    PartName: lg1
+    MaxRotation: -13.000001
+  - Position: [2.332, 1.756, -2.023]
+    Rotation: [0.0, 0.0, 1.0]
+    PartName: lg2
+    MaxRotation: -85.0
+  - Position: [-4.76, -4.694, -2.38]
+    Rotation: [0.0, 0.0, 1.0]
+    PartName: lg3
+    MaxRotation: 37.0
+    SlideVec: [1.666, -3.98, 0.0]
+  - Position: [1.428, 2.328, 4.76]
+    Rotation: [0.0, 0.0, 1.0]
+    PartName: lg4
+    MaxRotation: -124.0
+    SlideVec: [0.238, 0.78, 0.0]
+  - Position: [-2.332, 1.756, -2.023]
+    Rotation: [0.0, 0.0, 1.0]
+    PartName: lg5
+    MaxRotation: 85.0
+  - Position: [4.76, -4.694, -2.38]
+    Rotation: [0.0, 0.0, 1.0]
+    PartName: lg6
+    MaxRotation: -37.0
+    SlideVec: [-1.666, -3.98, 0.0]
+  - Position: [-1.428, 2.328, 4.76]
+    Rotation: [0.0, 0.0, 1.0]
+    PartName: lg7
+    MaxRotation: 124.0
+    SlideVec: [-0.238, 0.78, 0.0]
+  - Position: [0.243, 1.128, 2.778]
+    Rotation: [0.0, 0.77, -78.7]
+    PartName: lg8
+    MaxRotation: 110.0
+  - Position: [2.376, 1.714, -1.908]
+    Rotation: [0.0, -1.01, -40.49]
+    PartName: lg9
+    MaxRotation: 100.00001
+  - Position: [0.301, 1.199, -1.607]
+    Rotation: [0.0, -1.49, 71.37]
+    PartName: lg10
+    MaxRotation: 80.0
+  - Position: [-2.376, 1.714, -1.908]
+    Rotation: [0.0, 1.01, 40.49]
+    PartName: lg11
+    MaxRotation: 100.00001
+  - Position: [-0.301, 1.199, -1.607]
+    Rotation: [0.0, 1.49, -71.37]
+    PartName: lg12
+    MaxRotation: 80.0
+  - Position: [0.455, 2.87, 5.044]
+    Rotation: [6.509, 0.01, -0.115]
+    PartName: lg13
+    MaxRotation: 60.0
+  - Position: [0.455, 2.87, 5.044]
+    Rotation: [6.509, 0.01, -0.115]
+    PartName: lg14
+    MaxRotation: 60.0
+    SlideVec: [0.0, 0.067, -0.001]
+  Weapon:
+  - Position: [0.0, 0.649, -1.379]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon0
+    WeaponNames: m230
+    HideGM: true
+    Children:
+    - Position: [0.0, 0.649, -1.379]
+      Rotation: [0.0, 0.0, 0.0]
+      Pitch: true
+  - Position: [1.285, 1.09, 2.646]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon1
+    WeaponNames: meteor
+    IsMissile: true
+  - Position: [-1.285, 1.09, 2.646]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon2
+    WeaponNames: meteor
+    IsMissile: true
+  - Position: [1.368, 1.304, -2.711]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon3
+    WeaponNames: meteor
+    IsMissile: true
+  - Position: [-1.368, 1.304, -2.711]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon4
+    WeaponNames: meteor
+    IsMissile: true
+  - Position: [2.166, 1.209, 3.834]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon5
+    WeaponNames: gbu-10
+    IsMissile: true
+  - Position: [-2.166, 1.209, 3.834]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon6
+    WeaponNames: gbu-10
+    IsMissile: true
+  - Position: [4.332, 1.185, 1.042]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon7
+    WeaponNames: spear_at
+    IsMissile: true
+  - Position: [-4.332, 1.185, 1.042]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon8
+    WeaponNames: spear_at
+    IsMissile: true
+  - Position: [4.332, 1.185, 1.164]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon9
+    WeaponNames: spear_at
+    IsMissile: true
+  - Position: [-4.332, 1.185, 1.164]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon10
+    WeaponNames: spear_at
+    IsMissile: true
+  - Position: [4.582, 1.185, 1.042]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon11
+    WeaponNames: spear_tv
+    IsMissile: true
+  - Position: [-4.582, 1.185, 1.042]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon12
+    WeaponNames: spear_tv
+    IsMissile: true
+  - Position: [4.582, 1.185, 1.164]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon13
+    WeaponNames: spear_tv
+    IsMissile: true
+  - Position: [-4.582, 1.185, 1.164]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon14
+    WeaponNames: spear_tv
+    IsMissile: true
+  - Position: [5.415, 1.471, -0.351]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon15
+    WeaponNames: aim120
+    IsMissile: true
+  - Position: [-5.415, 1.471, -0.351]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon16
+    WeaponNames: aim120
+    IsMissile: true
+  - Position: [3.38, 1.221, 2.166]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon17
+    WeaponNames: stormshadow_5m
+    IsMissile: true
+  - Position: [-3.38, 1.221, 2.166]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon18
+    WeaponNames: stormshadow_2m
+    IsMissile: true
+  Throttle:
+  - Position: [0.0, 0.067, 0.0]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: throttle0
+    SlidePos: [0.0, 0.0, 0.217]
+  - Position: [0.045, 1.161, 3.045]
+    Rotation: [5649.0, 693.0, 5.0]
+    PartName: throttle1
+    SlidePos: [0.0, 0.0, 0.0]
+    MaxAngle: -25.0
+  - Position: [-0.045, 1.161, 3.045]
+    Rotation: [-5649.0, 693.0, 5.0]
+    PartName: throttle2
+    SlidePos: [0.0, 0.0, 0.0]
+    MaxAngle: 25.0
+  - Position: [0.0, 0.067, 0.0]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: throttle3
+    SlidePos: [0.0, 0.0, -0.001]
+  - Position: [0.0, 0.067, 0.0]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: throttle4
+    SlidePos: [0.0, 0.0, 0.0]
+  - Position: [0.0, 0.067, 0.0]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: throttle5
+    SlidePos: [0.0, 0.0, -0.225]
+  - Position: [0.0, 0.067, 0.0]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: throttle6
+    SlidePos: [0.0, 0.0, -0.06]
+  - Position: [0.0, 0.067, 0.0]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: throttle7
+    SlidePos: [0.0, 0.0, -2.075]
+  PlaneRotor:
+  - Position: [0.607, 2.066, -8.389]
+    Rotation: [0.0, 0.0, -1.0]
+    PartName: rotor0
+    RotFactor: 90.0
+    Blades:
+    - Position: [0.607, 2.066, -8.389]
+      Rotation: [0.0, 0.0, -1.0]
+      PartName: blade0
+      BladeNum: 1
+      BladeRot: 0
+  - Position: [-0.607, 2.066, -8.389]
+    Rotation: [0.0, 0.0, 1.0]
+    PartName: rotor1
+    RotFactor: 90.0
+    Blades:
+    - Position: [-0.607, 2.066, -8.389]
+      Rotation: [0.0, 0.0, 1.0]
+      PartName: blade1
+      BladeNum: 1
+      BladeRot: 0

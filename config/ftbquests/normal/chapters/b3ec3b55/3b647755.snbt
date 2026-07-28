@@ -1,0 +1,93 @@
+{
+	title: "Nececitas carbon? crea una granja de madera",
+	icon: "minecraft:sapling",
+	x: -14.5d,
+	y: 7.5d,
+	shape: "rsquare",
+	text: [
+		"La Granja de madera es bastante compleja te dejare la lista de materiales aqui y un tutorial de como hacerla",
+		"",
+		"",
+		"Link: {Embed}TypeLink;<https://www.youtube.com/watch?v=PtRj-dLJcMo>;<500>;<500>;<Vidio>{Embed}",
+		"en caso de no ver el link busca en yutub como ntm tree farm"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "e5e4f696",
+		type: "item",
+		items: [{
+			item: "hbm:machine_autosaw"
+		}]
+	},
+	{
+		uid: "00bce4a8",
+		type: "item",
+		items: [{
+			item: "hbm:furnace_combination 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "a014faf5",
+		type: "item",
+		items: [{
+			item: "hbm:heater_firebox 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "2a98219f",
+		type: "item",
+		items: [{
+			item: "hbm:fluid_duct_box 64"
+		}],
+		count: 64L
+	},
+	{
+		uid: "8221e145",
+		type: "item",
+		items: [{
+			item: "hbm:crane_grabber 16"
+		}],
+		count: 16L
+	},
+	{
+		uid: "c3982c5c",
+		type: "item",
+		items: [{
+			item: "hbm:crane_ejector 16"
+		}],
+		count: 16L
+	},
+	{
+		uid: "b3cb43db",
+		type: "item",
+		items: [{
+			item: "hbm:crane_inserter 16"
+		}],
+		count: 16L
+	},
+	{
+		uid: "932d358e",
+		type: "item",
+		items: [{
+			item: "hbm:conveyor_wand"
+		}]
+	},
+	{
+		uid: "bea7810e",
+		type: "item",
+		items: [{
+			item: "hbm:fan 48"
+		}],
+		count: 48L
+	},
+	{
+		uid: "3344f0ad",
+		type: "item",
+		items: [{
+			item: "hbm:machine_wood_burner 3"
+		}],
+		count: 3L
+	}]
+}

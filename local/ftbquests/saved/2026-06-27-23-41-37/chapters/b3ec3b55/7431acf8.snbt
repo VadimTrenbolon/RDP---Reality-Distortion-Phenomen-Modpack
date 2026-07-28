@@ -1,0 +1,18 @@
+{
+	title: "Mata dragon electrico",
+	icon: "iceandfire:dragonegg_amethyst",
+	x: 10.0d,
+	y: 4.0d,
+	text: [
+		"spawnea en una estructura especial, ten cuidado con los brillantes"
+	],
+	dependencies: [
+		"f085f0b6"
+	],
+	tasks: [{
+		uid: "78df6cb8",
+		type: "kill",
+		entity: "iceandfire:lightningdragon",
+		value: 0L
+	}]
+}

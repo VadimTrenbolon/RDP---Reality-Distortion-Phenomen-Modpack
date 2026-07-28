@@ -1,0 +1,20 @@
+{
+	title: "Estabilizador energetico",
+	icon: "draconicevolution:particle_generator 1 2",
+	x: 12.5d,
+	y: 5.5d,
+	text: [
+		"Material del almacen infinito"
+	],
+	dependencies: [
+		"4f6d1457"
+	],
+	tasks: [{
+		uid: "64f2d6cf",
+		type: "item",
+		items: [{
+			item: "draconicevolution:particle_generator 4 2"
+		}],
+		count: 4L
+	}]
+}

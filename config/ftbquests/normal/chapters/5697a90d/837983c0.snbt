@@ -1,0 +1,47 @@
+{
+	title: "armor netherite",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"netherite obtenible del wither"
+	],
+	dependencies: [
+		"05560c33"
+	],
+	tasks: [{
+		uid: "9723bfe4",
+		type: "item",
+		items: [{
+			item: "futuremc:netherite_helmet"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6293bbb1",
+		type: "item",
+		items: [{
+			item: "futuremc:netherite_chestplate"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b039a00f",
+		type: "item",
+		items: [{
+			item: "futuremc:netherite_leggings"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "04cb2cb2",
+		type: "item",
+		items: [{
+			item: "futuremc:netherite_boots"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

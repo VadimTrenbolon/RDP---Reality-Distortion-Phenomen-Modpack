@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1521802458
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Bajo la Deep Rock/ Roca de Profundidad encontraras depositos de diversos minerales estos se conseguiran atraves de la excavadora, esta nesesitara la broca tardara 5 minutos en extraer el primer mineral sin mejoras, nesesitaras aumentar la calidad de la brosha para mejorar la calidad del mineral\n\nEsta Debera pasar por procesos para poder conseguir mas de uno, dependiendo del chunk habra mas o menos cantidad, en si un raw bedrock ore puede darte todos los minerales del juego pero cual de dependera de la calidad del chunk\n\nPodras agregar liquidos al taladro para lavar el mineral y aumentar la cantidad de producto e añadir subproductos utiles\nÁcido sulfúrico : agrega el primer nivel de subproductos a sus salidas.\nDisolvente : añade el segundo nivel de subproductos\nDisolvente de alto rendimiento : agrega el nivel final de subproductos\nHidrógeno líquido : aumenta el rendimiento del primer producto primario.\nGas cloro : aumenta el rendimiento del segundo producto primario",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_excavator"
+      },
+      "name:8": "Material Infinito",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 126244568,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_excavator"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_ore_slopper"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:drillbit"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:det_miner"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

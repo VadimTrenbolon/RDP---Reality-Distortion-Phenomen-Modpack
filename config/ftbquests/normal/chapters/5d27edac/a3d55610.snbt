@@ -1,0 +1,19 @@
+{
+	title: "cadmio",
+	icon: "hbm:powder_cadmium",
+	x: 1.5d,
+	y: -22.0d,
+	text: [
+		"Mineral to avanzar"
+	],
+	dependencies: [
+		"4e046624"
+	],
+	tasks: [{
+		uid: "b2520f20",
+		type: "item",
+		items: [{
+			item: "hbm:powder_cadmium"
+		}]
+	}]
+}

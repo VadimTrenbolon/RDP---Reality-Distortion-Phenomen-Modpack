@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    183659471
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No material para circuitos se te habren puertas de almacenaje",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:billet_silicon"
+      },
+      "name:8": "Silicona",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 257706232,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "hbm:billet_silicon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

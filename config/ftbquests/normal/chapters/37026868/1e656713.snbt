@@ -1,0 +1,38 @@
+{
+	title: "ensamblader TH",
+	icon: "techguns:multiblockmachine 1 2",
+	x: 6.5d,
+	y: 7.0d,
+	text: [
+		"Multibloque, cristales arriba para activarlo dale al bloque principal"
+	],
+	dependencies: [
+		"2162824b"
+	],
+	hide: 1b,
+	dependency_requirement: "one_started",
+	size: 1.5d,
+	tasks: [{
+		uid: "32728289",
+		type: "item",
+		items: [{
+			item: "techguns:multiblockmachine 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "20729b69",
+		type: "item",
+		items: [{
+			item: "techguns:multiblockmachine 1 2"
+		}]
+	},
+	{
+		uid: "0fa8ebba",
+		type: "item",
+		items: [{
+			item: "techguns:multiblockmachine 4 1"
+		}],
+		count: 4L
+	}]
+}

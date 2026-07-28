@@ -1,0 +1,20 @@
+{
+	title: "Maquina para maquinas",
+	icon: "hbm:machine_assembly_machine",
+	x: 15.5d,
+	y: 0.0d,
+	text: [
+		"La fabrica crece ",
+		"en el simbolo de energuia en su interfaz seleccionas lo que crearas"
+	],
+	dependencies: [
+		"7ab59f44"
+	],
+	tasks: [{
+		uid: "b59e343b",
+		type: "item",
+		items: [{
+			item: "hbm:machine_assembly_machine"
+		}]
+	}]
+}

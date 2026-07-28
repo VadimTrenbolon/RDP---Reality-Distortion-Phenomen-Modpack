@@ -1,0 +1,44 @@
+{
+	title: "humo",
+	icon: "hbm:chimney_industrial",
+	x: 9.5d,
+	y: -2.0d,
+	text: [
+		"En caso que quieras usar boilers para generar vapor con carbon ",
+		"puedes usar las cajas de fuego para generar algo util para el futuro",
+		"",
+		"deberas con tuberias especiales conectar las cajas de fuego a un industrial smokestack siendo este tiene que estar arriba de un ashpit, ",
+		"no generara ninguna particula ya que esta bug esto pero lentamente generara un material nesesario para el futuro"
+	],
+	dependencies: [
+		"d1e70035"
+	],
+	tasks: [{
+		uid: "bbc0a567",
+		type: "item",
+		items: [{
+			item: "hbm:chimney_industrial"
+		}]
+	},
+	{
+		uid: "16f68712",
+		type: "item",
+		items: [{
+			item: "hbm:machine_ashpit"
+		}]
+	},
+	{
+		uid: "b1ce3fa3",
+		type: "item",
+		items: [{
+			item: "hbm:fluid_duct_exhaust 1 3"
+		}]
+	},
+	{
+		uid: "15d8845e",
+		type: "item",
+		items: [{
+			item: "hbm:heater_firebox"
+		}]
+	}]
+}

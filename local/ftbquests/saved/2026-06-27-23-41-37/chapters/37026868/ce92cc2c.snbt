@@ -1,0 +1,17 @@
+{
+	title: "Cuevas Litio y gas",
+	icon: "hbm:stone_gneiss",
+	x: 1.0d,
+	y: 5.0d,
+	text: [
+		"En las cuevas encontraras un micro bioma especial este son las cuevas de esquisto(litio) ",
+		"en eeste ademas de los minerales comunes en esquisto encontraras gas petroleo que te servira para adelantarte en algunos crafteos"
+	],
+	tasks: [{
+		uid: "39b0d20c",
+		type: "item",
+		items: [{
+			item: "hbm:stone_gneiss"
+		}]
+	}]
+}

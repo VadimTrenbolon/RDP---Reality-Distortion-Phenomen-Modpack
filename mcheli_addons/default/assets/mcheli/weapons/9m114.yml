@@ -1,0 +1,41 @@
+﻿DisplayName: 9M114
+CanLoadChunks: true
+Type: tvmissile
+BaseDamage: 82
+Ballistics:
+  Acceleration: 2.0
+  AccelerationInWater: 1.0
+  Gravity: 0.0
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+Sound:
+  Locations:
+    Fire: mcheli:missile_1_snd
+Explosion:
+  Power: 4
+  DestructionPower: 4
+  Flaming: true
+Camera:
+  Sight: movesight
+Ammo:
+  MagSize: 4
+  MaxAmmo: 4
+  ResupplyCount: 2
+  AmmoItems:
+  - Count: 4
+    Name: hbm:ingot_gunmetal
+    Meta: 0
+  - Count: 2
+    Name: hbm:ball_tatb
+    Meta: 0
+  - Count: 4
+    Name: hbm:circuit
+    Meta: 5
+FireCooldown: 100
+Mode: 2
+Render:
+  Smoke:
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'
+
+

@@ -1,0 +1,19 @@
+{
+	title: "Menos Vapor mas energuia",
+	icon: "hbm:machine_turbine",
+	x: -1.5d,
+	y: 5.0d,
+	text: [
+		"La primera turbina no es muy eficiente con vapores mas densos"
+	],
+	dependencies: [
+		"24c85ae5"
+	],
+	tasks: [{
+		uid: "96c05f55",
+		type: "item",
+		items: [{
+			item: "hbm:machine_turbine"
+		}]
+	}]
+}

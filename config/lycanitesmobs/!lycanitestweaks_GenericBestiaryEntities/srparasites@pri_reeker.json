@@ -1,0 +1,54 @@
+{
+  "loadDefault": true,
+  "entityID": "srparasites:pri_reeker",
+  "langKeyName": "srparasites.pri_reeker",
+  "langKeyPrefix": "",
+  "langKeySuffix": "",
+  "renderInitialSpawn": true,
+  "disableBestiaryEntry": false,
+  "bestiaryModifications": [
+    {
+      "modType": "nbtMod",
+      "knowledgeRank": 3,
+      "experienceRatio": 0.0,
+      "nbtTag": "",
+      "isDefault": false,
+      "userInput": true,
+      "refreshData": false,
+      "nbtType": "ALL",
+      "values": []
+    },
+    {
+      "modType": "srparasites:status",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0,
+      "values": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "modType": "srparasites:attacking",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0
+    },
+    {
+      "modType": "newSpawn",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0
+    },
+    {
+      "modType": "srparasites:parasitetype",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0,
+      "skins": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Combustible de reactor",
+	icon: "hbm:rod_zirnox_empty",
+	x: -5.0d,
+	y: -16.5d,
+	text: [
+		"usa cualquira, el litio se convertira en tritiono generara calor"
+	],
+	dependencies: [
+		"96bc29e6"
+	],
+	tasks: [{
+		uid: "bffc4c2c",
+		type: "item",
+		items: [{
+			item: "hbm:rod_zirnox_empty 20"
+		}],
+		count: 20L
+	}]
+}

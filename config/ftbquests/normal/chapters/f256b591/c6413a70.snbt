@@ -1,0 +1,19 @@
+{
+	title: "Muones",
+	icon: "hbm:particle_muon",
+	x: -17.0d,
+	y: 0.0d,
+	text: [
+		"Muñones"
+	],
+	dependencies: [
+		"45fa6745"
+	],
+	tasks: [{
+		uid: "384bf285",
+		type: "item",
+		items: [{
+			item: "hbm:particle_muon"
+		}]
+	}]
+}

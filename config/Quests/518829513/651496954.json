@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1419398241
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Con el combustible de reactor enfriado lo tienes que procesar en el pures para conseguir partes del material del que esten hecho",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_purex"
+      },
+      "name:8": "Purificar",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 651496954,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_purex"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

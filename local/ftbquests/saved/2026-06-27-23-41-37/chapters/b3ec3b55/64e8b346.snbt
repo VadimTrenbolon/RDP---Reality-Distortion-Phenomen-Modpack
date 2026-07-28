@@ -1,0 +1,23 @@
+{
+	title: "Moldes",
+	icon: "tconstruct:cast",
+	x: -8.0d,
+	y: 1.5d,
+	shape: "square",
+	text: [
+		"Para crear las dversas foermas requieres primero la forma en si, creala de madera y colocala, se consumira para crear el molde"
+	],
+	dependencies: [
+		"d35e9b34"
+	],
+	tasks: [{
+		uid: "d2f865b7",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "hordes",
+  "modName": "The Hordes",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

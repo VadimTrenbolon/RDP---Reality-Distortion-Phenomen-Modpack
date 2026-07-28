@@ -1,0 +1,19 @@
+{
+	title: "el diablo en yunque",
+	icon: "hbm:anvil_schrabidate",
+	x: -12.5d,
+	y: -10.0d,
+	text: [
+		"666"
+	],
+	dependencies: [
+		"75910d35"
+	],
+	tasks: [{
+		uid: "9bdb71ac",
+		type: "item",
+		items: [{
+			item: "hbm:anvil_schrabidate"
+		}]
+	}]
+}

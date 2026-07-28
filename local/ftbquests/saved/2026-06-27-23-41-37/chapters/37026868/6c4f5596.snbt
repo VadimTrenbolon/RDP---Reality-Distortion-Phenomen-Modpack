@@ -1,0 +1,19 @@
+{
+	title: "Tartaria",
+	icon: "hbm:ingot_tantalium",
+	x: 18.5d,
+	y: 10.5d,
+	text: [
+		"luego de un muy largo proceso has conseguido tantalium"
+	],
+	dependencies: [
+		"d7a8e82f"
+	],
+	tasks: [{
+		uid: "dd9d56dc",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_tantalium"
+		}]
+	}]
+}

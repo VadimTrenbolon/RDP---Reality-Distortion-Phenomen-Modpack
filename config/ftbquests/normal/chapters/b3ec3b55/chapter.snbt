@@ -1,0 +1,84 @@
+{
+	title: "Tier 1",
+	icon: "hbm:item_expensive",
+	always_invisible: 0b,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 20.0d,
+		y: 0.0d,
+		width: 6.0d,
+		height: 6.0d,
+		rotation: 45.0d,
+		image: "assets:quests/item_expensive.steel_plating.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 10.0d,
+		y: 5.5d,
+		width: 6.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:quests/dc.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: -10.5d,
+		y: -2.0d,
+		width: 12.0d,
+		height: 6.0d,
+		rotation: 0.0d,
+		image: "assets:quests/fundit.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 8.0d,
+		y: -1.0d,
+		width: 5.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "assets:quests/foundry.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 9.5d,
+		y: -4.0d,
+		width: 10.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:quests/c2.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: -9.0d,
+		y: 7.5d,
+		width: 9.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "assets:quests/farm1.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: -9.0d,
+		y: 7.5d,
+		width: 4.0d,
+		height: 11.0d,
+		rotation: 90.0d,
+		image: "assets:quests/fi.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	}]
+}

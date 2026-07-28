@@ -1,0 +1,32 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    880640904
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Material para armadura",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:plate_armor_ajr"
+      },
+      "name:8": "placas de armadura v2",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1639928672,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:plate_armor_ajr"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

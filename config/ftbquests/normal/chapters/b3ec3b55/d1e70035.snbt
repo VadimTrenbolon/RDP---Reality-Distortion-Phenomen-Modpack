@@ -1,0 +1,93 @@
+{
+	title: "Crucible",
+	icon: "hbm:machine_crucible",
+	x: 9.0d,
+	y: 0.0d,
+	text: [
+		"Como la forja de tinker construct",
+		"ducto verde para aleaciones",
+		"ducto rojo para crafteos",
+		"",
+		"necesita una fuente de calor abajo",
+		"Consejo: las aleaciones son mas baratas en carbon el hacerlas aqui",
+		"",
+		"",
+		"Revisas dentro del crucible, has encontrado 18 chaps"
+	],
+	dependencies: [
+		"7a175e00"
+	],
+	tasks: [{
+		uid: "981b8432",
+		type: "item",
+		items: [{
+			item: "hbm:machine_crucible"
+		}]
+	},
+	{
+		uid: "cc68be8a",
+		type: "item",
+		items: [{
+			item: "hbm:heater_firebox"
+		}]
+	},
+	{
+		uid: "a94535a2",
+		type: "item",
+		items: [{
+			item: "hbm:foundry_channel 32"
+		}],
+		count: 32L
+	},
+	{
+		uid: "13bc9cd2",
+		type: "item",
+		items: [{
+			item: "hbm:foundry_outlet 8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "92812dc3",
+		type: "item",
+		items: [{
+			item: "hbm:foundry_mold 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "a987905d",
+		type: "item",
+		items: [{
+			item: "hbm:foundry_basin 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "0528ef91",
+		type: "item",
+		items: [{
+			item: "hbm:mold 1 19"
+		}]
+	},
+	{
+		uid: "8a79bcbe",
+		type: "item",
+		items: [{
+			item: "hbm:mold 1 10"
+		}]
+	},
+	{
+		uid: "ea128bf8",
+		type: "item",
+		items: [{
+			item: "hbm:mold 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "0372450d",
+		type: "item",
+		item: "hbm:cap_nuka",
+		count: 18
+	}]
+}

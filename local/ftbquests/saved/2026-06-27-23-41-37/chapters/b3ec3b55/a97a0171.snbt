@@ -1,0 +1,26 @@
+{
+	title: "Techguniologia basica",
+	icon: "techguns:basicmachine 1 2",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"muy buen mod de armas vrowsky"
+	],
+	dependencies: [
+		"8206c621"
+	],
+	tasks: [{
+		uid: "5bd011d1",
+		type: "item",
+		items: [{
+			item: "techguns:basicmachine 1 2"
+		}]
+	},
+	{
+		uid: "585979cf",
+		type: "item",
+		items: [{
+			item: "techguns:basicmachine 1 1"
+		}]
+	}]
+}

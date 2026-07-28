@@ -1,0 +1,66 @@
+{
+	title: "A talar",
+	icon: {
+		id: "hbm:chainsaw",
+		tag: {
+			ability: 0,
+			abilityPresets: [{
+				area: "",
+				areaLevel: 0,
+				harvest: "",
+				harvestLevel: 0
+			},
+			{
+				area: "tool.ability.recursion",
+				areaLevel: 2,
+				harvest: "",
+				harvestLevel: 0
+			},
+			{
+				area: "",
+				areaLevel: 0,
+				harvest: "tool.ability.silktouch",
+				harvestLevel: 0
+			}],
+			fuel: 5000
+		}
+	},
+	x: 12.0d,
+	y: 6.5d,
+	text: [
+		"Cuidao y te conviertes en el chainsaw man"
+	],
+	dependencies: [
+		"7d912a2e"
+	],
+	tasks: [{
+		uid: "b87ce060",
+		type: "item",
+		items: [{
+			id: "hbm:chainsaw",
+			tag: {
+				ability: 0,
+				abilityPresets: [{
+					area: "",
+					areaLevel: 0,
+					harvest: "",
+					harvestLevel: 0
+				},
+				{
+					area: "tool.ability.recursion",
+					areaLevel: 2,
+					harvest: "",
+					harvestLevel: 0
+				},
+				{
+					area: "",
+					areaLevel: 0,
+					harvest: "tool.ability.silktouch",
+					harvestLevel: 0
+				}],
+				fuel: 5000
+			}
+		}],
+		ignore_damage: 1b
+	}]
+}

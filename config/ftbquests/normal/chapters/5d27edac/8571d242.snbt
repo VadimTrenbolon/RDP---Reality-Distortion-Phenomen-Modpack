@@ -1,0 +1,17 @@
+{
+	title: "Futuro",
+	icon: "hbm:part_generic 1 4",
+	x: 12.0d,
+	y: 3.5d,
+	text: [
+		"Material para el final y del final"
+	],
+	tasks: [{
+		uid: "f4a1cef6",
+		type: "item",
+		items: [{
+			item: "hbm:part_generic 64 4"
+		}],
+		count: 64L
+	}]
+}

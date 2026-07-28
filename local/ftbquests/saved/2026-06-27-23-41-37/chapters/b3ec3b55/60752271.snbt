@@ -1,0 +1,84 @@
+{
+	title: "Kit inicial",
+	icon: "industrialrenewal:locker",
+	x: -14.0d,
+	y: -2.5d,
+	text: [
+		"Dentro del bunker encontraras un locker, interactua con el"
+	],
+	tasks: [{
+		uid: "68a01257",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "72428908",
+		type: "item",
+		item: "harvestcraft:hamandcheesesandwichitem",
+		count: 32
+	},
+	{
+		uid: "bfb2fb67",
+		type: "item",
+		item: {
+			id: "hbm:gun_heavy_revolver",
+			tag: {
+				state_0: 0b,
+				reload_0: 0b,
+				mouse1_0: 0b,
+				animtimer_0: 13,
+				mouse3_0: 0b,
+				lastanim_0: 4,
+				timer_0: 10,
+				aiming: 0b,
+				cancel: 0b,
+				mouse2_0: 0b,
+				eqipped: 0b
+			}
+		}
+	},
+	{
+		uid: "411a67a2",
+		type: "item",
+		item: {
+			id: "hbm:ammo_bag",
+			tag: {
+				Inventory: {
+					Items: [{
+						Slot: 0,
+						id: "hbm:ammo_standard",
+						Count: 64b,
+						Damage: 10s
+					},
+					{
+						Slot: 1,
+						id: "hbm:ammo_standard",
+						Count: 64b,
+						Damage: 10s
+					},
+					{
+						Slot: 2,
+						id: "hbm:ammo_standard",
+						Count: 32b,
+						Damage: 10s
+					}],
+					Size: 8
+				}
+			}
+		}
+	},
+	{
+		uid: "1ed664f1",
+		type: "item",
+		item: "hbm:robes_boots"
+	},
+	{
+		uid: "f58f784a",
+		type: "item",
+		item: "hbm:jackt"
+	},
+	{
+		uid: "d685ea42",
+		type: "item",
+		item: "hbm:robes_legs"
+	}]
+}

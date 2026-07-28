@@ -1,0 +1,50 @@
+#Just a basic placeholder template to be worked with later
+{
+  enabled: true
+  blankSlate: true
+  caverns: {
+    enabled: true
+	frequency : 2
+    minHeight: 80
+    maxHeight: 159
+    noise3D: {
+      frequency: 0.06
+      scale: 0.3
+      scaleY: 0.5
+    }
+  }
+  tunnels: {
+    frequency: 2
+	minHeight: 80
+	maxHeight: 159
+	distance: 40
+    systemChance: 0.35
+    noiseYReduction: false
+    resizeBranches: true
+	twistXZ: {
+		startVal: 0
+		factor: 0.75
+		randFactor: 0.4
+		exponent: 1
+	}
+    twistY: {
+      factor: 1
+    }
+    scale: {
+      randFactor: 0.6
+      startVal: 0.7
+      startValRandFactor: 0.6
+    }
+    scaleY: {
+      randFactor: 0.5
+      startVal: 0.2
+    }
+  }
+  caveBlocks: [
+	{
+	states: [ "lava" ]
+	maxHeight: 8
+	}
+  ]
+}
+

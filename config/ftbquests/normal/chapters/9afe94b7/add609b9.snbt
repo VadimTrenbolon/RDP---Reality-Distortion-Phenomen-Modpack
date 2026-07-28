@@ -1,0 +1,20 @@
+{
+	title: "Elicoptero",
+	icon: "hbm:chopper",
+	x: -13.5d,
+	y: -11.0d,
+	text: [
+		"El boss \"facilmente\" crafteable"
+	],
+	dependencies: [
+		"eaffd446"
+	],
+	tasks: [{
+		uid: "b3adbac5",
+		type: "item",
+		items: [{
+			item: "hbm:chopper"
+		}],
+		ignore_damage: 1b
+	}]
+}

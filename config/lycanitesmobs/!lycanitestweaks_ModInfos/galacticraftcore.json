@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "galacticraftcore",
+  "modName": "Galacticraft",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

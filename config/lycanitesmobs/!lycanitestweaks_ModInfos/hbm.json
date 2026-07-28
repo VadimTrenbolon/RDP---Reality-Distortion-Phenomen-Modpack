@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "hbm",
+  "modName": "HBM's Nuclear Tech - Community Edition",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

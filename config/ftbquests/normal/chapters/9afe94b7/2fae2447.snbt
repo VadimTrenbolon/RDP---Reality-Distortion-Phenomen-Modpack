@@ -1,0 +1,81 @@
+{
+	title: "ICF",
+	icon: "hbm:icf",
+	x: -10.0d,
+	y: -16.0d,
+	text: [
+		"Un reactor Complicado realmente complicado, nuevamente se recomiendan los tutoriales de savage vegeta",
+		"Se nesesita para stellar flux"
+	],
+	dependencies: [
+		"eaffd446"
+	],
+	tasks: [{
+		uid: "d299845c",
+		type: "item",
+		items: [{
+			item: "hbm:struct_icf_core"
+		}]
+	},
+	{
+		uid: "105a3a8d",
+		type: "item",
+		items: [{
+			item: "hbm:icf_controller"
+		}]
+	},
+	{
+		uid: "bd56b731",
+		type: "item",
+		items: [{
+			item: "hbm:icf_laser_component"
+		}]
+	},
+	{
+		uid: "eab921ba",
+		type: "item",
+		items: [{
+			item: "hbm:icf_laser_component 1 1"
+		}]
+	},
+	{
+		uid: "98a7539b",
+		type: "item",
+		items: [{
+			item: "hbm:icf_laser_component 1 2"
+		}]
+	},
+	{
+		uid: "15dc5c53",
+		type: "item",
+		items: [{
+			item: "hbm:icf_laser_component 1 3"
+		}]
+	},
+	{
+		uid: "b6e76ed2",
+		type: "item",
+		items: [{
+			item: "hbm:icf_laser_component 1 4"
+		}]
+	},
+	{
+		uid: "02159cfe",
+		type: "item",
+		items: [{
+			item: "hbm:icf_laser_component 1 5"
+		}]
+	},
+	{
+		uid: "7a56cbfc",
+		type: "item",
+		items: [{
+			id: "hbm:icf_pellet",
+			tag: {
+				muon: 0b,
+				type1: 1b,
+				type2: 2b
+			}
+		}]
+	}]
+}

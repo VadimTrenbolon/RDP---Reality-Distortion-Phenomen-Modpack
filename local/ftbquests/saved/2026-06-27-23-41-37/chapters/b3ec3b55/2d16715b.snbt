@@ -1,0 +1,19 @@
+{
+	title: "Horno rotatorio",
+	icon: "hbm:machine_rotary_furnace",
+	x: 8.5d,
+	y: -2.0d,
+	text: [
+		"Para aleaciones muchas aleaciones, requiere vapor para funcionar"
+	],
+	dependencies: [
+		"d1e70035"
+	],
+	tasks: [{
+		uid: "f5b107e8",
+		type: "item",
+		items: [{
+			item: "hbm:machine_rotary_furnace"
+		}]
+	}]
+}

@@ -1,0 +1,172 @@
+{
+	title: "Herramientas mecanicas",
+	icon: {
+		id: "hbm:elec_pickaxe",
+		tag: {
+			ability: 0,
+			abilityPresets: [{
+				area: "",
+				areaLevel: 0,
+				harvest: "",
+				harvestLevel: 0
+			},
+			{
+				area: "tool.ability.recursion",
+				areaLevel: 2,
+				harvest: "",
+				harvestLevel: 0
+			},
+			{
+				area: "tool.ability.hammer",
+				areaLevel: 1,
+				harvest: "",
+				harvestLevel: 0
+			},
+			{
+				area: "tool.ability.hammer_flat",
+				areaLevel: 1,
+				harvest: "",
+				harvestLevel: 0
+			},
+			{
+				area: "",
+				areaLevel: 0,
+				harvest: "tool.ability.silktouch",
+				harvestLevel: 0
+			},
+			{
+				area: "",
+				areaLevel: 0,
+				harvest: "tool.ability.luck",
+				harvestLevel: 1
+			}],
+			charge: 500000L
+		}
+	},
+	x: -2.5d,
+	y: 1.0d,
+	text: [
+		"estas son herramientas que necesitan energuia estan al nivel de un pico de hierro tienen muchas habilidades"
+	],
+	dependencies: [
+		"56d78906"
+	],
+	tasks: [{
+		uid: "9eef89b1",
+		type: "item",
+		items: [{
+			id: "hbm:elec_pickaxe",
+			tag: {
+				ability: 0,
+				abilityPresets: [{
+					area: "",
+					areaLevel: 0,
+					harvest: "",
+					harvestLevel: 0
+				},
+				{
+					area: "tool.ability.recursion",
+					areaLevel: 2,
+					harvest: "",
+					harvestLevel: 0
+				},
+				{
+					area: "tool.ability.hammer",
+					areaLevel: 1,
+					harvest: "",
+					harvestLevel: 0
+				},
+				{
+					area: "tool.ability.hammer_flat",
+					areaLevel: 1,
+					harvest: "",
+					harvestLevel: 0
+				},
+				{
+					area: "",
+					areaLevel: 0,
+					harvest: "tool.ability.silktouch",
+					harvestLevel: 0
+				},
+				{
+					area: "",
+					areaLevel: 0,
+					harvest: "tool.ability.luck",
+					harvestLevel: 1
+				}],
+				charge: 500000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "f87a2b1d",
+		type: "item",
+		items: [{
+			id: "hbm:elec_sword",
+			tag: {
+				charge: 500000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "0b817e0b",
+		type: "item",
+		items: [{
+			id: "hbm:elec_axe",
+			tag: {
+				ability: 0,
+				abilityPresets: [{
+					area: "",
+					areaLevel: 0,
+					harvest: "",
+					harvestLevel: 0
+				},
+				{
+					area: "tool.ability.recursion",
+					areaLevel: 2,
+					harvest: "",
+					harvestLevel: 0
+				},
+				{
+					area: "tool.ability.hammer",
+					areaLevel: 1,
+					harvest: "",
+					harvestLevel: 0
+				},
+				{
+					area: "tool.ability.hammer_flat",
+					areaLevel: 1,
+					harvest: "",
+					harvestLevel: 0
+				},
+				{
+					area: "",
+					areaLevel: 0,
+					harvest: "tool.ability.silktouch",
+					harvestLevel: 0
+				},
+				{
+					area: "",
+					areaLevel: 0,
+					harvest: "tool.ability.luck",
+					harvestLevel: 1
+				}],
+				charge: 500000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "6afccfcc",
+		type: "item",
+		items: [{
+			id: "hbm:elec_shovel",
+			tag: {
+				charge: 500000L
+			}
+		}],
+		ignore_damage: 1b
+	}]
+}

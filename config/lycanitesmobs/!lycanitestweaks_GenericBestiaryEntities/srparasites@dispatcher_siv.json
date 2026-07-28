@@ -1,0 +1,32 @@
+{
+  "loadDefault": true,
+  "entityID": "srparasites:dispatcher_siv",
+  "langKeyName": "srparasites.dispatcher_siv",
+  "langKeyPrefix": "",
+  "langKeySuffix": "",
+  "renderInitialSpawn": true,
+  "disableBestiaryEntry": false,
+  "bestiaryModifications": [
+    {
+      "modType": "nbtMod",
+      "knowledgeRank": 3,
+      "experienceRatio": 0.0,
+      "nbtTag": "",
+      "isDefault": false,
+      "userInput": true,
+      "refreshData": false,
+      "nbtType": "ALL",
+      "values": []
+    },
+    {
+      "modType": "srparasites:attacking",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0
+    },
+    {
+      "modType": "newSpawn",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0
+    }
+  ]
+}

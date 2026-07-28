@@ -1,0 +1,21 @@
+{
+	title: "guarda, que el ranger esta mirando",
+	icon: "hbm:chlorophyte_pickaxe",
+	x: 12.0d,
+	y: -0.5d,
+	text: [
+		"No seas como renger, no consumas balas de clorofita"
+	],
+	dependencies: [
+		"d4552614",
+		"dbd01182"
+	],
+	tasks: [{
+		uid: "ede200d2",
+		type: "item",
+		items: [{
+			item: "hbm:chlorophyte_pickaxe"
+		}],
+		ignore_damage: 1b
+	}]
+}

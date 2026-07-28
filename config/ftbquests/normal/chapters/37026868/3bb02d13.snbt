@@ -1,0 +1,20 @@
+{
+	title: "Goma",
+	icon: "hbm:ingot_rubber",
+	x: 26.0d,
+	y: 12.0d,
+	text: [
+		"La goma con etse avanza la maquinaria"
+	],
+	dependencies: [
+		"58f407d8"
+	],
+	tasks: [{
+		uid: "63ecc39f",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_rubber 16"
+		}],
+		count: 16L
+	}]
+}

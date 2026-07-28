@@ -1,0 +1,38 @@
+{
+	title: "Era petrolifera",
+	icon: "hbm:machine_well",
+	x: 7.0d,
+	y: 4.0d,
+	text: [
+		"Al obtener el lugar donde alla petroleo colocaras la torre de perforacion",
+		"posteriormente le daras energuia y conectaras tuberias a tanques",
+		"el petroleo crudo lo calentaras y lo pasaras a la siguente maquina",
+		"para seleccionar el petroleo en la caldera dale con el identificador de fluidos con este seleccionado",
+		"",
+		"o puedes juntarlo primero con vapor y hacer diferentes cosas"
+	],
+	dependencies: [
+		"701d9730"
+	],
+	tasks: [{
+		uid: "184d94a9",
+		type: "item",
+		items: [{
+			item: "hbm:machine_well"
+		}]
+	},
+	{
+		uid: "5fa4018b",
+		type: "item",
+		items: [{
+			item: "hbm:heater_firebox"
+		}]
+	},
+	{
+		uid: "eb6f85d3",
+		type: "item",
+		items: [{
+			item: "hbm:heat_boiler"
+		}]
+	}]
+}

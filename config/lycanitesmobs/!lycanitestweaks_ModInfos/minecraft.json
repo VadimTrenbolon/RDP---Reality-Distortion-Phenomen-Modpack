@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "minecraft",
+  "modName": "Minecraft",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

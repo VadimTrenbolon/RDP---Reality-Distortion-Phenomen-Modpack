@@ -1,0 +1,20 @@
+{
+	title: "Material importante",
+	icon: "hbm:ingot_cft",
+	x: 12.0d,
+	y: 1.5d,
+	text: [
+		"Felicidades"
+	],
+	dependencies: [
+		"5da85662",
+		"8571d242"
+	],
+	tasks: [{
+		uid: "5bb998af",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_cft"
+		}]
+	}]
+}

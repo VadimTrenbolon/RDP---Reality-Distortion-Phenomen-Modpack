@@ -1,0 +1,28 @@
+{
+	title: "Se viene lo bueno...",
+	icon: "hbm:ingot_firebrick",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"hora de comenzar con el ntm"
+	],
+	dependencies: [
+		"8206c621"
+	],
+	tasks: [{
+		uid: "b99d5f72",
+		type: "item",
+		items: [{
+			item: "hbm:ball_fireclay 64"
+		}],
+		count: 64L
+	},
+	{
+		uid: "0f069610",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_firebrick 64"
+		}],
+		count: 64L
+	}]
+}

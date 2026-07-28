@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1947198785
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Po...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:anvil_desh"
+      },
+      "name:8": "Tier 3 en Yunque",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 2017284460,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:anvil_desh"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

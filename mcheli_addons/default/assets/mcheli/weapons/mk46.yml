@@ -1,0 +1,41 @@
+﻿DisplayName: Mark 46 torpedo
+CanLoadChunks: true
+Type: torpedo
+BaseDamage: 35
+Ballistics:
+  Acceleration: 0.0
+  AccelerationInWater: 1.5
+  Gravity: -0.03
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+Sound:
+  Locations:
+    Fire: mcheli:bomb_snd
+Explosion:
+  Power: 2
+  DestructionPower: 2
+  PowerUnderwater: 8
+Missile:
+  GuidedTorpedo: true
+Ammo:
+  MagSize: 8
+  MaxAmmo: 8
+  ResupplyCount: 4
+  AmmoItems:
+  - Count: 2
+    Name: hbm:ingot_gunmetal
+    Meta: 0
+  - Count: 2
+    Name: hbm:ball_tatb
+    Meta: 0
+  - Count: 2
+    Name: hbm:circuit
+    Meta: 5
+FireCooldown: 100
+Render:
+  BulletModel: mk46
+  Smoke:
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'
+
+

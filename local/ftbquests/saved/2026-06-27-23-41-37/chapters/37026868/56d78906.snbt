@@ -1,0 +1,30 @@
+{
+	title: "Plastico normalmente conseguido",
+	icon: "hbm:ingot_polymer",
+	x: 10.5d,
+	y: 2.5d,
+	text: [
+		"pues en este punto deberias obtener el plastico"
+	],
+	dependencies: [
+		"d18b0876"
+	],
+	tasks: [{
+		uid: "4f9af36b",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotAnyPlastic"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotAnyPlastic"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "futuremc",
+  "modName": "Future MC",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

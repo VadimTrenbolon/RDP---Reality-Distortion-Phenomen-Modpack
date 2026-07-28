@@ -1,0 +1,20 @@
+{
+	title: "euphemium",
+	icon: "hbm:ingot_euphemium",
+	x: -17.0d,
+	y: -5.5d,
+	text: [
+		"Y bueno ya tu sabes como lo habras conseguido"
+	],
+	dependencies: [
+		"7b2e3f8e",
+		"b83a5177"
+	],
+	tasks: [{
+		uid: "75a3fa17",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_euphemium"
+		}]
+	}]
+}

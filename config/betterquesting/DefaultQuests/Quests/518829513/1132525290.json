@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1097851288
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "La goma con etse avanza la maquinaria",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_rubber"
+      },
+      "name:8": "Goma",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1132525290,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "hbm:ingot_rubber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

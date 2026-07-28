@@ -1,0 +1,19 @@
+{
+	title: "4k",
+	icon: "refinedstorage:storage_part 1 1",
+	x: 9.0d,
+	y: 10.5d,
+	text: [
+		"4 bits"
+	],
+	dependencies: [
+		"5981125a"
+	],
+	tasks: [{
+		uid: "a59bcf54",
+		type: "item",
+		items: [{
+			item: "refinedstorage:storage_part 1 1"
+		}]
+	}]
+}

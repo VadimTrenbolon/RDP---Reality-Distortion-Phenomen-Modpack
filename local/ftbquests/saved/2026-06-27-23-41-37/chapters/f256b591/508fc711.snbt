@@ -1,0 +1,45 @@
+{
+	title: "Plataforma",
+	icon: "hbm:soyuz_launcher",
+	x: 17.5d,
+	y: -14.0d,
+	text: [
+		"Material Mucho Material"
+	],
+	dependencies: [
+		"27753c5d"
+	],
+	tasks: [{
+		uid: "35dc2e01",
+		type: "item",
+		items: [{
+			item: "hbm:struct_soyuz_core"
+		}]
+	},
+	{
+		uid: "31844085",
+		type: "item",
+		items: [{
+			item: "hbm:concrete_smooth 38"
+		}],
+		count: 38L
+	},
+	{
+		uid: "3de1d3d4",
+		type: "item",
+		items: [{
+			Count: 414,
+			id: "hbm:struct_launcher"
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "067280ae",
+		type: "item",
+		items: [{
+			Count: 448,
+			id: "hbm:struct_scaffold"
+		}],
+		ignore_damage: 1b
+	}]
+}

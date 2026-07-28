@@ -1,0 +1,16 @@
+{
+	title: "Partes legendarias",
+	icon: "hbm:parts_legendary 1 1",
+	x: 7.5d,
+	y: 3.5d,
+	text: [
+		"Partex"
+	],
+	tasks: [{
+		uid: "31d1f9d1",
+		type: "item",
+		items: [{
+			item: "hbm:parts_legendary 1 1"
+		}]
+	}]
+}

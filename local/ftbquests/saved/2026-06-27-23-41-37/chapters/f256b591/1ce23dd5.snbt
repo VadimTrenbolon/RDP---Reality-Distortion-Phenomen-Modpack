@@ -1,0 +1,12 @@
+{
+	title: "Bosson de higgs",
+	icon: "hbm:particle_higgs",
+	x: -17.5d,
+	y: 3.5d,
+	text: [
+		"Dios"
+	],
+	dependencies: [
+		"913aef77"
+	]
+}

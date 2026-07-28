@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1132525290
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Colocalo sobre lava para que la consuma y genere energuia con este, el mejor lugar para colocarlo en un gran lago de lava o el nether",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_hephaestus"
+      },
+      "name:8": "lava energuetica",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1494717217,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_hephaestus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

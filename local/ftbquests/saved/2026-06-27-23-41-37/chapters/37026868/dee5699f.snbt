@@ -1,0 +1,29 @@
+{
+	title: "Expensivos los chips",
+	icon: "hbm:item_expensive 1 5",
+	x: 5.0d,
+	y: 5.0d,
+	text: [
+		"jo ya es demaciao vro, solo consigue y mucho",
+		"",
+		"",
+		"Revisas los circuitos, has encontrado 32 chapas"
+	],
+	dependencies: [
+		"2162824b"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "e5c43a06",
+		type: "item",
+		items: [{
+			item: "hbm:item_expensive 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "46baf0e2",
+		type: "item",
+		item: "hbm:cap_rad",
+		count: 32
+	}]
+}

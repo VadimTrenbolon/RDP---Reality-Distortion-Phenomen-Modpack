@@ -1,0 +1,38 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    1451643535,
+    1132525290
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Este es el primer reactor en la progresion nesesita de dioxido de carbono pra funcionar (se consigue del gas natural),\n\nrecuerda usar turbinas pra usar el vapor para la energuia, ten torres condensadoras para convertir el vapor de vaja presion en agua, y reecuereda no hacer que el reactor se llene de vapor ni que su precion interna este arriba de 17 por mucho tiempo",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_zirnox"
+      },
+      "name:8": "El primer reactor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1373304941,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_zirnox"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_tower_small"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

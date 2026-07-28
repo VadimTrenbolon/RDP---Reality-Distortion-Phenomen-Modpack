@@ -1,0 +1,32 @@
+{
+	title: "The end",
+	icon: {
+		id: "hbm:sat_gerald",
+		tag: {}
+	},
+	x: 7.5d,
+	y: -3.0d,
+	text: [
+		"ya sabes que hacer, Terri"
+	],
+	dependencies: [
+		"8571d242",
+		"75910d35",
+		"ee9ae0ed",
+		"10b6ea6e",
+		"1b4b3872",
+		"a2c5e28f",
+		"376ebfd3",
+		"0248b146"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "ede74469",
+		type: "item",
+		items: [{
+			id: "hbm:sat_gerald",
+			tag: {}
+		}],
+		ignore_damage: 1b
+	}]
+}

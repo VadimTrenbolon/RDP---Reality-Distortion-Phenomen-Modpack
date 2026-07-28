@@ -1,0 +1,34 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    126244568,
+    434129230
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Con este aparatito sabras la calidad del suelo bajo tus pies, dependiendo de que calidad alla sera la cantidad de tipo de mineral que encontraras\n\nLight Metal: metales comunes (hierro, cobre, etc)\nHeavy metal: Metales mas pesados (tungsteno, plomo, etc)\nRare earth: metales de tierras raras (cobalto, boro, etc)\nActinide: Metales pesados radiactivos (uranio y torio)\nNon-metal: minerales no metalicos (carbon, azufre, etc)\nCrystalline: crisatales (redstone, diamante, cinabrio, etc)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ore_density_scanner"
+      },
+      "name:8": "Calidad del Suelo?",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1180361463,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ore_density_scanner"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

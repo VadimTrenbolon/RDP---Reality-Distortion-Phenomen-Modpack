@@ -1,0 +1,27 @@
+{
+	title: "Combustible Watz",
+	icon: {
+		id: "hbm:watz_pellet",
+		tag: {
+			yield: 5.0E8d
+		}
+	},
+	x: -13.0d,
+	y: -4.0d,
+	text: [
+		"uno es poco, pero suficiente"
+	],
+	dependencies: [
+		"82073ad0"
+	],
+	tasks: [{
+		uid: "6b9f5fa3",
+		type: "item",
+		items: [{
+			id: "hbm:watz_pellet",
+			tag: {
+				yield: 5.0E8d
+			}
+		}]
+	}]
+}

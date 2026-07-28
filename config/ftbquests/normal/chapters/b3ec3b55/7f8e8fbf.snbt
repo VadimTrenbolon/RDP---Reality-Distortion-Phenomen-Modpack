@@ -1,0 +1,36 @@
+{
+	title: "Almacena mas energuia",
+	icon: "industrialrenewal:ind_battery_bank",
+	x: 11.5d,
+	y: 2.0d,
+	text: [
+		"Este almacen industrial guarda las baterias en su interior hasta 18 baterias azules en su maximo guarda 120M RF",
+		"en la parte de arriba encontraras los puertos"
+	],
+	dependencies: [
+		"7ab59f44"
+	],
+	tasks: [{
+		uid: "40b81654",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:battery 18"
+		}],
+		count: 18L
+	},
+	{
+		uid: "e312aaa0",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:battery_lithium 18"
+		}],
+		count: 18L
+	},
+	{
+		uid: "017eb268",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:ind_battery_bank"
+		}]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Ciclotron",
+	icon: "hbm:machine_cyclotron",
+	x: 10.0d,
+	y: 4.0d,
+	text: [
+		"Similar a un acelerador de paticulas pero mas pequeño",
+		"Usa bastante energuia al uso",
+		"los simbolos a su alrededor no son decoraciones son lugares vacios",
+		"",
+		"Revisas el mecanismo, has encontrado 32 chaps"
+	],
+	dependencies: [
+		"d07322fb"
+	],
+	tasks: [{
+		uid: "70890d4a",
+		type: "item",
+		items: [{
+			item: "hbm:machine_cyclotron"
+		}]
+	}],
+	rewards: [{
+		uid: "3f9757f7",
+		type: "item",
+		item: "hbm:cap_nuka",
+		count: 32
+	}]
+}

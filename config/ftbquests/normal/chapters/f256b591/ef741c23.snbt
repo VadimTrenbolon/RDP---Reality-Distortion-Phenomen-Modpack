@@ -1,0 +1,20 @@
+{
+	title: "Quark extraño",
+	icon: "hbm:particle_strange",
+	x: -11.5d,
+	y: 0.5d,
+	text: [
+		"Quark pero Extreño"
+	],
+	dependencies: [
+		"c6413a70",
+		"85800047"
+	],
+	tasks: [{
+		uid: "d884eaa4",
+		type: "item",
+		items: [{
+			item: "hbm:particle_strange"
+		}]
+	}]
+}

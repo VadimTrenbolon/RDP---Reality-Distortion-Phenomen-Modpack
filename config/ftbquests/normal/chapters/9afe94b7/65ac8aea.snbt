@@ -1,0 +1,19 @@
+{
+	title: "Relampago balefire",
+	icon: "hbm:billet_balefire_gold",
+	x: -7.0d,
+	y: -10.0d,
+	text: [
+		"oro rapido, para balefire recomendado tener otro reactor para esto"
+	],
+	dependencies: [
+		"07cea204"
+	],
+	tasks: [{
+		uid: "8287b2df",
+		type: "item",
+		items: [{
+			item: "hbm:billet_balefire_gold"
+		}]
+	}]
+}

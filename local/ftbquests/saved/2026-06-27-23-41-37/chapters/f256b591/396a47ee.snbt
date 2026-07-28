@@ -1,0 +1,39 @@
+{
+	title: "Portal Gun",
+	icon: {
+		id: "portalgun:item_portalgun",
+		tag: {
+			width: 1,
+			username: "Global",
+			channelName: "Chell",
+			grabStrength: 4,
+			uuid: "Global",
+			lastFired: 1b,
+			height: 2
+		}
+	},
+	x: -10.0d,
+	y: -3.0d,
+	text: [
+		"Click derech portal, click izquierdo otro portal y g para tomar bloque o entidad"
+	],
+	dependencies: [
+		"590d28d5"
+	],
+	tasks: [{
+		uid: "c8efd301",
+		type: "item",
+		items: [{
+			id: "portalgun:item_portalgun",
+			tag: {
+				width: 1,
+				username: "Global",
+				channelName: "Chell",
+				grabStrength: 4,
+				uuid: "Global",
+				lastFired: 1b,
+				height: 2
+			}
+		}]
+	}]
+}

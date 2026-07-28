@@ -1,0 +1,17 @@
+{
+	title: "Stellar flux",
+	icon: "hbm:fluid_icon 1 140",
+	x: 7.5d,
+	y: -17.0d,
+	text: [
+		"Material de crafteo, se requeire almacen electromagnetico"
+	],
+	dependencies: [
+		"2fae2447"
+	],
+	tasks: [{
+		uid: "6be280d9",
+		type: "fluid",
+		fluid: "stellar_flux"
+	}]
+}

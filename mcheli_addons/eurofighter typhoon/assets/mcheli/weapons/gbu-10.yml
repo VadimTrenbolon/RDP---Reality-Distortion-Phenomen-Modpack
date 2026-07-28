@@ -1,0 +1,45 @@
+﻿DisplayName: GBU-10 Paveway II
+CanLoadChunks: true
+Type: asmissile
+BaseDamage: 35
+Ballistics:
+  Acceleration: 1.7
+  AccelerationInWater: 1.0
+  Gravity: -0.01
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+Sound:
+  Volume: 3.0
+  Pitch: 0.1
+  Locations:
+    Fire: mcheli:bomb_snd
+Explosion:
+  Power: 5
+  Radio: 5.0
+  DestructionPower: 4
+  ExplosionAirburst: 5
+Camera:
+  Sight: movesight
+Ammo:
+  ReloadTime: 300
+  MagSize: 2
+  MaxAmmo: 4
+  ResupplyCount: 2
+  AmmoItems:
+  - Count: 5
+    Name: hbm:ingot_gunmetal
+    Meta: 0
+  - Count: 5
+    Name: hbm:ball_tatb
+    Meta: 0
+  - Count: 5
+    Name: hbm:circuit
+    Meta: 5
+Render:
+  BulletModel: gbu-10
+  Smoke:
+    DisableSmoke: true
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'
+
+

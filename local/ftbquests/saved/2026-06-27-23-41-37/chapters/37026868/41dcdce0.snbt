@@ -1,0 +1,35 @@
+{
+	title: "Almacen Infinito",
+	icon: "draconicevolution:energy_storage_core",
+	x: 11.0d,
+	y: 0.0d,
+	text: [
+		"Se tiene que mejorar para ser infinito, requerira mas draconium cada vez, recomiendo ver una review del mod"
+	],
+	dependencies: [
+		"267d682d"
+	],
+	tasks: [{
+		uid: "ad2f0fe4",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_storage_core"
+		}]
+	},
+	{
+		uid: "309cd4ea",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_pylon 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "b6643403",
+		type: "item",
+		items: [{
+			item: "draconicevolution:particle_generator 4 2"
+		}],
+		count: 4L
+	}]
+}

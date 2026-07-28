@@ -1,0 +1,28 @@
+{
+	title: "Bolas o tron",
+	icon: "hbm:brick_jungle_circle",
+	x: 0.5d,
+	y: -18.5d,
+	text: [
+		"Para invocarlo nesesitaras el circulo mecanista, lo encuentras en una estructura subterranea en la jungla sabras que la encontraste porque habra un paloo con redston en la superficie",
+		"ademas del bloque nesesitas la llave que craftearas con la moneda del boss anterior"
+	],
+	dependencies: [
+		"baae0a27"
+	],
+	tasks: [{
+		uid: "7bd2e2a2",
+		type: "item",
+		items: [{
+			item: "hbm:brick_jungle_circle"
+		}]
+	},
+	{
+		uid: "147099f5",
+		type: "item",
+		items: [{
+			item: "hbm:mech_key"
+		}],
+		ignore_damage: 1b
+	}]
+}

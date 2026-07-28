@@ -1,0 +1,21 @@
+{
+	title: "Mejoras Particulares",
+	icon: "hbm:machine_exposure_chamber",
+	x: -20.0d,
+	y: -4.0d,
+	text: [
+		"Con las Particulas conseguidas en el acelerador podras mejorar minerales",
+		"",
+		"La mejor y mas rapida forma de conseguir schrabidium"
+	],
+	dependencies: [
+		"913aef77"
+	],
+	tasks: [{
+		uid: "5c01963c",
+		type: "item",
+		items: [{
+			item: "hbm:machine_exposure_chamber"
+		}]
+	}]
+}

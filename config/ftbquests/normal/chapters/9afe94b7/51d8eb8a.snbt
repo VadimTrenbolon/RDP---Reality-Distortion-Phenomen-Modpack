@@ -1,0 +1,22 @@
+{
+	title: "Un Libro Extraño",
+	icon: "hbm:book_of_",
+	x: -0.75d,
+	y: -9.75d,
+	text: [
+		"Este importante libro Podras encontrarlo en la mazmorra meteoro o en una extraña estructura en el end",
+		"Las estampas para las paginaas del libro en caso de craftearlo tambien se encuentran en la mazmorra meteorito"
+	],
+	dependencies: [
+		"1045e43c"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "3e9a1fe2",
+		type: "item",
+		items: [{
+			item: "hbm:book_of_"
+		}],
+		ignore_damage: 1b
+	}]
+}

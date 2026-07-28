@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    176960643
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "solo matara jugadores",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "portalstuff:laser_fizzler"
+      },
+      "name:8": "Proteccion de mentira",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 92467959,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "portalstuff:laser_fizzler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

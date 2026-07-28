@@ -1,0 +1,16 @@
+{
+	title: "Kevlar",
+	icon: "hbm:plate_kevlar",
+	x: 6.5d,
+	y: 3.0d,
+	text: [
+		"Protegido"
+	],
+	tasks: [{
+		uid: "e2909e40",
+		type: "item",
+		items: [{
+			item: "hbm:plate_kevlar"
+		}]
+	}]
+}

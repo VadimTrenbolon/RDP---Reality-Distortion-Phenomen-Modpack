@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    1377399004
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "por la espera y para cuando la necesites o energuia pasiva",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "immersiveengineering:metal_device1"
+      },
+      "name:8": "A generar energuia",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1834778559,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "immersiveengineering:wooden_device1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "immersiveengineering:wooden_device1"
+        },
+        "2:10": {
+          "Count:3": 3,
+          "id:8": "immersiveengineering:connector"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "id:8": "immersiveengineering:wirecoil"
+        },
+        "4:10": {
+          "Count:3": 2,
+          "Damage:2": 2,
+          "id:8": "immersiveengineering:metal_device1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

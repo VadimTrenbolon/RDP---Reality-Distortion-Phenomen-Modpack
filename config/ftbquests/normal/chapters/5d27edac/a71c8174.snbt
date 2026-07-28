@@ -1,0 +1,19 @@
+{
+	title: "Hexafloruro de uranio",
+	icon: "hbm:machine_gascent",
+	x: -2.0d,
+	y: -11.0d,
+	text: [
+		"con el hexa floruro de uranio pasalo varias veses por centrifugadoras para enriquecer el uranio y obtener u-238 y u-233"
+	],
+	dependencies: [
+		"9125a327"
+	],
+	tasks: [{
+		uid: "e53eae3f",
+		type: "item",
+		items: [{
+			item: "hbm:machine_gascent"
+		}]
+	}]
+}

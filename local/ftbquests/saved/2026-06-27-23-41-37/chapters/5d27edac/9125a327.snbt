@@ -1,0 +1,18 @@
+{
+	title: "Mas uranio",
+	icon: "hbm:powder_yellowcake",
+	x: -3.0d,
+	y: -12.5d,
+	text: [
+		"con el pastel amarillo podras hacer hexafloruro de uranio o plutonio",
+		"en este punto importa el de uranio ",
+		"con el cual en una centrifugadora de gas podras hacer mas u-238 y u-233"
+	],
+	tasks: [{
+		uid: "caa20843",
+		type: "item",
+		items: [{
+			item: "hbm:powder_yellowcake"
+		}]
+	}]
+}

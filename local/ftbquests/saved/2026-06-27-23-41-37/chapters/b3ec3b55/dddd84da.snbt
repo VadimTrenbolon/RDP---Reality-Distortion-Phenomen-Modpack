@@ -1,0 +1,20 @@
+{
+	title: "Proteccion radioactiva",
+	icon: "hbm:hazmat_cloth",
+	x: 15.5d,
+	y: 2.0d,
+	text: [
+		"Para armadura y bloques"
+	],
+	dependencies: [
+		"697615f3"
+	],
+	tasks: [{
+		uid: "70d31327",
+		type: "item",
+		items: [{
+			item: "hbm:hazmat_cloth 4"
+		}],
+		count: 4L
+	}]
+}

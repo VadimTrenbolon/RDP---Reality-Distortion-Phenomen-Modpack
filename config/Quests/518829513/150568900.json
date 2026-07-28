@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    609522919
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "apartir de la aleacion avanzada  las herramientas y armas tendran habilidades vinmainer,toque de seda, fortuna, etc.\n\npara activarleas se da click derecho con la herramienta o con alt se puenen activar en su menu",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:alloy_pickaxe"
+      },
+      "name:8": "Habilidades en herramientas y armas",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 150568900,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

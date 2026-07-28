@@ -1,0 +1,68 @@
+{
+  "preRequisites:11": [
+    59445984
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Una vez en el bunker recolecta lo que halla no nos quedaremos mucho tiempo aqui, \nuna vez con estos ve a la mina y recolecta recurzos\n\nen el bunker encontraras:\n-comida\n-cantimplora de hierro\n-mochilas\n-herramientas\n-baterias\n-circuitos basicos",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:chest"
+      },
+      "name:8": "Recolecta, craftea y mina",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1007444247,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "travelersbackpack:travelers_backpack"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "simpledifficulty:iron_canteen",
+          "tag:10": {
+            "CanteenType:3": 3,
+            "Doses:3": 8
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "blocks:9": {
+        "0:10": {
+          "amount:3": 128,
+          "blockID:8": "minecraft:stone"
+        }
+      },
+      "index:3": 1,
+      "taskID:8": "bq_standard:block_break"
+    },
+    "2:10": {
+      "blocks:9": {
+        "0:10": {
+          "amount:3": 64,
+          "blockID:8": "minecraft:sand"
+        }
+      },
+      "index:3": 2,
+      "taskID:8": "bq_standard:block_break"
+    },
+    "3:10": {
+      "blocks:9": {
+        "0:10": {
+          "amount:3": 64,
+          "blockID:8": "minecraft:clay"
+        }
+      },
+      "index:3": 3,
+      "taskID:8": "bq_standard:block_break"
+    }
+  }
+}

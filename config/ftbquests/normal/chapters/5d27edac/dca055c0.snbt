@@ -1,0 +1,20 @@
+{
+	title: "Arsénico",
+	icon: "hbm:ingot_arsenic",
+	x: 9.0d,
+	y: -5.25d,
+	text: [
+		"Es toxico e, alternativa al vismuto en la mayoria de casos"
+	],
+	dependencies: [
+		"6f922a58"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "891854c9",
+		type: "item",
+		items: [{
+			item: "hbm:nugget_arsenic"
+		}]
+	}]
+}

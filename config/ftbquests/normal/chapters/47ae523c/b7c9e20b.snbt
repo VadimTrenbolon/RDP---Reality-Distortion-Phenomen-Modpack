@@ -1,0 +1,12 @@
+{
+	title: "Pico estelar",
+	icon: "hbm:starmetal_pickaxe",
+	x: 7.0d,
+	y: -0.5d,
+	text: [
+		"Impresionante 3"
+	],
+	dependencies: [
+		"632175db"
+	]
+}

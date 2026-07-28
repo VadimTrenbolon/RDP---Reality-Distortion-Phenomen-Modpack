@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "zerascp",
+  "modName": "zerascp",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

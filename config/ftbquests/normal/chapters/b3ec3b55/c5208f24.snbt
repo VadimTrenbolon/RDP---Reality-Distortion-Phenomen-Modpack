@@ -1,0 +1,19 @@
+{
+	title: "auto crafteo",
+	icon: "hbm:machine_autocrafter",
+	x: 3.0d,
+	y: -1.5d,
+	text: [
+		"para las granjas"
+	],
+	dependencies: [
+		"1bf5faa1"
+	],
+	tasks: [{
+		uid: "453fa7fb",
+		type: "item",
+		items: [{
+			item: "hbm:machine_autocrafter"
+		}]
+	}]
+}

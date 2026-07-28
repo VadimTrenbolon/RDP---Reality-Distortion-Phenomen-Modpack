@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1642194400
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Similar a la forma facil de conseguir schrabidium solo que tiene que ser con una bomba balefire, Por el mundo tendras que encontrar un dud balefire lo sabras por el one probe y con mnimo 100 bloques colocarlos a su alrededor luego con un detonador explotar la bomaba con tu a una distancia suficiente los bloques que esten conel fuego balefire se habran transformado",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:block_schrabidium_cluster"
+      },
+      "name:8": "enfermo paso 1",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 266069739,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 100,
+          "id:8": "hbm:block_schrabidium_cluster"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

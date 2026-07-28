@@ -1,0 +1,19 @@
+{
+	title: "Los ladrillos de la fundidora",
+	x: -10.0d,
+	y: 0.0d,
+	text: [
+		":think3:"
+	],
+	dependencies: [
+		"a6aad790"
+	],
+	tasks: [{
+		uid: "82407c39",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}],
+		count: 64L
+	}]
+}

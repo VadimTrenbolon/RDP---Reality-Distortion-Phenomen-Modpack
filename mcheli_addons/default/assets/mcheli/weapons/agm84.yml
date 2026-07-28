@@ -1,0 +1,40 @@
+﻿DisplayName: AGM-84 Harpoon
+CanLoadChunks: true
+Type: asmissile
+BaseDamage: 40
+Ballistics:
+  Acceleration: 4.0
+  AccelerationInWater: 1.0
+  Gravity: 0.0
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+Sound:
+  Locations:
+    Fire: mcheli:missile_2_snd
+Explosion:
+  Power: 9
+  DestructionPower: 9
+  Flaming: true
+Camera:
+  Sight: movesight
+Ammo:
+  MagSize: 4
+  MaxAmmo: 4
+  AmmoItems:
+  - Count: 1
+    Name: hbm:ingot_gunmetal
+    Meta: 0
+  - Count: 10
+    Name: hbm:ball_tatb
+    Meta: 0
+  - Count: 1
+    Name: hbm:circuit
+    Meta: 5
+FireCooldown: 300
+Render:
+  BulletModel: agm84
+  Smoke:
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'
+
+

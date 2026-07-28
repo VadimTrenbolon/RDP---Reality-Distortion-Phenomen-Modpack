@@ -1,0 +1,17 @@
+{
+	title: "La comia",
+	x: -13.5d,
+	y: 4.0d,
+	text: [
+		"Estos jardines lo obtienes con shift+click izquierdo en los arbustitos de comida",
+		"obtienes distintos alimentos al romperlos"
+	],
+	tasks: [{
+		uid: "8a62f068",
+		type: "item",
+		items: [{
+			item: "harvestcraft:windygarden"
+		}],
+		count: 64L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Tier 2 expensivo",
+	icon: "hbm:item_expensive 1 1",
+	x: 22.0d,
+	y: 10.0d,
+	text: [
+		"llegada al tier 2",
+		"nuevamente objeto nesesario en la extension de la linea de progreccion",
+		"",
+		"",
+		"Revisas el mecanismo, has encontrado 64 chapas"
+	],
+	dependencies: [
+		"8c7a360c"
+	],
+	size: 4.0d,
+	tasks: [{
+		uid: "dceec0dd",
+		type: "item",
+		items: [{
+			item: "hbm:item_expensive 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "874fee78",
+		type: "item",
+		item: "hbm:cap_sparkle",
+		count: 64
+	}]
+}

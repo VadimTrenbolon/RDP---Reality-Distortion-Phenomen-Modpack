@@ -1,0 +1,47 @@
+{
+	title: "armor oro",
+	x: -3.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2a97cbe9"
+	],
+	tasks: [{
+		uid: "01ba0997",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_helmet"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ece6f9ff",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_chestplate"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8da6345d",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_leggings"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0e00999e",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_boots"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

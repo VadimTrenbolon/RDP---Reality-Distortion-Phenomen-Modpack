@@ -1,0 +1,20 @@
+{
+	title: "En Saturno~~~",
+	icon: "hbm:ingot_saturnite",
+	x: 4.5d,
+	y: -0.75d,
+	text: [
+		"apesar de requerir borax, exixte un crafteo mas barato pero que da menos saturnita por mas material"
+	],
+	dependencies: [
+		"2d16715b"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "f28f166d",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_saturnite"
+		}]
+	}]
+}

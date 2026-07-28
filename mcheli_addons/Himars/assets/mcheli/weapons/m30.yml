@@ -1,0 +1,107 @@
+DisplayName: M30
+CanLoadChunks: true
+Type: tvmissile
+BaseDamage: 80
+Ballistics:
+  Acceleration: 2.0
+  AccelerationInWater: 1.0
+  Gravity: 0.0
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+Sound:
+  Locations:
+    Fire: mcheli:missile_m28_snd
+Explosion:
+  Power: 4
+  Radio: 4.0
+  DestructionPower: 4
+  ExplosionAirburst: 4
+Camera:
+  Sight: movesight
+Ammo:
+  MagSize: 6
+  MaxAmmo: 6
+  ResupplyCount: 6
+  AmmoItems:
+  - Count: 6
+    Name: hbm:shell
+    Meta: 50
+  - Count: 6
+    Name: hbm:ball_tatb
+    Meta: 0
+  - Count: 4
+    Name: hbm:rocket_fuel
+    Meta: 0
+  - Count: 3
+    Name: hbm:circuit
+    Meta: 5
+  
+FireCooldown: 50
+Mode: 2
+Render:
+  MuzzleFlashes:
+  - Distance: 2.2
+    Size: 1.8
+    Range: 0.0
+    Age: 8
+    Count: 1
+    Color: '#C8FE812C'
+  - Distance: 2.1
+    Size: 1.75
+    Range: 0.0
+    Age: 7
+    Count: 1
+    Color: '#C8FEDB68'
+  - Distance: 2.0
+    Size: 1.7
+    Range: 0.0
+    Age: 6
+    Count: 1
+    Color: '#C8FEDBB8'
+  - Distance: -4.2
+    Size: 1.8
+    Range: 0.0
+    Age: 8
+    Count: 1
+    Color: '#C8FE812C'
+  - Distance: -4.1
+    Size: 1.75
+    Range: 0.0
+    Age: 7
+    Count: 1
+    Color: '#C8FEDB68'
+  - Distance: -4.0
+    Size: 1.7
+    Range: 0.0
+    Age: 6
+    Count: 1
+    Color: '#C8FEDBB8'
+  MuzzleSmoke:
+  - Distance: 3.2
+    Size: 11.0
+    Range: 3.0
+    Age: 45
+    Count: 20
+    Color: '#DCA08C78'
+  - Distance: 4.2
+    Size: 12.0
+    Range: 6.0
+    Age: 35
+    Count: 10
+    Color: '#C8BEAA96'
+  - Distance: -5.2
+    Size: 12.0
+    Range: 3.0
+    Age: 45
+    Count: 25
+    Color: '#DCA08C78'
+  - Distance: -6.2
+    Size: 13.0
+    Range: 6.0
+    Age: 35
+    Count: 13
+    Color: '#C8BEAA96'
+  BulletModel: m28
+  Smoke:
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'

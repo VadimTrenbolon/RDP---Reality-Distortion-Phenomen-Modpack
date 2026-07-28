@@ -1,0 +1,15 @@
+{
+	title: "Particulas Acereladas",
+	icon: "hbm:pa_detector",
+	x: -23.0d,
+	y: -1.0d,
+	text: [
+		"Verdaderamente algo complejo como antes lo mejor es que te veas un tutorial siempre recomendados los de savage vegeta, aunque si este es un caso especial ya que se recomienda hacer pruebas creativas con este",
+		"",
+		"para su correcto funcionamento nesesita un sircuito de  perfluoroametyl frio para refrigerarlo pero nesesitara compresores con mejoras de velosidad nivel 3 o overcloquiada"
+	],
+	dependencies: [
+		"e5c68b46",
+		"3593425e"
+	]
+}

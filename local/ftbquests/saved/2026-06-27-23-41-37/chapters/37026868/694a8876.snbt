@@ -1,0 +1,30 @@
+{
+	title: "circuitos militares",
+	icon: "hbm:circuit 1 9",
+	x: 9.5d,
+	y: 8.0d,
+	text: [
+		"material de crafteo",
+		"",
+		"",
+		"",
+		"",
+		"Revisas el circuito, has encontrado 16 chapas"
+	],
+	dependencies: [
+		"c9c24d09"
+	],
+	tasks: [{
+		uid: "f0680d6b",
+		type: "item",
+		items: [{
+			item: "hbm:circuit 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "7ec35367",
+		type: "item",
+		item: "hbm:cap_nuka",
+		count: 16
+	}]
+}

@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "quark",
+  "modName": "Quark: RotN Edition",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

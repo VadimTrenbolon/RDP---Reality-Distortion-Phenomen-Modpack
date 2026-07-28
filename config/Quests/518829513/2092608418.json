@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    252589118
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "oro rapido, para balefire recomendado tener otro reactor para esto",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:billet_balefire_gold"
+      },
+      "name:8": "Relampago balefire",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 2092608418,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:billet_balefire_gold"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

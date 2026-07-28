@@ -1,0 +1,211 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "modpack:title.png",
+            "posX" : -150,
+            "posY" : 15,
+            "width" : 470,
+            "height" : 80,
+            "imageHeight" : 1024,
+            "imageWidgth" : 137,
+            "alignment" : "top_center"
+        },
+        
+        "edition":
+        {
+            "image" : "custommainmenu:textures/gui/edition.png",
+            "posX" : -49,
+            "posY" : 500,
+            "width" : 128,
+            "height" : 16,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -400,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -400,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -400,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -350,
+            "posY" : 120,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -350,
+            "posY" : 145,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -250,
+            "posY" : 120,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 320,
+            "posY" : 250,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -500,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -55,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other": {
+		"background": {
+			"image": "",
+			"slideshow": {
+				"images": [
+					"modpack:21.png",
+					"modpack:1.png",
+					"modpack:23.png",
+					"modpack:24.png",
+					"modpack:2.png",
+					"modpack:20.png",
+					"modpack:7.png",
+					"modpack:8.png",
+					"modpack:9.png",
+					"modpack:10.png",
+					"modpack:41.png",
+					"modpack:32.png",
+					"modpack:33.png",
+					"modpack:34.png",
+					"modpack:35.png",
+					"modpack:36.png",
+					"modpack:17.png",
+					"modpack:18.png",
+					"modpack:44.png",
+					"modpack:6.png",
+					"modpack:22.png",
+					"modpack:18.png",
+					"modpack:3.png",
+					"modpack:4.png",
+					"modpack:26.png",
+					"modpack:27.png",
+					"modpack:28.png",
+					"modpack:29.png",
+					"modpack:30.png",
+					"modpack:31.png",
+					"modpack:12.png",
+					"modpack:13.png",
+					"modpack:14.png",
+					"modpack:15.png",
+					"modpack:16.png",
+					"modpack:28.png",
+					"modpack:38.png",
+					"modpack:39.png",
+					"modpack:40.png",
+					"modpack:11.png",
+					"modpack:42.png",
+					"modpack:43.png",
+					"modpack:24.png",
+					"modpack:45.png",
+					"modpack:46.png"
+				],
+				"displayDuration": 50,
+				"fadeDuration": 100,
+				"mode":"fill"
+			}
+		}
+    }
+}

@@ -1,0 +1,21 @@
+{
+	title: "En busqueda del oro negro",
+	icon: "hbm:oil_detector",
+	x: 5.0d,
+	y: 2.0d,
+	text: [
+		"Dale click derecho para que busque en el chunk donde estes busca en varios para encontrar un deposito",
+		"aunque hay un tipo de deposito que no necesita de este encontraras tierra aceitosa en la superficie donde este junto a plana de moztasa que servira mas adelante, este tipo de deposito se extrae de otra pero similar manera mas avanzada pero que sepas que es petroleo infinito"
+	],
+	dependencies: [
+		"e1d3d9d3"
+	],
+	tasks: [{
+		uid: "31bab4c5",
+		type: "item",
+		items: [{
+			item: "hbm:oil_detector"
+		}],
+		ignore_damage: 1b
+	}]
+}

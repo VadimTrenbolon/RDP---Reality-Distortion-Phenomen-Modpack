@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    469617876
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Perfecto para materiales peligrosos",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:hev_helmet",
+        "tag:10": {
+          "charge:4": 1000000
+        }
+      },
+      "name:8": "Gordon Freeman",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 277200301,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:hev_helmet",
+          "tag:10": {
+            "charge:4": 1000000
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:hev_plate",
+          "tag:10": {
+            "charge:4": 1000000
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:hev_legs",
+          "tag:10": {
+            "charge:4": 1000000
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:hev_boots",
+          "tag:10": {
+            "charge:4": 1000000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+	title: "Que tipo de huevo es este?",
+	icon: "hbm:egg_balefire",
+	x: -2.5d,
+	y: -8.0d,
+	text: [
+		"Moriras al instante por tocarlo"
+	],
+	dependencies: [
+		"4601051e"
+	],
+	tasks: [{
+		uid: "1fdb5295",
+		type: "item",
+		items: [{
+			item: "hbm:egg_balefire"
+		}],
+		ignore_damage: 1b
+	}]
+}

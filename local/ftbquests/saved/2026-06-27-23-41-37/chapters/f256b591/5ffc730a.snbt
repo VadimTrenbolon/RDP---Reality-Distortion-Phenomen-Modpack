@@ -1,0 +1,19 @@
+{
+	title: "Anti Schrabidium",
+	icon: "hbm:particle_aschrab",
+	x: -16.5d,
+	y: 1.5d,
+	text: [
+		"Schrabidium pero anti"
+	],
+	dependencies: [
+		"45fa6745"
+	],
+	tasks: [{
+		uid: "e195df99",
+		type: "item",
+		items: [{
+			item: "hbm:particle_aschrab"
+		}]
+	}]
+}

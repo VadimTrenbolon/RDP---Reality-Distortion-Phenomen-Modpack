@@ -1,0 +1,19 @@
+{
+	title: "Core draconico",
+	icon: "draconicevolution:draconic_core",
+	x: 10.0d,
+	y: 5.5d,
+	text: [
+		"Material de crafteo"
+	],
+	dependencies: [
+		"f085f0b6"
+	],
+	tasks: [{
+		uid: "e0541d62",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}]
+	}]
+}

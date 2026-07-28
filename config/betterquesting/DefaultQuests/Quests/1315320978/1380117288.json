@@ -1,0 +1,26 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "La §aRadiación§f es emitida de ciertos items y bloques esta te enfermara mientras más alto sea el valor que de y el tiempo que estés expuesto hasta que mueras\n\nEsta se pega a los objetos que tengas en tu inventario\n\nSabrás que una §azona es radioactiva§f cuando se generen nuevs verdosas/cafés o los bloques se tornen más §7oscuros§f/§6cafés§f\n\nPara descontaminarte nesesitaras un descontaminador de jugador",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:yellow_barrel"
+      },
+      "name:8": "Radiacion",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1380117288,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:decon"
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    }
+  }
+}

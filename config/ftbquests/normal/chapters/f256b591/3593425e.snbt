@@ -1,0 +1,26 @@
+{
+	title: "jones",
+	icon: "hbm:particle_copper",
+	x: -25.5d,
+	y: -2.0d,
+	text: [
+		"q-que como? quien en iones?"
+	],
+	dependencies: [
+		"07cea204"
+	],
+	tasks: [{
+		uid: "5cb065cc",
+		type: "item",
+		items: [{
+			item: "hbm:particle_hydrogen"
+		}]
+	},
+	{
+		uid: "f87a9ee1",
+		type: "item",
+		items: [{
+			item: "hbm:particle_copper"
+		}]
+	}]
+}

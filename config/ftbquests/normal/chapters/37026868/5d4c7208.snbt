@@ -1,0 +1,20 @@
+{
+	title: "Electrolisis",
+	icon: "hbm:machine_electrolyser",
+	x: 22.75d,
+	y: 13.416666666666668d,
+	text: [
+		"con esta se dsebloquean muchos crafteos"
+	],
+	dependencies: [
+		"3bb02d13"
+	],
+	size: 1.1666666666666667d,
+	tasks: [{
+		uid: "35c13b56",
+		type: "item",
+		items: [{
+			item: "hbm:machine_electrolyser"
+		}]
+	}]
+}

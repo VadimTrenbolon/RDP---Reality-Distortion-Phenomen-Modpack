@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "scp_169",
+  "modName": "scp leviathan",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

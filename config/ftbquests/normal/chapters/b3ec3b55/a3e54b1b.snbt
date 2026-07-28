@@ -1,0 +1,19 @@
+{
+	title: "Para tomates y jalapeños",
+	x: -6.5d,
+	y: 5.0d,
+	text: [
+		"Solo requieres colocar el palo sobre la tierra y colocar la semilla en el palo, mientras mas palos pongas arriba mas crecera sobre este"
+	],
+	dependencies: [
+		"c2bf04fa"
+	],
+	tasks: [{
+		uid: "a77538ff",
+		type: "item",
+		items: [{
+			item: "rustic:crop_stake"
+		}],
+		count: 2L
+	}]
+}

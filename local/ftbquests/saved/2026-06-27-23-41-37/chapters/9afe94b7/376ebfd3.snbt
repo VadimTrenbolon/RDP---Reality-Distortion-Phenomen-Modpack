@@ -1,0 +1,19 @@
+{
+	title: "BSCCO",
+	icon: "hbm:ingot_bscco",
+	x: -8.0d,
+	y: -4.5d,
+	text: [
+		"BuSCa CerrOs"
+	],
+	dependencies: [
+		"d5e4f258"
+	],
+	tasks: [{
+		uid: "ca8224bf",
+		type: "item",
+		items: [{
+			item: "hbm:wire_dense 1 48"
+		}]
+	}]
+}

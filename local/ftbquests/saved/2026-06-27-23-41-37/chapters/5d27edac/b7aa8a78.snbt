@@ -1,0 +1,19 @@
+{
+	title: "La quarry vro",
+	icon: "hbm:machine_mining_laser",
+	x: -6.0d,
+	y: -22.5d,
+	text: [
+		"Esta maquinita se coloca arriba de la zona eleguida picando un 3x3 lo cual mucho no es pero se le pueden poner mejoras para aumentar ese radio, mejorar la velozidad y mas, dentro de este encontraras las mejoras que este acepta, al encontrarse con petroleo este lo extraera"
+	],
+	dependencies: [
+		"dc586c7d"
+	],
+	tasks: [{
+		uid: "0f4e45f0",
+		type: "item",
+		items: [{
+			item: "hbm:machine_mining_laser"
+		}]
+	}]
+}

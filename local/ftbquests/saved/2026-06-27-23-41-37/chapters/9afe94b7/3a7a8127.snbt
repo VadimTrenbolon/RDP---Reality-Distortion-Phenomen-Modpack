@@ -1,0 +1,20 @@
+{
+	title: "Residuos",
+	icon: "hbm:machine_storage_drum",
+	x: -8.5d,
+	y: 0.5d,
+	text: [
+		"Los residuos dejado por el combustible gastado del rbmk pasados por silex daran pepitas de residuos nucleares de corta o larga vida estos deberan pasar dentro del tambor hasta descomponerse para volver a ser pasados por silex"
+	],
+	dependencies: [
+		"a4238592",
+		"ec9a0d4f"
+	],
+	tasks: [{
+		uid: "bd75390a",
+		type: "item",
+		items: [{
+			item: "hbm:machine_storage_drum"
+		}]
+	}]
+}

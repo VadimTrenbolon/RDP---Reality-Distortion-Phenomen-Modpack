@@ -1,0 +1,21 @@
+{
+	title: "Nos Invaden chat",
+	icon: "hbm:spawn_ufo",
+	x: -3.5d,
+	y: -15.5d,
+	text: [
+		"Una batalla bastante dificil, espero que no lo infecten"
+	],
+	dependencies: [
+		"d237abc5",
+		"ac9aa5b9"
+	],
+	tasks: [{
+		uid: "7589fe5f",
+		type: "item",
+		items: [{
+			item: "hbm:spawn_ufo"
+		}],
+		ignore_damage: 1b
+	}]
+}

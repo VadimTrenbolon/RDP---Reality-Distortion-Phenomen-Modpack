@@ -1,0 +1,12 @@
+{
+	title: "relampago gaastado",
+	icon: "hbm:rbmk_pellet_balefire_gold",
+	x: -5.5d,
+	y: -11.0d,
+	text: [
+		"No nesesariamente tiene que ser la cantidad de agotamiento pedida por la misiom"
+	],
+	dependencies: [
+		"65ac8aea"
+	]
+}

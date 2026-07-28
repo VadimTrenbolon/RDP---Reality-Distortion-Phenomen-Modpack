@@ -1,0 +1,18 @@
+{
+	title: "Mango de herramientas",
+	x: -2.0d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b5bef591"
+	],
+	tasks: [{
+		uid: "217ee9d6",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 2"
+		}]
+	}]
+}

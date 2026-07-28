@@ -1,0 +1,19 @@
+{
+	title: "Proceso quantico",
+	icon: "hbm:circuit 1 15",
+	x: -17.5d,
+	y: -3.5d,
+	text: [
+		"Material de crafteios"
+	],
+	dependencies: [
+		"11aa3393"
+	],
+	tasks: [{
+		uid: "d7c83de2",
+		type: "item",
+		items: [{
+			item: "hbm:circuit 1 15"
+		}]
+	}]
+}

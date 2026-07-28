@@ -1,0 +1,5 @@
+{
+  "name": "dungeon",
+  "loadDefault": true,
+  "spawnEggName": "dungeonspawn"
+}

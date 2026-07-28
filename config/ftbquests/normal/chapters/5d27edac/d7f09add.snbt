@@ -1,0 +1,85 @@
+{
+	title: "Modo pasifico",
+	icon: "rftools:peaceful_module",
+	x: 6.0d,
+	y: -9.0d,
+	text: [
+		"Los parasitos no spawnearan esn estas zonas, solo los mal programados como pasifics o los con formas especiales de spawnear como dispachers y los que esta mueve",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"Mira we la verda la wea no funciona, por ello obligadamente tendras que usar el reward para este y solo se obtiene de aqui, no se puede craftear ni nada este",
+		"seras kickiao si solo usas este sin tener el enviromental controller tomando energuia"
+	],
+	dependencies: [
+		"fd38e45f"
+	],
+	tasks: [{
+		uid: "e96cd4cb",
+		type: "item",
+		items: [{
+			item: "rftools:peaceful_module"
+		}]
+	}],
+	rewards: [{
+		uid: "a5077629",
+		type: "item",
+		item: "mobinhibitor:mobinhibitor_hostile",
+		count: 3
+	},
+	{
+		uid: "151333fd",
+		type: "item",
+		item: "mobinhibitor:mobinhibitor_water"
+	},
+	{
+		uid: "d7f7cdc2",
+		type: "item",
+		item: "mobinhibitor:mobinhibitor_passive"
+	}]
+}

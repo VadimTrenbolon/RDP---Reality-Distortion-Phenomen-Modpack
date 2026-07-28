@@ -1,0 +1,21 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Este modpack especialmente estas priemeras versiones estan enfocadas en un §4§4§4SERVER§f§f§f.\nPor ello tenlo en cuenta si simplemente encontraste este en curse, que hay cosas para multijugador como lo son facciones, voice chat y demas\n\nEste tambien tene lore que se contara a medida que las misiones avancen aunque se puede inferir viendo las estructuras custom, por el trailer o por el hecho de que sea §2§2§2Post-Apocaliptico§f§f§f.\n\nConsejo rapido: puedes pregenerar el mundo colocando en el chat \"/pregen stat gen radius squere 0 0 (cantidad de chunks)\"\n\nCaracteristicas rapidas:\n\n-§k§r§k§r§l§nLas misiones son una guia mas no son obligatorias tanto seguirlas como hacerlas§f\n\n-Los dias y noches duran §n§e§r§r§e§n1 hora y 20 minutos§f\n\n-Los arboles caen de una\n\n-Apesar de que este §3ice§f and §6fire§f la generacion de los ddragones esta desactivada, solo se generaran en estructuras especificas y peligrosas ya no solo por el propio dragon siende este de fase 4-5\n\n-El libro inicial de Enigmatic Legacy cirve como arma cuerpo a cuerpo con aspecto igneo\n\n-Los §4parasitos§f llegaran entre el §4§ndia 31-61§f\n\n-Las recetas iniciales de algunos mods an sido cambiadas para integrarlos con otros por ello hay que seguir el principio de estas misiones para iniciar en algunos mods\n\n-Las explicaciones de la mayoria de los mods no se explanearan mucho para ellos ya hay tutoriales en yutube que es mas facil de ver\n\n§nDatos Para server:§f\n\n-Hay voice chat dale a la §aV§f para configurar\n\n-§4No no hay mod para revivir jugadores§f (ta buged)\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "hbm:book_guide_book"
+      },
+      "name:8": "Este modpack...",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 492566553,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

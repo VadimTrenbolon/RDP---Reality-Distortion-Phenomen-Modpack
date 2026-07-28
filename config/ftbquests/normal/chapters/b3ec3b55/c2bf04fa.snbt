@@ -1,0 +1,32 @@
+{
+	title: "seeds",
+	x: -8.0d,
+	y: 5.0d,
+	text: [
+		"Formas diversas de plantar"
+	],
+	dependencies: [
+		"2c95ae90"
+	],
+	tasks: [{
+		uid: "b8da7447",
+		type: "item",
+		items: [{
+			item: "rustic:tomato_seeds"
+		}]
+	},
+	{
+		uid: "54851134",
+		type: "item",
+		items: [{
+			item: "rustic:chili_pepper_seeds"
+		}]
+	},
+	{
+		uid: "5e8fbaff",
+		type: "item",
+		items: [{
+			item: "rustic:grape_stem"
+		}]
+	}]
+}

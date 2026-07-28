@@ -1,0 +1,28 @@
+{
+	title: "Mejoras campo de fuerza",
+	icon: "hbm:upgrade_radius",
+	x: 3.0d,
+	y: -9.5d,
+	text: [
+		"se crea con asi que ya las conozes"
+	],
+	dependencies: [
+		"e2dd8e3b"
+	],
+	tasks: [{
+		uid: "612ffcd5",
+		type: "item",
+		items: [{
+			item: "hbm:upgrade_radius 16"
+		}],
+		count: 16L
+	},
+	{
+		uid: "dcca611b",
+		type: "item",
+		items: [{
+			item: "hbm:upgrade_health 16"
+		}],
+		count: 16L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Acero Cumbinado",
+	icon: "hbm:ingot_combine_steel",
+	x: -9.75d,
+	y: -10.5d,
+	text: [
+		"Nos invaden vro",
+		"",
+		"",
+		"",
+		"accidentalmente se te cae el lingote, te agachas para tomarlo, has encontrado  algo"
+	],
+	dependencies: [
+		"cdb78869"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "8c83f10f",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_combine_steel"
+		}]
+	}],
+	rewards: [{
+		uid: "dd6197c0",
+		type: "item",
+		item: {
+			id: "hbm:blueprints",
+			tag: {
+				pool: "discover.gerald"
+			}
+		}
+	}]
+}

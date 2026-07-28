@@ -1,0 +1,116 @@
+{
+  "name": "crychnid",
+  "creatureType": "golem",
+  "groups": [
+    "monster"
+  ],
+  "entityClass": "com.lycaniteadditions.core.entity.creature.entitycrychnid",
+  "modelClass": "com.lycaniteadditions.client.model.modelcrychnid",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "underground"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [],
+    "spawnWeight": 2,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 1,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 2,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 1.9,
+  "height": 1.5,
+  "experience": 10,
+  "health": 30,
+  "defense": 2,
+  "armor": 1,
+  "speed": 14,
+  "damage": 3,
+  "attackSpeed": 1,
+  "rangedSpeed": 0.25,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#A4D579",
+  "eggForeColor": "#06030C",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "cobalt",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "violet",
+          "type": "uncommon"
+        },
+        {
+          "index": 3,
+          "name": "ancient",
+          "scale": 2,
+          "type": "rare"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    "arcane",
+    "earth"
+  ],
+  "diets": [
+    "geovore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": true,
+  "mountable": false,
+  "summonCost": 6,
+  "dungeonLevel": 2,
+  "drops": [
+    {
+      "item": "minecraft:coal",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:diamond",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.05
+    },
+    {
+      "item": "minecraft:redstone",
+      "minAmount": 1,
+      "maxAmount": 6,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:soulstone_golem",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 1,
+      "variant": 3,
+      "bonusAmount": false
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

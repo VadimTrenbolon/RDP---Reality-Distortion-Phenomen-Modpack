@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    469965414
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Dios",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:particle_higgs"
+      },
+      "name:8": "Bosson de higgs",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 796402142,
+  "tasks:9": {}
+}

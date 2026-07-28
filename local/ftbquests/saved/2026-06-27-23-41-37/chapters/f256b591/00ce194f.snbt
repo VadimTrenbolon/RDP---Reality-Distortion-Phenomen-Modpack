@@ -1,0 +1,20 @@
+{
+	title: "enfermo paso 1",
+	icon: "hbm:block_schrabidium_cluster",
+	x: -12.0d,
+	y: -9.0d,
+	text: [
+		"Similar a la forma facil de conseguir schrabidium solo que tiene que ser con una bomba balefire, Por el mundo tendras que encontrar un dud balefire lo sabras por el one probe y con mnimo 100 bloques colocarlos a su alrededor luego con un detonador explotar la bomaba con tu a una distancia suficiente los bloques que esten conel fuego balefire se habran transformado"
+	],
+	dependencies: [
+		"75910d35"
+	],
+	tasks: [{
+		uid: "36533894",
+		type: "item",
+		items: [{
+			item: "hbm:block_schrabidium_cluster 100"
+		}],
+		count: 100L
+	}]
+}

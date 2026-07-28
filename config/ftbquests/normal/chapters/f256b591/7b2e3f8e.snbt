@@ -1,0 +1,19 @@
+{
+	title: "eufemio paso 2",
+	icon: "hbm:block_euphemium_cluster",
+	x: -14.5d,
+	y: -7.5d,
+	text: [
+		"La forma mas \"facil\" de consegirlocetrifugalo y obten eufemio"
+	],
+	dependencies: [
+		"00ce194f"
+	],
+	tasks: [{
+		uid: "020c39a9",
+		type: "item",
+		items: [{
+			item: "hbm:block_euphemium_cluster"
+		}]
+	}]
+}

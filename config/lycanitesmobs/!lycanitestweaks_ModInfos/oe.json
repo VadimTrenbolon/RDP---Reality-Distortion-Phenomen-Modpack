@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "oe",
+  "modName": "Oceanic Expanse",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

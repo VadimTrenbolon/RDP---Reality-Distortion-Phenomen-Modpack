@@ -1,0 +1,29 @@
+{
+	title: "Para uvas",
+	x: -6.5d,
+	y: 4.0d,
+	text: [
+		"Colocas un palo apartir del bloque de al lado cuentas 1, 2 ,3 y en el cuarto bloque colocas el siguente palo ",
+		"ahora otro palo arriba de los palos y colocas la cuerda hasta que los dos palos esten conectados",
+		"en el medio de estos va la tierra con las semillas de uva"
+	],
+	dependencies: [
+		"c2bf04fa"
+	],
+	tasks: [{
+		uid: "8d7f4019",
+		type: "item",
+		items: [{
+			item: "rustic:crop_stake"
+		}],
+		count: 4L
+	},
+	{
+		uid: "ea601d60",
+		type: "item",
+		items: [{
+			item: "rustic:rope"
+		}],
+		count: 6L
+	}]
+}

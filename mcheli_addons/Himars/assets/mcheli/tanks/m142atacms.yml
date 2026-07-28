@@ -1,0 +1,176 @@
+DisplayName:
+  DEFAULT: m142atacms
+  ru_ru: M142 HIMARS [ATACMS]
+  en_us: M142 HIMARS [ATACMS]
+Category: ZZZ
+MaxFuel: 1500
+MaxHP: 100
+FuelConsumption: 2.5
+RepairOtherVehicles:
+  Range: 0.0
+  Value: 10
+Camera:
+  ThirdPersonDist: 15.0
+  Zoom: 4
+  DefaultFreeLook: true
+  RotationSpeed: 35.0
+  Pos:
+  - Pos: [0.0, 0.35, 0.0]
+Sound:
+  MoveSound: mcheli:mbt_run
+PhysicalProperties:
+  Speed: 0.85
+  MotionFactor: 0.9
+  Gravity: -0.1
+  GravityInWater: -0.1
+  StepHeight: 1.5
+  PivotTurnThrottle: 0.1
+  Mobility:
+    Roll: 0.0
+    YawOnGround: 2.0
+  GroundPitchFactors:
+    Pitch: 2.0
+    Roll: 1.3
+  RotationLimits:
+    Pitch:
+      Min: -65.0
+      Max: 0.0
+Armor:
+  ArmorDamageFactor: 0.95
+  ArmorMinDamage: 10.0
+  ArmorMaxDamage: 280.0
+  DamageFactor: 0.0
+Weapons:
+- Type: none
+  Position: [0.0, 2.832, -2.905]
+  MinYaw: -180.0
+  MaxYaw: 180.0
+  MinPitch: -80.0
+  MaxPitch: 7.0
+- Type: mgm140
+  Position: [0.0, 2.832, -2.905]
+  SeatID: 2
+  CanUsePilot: false
+  MinYaw: -180.0
+  MaxYaw: 180.0
+  MinPitch: -80.0
+  MaxPitch: 7.0
+- Type: mgm140cluster
+  Position: [0.0, 2.832, -2.905]
+  SeatID: 2
+  CanUsePilot: false
+  MinYaw: -180.0
+  MaxYaw: 180.0
+  MinPitch: -80.0
+  MaxPitch: 7.0
+Seats:
+- Position: [0.962, 2.1, 4.525]
+  Hud: bnr32_hud
+- Position: [-0.958, 2.1, 4.525]
+  Gunner: true
+  MinPitch: -60.0
+  MaxPitch: 60.0
+  InvCamPos: true
+  Camera:
+    Pos: [0.002, 5.241, 4.162]
+  Hud: mbt_hud
+RideRack:
+  c5: 2
+  c5m: 2
+BoundingBoxes:
+- Type: DEFAULT
+  Position: [0.0, 2.657, -3.873]
+  Size: [4.0, 2.0, 4.0]
+  DamageFactor: 2.1
+- Type: DEFAULT
+  Position: [0.0, 2.657, -1.839]
+  Size: [4.0, 2.0, 4.0]
+  DamageFactor: 2.1
+- Type: DEFAULT
+  Position: [0.0, 0.746, -3.08]
+  Size: [4.0, 2.0, 4.0]
+- Type: DEFAULT
+  Position: [0.0, 1.176, 0.834]
+  Size: [4.0, 4.0, 4.0]
+- Type: DEFAULT
+  Position: [-0.656, 2.174, 1.383]
+  Size: [1.0, 1.0, 1.0]
+- Type: DEFAULT
+  Position: [0.677, 2.174, 1.383]
+  Size: [1.0, 1.0, 1.0]
+Wheels:
+  Hitboxes:
+  - Position: [1.74, -0.47, 7.16]
+  - Position: [1.74, -0.47, 1.57]
+  - Position: [1.74, -0.47, -0.6]
+AircraftFeatures:
+  CanReverse: true
+  ThrottleUpDown: 3.0
+  ImpactAngles:
+    Entries:
+    - - 0.0
+      - 1.0
+TankFeatures:
+  WeightType: CAR
+  WeightedCenterZ: 0.0
+Components:
+  Canopy:
+  - Position: [-1.796, 2.777, 5.514]
+    Rotation: [0.0, 1.0, 0.0]
+    PartName: canopy0
+    MaxRotation: 0.6666667
+  - Position: [-1.796, 2.777, 5.514]
+    Rotation: [0.0, 1.0, 0.0]
+    PartName: canopy
+    MaxRotation: 0.6666667
+  - Position: [1.795, 2.774, 5.508]
+    Rotation: [0.0, 1.0, 0.0]
+    PartName: canopy1
+    MaxRotation: -0.6666667
+  SteeringWheel:
+  - Position: [0.909, 2.554, 4.963]
+    Rotation: [0.0, 1.0, -2.145]
+    PartName: steering_wheel0
+    Direction: 130.0
+    Pivot: [0.909, 2.554, 4.963]
+  Wheel:
+  - Position: [1.55, 0.597, 3.865]
+    Rotation: [0.0, 1.0, 0.0]
+    PartName: wheel0
+    Direction: 0.0
+    Pivot: [1.55, 0.597, 3.865]
+  - Position: [1.55, 0.597, -1.721]
+    Rotation: [0.0, 1.0, 0.0]
+    PartName: wheel1
+    Direction: 0.0
+    Pivot: [1.55, 0.597, -1.721]
+  - Position: [1.55, 0.597, -3.564]
+    Rotation: [0.0, 1.0, 0.0]
+    PartName: wheel2
+    Direction: 0.0
+    Pivot: [1.55, 0.597, -3.564]
+  - Position: [-1.551, 0.597, 3.866]
+    Rotation: [0.0, 1.0, 0.0]
+    PartName: wheel3
+    Direction: 0.0
+    Pivot: [-1.551, 0.597, 3.866]
+  - Position: [-1.551, 0.597, -1.721]
+    Rotation: [0.0, 1.0, 0.0]
+    PartName: wheel4
+    Direction: 0.0
+    Pivot: [-1.551, 0.597, -1.721]
+  - Position: [-1.551, 0.597, -3.564]
+    Rotation: [0.0, 1.0, 0.0]
+    PartName: wheel5
+    Direction: 0.0
+    Pivot: [-1.551, 0.597, -3.564]
+  Weapon:
+  - Position: [0.0, 1.747, -3.659]
+    Rotation: [0.0, 0.0, 0.0]
+    PartName: weapon0
+    WeaponNames: mgm140/mgm140cluster
+    Yaw: true
+    Children:
+    - Position: [0.0, 1.785, -5.186]
+      Rotation: [0.0, 0.0, 0.0]
+      Pitch: true

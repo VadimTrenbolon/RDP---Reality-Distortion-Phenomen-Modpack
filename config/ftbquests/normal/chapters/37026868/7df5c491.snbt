@@ -1,0 +1,28 @@
+{
+	title: "circuitos avanzados",
+	icon: "hbm:circuit 1 8",
+	x: 10.0d,
+	y: 7.0d,
+	text: [
+		"Material de crafteo",
+		"",
+		"",
+		"Revisas el circuito, has encontrado 16 chapas"
+	],
+	dependencies: [
+		"c9c24d09"
+	],
+	tasks: [{
+		uid: "65f5d502",
+		type: "item",
+		items: [{
+			item: "hbm:circuit 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "82d357fd",
+		type: "item",
+		item: "hbm:cap_nuka",
+		count: 16
+	}]
+}

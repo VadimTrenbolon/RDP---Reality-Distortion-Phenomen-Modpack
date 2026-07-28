@@ -1,0 +1,36 @@
+{
+	title: "irradiar uranio?",
+	icon: "hbm:yellow_barrel",
+	x: 0.0d,
+	y: -13.0d,
+	text: [
+		"los barriles con desechos radioactivos apesar de nesesitar un reactor watz o PWR para su creacion pueden ser encontrados en una estructura nuclear encontrada en el desierto",
+		"",
+		"con minimo 100 de uranio en mene colocados en un area cubica, con el centro ubicado a 15 bloques de altura el barril debera ir mejor si esta encerrado en concreto, con una carga explosiva deberas explotar el barril y irradiar el uranio colocado"
+	],
+	dependencies: [
+		"175e2623"
+	],
+	tasks: [{
+		uid: "cf53eb12",
+		type: "item",
+		items: [{
+			item: "hbm:yellow_barrel"
+		}]
+	},
+	{
+		uid: "da3b3de7",
+		type: "item",
+		items: [{
+			item: "hbm:det_charge"
+		}]
+	},
+	{
+		uid: "4b1c0d30",
+		type: "item",
+		items: [{
+			item: "hbm:ore_uranium 100"
+		}],
+		count: 100L
+	}]
+}

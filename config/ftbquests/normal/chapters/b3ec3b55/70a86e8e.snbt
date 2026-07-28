@@ -1,0 +1,19 @@
+{
+	title: "Accesorios de armadura",
+	icon: "hbm:machine_armor_table",
+	x: 4.5d,
+	y: 2.5d,
+	text: [
+		"seguramente te habras encontrado con accesorios raros, no se pueden colocar en el baubles esto es porque son del ntm, estos van en la armadura y se colocan con esto"
+	],
+	dependencies: [
+		"1bf5faa1"
+	],
+	tasks: [{
+		uid: "9cb259a4",
+		type: "item",
+		items: [{
+			item: "hbm:machine_armor_table"
+		}]
+	}]
+}

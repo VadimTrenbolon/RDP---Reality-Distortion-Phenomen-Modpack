@@ -1,0 +1,19 @@
+{
+	title: "64k",
+	icon: "refinedstorage:storage_part 1 3",
+	x: 4.0d,
+	y: 6.5d,
+	text: [
+		"64 bits"
+	],
+	dependencies: [
+		"bbc2f089"
+	],
+	tasks: [{
+		uid: "bf1fc7ae",
+		type: "item",
+		items: [{
+			item: "refinedstorage:storage_part 1 3"
+		}]
+	}]
+}

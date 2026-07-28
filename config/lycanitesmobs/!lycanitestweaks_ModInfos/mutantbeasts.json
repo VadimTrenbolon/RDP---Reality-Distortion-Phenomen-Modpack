@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "mutantbeasts",
+  "modName": "Mutant Creatures Legacy",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

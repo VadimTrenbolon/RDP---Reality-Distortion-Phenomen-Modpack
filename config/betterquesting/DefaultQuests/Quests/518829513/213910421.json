@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1781235922
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Su propocito no es generar energuia si no que investigar\nCon el flux generado transformar materia en otra o irradiar objetos\n\nREQUIERE ESTAR DENDRO DE UNA PICINA PARA QUE LA RADIACION NO AFECTE AL AMBIENTE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_reactor_small_new"
+      },
+      "name:8": "Reactor de investigacion",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 213910421,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_reactor_small_new"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_reactor_breeding"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

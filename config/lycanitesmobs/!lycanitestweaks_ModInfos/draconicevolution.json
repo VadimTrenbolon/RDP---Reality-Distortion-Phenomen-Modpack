@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "draconicevolution",
+  "modName": "Draconic Evolution",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

@@ -1,0 +1,45 @@
+{
+	title: "Armor cuero",
+	x: -4.5d,
+	y: 0.0d,
+	text: [
+		"Progrecion de armoduras"
+	],
+	tasks: [{
+		uid: "a3d5f0fb",
+		type: "item",
+		items: [{
+			item: "minecraft:leather_helmet"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5bf12dfa",
+		type: "item",
+		items: [{
+			item: "minecraft:leather_chestplate"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "79a33220",
+		type: "item",
+		items: [{
+			item: "minecraft:leather_leggings"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a0204ccf",
+		type: "item",
+		items: [{
+			id: "minecraft:leather_boots",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

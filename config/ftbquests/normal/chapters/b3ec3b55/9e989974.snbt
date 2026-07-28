@@ -1,0 +1,19 @@
+{
+	title: "Brillante",
+	icon: "hbm:cap_rad",
+	x: 14.5d,
+	y: 5.5d,
+	text: [
+		"spawnean en estructuras, tiene 250 de vida y regeneracion constante"
+	],
+	dependencies: [
+		"7431acf8",
+		"ff69bc3b"
+	],
+	tasks: [{
+		uid: "10f51a34",
+		type: "kill",
+		entity: "hbm:entity_glowing_one",
+		value: 0L
+	}]
+}

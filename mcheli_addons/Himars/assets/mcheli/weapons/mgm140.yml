@@ -1,0 +1,104 @@
+DisplayName: MGM-140 ATACMS [HE]
+CanLoadChunks: true
+Type: rocket
+Group: rocket
+BaseDamage: 600
+Ballistics:
+  Acceleration: 3.5
+  AccelerationInWater: 1.0
+  Gravity: -0.01
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+Sound:
+  Volume: 5.5
+  Locations:
+    Fire: mcheli:missile_mgm140_snd
+Explosion:
+  Power: 30
+  Radio: 30.0
+  DestructionPower: 12
+  ExplosionAirburst: 30
+Camera:
+  DisplayMortarDistance: true
+  FixPitch: true
+Ammo:
+  ReloadTime: 1000
+  MagSize: 1
+  MaxAmmo: 1
+  AmmoItems:
+  - Count: 1
+    Name: hbm:missile_generic
+    Meta: 0
+  - Count: 4
+    Name: hbm:rocket_fuel
+    Meta: 0
+FireCooldown: 50
+Accuracy: 0.1
+Render:
+  MuzzleFlashes:
+  - Distance: 2.2
+    Size: 1.8
+    Range: 0.0
+    Age: 8
+    Count: 1
+    Color: '#C8FE812C'
+  - Distance: 2.1
+    Size: 1.75
+    Range: 0.0
+    Age: 7
+    Count: 1
+    Color: '#C8FEDB68'
+  - Distance: 2.0
+    Size: 1.7
+    Range: 0.0
+    Age: 6
+    Count: 1
+    Color: '#C8FEDBB8'
+  - Distance: -4.2
+    Size: 1.8
+    Range: 0.0
+    Age: 8
+    Count: 1
+    Color: '#C8FE812C'
+  - Distance: -4.1
+    Size: 1.75
+    Range: 0.0
+    Age: 7
+    Count: 1
+    Color: '#C8FEDB68'
+  - Distance: -4.0
+    Size: 1.7
+    Range: 0.0
+    Age: 6
+    Count: 1
+    Color: '#C8FEDBB8'
+  MuzzleSmoke:
+  - Distance: 3.2
+    Size: 11.0
+    Range: 3.0
+    Age: 45
+    Count: 20
+    Color: '#DCA08C78'
+  - Distance: 4.2
+    Size: 12.0
+    Range: 6.0
+    Age: 35
+    Count: 10
+    Color: '#C8BEAA96'
+  - Distance: -5.2
+    Size: 12.0
+    Range: 3.0
+    Age: 45
+    Count: 25
+    Color: '#DCA08C78'
+  - Distance: -6.2
+    Size: 13.0
+    Range: 6.0
+    Age: 35
+    Count: 13
+    Color: '#C8BEAA96'
+  BulletModel: mgm140
+  TrajectoryParticle: largeexplode
+  Smoke:
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'

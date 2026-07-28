@@ -1,0 +1,20 @@
+{
+	title: "Le varrier",
+	icon: "hbm:ingot_desh",
+	x: 16.0d,
+	y: 6.666666666666667d,
+	text: [
+		"Felisidades has conseguido desh y con ello a tier 2 en cuanto a aleaciones"
+	],
+	dependencies: [
+		"7d912a2e"
+	],
+	size: 1.3333333333333333d,
+	tasks: [{
+		uid: "ef610b97",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_desh"
+		}]
+	}]
+}

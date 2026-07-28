@@ -1,0 +1,298 @@
+{
+	enabled: true
+	blankSlate: false
+	replaceableBlocks: [ "stone", "dirt", "sandstone" ]
+	replaceDecorators: true
+	biomes: { 
+		types: [ "MESA", "SANDY", "HOT", "DRY", "DESERT"  ]
+	}
+	rooms: {
+		scale: 2
+		scaleY: 0.3
+	}
+	tunnels: {
+		frequency: 35
+		minHeight: 160
+		maxHeight: 250
+		distance: 60
+		systemChance: 0.7
+		noiseYReduction: true
+		resizeBranches: true
+		scale: {
+			randFactor: 1.5
+			startVal: 5
+			startValRandFactor: 1.5
+		}
+		scaleY: {
+			randFactor: 2
+			startVal: 0.25
+		}
+		noise3D: {
+			frequency: 0.02
+			scale: 0.4
+			scaleY: 0.33
+			type: Cellular
+			returnType: Distance3Div
+			jitter: 1
+			perturb: true
+			perturbAmp: 10
+			perturbFreq: 0.025
+			invert: true
+		}
+	}
+	wallDecorators: [
+	{
+		states: sand
+		minHeight: 160
+		maxHeight: 250
+		chance: 0.3
+		matchers: [ "stone", "dirt", "sandstone" ]
+		directions: [ "down", "side" ]
+		preference: replace_match
+		noise3d: {
+			type: Perlin
+			frequency: 0.6
+		}
+	}
+	{
+		states: sandstone
+		chance: 0.2
+		minHeight: 160
+		maxHeight: 250
+		matchers: stone
+		directions: all
+		preference: replace_match
+	}
+	{
+		states: stone
+		chance: 0.1
+		minHeight: 160
+		maxHeight: 250
+		matchers: sand
+		directions: all
+		preference: replace_match
+		noise3d: {}
+	}
+	{
+		states: dirt
+		chance: 0.15
+		minHeight: 160
+		maxHeight: 250
+		matchers: sand
+		directions: all
+		preference: replace_match
+		noise3d: {}
+	}
+	{
+		states: gravel
+		chance: 0.3
+		minHeight: 160
+		maxHeight: 250
+		directions: down
+		matchers: [ "stone", "stone:5", "dirt", "sandstone" ]
+		preference: replace_match
+		noise3d: {
+			type: Perlin
+			frequency: 0.6
+		}
+    }
+	{
+		states: glowstone
+		chance: 0.0008
+		minHeight: 160
+		maxHeight: 250
+		directions: [ "side", "up" ]
+		matchers: [ "stone", "stone:5", "dirt", "sandstone", "sand" ]
+		preference: replace_original
+    }
+	{
+      states: deadbush
+      chance: 0.05
+      minHeight: 160
+	  maxHeight: 250
+      directions: down
+      matchers: sand
+      preference: replace_original
+    }
+	]
+	largeStalactites: [
+    {
+      state: sand
+      wide: false
+      maxLength: 2
+      minHeight: 160
+      maxHeight: 250
+      matchers: [ "stone", "stone:5", "dirt", "sandstone" ]
+	  chance: 0.3
+      noise2D: { frequency: 0.2 }
+    }
+    {
+      state: sandstone
+	  wide: true
+      maxLength: 6
+      minHeight: 160
+      maxHeight: 250
+      chance: 0.3
+      matchers: [ "stone", "sandstone" ]
+    }
+  ]
+	giantPillars: [
+    { 
+       state: sandstone:2
+       stairBlock: sandstone_stairs
+       frequency: 30
+       minHeight: 160
+       maxHeight: 250
+       minLength: 4
+       maxLength: 12
+    }
+	{ 
+       state: sandstone:1
+       stairBlock: sandstone_stairs
+       frequency: 10
+       minHeight: 160
+       maxHeight: 250
+       minLength: 4
+       maxLength: 12
+    }
+		{ 
+       state: quartz_block:2
+       stairBlock: quartz_stairs
+       frequency: 5
+       minHeight: 160
+       maxHeight: 250
+       minLength: 4
+       maxLength: 8
+    }
+	]
+	structures: [
+	{
+		name: ruinsandstone1_skeleton
+		offset: [ 0, 0, 0 ]
+		integrity: 1.0
+		matchers: [ "stone", "sandstone", "sand", "gravel" ]
+		solidMatchers: [
+			[0, -1, 0],
+			[2, -1, 0]
+			[-2, -1, 0]
+			[0, -1, 2]
+			[0, -1, -2]
+		]
+		directions: down
+		frequency: 2
+		chance: 0.15
+		minHeight: 160
+		maxHeight: 250
+		noise2D: {}
+		
+    }
+	{
+		name: deserttomb1_skeleton
+		offset: [ 0, 0, 0 ]
+		integrity: 1
+		matchers: [ "stone", "sandstone", "sand", "gravel" ]
+		directions: down
+		solidMatchers: [
+			[0, -1, 0]
+		]
+		frequency: 2
+		chance: 0.1
+		minHeight: 160
+		maxHeight: 250
+		rotateRandomly: true
+    }
+	{
+		name: deserttomb2_skeleton
+		offset: [ 0, -1, 0 ]
+		integrity: 1
+		matchers: [ "stone", "sandstone", "sand", "gravel" ]
+		solidMatchers: [
+			[0, -1, 0]
+		]
+		directions: down
+		frequency: 2
+		chance: 0.08
+		minHeight: 160
+		maxHeight: 250
+		rotateRandomly: true
+    }
+	{
+		name: deserttomb3_skeleton
+		offset: [ 0, -1, 0 ]
+		integrity: 1
+		matchers: [ "stone", "sandstone", "sand", "gravel" ]
+		solidMatchers: [
+			[0, -1, 0]
+		]
+		directions: down
+		frequency: 2
+		chance: 0.08
+		minHeight: 160
+		maxHeight: 250
+		rotateRandomly: true
+    }
+	{
+		name: "desertdungeonsmall1_ashen"
+		offset: [0, -1, 0]
+		integrity: 1
+		matchers: [ "stone", "sandstone", "sand", "gravel" ]
+		directions: [ "down", "side" ]
+		frequency: 2
+		chance: 0.025
+		minHeight: 160
+		maxHeight: 250
+		rotateRandomly: true	
+    }
+
+	{
+		name: "desertdungeonmedium1"
+		offset: [ 0, -1, 0 ]
+		integrity: 1
+		matchers: [ "stone", "sandstone", "sand", "gravel" ]
+		directions: [ "down", "side" ]
+		frequency: 2
+		chance: 0.015
+		minHeight: 160
+		maxHeight: 250
+		rotateRandomly: true
+    }
+		{
+		name: "deserthousesmallacacia"
+		offset: [0, 0, 0]
+		integrity: 1
+		matchers: [ "stone", "sandstone", "sand", "gravel" ]
+		solidMatchers: [
+			[0, -1, 0],
+			[4, -1, 0]
+			[-4, -1, 0]
+			[0, -1, 4]
+			[0, -1, -4]
+		]
+		directions: down
+		frequency: 1
+		chance: 0.1
+		minHeight: 160
+		maxHeight: 250
+		rotateRandomly: true
+    }
+		{
+		name: "deserthousesmall2"
+		offset: [0, 0, 0]
+		integrity: 1
+		matchers: [ "stone", "sandstone", "sand", "gravel" ]
+		solidMatchers: [
+			[0, -1, 0],
+			[4, -1, 0]
+			[-4, -1, 0]
+			[0, -1, 4]
+			[0, -1, -4]
+		]
+		directions: down
+		frequency: 1
+		chance: 0.1
+		minHeight: 160
+		maxHeight: 250
+		rotateRandomly: true
+    }
+	]
+}

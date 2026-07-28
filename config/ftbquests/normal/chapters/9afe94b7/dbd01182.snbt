@@ -1,0 +1,71 @@
+{
+	title: "Fusionando Particulas",
+	icon: "hbm:fusion_torus",
+	x: -8.0d,
+	y: -6.5d,
+	text: [
+		"SIertamente caro, la mejor manera de explicarlo no es tanto escribiendo si no con un video",
+		"NUevamente se recomiendan los vidios que savage vegeta crea sobre este mod",
+		"",
+		"para el primer uso de esto nesesitaras Deuterio y oxigeno liquido para ello nesesitaras agua pesada prosesada en una maquina de electrolisis, el agua pesada se obtiene de grandes cantidades de agua prosesada en extractores de deuterio",
+		"",
+		"antes de activarlo nesitas un refrigerante en este caso perfluoroametyl frio que tendra que salir y entrar del reactor al calentarse, en 2 compresores prosesaras el perfluoroamettyl caliente para que este frio nuevamente",
+		"",
+		"ya con eso nesesitaras colocar la cantidad de  expulsion en 250000 en el klysitron para activar el reactor"
+	],
+	dependencies: [
+		"5d4c7208",
+		"376ebfd3"
+	],
+	tasks: [{
+		uid: "6e43831c",
+		type: "item",
+		items: [{
+			item: "hbm:struct_torus_core"
+		}]
+	},
+	{
+		uid: "202362d7",
+		type: "item",
+		items: [{
+			item: "hbm:fusion_klystron"
+		}]
+	},
+	{
+		uid: "2494e54b",
+		type: "item",
+		items: [{
+			item: "hbm:fusion_boiler 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "ccef060b",
+		type: "item",
+		items: [{
+			item: "hbm:fusion_breeder"
+		}]
+	},
+	{
+		uid: "747576f1",
+		type: "item",
+		items: [{
+			item: "hbm:machine_deuterium_tower"
+		}]
+	},
+	{
+		uid: "4e79f169",
+		type: "item",
+		items: [{
+			item: "hbm:machine_compressor 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "137bb7af",
+		type: "item",
+		items: [{
+			item: "hbm:fluid_tank_lead_full 1 198"
+		}]
+	}]
+}

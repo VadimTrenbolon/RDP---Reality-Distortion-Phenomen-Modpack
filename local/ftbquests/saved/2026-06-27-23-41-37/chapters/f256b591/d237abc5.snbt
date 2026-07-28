@@ -1,0 +1,19 @@
+{
+	title: "felicidades",
+	icon: "hbm:coin_worm",
+	x: -2.5d,
+	y: -17.0d,
+	text: [
+		"Felicidades"
+	],
+	dependencies: [
+		"935678c6"
+	],
+	tasks: [{
+		uid: "3fd1225f",
+		type: "item",
+		items: [{
+			item: "hbm:coin_worm"
+		}]
+	}]
+}

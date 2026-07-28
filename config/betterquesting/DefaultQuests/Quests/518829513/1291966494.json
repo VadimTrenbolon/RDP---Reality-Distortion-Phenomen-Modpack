@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    1359296027
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "hora de comenzar con el ntm",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_firebrick"
+      },
+      "name:8": "Se viene lo bueno...",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1291966494,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "hbm:ball_fireclay"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "id:8": "hbm:ingot_firebrick"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

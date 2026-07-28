@@ -1,0 +1,28 @@
+{
+	title: "Horno de arco",
+	icon: "hbm:machine_arc_furnace",
+	x: 15.5d,
+	y: 9.5d,
+	text: [
+		"Maquina bastante importante que servira para conseguir cilicona que sirve para circuitos avanzados ",
+		"Nesesita de 3 electrodos para funcionar usa basante energuia"
+	],
+	dependencies: [
+		"3eae4cf2"
+	],
+	tasks: [{
+		uid: "c64d4f61",
+		type: "item",
+		items: [{
+			item: "hbm:arc_electrode 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "795c78a5",
+		type: "item",
+		items: [{
+			item: "hbm:machine_arc_furnace"
+		}]
+	}]
+}

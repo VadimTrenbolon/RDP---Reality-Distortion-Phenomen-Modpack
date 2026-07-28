@@ -1,0 +1,19 @@
+{
+	title: "Bloques Protectivamente Radioactivas",
+	icon: "hbm:hazmat",
+	x: 15.5d,
+	y: 3.5d,
+	text: [
+		"Usalo como ultima capa de proteccion"
+	],
+	dependencies: [
+		"dddd84da"
+	],
+	tasks: [{
+		uid: "484a3f20",
+		type: "item",
+		items: [{
+			item: "hbm:hazmat"
+		}]
+	}]
+}

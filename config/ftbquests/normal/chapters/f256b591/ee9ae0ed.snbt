@@ -1,0 +1,20 @@
+{
+	title: "Computadora quantica",
+	icon: "hbm:circuit 1 17",
+	x: -2.0d,
+	y: -1.0d,
+	text: [
+		"no sierve para nada, material con un y gran proposito"
+	],
+	dependencies: [
+		"11aa3393"
+	],
+	tasks: [{
+		uid: "089c2133",
+		type: "item",
+		items: [{
+			item: "hbm:circuit 64 17"
+		}],
+		count: 64L
+	}]
+}

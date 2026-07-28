@@ -1,0 +1,36 @@
+﻿DisplayName: SA-2 Guidline
+Type: aamissile
+BaseDamage: 250
+Ballistics:
+  Acceleration: 3.5
+  AccelerationInWater: 1.0
+  Gravity: 0.0
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+Sound:
+  Locations:
+    Fire: mcheli:sa-2_snd
+Explosion:
+  Power: 9
+  DestructionPower: 9
+  Flaming: true
+Camera:
+  Sight: missilesight
+Missile:
+  LockOn:
+    Time: 50
+Ammo:
+  MagSize: 1
+  MaxAmmo: 1
+  AmmoItems:
+  - Count: 1
+    Name: hbm:missile_anti_ballistic
+    Meta: 0
+FireCooldown: 400
+Render:
+  BulletModel: sa2missile
+  Smoke:
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'
+
+

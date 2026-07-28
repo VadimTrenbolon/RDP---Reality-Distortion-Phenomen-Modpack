@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    800868305
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "La fabrica crece \nen el simbolo de energuia en su interfaz seleccionas lo que crearas",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_assembly_machine"
+      },
+      "name:8": "Maquina para maquinas",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1232331622,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_assembly_machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

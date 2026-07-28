@@ -1,0 +1,19 @@
+{
+	title: "Matria Oscura",
+	icon: "hbm:particle_dark",
+	x: -13.5d,
+	y: 2.5d,
+	text: [
+		"Materia pero Oscura"
+	],
+	dependencies: [
+		"5ffc730a"
+	],
+	tasks: [{
+		uid: "f0c97467",
+		type: "item",
+		items: [{
+			item: "hbm:particle_dark"
+		}]
+	}]
+}

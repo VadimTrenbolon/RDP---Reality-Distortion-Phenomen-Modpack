@@ -1,0 +1,37 @@
+{
+	title: "Temperatura y seed",
+	icon: {
+		id: "survivaltools:portable_regulator",
+		tag: {}
+	},
+	x: 13.5d,
+	y: 2.0d,
+	text: [
+		"Para calmarlas"
+	],
+	dependencies: [
+		"7f8e8fbf"
+	],
+	tasks: [{
+		uid: "c189cce8",
+		type: "item",
+		items: [{
+			id: "survivaltools:portable_regulator",
+			tag: {}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "630e4de2",
+		type: "item",
+		items: [{
+			id: "survivaltools:portable_purifier",
+			tag: {
+				enabled: 0b,
+				energy: 0,
+				fluid: 0
+			}
+		}],
+		ignore_damage: 1b
+	}]
+}

@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "galacticraftplanets",
+  "modName": "Galacticraft Planets",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

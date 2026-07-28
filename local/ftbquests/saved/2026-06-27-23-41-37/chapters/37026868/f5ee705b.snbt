@@ -1,0 +1,31 @@
+{
+	title: "Almecaenaje \"barato\"",
+	icon: "hbm:capacitor_gold",
+	x: 2.0d,
+	y: 3.5d,
+	text: [
+		"Barato barato no es pero es mas facil hacerlo a largo plazo especialmente con el hecho de que el cobalto es mas raro que el oro igualmente este se puede mejorar",
+		"cada bloque tiene la caacidad de 5M RF por bloque",
+		"",
+		"estos deben rodear el capacitor bus por las caras oscuras en la roja va o cable o otro capacitor bus adelante del capacitador de oro va cable y arriba y abajo del vbus tambien"
+	],
+	dependencies: [
+		"24c85ae5"
+	],
+	tasks: [{
+		uid: "6a737d31",
+		type: "item",
+		items: [{
+			item: "hbm:capacitor_bus 15"
+		}],
+		count: 15L
+	},
+	{
+		uid: "efa1ae52",
+		type: "item",
+		items: [{
+			item: "hbm:capacitor_gold 60"
+		}],
+		count: 60L
+	}]
+}

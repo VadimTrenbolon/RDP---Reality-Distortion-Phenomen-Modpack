@@ -1,0 +1,48 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    1119244025,
+    1135415805,
+    285393289,
+    2053017536,
+    1919319527,
+    102005178,
+    745591121,
+    1642194400
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ya sabes que hacer, Terri",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:sat_gerald",
+        "tag:10": {}
+      },
+      "name:8": "The end",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1410011276,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:sat_gerald",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

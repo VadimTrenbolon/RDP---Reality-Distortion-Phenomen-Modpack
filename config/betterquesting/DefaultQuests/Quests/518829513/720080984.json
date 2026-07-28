@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1592564660
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Esta aleacion es bastante necesaria solo se puede hacer en un crucible\n\ncon un coso de plantillas creas pla plantilla para el crucible con esta en este colocas en su menu 5 de acero, 3 de tungsteno y 1 de cobalto. una vez colocados los calientas y los sacas por los lados del crucible",
+      "icon:10": {
+        "Count:3": 32,
+        "id:8": "hbm:ingot_dura_steel"
+      },
+      "name:8": "Acero acelerado",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 720080984,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "hbm:ingot_dura_steel"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "id:8": "hbm:ingot_steel"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "hbm:ingot_tungsten"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_cobalt"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

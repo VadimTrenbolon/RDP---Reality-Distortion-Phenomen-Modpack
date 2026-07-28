@@ -1,0 +1,19 @@
+{
+	title: "Chispas",
+	icon: "hbm:particle_sparkticle",
+	x: -8.0d,
+	y: 3.0d,
+	text: [
+		"Chispas"
+	],
+	dependencies: [
+		"ef741c23"
+	],
+	tasks: [{
+		uid: "f5cdd798",
+		type: "item",
+		items: [{
+			item: "hbm:particle_sparkticle"
+		}]
+	}]
+}

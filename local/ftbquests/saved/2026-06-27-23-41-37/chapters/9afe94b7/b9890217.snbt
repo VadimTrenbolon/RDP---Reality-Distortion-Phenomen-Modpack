@@ -1,0 +1,30 @@
+{
+	title: "Magnetico",
+	icon: "hbm:bismuth_tool",
+	x: -5.0d,
+	y: -3.5d,
+	text: [
+		"Balefira material extraño la forma mas facil de conseguirlo es interactuando con un este magnetico en un dud ",
+		"",
+		"Los duds son bombas que no llegaron a explotar hay 4 tipos balefire, nuclear, convensional y salted cadaa una sirve para extraer balefire y antimateria pero si llegas a sacar demaciado explotara puede explotar a la primera interaccion o la milesima, muy rng vro",
+		"nesesitas tener celdas vacias en el inventario parea almacenar el balefire o antimateria"
+	],
+	dependencies: [
+		"d5e4f258"
+	],
+	tasks: [{
+		uid: "7c4abdf2",
+		type: "item",
+		items: [{
+			item: "hbm:bismuth_tool"
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "bce0ee5f",
+		type: "item",
+		items: [{
+			item: "hbm:cell"
+		}]
+	}]
+}

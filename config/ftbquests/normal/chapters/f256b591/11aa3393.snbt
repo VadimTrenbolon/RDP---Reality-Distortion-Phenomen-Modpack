@@ -1,0 +1,19 @@
+{
+	title: "Quantico",
+	icon: "hbm:circuit 1 16",
+	x: -13.5d,
+	y: -2.0d,
+	text: [
+		"Q-Bit"
+	],
+	dependencies: [
+		"07cea204"
+	],
+	tasks: [{
+		uid: "924325b9",
+		type: "item",
+		items: [{
+			item: "hbm:circuit 1 16"
+		}]
+	}]
+}

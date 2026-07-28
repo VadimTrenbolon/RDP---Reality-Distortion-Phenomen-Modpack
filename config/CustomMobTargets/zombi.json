@@ -1,0 +1,20 @@
+{
+  "entity": "minecraft:zombie",
+  "targets": [
+    {
+      "priority": 2,
+      "check_sight": true,
+      "entity": "techguns:bandit"
+    },
+    {
+      "priority": 2,
+      "check_sight": true,
+      "entity": "techguns:armysoldier"
+    },
+    {
+      "priority": 2,
+      "check_sight": true,
+      "entity": "techguns:commando"
+    }
+  ]
+}

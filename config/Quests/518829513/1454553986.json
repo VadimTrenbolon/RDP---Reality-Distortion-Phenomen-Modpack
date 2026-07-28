@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    252589118
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Q-Bit",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 16,
+        "id:8": "hbm:circuit"
+      },
+      "name:8": "Quantico",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1454553986,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 16,
+          "id:8": "hbm:circuit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

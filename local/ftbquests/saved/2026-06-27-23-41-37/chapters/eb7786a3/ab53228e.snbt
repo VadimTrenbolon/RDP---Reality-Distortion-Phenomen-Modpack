@@ -1,0 +1,29 @@
+{
+	title: "???",
+	icon: "hbm:stone_keyhole",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Talvez dse un mob o talves de un cofre pero has encontrado una llave roja de un uso",
+		"",
+		"En las minas encuentra el bloque usado como icono de esta quest y dale click derecho con la llave",
+		"",
+		"",
+		"Rotaste la llave para verla mejor, han aparecido 16 chapas repentinamente"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "c2c42200",
+		type: "item",
+		items: [{
+			item: "hbm:key_red_cracked"
+		}],
+		ignore_damage: 1b
+	}],
+	rewards: [{
+		uid: "b99ac64f",
+		type: "item",
+		item: "hbm:cap_star",
+		count: 16
+	}]
+}

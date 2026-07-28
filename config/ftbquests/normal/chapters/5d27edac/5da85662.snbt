@@ -1,0 +1,20 @@
+{
+	title: "Morado",
+	icon: "hbm:powder_ash 1 5",
+	x: 12.0d,
+	y: 0.0d,
+	text: [
+		"este grupo de misiones requiere mas cosas que probablemente cuando puedas ver esta mision no tengas, pero eso es algo bueno solo se paciente"
+	],
+	dependencies: [
+		"4bdaac32",
+		"a4238592"
+	],
+	tasks: [{
+		uid: "f4a807c4",
+		type: "item",
+		items: [{
+			item: "hbm:powder_ash 1 5"
+		}]
+	}]
+}

@@ -1,0 +1,42 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Coloca los contenedores dentro del colgante y colocalo",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bhc:red_heart"
+      },
+      "name:8": "Mas vida",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 741248702,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "bhc:heart_amulet"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "id:8": "bhc:red_heart_canister"
+        },
+        "2:10": {
+          "Count:3": 10,
+          "id:8": "bhc:yellow_heart_canister"
+        },
+        "3:10": {
+          "Count:3": 10,
+          "id:8": "bhc:blue_heart_canister"
+        },
+        "4:10": {
+          "Count:3": 10,
+          "id:8": "bhc:green_heart_canister"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

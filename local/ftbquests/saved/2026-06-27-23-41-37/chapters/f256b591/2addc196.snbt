@@ -1,0 +1,19 @@
+{
+	title: "Laser....",
+	icon: "hbm:rbmk_pellet_drx",
+	x: 6.5d,
+	y: 6.0d,
+	text: [
+		"..."
+	],
+	dependencies: [
+		"29cff525"
+	],
+	tasks: [{
+		uid: "b0a2b487",
+		type: "item",
+		items: [{
+			item: "hbm:rbmk_pellet_drx"
+		}]
+	}]
+}

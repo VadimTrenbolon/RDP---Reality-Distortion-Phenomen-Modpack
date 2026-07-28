@@ -1,0 +1,44 @@
+{
+	title: "Aleaciones",
+	icon: "hbm:ingot_advanced_alloy",
+	x: 6.416666666666667d,
+	y: 0.0d,
+	text: [
+		"all the basics"
+	],
+	dependencies: [
+		"1bf5faa1"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d247e5d3",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_steel 64"
+		}],
+		count: 64L
+	},
+	{
+		uid: "b357d1b8",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_red_copper 64"
+		}],
+		count: 64L
+	},
+	{
+		uid: "809be808",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_advanced_alloy 64"
+		}],
+		count: 64L
+	},
+	{
+		uid: "c1114eba",
+		type: "item",
+		items: [{
+			item: "hbm:anvil_steel"
+		}]
+	}]
+}

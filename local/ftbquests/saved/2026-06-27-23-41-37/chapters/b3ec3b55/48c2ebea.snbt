@@ -1,0 +1,21 @@
+{
+	title: "The Nether",
+	icon: "minecraft:obsidian",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"Por Materiales para el sigente multibloque y para lo que necesites",
+		"ten cuidao es §aRadioactivo"
+	],
+	dependencies: [
+		"91c3d7d6"
+	],
+	tasks: [{
+		uid: "21cfac08",
+		type: "item",
+		items: [{
+			item: "minecraft:flint_and_steel"
+		}],
+		ignore_damage: 1b
+	}]
+}

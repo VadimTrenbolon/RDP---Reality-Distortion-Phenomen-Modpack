@@ -1,0 +1,41 @@
+{
+  "loadDefault": true,
+  "entityID": "scp:omnivorous_rabbit",
+  "langKeyName": "scp.omnivorous_rabbit",
+  "langKeyPrefix": "",
+  "langKeySuffix": "",
+  "renderInitialSpawn": true,
+  "disableBestiaryEntry": false,
+  "bestiaryModifications": [
+    {
+      "modType": "nbtMod",
+      "knowledgeRank": 3,
+      "experienceRatio": 0.0,
+      "nbtTag": "",
+      "isDefault": false,
+      "userInput": true,
+      "refreshData": false,
+      "nbtType": "ALL",
+      "values": []
+    },
+    {
+      "modType": "baby",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0
+    },
+    {
+      "modType": "statusByte",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0,
+      "values": [
+        1
+      ]
+    },
+    {
+      "modType": "basicVariants",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0,
+      "variantCount": 4
+    }
+  ]
+}

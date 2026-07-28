@@ -1,0 +1,9 @@
+{
+	title: "Los dragones ermano",
+	icon: "draconicevolution:draconium_dust",
+	x: 7.0d,
+	y: 5.5d,
+	text: [
+		"El draconium el detonante de la gerra en este mundo es un mineral raro probeniente de dragones, en las cuevas son conosidos como fosil de dragon, podras encontrar mucho en cuevas de dragon y en el end"
+	]
+}

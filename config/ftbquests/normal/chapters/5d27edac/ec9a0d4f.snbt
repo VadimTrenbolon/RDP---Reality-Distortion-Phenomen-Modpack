@@ -1,0 +1,37 @@
+{
+	title: "Preparacion RBMK",
+	icon: "hbm:rbmk_console",
+	x: 8.0d,
+	y: 3.5d,
+	text: [
+		"Los Reactores RBMK son un tipo de reactor custom osea no tienen una forma unica y la formaes importante si no te quieres quemar la caveza usa algun modelo del canal §6§n§lsavage vegeta",
+		"§f",
+		"Las turbinas leviatan son lo mejor para este reactor"
+	],
+	dependencies: [
+		"d07322fb"
+	],
+	tasks: [{
+		uid: "afa76d72",
+		type: "item",
+		items: [{
+			item: "hbm:rbmk_console"
+		}]
+	},
+	{
+		uid: "1fe89a4f",
+		type: "item",
+		items: [{
+			item: "hbm:rbmk_blank 64"
+		}],
+		count: 64L
+	},
+	{
+		uid: "584b712e",
+		type: "item",
+		items: [{
+			item: "hbm:rbmk_tool"
+		}],
+		ignore_damage: 1b
+	}]
+}

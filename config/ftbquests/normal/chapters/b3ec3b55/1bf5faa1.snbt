@@ -1,0 +1,77 @@
+{
+	title: "Primeras maquinas ntm",
+	icon: "hbm:anvil_iron",
+	x: 4.5d,
+	y: 0.0d,
+	text: [
+		"para tus aleacenes primerizas",
+		"nesesitaras bastante carbon o lava",
+		"",
+		"con el yunque podras reciclar los bloques decorativos de las estructuras para conseguir sus materiales primos",
+		"",
+		"con la prensa en el centro arriva va la respectiva estampa la cual se elije con el blueprint"
+	],
+	dependencies: [
+		"7aa4a395"
+	],
+	tasks: [{
+		uid: "50a85167",
+		type: "item",
+		items: [{
+			item: "hbm:anvil_iron"
+		}]
+	},
+	{
+		uid: "128eaace",
+		type: "item",
+		items: [{
+			item: "hbm:stamp_titanium_flat"
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "c6a1930b",
+		type: "item",
+		items: [{
+			item: "hbm:stamp_titanium_plate"
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "ebc44972",
+		type: "item",
+		items: [{
+			item: "hbm:stamp_titanium_wire"
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "037d48f6",
+		type: "item",
+		items: [{
+			item: "hbm:machine_press"
+		}]
+	},
+	{
+		uid: "e953da92",
+		type: "item",
+		items: [{
+			item: "hbm:machine_difurnace_off"
+		}]
+	},
+	{
+		uid: "bbd6ac6e",
+		type: "item",
+		items: [{
+			item: "hbm:machine_difurnace_ext"
+		}]
+	},
+	{
+		uid: "6918bfa3",
+		type: "item",
+		items: [{
+			item: "hbm:template_folder"
+		}],
+		ignore_damage: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+  "bk27_1_snd": {
+    "category": "master",
+    "sounds": [
+      "mcheli:bk27_1_snd"
+    ]
+  },
+  "eft_snd": {
+    "category": "master",
+    "sounds": [
+      "mcheli:eft_snd"
+    ]
+  },
+  "mchce_patched": {
+    "category": "master",
+    "sounds": [
+      "patched_marker"
+    ],
+    "_note": "Patched by McHeli: Community Edition 1.4.2"
+  }
+}

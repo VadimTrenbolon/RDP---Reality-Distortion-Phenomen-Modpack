@@ -1,0 +1,44 @@
+DisplayName: RIM-161 Standart [Anti-Aircraft Missile]
+Type: aamissile
+BaseDamage: 174
+Ballistics:
+  Acceleration: 6.0
+  AccelerationInWater: 1.0
+  Gravity: 0.0
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+Sound:
+  Locations:
+    Fire: mcheli:missile_cruise_snd
+Explosion:
+  Power: 8
+  Radio: 8.0
+  DestructionPower: 8
+  ExplosionAirburst: 8
+  ProximityFuseDist: 1.0
+Camera:
+  Sight: missilesight
+Missile:
+  LockOn:
+    Time: 12
+Ammo:
+  ReloadTime: 110
+  MagSize: 2
+  MaxAmmo: 4
+  ResupplyCount: 2
+  AmmoItems:
+  - Count: 1
+    Name: hbm:ingot_gunmetal
+    Meta: 0
+  - Count: 4
+    Name: hbm:cordite
+    Meta: 0
+  - Count: 6
+    Name: hbm:circuit
+    Meta: 5
+FireCooldown: 20
+Render:
+  BulletModel: aim7
+  Smoke:
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'

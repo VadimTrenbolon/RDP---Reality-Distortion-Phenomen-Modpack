@@ -1,0 +1,12 @@
+{
+	title: "Acidificacion",
+	icon: "hbm:machine_crystallizer",
+	x: -4.0d,
+	y: -22.0d,
+	text: [
+		"Se desbloquea el x6 De minerales y nuevas maneras de usar otrosd"
+	],
+	dependencies: [
+		"3eae4cf2"
+	]
+}

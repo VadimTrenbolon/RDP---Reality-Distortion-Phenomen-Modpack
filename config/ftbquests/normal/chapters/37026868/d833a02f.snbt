@@ -1,0 +1,19 @@
+{
+	title: "Plastico duro",
+	icon: "hbm:ingot_pc",
+	x: 13.0d,
+	y: 3.5d,
+	text: [
+		"Para crafteos"
+	],
+	dependencies: [
+		"7d912a2e"
+	],
+	tasks: [{
+		uid: "0fbd4a5e",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_pc"
+		}]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1507510937
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Este importante libro Podras encontrarlo en la mazmorra meteoro o en una extraña estructura en el end\nLas estampas para las paginaas del libro en caso de craftearlo tambien se encuentran en la mazmorra meteorito\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:book_of_"
+      },
+      "name:8": "Un Libro Extraño",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 774604125,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:book_of_"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

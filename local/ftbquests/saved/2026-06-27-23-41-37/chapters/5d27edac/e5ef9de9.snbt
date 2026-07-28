@@ -1,0 +1,20 @@
+{
+	title: "Technetium",
+	icon: "hbm:ingot_tcalloy",
+	x: 2.0d,
+	y: -8.0d,
+	text: [
+		"alternativa al cadamio"
+	],
+	dependencies: [
+		"526fd4aa"
+	],
+	size: 1.3333333333333333d,
+	tasks: [{
+		uid: "b033b720",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_tcalloy"
+		}]
+	}]
+}

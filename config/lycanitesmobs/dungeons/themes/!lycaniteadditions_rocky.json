@@ -1,0 +1,86 @@
+{
+  "name": "rocky",
+  "loadDefault": true,
+  "floorPattern": "random",
+  "wallPattern": "random",
+  "ceilingPattern": "random",
+  "floorBlocks": [
+    {
+      "blockId": "minecraft:stonebrick",
+      "weight": 8
+    },
+    {
+      "blockId": "minecraft:mossy_cobblestone",
+      "weight": 2
+    },
+    {
+      "blockId": "minecraft:stone",
+      "weight": 0
+    }
+  ],
+  "wallBlocks": [
+    {
+      "blockId": "minecraft:mossy_cobblestone",
+      "weight": 8
+    },
+    {
+      "blockId": "minecraft:stonebrick",
+      "weight": 2
+    },
+    {
+      "blockId": "minecraft:stone",
+      "weight": 0
+    }
+  ],
+  "ceilingBlocks": [
+    {
+      "blockId": "minecraft:stonebrick",
+      "weight": 8
+    },
+    {
+      "blockId": "minecraft:mossy_cobblestone",
+      "weight": 2
+    }
+  ],
+  "lightBlocks": [
+    {
+      "blockId": "minecraft:glowstone",
+      "weight": 8
+    },
+    {
+      "blockId": "minecraft:obsidian",
+      "weight": 8
+    }
+  ],
+  "airBlocks": [
+    {
+      "blockId": "minecraft:air",
+      "weight": 8
+    }
+  ],
+  "torchBlocks": [],
+  "stairBlocks": [
+    {
+      "blockId": "minecraft:stone_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "minecraft:stone_brick_stairs",
+      "weight": 8
+    },
+    {
+      "blockId": "minecraft:stone_stairs",
+      "weight": 8
+    }
+  ],
+  "pitBlocks": [
+    {
+      "blockId": "minecraft:lava",
+      "weight": 8
+    },
+    {
+      "blockId": "stone",
+      "weight": 8
+    }
+  ]
+}

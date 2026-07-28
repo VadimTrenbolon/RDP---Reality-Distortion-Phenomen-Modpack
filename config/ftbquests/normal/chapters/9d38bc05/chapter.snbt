@@ -1,0 +1,32 @@
+{
+	title: "Sobre el Modpack...",
+	icon: "minecraft:book",
+	description: [
+		"Este modpa tiene lore aqui no se te contara este si no que en las misiones lo inferiras, aca solo se contara sobre caracteristicas perzonalizadas del propio modpack"
+	],
+	always_invisible: 0b,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 1.5d,
+		y: 8.0d,
+		width: 25.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:quests/title.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 1.5d,
+		y: -0.5d,
+		width: 15.0d,
+		height: 15.0d,
+		rotation: 0.0d,
+		image: "assets:quests/sat_gerald_mask.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	}]
+}

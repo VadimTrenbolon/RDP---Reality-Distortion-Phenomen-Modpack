@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "coroutil",
+  "modName": "CoroUtil Library",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

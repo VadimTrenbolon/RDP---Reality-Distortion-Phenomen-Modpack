@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "pack_format": 3,
+    "description": "MCHeli default content pack"
+  },
+  "addon": {
+    "domain": "@builtin",
+    "version": "1.0",
+    "loader_version": "2",
+    "credits": "EMB4-MCHeli",
+    "authors": ["EMB4", "Murachiki27"],
+    "description": "Builtin addon extracted to disk"
+  }
+}

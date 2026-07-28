@@ -1,0 +1,21 @@
+{
+	title: "Plastico antes de tiempo",
+	icon: "hbm:ingot_polymer",
+	x: -0.5d,
+	y: 2.5d,
+	text: [
+		"con los hidrocarburos y el gas petroleo junto a azufre podras conseguir Polimero (plastico) que te servira para bastantes crafteitos"
+	],
+	dependencies: [
+		"4c6d5494",
+		"ce92cc2c"
+	],
+	tasks: [{
+		uid: "8119225e",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_polymer 8"
+		}],
+		count: 8L
+	}]
+}

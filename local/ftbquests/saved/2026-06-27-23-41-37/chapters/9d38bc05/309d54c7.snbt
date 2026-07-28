@@ -1,0 +1,17 @@
+{
+	title: "Meteoritos",
+	icon: "hbm:block_meteor",
+	x: 4.5d,
+	y: -7.0d,
+	text: [
+		"Los §8meteoritos§f son mini eventos que ocurrirán ocasionalmente estos son necesarios para el avance del mod principal",
+		"",
+		"En su interior contendra bloques de menas las cuales darán mucho más que una mena normal (entre §94§f-12-§716§f-§632§f) o un bloque misterioso qué funciona como un§e lucky block§f",
+		"Ten cuidado con este ya que algo §aradiactivo§f y/o §6caliente§f pueden contener"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "387878bd",
+		type: "checkmark"
+	}]
+}

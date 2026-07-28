@@ -1,0 +1,19 @@
+{
+	title: "Soldificacion",
+	icon: "hbm:machine_solidifier",
+	x: 20.0d,
+	y: 7.5d,
+	text: [
+		"Para tar"
+	],
+	dependencies: [
+		"3eae4cf2"
+	],
+	tasks: [{
+		uid: "d9d9d02e",
+		type: "item",
+		items: [{
+			item: "hbm:machine_solidifier"
+		}]
+	}]
+}

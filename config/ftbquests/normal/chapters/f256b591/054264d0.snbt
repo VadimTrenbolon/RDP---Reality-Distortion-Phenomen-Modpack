@@ -1,0 +1,19 @@
+{
+	title: "Proteccion de mentira",
+	icon: "portalstuff:laser_fizzler",
+	x: 17.5d,
+	y: 2.5d,
+	text: [
+		"solo matara jugadores"
+	],
+	dependencies: [
+		"cdf81780"
+	],
+	tasks: [{
+		uid: "2b64113f",
+		type: "item",
+		items: [{
+			item: "portalstuff:laser_fizzler"
+		}]
+	}]
+}

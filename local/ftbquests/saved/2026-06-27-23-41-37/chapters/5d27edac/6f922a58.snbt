@@ -1,0 +1,20 @@
+{
+	title: "Restos aceitosos",
+	icon: "hbm:scrap_oil",
+	x: 8.0d,
+	y: -8.5d,
+	text: [
+		"Tritura la tierra y la piedra que queda tras horas de extraccion de petroleo"
+	],
+	dependencies: [
+		"13e7ee2b"
+	],
+	tasks: [{
+		uid: "634f04b2",
+		type: "item",
+		items: [{
+			item: "hbm:scrap_oil 64"
+		}],
+		count: 64L
+	}]
+}

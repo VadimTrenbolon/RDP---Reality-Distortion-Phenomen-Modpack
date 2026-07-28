@@ -1,0 +1,47 @@
+{
+	title: "Circuito de un almacen",
+	icon: "refinedstorage:processor 1 3",
+	x: 13.0d,
+	y: 10.5d,
+	text: [
+		"bastantes y todos nesesarios, aunque faciles de crear"
+	],
+	dependencies: [
+		"9a2b6745"
+	],
+	tasks: [{
+		uid: "749448de",
+		type: "item",
+		items: [{
+			item: "refinedstorage:processor 1 3"
+		}]
+	},
+	{
+		uid: "5371b7e4",
+		type: "item",
+		items: [{
+			item: "refinedstorage:processor 1 4"
+		}]
+	},
+	{
+		uid: "d84d8d41",
+		type: "item",
+		items: [{
+			item: "refinedstorage:processor 1 5"
+		}]
+	},
+	{
+		uid: "ea4ebb58",
+		type: "item",
+		items: [{
+			item: "refinedstorage:core 1 1"
+		}]
+	},
+	{
+		uid: "fca65039",
+		type: "item",
+		items: [{
+			item: "refinedstorage:core"
+		}]
+	}]
+}

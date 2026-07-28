@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1978563648
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "recomendacion: tardara mas pero los bloques de carbon son la mejor opcion\nrecuerda 9x9 y el martillo al centro",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "immersiveengineering:stone_decoration"
+      },
+      "name:8": "Carbon coka",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1377399004,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 27,
+          "id:8": "immersiveengineering:stone_decoration"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

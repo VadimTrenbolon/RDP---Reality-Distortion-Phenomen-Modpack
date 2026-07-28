@@ -1,0 +1,45 @@
+﻿DisplayName: AGM-158 JASSM
+CanLoadChunks: true
+Type: tvmissile
+BaseDamage: 200
+Ballistics:
+  Acceleration: 2.0
+  AccelerationInWater: 1.0
+  Gravity: 0.0
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+Sound:
+  Locations:
+    Fire: mcheli:missile_1_snd
+Explosion:
+  Power: 10
+  DestructionPower: 16
+Camera:
+  Sight: movesight
+Ammo:
+  MagSize: 4
+  MaxAmmo: 4
+  ResupplyCount: 2
+  AmmoItems:
+  - Count: 6
+    Name: hbm:ingot_gunmetal
+    Meta: 0
+  - Count: 18
+    Name: hbm:ball_tatb
+    Meta: 0
+  - Count: 5
+    Name: hbm:circuit
+    Meta: 5
+  - Count: 1
+    Name: hbm:thruster_small
+    Meta: 0
+FireCooldown: 220
+Mode: 2
+Render:
+  BulletModel: agm158
+  Smoke:
+    DisableSmoke: true
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'
+
+

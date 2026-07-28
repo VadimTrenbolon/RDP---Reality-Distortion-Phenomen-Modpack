@@ -1,0 +1,47 @@
+{
+	title: "armor schrabidium",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b524a049"
+	],
+	tasks: [{
+		uid: "e3a7797f",
+		type: "item",
+		items: [{
+			item: "hbm:schrabidium_helmet"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "22bb0e13",
+		type: "item",
+		items: [{
+			item: "hbm:schrabidium_plate"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b93d880e",
+		type: "item",
+		items: [{
+			item: "hbm:schrabidium_legs"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5e48663a",
+		type: "item",
+		items: [{
+			item: "hbm:schrabidium_boots"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "eerieentities",
+  "modName": "Eerie Entities",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

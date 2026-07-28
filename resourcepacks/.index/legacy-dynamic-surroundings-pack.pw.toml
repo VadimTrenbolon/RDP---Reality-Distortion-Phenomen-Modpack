@@ -1,0 +1,18 @@
+filename = '§6ExtraDynamic.zip'
+name = 'Extra Dynamics (Legacy Dynamic Surroundings Sound Pack)'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '§6ExtraDynamic1.12R1.zip'
+
+[download]
+hash = '26b61c3790889b1bf0b78fd0d4c5c39ac593ff31'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6854596
+project-id = 1321824

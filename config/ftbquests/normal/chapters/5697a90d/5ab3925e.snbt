@@ -1,0 +1,62 @@
+{
+	title: "Cibernetica lunar",
+	icon: {
+		id: "hbm:bj_helmet",
+		tag: {
+			charge: 10000000L
+		}
+	},
+	x: 4.5d,
+	y: -1.5d,
+	text: [
+		"ye"
+	],
+	dependencies: [
+		"8f8d5114",
+		"b524a049"
+	],
+	tasks: [{
+		uid: "5c42c04d",
+		type: "item",
+		items: [{
+			id: "hbm:bj_helmet",
+			tag: {
+				charge: 10000000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "2f4e7d7d",
+		type: "item",
+		items: [{
+			id: "hbm:bj_plate",
+			tag: {
+				charge: 10000000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "6842c498",
+		type: "item",
+		items: [{
+			id: "hbm:bj_legs",
+			tag: {
+				charge: 10000000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "b27bd540",
+		type: "item",
+		items: [{
+			id: "hbm:bj_boots",
+			tag: {
+				charge: 10000000L
+			}
+		}],
+		ignore_damage: 1b
+	}]
+}

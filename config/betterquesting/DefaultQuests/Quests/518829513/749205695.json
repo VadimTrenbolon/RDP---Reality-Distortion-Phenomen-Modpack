@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    942747130
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Lunar vro",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:plate_armor_lunar"
+      },
+      "name:8": "Blindaje de armadura v4",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 749205695,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:plate_armor_lunar"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

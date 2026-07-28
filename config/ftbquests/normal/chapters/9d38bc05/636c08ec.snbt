@@ -1,0 +1,31 @@
+{
+	title: "Envenenamiento por Monoxido de Carebono",
+	icon: "minecraft:coal",
+	x: -1.5d,
+	y: -7.0d,
+	text: [
+		"El §8carbón§f y relacionados es tóxico este te enfermare lentamente si lo tienes en tu inventario o estas en una zona donde este a sido minado.",
+		"",
+		"Sus relacionados como §4lignito§f, §7carbon aceitoso§f, §6carbón infernal§f también son tóxicos, estos con el tiempo y mientras más quemes contaminaran el mundo, no harías específicas el mundo",
+		"",
+		"Para evitar el envenenamiento crea tela con hilo y lana, una vez con esta dropeala en §3agua§f para crar una mascara protectora ahora vuelvela a dropear en §1agua§f y listo tienes una proteccion basica",
+		"",
+		"Para una mas avanzada nesexitaras una §2mascara de gas§f, esta la encontraras en estrucuras esta nesecitara un §2filtro§f, ponte la mascara y dale click derecho para colocarlo"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "0ab4bd2d",
+		type: "item",
+		items: [{
+			item: "hbm:rag"
+		}]
+	},
+	{
+		uid: "8d3fc93e",
+		type: "item",
+		items: [{
+			item: "hbm:mask_rag"
+		}],
+		ignore_damage: 1b
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Armaduras",
+	icon: "hbm:steel_plate",
+	always_invisible: 0b,
+	group: 0,
+	default_quest_shape: ""
+}

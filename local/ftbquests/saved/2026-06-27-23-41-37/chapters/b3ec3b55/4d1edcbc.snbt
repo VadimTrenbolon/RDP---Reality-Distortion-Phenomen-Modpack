@@ -1,0 +1,27 @@
+{
+	title: "Arena y Arcilla",
+	x: -14.0d,
+	y: 0.0d,
+	text: [
+		"Nesesitaras mucho mas de lo que aqui se mensiona"
+	],
+	dependencies: [
+		"46c86588"
+	],
+	tasks: [{
+		uid: "120160b3",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 128L
+	},
+	{
+		uid: "4d60ef75",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}],
+		count: 256L
+	}]
+}

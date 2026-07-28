@@ -1,0 +1,20 @@
+{
+	title: "Concreto",
+	icon: "hbm:concrete_smooth",
+	x: 15.5d,
+	y: -2.0d,
+	text: [
+		"Material basico de proteccion Parasitaria recistira las primeras fases posteriormente sera inutel recomiendo muros de 3 bloques de grosor"
+	],
+	dependencies: [
+		"697615f3"
+	],
+	tasks: [{
+		uid: "4a176307",
+		type: "item",
+		items: [{
+			item: "hbm:concrete_smooth"
+		}],
+		count: 1000L
+	}]
+}

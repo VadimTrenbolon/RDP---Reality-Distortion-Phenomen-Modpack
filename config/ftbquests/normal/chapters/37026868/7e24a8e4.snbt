@@ -1,0 +1,55 @@
+{
+	title: "A utilizar combustible",
+	icon: "hbm:machine_combustion_engine",
+	x: 14.5d,
+	y: 4.5d,
+	text: [
+		"estas son 3 maquinas que utilizan derivados del petroleo para generar energuia",
+		"",
+		"Motor de Combustion Idustrial: este nesesita de un piston para poder funcionar una vez con este dale el combustible y Funcionara",
+		"",
+		"Turbina de gas de ciclo combinado: Eswte foncionara a gas ademas del gas nesesita lubricante de motor, este nesesitara un refigerante agua el cual lo convertira en vapor denso",
+		"",
+		"Llamarada de gas: este generara tambien con gas, generara bastante poco pero si generara energuia, este podra simplemente gastar el gas ademas de quemarlo si haces esto no generara energuia",
+		"",
+		"Turbofan: este usa exclusivamente Keroseno tiene su prpia mejora en su maximo sirve de dfenza al producier fuego, puede ser usado en una granja para producir sangre"
+	],
+	dependencies: [
+		"7d912a2e"
+	],
+	tasks: [{
+		uid: "709dc3a6",
+		type: "item",
+		items: [{
+			item: "hbm:machine_turbine_gas"
+		}]
+	},
+	{
+		uid: "9ddffd30",
+		type: "item",
+		items: [{
+			item: "hbm:machine_combustion_engine"
+		}]
+	},
+	{
+		uid: "86ced516",
+		type: "item",
+		items: [{
+			item: "hbm:machine_flare"
+		}]
+	},
+	{
+		uid: "f78f0b6d",
+		type: "item",
+		items: [{
+			item: "hbm:piston_set 1 1"
+		}]
+	},
+	{
+		uid: "0e77b33a",
+		type: "item",
+		items: [{
+			item: "hbm:machine_turbofan"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+[
+    {
+    "mob": ["oe:dolphin"],
+    "biome": [
+      "minecraft:warm_ocean",
+      "minecraft:lukewarm_ocean",
+	  "minecraft:ocean",
+	  "minecraft:deep_ocean"
+    ],
+    "result": "allow"
+  },
+  {
+    "mob": ["oe:dolphin"],
+    "result": "deny"
+  }
+]

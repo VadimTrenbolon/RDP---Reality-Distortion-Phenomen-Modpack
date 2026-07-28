@@ -1,0 +1,18 @@
+filename = '§dSRP§fModernity§7V.1.5.0-1.10.X.zip'
+name = 'Scape & Run Modernity - SRP Texture Updated'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = 'SRPModernity1.10_v1.5'
+
+[download]
+hash = 'f22ef59f7aae3473f413f127eb0cd6c0d4931e73'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7853662
+project-id = 1376104

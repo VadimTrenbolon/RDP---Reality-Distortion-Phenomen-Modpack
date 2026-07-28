@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    2017284460
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Este Boiler no explota al llenarse de liquido caliente",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_industrial_boiler"
+      },
+      "name:8": "Esta no revienta",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 326999715,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_industrial_boiler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

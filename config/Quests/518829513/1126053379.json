@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    1925231656
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "En caso que quieras usar boilers para generar vapor con carbon \npuedes usar las cajas de fuego para generar algo util para el futuro\n\ndeberas con tuberias especiales conectar las cajas de fuego a un industrial smokestack siendo este tiene que estar arriba de un ashpit, \nno generara ninguna particula ya que esta bug esto pero lentamente generara un material nesesario para el futuro",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:chimney_industrial"
+      },
+      "name:8": "humo",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1126053379,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:chimney_industrial"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_ashpit"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "hbm:fluid_duct_exhaust"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:heater_firebox"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

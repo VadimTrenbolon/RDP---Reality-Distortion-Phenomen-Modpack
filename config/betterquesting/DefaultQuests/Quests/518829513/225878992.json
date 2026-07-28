@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    1372305205,
+    423722482
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Frametos de balefire",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:egg_balefire_shard"
+      },
+      "name:8": "Peazo huevo",
+      "questlogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 225878992,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 9,
+          "id:8": "hbm:cell_balefire"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:egg_balefire_shard"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

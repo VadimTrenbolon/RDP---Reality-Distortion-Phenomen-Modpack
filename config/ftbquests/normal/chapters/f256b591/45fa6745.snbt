@@ -1,0 +1,19 @@
+{
+	title: "Anti materia",
+	icon: "hbm:particle_amat",
+	x: -19.0d,
+	y: 0.0d,
+	text: [
+		"Materia pero anti"
+	],
+	dependencies: [
+		"913aef77"
+	],
+	tasks: [{
+		uid: "d6573bf2",
+		type: "item",
+		items: [{
+			item: "hbm:particle_amat"
+		}]
+	}]
+}

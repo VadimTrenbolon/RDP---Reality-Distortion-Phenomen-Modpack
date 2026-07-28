@@ -1,0 +1,34 @@
+{
+	title: "Comienza la tech imersivamente",
+	icon: "immersiveengineering:tool",
+	x: -6.0d,
+	y: 0.0d,
+	text: [
+		"Comieneza con immersive enginering para comenzar con los demas mods de tech",
+		"§nutiliza el manual para sanber que hacer"
+	],
+	dependencies: [
+		"d35e9b34"
+	],
+	tasks: [{
+		uid: "be9d1bee",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 10"
+		}]
+	},
+	{
+		uid: "fd1414f1",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool"
+		}]
+	},
+	{
+		uid: "0a7410d7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool 1 3"
+		}]
+	}]
+}

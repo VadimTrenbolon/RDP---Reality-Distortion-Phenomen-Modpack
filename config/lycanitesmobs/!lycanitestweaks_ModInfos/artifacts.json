@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "artifacts",
+  "modName": "RLArtifacts",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

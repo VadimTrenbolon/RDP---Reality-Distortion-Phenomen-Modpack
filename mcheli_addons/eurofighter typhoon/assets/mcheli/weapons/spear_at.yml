@@ -1,0 +1,47 @@
+﻿DisplayName: SPEAR 3
+Type: atmissile
+BaseDamage: 120
+Ballistics:
+  Acceleration: 3.5
+  AccelerationInWater: 1.0
+  Gravity: 0.0
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+Sound:
+  Locations:
+    Fire: mcheli:bomb_snd
+Explosion:
+  Power: 5
+  Radio: 5.0
+  DestructionPower: 3
+  ExplosionAirburst: 5
+  ProximityFuseDist: 1.0
+Camera:
+  Sight: missilesight
+Missile:
+  LockOn:
+    Time: 10
+Ammo:
+  ReloadTime: 300
+  MagSize: 4
+  MaxAmmo: 8
+  ResupplyCount: 2
+  AmmoItems:
+  - Count: 4
+    Name: hbm:ingot_gunmetal
+    Meta: 0
+  - Count: 2
+    Name: hbm:ball_tatb
+    Meta: 0
+  - Count: 2
+    Name: hbm:circuit
+    Meta: 5
+RidableOnly: true
+Render:
+  BulletModel: spear
+  Smoke:
+    DisableSmoke: true
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'
+
+

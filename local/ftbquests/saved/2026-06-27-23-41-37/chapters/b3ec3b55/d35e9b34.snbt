@@ -1,0 +1,73 @@
+{
+	title: "La Fundidora",
+	x: -8.0d,
+	y: 0.0d,
+	description: "Para armas, Herramientas y Armaduras",
+	text: [
+		"Como con las herramientas basicas puedas crear sus partes pero aqui con metales",
+		"Tambien puedes crear aleaciones u almacenar minrales",
+		"",
+		"No nesesariamente tiene que ser del tamaño de la imagen, mientras mas grande mas minerales calienta, es 1 por slot"
+	],
+	dependencies: [
+		"8ca081ca"
+	],
+	tasks: [{
+		uid: "61db96b2",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}],
+		count: 64L
+	},
+	{
+		uid: "63378f69",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_glass"
+		}],
+		count: 32L
+	},
+	{
+		uid: "a7bc94e1",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "508c2c40",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "ed9a0156",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting 1 1"
+		}]
+	},
+	{
+		uid: "2c599a8b",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "1e224703",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "103d0b16",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	}]
+}

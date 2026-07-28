@@ -1,0 +1,224 @@
+{
+	title: "Algo es algo...",
+	x: -14.5d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"46c86588"
+	],
+	optional: 1b,
+	tasks: [{
+		uid: "bb0b12c0",
+		type: "item",
+		items: [{
+			id: "conarm:helmet",
+			tag: {
+				StatsOriginal: {
+					Durability: 14,
+					Defense: 5.0f,
+					Toughness: 0.0f,
+					FreeModifiers: 3
+				},
+				Stats: {
+					Durability: 11,
+					Defense: 5.0f,
+					Toughness: 0.0f,
+					FreeModifiers: 3
+				},
+				TinkerData: {
+					Materials: [
+						"stone",
+						"stone",
+						"stone"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "cheapskate_armor",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "cheap_armor",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"cheapskate_armor",
+					"cheap_armor",
+					"leveling_armor"
+				]
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "77bb4f1c",
+		type: "item",
+		items: [{
+			id: "conarm:chestplate",
+			tag: {
+				StatsOriginal: {
+					Durability: 20,
+					Defense: 5.0f,
+					Toughness: 0.0f,
+					FreeModifiers: 3
+				},
+				Stats: {
+					Durability: 16,
+					Defense: 5.0f,
+					Toughness: 0.0f,
+					FreeModifiers: 3
+				},
+				TinkerData: {
+					Materials: [
+						"stone",
+						"stone",
+						"stone"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "cheapskate_armor",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "cheap_armor",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"cheapskate_armor",
+					"cheap_armor",
+					"leveling_armor"
+				]
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9f2d6858",
+		type: "item",
+		items: [{
+			id: "conarm:leggings",
+			tag: {
+				StatsOriginal: {
+					Durability: 19,
+					Defense: 5.0f,
+					Toughness: 0.0f,
+					FreeModifiers: 3
+				},
+				Stats: {
+					Durability: 15,
+					Defense: 5.0f,
+					Toughness: 0.0f,
+					FreeModifiers: 3
+				},
+				TinkerData: {
+					Materials: [
+						"stone",
+						"stone",
+						"stone"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "cheapskate_armor",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "cheap_armor",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"cheapskate_armor",
+					"cheap_armor",
+					"leveling_armor"
+				]
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8c31e864",
+		type: "item",
+		items: [{
+			id: "conarm:boots",
+			tag: {
+				StatsOriginal: {
+					Durability: 17,
+					Defense: 5.0f,
+					Toughness: 0.0f,
+					FreeModifiers: 3
+				},
+				Stats: {
+					Durability: 13,
+					Defense: 5.0f,
+					Toughness: 0.0f,
+					FreeModifiers: 3
+				},
+				TinkerData: {
+					Materials: [
+						"stone",
+						"stone",
+						"stone"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "cheapskate_armor",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "cheap_armor",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"cheapskate_armor",
+					"cheap_armor",
+					"leveling_armor"
+				]
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "Campo dse fuerza",
+	icon: "hbm:machine_forcefield",
+	x: 4.0d,
+	y: -10.0d,
+	text: [
+		"Verdaderamente exelente,  funciona mejor en zonas amplias para mejorar su vida y rango requiere sus siguentes mejoreas"
+	],
+	dependencies: [
+		"33e75541"
+	]
+}

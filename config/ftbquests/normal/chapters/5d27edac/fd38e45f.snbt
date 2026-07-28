@@ -1,0 +1,14 @@
+{
+	title: "controlador ambiental",
+	icon: "rftools:environmental_controller",
+	x: 5.0d,
+	y: -8.5d,
+	text: [
+		"Una herramienta muy buena para usar con el campo de fuerza lo mejor es dejarlos juntos para que sus efectos afecten al interior y algo el exterior",
+		"",
+		"RfTools tiene mas cosas interesantes talves deberias verlas"
+	],
+	dependencies: [
+		"e2dd8e3b"
+	]
+}

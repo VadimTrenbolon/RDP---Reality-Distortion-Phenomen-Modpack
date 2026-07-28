@@ -1,0 +1,93 @@
+{
+  "name": "molder",
+  "creatureType": "aberration",
+  "groups": [
+    "monster"
+  ],
+  "entityClass": "com.lycaniteadditions.core.entity.creature.entitymolder",
+  "modelClass": "com.lycaniteadditions.client.model.modelmolder",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "underground",
+      "monster"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": true,
+    "biomeTags": [
+      "mushroom"
+    ],
+    "spawnWeight": 1,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 1,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 1,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 1.9,
+  "height": 5.5,
+  "experience": 15,
+  "health": 70,
+  "defense": 0,
+  "armor": 0,
+  "speed": 32,
+  "damage": 2,
+  "attackSpeed": 0.5,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 10,
+  "knockbackResistance": 0,
+  "bagSize": 5,
+  "eggBackColor": "#013220",
+  "eggForeColor": "#E1D9D1",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "blood",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "cobalt",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "fae",
+  "peaceful": false,
+  "summonable": true,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 5,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:quartz",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:mushroom",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}

@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "nyx",
+  "modName": "Hyxcate",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

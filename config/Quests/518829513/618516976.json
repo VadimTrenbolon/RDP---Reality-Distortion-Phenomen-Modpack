@@ -1,0 +1,77 @@
+{
+  "preRequisites:11": [
+    1245343636
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Cuidao y te conviertes en el chainsaw man",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:chainsaw",
+        "tag:10": {
+          "ability:3": 0,
+          "abilityPresets:9": {
+            "0:10": {
+              "area:8": "",
+              "areaLevel:3": 0,
+              "harvest:8": "",
+              "harvestLevel:3": 0
+            },
+            "1:10": {
+              "area:8": "tool.ability.recursion",
+              "areaLevel:3": 2,
+              "harvest:8": "",
+              "harvestLevel:3": 0
+            },
+            "2:10": {
+              "area:8": "",
+              "areaLevel:3": 0,
+              "harvest:8": "tool.ability.silktouch",
+              "harvestLevel:3": 0
+            }
+          },
+          "fuel:3": 5000
+        }
+      },
+      "name:8": "A talar",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 618516976,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:chainsaw",
+          "tag:10": {
+            "ability:3": 0,
+            "abilityPresets:9": {
+              "0:10": {
+                "area:8": "",
+                "areaLevel:3": 0,
+                "harvest:8": "",
+                "harvestLevel:3": 0
+              },
+              "1:10": {
+                "area:8": "tool.ability.recursion",
+                "areaLevel:3": 2,
+                "harvest:8": "",
+                "harvestLevel:3": 0
+              },
+              "2:10": {
+                "area:8": "",
+                "areaLevel:3": 0,
+                "harvest:8": "tool.ability.silktouch",
+                "harvestLevel:3": 0
+              }
+            },
+            "fuel:3": 5000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    }
+  }
+}

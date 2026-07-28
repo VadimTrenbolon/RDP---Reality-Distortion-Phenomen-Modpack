@@ -1,0 +1,39 @@
+{
+	title: "Gravity Gun v2, sobrecargada",
+	icon: {
+		id: "gravitygun:gravitygun",
+		Damage: 1s,
+		tag: {
+			GravityGun: {
+				attackDistance: 2.081789016723633d,
+				attackLightning: 620484,
+				lastZap: 620519,
+				lastZapClaw: 1
+			}
+		}
+	},
+	x: -9.0d,
+	y: -7.5d,
+	text: [
+		"capas de tomar cualquier entidad sin mportar tamaño"
+	],
+	dependencies: [
+		"9e4ea61e"
+	],
+	tasks: [{
+		uid: "a268c22b",
+		type: "item",
+		items: [{
+			id: "gravitygun:gravitygun",
+			Damage: 1s,
+			tag: {
+				GravityGun: {
+					attackDistance: 2.081789016723633d,
+					attackLightning: 620757,
+					lastZap: 620732,
+					lastZapClaw: 1
+				}
+			}
+		}]
+	}]
+}

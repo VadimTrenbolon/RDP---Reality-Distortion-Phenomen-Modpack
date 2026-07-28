@@ -1,0 +1,21 @@
+{
+	title: "El combustible gastado",
+	icon: "hbm:machine_waste_drum",
+	x: -2.5d,
+	y: -15.0d,
+	text: [
+		"cuando el combustible se gasta este ya no produce calor para el reactor, aumenta su presion sacalo este te quemara asi que ponlo en un contenedor o ten pinsas en la mano secundaria para llevarlo a la pisiana",
+		"",
+		"esta tiene que estar en el centro de un 3x3 de agua con el tiempo enfriara el combustible y podras seguir con el siguente paso"
+	],
+	dependencies: [
+		"96bc29e6"
+	],
+	tasks: [{
+		uid: "f592f9cf",
+		type: "item",
+		items: [{
+			item: "hbm:machine_waste_drum"
+		}]
+	}]
+}

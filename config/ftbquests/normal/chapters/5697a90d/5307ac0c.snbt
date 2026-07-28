@@ -1,0 +1,16 @@
+{
+	title: "Alexandra",
+	icon: "hbm:gem_alexandrite",
+	x: 8.5d,
+	y: 3.0d,
+	text: [
+		"encontrado raramente en minas, meteoros y red rooms"
+	],
+	tasks: [{
+		uid: "8e411ab4",
+		type: "item",
+		items: [{
+			item: "hbm:gem_alexandrite"
+		}]
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Almacen energetico basico",
+	icon: "hbm:machine_battery",
+	x: -5.5d,
+	y: 3.0d,
+	text: [
+		"En estructuras encontraras el primero dandole al boton con flecha indicaras si entra o sale energuia",
+		"capacidad 1M RF, ya no tiene crafteo pero lo encontraras een estructuras",
+		"",
+		"con el de IE lo craftearas por arriba entrara energuia con un martillo en una de sus caras designaras si tambien entra o sale energuia",
+		"capacidad 100k RF"
+	],
+	dependencies: [
+		"a4e21234"
+	],
+	optional: 1b,
+	tasks: [{
+		uid: "5706aca2",
+		type: "item",
+		items: [{
+			item: "hbm:machine_battery"
+		}]
+	},
+	{
+		uid: "502acf73",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0"
+		}]
+	}]
+}

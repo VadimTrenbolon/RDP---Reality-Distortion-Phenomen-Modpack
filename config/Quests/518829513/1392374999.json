@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1245343636
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Para crafteos",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_pc"
+      },
+      "name:8": "Plastico duro",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1392374999,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_pc"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

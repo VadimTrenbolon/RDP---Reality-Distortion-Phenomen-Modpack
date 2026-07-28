@@ -1,0 +1,37 @@
+﻿DisplayName: Maintain course
+Type: tvmissile
+Ballistics:
+  Acceleration: 10.2
+  AccelerationInWater: 1.0
+  Gravity: 0.0
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+Sound:
+  Volume: 3.0
+  Locations:
+    Fire: mcheli:lockon
+Explosion:
+  DestructionPower: 0
+  FuseTime: 3
+Camera:
+  Sight: movesight
+Missile:
+  LockOn:
+    Delay: 5
+Ammo:
+  MagSize: 100
+  MaxAmmo: 100
+  ResupplyCount: 100
+  AmmoItems:
+  - Count: 1
+    Name: hbm:circuit
+    Meta: 5
+Mode: 1
+Render:
+  BulletModel: none
+  Smoke:
+    DisableSmoke: true
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'
+
+

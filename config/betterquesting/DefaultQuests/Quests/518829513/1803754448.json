@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    673597062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "estructura multibloque,3x3 en el suelo el bloque principal al centro en los bordes, 3x3 de 2 de altura bloques de altura de cristal y 3x3 de los otros bloques\nnesesita el item ese dentro\n\nya con esto podras craftear cada cosa de TH",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 104,
+        "id:8": "techguns:itemshared"
+      },
+      "name:8": "Camara reactiva",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1803754448,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "techguns:multiblockmachine"
+        },
+        "1:10": {
+          "Count:3": 17,
+          "Damage:2": 3,
+          "id:8": "techguns:multiblockmachine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "techguns:multiblockmachine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 104,
+          "id:8": "techguns:itemshared"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+	title: "Radiacion",
+	icon: "hbm:yellow_barrel",
+	x: 3.4d,
+	y: -1.32d,
+	shape: "hexagon",
+	text: [
+		"La §aRadiación§f es emitida de ciertos items y bloques esta te enfermara mientras más alto sea el valor que de y el tiempo que estés expuesto hasta que mueras",
+		"",
+		"Esta se pega a los objetos que tengas en tu inventario",
+		"",
+		"Sabrás que una §azona es radioactiva§f cuando se generen nuevs verdosas/cafés o los bloques se tornen más §7oscuros§f/§6cafés§f",
+		"",
+		"Para descontaminarte nesesitaras un descontaminador de jugador"
+	],
+	size: 3.0d,
+	optional: 1b,
+	tasks: [{
+		uid: "b39f8e01",
+		type: "item",
+		items: [{
+			item: "hbm:decon"
+		}]
+	}]
+}

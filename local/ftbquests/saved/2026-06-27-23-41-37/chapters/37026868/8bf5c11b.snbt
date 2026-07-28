@@ -1,0 +1,19 @@
+{
+	title: "Mas derivaciones",
+	icon: "hbm:machine_coker",
+	x: 24.0d,
+	y: 11.0d,
+	text: [
+		"Como el titulo indica esta genera mas derivaciones del petroleo tambien generara algunos objetos, nesesita una fuente de calor abajo para funcionar"
+	],
+	dependencies: [
+		"3bb02d13"
+	],
+	tasks: [{
+		uid: "e0251773",
+		type: "item",
+		items: [{
+			item: "hbm:machine_coker"
+		}]
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Petroleo",
+	x: 8.0d,
+	y: 2.0d,
+	text: [
+		"Puede que te la lleges a encontrar en una estructura"
+	],
+	dependencies: [
+		"701d9730"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "48becfed",
+		type: "item",
+		items: [{
+			item: "hbm:machine_pumpjack"
+		}]
+	},
+	{
+		uid: "497dab98",
+		type: "item",
+		items: [{
+			item: "hbm:machine_industrial_boiler"
+		}]
+	},
+	{
+		uid: "4343a04a",
+		type: "item",
+		items: [{
+			item: "hbm:heater_electric"
+		}]
+	}]
+}

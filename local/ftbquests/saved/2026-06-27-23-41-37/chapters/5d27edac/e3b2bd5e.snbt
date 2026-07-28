@@ -1,0 +1,19 @@
+{
+	title: "PVC",
+	icon: "hbm:ingot_pvc",
+	x: 1.0d,
+	y: -23.5d,
+	text: [
+		"material de crafteo"
+	],
+	dependencies: [
+		"a3d55610"
+	],
+	tasks: [{
+		uid: "db3ae1e6",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_pvc"
+		}]
+	}]
+}

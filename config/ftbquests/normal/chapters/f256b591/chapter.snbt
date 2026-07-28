@@ -1,0 +1,123 @@
+{
+	title: "Tier 5 FINAL",
+	icon: {
+		id: "hbm:sat_gerald",
+		tag: {}
+	},
+	description: [
+		"Guia de que hacer para que no andes perdio"
+	],
+	always_invisible: 0b,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 4.5d,
+		y: -8.5d,
+		width: 50.0d,
+		height: 50.0d,
+		rotation: 0.0d,
+		image: "assets:quests/8.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 5.0d,
+		y: -4.0d,
+		width: 120.0d,
+		height: 60.0d,
+		rotation: 0.0d,
+		image: "assets:quests/bh.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: -17.0d,
+		y: -8.5d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:quests/p1.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 14.0d,
+		y: 13.0d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: -20.0d,
+		image: "assets:quests/p2.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: -29.0d,
+		y: 2.0d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 60.0d,
+		image: "assets:quests/p3.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 43.0d,
+		y: -3.0d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 160.0d,
+		image: "assets:quests/p4.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: -13.5d,
+		y: -2.0d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 45.0d,
+		image: "assets:quests/p5.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 27.5d,
+		y: -19.5d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 5.0d,
+		image: "assets:quests/p6.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 38.5d,
+		y: 11.5d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: -100.0d,
+		image: "assets:quests/p7.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 6.5d,
+		y: -25.5d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 15.0d,
+		image: "assets:quests/p8.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	}]
+}

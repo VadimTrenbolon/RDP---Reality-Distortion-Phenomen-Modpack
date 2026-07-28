@@ -1,0 +1,23 @@
+{
+	title: "The real end",
+	icon: "hbm:achievement_icon",
+	x: 7.5d,
+	y: 2.0d,
+	text: [
+		"..."
+	],
+	dependencies: [
+		"8791e1f3"
+	],
+	tasks: [{
+		uid: "788ded25",
+		type: "advancement",
+		advancement: "hbm:horizonsend",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "c3b0f666",
+		type: "command",
+		command: "/srpevolution setphase -2"
+	}]
+}

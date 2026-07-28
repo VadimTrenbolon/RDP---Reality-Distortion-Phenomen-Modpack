@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "mekanism",
+  "modName": "Mekanism-CE-Unofficial",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

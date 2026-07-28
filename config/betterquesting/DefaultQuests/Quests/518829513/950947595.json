@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1304852001
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Material Mucho Material",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:soyuz_launcher"
+      },
+      "name:8": "Plataforma",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 950947595,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:struct_soyuz_core"
+        },
+        "1:10": {
+          "Count:3": 294,
+          "id:8": "hbm:concrete_smooth"
+        },
+        "2:10": {
+          "Count:3": 414,
+          "id:8": "hbm:struct_launcher"
+        },
+        "3:10": {
+          "Count:3": 448,
+          "id:8": "hbm:struct_scaffold"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

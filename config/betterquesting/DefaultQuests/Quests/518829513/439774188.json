@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    515134055
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Al obtener el lugar donde alla petroleo colocaras la torre de perforacion\nposteriormente le daras energuia y conectaras tuberias a tanques\nel petroleo crudo lo calentaras y lo pasaras a la siguente maquina\npara seleccionar el petroleo en la caldera dale con el identificador de fluidos con este seleccionado\n\no puedes juntarlo primero con vapor y hacer diferentes cosas",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_well"
+      },
+      "name:8": "Era petrolifera",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 439774188,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_well"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:heater_firebox"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:heat_boiler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

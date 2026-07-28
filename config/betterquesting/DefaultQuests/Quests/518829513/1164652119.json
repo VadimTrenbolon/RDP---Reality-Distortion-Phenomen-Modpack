@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    299741873
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "apesar de requerir borax, exixte un crafteo mas barato pero que da menos saturnita por mas material",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_saturnite"
+      },
+      "name:8": "En Saturno~~~",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1164652119,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_saturnite"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

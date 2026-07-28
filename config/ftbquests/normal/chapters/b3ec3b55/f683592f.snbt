@@ -1,0 +1,41 @@
+{
+	title: "Arboles de oliva y bayas ferricas",
+	x: -12.0d,
+	y: 3.0d,
+	text: [
+		"Nesesarias para the comidas"
+	],
+	dependencies: [
+		"0641b262"
+	],
+	tasks: [{
+		uid: "76234619",
+		type: "item",
+		items: [{
+			item: "rustic:olives"
+		}]
+	},
+	{
+		uid: "4dcade40",
+		type: "item",
+		items: [{
+			item: "rustic:ironberries"
+		}]
+	},
+	{
+		uid: "968f3b0b",
+		type: "item",
+		items: [{
+			item: "rustic:sapling"
+		}],
+		count: 64L
+	},
+	{
+		uid: "edc3b745",
+		type: "item",
+		items: [{
+			item: "rustic:sapling 1 1"
+		}],
+		count: 64L
+	}]
+}

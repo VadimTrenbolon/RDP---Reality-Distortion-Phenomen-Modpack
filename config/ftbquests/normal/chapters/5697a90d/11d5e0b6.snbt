@@ -1,0 +1,48 @@
+{
+	title: "armor aleacion",
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"837983c0",
+		"801ac060"
+	],
+	tasks: [{
+		uid: "7c001087",
+		type: "item",
+		items: [{
+			item: "hbm:alloy_helmet"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ea0c49de",
+		type: "item",
+		items: [{
+			item: "hbm:alloy_plate"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e02cd1c9",
+		type: "item",
+		items: [{
+			item: "hbm:alloy_legs"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6b50db5e",
+		type: "item",
+		items: [{
+			item: "hbm:alloy_boots"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

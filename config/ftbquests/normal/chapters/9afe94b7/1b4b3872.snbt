@@ -1,0 +1,29 @@
+{
+	title: "Edad de Bronze Tier 4 Expensivo final",
+	icon: "hbm:item_expensive 1 6",
+	x: -9.5d,
+	y: -7.0d,
+	text: [
+		"Bronze si Bronze...",
+		"",
+		"",
+		"Revisas el mecanismo, has encontrado 16 chaps"
+	],
+	dependencies: [
+		"500b88cf"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "1bda6872",
+		type: "item",
+		items: [{
+			item: "hbm:item_expensive 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "0ccd8a47",
+		type: "item",
+		item: "hbm:cap_star",
+		count: 16
+	}]
+}

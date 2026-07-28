@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    2092608418
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No nesesariamente tiene que ser la cantidad de agotamiento pedida por la misiom",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:rbmk_pellet_balefire_gold"
+      },
+      "name:8": "relampago gaastado",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1117236963,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:rbmk_pellet_balefire_gold"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

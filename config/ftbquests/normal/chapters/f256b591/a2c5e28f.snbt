@@ -1,0 +1,20 @@
+{
+	title: "Felicidades",
+	icon: "hbm:coin_ufo",
+	x: -1.5d,
+	y: -14.25d,
+	text: [
+		"Felicidades"
+	],
+	dependencies: [
+		"c6a17492"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "a4913d18",
+		type: "item",
+		items: [{
+			item: "hbm:coin_ufo"
+		}]
+	}]
+}

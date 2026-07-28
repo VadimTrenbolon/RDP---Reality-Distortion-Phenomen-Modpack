@@ -1,0 +1,39 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Praparacion para soy uz",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:blueprints",
+        "tag:10": {
+          "pool:8": "discover.gerald"
+        }
+      },
+      "name:8": "Soy tu",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1304852001,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:blueprints",
+          "tag:10": {
+            "pool:8": "discover.gerald"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:blueprints",
+          "tag:10": {
+            "pool:8": "discover.soyuz"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

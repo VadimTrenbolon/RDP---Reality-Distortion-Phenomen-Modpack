@@ -1,0 +1,41 @@
+{
+	title: "Hay que ser minero",
+	icon: {
+		id: "hbm:sat_miner",
+		tag: {}
+	},
+	x: 17.5d,
+	y: -17.5d,
+	text: [
+		"Para que funcione antes de lanzarlo, hay que colocarle un id y enlazarlo con el chip, una vez con ello ya puede estar en orbita"
+	],
+	dependencies: [
+		"70cf4397",
+		"508fc711"
+	],
+	tasks: [{
+		uid: "509f04cf",
+		type: "item",
+		items: [{
+			id: "hbm:sat_miner",
+			tag: {}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "3aa7bf64",
+		type: "item",
+		items: [{
+			id: "hbm:sat_chip",
+			tag: {}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "5763b7fc",
+		type: "item",
+		items: [{
+			item: "hbm:machine_satlinker"
+		}]
+	}]
+}

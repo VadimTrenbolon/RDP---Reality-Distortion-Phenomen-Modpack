@@ -1,0 +1,19 @@
+{
+	title: "Es vapor de agua no contamina",
+	icon: "hbm:machine_tower_small",
+	x: 14.0d,
+	y: 7.0d,
+	text: [
+		"Convertir mas vapor en agua"
+	],
+	dependencies: [
+		"78947aa9"
+	],
+	tasks: [{
+		uid: "9615fbdb",
+		type: "item",
+		items: [{
+			item: "hbm:machine_tower_small"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Descontaminate radialogicamente",
+	icon: "hbm:decon",
+	x: 0.5d,
+	y: -3.0d,
+	text: [
+		"consejo: si pones 4 juntos al ponerte en el centro te descontaminarasw mas rapido"
+	],
+	dependencies: [
+		"4c6d5494"
+	],
+	tasks: [{
+		uid: "35c6c585",
+		type: "item",
+		items: [{
+			item: "hbm:decon"
+		}]
+	}]
+}

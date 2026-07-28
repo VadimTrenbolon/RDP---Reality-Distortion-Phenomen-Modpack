@@ -1,0 +1,47 @@
+﻿DisplayName: MBDA Meteor
+CanLoadChunks: true
+Type: aamissile
+BaseDamage: 100
+Ballistics:
+  Acceleration: 12.0
+  AccelerationInWater: 1.0
+  Gravity: 0.0
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+Sound:
+  Locations:
+    Fire: mcheli:missile_1_snd
+Explosion:
+  Power: 6
+  Radio: 6.0
+  DestructionPower: 6
+  ExplosionAirburst: 6
+  ProximityFuseDist: 1.0
+Camera:
+  Sight: missilesight
+Missile:
+  LockOn:
+    Time: 15
+Ammo:
+  ReloadTime: 600
+  MagSize: 4
+  MaxAmmo: 8
+  ResupplyCount: 4
+  AmmoItems:
+  - Count: 6
+    Name: hbm:ingot_gunmetal
+    Meta: 0
+  - Count: 4
+    Name: hbm:ball_tatb
+    Meta: 0
+  - Count: 4
+    Name: hbm:circuit
+    Meta: 5
+FireCooldown: 4
+Render:
+  BulletModel: meteor
+  Smoke:
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'
+
+

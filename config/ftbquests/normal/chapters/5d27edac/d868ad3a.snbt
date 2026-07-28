@@ -1,0 +1,18 @@
+{
+	title: "The rial cadmio",
+	icon: "hbm:ingot_cdalloy",
+	x: 10.666666666666666d,
+	y: -3.3333333333333335d,
+	text: [
+		"Para crearlo nesecitas colacar el polvo o lingote de cadmio junto a 8 de acero en un crucible",
+		"alternativa al technetium"
+	],
+	size: 1.3333333333333333d,
+	tasks: [{
+		uid: "8671958a",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_cdalloy"
+		}]
+	}]
+}

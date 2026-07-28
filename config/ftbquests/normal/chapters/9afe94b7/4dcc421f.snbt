@@ -1,0 +1,20 @@
+{
+	title: "Proteccion CMB",
+	icon: "hbm:cmb_brick",
+	x: -11.5d,
+	y: -14.0d,
+	text: [
+		"Realmente no creo que uses esto pero que sepas que protege mas contra la radiacion que los bloques de roca profunda"
+	],
+	dependencies: [
+		"eaffd446"
+	],
+	tasks: [{
+		uid: "9e8ebec2",
+		type: "item",
+		items: [{
+			item: "hbm:cmb_brick 64"
+		}],
+		count: 64L
+	}]
+}

@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "deeperdepths",
+  "modName": "Deeper Depths",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

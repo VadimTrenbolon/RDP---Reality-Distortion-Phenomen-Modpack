@@ -1,0 +1,46 @@
+{
+	title: "Acero acelerado",
+	icon: "hbm:ingot_dura_steel",
+	x: 9.0d,
+	y: 2.0d,
+	text: [
+		"Esta aleacion es bastante necesaria solo se puede hacer en un crucible",
+		"",
+		"con un coso de plantillas creas pla plantilla para el crucible con esta en este colocas en su menu 5 de acero, 3 de tungsteno y 1 de cobalto. una vez colocados los calientas y los sacas por los lados del crucible"
+	],
+	dependencies: [
+		"d1e70035"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4fa8aa84",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_dura_steel 32"
+		}],
+		count: 32L
+	},
+	{
+		uid: "193fcaf5",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_steel 5"
+		}],
+		count: 5L
+	},
+	{
+		uid: "cc01ab55",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_tungsten 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "41553a98",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_cobalt"
+		}]
+	}]
+}

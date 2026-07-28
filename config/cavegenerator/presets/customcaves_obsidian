@@ -1,0 +1,181 @@
+{
+	enabled: true
+	blankSlate: true
+	replaceableBlocks: [ "stone", "dirt" ]
+	replaceDecorators: true
+	
+rooms: {
+	minHeight: 32
+	maxHeight: 80
+    scale: 2
+    scaleY: 0.75
+  }
+
+tunnels: {
+    systemChance: 0.001
+	minHeight: 32
+	maxHeight: 80
+	distance: 50
+    noiseYReduction: true
+	
+    scale: {
+		randFactor: 0.5
+		startVal: 5
+		startValRandFactor: 0.5
+    }
+	noise3D: {}
+  }
+caverns: {
+    enabled: true
+	minHeight: 32
+	maxHeight: 80
+    noise3D: {
+      frequency: 0.0167
+      scale: 0.4
+      scaleY: 0.3
+    }
+  }
+caveBlocks: [
+	{
+	states: [ "lava" ]
+	maxHeight: 34
+	minHeight: 18
+		}
+	] 
+wallDecorators: [
+    {
+    states: "quark:blaze_lantern"
+	chance: 0.0005
+    minHeight: 32
+	maxHeight: 80
+	directions: [ "side", "up" ]
+    matchers: [ "stone", "stone:5" ]
+    preference: replace_match
+    }
+	{
+    states: "quark:smoker"
+	chance: 0.33
+	minHeight: 33
+	maxHeight: 34
+    directions: down
+    matchers: [ "stone", "stone:5" ]
+    preference: replace_match
+    }
+	{
+    states: obsidian
+	chance: 0.9
+    minHeight: 32
+	maxHeight: 80
+	directions: all
+    matchers: [ "stone", "stone:5" ]
+    preference: replace_match
+    noise3D: {
+		frequency: 0.15
+		}
+    }
+	{
+    states: stone:1
+	chance: 0.6
+    minHeight: 32
+	maxHeight: 80
+	directions: all
+    matchers: [ "stone", "stone:5" ]
+    preference: replace_match
+    noise3D: {
+		frequency: 0.5
+		}
+    }
+	{
+    states: gravel
+	chance: 0.50
+    minHeight: 32
+	maxHeight: 80
+	directions: down
+    matchers: [ "stone", "stone:5" ]
+    preference: replace_match
+    noise3D: {
+		type: Cellular
+		frequency: 0.05
+		}
+    }
+	{
+    states: [ "red_mushroom", "brown_mushroom" ]
+    chance: 0.02
+	minHeight: 35
+	maxHeight: 70
+    directions: down
+    matchers: stone
+    preference: replace_original
+	noise3D: {
+		type: Cellular
+		frequency: 0.02
+		}
+    }
+	{
+    states: "quark:glowshroom"
+    chance: 0.005
+	minHeight: 35
+	maxHeight: 80
+    directions: down
+    matchers: stone
+    preference: replace_original
+	noise3D: {
+		type: Cellular
+		frequency: 0.02
+		}
+    }
+	
+	]
+largeStalactites: [
+	{
+     state: stone
+     minHeight: 32
+	 maxHeight: 80
+	 maxLength: 12
+     chance: 0.02
+     matchers: stone
+	 noise2D: { 
+		type: Cellular
+		frequency: 0.2 
+		}
+	}
+	{
+    state: obsidian
+    wide: false
+    maxLength: 4
+    minHeight: 40
+    maxHeight: 80
+    matchers: obsidian
+    noise2D: { frequency: 0.2 }
+	}
+	]
+largeStalagmites: {
+    state: stone
+	minHeight: 32
+	maxHeight: 80
+	maxLength: 12
+	wide: true
+	chance: 0.02
+	noise2D: {}
+	}
+giantPillars: [
+    {
+    state: cobblestone
+    stairBlock: stone_stairs
+    minHeight: 32
+	maxHeight: 80
+	minLength: 4
+	maxLength: 10
+	noise2D: {}
+    }
+	{
+    state: obsidian
+    minLength: 5
+	maxLength: 14
+	minHeight: 32
+	maxHeight: 80
+	noise2D: {}
+    }
+  ]
+
+}

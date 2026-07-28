@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    2067915345
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ebronze",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_bismuth_bronze"
+      },
+      "name:8": "ebronze",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1877845185,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_bismuth_bronze"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

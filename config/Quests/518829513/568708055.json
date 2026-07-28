@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    1086901501
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "capas de tomar criaturas pequeñas",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gravitygun:gravitygun",
+        "tag:10": {
+          "GravityGun:10": {
+            "attackDistance:6": 3.428786039352417,
+            "attackLightning:3": 610473,
+            "clawOpenState:1": 0,
+            "clawStateTime:3": 610477
+          }
+        }
+      },
+      "name:8": "Gravity gun v1",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 568708055,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gravitygun:gravitygun",
+          "tag:10": {
+            "GravityGun:10": {
+              "attackDistance:6": 3.428786039352417,
+              "attackLightning:3": 610473,
+              "clawOpenState:1": 0,
+              "clawStateTime:3": 610477
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

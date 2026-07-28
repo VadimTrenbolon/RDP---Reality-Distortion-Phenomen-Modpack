@@ -1,0 +1,20 @@
+{
+	title: "Temperatura",
+	icon: "simpledifficulty:thermometer",
+	x: 8.5d,
+	y: -3.0d,
+	text: [
+		"§6Temperatura§f y §3sed§f",
+		"Esto es algo bastante simple ",
+		"",
+		"Para poder tomar §9agua§f aganchence cerca de una fuente de agua y click derecho pero esta agua estará §asucia§f para limpiarla es necesario un filtro puesto en una §ncantimplora§f",
+		"Así limpiando este agua el §ncantimplora§f se puede mejorará con §7hierro§f, §ccráneo §3de §5dragon§f, y §8plástico§f pero esto se comentara mejor en las misiones",
+		"",
+		"Para la §6temperatura§f primero con ropa u/o hoguera para el frío, para algo más general con §7tecnología§f pero eso se explicara mejor en las misiones"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "8bb16a25",
+		type: "checkmark"
+	}]
+}

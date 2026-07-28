@@ -1,0 +1,20 @@
+{
+	title: "Proteccion radioactiva expensiva",
+	icon: "hbm:item_expensive 1 3",
+	x: -4.666666666666667d,
+	y: -19.333333333333332d,
+	text: [
+		"mucho, mucho, muchoooo"
+	],
+	dependencies: [
+		"dc586c7d"
+	],
+	size: 1.3333333333333333d,
+	tasks: [{
+		uid: "d569f10f",
+		type: "item",
+		items: [{
+			item: "hbm:item_expensive 1 3"
+		}]
+	}]
+}

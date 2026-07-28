@@ -1,0 +1,42 @@
+DisplayName: Mk.46 [Torpedo]
+CanLoadChunks: true
+Type: torpedo
+BaseDamage: 57
+Ballistics:
+  Acceleration: 1.0
+  AccelerationInWater: 1.5
+  Gravity: -0.03
+  GravityInWater: 0.0
+  VelocityInWater: 0.999
+Sound:
+  Locations:
+    Fire: mcheli:bomb_snd
+Explosion:
+  Power: 3
+  Radio: 3.0
+  DestructionPower: 3
+  PowerUnderwater: 9
+  ExplosionAirburst: 3
+Camera:
+  FixPitch: true
+Ammo:
+  ReloadTime: 100
+  MagSize: 3
+  MaxAmmo: 9
+  ResupplyCount: 3
+  AmmoItems:
+  - Count: 2
+    Name: hbm:ingot_gunmetal
+    Meta: 0
+  - Count: 3
+    Name: hbm:cordite
+    Meta: 0
+  - Count: 3
+    Name: hbm:circuit
+    Meta: 5
+FireCooldown: 30
+Render:
+  BulletModel: mk46
+  Smoke:
+    BulletColorInWater: '#FFFFFFFF'
+    BulletColor: '#FFFFFFFF'

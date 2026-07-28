@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1567483877
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "all the basics",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_advanced_alloy"
+      },
+      "name:8": "Aleaciones",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 609522919,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "hbm:ingot_steel"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "id:8": "hbm:ingot_red_copper"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "id:8": "hbm:ingot_advanced_alloy"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:anvil_steel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

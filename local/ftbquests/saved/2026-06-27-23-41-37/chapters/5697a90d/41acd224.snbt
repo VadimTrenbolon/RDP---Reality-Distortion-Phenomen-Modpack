@@ -1,0 +1,62 @@
+{
+	title: "Guarda bosques?",
+	icon: {
+		id: "hbm:ajr_helmet",
+		tag: {
+			charge: 2500000L
+		}
+	},
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"Guardabosques vro?"
+	],
+	dependencies: [
+		"0c56df31",
+		"11d5e0b6"
+	],
+	tasks: [{
+		uid: "05b37520",
+		type: "item",
+		items: [{
+			id: "hbm:ajr_helmet",
+			tag: {
+				charge: 2500000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "cb43609e",
+		type: "item",
+		items: [{
+			id: "hbm:ajr_plate",
+			tag: {
+				charge: 2500000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "870cb608",
+		type: "item",
+		items: [{
+			id: "hbm:ajr_legs",
+			tag: {
+				charge: 2500000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "7a6facc0",
+		type: "item",
+		items: [{
+			id: "hbm:ajr_boots",
+			tag: {
+				charge: 2500000L
+			}
+		}],
+		ignore_damage: 1b
+	}]
+}

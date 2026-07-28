@@ -1,0 +1,19 @@
+{
+	title: "Dineutronio",
+	icon: "hbm:ingot_dineutronium",
+	x: -16.5d,
+	y: -9.5d,
+	text: [
+		"Increible"
+	],
+	dependencies: [
+		"b83a5177"
+	],
+	tasks: [{
+		uid: "0ac01834",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_dineutronium"
+		}]
+	}]
+}

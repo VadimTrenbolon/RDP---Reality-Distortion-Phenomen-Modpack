@@ -1,0 +1,29 @@
+{
+	title: "Chip expensivo",
+	icon: "hbm:item_expensive 1 2",
+	x: 8.0d,
+	y: 6.0d,
+	text: [
+		"mas material, tantos materiales que nesesitamos",
+		"",
+		"",
+		"Revisas de cerca el circuito, has encontrado 16 chapas"
+	],
+	dependencies: [
+		"7df5c491"
+	],
+	size: 1.3333333333333333d,
+	tasks: [{
+		uid: "989cf764",
+		type: "item",
+		items: [{
+			item: "hbm:item_expensive 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "8e703b4d",
+		type: "item",
+		item: "hbm:cap_rad",
+		count: 16
+	}]
+}

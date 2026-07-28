@@ -1,0 +1,107 @@
+{
+  "name": "mammorith",
+  "creatureType": "worm",
+  "groups": [
+    "alpha"
+  ],
+  "entityClass": "com.lycaniteadditions.core.entity.creature.entitymammorith",
+  "modelClass": "com.lycaniteadditions.client.model.modelmammorith",
+  "loadDefault": true,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "monster"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -1,
+      1
+    ],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "plains",
+      "savanna"
+    ],
+    "spawnWeight": 2,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 2,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 1,
+    "spawnsInLight": true,
+    "spawnsInDark": false,
+    "worldDayMin": -1,
+    "despawnNatural": false,
+    "despawnForced": false
+  },
+  "width": 0.9,
+  "height": 0.9,
+  "experience": 5,
+  "health": 25,
+  "defense": 1.5,
+  "armor": 0.5,
+  "speed": 26,
+  "damage": 5,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 24,
+  "knockbackResistance": 0.5,
+  "bagSize": 5,
+  "eggBackColor": "#3b3c36",
+  "eggForeColor": "#444c38",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "keppel",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "golden",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "earth",
+  "diets": [
+    "carnivore",
+    "frugivore"
+  ],
+  "peaceful": true,
+  "farmable": true,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 0,
+  "drops": [
+    {
+      "item": "minecraft:bone",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:flint",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 0.25
+    }
+  ],
+  "sizeScale": 1.5,
+  "hitboxScale": 2.5
+}

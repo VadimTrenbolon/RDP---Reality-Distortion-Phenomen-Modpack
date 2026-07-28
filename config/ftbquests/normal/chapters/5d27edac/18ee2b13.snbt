@@ -1,0 +1,29 @@
+{
+	title: "Reactor de investigacion",
+	icon: "hbm:machine_reactor_small_new",
+	x: 4.5d,
+	y: 0.0d,
+	text: [
+		"Su propocito no es generar energuia si no que investigar",
+		"Con el flux generado transformar materia en otra o irradiar objetos",
+		"",
+		"REQUIERE ESTAR DENDRO DE UNA PICINA PARA QUE LA RADIACION NO AFECTE AL AMBIENTE"
+	],
+	dependencies: [
+		"d07322fb"
+	],
+	tasks: [{
+		uid: "09af3134",
+		type: "item",
+		items: [{
+			item: "hbm:machine_reactor_small_new"
+		}]
+	},
+	{
+		uid: "b61af895",
+		type: "item",
+		items: [{
+			item: "hbm:machine_reactor_breeding"
+		}]
+	}]
+}

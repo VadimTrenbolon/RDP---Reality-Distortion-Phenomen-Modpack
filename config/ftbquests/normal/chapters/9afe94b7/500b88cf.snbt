@@ -1,0 +1,19 @@
+{
+	title: "ebronze",
+	icon: "hbm:ingot_bismuth_bronze",
+	x: -9.5d,
+	y: -4.5d,
+	text: [
+		"ebronze"
+	],
+	dependencies: [
+		"d5e4f258"
+	],
+	tasks: [{
+		uid: "e1f209b3",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_bismuth_bronze"
+		}]
+	}]
+}

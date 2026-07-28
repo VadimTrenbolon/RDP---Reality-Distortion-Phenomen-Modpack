@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1164652119
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "En saturno esta el yunque vro",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:anvil_saturnite"
+      },
+      "name:8": "Tier 5 yunque",
+      "visibility:8": "CHAIN"
+    }
+  },
+  "questID:3": 721431226,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:anvil_saturnite"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

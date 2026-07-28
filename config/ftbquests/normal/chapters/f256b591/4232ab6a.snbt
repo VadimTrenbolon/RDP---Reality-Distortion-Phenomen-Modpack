@@ -1,0 +1,19 @@
+{
+	title: "Para recivir minerales",
+	icon: "hbm:sat_dock",
+	x: 18.5d,
+	y: -19.0d,
+	text: [
+		"Coloca el chip enlazado aqui, cada 10 minutos se recivira minerales, si se llena seguira recibiendo pero no dejara nada"
+	],
+	dependencies: [
+		"08f4368f"
+	],
+	tasks: [{
+		uid: "0b87a79d",
+		type: "item",
+		items: [{
+			item: "hbm:sat_dock"
+		}]
+	}]
+}

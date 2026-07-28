@@ -1,0 +1,19 @@
+{
+	title: "Liquidsificacion",
+	icon: "hbm:machine_liquefactor",
+	x: 18.5d,
+	y: 6.5d,
+	text: [
+		"liquido"
+	],
+	dependencies: [
+		"b4ba5fd6"
+	],
+	tasks: [{
+		uid: "902c3c6f",
+		type: "item",
+		items: [{
+			item: "hbm:machine_liquefactor"
+		}]
+	}]
+}

@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    439774188
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Una vez con el ptrolewo caliente este se tiene que llevar aqui, esta maquinita los separara en sus deribados obiamente nesesita energuia\n\nRevisas el mecanismo, has encontrado 32 chaps",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_refinery"
+      },
+      "name:8": "La Refinacion",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 541975306,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "hbm:cap_nuka"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_refinery"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

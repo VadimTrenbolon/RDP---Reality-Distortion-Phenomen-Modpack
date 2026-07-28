@@ -1,0 +1,64 @@
+{
+	title: "Rstos",
+	icon: {
+		id: "hbm:rpa_helmet",
+		tag: {
+			charge: 2500000L
+		}
+	},
+	x: 7.5d,
+	y: 1.5d,
+	text: [
+		"Bien muy bien"
+	],
+	dependencies: [
+		"6eee1f67",
+		"5307ac0c",
+		"0446cd13",
+		"0c56df31"
+	],
+	tasks: [{
+		uid: "26d7f4b2",
+		type: "item",
+		items: [{
+			id: "hbm:rpa_helmet",
+			tag: {
+				charge: 2500000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "e8b61408",
+		type: "item",
+		items: [{
+			id: "hbm:rpa_plate",
+			tag: {
+				charge: 2500000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "204a43d5",
+		type: "item",
+		items: [{
+			id: "hbm:rpa_legs",
+			tag: {
+				charge: 2500000L
+			}
+		}],
+		ignore_damage: 1b
+	},
+	{
+		uid: "9552968d",
+		type: "item",
+		items: [{
+			id: "hbm:rpa_boots",
+			tag: {
+				charge: 2500000L
+			}
+		}],
+		ignore_damage: 1b
+	}]
+}

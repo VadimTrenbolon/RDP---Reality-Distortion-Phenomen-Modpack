@@ -1,0 +1,40 @@
+{
+	title: "Pico basico 3x3",
+	icon: {
+		id: "hbm:dwarven_pickaxe",
+		tag: {
+			ability: 0,
+			abilityPresets: [{
+				area: "",
+				areaLevel: 0,
+				harvest: "",
+				harvestLevel: 0
+			},
+			{
+				area: "tool.ability.hammer",
+				areaLevel: 0,
+				harvest: "",
+				harvestLevel: 0
+			},
+			{
+				area: "tool.ability.hammer_flat",
+				areaLevel: 0,
+				harvest: "",
+				harvestLevel: 0
+			}]
+		}
+	},
+	x: -2.5d,
+	y: -2.0d,
+	text: [
+		"se rompe rapido"
+	],
+	tasks: [{
+		uid: "301a6f75",
+		type: "item",
+		items: [{
+			item: "hbm:dwarven_pickaxe"
+		}],
+		ignore_damage: 1b
+	}]
+}

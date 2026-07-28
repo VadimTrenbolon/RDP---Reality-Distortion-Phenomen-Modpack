@@ -1,0 +1,28 @@
+{
+	title: "Peazo huevo",
+	icon: "hbm:egg_balefire_shard",
+	x: -4.0d,
+	y: -7.0d,
+	text: [
+		"Frametos de balefire"
+	],
+	dependencies: [
+		"155997dd",
+		"b9890217"
+	],
+	tasks: [{
+		uid: "72720eb4",
+		type: "item",
+		items: [{
+			item: "hbm:cell_balefire 9"
+		}],
+		count: 9L
+	},
+	{
+		uid: "085a0595",
+		type: "item",
+		items: [{
+			item: "hbm:egg_balefire_shard"
+		}]
+	}]
+}

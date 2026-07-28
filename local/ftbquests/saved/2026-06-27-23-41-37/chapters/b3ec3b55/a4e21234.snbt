@@ -1,0 +1,50 @@
+{
+	title: "A generar energuia",
+	icon: "immersiveengineering:metal_device1 1 2",
+	x: -4.0d,
+	y: 1.5d,
+	text: [
+		"por la espera y para cuando la necesites o energuia pasiva"
+	],
+	dependencies: [
+		"91c3d7d6"
+	],
+	tasks: [{
+		uid: "b5dd5ed4",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1"
+		}]
+	},
+	{
+		uid: "f44142cf",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1 1 1"
+		}]
+	},
+	{
+		uid: "f8598480",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "29227688",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "44cf796a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 2 2"
+		}],
+		count: 2L
+	}]
+}

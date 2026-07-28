@@ -1,0 +1,19 @@
+{
+	title: "Compresion sanginea",
+	icon: "hbm:machine_compressor",
+	x: 16.0d,
+	y: 4.0d,
+	text: [
+		"Pdias crear esta maquina antes pero no tendria utilizar ahora con la sangre la obtiene, con la sangre puedes producir aceite pesado"
+	],
+	dependencies: [
+		"7e24a8e4"
+	],
+	tasks: [{
+		uid: "6981b577",
+		type: "item",
+		items: [{
+			item: "hbm:machine_compressor"
+		}]
+	}]
+}

@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "srpcalamity",
+  "modName": "SRP: Calamity Catastrophe Cataclysm",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}

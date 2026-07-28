@@ -1,0 +1,20 @@
+{
+	title: "roca inminable vro",
+	icon: "hbm:stone_depth",
+	x: -4.5d,
+	y: -1.5d,
+	text: [
+		"MEdiante explociones consiguela o si llegas a tener con pico de bismuto"
+	],
+	dependencies: [
+		"e341ba7e"
+	],
+	tasks: [{
+		uid: "695948e4",
+		type: "item",
+		items: [{
+			item: "hbm:stone_depth 64"
+		}],
+		count: 64L
+	}]
+}

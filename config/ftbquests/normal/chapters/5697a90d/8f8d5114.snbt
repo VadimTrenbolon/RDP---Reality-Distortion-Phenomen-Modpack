@@ -1,0 +1,19 @@
+{
+	title: "Blindaje de armadura v4",
+	icon: "hbm:plate_armor_lunar",
+	x: 4.5d,
+	y: -3.0d,
+	text: [
+		"Lunar vro"
+	],
+	dependencies: [
+		"3d305c81"
+	],
+	tasks: [{
+		uid: "34e55d20",
+		type: "item",
+		items: [{
+			item: "hbm:plate_armor_lunar"
+		}]
+	}]
+}

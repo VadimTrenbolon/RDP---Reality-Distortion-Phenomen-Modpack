@@ -1,0 +1,21 @@
+{
+	title: "Mecanismos?",
+	icon: "mekanismmultiblockmachine:largewindgenerator",
+	x: 0.0d,
+	y: -2.0d,
+	shape: "hexagon",
+	text: [
+		"Se dice de un lugar donde se usaba una tecnologia a base de mekanismos, no confundir con mecanismos",
+		"Talvez TU los puedas dominar y redescubrir"
+	],
+	dependencies: [
+		"8206c621"
+	],
+	tasks: [{
+		uid: "fecbafa3",
+		type: "item",
+		items: [{
+			item: "mekanismmultiblockmachine:largewindgenerator"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Schrabidium",
+	icon: "hbm:ingot_schrabidium",
+	x: 2.25d,
+	y: -12.75d,
+	text: [
+		"no es la mejor foerma de conseguir pero si la mas facil, la siguente forma requiere acelerador de particulas",
+		"",
+		"con el ore no lo calientes pasalo por el acidificador para cristales, luego centrifugado y calentado"
+	],
+	dependencies: [
+		"42a5e660"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "e36cb577",
+		type: "item",
+		items: [{
+			item: "hbm:crystal_schrabidium"
+		}]
+	}]
+}

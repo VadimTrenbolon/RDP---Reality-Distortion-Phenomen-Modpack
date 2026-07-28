@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    1291966494
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "para tus aleacenes primerizas\nnesesitaras bastante carbon o lava\n\ncon el yunque podras reciclar los bloques decorativos de las estructuras para conseguir sus materiales primos\n\ncon la prensa en el centro arriva va la respectiva estampa la cual se elije con el blueprint",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:anvil_iron"
+      },
+      "name:8": "Primeras maquinas ntm",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1567483877,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:anvil_iron"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:stamp_titanium_flat"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:stamp_titanium_plate"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:stamp_titanium_wire"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_press"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_difurnace_off"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_difurnace_ext"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "hbm:template_folder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

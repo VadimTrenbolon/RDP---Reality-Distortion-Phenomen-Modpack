@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    146426686
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "...",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:achievement_icon"
+      },
+      "name:8": "The real end",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1535608917,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "/srpevolution setphase -2",
+      "description:8": "Eliminar, ... y Parasitos",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "advancement_id:8": "hbm:horizonsend",
+      "index:3": 0,
+      "taskID:8": "bq_standard:advancement"
+    }
+  }
+}
