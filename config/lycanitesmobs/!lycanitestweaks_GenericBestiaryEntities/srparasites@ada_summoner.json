@@ -19,13 +19,14 @@
       "values": []
     },
     {
-      "modType": "srparasites:status",
+      "modType": "srparasites:attacking",
       "knowledgeRank": 1,
-      "experienceRatio": 0.0,
-      "values": [
-        0,
-        10
-      ]
+      "experienceRatio": 0.0
+    },
+    {
+      "modType": "newSpawn",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0
     },
     {
       "modType": "srparasites:parasitetype",
@@ -39,14 +40,13 @@
       ]
     },
     {
-      "modType": "srparasites:attacking",
+      "modType": "srparasites:status",
       "knowledgeRank": 1,
-      "experienceRatio": 0.0
-    },
-    {
-      "modType": "newSpawn",
-      "knowledgeRank": 1,
-      "experienceRatio": 0.0
+      "experienceRatio": 0.0,
+      "values": [
+        0,
+        10
+      ]
     }
   ]
 }

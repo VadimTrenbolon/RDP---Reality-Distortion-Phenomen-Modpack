@@ -19,15 +19,15 @@
       "values": []
     },
     {
-      "modType": "baby",
-      "knowledgeRank": 1,
-      "experienceRatio": 0.0
-    },
-    {
       "modType": "basicVariants",
       "knowledgeRank": 1,
       "experienceRatio": 0.0,
       "variantCount": 4
+    },
+    {
+      "modType": "baby",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0
     }
   ]
 }

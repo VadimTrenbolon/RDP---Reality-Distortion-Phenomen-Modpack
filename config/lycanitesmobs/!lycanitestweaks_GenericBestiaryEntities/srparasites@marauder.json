@@ -19,6 +19,16 @@
       "values": []
     },
     {
+      "modType": "srparasites:attacking",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0
+    },
+    {
+      "modType": "newSpawn",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0
+    },
+    {
       "modType": "srparasites:status",
       "knowledgeRank": 1,
       "experienceRatio": 0.0,
@@ -38,16 +48,6 @@
         6,
         7
       ]
-    },
-    {
-      "modType": "srparasites:attacking",
-      "knowledgeRank": 1,
-      "experienceRatio": 0.0
-    },
-    {
-      "modType": "newSpawn",
-      "knowledgeRank": 1,
-      "experienceRatio": 0.0
     }
   ]
 }

@@ -19,17 +19,17 @@
       "values": []
     },
     {
-      "modType": "srparasites:burrow",
-      "knowledgeRank": 1,
-      "experienceRatio": 0.0
-    },
-    {
       "modType": "srparasites:attacking",
       "knowledgeRank": 1,
       "experienceRatio": 0.0
     },
     {
       "modType": "newSpawn",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0
+    },
+    {
+      "modType": "srparasites:burrow",
       "knowledgeRank": 1,
       "experienceRatio": 0.0
     }

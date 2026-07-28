@@ -19,11 +19,6 @@
       "values": []
     },
     {
-      "modType": "baby",
-      "knowledgeRank": 1,
-      "experienceRatio": 0.0
-    },
-    {
       "modType": "attacking",
       "knowledgeRank": 1,
       "experienceRatio": 0.0
@@ -35,6 +30,11 @@
       "values": [
         8
       ]
+    },
+    {
+      "modType": "baby",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0
     }
   ]
 }

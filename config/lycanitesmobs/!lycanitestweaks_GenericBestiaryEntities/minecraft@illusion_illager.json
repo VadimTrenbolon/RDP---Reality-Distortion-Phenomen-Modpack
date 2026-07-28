@@ -19,8 +19,8 @@
       "values": []
     },
     {
-      "modType": "leftHanded",
-      "knowledgeRank": 2,
+      "modType": "evokerSpell",
+      "knowledgeRank": 1,
       "experienceRatio": 0.0
     },
     {
@@ -29,8 +29,8 @@
       "experienceRatio": 0.0
     },
     {
-      "modType": "evokerSpell",
-      "knowledgeRank": 1,
+      "modType": "leftHanded",
+      "knowledgeRank": 2,
       "experienceRatio": 0.0
     }
   ]

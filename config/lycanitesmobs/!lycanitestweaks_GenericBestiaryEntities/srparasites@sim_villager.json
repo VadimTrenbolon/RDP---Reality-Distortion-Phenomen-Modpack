@@ -19,15 +19,6 @@
       "values": []
     },
     {
-      "modType": "srparasites:parasitetype",
-      "knowledgeRank": 1,
-      "experienceRatio": 0.0,
-      "skins": [
-        0,
-        1
-      ]
-    },
-    {
       "modType": "srparasites:attacking",
       "knowledgeRank": 1,
       "experienceRatio": 0.0
@@ -36,6 +27,15 @@
       "modType": "newSpawn",
       "knowledgeRank": 1,
       "experienceRatio": 0.0
+    },
+    {
+      "modType": "srparasites:parasitetype",
+      "knowledgeRank": 1,
+      "experienceRatio": 0.0,
+      "skins": [
+        0,
+        1
+      ]
     }
   ]
 }

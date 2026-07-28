@@ -1,0 +1,10 @@
+{
+  "loadDefault": true,
+  "modID": "jsg",
+  "modName": "Just Stargate Mod",
+  "entityLangKeyPrefix": "entity.",
+  "entityLangKeySuffix": ".name",
+  "descriptionLangKeyPrefix": "",
+  "descriptionLangKeySuffix": "",
+  "disableAllBestiaryEntries": false
+}
