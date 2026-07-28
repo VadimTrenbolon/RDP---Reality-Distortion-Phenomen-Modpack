@@ -7560,36 +7560,6 @@
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}"
   },
   {
-    "name": "jsg:naquadah_ore_stone",
-    "meta": 0,
-    "length": 1,
-    "name0": "jsg:naquadah_impure",
-    "meta0": 0,
-    "0chance0": 148.375,
-    "1chance0": 249.35,
-    "2chance0": 353.625,
-    "3chance0": 447.25,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 8\n}"
-  },
-  {
-    "name": "jsg:titanium_ore",
-    "meta": 0,
-    "length": 1,
-    "name0": "jsg:titanium_impure",
-    "meta0": 0,
-    "0chance0": 149.65,
-    "1chance0": 250.22499,
-    "2chance0": 347.15,
-    "3chance0": 448.99997,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 8\n}"
-  },
-  {
     "name": "mekanism:oreblock",
     "meta": 0,
     "length": 1,
@@ -7603,21 +7573,6 @@
     "1pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
     "2pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}"
-  },
-  {
-    "name": "jsg:trinium_ore",
-    "meta": 0,
-    "length": 1,
-    "name0": "jsg:trinium_impure",
-    "meta0": 0,
-    "0chance0": 149.77501,
-    "1chance0": 250.02501,
-    "2chance0": 352.95,
-    "3chance0": 454.95,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 8\n}"
   },
   {
     "name": "mekanism:oreblock",
@@ -7650,21 +7605,6 @@
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}"
   },
   {
-    "name": "jsg:tokra_crystal_block",
-    "meta": 0,
-    "length": 1,
-    "name0": "jsg:crystal_tokra",
-    "meta0": 0,
-    "0chance0": 353.0,
-    "1chance0": 452.325,
-    "2chance0": 551.625,
-    "3chance0": 648.45,
-    "0pair0": "{\n  \"left\": 2,\n  \"right\": 5\n}",
-    "1pair0": "{\n  \"left\": 2,\n  \"right\": 7\n}",
-    "2pair0": "{\n  \"left\": 2,\n  \"right\": 9\n}",
-    "3pair0": "{\n  \"left\": 2,\n  \"right\": 11\n}"
-  },
-  {
     "name": "mekanism:oreblock",
     "meta": 4,
     "length": 1,
@@ -7678,21 +7618,6 @@
     "1pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
     "2pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}"
-  },
-  {
-    "name": "jsg:naquadah_ore",
-    "meta": 0,
-    "length": 1,
-    "name0": "jsg:naquadah_impure",
-    "meta0": 0,
-    "0chance0": 150.5,
-    "1chance0": 251.22499,
-    "2chance0": 346.225,
-    "3chance0": 445.07498,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 8\n}"
   },
   {
     "name": "mekanism:saltblock",

@@ -61,8 +61,6 @@ bettercombat:aetherealized
 bettercombat:precision
 bettercombat:brutality
 bettercombat:bleeding
-lycanitestweaks:consumed
-lycanitestweaks:voided
 oe:conduit_power
 oe:descent
 oe:seeping

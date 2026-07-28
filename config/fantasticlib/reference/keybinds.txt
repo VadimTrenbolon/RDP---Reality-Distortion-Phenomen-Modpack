@@ -132,15 +132,6 @@ ir_keys.zero_brake
 ir_keys.zero_independent_brake
 ir_keys.zero_throttle
 
-JSG
-config.jsg.address_edit
-config.jsg.mode_down
-config.jsg.mode_scroll
-config.jsg.mode_up
-config.jsg.address_down
-config.jsg.address_scroll
-config.jsg.address_up
-
 Lycanites Mobs
 key.beastiary
 key.index
@@ -151,20 +142,6 @@ key.mount.descend
 key.mount.inventory
 key.pets
 key.summoning
-
-key.categories.misc.lycanitestweaks
-key.toggle_soulgazer_auto.lycanitestweaks
-key.toggle_soulgazer_manual.lycanitestweaks
-key.teleport_keybound_pet.lycanitestweaks
-key.lycanitestweaks.toggleAllBaubles
-key.lycanitestweaks.toggleAmuletBauble
-key.lycanitestweaks.toggleBeltBauble
-key.lycanitestweaks.toggleBodyBauble
-key.lycanitestweaks.toggleCharmBauble
-key.lycanitestweaks.toggleHeadBauble
-key.lycanitestweaks.toggleRing1Bauble
-key.lycanitestweaks.toggleRing2Bauble
-key.spawn_keybound_pet.lycanitestweaks
 
 Mekanism
 Boost
