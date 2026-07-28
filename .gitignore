@@ -66,6 +66,10 @@ mods/
 !srpextra/
 !fonts/
 !local/
+mods/**
+!mods/.index/
+!mods/.index/**
+!mods/RDP - (Reality Distortion Phenomen-v1).html
 
 ########################################
 # Project files
@@ -86,5 +90,5 @@ resourcepacks/**
 !resourcepacks/.index/
 !resourcepacks/.index/**
 
-# (Optional) Keep a README
+# Keep a README
 !resourcepacks/README.md
