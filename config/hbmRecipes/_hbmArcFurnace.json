@@ -2251,300 +2251,28 @@
       "fluid": [["Titanium",216]]
     },
     {
-      "input": ["item","hbm:ore_gneiss_gold",1,32767],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","valoria:thit05goldore"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:iron_ore_quark_jasper"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:iron_ore_quark_jasper",1,1],
-      "solid": ["minecraft:iron_ingot",2]
-    },
-    {
-      "input": ["item","hbm:combine_scrap",1,32767],
-      "solid": ["hbm:ingot_combine_steel"]
-    },
-    {
-      "input": ["item","hbm:ore_nether_uranium",1,32767],
-      "solid": ["hbm:ingot_uranium"]
-    },
-    {
-      "input": ["item","valoria:zarrion03bironore"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:iron_ore_quark_marble"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:iron_ore_quark_marble",1,1],
-      "solid": ["minecraft:iron_ingot",2]
-    },
-    {
-      "input": ["item","gargantulamod:mannironore"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","valoria:ignisd03ironore"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:diamond_ore_quark_jasper",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","osv:diamond_ore_quark_jasper"],
+      "input": ["item","valoria:sib01diamondore"],
       "solid": ["minecraft:diamond"]
     },
     {
-      "input": ["item","hbm:ore_beryllium",1,32767],
-      "solid": ["hbm:ingot_beryllium"]
-    },
-    {
-      "input": ["item","industrialrenewal:orevein_hematite",1,32767],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:emerald_ore_5",1,1],
-      "solid": ["minecraft:emerald",2]
-    },
-    {
-      "input": ["item","osv:emerald_ore_5"],
-      "solid": ["minecraft:emerald"]
-    },
-    {
-      "input": ["item","valoria:antham04aluminumore"],
-      "solid": ["galacticraftcore:basic_item",1,5]
-    },
-    {
-      "input": ["item","osv:redstone_ore_quark_slate"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:redstone_ore_quark_slate",1,2],
-      "solid": ["minecraft:redstone",2]
-    },
-    {
-      "input": ["item","nb:nether_gold_ore",1,32767],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","valoria:ignise01aluminumore"],
-      "solid": ["galacticraftcore:basic_item",1,5]
-    },
-    {
-      "input": ["item","hbm:powder_niobium",1,32767],
-      "solid": ["hbm:ingot_niobium"]
-    },
-    {
-      "input": ["item","hbm:powder_tungsten",1,32767],
-      "solid": ["hbm:ingot_tungsten"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_limestone"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_limestone",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","dynaores:raw_copper",1,32767],
-      "solid": ["galacticraftcore:basic_item",1,3]
-    },
-    {
-      "input": ["item","valoria:zarrion03bdeshore"],
-      "solid": ["galacticraftplanets:item_basic_mars",1,2]
-    },
-    {
-      "input": ["item","osv:coal_ore_quark_slate"],
-      "solid": ["minecraft:coal"]
-    },
-    {
-      "input": ["item","osv:coal_ore_quark_slate",1,1],
-      "solid": ["minecraft:coal",2]
-    },
-    {
-      "input": ["item","osv:diamond_ore_quark_marble",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","osv:diamond_ore_quark_marble"],
+      "input": ["item","valoria:thit05diamondore"],
       "solid": ["minecraft:diamond"]
     },
     {
-      "input": ["item","osv:coal_ore_1"],
-      "solid": ["minecraft:coal"]
+      "input": ["item","valoria:antham04diamondore"],
+      "solid": ["minecraft:diamond"]
     },
     {
-      "input": ["item","osv:coal_ore_1",1,1],
-      "solid": ["minecraft:coal",2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_5",1,1],
-      "solid": ["biomesoplenty:gem",2,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_5"],
-      "solid": ["biomesoplenty:gem",1,1]
-    },
-    {
-      "input": ["item","valoria:ignisc02aluminumore"],
-      "solid": ["galacticraftcore:basic_item",1,5]
-    },
-    {
-      "input": ["item","valoria:ignisc02tinore"],
-      "solid": ["galacticraftcore:basic_item",1,4]
-    },
-    {
-      "input": ["item","osv:coal_ore_3"],
-      "solid": ["minecraft:coal"]
-    },
-    {
-      "input": ["item","osv:coal_ore_3",1,1],
-      "solid": ["minecraft:coal",2]
-    },
-    {
-      "input": ["item","valoria:ptotor03ironore"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","hbm:powder_schrabidium",1,32767],
-      "solid": ["hbm:ingot_schrabidium"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_1",1,1],
-      "solid": ["biomesoplenty:gem",2,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_1"],
-      "solid": ["biomesoplenty:gem",1,1]
-    },
-    {
-      "input": ["item","hbm:powder_calcium",1,32767],
-      "solid": ["hbm:ingot_calcium"]
-    },
-    {
-      "input": ["item","dynaores:raw_australium",1,32767],
-      "solid": ["hbm:ingot_australium"]
-    },
-    {
-      "input": ["item","valoria:thit05aluminumore"],
-      "solid": ["galacticraftcore:basic_item",1,5]
-    },
-    {
-      "input": ["item","hbm:ore_schrabidium",1,32767],
-      "solid": ["hbm:ingot_schrabidium"]
-    },
-    {
-      "input": ["item","dynaores:raw_thorium",1,32767],
-      "solid": ["hbm:ingot_th232"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_quark_marble"],
-      "solid": ["biomesoplenty:gem",1,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_quark_marble",1,1],
-      "solid": ["biomesoplenty:gem",2,3]
-    },
-    {
-      "input": ["item","valoria:selene03aredstoneore"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","hbm:powder_au198",1,32767],
-      "solid": ["hbm:ingot_au198"]
-    },
-    {
-      "input": ["item","valoria:ignise01redstoneore"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore"],
-      "solid": ["biomesoplenty:gem",1,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore",1,1],
-      "solid": ["biomesoplenty:gem",2,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_slate"],
-      "solid": ["biomesoplenty:gem",1,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_jasper",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_jasper"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_limestone",1,1],
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_jasper",1,1],
       "solid": ["biomesoplenty:gem",2,6]
     },
     {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_limestone"],
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_jasper"],
       "solid": ["biomesoplenty:gem",1,6]
     },
     {
-      "input": ["item","valoria:kerberos05aironore"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","valoria:selene03adiamondore"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","osv:coal_ore_quark_limestone"],
-      "solid": ["minecraft:coal"]
-    },
-    {
-      "input": ["item","osv:coal_ore_quark_limestone",1,1],
-      "solid": ["minecraft:coal",2]
-    },
-    {
-      "input": ["item","valoria:kerberos05agoldore"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","valoria:ignisc02goldore"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:lapis_ore_5"],
-      "solid": ["minecraft:dye",1,4]
-    },
-    {
-      "input": ["item","osv:lapis_ore_5",1,1],
-      "solid": ["minecraft:dye",2,4]
-    },
-    {
-      "input": ["item","osv:lapis_ore_quark_limestone"],
-      "solid": ["minecraft:dye",1,4]
-    },
-    {
-      "input": ["item","osv:lapis_ore_quark_limestone",1,1],
-      "solid": ["minecraft:dye",2,4]
-    },
-    {
-      "input": ["item","valoria:antham04tinore"],
-      "solid": ["galacticraftcore:basic_item",1,4]
-    },
-    {
-      "input": ["item","valoria:zarrion03bredstoneore"],
-      "solid": ["minecraft:redstone"]
+      "input": ["item","dynaores:raw_tungsten",1,32767],
+      "solid": ["hbm:ingot_tungsten"]
     },
     {
       "input": ["item","hbm:arc_electrode_burnt",1,3],
@@ -2563,236 +2291,36 @@
       "solid": ["hbm:ingot_graphite"]
     },
     {
-      "input": ["item","valoria:ptotor03tinore"],
-      "solid": ["galacticraftcore:basic_item",1,4]
-    },
-    {
-      "input": ["item","valoria:maakarus02redstoneore"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:diamond_ore_quark_limestone",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","osv:diamond_ore_quark_limestone"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_3"],
-      "solid": ["biomesoplenty:gem",1,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_3",1,1],
-      "solid": ["biomesoplenty:gem",2,3]
-    },
-    {
-      "input": ["item","osv:iron_ore_quark_slate"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:iron_ore_quark_slate",1,1],
-      "solid": ["minecraft:iron_ingot",2]
-    },
-    {
-      "input": ["item","valoria:frostburn06aironore"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","hbm:powder_iron",1,32767],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:emerald_ore",1,1],
-      "solid": ["minecraft:emerald",2]
-    },
-    {
-      "input": ["item","osv:emerald_ore"],
-      "solid": ["minecraft:emerald"]
-    },
-    {
-      "input": ["item","futuremc:ancient_debris"],
-      "solid": ["futuremc:netherite_scrap"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_3",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_3"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","nyx:star_block"],
-      "solid": ["nyx:cracked_star_block"]
-    },
-    {
-      "input": ["item","hbm:powder_magnetized_tungsten",1,32767],
-      "solid": ["hbm:ingot_magnetized_tungsten"]
-    },
-    {
-      "input": ["item","osv:diamond_ore_1",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","osv:diamond_ore_1"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","dynaores:raw_beryllium",1,32767],
-      "solid": ["hbm:ingot_beryllium"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_marble",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_marble"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","galacticraftcore:basic_block_core",1,7],
-      "solid": ["galacticraftcore:basic_item",1,5]
-    },
-    {
-      "input": ["item","galacticraftcore:basic_block_core",1,6],
-      "solid": ["galacticraftcore:basic_item",1,4]
-    },
-    {
-      "input": ["item","valoria:antham04ironore"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","galacticraftcore:basic_block_core",1,5],
-      "solid": ["galacticraftcore:basic_item",1,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_quark_marble"],
-      "solid": ["biomesoplenty:gem",1,7]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_quark_marble",1,1],
-      "solid": ["biomesoplenty:gem",2,7]
-    },
-    {
-      "input": ["item","hbm:powder_sr90",1,32767],
-      "solid": ["hbm:ingot_sr90"]
-    },
-    {
-      "input": ["item","osv:emerald_ore_quark_limestone",1,1],
-      "solid": ["minecraft:emerald",2]
-    },
-    {
-      "input": ["item","osv:emerald_ore_quark_limestone"],
-      "solid": ["minecraft:emerald"]
-    },
-    {
-      "input": ["item","osv:redstone_ore_3"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:redstone_ore_3",1,2],
-      "solid": ["minecraft:redstone",2]
-    },
-    {
-      "input": ["item","valoria:ignisd03diamondore"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","dynaores:raw_zirconium",1,32767],
-      "solid": ["hbm:ingot_zirconium"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_1"],
-      "solid": ["biomesoplenty:gem",1,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_1",1,1],
-      "solid": ["biomesoplenty:gem",2,4]
-    },
-    {
-      "input": ["item","dynaores:raw_tin",1,32767],
-      "solid": ["galacticraftcore:basic_item",1,4]
-    },
-    {
-      "input": ["item","hbm:powder_schrabidate",1,32767],
-      "solid": ["hbm:ingot_schrabidate"]
-    },
-    {
-      "input": ["item","valoria:ignisc02redstoneore"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:diamond_ore",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","osv:diamond_ore"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","valoria:h2co06bironore"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:gold_ore_quark_jasper"],
+      "input": ["item","osv:gold_ore_3"],
       "solid": ["minecraft:gold_ingot"]
     },
     {
-      "input": ["item","osv:gold_ore_quark_jasper",1,1],
+      "input": ["item","osv:gold_ore_3",1,1],
       "solid": ["minecraft:gold_ingot",2]
     },
     {
-      "input": ["item","valoria:sib01aluminumore"],
-      "solid": ["galacticraftcore:basic_item",1,5]
+      "input": ["item","galacticraftplanets:item_basic_mars"],
+      "solid": ["galacticraftplanets:item_basic_mars",1,2]
     },
     {
-      "input": ["item","valoria:sib01redstoneore"],
+      "input": ["item","valoria:selene03acopperore"],
+      "solid": ["galacticraftcore:basic_item",1,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_slate"],
+      "solid": ["biomesoplenty:gem",1,5]
+    },
+    {
+      "input": ["item","industrialrenewal:orevein_hematite",1,32767],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","valoria:antham04redstoneore"],
       "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_slate"],
-      "solid": ["biomesoplenty:gem",1,6]
-    },
-    {
-      "input": ["item","dynaores:raw_neodymium",1,32767],
-      "solid": ["hbm:ingot_raw",1,6000]
-    },
-    {
-      "input": ["item","osv:iron_ore_quark_limestone"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:iron_ore_quark_limestone",1,1],
-      "solid": ["minecraft:iron_ingot",2]
-    },
-    {
-      "input": ["item","osv:emerald_ore_1",1,1],
-      "solid": ["minecraft:emerald",2]
-    },
-    {
-      "input": ["item","valoria:sib01ironore"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:emerald_ore_1"],
-      "solid": ["minecraft:emerald"]
-    },
-    {
-      "input": ["item","hbm:ore_gneiss_iron",1,32767],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","valoria:frostburn06aaluminumore"],
-      "solid": ["galacticraftcore:basic_item",1,5]
-    },
-    {
-      "input": ["item","mekanism:otherdust",1,1],
-      "solid": ["mekanism:ingot",1,4]
     },
     {
       "input": ["item","osv:biomesoplenty_amber_ore_5"],
@@ -2803,571 +2331,35 @@
       "solid": ["biomesoplenty:gem",2,7]
     },
     {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_3"],
-      "solid": ["biomesoplenty:gem",1,4]
+      "input": ["item","dynaores:raw_plutonium",1,32767],
+      "solid": ["hbm:ingot_plutonium"]
     },
     {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_3",1,1],
-      "solid": ["biomesoplenty:gem",2,4]
-    },
-    {
-      "input": ["item","osv:gold_ore_quark_marble"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:gold_ore_quark_marble",1,1],
-      "solid": ["minecraft:gold_ingot",2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_marble"],
-      "solid": ["biomesoplenty:gem",1,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_marble",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_quark_limestone"],
-      "solid": ["biomesoplenty:gem",1,7]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_quark_limestone",1,1],
-      "solid": ["biomesoplenty:gem",2,7]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_5",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","techguns:basicore",1,2],
-      "solid": ["techguns:itemshared",1,82]
-    },
-    {
-      "input": ["item","techguns:basicore",1,1],
-      "solid": ["techguns:itemshared",1,80]
-    },
-    {
-      "input": ["item","techguns:basicore"],
-      "solid": ["techguns:itemshared",1,79]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_5"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","osv:redstone_ore_5"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:redstone_ore_1"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:redstone_ore_1",1,2],
-      "solid": ["minecraft:redstone",2]
-    },
-    {
-      "input": ["item","osv:redstone_ore_5",1,2],
-      "solid": ["minecraft:redstone",2]
-    },
-    {
-      "input": ["item","hbm:powder_bakelite",1,32767],
-      "solid": ["hbm:ingot_bakelite"]
-    },
-    {
-      "input": ["item","valoria:ignisd03goldore"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","valoria:thit05redstoneore"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","valoria:ptotor03redstoneore"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","valoria:antham04diamondore"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","osv:diamond_ore_quark_slate",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","osv:diamond_ore_quark_slate"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","valoria:maakarus02aluminumore"],
-      "solid": ["galacticraftcore:basic_item",1,5]
-    },
-    {
-      "input": ["item","hbm:powder_lead",1,32767],
-      "solid": ["hbm:ingot_lead"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_limestone",1,1],
+      "input": ["item","osv:biomesoplenty_ruby_ore_1",1,1],
       "solid": ["biomesoplenty:gem",2,1]
     },
     {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_limestone"],
+      "input": ["item","osv:biomesoplenty_ruby_ore_1"],
       "solid": ["biomesoplenty:gem",1,1]
     },
     {
-      "input": ["item","valoria:ptotor03sapphireore"],
-      "solid": ["galacticraftcore:item_basic_moon",1,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_5"],
-      "solid": ["biomesoplenty:gem",1,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_5",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore",1,1],
-      "solid": ["biomesoplenty:gem",2,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore"],
-      "solid": ["biomesoplenty:gem",1,6]
-    },
-    {
-      "input": ["item","osv:gold_ore_5"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:gold_ore_5",1,1],
-      "solid": ["minecraft:gold_ingot",2]
-    },
-    {
-      "input": ["item","osv:lapis_ore_quark_jasper"],
-      "solid": ["minecraft:dye",1,4]
-    },
-    {
-      "input": ["item","osv:lapis_ore_quark_jasper",1,1],
-      "solid": ["minecraft:dye",2,4]
-    },
-    {
-      "input": ["item","industrialrenewal:sponge_iron",1,32767],
-      "solid": ["industrialrenewal:ingot_steel"]
-    },
-    {
-      "input": ["item","dynaores:raw_lead",1,32767],
-      "solid": ["mekanism:ingot",1,7]
-    },
-    {
-      "input": ["item","hbm:ore_gneiss_uranium_scorched",1,32767],
-      "solid": ["hbm:ingot_uranium"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_3",1,1],
-      "solid": ["biomesoplenty:gem",2,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_3"],
-      "solid": ["biomesoplenty:gem",1,6]
-    },
-    {
-      "input": ["item","hbm:ore_thorium",1,32767],
-      "solid": ["hbm:ingot_th232"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_1"],
-      "solid": ["biomesoplenty:gem",1,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_1",1,1],
-      "solid": ["biomesoplenty:gem",2,3]
-    },
-    {
-      "input": ["item","valoria:maakarus02diamondore"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","valoria:antham04deshore"],
-      "solid": ["galacticraftplanets:item_basic_mars",1,2]
-    },
-    {
-      "input": ["item","hbm:crystal_osmiridium",1,32767],
-      "solid": ["hbm:ingot_osmiridium"]
-    },
-    {
-      "input": ["item","osv:emerald_ore_3",1,1],
-      "solid": ["minecraft:emerald",2]
-    },
-    {
-      "input": ["item","osv:emerald_ore_3"],
-      "solid": ["minecraft:emerald"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_quark_jasper"],
+      "input": ["item","osv:biomesoplenty_amber_ore_1"],
       "solid": ["biomesoplenty:gem",1,7]
     },
     {
-      "input": ["item","osv:biomesoplenty_amber_ore_quark_jasper",1,1],
+      "input": ["item","osv:biomesoplenty_amber_ore_1",1,1],
       "solid": ["biomesoplenty:gem",2,7]
     },
     {
-      "input": ["item","galacticraftplanets:item_basic_asteroids",1,3],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","galacticraftplanets:item_basic_asteroids",1,4],
-      "solid": ["galacticraftplanets:item_basic_asteroids"]
-    },
-    {
-      "input": ["item","galacticraftplanets:item_basic_asteroids",1,9],
-      "solid": ["galacticraftplanets:item_basic_asteroids"]
-    },
-    {
-      "input": ["item","valoria:kerberos05adiamondore"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","osv:gold_ore_3"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:gold_ore_3",1,1],
-      "solid": ["minecraft:gold_ingot",2]
-    },
-    {
-      "input": ["item","valoria:ignise01ironore"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","hbm:powder_dura_steel",1,32767],
-      "solid": ["hbm:ingot_dura_steel"]
-    },
-    {
-      "input": ["item","hbm:powder_steel",1,32767],
-      "solid": ["hbm:ingot_steel"]
-    },
-    {
-      "input": ["item","valoria:selene03aaluminumore"],
-      "solid": ["galacticraftcore:basic_item",1,5]
-    },
-    {
-      "input": ["item","dynaores:raw_th232",1,32767],
-      "solid": ["hbm:ingot_th232"]
-    },
-    {
-      "input": ["item","dynaores:raw_malachite",1,32767],
-      "solid": ["hbm:chunk_ore",1,1]
-    },
-    {
-      "input": ["item","mekanism:dust",1,2],
-      "solid": ["mekanism:ingot",1,1]
-    },
-    {
-      "input": ["item","mekanism:dust"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","hbm:powder_polymer",1,32767],
-      "solid": ["hbm:ingot_polymer"]
-    },
-    {
-      "input": ["item","mekanism:dust",1,1],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","mekanism:dust",1,3],
-      "solid": ["mekanism:ingot",1,5]
-    },
-    {
-      "input": ["item","mekanism:dust",1,4],
-      "solid": ["mekanism:ingot",1,6]
-    },
-    {
-      "input": ["item","valoria:kerberos05aredstoneore"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","mekanism:dust",1,6],
-      "solid": ["mekanism:ingot",1,7]
-    },
-    {
-      "input": ["item","mekanism:dust",1,7],
-      "solid": ["mekanism:ingot",1,8]
-    },
-    {
-      "input": ["item","valoria:ignisc02diamondore"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","valoria:ptotor03diamondore"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","dynaores:raw_borax",1,32767],
-      "solid": ["hbm:ingot_raw",1,501]
-    },
-    {
-      "input": ["item","osv:iron_ore"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:iron_ore",1,1],
-      "solid": ["minecraft:iron_ingot",2]
-    },
-    {
-      "input": ["item","valoria:maakarus02goldore"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","valoria:frostburn06adiamondore"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","nyx:kreknorite_shard"],
-      "solid": ["nyx:kreknorite_ingot"]
-    },
-    {
-      "input": ["item","osv:coal_ore"],
-      "solid": ["minecraft:coal"]
-    },
-    {
-      "input": ["item","osv:coal_ore",1,1],
-      "solid": ["minecraft:coal",2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_marble"],
-      "solid": ["biomesoplenty:gem",1,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_marble",1,1],
-      "solid": ["biomesoplenty:gem",2,4]
-    },
-    {
-      "input": ["item","osv:redstone_ore_quark_jasper"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_slate"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","osv:redstone_ore_quark_jasper",1,2],
-      "solid": ["minecraft:redstone",2]
-    },
-    {
-      "input": ["item","dynaores:raw_iron",1,32767],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","hbm:powder_tcalloy",1,32767],
-      "solid": ["hbm:ingot_tcalloy"]
-    },
-    {
-      "input": ["item","galacticraftplanets:asteroids_block",1,3],
-      "solid": ["galacticraftcore:basic_item",1,5]
-    },
-    {
-      "input": ["item","galacticraftplanets:asteroids_block",1,4],
-      "solid": ["galacticraftplanets:item_basic_asteroids"]
-    },
-    {
-      "input": ["item","galacticraftplanets:asteroids_block",1,5],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","valoria:ignisc02copperore"],
-      "solid": ["galacticraftcore:basic_item",1,3]
-    },
-    {
-      "input": ["item","hbm:waste_trinitite"],
-      "solid": ["hbm:glass_trinitite"]
-    },
-    {
-      "input": ["item","minecraft:netherrack",1,32767],
-      "solid": ["minecraft:netherbrick"]
-    },
-    {
-      "input": ["item","hbm:powder_combine_steel",1,32767],
-      "solid": ["hbm:ingot_combine_steel"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_jasper"],
-      "solid": ["biomesoplenty:gem",1,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_jasper",1,1],
-      "solid": ["biomesoplenty:gem",2,4]
-    },
-    {
-      "input": ["item","valoria:ignisc02ironore"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","hbm:ore_cobalt",1,32767],
-      "solid": ["hbm:ingot_cobalt"]
-    },
-    {
-      "input": ["item","valoria:sib01goldore"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","dynaores:raw_osmium",1,32767],
-      "solid": ["mekanism:ingot",1,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_jasper",1,1],
-      "solid": ["biomesoplenty:gem",2,1]
-    },
-    {
-      "input": ["item","osv:lapis_ore"],
-      "solid": ["minecraft:dye",1,4]
-    },
-    {
-      "input": ["item","osv:lapis_ore",1,1],
-      "solid": ["minecraft:dye",2,4]
-    },
-    {
-      "input": ["item","hbm:powder_actinium",1,32767],
-      "solid": ["hbm:ingot_actinium"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_jasper"],
-      "solid": ["biomesoplenty:gem",1,1]
-    },
-    {
-      "input": ["item","dynaores:raw_redstone",1,32767],
-      "solid": ["hbm:ingot_raw",1,1]
-    },
-    {
-      "input": ["item","hbm:ball_resin",1,32767],
-      "solid": ["hbm:ingot_biorubber"]
-    },
-    {
-      "input": ["item","dynaores:raw_coltan",1,32767],
-      "solid": ["hbm:fragment_coltan"]
-    },
-    {
-      "input": ["item","hbm:ore_nether_tungsten",1,32767],
-      "solid": ["hbm:ingot_tungsten"]
-    },
-    {
-      "input": ["item","hbm:powder_ra226",1,32767],
-      "solid": ["hbm:ingot_ra226"]
-    },
-    {
-      "input": ["item","galacticraftplanets:mars"],
-      "solid": ["galacticraftcore:basic_item",1,3]
-    },
-    {
-      "input": ["item","galacticraftplanets:mars",1,1],
+      "input": ["item","valoria:selene03atinore"],
       "solid": ["galacticraftcore:basic_item",1,4]
     },
     {
-      "input": ["item","galacticraftplanets:mars",1,2],
-      "solid": ["galacticraftplanets:item_basic_mars",1,2]
+      "input": ["item","valoria:ptotor03aluminumore"],
+      "solid": ["galacticraftcore:basic_item",1,5]
     },
     {
-      "input": ["item","galacticraftplanets:mars",1,3],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","dynaores:raw_rare_earth",1,32767],
-      "solid": ["hbm:chunk_ore"]
-    },
-    {
-      "input": ["item","osv:lapis_ore_quark_marble"],
-      "solid": ["minecraft:dye",1,4]
-    },
-    {
-      "input": ["item","osv:lapis_ore_quark_marble",1,1],
-      "solid": ["minecraft:dye",2,4]
-    },
-    {
-      "input": ["item","galacticraftplanets:item_basic_mars"],
-      "solid": ["galacticraftplanets:item_basic_mars",1,2]
-    },
-    {
-      "input": ["item","osv:coal_ore_quark_marble"],
-      "solid": ["minecraft:coal"]
-    },
-    {
-      "input": ["item","hbm:powder_polonium",1,32767],
-      "solid": ["hbm:ingot_polonium"]
-    },
-    {
-      "input": ["item","osv:coal_ore_quark_marble",1,1],
-      "solid": ["minecraft:coal",2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_slate"],
-      "solid": ["biomesoplenty:gem",1,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,4]
-    },
-    {
-      "input": ["item","osv:coal_ore_5"],
-      "solid": ["minecraft:coal"]
-    },
-    {
-      "input": ["item","osv:coal_ore_5",1,1],
-      "solid": ["minecraft:coal",2]
-    },
-    {
-      "input": ["item","valoria:selene03asapphireore"],
-      "solid": ["galacticraftcore:item_basic_moon",1,2]
-    },
-    {
-      "input": ["item","hbm:ore_uranium",1,32767],
-      "solid": ["hbm:ingot_uranium"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_3"],
-      "solid": ["biomesoplenty:gem",1,7]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_3",1,1],
-      "solid": ["biomesoplenty:gem",2,7]
-    },
-    {
-      "input": ["item","hbm:powder_aluminium",1,32767],
-      "solid": ["hbm:ingot_aluminium"]
-    },
-    {
-      "input": ["item","valoria:frostburn06agoldore"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","valoria:zarrion03bdiamondore"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","valoria:antham04copperore"],
-      "solid": ["galacticraftcore:basic_item",1,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore"],
-      "solid": ["biomesoplenty:gem",1,7]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore",1,1],
-      "solid": ["biomesoplenty:gem",2,7]
-    },
-    {
-      "input": ["item","hbm:ore_uranium_scorched",1,32767],
-      "solid": ["hbm:ingot_uranium"]
-    },
-    {
-      "input": ["item","hbm:powder_desh",1,32767],
-      "solid": ["hbm:ingot_desh"]
-    },
-    {
-      "input": ["item","valoria:h2co06bredstoneore"],
+      "input": ["item","valoria:zarrion03bredstoneore"],
       "solid": ["minecraft:redstone"]
     },
     {
@@ -3383,8 +2375,352 @@
       "solid": ["biomesoplenty:gem",1,1]
     },
     {
-      "input": ["item","hbm:scrap_plastic",1,32767],
-      "solid": ["hbm:ingot_polymer"]
+      "input": ["item","osv:gold_ore_1"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:gold_ore_1",1,1],
+      "solid": ["minecraft:gold_ingot",2]
+    },
+    {
+      "input": ["item","industrialrenewal:sponge_iron",1,32767],
+      "solid": ["industrialrenewal:ingot_steel"]
+    },
+    {
+      "input": ["item","valoria:sib01goldore"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_quark_jasper"],
+      "solid": ["biomesoplenty:gem",1,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_quark_jasper",1,1],
+      "solid": ["biomesoplenty:gem",2,3]
+    },
+    {
+      "input": ["item","valoria:ptotor03coalore"],
+      "solid": ["minecraft:coal"]
+    },
+    {
+      "input": ["item","valoria:selene03aredstoneore"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","hbm:powder_steel",1,32767],
+      "solid": ["hbm:ingot_steel"]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_jasper"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_jasper",1,2],
+      "solid": ["minecraft:redstone",2]
+    },
+    {
+      "input": ["item","valoria:zarrion03bgoldore"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_jasper"],
+      "solid": ["biomesoplenty:gem",1,4]
+    },
+    {
+      "input": ["item","valoria:h2co06bdiamondore"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_jasper",1,1],
+      "solid": ["biomesoplenty:gem",2,4]
+    },
+    {
+      "input": ["item","dynaores:raw_rare_earth",1,32767],
+      "solid": ["hbm:chunk_ore"]
+    },
+    {
+      "input": ["item","dynaores:raw_thorium",1,32767],
+      "solid": ["hbm:ingot_th232"]
+    },
+    {
+      "input": ["item","valoria:h2co06bredstoneore"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","valoria:ptotor03diamondore"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","valoria:ignisc02diamondore"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_limestone"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_limestone",1,2],
+      "solid": ["minecraft:redstone",2]
+    },
+    {
+      "input": ["item","hbm:ore_nether_uranium_scorched",1,32767],
+      "solid": ["hbm:ingot_uranium"]
+    },
+    {
+      "input": ["item","valoria:kerberos05adiamondore"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_limestone",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_limestone"],
+      "solid": ["biomesoplenty:gem",1,5]
+    },
+    {
+      "input": ["item","osv:iron_ore"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:iron_ore",1,1],
+      "solid": ["minecraft:iron_ingot",2]
+    },
+    {
+      "input": ["item","dynaores:raw_lead",1,32767],
+      "solid": ["mekanism:ingot",1,7]
+    },
+    {
+      "input": ["item","hbm:ore_gneiss_schrabidium",1,32767],
+      "solid": ["hbm:ingot_schrabidium"]
+    },
+    {
+      "input": ["item","hbm:powder_zirconium",1,32767],
+      "solid": ["hbm:ingot_zirconium"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_marble"],
+      "solid": ["biomesoplenty:gem",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_marble",1,1],
+      "solid": ["biomesoplenty:gem",2,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_slate"],
+      "solid": ["biomesoplenty:gem",1,6]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,6]
+    },
+    {
+      "input": ["item","valoria:selene03adiamondore"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","valoria:ptotor03ironore"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:iron_ore_quark_slate"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:iron_ore_quark_slate",1,1],
+      "solid": ["minecraft:iron_ingot",2]
+    },
+    {
+      "input": ["item","valoria:antham04aluminumore"],
+      "solid": ["galacticraftcore:basic_item",1,5]
+    },
+    {
+      "input": ["item","osv:emerald_ore",1,1],
+      "solid": ["minecraft:emerald",2]
+    },
+    {
+      "input": ["item","osv:emerald_ore"],
+      "solid": ["minecraft:emerald"]
+    },
+    {
+      "input": ["item","hbm:sand_polonium"],
+      "solid": ["hbm:glass_polonium"]
+    },
+    {
+      "input": ["item","hbm:powder_uranium",1,32767],
+      "solid": ["hbm:ingot_uranium"]
+    },
+    {
+      "input": ["item","valoria:ptotor03goldore"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","valoria:antham04ironore"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_jasper",1,1],
+      "solid": ["biomesoplenty:gem",2,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_jasper"],
+      "solid": ["biomesoplenty:gem",1,1]
+    },
+    {
+      "input": ["item","hbm:waste_trinitite"],
+      "solid": ["hbm:glass_trinitite"]
+    },
+    {
+      "input": ["item","valoria:ptotor03tinore"],
+      "solid": ["galacticraftcore:basic_item",1,4]
+    },
+    {
+      "input": ["item","osv:gold_ore_quark_limestone"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:gold_ore_quark_limestone",1,1],
+      "solid": ["minecraft:gold_ingot",2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_jasper",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_jasper"],
+      "solid": ["biomesoplenty:gem",1,5]
+    },
+    {
+      "input": ["item","osv:gold_ore_quark_jasper"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:gold_ore_quark_jasper",1,1],
+      "solid": ["minecraft:gold_ingot",2]
+    },
+    {
+      "input": ["item","valoria:sib01aluminumore"],
+      "solid": ["galacticraftcore:basic_item",1,5]
+    },
+    {
+      "input": ["item","futuremc:ancient_debris"],
+      "solid": ["futuremc:netherite_scrap"]
+    },
+    {
+      "input": ["item","valoria:sib01redstoneore"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","hbm:ore_copper",1,32767],
+      "solid": ["hbm:ingot_copper"]
+    },
+    {
+      "input": ["item","minecraft:clay_ball",1,32767],
+      "solid": ["minecraft:brick"]
+    },
+    {
+      "input": ["item","osv:gold_ore"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:gold_ore",1,1],
+      "solid": ["minecraft:gold_ingot",2]
+    },
+    {
+      "input": ["item","valoria:maakarus02goldore"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:lapis_ore_quark_slate",1,1],
+      "solid": ["minecraft:dye",2,4]
+    },
+    {
+      "input": ["item","osv:lapis_ore_quark_slate"],
+      "solid": ["minecraft:dye",1,4]
+    },
+    {
+      "input": ["item","dynaores:raw_thorium232",1,32767],
+      "solid": ["hbm:ingot_th232"]
+    },
+    {
+      "input": ["item","hbm:ore_thorium",1,32767],
+      "solid": ["hbm:ingot_th232"]
+    },
+    {
+      "input": ["item","valoria:ignisc02tinore"],
+      "solid": ["galacticraftcore:basic_item",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_3",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_3"],
+      "solid": ["biomesoplenty:gem",1,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_3"],
+      "solid": ["biomesoplenty:gem",1,2]
+    },
+    {
+      "input": ["item","hbm:powder_iron",1,32767],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","hbm:powder_magnetized_tungsten",1,32767],
+      "solid": ["hbm:ingot_magnetized_tungsten"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_3",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
+    },
+    {
+      "input": ["item","valoria:ignisc02sapphireore"],
+      "solid": ["galacticraftcore:item_basic_moon",1,2]
+    },
+    {
+      "input": ["item","valoria:maakarus02diamondore"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","galacticraftcore:basic_block_moon"],
+      "solid": ["galacticraftcore:basic_item",1,3]
+    },
+    {
+      "input": ["item","galacticraftcore:basic_block_moon",1,1],
+      "solid": ["galacticraftcore:basic_item",1,4]
+    },
+    {
+      "input": ["item","galacticraftcore:basic_block_moon",1,2],
+      "solid": ["galacticraftcore:cheese_curd"]
+    },
+    {
+      "input": ["item","hbm:powder_aluminium",1,32767],
+      "solid": ["hbm:ingot_aluminium"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore"],
+      "solid": ["biomesoplenty:gem",1,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_slate"],
+      "solid": ["biomesoplenty:gem",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,4]
+    },
+    {
+      "input": ["item","osv:redstone_ore_5"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","osv:redstone_ore_5",1,2],
+      "solid": ["minecraft:redstone",2]
     },
     {
       "input": ["item","techguns:itemshared",1,78],
@@ -3403,36 +2739,24 @@
       "solid": ["techguns:itemshared",1,84]
     },
     {
-      "input": ["item","valoria:ignisd03redstoneore"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
       "input": ["item","techguns:itemshared",1,46],
       "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","hbm:powder_australium",1,32767],
-      "solid": ["hbm:ingot_australium"]
     },
     {
       "input": ["item","techguns:itemshared",1,52],
       "solid": ["techguns:itemshared",1,82]
     },
     {
-      "input": ["item","osv:redstone_ore_quark_marble"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:redstone_ore_quark_marble",1,2],
-      "solid": ["minecraft:redstone",2]
+      "input": ["item","hbm:ore_nether_schrabidium",1,32767],
+      "solid": ["hbm:ingot_schrabidium"]
     },
     {
       "input": ["item","techguns:itemshared",1,48],
       "solid": ["techguns:itemshared",1,80]
     },
     {
-      "input": ["item","dynaores:raw_titanium",1,32767],
-      "solid": ["techguns:itemshared",1,85]
+      "input": ["item","hbm:ore_beryllium",1,32767],
+      "solid": ["hbm:ingot_beryllium"]
     },
     {
       "input": ["item","techguns:itemshared",1,47],
@@ -3443,19 +2767,167 @@
       "solid": ["techguns:itemshared",1,81]
     },
     {
-      "input": ["item","valoria:ignise01goldore"],
+      "input": ["item","valoria:kerberos05aredstoneore"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","valoria:ignise01aluminumore"],
+      "solid": ["galacticraftcore:basic_item",1,5]
+    },
+    {
+      "input": ["item","valoria:zarrion03bdeshore"],
+      "solid": ["galacticraftplanets:item_basic_mars",1,2]
+    },
+    {
+      "input": ["item","valoria:zarrion03bcopperore"],
+      "solid": ["galacticraftcore:basic_item",1,3]
+    },
+    {
+      "input": ["item","hbm:powder_schrabidate",1,32767],
+      "solid": ["hbm:ingot_schrabidate"]
+    },
+    {
+      "input": ["item","osv:gold_ore_5"],
       "solid": ["minecraft:gold_ingot"]
     },
     {
-      "input": ["item","valoria:thit05diamondore"],
+      "input": ["item","osv:gold_ore_5",1,1],
+      "solid": ["minecraft:gold_ingot",2]
+    },
+    {
+      "input": ["item","dynaores:raw_neodymium",1,32767],
+      "solid": ["hbm:ingot_raw",1,6000]
+    },
+    {
+      "input": ["item","osv:diamond_ore_quark_slate"],
       "solid": ["minecraft:diamond"]
     },
     {
-      "input": ["item","valoria:selene03acoalore"],
-      "solid": ["minecraft:coal"]
+      "input": ["item","osv:diamond_ore_quark_slate",1,1],
+      "solid": ["minecraft:diamond",2]
     },
     {
-      "input": ["item","valoria:zarrion03baluminumore"],
+      "input": ["item","minecraft:iron_ore",1,32767],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:emerald_ore_quark_jasper",1,1],
+      "solid": ["minecraft:emerald",2]
+    },
+    {
+      "input": ["item","osv:emerald_ore_quark_jasper"],
+      "solid": ["minecraft:emerald"]
+    },
+    {
+      "input": ["item","dynaores:raw_desh",1,32767],
+      "solid": ["galacticraftplanets:item_basic_mars",1,2]
+    },
+    {
+      "input": ["item","dynaores:raw_aluminum",1,32767],
+      "solid": ["galacticraftcore:basic_item",1,5]
+    },
+    {
+      "input": ["item","valoria:ignisc02aluminumore"],
+      "solid": ["galacticraftcore:basic_item",1,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_5",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_5"],
+      "solid": ["biomesoplenty:gem",1,5]
+    },
+    {
+      "input": ["item","osv:emerald_ore_5",1,1],
+      "solid": ["minecraft:emerald",2]
+    },
+    {
+      "input": ["item","osv:emerald_ore_5"],
+      "solid": ["minecraft:emerald"]
+    },
+    {
+      "input": ["item","valoria:h2co06bironore"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","hbm:sand_boron"],
+      "solid": ["hbm:glass_boron"]
+    },
+    {
+      "input": ["item","osv:lapis_ore",1,1],
+      "solid": ["minecraft:dye",2,4]
+    },
+    {
+      "input": ["item","osv:lapis_ore"],
+      "solid": ["minecraft:dye",1,4]
+    },
+    {
+      "input": ["item","valoria:ignise01diamondore"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","hbm:powder_actinium",1,32767],
+      "solid": ["hbm:ingot_actinium"]
+    },
+    {
+      "input": ["item","industrialrenewal:chunk_hematite",1,32767],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:lapis_ore_1",1,1],
+      "solid": ["minecraft:dye",2,4]
+    },
+    {
+      "input": ["item","osv:lapis_ore_1"],
+      "solid": ["minecraft:dye",1,4]
+    },
+    {
+      "input": ["item","hbm:powder_tantalium",1,32767],
+      "solid": ["hbm:ingot_tantalium"]
+    },
+    {
+      "input": ["item","mekanism:oreblock"],
+      "solid": ["mekanism:ingot",1,1]
+    },
+    {
+      "input": ["item","nyx:kreknorite_shard"],
+      "solid": ["nyx:kreknorite_ingot"]
+    },
+    {
+      "input": ["item","mekanism:oreblock",1,1],
+      "solid": ["mekanism:ingot",1,5]
+    },
+    {
+      "input": ["item","mekanism:oreblock",1,2],
+      "solid": ["mekanism:ingot",1,6]
+    },
+    {
+      "input": ["item","mekanism:oreblock",1,4],
+      "solid": ["mekanism:ingot",1,7]
+    },
+    {
+      "input": ["item","mekanism:oreblock",1,5],
+      "solid": ["mekanism:ingot",1,8]
+    },
+    {
+      "input": ["item","valoria:ignise01tinore"],
+      "solid": ["galacticraftcore:basic_item",1,4]
+    },
+    {
+      "input": ["item","hbm:ore_titanium",1,32767],
+      "solid": ["hbm:ingot_titanium"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore",1,1],
+      "solid": ["biomesoplenty:gem",2,6]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore"],
+      "solid": ["biomesoplenty:gem",1,6]
+    },
+    {
+      "input": ["item","valoria:thit05aluminumore"],
       "solid": ["galacticraftcore:basic_item",1,5]
     },
     {
@@ -3463,96 +2935,64 @@
       "solid": ["hbm:ingot_lead"]
     },
     {
-      "input": ["item","dynaores:raw_asbestos",1,32767],
-      "solid": ["hbm:ingot_asbestos"]
-    },
-    {
-      "input": ["item","valoria:ignise01diamondore"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","osv:iron_ore_3"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:iron_ore_3",1,1],
-      "solid": ["minecraft:iron_ingot",2]
-    },
-    {
-      "input": ["item","minecraft:iron_ore",1,32767],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:gold_ore_quark_limestone"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:gold_ore_quark_limestone",1,1],
-      "solid": ["minecraft:gold_ingot",2]
-    },
-    {
-      "input": ["item","osv:iron_ore_5"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","hbm:sand_polonium"],
-      "solid": ["hbm:glass_polonium"]
-    },
-    {
-      "input": ["item","osv:iron_ore_5",1,1],
-      "solid": ["minecraft:iron_ingot",2]
-    },
-    {
-      "input": ["item","dynaores:raw_uranium",1,32767],
-      "solid": ["mekanism:ingot",1,8]
-    },
-    {
-      "input": ["item","osv:redstone_ore"],
+      "input": ["item","valoria:ignisd03redstoneore"],
       "solid": ["minecraft:redstone"]
     },
     {
-      "input": ["item","osv:redstone_ore",1,2],
-      "solid": ["minecraft:redstone",2]
+      "input": ["item","dynaores:raw_australium",1,32767],
+      "solid": ["hbm:ingot_australium"]
     },
     {
-      "input": ["item","valoria:frostburn06aredstoneore"],
-      "solid": ["minecraft:redstone"]
+      "input": ["item","osv:biomesoplenty_malachite_ore_1",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
     },
     {
-      "input": ["item","hbm:sand_boron"],
-      "solid": ["hbm:glass_boron"]
+      "input": ["item","osv:biomesoplenty_malachite_ore_1"],
+      "solid": ["biomesoplenty:gem",1,5]
     },
     {
-      "input": ["item","hbm:ore_gneiss_uranium",1,32767],
-      "solid": ["hbm:ingot_uranium"]
+      "input": ["item","hbm:powder_lead",1,32767],
+      "solid": ["hbm:ingot_lead"]
     },
     {
-      "input": ["item","hbm:gravel_diamond"],
-      "solid": ["minecraft:diamond"]
+      "input": ["item","osv:biomesoplenty_amber_ore_quark_slate"],
+      "solid": ["biomesoplenty:gem",1,7]
     },
     {
-      "input": ["item","osv:coal_ore_quark_jasper"],
+      "input": ["item","osv:biomesoplenty_amber_ore_quark_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,7]
+    },
+    {
+      "input": ["item","hbm:powder_tcalloy",1,32767],
+      "solid": ["hbm:ingot_tcalloy"]
+    },
+    {
+      "input": ["item","gargantulamod:mannironore"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","valoria:selene03acoalore"],
       "solid": ["minecraft:coal"]
     },
     {
-      "input": ["item","osv:coal_ore_quark_jasper",1,1],
-      "solid": ["minecraft:coal",2]
+      "input": ["item","valoria:h2co06baluminumore"],
+      "solid": ["galacticraftcore:basic_item",1,5]
     },
     {
-      "input": ["item","hbm:sand_uranium"],
-      "solid": ["hbm:glass_uranium"]
+      "input": ["item","valoria:ignisd03goldore"],
+      "solid": ["minecraft:gold_ingot"]
     },
     {
-      "input": ["item","hbm:powder_zirconium",1,32767],
-      "solid": ["hbm:ingot_zirconium"]
+      "input": ["item","dynaores:raw_redstone",1,32767],
+      "solid": ["hbm:ingot_raw",1,1]
     },
     {
-      "input": ["item","dynaores:raw_tungsten",1,32767],
-      "solid": ["hbm:ingot_tungsten"]
+      "input": ["item","osv:iron_ore_quark_marble"],
+      "solid": ["minecraft:iron_ingot"]
     },
     {
-      "input": ["item","hbm:ash_digamma"],
-      "solid": ["hbm:glass_ash"]
+      "input": ["item","osv:iron_ore_quark_marble",1,1],
+      "solid": ["minecraft:iron_ingot",2]
     },
     {
       "input": ["item","osv:biomesoplenty_topaz_ore_quark_limestone"],
@@ -3563,56 +3003,328 @@
       "solid": ["biomesoplenty:gem",2,3]
     },
     {
-      "input": ["item","hbm:ore_nether_plutonium",1,32767],
-      "solid": ["hbm:ingot_plutonium"]
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_jasper"],
+      "solid": ["biomesoplenty:gem",1,2]
     },
     {
-      "input": ["item","minecraft:clay_ball",1,32767],
-      "solid": ["minecraft:brick"]
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_jasper",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
     },
     {
-      "input": ["item","valoria:selene03agoldore"],
-      "solid": ["minecraft:gold_ingot"]
+      "input": ["item","hbm:powder_titanium",1,32767],
+      "solid": ["hbm:ingot_titanium"]
     },
     {
-      "input": ["item","osv:lapis_ore_3"],
-      "solid": ["minecraft:dye",1,4]
+      "input": ["item","hbm:powder_cadmium",1,32767],
+      "solid": ["hbm:ingot_cadmium"]
     },
     {
-      "input": ["item","osv:lapis_ore_3",1,1],
-      "solid": ["minecraft:dye",2,4]
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_limestone",1,1],
+      "solid": ["biomesoplenty:gem",2,1]
     },
     {
-      "input": ["item","dynaores:raw_gold",1,32767],
-      "solid": ["minecraft:gold_ingot"]
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_limestone"],
+      "solid": ["biomesoplenty:gem",1,1]
     },
     {
-      "input": ["item","dynaores:raw_desh",1,32767],
-      "solid": ["galacticraftplanets:item_basic_mars",1,2]
+      "input": ["item","osv:coal_ore_quark_slate"],
+      "solid": ["minecraft:coal"]
     },
     {
-      "input": ["item","valoria:sib01diamondore"],
-      "solid": ["minecraft:diamond"]
+      "input": ["item","osv:coal_ore_quark_slate",1,1],
+      "solid": ["minecraft:coal",2]
     },
     {
-      "input": ["item","valoria:ptotor03goldore"],
-      "solid": ["minecraft:gold_ingot"]
+      "input": ["item","hbm:ore_gneiss_uranium",1,32767],
+      "solid": ["hbm:ingot_uranium"]
     },
     {
       "input": ["item","dynaores:raw_silicon",1,32767],
       "solid": ["hbm:ingot_silicon"]
     },
     {
-      "input": ["item","valoria:thit05ironore"],
+      "input": ["item","techguns:basicore",1,2],
+      "solid": ["techguns:itemshared",1,82]
+    },
+    {
+      "input": ["item","techguns:basicore",1,1],
+      "solid": ["techguns:itemshared",1,80]
+    },
+    {
+      "input": ["item","techguns:basicore"],
+      "solid": ["techguns:itemshared",1,79]
+    },
+    {
+      "input": ["item","hbm:ore_nether_plutonium",1,32767],
+      "solid": ["hbm:ingot_plutonium"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_marble",1,1],
+      "solid": ["biomesoplenty:gem",2,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_marble"],
+      "solid": ["biomesoplenty:gem",1,1]
+    },
+    {
+      "input": ["item","hbm:powder_desh",1,32767],
+      "solid": ["hbm:ingot_desh"]
+    },
+    {
+      "input": ["item","hbm:powder_dura_steel",1,32767],
+      "solid": ["hbm:ingot_dura_steel"]
+    },
+    {
+      "input": ["item","valoria:frostburn06aironore"],
       "solid": ["minecraft:iron_ingot"]
     },
     {
-      "input": ["item","hbm:ore_nether_schrabidium",1,32767],
-      "solid": ["hbm:ingot_schrabidium"]
+      "input": ["item","osv:diamond_ore_quark_marble"],
+      "solid": ["minecraft:diamond"]
     },
     {
-      "input": ["item","valoria:h2co06bdiamondore"],
+      "input": ["item","osv:diamond_ore_quark_marble",1,1],
+      "solid": ["minecraft:diamond",2]
+    },
+    {
+      "input": ["item","valoria:antham04tinore"],
+      "solid": ["galacticraftcore:basic_item",1,4]
+    },
+    {
+      "input": ["item","valoria:ptotor03sapphireore"],
+      "solid": ["galacticraftcore:item_basic_moon",1,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_limestone"],
+      "solid": ["biomesoplenty:gem",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_limestone",1,1],
+      "solid": ["biomesoplenty:gem",2,4]
+    },
+    {
+      "input": ["item","hbm:powder_lithium",1,32767],
+      "solid": ["hbm:lithium"]
+    },
+    {
+      "input": ["item","dynaores:raw_lithium",1,32767],
+      "solid": ["hbm:lithium"]
+    },
+    {
+      "input": ["item","dynaores:raw_malachite",1,32767],
+      "solid": ["hbm:chunk_ore",1,1]
+    },
+    {
+      "input": ["item","dynaores:raw_th232",1,32767],
+      "solid": ["hbm:ingot_th232"]
+    },
+    {
+      "input": ["item","osv:coal_ore_quark_marble"],
+      "solid": ["minecraft:coal"]
+    },
+    {
+      "input": ["item","osv:coal_ore_quark_marble",1,1],
+      "solid": ["minecraft:coal",2]
+    },
+    {
+      "input": ["item","hbm:combine_scrap",1,32767],
+      "solid": ["hbm:ingot_combine_steel"]
+    },
+    {
+      "input": ["item","hbm:powder_bismuth",1,32767],
+      "solid": ["hbm:ingot_bismuth"]
+    },
+    {
+      "input": ["item","valoria:maakarus02redstoneore"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","valoria:sib01ironore"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:lapis_ore_5",1,1],
+      "solid": ["minecraft:dye",2,4]
+    },
+    {
+      "input": ["item","osv:lapis_ore_5"],
+      "solid": ["minecraft:dye",1,4]
+    },
+    {
+      "input": ["item","valoria:maakarus02aluminumore"],
+      "solid": ["galacticraftcore:basic_item",1,5]
+    },
+    {
+      "input": ["item","dynaores:raw_copper",1,32767],
+      "solid": ["galacticraftcore:basic_item",1,3]
+    },
+    {
+      "input": ["item","valoria:ignisc02coalore"],
+      "solid": ["minecraft:coal"]
+    },
+    {
+      "input": ["item","hbm:crystal_osmiridium",1,32767],
+      "solid": ["hbm:ingot_osmiridium"]
+    },
+    {
+      "input": ["item","galacticraftcore:meteoric_iron_raw",1,32767],
+      "solid": ["galacticraftcore:item_basic_moon"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore"],
+      "solid": ["biomesoplenty:gem",1,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore",1,1],
+      "solid": ["biomesoplenty:gem",2,7]
+    },
+    {
+      "input": ["item","hbm:powder_gold",1,32767],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","nyx:frezarite_crystal"],
+      "solid": ["nyx:frezarite_ingot"]
+    },
+    {
+      "input": ["item","hbm:powder_calcium",1,32767],
+      "solid": ["hbm:ingot_calcium"]
+    },
+    {
+      "input": ["item","hbm:powder_polonium",1,32767],
+      "solid": ["hbm:ingot_polonium"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","hbm:ore_uranium_scorched",1,32767],
+      "solid": ["hbm:ingot_uranium"]
+    },
+    {
+      "input": ["item","hbm:powder_lanthanium",1,32767],
+      "solid": ["hbm:ingot_lanthanium"]
+    },
+    {
+      "input": ["item","hbm:ore_nether_uranium",1,32767],
+      "solid": ["hbm:ingot_uranium"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_quark_marble"],
+      "solid": ["biomesoplenty:gem",1,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_quark_marble",1,1],
+      "solid": ["biomesoplenty:gem",2,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore"],
+      "solid": ["biomesoplenty:gem",1,5]
+    },
+    {
+      "input": ["item","dynaores:raw_borax",1,32767],
+      "solid": ["hbm:ingot_raw",1,501]
+    },
+    {
+      "input": ["item","hbm:ore_gneiss_copper",1,32767],
+      "solid": ["hbm:ingot_copper"]
+    },
+    {
+      "input": ["item","dynaores:raw_coltan",1,32767],
+      "solid": ["hbm:fragment_coltan"]
+    },
+    {
+      "input": ["item","hbm:ore_gneiss_uranium_scorched",1,32767],
+      "solid": ["hbm:ingot_uranium"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_quark_jasper"],
+      "solid": ["biomesoplenty:gem",1,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_quark_jasper",1,1],
+      "solid": ["biomesoplenty:gem",2,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_1"],
+      "solid": ["biomesoplenty:gem",1,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_1",1,1],
+      "solid": ["biomesoplenty:gem",2,3]
+    },
+    {
+      "input": ["item","dynaores:raw_zirconium",1,32767],
+      "solid": ["hbm:ingot_zirconium"]
+    },
+    {
+      "input": ["item","valoria:frostburn06adiamondore"],
       "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","valoria:ptotor03copperore"],
+      "solid": ["galacticraftcore:basic_item",1,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_1",1,1],
+      "solid": ["biomesoplenty:gem",2,6]
+    },
+    {
+      "input": ["item","srparasites:bloody_iron_ingot"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:redstone_ore_1"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","osv:redstone_ore_1",1,2],
+      "solid": ["minecraft:redstone",2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_1"],
+      "solid": ["biomesoplenty:gem",1,6]
+    },
+    {
+      "input": ["item","hbm:powder_combine_steel",1,32767],
+      "solid": ["hbm:ingot_combine_steel"]
+    },
+    {
+      "input": ["item","osv:redstone_ore_3"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","osv:redstone_ore_3",1,2],
+      "solid": ["minecraft:redstone",2]
+    },
+    {
+      "input": ["item","hbm:ore_tungsten",1,32767],
+      "solid": ["hbm:ingot_tungsten"]
+    },
+    {
+      "input": ["item","osv:gold_ore_quark_marble"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:gold_ore_quark_marble",1,1],
+      "solid": ["minecraft:gold_ingot",2]
+    },
+    {
+      "input": ["item","valoria:zarrion03bdiamondore"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","osv:diamond_ore_3"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","osv:diamond_ore_3",1,1],
+      "solid": ["minecraft:diamond",2]
+    },
+    {
+      "input": ["item","hbm:ore_nether_cobalt",1,32767],
+      "solid": ["hbm:ingot_cobalt"]
     },
     {
       "input": ["item","osv:biomesoplenty_topaz_ore_5"],
@@ -3623,12 +3335,588 @@
       "solid": ["biomesoplenty:gem",2,3]
     },
     {
+      "input": ["item","osv:iron_ore_3"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:iron_ore_3",1,1],
+      "solid": ["minecraft:iron_ingot",2]
+    },
+    {
+      "input": ["item","osv:diamond_ore"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","osv:diamond_ore",1,1],
+      "solid": ["minecraft:diamond",2]
+    },
+    {
+      "input": ["item","nyx:meteorite_shard"],
+      "solid": ["nyx:meteorite_ingot"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_quark_limestone"],
+      "solid": ["biomesoplenty:gem",1,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_quark_limestone",1,1],
+      "solid": ["biomesoplenty:gem",2,7]
+    },
+    {
+      "input": ["item","osv:coal_ore_quark_limestone"],
+      "solid": ["minecraft:coal"]
+    },
+    {
+      "input": ["item","osv:coal_ore_quark_limestone",1,1],
+      "solid": ["minecraft:coal",2]
+    },
+    {
+      "input": ["item","valoria:antham04copperore"],
+      "solid": ["galacticraftcore:basic_item",1,3]
+    },
+    {
+      "input": ["item","osv:emerald_ore_1",1,1],
+      "solid": ["minecraft:emerald",2]
+    },
+    {
+      "input": ["item","osv:emerald_ore_1"],
+      "solid": ["minecraft:emerald"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore"],
+      "solid": ["biomesoplenty:gem",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore",1,1],
+      "solid": ["biomesoplenty:gem",2,4]
+    },
+    {
+      "input": ["item","hbm:powder_schrabidium",1,32767],
+      "solid": ["hbm:ingot_schrabidium"]
+    },
+    {
+      "input": ["item","hbm:powder_sr90",1,32767],
+      "solid": ["hbm:ingot_sr90"]
+    },
+    {
+      "input": ["item","dynaores:raw_beryllium",1,32767],
+      "solid": ["hbm:ingot_beryllium"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_quark_slate"],
+      "solid": ["biomesoplenty:gem",1,3]
+    },
+    {
+      "input": ["item","hbm:powder_australium",1,32767],
+      "solid": ["hbm:ingot_australium"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_quark_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,3]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_slate"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_slate",1,2],
+      "solid": ["minecraft:redstone",2]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_marble"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_marble",1,2],
+      "solid": ["minecraft:redstone",2]
+    },
+    {
+      "input": ["item","hbm:ore_gneiss_gold",1,32767],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","valoria:ignisc02copperore"],
+      "solid": ["galacticraftcore:basic_item",1,3]
+    },
+    {
+      "input": ["item","valoria:antham04goldore"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:lapis_ore_quark_jasper",1,1],
+      "solid": ["minecraft:dye",2,4]
+    },
+    {
+      "input": ["item","osv:lapis_ore_quark_jasper"],
+      "solid": ["minecraft:dye",1,4]
+    },
+    {
+      "input": ["item","valoria:thit05ironore"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","valoria:ignisd03ironore"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","hbm:ore_gneiss_lithium",1,32767],
+      "solid": ["hbm:lithium"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_limestone"],
+      "solid": ["biomesoplenty:gem",1,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_limestone",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
+    },
+    {
+      "input": ["item","hbm:powder_au198",1,32767],
+      "solid": ["hbm:ingot_au198"]
+    },
+    {
+      "input": ["item","dynaores:raw_gold",1,32767],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","valoria:h2co06bgoldore"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","hbm:powder_beryllium",1,32767],
+      "solid": ["hbm:ingot_beryllium"]
+    },
+    {
+      "input": ["item","dynaores:raw_tin",1,32767],
+      "solid": ["galacticraftcore:basic_item",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_marble",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","hbm:powder_dineutronium",1,32767],
+      "solid": ["hbm:ingot_dineutronium"]
+    },
+    {
+      "input": ["item","hbm:ore_uranium",1,32767],
+      "solid": ["hbm:ingot_uranium"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_marble"],
+      "solid": ["biomesoplenty:gem",1,5]
+    },
+    {
+      "input": ["item","osv:iron_ore_1"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:iron_ore_1",1,1],
+      "solid": ["minecraft:iron_ingot",2]
+    },
+    {
+      "input": ["item","mekanism:otherdust",1,1],
+      "solid": ["mekanism:ingot",1,4]
+    },
+    {
+      "input": ["item","osv:lapis_ore_3",1,1],
+      "solid": ["minecraft:dye",2,4]
+    },
+    {
+      "input": ["item","osv:lapis_ore_3"],
+      "solid": ["minecraft:dye",1,4]
+    },
+    {
+      "input": ["item","valoria:ignise01goldore"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_marble",1,1],
+      "solid": ["biomesoplenty:gem",2,6]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_marble"],
+      "solid": ["biomesoplenty:gem",1,6]
+    },
+    {
+      "input": ["item","hbm:powder_neptunium",1,32767],
+      "solid": ["hbm:ingot_neptunium"]
+    },
+    {
+      "input": ["item","osv:coal_ore_5"],
+      "solid": ["minecraft:coal"]
+    },
+    {
+      "input": ["item","osv:coal_ore_5",1,1],
+      "solid": ["minecraft:coal",2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_3",1,1],
+      "solid": ["biomesoplenty:gem",2,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_3"],
+      "solid": ["biomesoplenty:gem",1,1]
+    },
+    {
+      "input": ["item","hbm:sand_uranium"],
+      "solid": ["hbm:glass_uranium"]
+    },
+    {
+      "input": ["item","osv:diamond_ore_5"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","osv:diamond_ore_5",1,1],
+      "solid": ["minecraft:diamond",2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_slate"],
+      "solid": ["biomesoplenty:gem",1,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
+    },
+    {
+      "input": ["item","galacticraftplanets:item_basic_asteroids",1,3],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","hbm:ore_schrabidium",1,32767],
+      "solid": ["hbm:ingot_schrabidium"]
+    },
+    {
+      "input": ["item","minecraft:netherrack",1,32767],
+      "solid": ["minecraft:netherbrick"]
+    },
+    {
+      "input": ["item","hbm:powder_boron",1,32767],
+      "solid": ["hbm:ingot_boron"]
+    },
+    {
       "input": ["item","hbm:powder_red_copper",1,32767],
       "solid": ["hbm:ingot_red_copper"]
     },
     {
+      "input": ["item","valoria:maakarus02ironore"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","valoria:ptotor03redstoneore"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","osv:coal_ore_3"],
+      "solid": ["minecraft:coal"]
+    },
+    {
+      "input": ["item","osv:coal_ore_3",1,1],
+      "solid": ["minecraft:coal",2]
+    },
+    {
+      "input": ["item","osv:coal_ore_1"],
+      "solid": ["minecraft:coal"]
+    },
+    {
+      "input": ["item","osv:coal_ore_1",1,1],
+      "solid": ["minecraft:coal",2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_5"],
+      "solid": ["biomesoplenty:gem",1,6]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_5",1,1],
+      "solid": ["biomesoplenty:gem",2,6]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_3"],
+      "solid": ["biomesoplenty:gem",1,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_5"],
+      "solid": ["biomesoplenty:gem",1,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_5",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_3",1,1],
+      "solid": ["biomesoplenty:gem",2,3]
+    },
+    {
+      "input": ["item","galacticraftplanets:item_basic_asteroids",1,4],
+      "solid": ["galacticraftplanets:item_basic_asteroids"]
+    },
+    {
+      "input": ["item","galacticraftplanets:item_basic_asteroids",1,9],
+      "solid": ["galacticraftplanets:item_basic_asteroids"]
+    },
+    {
+      "input": ["item","osv:diamond_ore_quark_jasper"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","osv:diamond_ore_quark_jasper",1,1],
+      "solid": ["minecraft:diamond",2]
+    },
+    {
+      "input": ["item","hbm:ball_resin",1,32767],
+      "solid": ["hbm:ingot_biorubber"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_slate"],
+      "solid": ["biomesoplenty:gem",1,1]
+    },
+    {
+      "input": ["item","valoria:ignisd03diamondore"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","valoria:thit05redstoneore"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","hbm:powder_euphemium",1,32767],
+      "solid": ["hbm:ingot_euphemium"]
+    },
+    {
+      "input": ["item","hbm:ore_nether_tungsten",1,32767],
+      "solid": ["hbm:ingot_tungsten"]
+    },
+    {
+      "input": ["item","valoria:selene03asapphireore"],
+      "solid": ["galacticraftcore:item_basic_moon",1,2]
+    },
+    {
+      "input": ["item","osv:iron_ore_quark_limestone"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:redstone_ore"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","osv:redstone_ore",1,2],
+      "solid": ["minecraft:redstone",2]
+    },
+    {
+      "input": ["item","osv:iron_ore_quark_limestone",1,1],
+      "solid": ["minecraft:iron_ingot",2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_1"],
+      "solid": ["biomesoplenty:gem",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_1",1,1],
+      "solid": ["biomesoplenty:gem",2,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_3"],
+      "solid": ["biomesoplenty:gem",1,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_3",1,1],
+      "solid": ["biomesoplenty:gem",2,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_3",1,1],
+      "solid": ["biomesoplenty:gem",2,6]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_3"],
+      "solid": ["biomesoplenty:gem",1,6]
+    },
+    {
+      "input": ["item","dynaores:raw_asbestos",1,32767],
+      "solid": ["hbm:ingot_asbestos"]
+    },
+    {
+      "input": ["item","osv:coal_ore"],
+      "solid": ["minecraft:coal"]
+    },
+    {
+      "input": ["item","osv:coal_ore",1,1],
+      "solid": ["minecraft:coal",2]
+    },
+    {
+      "input": ["item","dynaores:raw_iron",1,32767],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:diamond_ore_quark_limestone"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","osv:diamond_ore_quark_limestone",1,1],
+      "solid": ["minecraft:diamond",2]
+    },
+    {
+      "input": ["item","valoria:zarrion03bironore"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:emerald_ore_quark_marble",1,1],
+      "solid": ["minecraft:emerald",2]
+    },
+    {
+      "input": ["item","hbm:scrap_plastic",1,32767],
+      "solid": ["hbm:ingot_polymer"]
+    },
+    {
+      "input": ["item","osv:emerald_ore_quark_marble"],
+      "solid": ["minecraft:emerald"]
+    },
+    {
+      "input": ["item","galacticraftcore:basic_block_core",1,7],
+      "solid": ["galacticraftcore:basic_item",1,5]
+    },
+    {
+      "input": ["item","galacticraftcore:basic_block_core",1,6],
+      "solid": ["galacticraftcore:basic_item",1,4]
+    },
+    {
+      "input": ["item","galacticraftcore:basic_block_core",1,5],
+      "solid": ["galacticraftcore:basic_item",1,3]
+    },
+    {
+      "input": ["item","dynaores:raw_cobalt",1,32767],
+      "solid": ["hbm:ingot_cobalt"]
+    },
+    {
+      "input": ["item","valoria:selene03agoldore"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","hbm:waste_trinitite_red"],
+      "solid": ["hbm:glass_trinitite"]
+    },
+    {
+      "input": ["item","valoria:zarrion03baluminumore"],
+      "solid": ["galacticraftcore:basic_item",1,5]
+    },
+    {
+      "input": ["item","osv:iron_ore_5"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:iron_ore_5",1,1],
+      "solid": ["minecraft:iron_ingot",2]
+    },
+    {
+      "input": ["item","osv:emerald_ore_quark_slate",1,1],
+      "solid": ["minecraft:emerald",2]
+    },
+    {
+      "input": ["item","osv:emerald_ore_quark_slate"],
+      "solid": ["minecraft:emerald"]
+    },
+    {
+      "input": ["item","osv:lapis_ore_quark_marble",1,1],
+      "solid": ["minecraft:dye",2,4]
+    },
+    {
+      "input": ["item","osv:lapis_ore_quark_marble"],
+      "solid": ["minecraft:dye",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_5",1,1],
+      "solid": ["biomesoplenty:gem",2,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_5"],
+      "solid": ["biomesoplenty:gem",1,1]
+    },
+    {
+      "input": ["item","mekanism:dust",1,2],
+      "solid": ["mekanism:ingot",1,1]
+    },
+    {
+      "input": ["item","dynaores:raw_uranium",1,32767],
+      "solid": ["mekanism:ingot",1,8]
+    },
+    {
+      "input": ["item","mekanism:dust"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","mekanism:dust",1,1],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","mekanism:dust",1,3],
+      "solid": ["mekanism:ingot",1,5]
+    },
+    {
+      "input": ["item","hbm:sand_lead"],
+      "solid": ["hbm:glass_lead"]
+    },
+    {
+      "input": ["item","mekanism:dust",1,4],
+      "solid": ["mekanism:ingot",1,6]
+    },
+    {
+      "input": ["item","mekanism:dust",1,6],
+      "solid": ["mekanism:ingot",1,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore"],
+      "solid": ["biomesoplenty:gem",1,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore",1,1],
+      "solid": ["biomesoplenty:gem",2,3]
+    },
+    {
+      "input": ["item","mekanism:dust",1,7],
+      "solid": ["mekanism:ingot",1,8]
+    },
+    {
+      "input": ["item","valoria:antham04deshore"],
+      "solid": ["galacticraftplanets:item_basic_mars",1,2]
+    },
+    {
+      "input": ["item","galacticraftplanets:asteroids_block",1,3],
+      "solid": ["galacticraftcore:basic_item",1,5]
+    },
+    {
+      "input": ["item","galacticraftplanets:asteroids_block",1,4],
+      "solid": ["galacticraftplanets:item_basic_asteroids"]
+    },
+    {
+      "input": ["item","galacticraftplanets:asteroids_block",1,5],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
       "input": ["item","galacticraftplanets:venus",1,6],
       "solid": ["galacticraftcore:basic_item",1,5]
+    },
+    {
+      "input": ["item","galacticraftplanets:mars"],
+      "solid": ["galacticraftcore:basic_item",1,3]
+    },
+    {
+      "input": ["item","galacticraftplanets:mars",1,1],
+      "solid": ["galacticraftcore:basic_item",1,4]
+    },
+    {
+      "input": ["item","galacticraftplanets:mars",1,2],
+      "solid": ["galacticraftplanets:item_basic_mars",1,2]
+    },
+    {
+      "input": ["item","dynaores:raw_titanium",1,32767],
+      "solid": ["techguns:itemshared",1,85]
+    },
+    {
+      "input": ["item","galacticraftplanets:mars",1,3],
+      "solid": ["minecraft:iron_ingot"]
     },
     {
       "input": ["item","galacticraftplanets:venus",1,7],
@@ -3647,56 +3935,116 @@
       "solid": ["galacticraftcore:basic_item",1,4]
     },
     {
-      "input": ["item","osv:iron_ore_1"],
-      "solid": ["minecraft:iron_ingot"]
+      "input": ["item","hbm:powder_bakelite",1,32767],
+      "solid": ["hbm:ingot_bakelite"]
     },
     {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_jasper"],
-      "solid": ["biomesoplenty:gem",1,5]
+      "input": ["item","hbm:powder_plutonium",1,32767],
+      "solid": ["hbm:ingot_plutonium"]
     },
     {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_jasper",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_marble"],
+      "solid": ["biomesoplenty:gem",1,2]
     },
     {
-      "input": ["item","osv:iron_ore_1",1,1],
-      "solid": ["minecraft:iron_ingot",2]
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_marble",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
     },
     {
-      "input": ["item","osv:redstone_ore_quark_limestone"],
-      "solid": ["minecraft:redstone"]
+      "input": ["item","hbm:powder_polymer",1,32767],
+      "solid": ["hbm:ingot_polymer"]
     },
     {
-      "input": ["item","osv:redstone_ore_quark_limestone",1,2],
-      "solid": ["minecraft:redstone",2]
+      "input": ["item","osv:coal_ore_quark_jasper"],
+      "solid": ["minecraft:coal"]
     },
     {
-      "input": ["item","osv:gold_ore_1"],
+      "input": ["item","osv:coal_ore_quark_jasper",1,1],
+      "solid": ["minecraft:coal",2]
+    },
+    {
+      "input": ["item","valoria:ignisc02goldore"],
       "solid": ["minecraft:gold_ingot"]
     },
     {
-      "input": ["item","osv:gold_ore_1",1,1],
-      "solid": ["minecraft:gold_ingot",2]
+      "input": ["item","osv:diamond_ore_1"],
+      "solid": ["minecraft:diamond"]
     },
     {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_marble",1,1],
-      "solid": ["biomesoplenty:gem",2,1]
+      "input": ["item","osv:diamond_ore_1",1,1],
+      "solid": ["minecraft:diamond",2]
     },
     {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_marble"],
-      "solid": ["biomesoplenty:gem",1,1]
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_limestone",1,1],
+      "solid": ["biomesoplenty:gem",2,6]
     },
     {
-      "input": ["item","hbm:ore_gneiss_lithium",1,32767],
-      "solid": ["hbm:lithium"]
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_limestone"],
+      "solid": ["biomesoplenty:gem",1,6]
     },
     {
       "input": ["item","valoria:selene03aironore"],
       "solid": ["minecraft:iron_ingot"]
     },
     {
-      "input": ["item","osv:biomesoplenty_amber_ore_1"],
+      "input": ["item","osv:iron_ore_quark_jasper"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:iron_ore_quark_jasper",1,1],
+      "solid": ["minecraft:iron_ingot",2]
+    },
+    {
+      "input": ["item","hbm:powder_niobium",1,32767],
+      "solid": ["hbm:ingot_niobium"]
+    },
+    {
+      "input": ["item","hbm:powder_tungsten",1,32767],
+      "solid": ["hbm:ingot_tungsten"]
+    },
+    {
+      "input": ["item","hbm:ore_gneiss_iron",1,32767],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","dynaores:raw_schrabidium",1,32767],
+      "solid": ["hbm:ingot_schrabidium"]
+    },
+    {
+      "input": ["item","minecraft:gold_ore",1,32767],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","nyx:star_block"],
+      "solid": ["nyx:cracked_star_block"]
+    },
+    {
+      "input": ["item","hbm:ash_digamma"],
+      "solid": ["hbm:glass_ash"]
+    },
+    {
+      "input": ["item","dynaores:raw_osmium",1,32767],
+      "solid": ["mekanism:ingot",1,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_quark_marble"],
       "solid": ["biomesoplenty:gem",1,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_quark_marble",1,1],
+      "solid": ["biomesoplenty:gem",2,7]
+    },
+    {
+      "input": ["item","valoria:frostburn06aredstoneore"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","valoria:frostburn06aaluminumore"],
+      "solid": ["galacticraftcore:basic_item",1,5]
+    },
+    {
+      "input": ["item","valoria:ignisc02ironore"],
+      "solid": ["minecraft:iron_ingot"]
     },
     {
       "input": ["item","osv:gold_ore_quark_slate"],
@@ -3707,344 +4055,68 @@
       "solid": ["minecraft:gold_ingot",2]
     },
     {
-      "input": ["item","osv:biomesoplenty_amber_ore_1",1,1],
-      "solid": ["biomesoplenty:gem",2,7]
+      "input": ["item","valoria:zarrion03btinore"],
+      "solid": ["galacticraftcore:basic_item",1,4]
     },
     {
-      "input": ["item","hbm:ore_copper",1,32767],
-      "solid": ["hbm:ingot_copper"]
-    },
-    {
-      "input": ["item","hbm:powder_titanium",1,32767],
-      "solid": ["hbm:ingot_titanium"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_jasper",1,1],
-      "solid": ["biomesoplenty:gem",2,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_jasper"],
-      "solid": ["biomesoplenty:gem",1,6]
-    },
-    {
-      "input": ["item","osv:emerald_ore_quark_marble",1,1],
-      "solid": ["minecraft:emerald",2]
-    },
-    {
-      "input": ["item","osv:emerald_ore_quark_marble"],
-      "solid": ["minecraft:emerald"]
-    },
-    {
-      "input": ["item","valoria:ptotor03aluminumore"],
-      "solid": ["galacticraftcore:basic_item",1,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_1",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_1"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_quark_slate"],
-      "solid": ["biomesoplenty:gem",1,7]
-    },
-    {
-      "input": ["item","valoria:antham04goldore"],
+      "input": ["item","valoria:thit05goldore"],
       "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_quark_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,7]
-    },
-    {
-      "input": ["item","hbm:powder_plutonium",1,32767],
-      "solid": ["hbm:ingot_plutonium"]
-    },
-    {
-      "input": ["item","dynaores:raw_lithium",1,32767],
-      "solid": ["hbm:lithium"]
-    },
-    {
-      "input": ["item","hbm:ore_gneiss_copper",1,32767],
-      "solid": ["hbm:ingot_copper"]
-    },
-    {
-      "input": ["item","valoria:selene03acopperore"],
-      "solid": ["galacticraftcore:basic_item",1,3]
-    },
-    {
-      "input": ["item","hbm:powder_boron",1,32767],
-      "solid": ["hbm:ingot_boron"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_slate"],
-      "solid": ["biomesoplenty:gem",1,1]
-    },
-    {
-      "input": ["item","hbm:powder_gold",1,32767],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","valoria:h2co06baluminumore"],
-      "solid": ["galacticraftcore:basic_item",1,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_quark_jasper"],
-      "solid": ["biomesoplenty:gem",1,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_quark_jasper",1,1],
-      "solid": ["biomesoplenty:gem",2,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_1",1,1],
-      "solid": ["biomesoplenty:gem",2,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_1"],
-      "solid": ["biomesoplenty:gem",1,6]
-    },
-    {
-      "input": ["item","galacticraftcore:meteoric_iron_raw",1,32767],
-      "solid": ["galacticraftcore:item_basic_moon"]
     },
     {
       "input": ["item","hbm:powder_cobalt",1,32767],
       "solid": ["hbm:ingot_cobalt"]
     },
     {
-      "input": ["item","mekanism:oreblock"],
-      "solid": ["mekanism:ingot",1,1]
-    },
-    {
-      "input": ["item","mekanism:oreblock",1,1],
-      "solid": ["mekanism:ingot",1,5]
-    },
-    {
-      "input": ["item","valoria:ptotor03coalore"],
-      "solid": ["minecraft:coal"]
-    },
-    {
-      "input": ["item","mekanism:oreblock",1,2],
-      "solid": ["mekanism:ingot",1,6]
-    },
-    {
-      "input": ["item","mekanism:oreblock",1,4],
-      "solid": ["mekanism:ingot",1,7]
-    },
-    {
-      "input": ["item","mekanism:oreblock",1,5],
-      "solid": ["mekanism:ingot",1,8]
-    },
-    {
-      "input": ["item","hbm:powder_copper",1,32767],
-      "solid": ["hbm:ingot_copper"]
-    },
-    {
-      "input": ["item","valoria:maakarus02ironore"],
+      "input": ["item","valoria:kerberos05aironore"],
       "solid": ["minecraft:iron_ingot"]
     },
     {
-      "input": ["item","hbm:ore_nether_cobalt",1,32767],
+      "input": ["item","valoria:ignise01redstoneore"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","hbm:powder_ra226",1,32767],
+      "solid": ["hbm:ingot_ra226"]
+    },
+    {
+      "input": ["item","hbm:ore_cobalt",1,32767],
       "solid": ["hbm:ingot_cobalt"]
     },
     {
-      "input": ["item","hbm:ore_nether_uranium_scorched",1,32767],
-      "solid": ["hbm:ingot_uranium"]
+      "input": ["item","valoria:frostburn06agoldore"],
+      "solid": ["minecraft:gold_ingot"]
     },
     {
-      "input": ["item","hbm:ore_tungsten",1,32767],
-      "solid": ["hbm:ingot_tungsten"]
+      "input": ["item","osv:emerald_ore_quark_limestone",1,1],
+      "solid": ["minecraft:emerald",2]
+    },
+    {
+      "input": ["item","osv:emerald_ore_quark_limestone"],
+      "solid": ["minecraft:emerald"]
+    },
+    {
+      "input": ["item","nb:nether_gold_ore",1,32767],
+      "solid": ["minecraft:gold_ingot"]
     },
     {
       "input": ["item","valoria:kerberos05aaluminumore"],
       "solid": ["galacticraftcore:basic_item",1,5]
     },
     {
-      "input": ["item","valoria:zarrion03btinore"],
-      "solid": ["galacticraftcore:basic_item",1,4]
+      "input": ["item","valoria:selene03aaluminumore"],
+      "solid": ["galacticraftcore:basic_item",1,5]
     },
     {
-      "input": ["item","osv:emerald_ore_quark_jasper",1,1],
-      "solid": ["minecraft:emerald",2]
-    },
-    {
-      "input": ["item","osv:emerald_ore_quark_jasper"],
-      "solid": ["minecraft:emerald"]
-    },
-    {
-      "input": ["item","valoria:ignisc02sapphireore"],
-      "solid": ["galacticraftcore:item_basic_moon",1,2]
-    },
-    {
-      "input": ["item","valoria:selene03atinore"],
-      "solid": ["galacticraftcore:basic_item",1,4]
-    },
-    {
-      "input": ["item","osv:diamond_ore_5",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","osv:diamond_ore_5"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","hbm:powder_dineutronium",1,32767],
-      "solid": ["hbm:ingot_dineutronium"]
-    },
-    {
-      "input": ["item","hbm:powder_lithium",1,32767],
-      "solid": ["hbm:lithium"]
-    },
-    {
-      "input": ["item","hbm:waste_trinitite_red"],
-      "solid": ["hbm:glass_trinitite"]
-    },
-    {
-      "input": ["item","dynaores:raw_plutonium",1,32767],
-      "solid": ["hbm:ingot_plutonium"]
-    },
-    {
-      "input": ["item","hbm:powder_neptunium",1,32767],
-      "solid": ["hbm:ingot_neptunium"]
-    },
-    {
-      "input": ["item","hbm:powder_bismuth",1,32767],
-      "solid": ["hbm:ingot_bismuth"]
-    },
-    {
-      "input": ["item","hbm:powder_euphemium",1,32767],
-      "solid": ["hbm:ingot_euphemium"]
-    },
-    {
-      "input": ["item","hbm:ore_titanium",1,32767],
-      "solid": ["hbm:ingot_titanium"]
-    },
-    {
-      "input": ["item","galacticraftcore:basic_block_moon"],
-      "solid": ["galacticraftcore:basic_item",1,3]
-    },
-    {
-      "input": ["item","galacticraftcore:basic_block_moon",1,1],
-      "solid": ["galacticraftcore:basic_item",1,4]
-    },
-    {
-      "input": ["item","galacticraftcore:basic_block_moon",1,2],
-      "solid": ["galacticraftcore:cheese_curd"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_limestone"],
-      "solid": ["biomesoplenty:gem",1,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_limestone",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
-    },
-    {
-      "input": ["item","hbm:powder_lanthanium",1,32767],
-      "solid": ["hbm:ingot_lanthanium"]
-    },
-    {
-      "input": ["item","valoria:ptotor03copperore"],
-      "solid": ["galacticraftcore:basic_item",1,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_quark_slate"],
-      "solid": ["biomesoplenty:gem",1,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_quark_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_limestone"],
-      "solid": ["biomesoplenty:gem",1,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_limestone",1,1],
-      "solid": ["biomesoplenty:gem",2,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_5",1,1],
-      "solid": ["biomesoplenty:gem",2,6]
-    },
-    {
-      "input": ["item","valoria:h2co06bgoldore"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_5"],
-      "solid": ["biomesoplenty:gem",1,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore"],
-      "solid": ["biomesoplenty:gem",1,4]
-    },
-    {
-      "input": ["item","osv:gold_ore"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:gold_ore",1,1],
-      "solid": ["minecraft:gold_ingot",2]
-    },
-    {
-      "input": ["item","osv:lapis_ore_1"],
-      "solid": ["minecraft:dye",1,4]
-    },
-    {
-      "input": ["item","osv:lapis_ore_1",1,1],
+      "input": ["item","osv:lapis_ore_quark_limestone",1,1],
       "solid": ["minecraft:dye",2,4]
     },
     {
-      "input": ["item","dynaores:raw_thorium232",1,32767],
-      "solid": ["hbm:ingot_th232"]
+      "input": ["item","osv:lapis_ore_quark_limestone"],
+      "solid": ["minecraft:dye",1,4]
     },
     {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore",1,1],
-      "solid": ["biomesoplenty:gem",2,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_marble",1,1],
-      "solid": ["biomesoplenty:gem",2,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_marble"],
-      "solid": ["biomesoplenty:gem",1,6]
-    },
-    {
-      "input": ["item","dynaores:raw_schrabidium",1,32767],
-      "solid": ["hbm:ingot_schrabidium"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_3"],
-      "solid": ["biomesoplenty:gem",1,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_3",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
-    },
-    {
-      "input": ["item","osv:diamond_ore_3",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","osv:diamond_ore_3"],
-      "solid": ["minecraft:diamond"]
+      "input": ["item","valoria:kerberos05agoldore"],
+      "solid": ["minecraft:gold_ingot"]
     },
     {
       "input": ["item","osv:biomesoplenty_tanzanite_ore_5"],
@@ -4055,116 +4127,44 @@
       "solid": ["biomesoplenty:gem",2,4]
     },
     {
-      "input": ["item","hbm:powder_beryllium",1,32767],
-      "solid": ["hbm:ingot_beryllium"]
-    },
-    {
-      "input": ["item","valoria:zarrion03bgoldore"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_1"],
-      "solid": ["biomesoplenty:gem",1,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_1",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_3",1,1],
-      "solid": ["biomesoplenty:gem",2,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_3"],
-      "solid": ["biomesoplenty:gem",1,1]
-    },
-    {
-      "input": ["item","hbm:powder_uranium",1,32767],
-      "solid": ["hbm:ingot_uranium"]
-    },
-    {
-      "input": ["item","hbm:powder_tantalium",1,32767],
-      "solid": ["hbm:ingot_tantalium"]
-    },
-    {
-      "input": ["item","hbm:ore_gneiss_schrabidium",1,32767],
-      "solid": ["hbm:ingot_schrabidium"]
-    },
-    {
-      "input": ["item","nyx:meteorite_shard"],
-      "solid": ["nyx:meteorite_ingot"]
-    },
-    {
-      "input": ["item","valoria:antham04redstoneore"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","valoria:ignise01tinore"],
-      "solid": ["galacticraftcore:basic_item",1,4]
-    },
-    {
-      "input": ["item","dynaores:raw_cobalt",1,32767],
-      "solid": ["hbm:ingot_cobalt"]
-    },
-    {
-      "input": ["item","valoria:ignisc02coalore"],
-      "solid": ["minecraft:coal"]
-    },
-    {
-      "input": ["item","osv:emerald_ore_quark_slate",1,1],
+      "input": ["item","osv:emerald_ore_3",1,1],
       "solid": ["minecraft:emerald",2]
     },
     {
-      "input": ["item","osv:emerald_ore_quark_slate"],
+      "input": ["item","osv:emerald_ore_3"],
       "solid": ["minecraft:emerald"]
     },
     {
-      "input": ["item","hbm:sand_lead"],
-      "solid": ["hbm:glass_lead"]
+      "input": ["item","hbm:gravel_diamond"],
+      "solid": ["minecraft:diamond"]
     },
     {
-      "input": ["item","industrialrenewal:chunk_hematite",1,32767],
+      "input": ["item","valoria:ignisc02redstoneore"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_3"],
+      "solid": ["biomesoplenty:gem",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_3",1,1],
+      "solid": ["biomesoplenty:gem",2,4]
+    },
+    {
+      "input": ["item","valoria:ignise01ironore"],
       "solid": ["minecraft:iron_ingot"]
     },
     {
-      "input": ["item","nyx:frezarite_crystal"],
-      "solid": ["nyx:frezarite_ingot"]
+      "input": ["item","osv:biomesoplenty_peridot_ore_1"],
+      "solid": ["biomesoplenty:gem",1,2]
     },
     {
-      "input": ["item","dynaores:raw_aluminum",1,32767],
-      "solid": ["galacticraftcore:basic_item",1,5]
+      "input": ["item","osv:biomesoplenty_peridot_ore_1",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
     },
     {
-      "input": ["item","minecraft:gold_ore",1,32767],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore"],
-      "solid": ["biomesoplenty:gem",1,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
-    },
-    {
-      "input": ["item","valoria:zarrion03bcopperore"],
-      "solid": ["galacticraftcore:basic_item",1,3]
-    },
-    {
-      "input": ["item","srparasites:bloody_iron_ingot"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","hbm:powder_cadmium",1,32767],
-      "solid": ["hbm:ingot_cadmium"]
-    },
-    {
-      "input": ["item","osv:lapis_ore_quark_slate"],
-      "solid": ["minecraft:dye",1,4]
-    },
-    {
-      "input": ["item","osv:lapis_ore_quark_slate",1,1],
-      "solid": ["minecraft:dye",2,4]
+      "input": ["item","hbm:powder_copper",1,32767],
+      "solid": ["hbm:ingot_copper"]
     }
   ]
 }
