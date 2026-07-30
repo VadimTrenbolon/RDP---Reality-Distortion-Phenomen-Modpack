@@ -3115,12 +3115,12 @@ mutantbeasts:entity.mutant_zombie.roar
 mutantbeasts:entity.spider_pig.ambient
 mutantbeasts:entity.spider_pig.death
 mutantbeasts:entity.spider_pig.hurt
+rftools:teleport_whoosh
+rftools:teleport_error
 rftools:elevator_start
 rftools:elevator_loop
 rftools:elevator_stop
 rftools:scan
-rftools:teleport_whoosh
-rftools:teleport_error
 artifacts:fart
 artifacts:bubble_wrap
 artifacts:mimic.close

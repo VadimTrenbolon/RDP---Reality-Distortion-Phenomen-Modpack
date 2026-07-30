@@ -184,6 +184,9 @@ key.categories.hbm.toggleMagnet
 OpenComputers
 key.clipboardPaste
 
+key.otg.category
+key.otghud.desc
+
 key.overlast
 key.switchhud
 
