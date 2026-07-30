@@ -1,0 +1,18 @@
+filename = 'PotionCore-1.9_for_1.12.2.jar'
+name = 'Potion Core'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'PotionCore-1.9_for_1.12.2.jar'
+
+[download]
+hash = 'c22bce1ca24762712680b9e107b77df921847f14'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2905184
+project-id = 242872

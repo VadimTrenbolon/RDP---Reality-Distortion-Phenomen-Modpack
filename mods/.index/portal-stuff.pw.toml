@@ -1,0 +1,29 @@
+filename = 'PortalStuff_1.12.2-1b.jar'
+name = 'Portal Stuff'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '[1.12.2] Portal Stuff - 1b'
+
+[download]
+hash = 'b32f1878805b0464197b898f15de018a1f7cb2d0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2680765
+project-id = 298817
+
+[[x-prismlauncher-dependencies]]
+addonId = '247401'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '229060'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '229084'
+type = 'REQUIRED'

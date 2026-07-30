@@ -1,0 +1,33 @@
+filename = 'AdLods-1.12.2-1.0.8.0-build.0504.jar'
+name = 'Large Ore Deposits'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'AdLods-1.12.2-1.0.8.0-build.0504.jar'
+
+[download]
+hash = '88392e83ef379498638f376967cbeb42b6c4bc46'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2961524
+project-id = 318833
+
+[[x-prismlauncher-dependencies]]
+addonId = '225643'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '220311'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '260925'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '244844'
+type = 'REQUIRED'

@@ -1,0 +1,18 @@
+filename = 'celeritasextra-0.6.3.jar'
+name = 'Celeritas Extra'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'celeritasextra-0.6.3.jar'
+
+[download]
+hash = '89c16feed705ba1a996d8a509b2159920beca958'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8494102
+project-id = 1451214

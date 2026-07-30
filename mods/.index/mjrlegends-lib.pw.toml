@@ -1,0 +1,18 @@
+filename = 'MJRLegendsLib-1.12.2-1.2.1.jar'
+name = 'MJRLegends Lib'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.1'
+
+[download]
+hash = 'b968abf09972db6a51b498bf0744b87de51b82b59923a68421d1473fb8c9c2ef6a8fc7aeebd73eb65987f383f2273bb4bb2bd57ec1dcb5754eb5deb87deddf2d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/omJo11Ng/versions/ubBpCptp/MJRLegendsLib-1.12.2-1.2.1.jar'
+
+[update.modrinth]
+mod-id = 'omJo11Ng'
+version = 'ubBpCptp'

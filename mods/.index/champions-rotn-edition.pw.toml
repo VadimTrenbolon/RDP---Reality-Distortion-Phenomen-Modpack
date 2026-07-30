@@ -1,0 +1,18 @@
+filename = 'champions-1.12.2-1.0.11.10.jar'
+name = 'Champions - RotN Edition'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'champions-1.12.2-1.0.11.10.jar'
+
+[download]
+hash = 'cae5039b670b34fb0e4d1570a7fac0cd1b012b67'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3104329
+project-id = 418112

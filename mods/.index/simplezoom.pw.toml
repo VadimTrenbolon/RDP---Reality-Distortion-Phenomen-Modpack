@@ -1,0 +1,18 @@
+filename = 'simplezoom-1.12.2-1.3.2-universal.jar'
+name = 'SimpleZoom'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'simplezoom-1.12.2-1.3.2-universal'
+
+[download]
+hash = 'f73a9296b8960d3ce75cec83a85c9097960979f5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2634700
+project-id = 303375

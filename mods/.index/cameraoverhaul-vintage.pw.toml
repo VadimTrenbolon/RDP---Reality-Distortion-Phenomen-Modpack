@@ -1,0 +1,21 @@
+filename = 'cameraoverhaul-v2.1.0-vintage.jar'
+name = 'CameraOverhaul'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'CameraOverhaul v2.1.0-vintage'
+
+[download]
+hash = 'c0ea1e01d45abb019e9e759110f2d9a54cd61736'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8197644
+project-id = 1283257
+
+[[x-prismlauncher-dependencies]]
+addonId = '321792'
+type = 'OPTIONAL'

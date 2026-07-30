@@ -1,0 +1,21 @@
+filename = 'SoManyEnchantments-1.0.8-1.12.2.jar'
+name = 'So Many Enchantments'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'SoManyEnchantments-1.0.8-1.12.2.jar'
+
+[download]
+hash = '89613555f03daf90b976fcd931e35a74100bab3a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7156865
+project-id = 267035
+
+[[x-prismlauncher-dependencies]]
+addonId = '968474'
+type = 'REQUIRED'

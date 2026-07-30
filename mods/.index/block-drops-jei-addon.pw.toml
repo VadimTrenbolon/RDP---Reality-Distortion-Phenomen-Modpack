@@ -1,0 +1,21 @@
+filename = 'blockdrops-1.12.2-1.4.0.jar'
+name = 'Block Drops (JEI Addon)'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'blockdrops-1.12.2-1.4.0.jar'
+
+[download]
+hash = 'b47558862e4bb042ec8e851334b564b04388d35e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2509046
+project-id = 244181
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'REQUIRED'

@@ -1,0 +1,18 @@
+filename = 'lycaniteadditions-1.0.0.jar'
+name = 'Lycanite Mobs Additions'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Lycanite Mobs Additions'
+
+[download]
+hash = 'b29367d62d11d2fc979fbc1c372fb253b2ff17cb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7757827
+project-id = 1400150

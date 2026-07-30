@@ -1,0 +1,18 @@
+filename = 'TrackAPI-1.12.2-forge-1.3.jar'
+name = 'Track API'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'TrackAPI-1.12.2-forge-1.3'
+
+[download]
+hash = 'e2e99f48abdf5c481d6a9a7d97fbfbdb4da140f8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8246239
+project-id = 282613

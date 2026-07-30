@@ -1,0 +1,18 @@
+filename = 'AgeingSpawners-1.12.2-1.0.0.jar'
+name = 'Ageing Spawners'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '15910090412cdecb067a41f6f42726ae09302fafb7c89ea0f99f6f4cb390f0999181aa86c26b37143ada2fe52235d363b270b679afd36f7907af5dd24ec74aca'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/npA68nxC/versions/OmuVWSmW/AgeingSpawners-1.12.2-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'npA68nxC'
+version = 'OmuVWSmW'

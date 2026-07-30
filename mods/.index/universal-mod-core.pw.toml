@@ -1,0 +1,22 @@
+filename = 'UniversalModCore-1.12.2-forge-1.3.0.jar'
+name = 'Universal Mod Core'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.12.2-forge-1.3.0'
+
+[download]
+hash = '9c82b93986f941846ab3cf1b44a2c68cfceebe5a9eaa9c3b912b69e283c85f9875ee9008811dec5e9492fc1fd30104b9e0b402f312764a0c292727d511699410'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SrlfFSm8/versions/BLvDSJB3/UniversalModCore-1.12.2-forge-1.3.0.jar'
+
+[update.modrinth]
+mod-id = 'SrlfFSm8'
+version = 'BLvDSJB3'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'G1ckZuWK'
+type = 'REQUIRED'
+version = 'PZYBy1vc'

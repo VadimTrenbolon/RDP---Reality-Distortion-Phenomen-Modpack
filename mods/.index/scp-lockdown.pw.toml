@@ -1,0 +1,18 @@
+filename = 'SCP Lockdown-1.12.2-2.4.3-release.jar'
+name = 'SCP: Lockdown'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'SCP Lockdown-1.12.2-2.4.3-release.jar'
+
+[download]
+hash = '69366358114db6292c98ee98762f266ac4e135b2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6100052
+project-id = 298995

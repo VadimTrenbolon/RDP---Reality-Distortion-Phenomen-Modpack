@@ -1,0 +1,21 @@
+filename = 'RLArtifacts-1.1.2.jar'
+name = 'RLArtifacts'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'RLArtifacts-1.1.2.jar'
+
+[download]
+hash = 'f6b09ccfe0f3bbf59a3e4a693a396cc050faec95'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4475428
+project-id = 819886
+
+[[x-prismlauncher-dependencies]]
+addonId = '227083'
+type = 'REQUIRED'

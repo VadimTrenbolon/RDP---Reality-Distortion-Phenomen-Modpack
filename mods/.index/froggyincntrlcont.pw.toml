@@ -1,0 +1,21 @@
+filename = 'incontrol-1.12-3.10.4.jar'
+name = "Froggy's InControlContinuation"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'incontrol-1.12-3.10.4.jar'
+
+[download]
+hash = '03c019ce808a807437fa24acb753790eb487e822'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8193869
+project-id = 1484881
+
+[[x-prismlauncher-dependencies]]
+addonId = '968474'
+type = 'REQUIRED'

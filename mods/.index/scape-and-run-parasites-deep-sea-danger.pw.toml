@@ -1,0 +1,37 @@
+filename = 'SRPDeepSeaDanger-1.10.2.4.1.jar'
+name = 'Scape and Run: Parasites Deep Sea Danger'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'SRPDeepSeaDanger-1.10.2.4.1'
+
+[download]
+hash = 'bd8fe010d1cbc334dcaac87fd6e1e33ed7eb4ec8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8196229
+project-id = 1268838
+
+[[x-prismlauncher-dependencies]]
+addonId = '348025'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '840576'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1140227'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419286'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '971348'
+type = 'OPTIONAL'

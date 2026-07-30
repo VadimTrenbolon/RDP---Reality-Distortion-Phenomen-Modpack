@@ -1,0 +1,21 @@
+filename = 'Stackie-1.12.2-1.6.0.48-universal.jar'
+name = 'Stackie'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Stackie-1.12.2-1.6.0.48-universal.jar'
+
+[download]
+hash = '7fc3870214302cb8ea1c78e0543adc5f61cdc4e8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2489553
+project-id = 225606
+
+[[x-prismlauncher-dependencies]]
+addonId = '225605'
+type = 'REQUIRED'

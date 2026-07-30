@@ -1,0 +1,18 @@
+filename = 'lycanitesmobs-1.12.2-2.0.8.10.jar'
+name = 'Lycanites Mobs'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Lycanite's Mobs 2.0.8.10"
+
+[download]
+hash = '56c49cf01d62ee0715cc38b7d784165bcc1339d0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5750564
+project-id = 224770

@@ -1,0 +1,29 @@
+filename = 'hbmgccompanion-0.8.jar'
+name = 'HBM Galacticraft Companion'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'hbmgccompanion-0.8.jar'
+
+[download]
+hash = '01efdcfe1578fdbe372018174e3ca2af60a537ed'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8462570
+project-id = 1337562
+
+[[x-prismlauncher-dependencies]]
+addonId = '564236'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '708939'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1312314'
+type = 'OPTIONAL'

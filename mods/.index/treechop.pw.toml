@@ -1,0 +1,18 @@
+filename = 'TreeChop-1.12.2-0.14.7.jar'
+name = "HT's TreeChop"
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'TreeChop-1.12.2-0.14.7.jar'
+
+[download]
+hash = '9deae143ff037ddd23d5bf514b25c456c0334c8c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3532213
+project-id = 421377

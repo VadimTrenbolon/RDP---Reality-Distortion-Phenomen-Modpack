@@ -1,0 +1,21 @@
+filename = 'SereneTweaks-1.0.jar'
+name = 'Serene Tweaks'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Serene Tweaks 1.0 [1.12.2]'
+
+[download]
+hash = 'a730ba27c83ceba9fd1d847b3f7cbe928c93cd7b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3152093
+project-id = 408195
+
+[[x-prismlauncher-dependencies]]
+addonId = '291874'
+type = 'REQUIRED'

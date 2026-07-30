@@ -1,0 +1,29 @@
+filename = 'cyberware-1.12.2-0.2.11.29.jar'
+name = 'Robotic Parts'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'cyberware-1.12.2-0.2.11.29'
+
+[download]
+hash = '51b24de17337a6a46581c9031a08a04ae6934827'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3366534
+project-id = 283377
+
+[[x-prismlauncher-dependencies]]
+addonId = '225643'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '64578'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '308192'
+type = 'OPTIONAL'

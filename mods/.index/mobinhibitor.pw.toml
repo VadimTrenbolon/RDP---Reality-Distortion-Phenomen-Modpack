@@ -1,0 +1,18 @@
+filename = 'mobinhibitor-1.12.2-2.0.jar'
+name = 'MobInhibitor'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mobinhibitor-1.12.2-2.0.jar'
+
+[download]
+hash = '49758d10ffa1a2c8be597164575ae141641f6662'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2562048
+project-id = 247117

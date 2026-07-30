@@ -1,0 +1,18 @@
+filename = 'rotm-1.12.2-1.1.4.jar'
+name = 'Rebirth of the Mobs'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'rotm-1.12.2-1.1.4.jar'
+
+[download]
+hash = 'b3e5549201c08f1d5889df1caf2e1ed6cb0ba007'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3319071
+project-id = 402836

@@ -1,0 +1,18 @@
+filename = 'entitydistance-1.0.3.jar'
+name = 'Entity Distance 1.12.2'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.3'
+
+[download]
+hash = '625f4348860e37dfe322d32e99309bec46804f94e007861b3cdb9b0333917592dbdc63ee3c7cef90672b84eef7d764c9851e59b7456ca83f59fa05cfc6073549'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/c0qf6jb9/versions/6nPfoLov/entitydistance-1.0.3.jar'
+
+[update.modrinth]
+mod-id = 'c0qf6jb9'
+version = '6nPfoLov'

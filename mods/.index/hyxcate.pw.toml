@@ -1,0 +1,57 @@
+filename = 'Hyxcate-1.12.2-1.2.4.jar'
+name = 'Hyxcate'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.2.4'
+
+[download]
+hash = '7d349406ced38282aacbf3d0e5e468a83fd615b8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8172637
+project-id = 1403947
+
+[[x-prismlauncher-dependencies]]
+addonId = '239197'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1242239'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1121231'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '246391'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1394222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '574162'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419286'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1396395'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '301356'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '268655'
+type = 'OPTIONAL'

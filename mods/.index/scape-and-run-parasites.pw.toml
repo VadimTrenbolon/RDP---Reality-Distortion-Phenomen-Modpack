@@ -1,0 +1,18 @@
+filename = 'SRParasites-1.10.7.jar'
+name = 'Scape and Run: Parasites'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = 'SRP v 1.10.7'
+
+[download]
+hash = '08c55b119a3667940f1a2d3c535775e82465315f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8291627
+project-id = 348025

@@ -1,0 +1,18 @@
+filename = 'endercrop-1.12.2-1.6.0.jar'
+name = 'Ender Crop'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'endercrop-1.12.2-1.6.0.jar'
+
+[download]
+hash = '266a2b3337dd81e6c9753155b1e2bb208cd435d1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2588335
+project-id = 242269

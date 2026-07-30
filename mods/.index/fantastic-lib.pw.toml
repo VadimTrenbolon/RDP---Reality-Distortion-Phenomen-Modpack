@@ -1,0 +1,18 @@
+filename = 'FantasticLib-1.12.2.070.jar'
+name = 'Fantastic Lib'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'FantasticLib-1.12.2.070.jar'
+
+[download]
+hash = '102d4d35c6b96fcbbb9a164f1a94f2e9aa76b41e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6807019
+project-id = 315773

@@ -1,0 +1,25 @@
+filename = 'ItemStages-1.12.2-2.0.51.jar'
+name = 'Item Stages'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = 'ItemStages-1.12.2-2.0.51.jar'
+
+[download]
+hash = '5fe6908e513330cb657a8b54562c5ca9292a9a3e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2810185
+project-id = 280316
+
+[[x-prismlauncher-dependencies]]
+addonId = '239197'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '268655'
+type = 'REQUIRED'

@@ -1,0 +1,18 @@
+filename = 'ArmoredArms-v1.5.3-1.12.2-release.jar'
+name = 'Armored Arms'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ArmoredArms-v1.5.3-1.12.2-release.jar'
+
+[download]
+hash = '7e6b16e73ed970ca55fc52a03a7b567f96ac70eb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8379539
+project-id = 1331377

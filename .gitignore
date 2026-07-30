@@ -46,7 +46,16 @@ OpenComputersMod-*.dll
 ########################################
 # Third-party mods
 ########################################
-mods/
+
+# Ignore all mods
+mods/*
+
+# Keep Prism Launcher mod index
+!mods/.index/
+!mods/.index/**
+
+# Keep HTML mod list
+!mods/RDP - (Reality Distortion Phenomen-v1).html
 
 ########################################
 # Generated files

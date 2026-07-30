@@ -1,0 +1,29 @@
+filename = 'mcheli-ce-1.5.jar'
+name = 'McHeli: Community Edition'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MC Heli CE 1.5'
+
+[download]
+hash = 'f0f1b3cd304c1849d00ca08a51408f3844879cd0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8412776
+project-id = 1383222
+
+[[x-prismlauncher-dependencies]]
+addonId = '624243'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1312314'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '433025'
+type = 'REQUIRED'

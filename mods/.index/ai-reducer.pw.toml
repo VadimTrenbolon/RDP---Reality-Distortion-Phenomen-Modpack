@@ -1,0 +1,18 @@
+filename = 'AIReducer-1.12.2-0.3.0.jar'
+name = 'AI Reducer'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'AIReducer-1.12.2-0.3.0.jar'
+
+[download]
+hash = 'a68d2b0996e8146f4c4fa270d7100c496120bfd3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3543884
+project-id = 367831

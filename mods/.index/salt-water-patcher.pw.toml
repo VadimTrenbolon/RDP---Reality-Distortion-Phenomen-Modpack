@@ -1,0 +1,33 @@
+filename = 'saltwaterpatcher-1.5.jar'
+name = 'Salt Water Patcher'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'SaltWaterPatcher-1.5'
+
+[download]
+hash = '065c055565a3b8108efc9724c27c014c9879a1cb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4651274
+project-id = 575972
+
+[[x-prismlauncher-dependencies]]
+addonId = '220318'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '289529'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419286'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '574162'
+type = 'OPTIONAL'

@@ -1,0 +1,18 @@
+filename = 'LunatriusCore-1.12.2-1.2.0.42-universal.jar'
+name = 'LunatriusCore'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'LunatriusCore-1.12.2-1.2.0.42-universal.jar'
+
+[download]
+hash = 'f70b39168f2a02d47792cf29bef432e20d0bcd57'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2489549
+project-id = 225605

@@ -1,0 +1,29 @@
+filename = 'brokenwings-3.1.0.jar'
+name = 'Broken Wings - Game Stages Edition'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Broken Wings - Game Stages Edition 3.1.0'
+
+[download]
+hash = '82505141a16cac8570cf2006469efa3a3ecfa7d8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4978525
+project-id = 953353
+
+[[x-prismlauncher-dependencies]]
+addonId = '239197'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '687577'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '268655'
+type = 'OPTIONAL'

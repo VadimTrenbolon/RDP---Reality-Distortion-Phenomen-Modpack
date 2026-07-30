@@ -1,0 +1,21 @@
+filename = 'MutantCreaturesLegacy-1.12.2-1.0.4.jar'
+name = 'Mutant Creatures Legacy'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.4'
+
+[download]
+hash = '632b14f6bf4e0d7bb0695552d763650ce7ed8ffc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8173179
+project-id = 1297312
+
+[[x-prismlauncher-dependencies]]
+addonId = '223628'
+type = 'OPTIONAL'

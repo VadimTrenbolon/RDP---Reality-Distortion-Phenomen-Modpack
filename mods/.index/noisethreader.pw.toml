@@ -1,0 +1,18 @@
+filename = 'NoiseThreader-1.1.3.jar'
+name = 'NoiseThreader'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.3'
+
+[download]
+hash = 'f1d2235a7ba6e33ee12cde0f52808f56f5984e9bfa7dab88bb300fdf9c141232718f7d9cd01a48156020efc5dd9b34f4dc618bae78c0f0b3b8d4b871706a646a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7vujVDby/versions/SqyGmoqS/NoiseThreader-1.1.3.jar'
+
+[update.modrinth]
+mod-id = '7vujVDby'
+version = 'SqyGmoqS'

@@ -1,0 +1,18 @@
+filename = 'Controlled Burn-1.12.2.024.jar'
+name = 'Controlled Burn'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Controlled Burn-1.12.2.024.jar'
+
+[download]
+hash = '66869a4e7b70c58ed0eae7e06d418ecd3307dba5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6599931
+project-id = 306335

@@ -1,0 +1,18 @@
+filename = 'editmobdrops-1.12.2-1.4.3.jar'
+name = 'Edit Mob Drops'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = ' Edit Mob Drops 1.4.3 for Forge 1.12.2'
+
+[download]
+hash = '40ec245e2cc1c993a4b2c9a302b6ac340b78cc75'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4403481
+project-id = 348932

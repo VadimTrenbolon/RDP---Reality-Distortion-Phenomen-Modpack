@@ -1,0 +1,18 @@
+filename = 'IndustrialRenewal_1.12.2-0.21.8.jar'
+name = 'Industrial Renewal'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'IndustrialRenewal_1.12.2-0.21.8.jar'
+
+[download]
+hash = '3d3d77cc3eb341200c81e0c3ef2dec69ffc69521'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3340876
+project-id = 299849

@@ -1,0 +1,21 @@
+filename = 'CaveGenerator-1.2-1.12.2.jar'
+name = 'Cave Generator'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CaveGenerator-1.2-1.12.2.jar'
+
+[download]
+hash = 'c7701c924d10c59367bc9a02b944d41f6b3441d8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3587417
+project-id = 298582
+
+[[x-prismlauncher-dependencies]]
+addonId = '513391'
+type = 'REQUIRED'

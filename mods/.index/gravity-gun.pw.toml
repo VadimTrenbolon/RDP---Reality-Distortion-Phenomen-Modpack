@@ -1,0 +1,21 @@
+filename = 'GravityGun-1.12.2-7.1.0.jar'
+name = 'Gravity Gun'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'GravityGun-1.12.2-7.1.0.jar'
+
+[download]
+hash = '2bf4c3f8c7d67bf0dee9ee6d64349d2d6191218c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2801274
+project-id = 229072
+
+[[x-prismlauncher-dependencies]]
+addonId = '229060'
+type = 'REQUIRED'

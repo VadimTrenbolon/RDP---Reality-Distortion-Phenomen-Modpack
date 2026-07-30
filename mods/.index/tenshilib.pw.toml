@@ -1,0 +1,18 @@
+filename = 'TenshiLib-1.12.2-1.2.4.jar'
+name = 'TenshiLib (Forge/NeoForge)'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'TenshiLib-1.12.2-1.2.4.jar'
+
+[download]
+hash = 'c91ea0ecd6a7710647b454e2e2e28f0e08e6578e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3066464
+project-id = 312040
