@@ -14,7 +14,6 @@ recipes.remove(<techguns:guidedmissilelauncher>);
 recipes.remove(<techguns:nucleardeathray>);
 recipes.remove(<techguns:gaussrifle>);
 recipes.remove(<techguns:tfg>);
-recipes.remove(<enigmaticlegacy:witherite_ingot>);
 
 //Don't touch me!
 //#Add
@@ -27,7 +26,6 @@ recipes.addShaped(<hbm:drax_mk2>, [[<hbm:ingot_starmetal>, <hbm:crystal_trixite>
 recipes.addShaped(<hbm:drax>, [[<hbm:starmetal_pickaxe>, <hbm:ingot_desh>, <hbm:starmetal_shovel>],[<hbm:ingot_starmetal>, <hbm:ingot_desh>, <hbm:ingot_starmetal>], [<hbm:fusion_core>, <hbm:motor_desh>, <hbm:fusion_core>]]);
 recipes.addShaped(<techguns:nucleardeathray>, [[<hbm:plate_combine_steel>, <hbm:circuit:11>, null],[<techguns:itemshared:73>, <techguns:itemshared:130>, <techguns:itemshared:44>], [<hbm:plate_combine_steel>, <techguns:itemshared:31>, <hbm:redcoil_capacitor>]]);
 recipes.addShaped(<techguns:itemshared:128>, [[<hbm:plate_combine_steel>, <ore:plateTitanium>, null],[<techguns:itemshared:40>, <techguns:itemshared:40>, <hbm:coil_advanced_torus>], [<hbm:plate_combine_steel>, <ore:plateTitanium>, null]]);
-recipes.addShaped(<techguns:gaussrifle>, [[null, <ore:paneGlassColorless>, <hbm:circuit:11>],[<techguns:itemshared:128>, <techguns:itemshared:130>, <techguns:itemshared:44>], [<techguns:itemshared:127>, <techguns:itemshared:29>, <hbm:part_mechanism:34>]]);
 recipes.addShaped(<techguns:tfg>, [[<hbm:plate_combine_steel>, null, null],[<techguns:itemshared:129>, <techguns:itemshared:131>, <techguns:itemshared:130>], [<hbm:plate_combine_steel>, <techguns:itemshared:31>, <hbm:circuit:11>]]);
 recipes.addShaped(<techguns:mibgun>, [[<techguns:itemshared:41>, <techguns:itemshared:74>, <ore:plateTitanium>],[null, <hbm:magnetron>, <ore:plateTitanium>], [null, <hbm:redcoil_capacitor>, <techguns:itemshared:29>]]);
 recipes.addShaped(<techguns:guidedmissilelauncher>, [[null, <ore:blockGlassHardened>, <hbm:circuit:13>],[<techguns:itemshared:7>, <techguns:itemshared:39>, <techguns:itemshared:39>], [null, <techguns:itemshared:36>, <hbm:mechanism_launcher_1>]]);

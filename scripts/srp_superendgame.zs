@@ -44,7 +44,7 @@ val designator = designator_item.reuse();
 // ==========================
 
 sign_charm_item.clearTooltip(true);
-sign_charm_item.displayName = "§c§lThe Sign";
+sign_charm_item.displayName = "§c§lSign of the biological distortion.";
 sign_charm_item.addTooltip("§4§lAssimilated Celestial Vessel");
 sign_charm_item.addTooltip("§4A strange pulsating biological singularity.");
 sign_charm_item.addTooltip("§4§kYou are now the harbinger of parasitic expansion.");
