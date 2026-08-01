@@ -1,1 +1,19 @@
-[]
+[
+ {
+  "dimension": 0,
+  "mobs": [
+    {
+      "mob": "oe:dolphin",
+      "biome": [
+        "minecraft:warm_ocean",
+        "minecraft:lukewarm_ocean",
+		"minecraft:ocean",
+		"minecraft:deep_ocean"
+      ],
+      "weight": 1,
+      "groupcountmin": 2,
+      "groupcountmax": 3
+    }
+  ]
+}
+]

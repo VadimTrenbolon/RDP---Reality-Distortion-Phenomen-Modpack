@@ -582,10 +582,6 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["valoria:igniscvioletwood"],
-      "output": ["hbm:powder_sawdust",4]
-    },
-    {
       "input": ["chisel:planks-acacia",1,12],
       "output": ["hbm:powder_sawdust"]
     },
@@ -1032,10 +1028,6 @@
     {
       "input": ["biomesoplenty:planks_0"],
       "output": ["hbm:powder_sawdust"]
-    },
-    {
-      "input": ["valoria:ptotoroakwood"],
-      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:crate_steel"],
@@ -1792,10 +1784,6 @@
     {
       "input": ["chisel:planks-spruce",1,7],
       "output": ["hbm:powder_sawdust"]
-    },
-    {
-      "input": ["valoria:ptotormaplewood"],
-      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["srparasites:liver_hepatis"],

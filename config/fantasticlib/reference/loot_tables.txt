@@ -1,4 +1,5 @@
 minecraft:entities/ocelot
+immersiveengineering:chests/engineers_house
 minecraft:entities/silverfish
 minecraft:entities/llama
 quark:chests/pirate_chest
@@ -39,6 +40,7 @@ mutantbeasts:entities/spider_pig
 minecraft:empty
 quark:entities/frog
 minecraft:entities/sheep/white
+immersiveengineering:chests/village_blacksmith
 techguns:blocks/military_crate_generic
 quark:entities/stoneling_carry
 mutantbeasts:entities/mutant_enderman
@@ -92,6 +94,7 @@ minecraft:entities/sheep/gray
 techguns:blocks/military_crate_explosives
 minecraft:chests/jungle_temple_dispenser
 minecraft:chests/woodland_mansion
+immersiveengineering:chests/stronghold_library
 minecraft:entities/magma_cube
 minecraft:entities/vindication_illager
 minecraft:entities/sheep/pink

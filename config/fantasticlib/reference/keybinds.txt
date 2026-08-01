@@ -10,7 +10,9 @@ key.forward
 
 key.categories.gameplay
 key.attack
+key.immersiveengineering.magnetEquip
 key.pickItem
+key.immersiveengineering.chemthrowerSwitch
 key.use
 
 key.categories.inventory
@@ -183,9 +185,6 @@ key.categories.hbm.toggleMagnet
 
 OpenComputers
 key.clipboardPaste
-
-key.otg.category
-key.otghud.desc
 
 key.overlast
 key.switchhud
