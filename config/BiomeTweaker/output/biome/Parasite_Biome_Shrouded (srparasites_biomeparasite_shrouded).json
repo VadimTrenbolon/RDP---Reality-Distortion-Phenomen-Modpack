@@ -26,7 +26,7 @@
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
-      1
+      3
     ]
   },
   "Spawnable Creatures": [],
@@ -35,55 +35,55 @@
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.adapted.EntityCanraAdapted",
       "Weight": 10,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     },
     {
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.adapted.EntityShycoAdapted",
-      "Weight": 10,
+      "Weight": 15,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     },
     {
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.adapted.EntityNoglaAdapted",
-      "Weight": 10,
+      "Weight": 15,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     },
     {
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.adapted.EntityHullAdapted",
-      "Weight": 10,
+      "Weight": 15,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     },
     {
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.adapted.EntityBanoAdapted",
-      "Weight": 10,
+      "Weight": 15,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     },
     {
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.adapted.EntityEmanaAdapted",
-      "Weight": 10,
+      "Weight": 15,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     },
     {
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.adapted.EntityRanracAdapted",
-      "Weight": 10,
+      "Weight": 15,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     },
     {
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.adapted.EntityLumAdapted",
-      "Weight": 10,
+      "Weight": 15,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     },
     {
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.adapted.EntityGimAdapted",
-      "Weight": 10,
+      "Weight": 15,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     },
     {
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.pure.EntityAlafha",
@@ -101,19 +101,19 @@
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.pure.EntityGanro",
       "Weight": 5,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.pure.EntityEsor",
       "Weight": 5,
       "Min Group Count": 2,
-      "Max Group Count": 3
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.pure.EntityOmboo",
       "Weight": 5,
       "Min Group Count": 2,
-      "Max Group Count": 5
+      "Max Group Count": 3
     },
     {
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.pure.EntityOrch",
@@ -124,8 +124,8 @@
     {
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.pure.EntityFlog",
       "Weight": 20,
-      "Min Group Count": 1,
-      "Max Group Count": 1
+      "Min Group Count": 2,
+      "Max Group Count": 5
     },
     {
       "Entity Class": "com.dhanantry.scapeandrunparasites.entity.monster.pure.preeminent.EntityJinjo",
@@ -230,13 +230,13 @@
   "BOP Weight Map": {},
   "BOP Climate Weights": {
     "BOREAL": [
-      1
+      3
     ],
     "COLD_SWAMP": [
-      1
+      3
     ],
     "COOL_TEMPERATE": [
-      1
+      3
     ]
   },
   "BOP Island Weight": 0

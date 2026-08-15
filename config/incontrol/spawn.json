@@ -1423,14 +1423,16 @@
 
     {
         "dimension": 1000,
-        "mob": [
-               "minecraft:cow",
-               "minecraft:sheep",
-               "minecraft:chicken"
-              ] ,
+        "mod": "minecraft",
         "result": "deny"
     },
 
+
+    {
+        "dimension": 1000,
+        "mod": "techguns",
+        "result": "deny"
+    },
 
 
     {

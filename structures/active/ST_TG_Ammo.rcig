@@ -360,7 +360,6 @@
       "max": 12,
       "item": {
         "id": "thermalfoundation:material",
-        "damage": 192,
         "count": 1
       }
     },
@@ -370,7 +369,6 @@
       "max": 12,
       "item": {
         "id": "thermalfoundation:material",
-        "damage": 195,
         "count": 1
       }
     },
@@ -380,7 +378,6 @@
       "max": 12,
       "item": {
         "id": "thermalfoundation:material",
-        "damage": 224,
         "count": 1
       }
     },
@@ -400,7 +397,6 @@
       "max": 4,
       "item": {
         "id": "techguns:itemshared",
-        "damage": 97,
         "count": 1
       }
     },
@@ -420,7 +416,6 @@
       "max": 6,
       "item": {
         "id": "techguns:itemshared",
-        "damage": 55,
         "count": 1
       }
     },
@@ -430,7 +425,6 @@
       "max": 6,
       "item": {
         "id": "techguns:itemshared",
-        "damage": 64,
         "count": 1
       }
     },
@@ -440,7 +434,6 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
-        "damage": 33,
         "count": 1
       }
     },
@@ -450,7 +443,6 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
-        "damage": 34,
         "count": 1
       }
     },
@@ -460,7 +452,6 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
-        "damage": 35,
         "count": 1
       }
     },
@@ -480,7 +471,6 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
-        "damage": 130,
         "count": 1
       }
     },

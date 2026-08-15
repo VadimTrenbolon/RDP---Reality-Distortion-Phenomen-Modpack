@@ -1,0 +1,18 @@
+filename = 'Random weather 1.1.7 MC 1.12.2.jar'
+name = 'Random Weather'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Random weather 1.1.7 MC 1.12.2.jar'
+
+[download]
+hash = 'd6b1914de3a9099f719a35de9cdd167f8190fa58'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8552885
+project-id = 1554272

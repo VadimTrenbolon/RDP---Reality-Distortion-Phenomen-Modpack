@@ -853,7 +853,7 @@
             "srparasites:ada_bolster",
             "srparasites:ada_arachnida"
         ],
-            "weight": 15,
+            "weight": 20,
             "groupcountmin": 3,
             "groupcountmax": 6
         }

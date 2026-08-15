@@ -68,7 +68,6 @@
       "max": 14,
       "item": {
         "id": "techguns:itemshared",
-        "damage": 60,
         "count": 1
       }
     },
@@ -78,7 +77,6 @@
       "max": 6,
       "item": {
         "id": "techguns:itemshared",
-        "damage": 55,
         "count": 1
       }
     },
@@ -88,7 +86,6 @@
       "max": 6,
       "item": {
         "id": "techguns:itemshared",
-        "damage": 57,
         "count": 1
       }
     },
@@ -98,7 +95,6 @@
       "max": 4,
       "item": {
         "id": "techguns:itemshared",
-        "damage": 84,
         "count": 1
       }
     },
@@ -209,8 +205,7 @@
       "min": 1,
       "max": 2,
       "item": {
-        "id": "techguns:basicmachine",
-        "damage": 3,
+        "id": "techguns:itemshared",
         "count": 1
       }
     },
@@ -220,7 +215,6 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
-        "damage": 99,
         "count": 1
       }
     },
@@ -230,7 +224,6 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
-        "damage": 100,
         "count": 1
       }
     },
@@ -240,17 +233,6 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
-        "damage": 101,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.1442086547613144,
-      "min": 1,
-      "max": 2,
-      "item": {
-        "id": "techguns:itemshared",
-        "damage": 102,
         "count": 1
       }
     },
@@ -431,7 +413,6 @@
       "max": 9,
       "item": {
         "id": "techguns:itemshared",
-        "damage": 62,
         "count": 1
       }
     }

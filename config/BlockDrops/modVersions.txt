@@ -264,6 +264,7 @@
   "recipestages": "1.1.3",
   "brandonscore": "2.4.20",
   "orelib": "3.6.0.1",
+  "radpog2": "1.1.7",
   "backups": "1.5.7",
   "portalgun": "7.1.0",
   "enchdesc": "1.1.20",

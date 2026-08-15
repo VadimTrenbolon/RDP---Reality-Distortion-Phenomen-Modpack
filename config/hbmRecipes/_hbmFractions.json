@@ -2,29 +2,14 @@
   "comment": "Inputs are always 100mB, set output quantities accordingly.",
   "recipes": [
     {
-      "input": "NAPHTHA",
-      "output1": ["HEATINGOIL",40],
-      "output2": ["DIESEL",60]
+      "input": "SMEAR",
+      "output1": ["HEATINGOIL",60],
+      "output2": ["LUBRICANT",40]
     },
     {
-      "input": "BAUXITE_SOLUTION",
-      "output1": ["REDMUD",50],
-      "output2": ["SODIUM_ALUMINATE",50]
-    },
-    {
-      "input": "GAS_COKER",
-      "output1": ["AROMATICS",25],
-      "output2": ["CARBONDIOXIDE",75]
-    },
-    {
-      "input": "NAPHTHA_DS",
-      "output1": ["XYLENE",60],
-      "output2": ["DIESEL_REFORM",40]
-    },
-    {
-      "input": "OIL_COKER",
-      "output1": ["CRACKOIL",30],
-      "output2": ["HEATINGOIL",70]
+      "input": "LIGHTOIL",
+      "output1": ["DIESEL",40],
+      "output2": ["KEROSENE",60]
     },
     {
       "input": "LIGHTOIL_DS",
@@ -32,9 +17,44 @@
       "output2": ["KEROSENE_REFORM",40]
     },
     {
+      "input": "NAPHTHA_COKER",
+      "output1": ["NAPHTHA_CRACK",75],
+      "output2": ["LIGHTOIL_CRACK",25]
+    },
+    {
+      "input": "NAPHTHA",
+      "output1": ["HEATINGOIL",40],
+      "output2": ["DIESEL",60]
+    },
+    {
+      "input": "COALOIL",
+      "output1": ["COALGAS",30],
+      "output2": ["OIL",70]
+    },
+    {
+      "input": "NAPHTHA_CRACK",
+      "output1": ["HEATINGOIL",30],
+      "output2": ["DIESEL_CRACK",70]
+    },
+    {
       "input": "EGG",
       "output1": ["CHOLESTEROL",50],
       "output2": ["RADIOSOLVENT",50]
+    },
+    {
+      "input": "BAUXITE_SOLUTION",
+      "output1": ["REDMUD",50],
+      "output2": ["SODIUM_ALUMINATE",50]
+    },
+    {
+      "input": "HEAVYOIL_VACUUM",
+      "output1": ["SMEAR",40],
+      "output2": ["HEATINGOIL_VACUUM",60]
+    },
+    {
+      "input": "NAPHTHA_DS",
+      "output1": ["XYLENE",60],
+      "output2": ["DIESEL_REFORM",40]
     },
     {
       "input": "LIGHTOIL_VACUUM",
@@ -47,9 +67,9 @@
       "output2": ["SMEAR",70]
     },
     {
-      "input": "HEAVYOIL_VACUUM",
-      "output1": ["SMEAR",40],
-      "output2": ["HEATINGOIL_VACUUM",60]
+      "input": "LIGHTOIL_CRACK",
+      "output1": ["KEROSENE",70],
+      "output2": ["PETROLEUM",30]
     },
     {
       "input": "REFORMATE",
@@ -57,34 +77,14 @@
       "output2": ["XYLENE",60]
     },
     {
-      "input": "NAPHTHA_COKER",
-      "output1": ["NAPHTHA_CRACK",75],
-      "output2": ["LIGHTOIL_CRACK",25]
+      "input": "OIL_COKER",
+      "output1": ["CRACKOIL",30],
+      "output2": ["HEATINGOIL",70]
     },
     {
-      "input": "LIGHTOIL_CRACK",
-      "output1": ["KEROSENE",70],
-      "output2": ["PETROLEUM",30]
-    },
-    {
-      "input": "COALOIL",
-      "output1": ["COALGAS",30],
-      "output2": ["OIL",70]
-    },
-    {
-      "input": "SMEAR",
-      "output1": ["HEATINGOIL",60],
-      "output2": ["LUBRICANT",40]
-    },
-    {
-      "input": "NAPHTHA_CRACK",
-      "output1": ["HEATINGOIL",30],
-      "output2": ["DIESEL_CRACK",70]
-    },
-    {
-      "input": "LIGHTOIL",
-      "output1": ["DIESEL",40],
-      "output2": ["KEROSENE",60]
+      "input": "GAS_COKER",
+      "output1": ["AROMATICS",25],
+      "output2": ["CARBONDIOXIDE",75]
     },
     {
       "input": "COALCREOSOTE",
