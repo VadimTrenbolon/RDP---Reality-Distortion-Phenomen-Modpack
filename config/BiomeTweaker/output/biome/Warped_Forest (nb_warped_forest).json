@@ -1,6 +1,6 @@
 
 {
-  "ID": 143,
+  "ID": 147,
   "Name": "Warped Forest",
   "Resource Location": "nb:warped_forest",
   "Class": "com.unseen.nb.common.world.biome.BiomeWarpedForest",
@@ -91,27 +91,9 @@
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",
-      "Weight": 150,
+      "Weight": 2,
       "Min Group Count": 1,
       "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityCreeperPhosgene",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityCreeperVolatile",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityCreeperGold",
-      "Weight": 1,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [],

@@ -30,6 +30,7 @@ minecraft:mending
 minecraft:vanishing_curse
 randomthings:magnetic
 advancedrocketry:spacebreathing
+corpsecomplex:soulbound
 futuremc:loyalty
 futuremc:channeling
 futuremc:riptide

@@ -1,6 +1,6 @@
 
 {
-  "ID": 119,
+  "ID": 120,
   "Name": "Alien Forest",
   "Resource Location": "advancedrocketry:alien_forest",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenAlienForest",
@@ -22,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MAGICAL",
-    "FOREST"
+    "FOREST",
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -169,27 +169,9 @@
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",
-      "Weight": 200,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityCreeperPhosgene",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityCreeperVolatile",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityCreeperGold",
       "Weight": 1,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

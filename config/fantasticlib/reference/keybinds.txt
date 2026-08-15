@@ -254,6 +254,10 @@ key.toggleTimeOfDayOverlay
 retro_sophisticated_backpacks.key.category
 retro_sophisticated_backpacks.key.open_backpack.desc
 
+translationKey.category.scp
+Rotate stored structure
+translationKey.scp.nightvision_toggle
+
 key.zoom.catg
 key.zoom.desc
 

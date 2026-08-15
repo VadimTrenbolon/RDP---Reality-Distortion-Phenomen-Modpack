@@ -2283,72 +2283,324 @@
       "fluid": [["Titanium",216]]
     },
     {
-      "input": ["item","hbm:powder_schrabidium",1,32767],
-      "solid": ["hbm:ingot_schrabidium"]
+      "input": ["item","nuclearcraft:dust2",1,9],
+      "solid": ["nuclearcraft:ingot2",1,9]
     },
     {
-      "input": ["item","osv:gold_ore_quark_limestone",1,1],
-      "solid": ["minecraft:gold_ingot",2]
+      "input": ["item","nuclearcraft:dust2"],
+      "solid": ["nuclearcraft:ingot2"]
     },
     {
-      "input": ["item","nyx:kreknorite_shard"],
-      "solid": ["nyx:kreknorite_ingot"]
+      "input": ["item","nuclearcraft:dust2",1,1],
+      "solid": ["nuclearcraft:ingot2",1,1]
     },
     {
-      "input": ["item","osv:gold_ore_quark_limestone"],
-      "solid": ["minecraft:gold_ingot"]
+      "input": ["item","nuclearcraft:dust2",1,2],
+      "solid": ["nuclearcraft:ingot2",1,2]
     },
     {
-      "input": ["item","osv:biomesoplenty_topaz_ore",1,1],
-      "solid": ["biomesoplenty:gem",2,3]
+      "input": ["item","nuclearcraft:dust2",1,3],
+      "solid": ["nuclearcraft:ingot2",1,3]
     },
     {
-      "input": ["item","osv:biomesoplenty_topaz_ore"],
-      "solid": ["biomesoplenty:gem",1,3]
+      "input": ["item","hbm:powder_thorium",1,32767],
+      "solid": ["hbm:ingot_th232"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_copper_ore",1,1],
+      "solid": ["immersiveengineering:metal",2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_copper_ore"],
+      "solid": ["immersiveengineering:metal"]
+    },
+    {
+      "input": ["item","osv:lapis_ore_quark_slate",1,1],
+      "solid": ["minecraft:dye",2,4]
+    },
+    {
+      "input": ["item","osv:lapis_ore_quark_slate"],
+      "solid": ["minecraft:dye",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_quark_limestone",1,1],
+      "solid": ["biomesoplenty:gem",2,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_quark_limestone"],
+      "solid": ["biomesoplenty:gem",1,7]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_uranium_ore_rustic_slate",1,1],
+      "solid": ["immersiveengineering:metal",2,5]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_uranium_ore_rustic_slate"],
+      "solid": ["immersiveengineering:metal",1,5]
+    },
+    {
+      "input": ["item","hbm:powder_calcium",1,32767],
+      "solid": ["hbm:ingot_calcium"]
+    },
+    {
+      "input": ["item","osv:emerald_ore_rustic_slate",1,1],
+      "solid": ["minecraft:emerald",2]
+    },
+    {
+      "input": ["item","osv:emerald_ore_rustic_slate"],
+      "solid": ["minecraft:emerald"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_rustic_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_rustic_slate"],
+      "solid": ["biomesoplenty:gem",1,4]
+    },
+    {
+      "input": ["item","hbm:ore_gneiss_uranium",1,32767],
+      "solid": ["hbm:ingot_uranium"]
+    },
+    {
+      "input": ["item","ncsteamadditions:ore"],
+      "solid": ["qmd:ingot",1,7]
+    },
+    {
+      "input": ["item","minecraft:clay_ball",1,32767],
+      "solid": ["minecraft:brick"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_mixed",1,1],
+      "solid": ["nuclearcraft:pellet_mixed"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_mixed",1,2],
+      "solid": ["nuclearcraft:pellet_mixed"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_mixed",1,5],
+      "solid": ["nuclearcraft:pellet_mixed",1,2]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_mixed",1,6],
+      "solid": ["nuclearcraft:pellet_mixed",1,2]
+    },
+    {
+      "input": ["item","hbm:powder_plutonium",1,32767],
+      "solid": ["hbm:ingot_plutonium"]
+    },
+    {
+      "input": ["item","osv:emerald_ore_quark_limestone",1,1],
+      "solid": ["minecraft:emerald",2]
+    },
+    {
+      "input": ["item","osv:emerald_ore_quark_limestone"],
+      "solid": ["minecraft:emerald"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore",1,1],
+      "solid": ["biomesoplenty:gem",2,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore"],
+      "solid": ["biomesoplenty:gem",1,7]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_uranium",1,1],
+      "solid": ["nuclearcraft:pellet_uranium"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_uranium",1,2],
+      "solid": ["nuclearcraft:pellet_uranium"]
+    },
+    {
+      "input": ["item","hbm:powder_bismuth",1,32767],
+      "solid": ["hbm:ingot_bismuth"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_uranium",1,5],
+      "solid": ["nuclearcraft:pellet_uranium",1,2]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_uranium",1,6],
+      "solid": ["nuclearcraft:pellet_uranium",1,2]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_uranium",1,9],
+      "solid": ["nuclearcraft:pellet_uranium",1,4]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_uranium",1,10],
+      "solid": ["nuclearcraft:pellet_uranium",1,4]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_uranium",1,13],
+      "solid": ["nuclearcraft:pellet_uranium",1,6]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_uranium",1,14],
+      "solid": ["nuclearcraft:pellet_uranium",1,6]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_5",1,1],
+      "solid": ["biomesoplenty:gem",2,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_5"],
+      "solid": ["biomesoplenty:gem",1,4]
+    },
+    {
+      "input": ["item","qmd:dust2"],
+      "solid": ["qmd:ingot2"]
+    },
+    {
+      "input": ["item","qmd:dust2",1,1],
+      "solid": ["qmd:ingot2",1,1]
+    },
+    {
+      "input": ["item","hbm:ore_nether_cobalt",1,32767],
+      "solid": ["hbm:ingot_cobalt"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_3",1,1],
+      "solid": ["biomesoplenty:gem",2,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_3"],
+      "solid": ["biomesoplenty:gem",1,4]
     },
     {
       "input": ["item","osv:immersiveengineering_aluminum_ore_quark_slate",1,1],
       "solid": ["immersiveengineering:metal",2,1]
     },
     {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_slate"],
-      "solid": ["biomesoplenty:gem",1,1]
-    },
-    {
-      "input": ["item","advancedrocketry:productdust"],
-      "solid": ["advancedrocketry:productingot"]
-    },
-    {
-      "input": ["item","advancedrocketry:productdust",1,1],
-      "solid": ["advancedrocketry:productingot",1,1]
-    },
-    {
       "input": ["item","osv:immersiveengineering_aluminum_ore_quark_slate"],
       "solid": ["immersiveengineering:metal",1,1]
     },
     {
-      "input": ["item","osv:biomesoplenty_topaz_ore_quark_jasper",1,1],
-      "solid": ["biomesoplenty:gem",2,3]
+      "input": ["item","dynaores:raw_zirconium",1,32767],
+      "solid": ["nuclearcraft:ingot",1,10]
     },
     {
-      "input": ["item","hbm:scrap_plastic",1,32767],
-      "solid": ["hbm:ingot_polymer"]
+      "input": ["item","osv:thermalfoundation_copper_ore_3",1,1],
+      "solid": ["thermalfoundation:material",2,128]
     },
     {
-      "input": ["item","osv:biomesoplenty_topaz_ore_quark_jasper"],
-      "solid": ["biomesoplenty:gem",1,3]
+      "input": ["item","osv:thermalfoundation_copper_ore_3"],
+      "solid": ["thermalfoundation:material",1,128]
     },
     {
-      "input": ["item","osv:diamond_ore_quark_slate",1,1],
-      "solid": ["minecraft:diamond",2]
+      "input": ["item","osv:gold_ore_5",1,1],
+      "solid": ["minecraft:gold_ingot",2]
     },
     {
-      "input": ["item","osv:diamond_ore_quark_slate"],
-      "solid": ["minecraft:diamond"]
+      "input": ["item","osv:biomesoplenty_malachite_ore_1",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_1"],
+      "solid": ["biomesoplenty:gem",1,5]
+    },
+    {
+      "input": ["item","osv:gold_ore_5"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_aluminum_ore_3",1,1],
+      "solid": ["immersiveengineering:metal",2,1]
+    },
+    {
+      "input": ["item","hbm:powder_iron",1,32767],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_aluminum_ore_3"],
+      "solid": ["immersiveengineering:metal",1,1]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_tin_ore_5",1,1],
+      "solid": ["thermalfoundation:material",2,129]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_tin_ore_5"],
+      "solid": ["thermalfoundation:material",1,129]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_1",1,1],
+      "solid": ["biomesoplenty:gem",2,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_1"],
+      "solid": ["biomesoplenty:gem",1,4]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_uranium_ore_quark_jasper",1,1],
+      "solid": ["immersiveengineering:metal",2,5]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_uranium_ore_quark_jasper"],
+      "solid": ["immersiveengineering:metal",1,5]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_nickel_ore_1",1,1],
+      "solid": ["immersiveengineering:metal",2,4]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_nickel_ore_1"],
+      "solid": ["immersiveengineering:metal",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_3",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","osv:iron_ore_quark_slate",1,1],
+      "solid": ["minecraft:iron_ingot",2]
+    },
+    {
+      "input": ["item","osv:iron_ore_quark_slate"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","hbm:ore_cobalt",1,32767],
+      "solid": ["hbm:ingot_cobalt"]
+    },
+    {
+      "input": ["item","minecraft:gold_ore",1,32767],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_copper_ore_rustic_slate",1,1],
+      "solid": ["thermalfoundation:material",2,128]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_copper_ore_rustic_slate"],
+      "solid": ["thermalfoundation:material",1,128]
+    },
+    {
+      "input": ["item","nuclearcraft:americium",1,2],
+      "solid": ["nuclearcraft:americium"]
+    },
+    {
+      "input": ["item","nuclearcraft:americium",1,3],
+      "solid": ["nuclearcraft:americium"]
+    },
+    {
+      "input": ["item","nuclearcraft:americium",1,7],
+      "solid": ["nuclearcraft:americium",1,5]
+    },
+    {
+      "input": ["item","nuclearcraft:americium",1,8],
+      "solid": ["nuclearcraft:americium",1,5]
+    },
+    {
+      "input": ["item","nuclearcraft:americium",1,12],
+      "solid": ["nuclearcraft:americium",1,10]
+    },
+    {
+      "input": ["item","nuclearcraft:americium",1,13],
+      "solid": ["nuclearcraft:americium",1,10]
     },
     {
       "input": ["item","nuclearcraft:californium",1,2],
@@ -2383,288 +2635,32 @@
       "solid": ["nuclearcraft:californium",1,15]
     },
     {
-      "input": ["item","osv:emerald_ore_rustic_slate",1,1],
-      "solid": ["minecraft:emerald",2]
+      "input": ["item","osv:biomesoplenty_malachite_ore_3"],
+      "solid": ["biomesoplenty:gem",1,5]
     },
     {
-      "input": ["item","osv:thermalfoundation_tin_ore_1",1,1],
-      "solid": ["thermalfoundation:material",2,129]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_tin_ore_1"],
-      "solid": ["thermalfoundation:material",1,129]
-    },
-    {
-      "input": ["item","osv:emerald_ore_rustic_slate"],
-      "solid": ["minecraft:emerald"]
-    },
-    {
-      "input": ["item","hbm:powder_ra226",1,32767],
-      "solid": ["hbm:ingot_ra226"]
-    },
-    {
-      "input": ["item","hbm:combine_scrap",1,32767],
-      "solid": ["hbm:ingot_combine_steel"]
-    },
-    {
-      "input": ["item","hbm:powder_aluminium",1,32767],
-      "solid": ["hbm:ingot_aluminium"]
-    },
-    {
-      "input": ["item","osv:redstone_ore_quark_limestone",1,2],
-      "solid": ["minecraft:redstone",2]
-    },
-    {
-      "input": ["item","osv:redstone_ore_quark_limestone"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","dynaores:raw_australium",1,32767],
-      "solid": ["hbm:ingot_australium"]
-    },
-    {
-      "input": ["item","osv:redstone_ore_rustic_slate",1,2],
-      "solid": ["minecraft:redstone",2]
-    },
-    {
-      "input": ["item","osv:redstone_ore_rustic_slate"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:lapis_ore_quark_marble",1,1],
-      "solid": ["minecraft:dye",2,4]
-    },
-    {
-      "input": ["item","osv:lapis_ore_quark_marble"],
-      "solid": ["minecraft:dye",1,4]
-    },
-    {
-      "input": ["item","osv:lapis_ore_3",1,1],
-      "solid": ["minecraft:dye",2,4]
-    },
-    {
-      "input": ["item","osv:lapis_ore_3"],
-      "solid": ["minecraft:dye",1,4]
-    },
-    {
-      "input": ["item","dynaores:raw_neodymium",1,32767],
-      "solid": ["qmd:ingot2",1,1]
-    },
-    {
-      "input": ["item","osv:coal_ore_5",1,1],
-      "solid": ["minecraft:coal",2]
-    },
-    {
-      "input": ["item","osv:coal_ore_5"],
-      "solid": ["minecraft:coal"]
-    },
-    {
-      "input": ["item","osv:redstone_ore_1",1,2],
-      "solid": ["minecraft:redstone",2]
-    },
-    {
-      "input": ["item","osv:redstone_ore_1"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","hbm:powder_iron",1,32767],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:iron_ore_3",1,1],
-      "solid": ["minecraft:iron_ingot",2]
-    },
-    {
-      "input": ["item","osv:iron_ore_3"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","hbm:powder_desh",1,32767],
-      "solid": ["hbm:ingot_desh"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore_rustic_slate",1,1],
-      "solid": ["thermalfoundation:material",2,128]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore_rustic_slate"],
-      "solid": ["thermalfoundation:material",1,128]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore_1",1,1],
-      "solid": ["immersiveengineering:metal",2,2]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore_1"],
-      "solid": ["immersiveengineering:metal",1,2]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_californium",1,1],
-      "solid": ["nuclearcraft:pellet_californium"]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_californium",1,2],
-      "solid": ["nuclearcraft:pellet_californium"]
-    },
-    {
-      "input": ["item","hbm:powder_magnetized_tungsten",1,32767],
-      "solid": ["hbm:ingot_magnetized_tungsten"]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_californium",1,5],
-      "solid": ["nuclearcraft:pellet_californium",1,2]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_californium",1,6],
-      "solid": ["nuclearcraft:pellet_californium",1,2]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_californium",1,9],
-      "solid": ["nuclearcraft:pellet_californium",1,4]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_californium",1,10],
-      "solid": ["nuclearcraft:pellet_californium",1,4]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_californium",1,13],
-      "solid": ["nuclearcraft:pellet_californium",1,6]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_californium",1,14],
-      "solid": ["nuclearcraft:pellet_californium",1,6]
-    },
-    {
-      "input": ["item","hbm:powder_plutonium",1,32767],
-      "solid": ["hbm:ingot_plutonium"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_5",1,1],
-      "solid": ["biomesoplenty:gem",2,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_5"],
-      "solid": ["biomesoplenty:gem",1,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_3",1,1],
-      "solid": ["biomesoplenty:gem",2,7]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_3"],
-      "solid": ["biomesoplenty:gem",1,7]
-    },
-    {
-      "input": ["item","minecraft:gold_ore",1,32767],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_slate"],
-      "solid": ["biomesoplenty:gem",1,4]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_aluminum_ore_3",1,1],
+      "input": ["item","osv:immersiveengineering_aluminum_ore_quark_limestone",1,1],
       "solid": ["immersiveengineering:metal",2,1]
     },
     {
-      "input": ["item","osv:immersiveengineering_aluminum_ore_3"],
+      "input": ["item","osv:immersiveengineering_aluminum_ore_quark_limestone"],
       "solid": ["immersiveengineering:metal",1,1]
     },
     {
-      "input": ["item","osv:biomesoplenty_amber_ore_5",1,1],
-      "solid": ["biomesoplenty:gem",2,7]
+      "input": ["item","osv:immersiveengineering_aluminum_ore_rustic_slate",1,1],
+      "solid": ["immersiveengineering:metal",2,1]
     },
     {
-      "input": ["item","osv:biomesoplenty_amber_ore_5"],
-      "solid": ["biomesoplenty:gem",1,7]
+      "input": ["item","osv:immersiveengineering_aluminum_ore_rustic_slate"],
+      "solid": ["immersiveengineering:metal",1,1]
     },
     {
-      "input": ["item","hbm:ore_nether_uranium_scorched",1,32767],
-      "solid": ["hbm:ingot_uranium"]
+      "input": ["item","osv:biomesoplenty_sapphire_ore_1",1,1],
+      "solid": ["biomesoplenty:gem",2,6]
     },
     {
-      "input": ["item","osv:thermalfoundation_lead_ore_3",1,1],
-      "solid": ["thermalfoundation:material",2,131]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_lead_ore",1,1],
-      "solid": ["thermalfoundation:material",2,131]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_5",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_5"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_lead_ore"],
-      "solid": ["thermalfoundation:material",1,131]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore_1",1,1],
-      "solid": ["immersiveengineering:metal",2,3]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore_1"],
-      "solid": ["immersiveengineering:metal",1,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_1",1,1],
-      "solid": ["biomesoplenty:gem",2,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_1"],
-      "solid": ["biomesoplenty:gem",1,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_5",1,1],
-      "solid": ["biomesoplenty:gem",2,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_5"],
-      "solid": ["biomesoplenty:gem",1,3]
-    },
-    {
-      "input": ["item","nuclearcraft:ingot2"],
-      "solid": ["nuclearcraft:ingot",1,10]
-    },
-    {
-      "input": ["item","nuclearcraft:ingot2",1,2],
-      "solid": ["thermalfoundation:material",1,129]
-    },
-    {
-      "input": ["item","hbm:powder_lanthanium",1,32767],
-      "solid": ["hbm:ingot_lanthanium"]
-    },
-    {
-      "input": ["item","nuclearcraft:ingot2",1,3],
-      "solid": ["thermalfoundation:material",1,133]
-    },
-    {
-      "input": ["item","nuclearcraft:ingot2",1,4],
-      "solid": ["qmd:ingot",1,4]
-    },
-    {
-      "input": ["item","nuclearcraft:ingot2",1,6],
-      "solid": ["thermalfoundation:material",1,135]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_lead_ore_3"],
-      "solid": ["thermalfoundation:material",1,131]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore",1,1],
-      "solid": ["immersiveengineering:metal",2,3]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore"],
-      "solid": ["immersiveengineering:metal",1,3]
+      "input": ["item","osv:biomesoplenty_sapphire_ore_1"],
+      "solid": ["biomesoplenty:gem",1,6]
     },
     {
       "input": ["item","osv:iron_ore_quark_jasper",1,1],
@@ -2675,328 +2671,84 @@
       "solid": ["minecraft:iron_ingot"]
     },
     {
-      "input": ["item","hbm:ore_schrabidium",1,32767],
-      "solid": ["hbm:ingot_schrabidium"]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore_3",1,1],
-      "solid": ["immersiveengineering:metal",2,3]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore_3"],
-      "solid": ["immersiveengineering:metal",1,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_jasper",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_jasper"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","hbm:powder_polymer",1,32767],
-      "solid": ["hbm:ingot_polymer"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore",1,1],
-      "solid": ["biomesoplenty:gem",2,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore"],
-      "solid": ["biomesoplenty:gem",1,6]
-    },
-    {
-      "input": ["item","osv:diamond_ore_3",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","techguns:itemshared",1,78],
-      "solid": ["techguns:itemshared",1,85]
-    },
-    {
-      "input": ["item","hbm:ore_gneiss_lithium",1,32767],
-      "solid": ["hbm:lithium"]
-    },
-    {
-      "input": ["item","techguns:itemshared",1,50],
-      "solid": ["techguns:itemshared",1,83]
-    },
-    {
-      "input": ["item","techguns:itemshared",1,54],
-      "solid": ["techguns:itemshared",1,85]
-    },
-    {
-      "input": ["item","techguns:itemshared",1,49],
-      "solid": ["techguns:itemshared",1,81]
-    },
-    {
-      "input": ["item","techguns:itemshared",1,47],
-      "solid": ["techguns:itemshared",1,79]
-    },
-    {
-      "input": ["item","techguns:itemshared",1,48],
-      "solid": ["techguns:itemshared",1,80]
-    },
-    {
-      "input": ["item","techguns:itemshared",1,52],
-      "solid": ["techguns:itemshared",1,82]
-    },
-    {
-      "input": ["item","techguns:itemshared",1,46],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","techguns:itemshared",1,51],
-      "solid": ["techguns:itemshared",1,84]
-    },
-    {
-      "input": ["item","osv:diamond_ore_3"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore_1",1,1],
-      "solid": ["thermalfoundation:material",2,128]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore_1"],
-      "solid": ["thermalfoundation:material",1,128]
-    },
-    {
-      "input": ["item","dynaores:raw_iridium",1,32767],
-      "solid": ["qmd:ingot",1,9]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore_5",1,1],
-      "solid": ["immersiveengineering:metal",2,2]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore_5"],
-      "solid": ["immersiveengineering:metal",1,2]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_lead_ore_quark_slate",1,1],
-      "solid": ["thermalfoundation:material",2,131]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_lead_ore_quark_slate"],
-      "solid": ["thermalfoundation:material",1,131]
-    },
-    {
-      "input": ["item","hbm:ore_nether_tungsten",1,32767],
-      "solid": ["hbm:ingot_tungsten"]
-    },
-    {
-      "input": ["item","futuremc:ancient_debris"],
-      "solid": ["futuremc:netherite_scrap"]
-    },
-    {
-      "input": ["item","osv:diamond_ore_quark_jasper",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","osv:diamond_ore_quark_jasper"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_3",1,1],
-      "solid": ["biomesoplenty:gem",2,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_3"],
-      "solid": ["biomesoplenty:gem",1,6]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore_5",1,1],
-      "solid": ["thermalfoundation:material",2,130]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore_5"],
-      "solid": ["thermalfoundation:material",1,130]
-    },
-    {
-      "input": ["item","hbm:ash_digamma"],
-      "solid": ["hbm:glass_ash"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_marble",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
-    },
-    {
-      "input": ["item","osv:redstone_ore_5",1,2],
-      "solid": ["minecraft:redstone",2]
-    },
-    {
-      "input": ["item","osv:redstone_ore_5"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_marble"],
-      "solid": ["biomesoplenty:gem",1,5]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore_quark_slate",1,1],
-      "solid": ["thermalfoundation:material",2,128]
-    },
-    {
-      "input": ["item","hbm:powder_australium",1,32767],
-      "solid": ["hbm:ingot_australium"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore_quark_slate"],
-      "solid": ["thermalfoundation:material",1,128]
-    },
-    {
-      "input": ["item","osv:diamond_ore",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","osv:diamond_ore"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","osv:lapis_ore_quark_jasper",1,1],
+      "input": ["item","osv:lapis_ore_1",1,1],
       "solid": ["minecraft:dye",2,4]
     },
     {
-      "input": ["item","osv:lapis_ore_quark_jasper"],
+      "input": ["item","osv:lapis_ore_1"],
       "solid": ["minecraft:dye",1,4]
     },
     {
-      "input": ["item","osv:coal_ore",1,1],
-      "solid": ["minecraft:coal",2]
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_jasper",1,1],
+      "solid": ["biomesoplenty:gem",2,4]
     },
     {
-      "input": ["item","osv:coal_ore"],
-      "solid": ["minecraft:coal"]
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_jasper"],
+      "solid": ["biomesoplenty:gem",1,4]
     },
     {
-      "input": ["item","dynaores:raw_redstone",1,32767],
-      "solid": ["hbm:ingot_raw",1,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_rustic_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_rustic_slate"],
-      "solid": ["biomesoplenty:gem",1,6]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_uranium_ore_quark_marble",1,1],
-      "solid": ["immersiveengineering:metal",2,5]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_uranium_ore_quark_marble"],
-      "solid": ["immersiveengineering:metal",1,5]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_copper_ore_quark_limestone",1,1],
-      "solid": ["immersiveengineering:metal",2]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_copper_ore_quark_limestone"],
-      "solid": ["immersiveengineering:metal"]
-    },
-    {
-      "input": ["item","hbm:sand_boron"],
-      "solid": ["hbm:glass_boron"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_nickel_ore",1,1],
+      "input": ["item","osv:thermalfoundation_nickel_ore_rustic_slate",1,1],
       "solid": ["thermalfoundation:material",2,133]
     },
     {
-      "input": ["item","osv:thermalfoundation_nickel_ore"],
+      "input": ["item","osv:thermalfoundation_nickel_ore_rustic_slate"],
       "solid": ["thermalfoundation:material",1,133]
     },
     {
-      "input": ["item","osv:iron_ore",1,1],
-      "solid": ["minecraft:iron_ingot",2]
-    },
-    {
-      "input": ["item","osv:iron_ore"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:emerald_ore_1",1,1],
-      "solid": ["minecraft:emerald",2]
-    },
-    {
-      "input": ["item","osv:emerald_ore_1"],
-      "solid": ["minecraft:emerald"]
-    },
-    {
-      "input": ["item","osv:gold_ore_3",1,1],
-      "solid": ["minecraft:gold_ingot",2]
-    },
-    {
-      "input": ["item","osv:gold_ore_3"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_copper_ore_rustic_slate",1,1],
-      "solid": ["immersiveengineering:metal",2]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_copper_ore_rustic_slate"],
-      "solid": ["immersiveengineering:metal"]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore_quark_slate",1,1],
+      "input": ["item","osv:immersiveengineering_lead_ore_3",1,1],
       "solid": ["immersiveengineering:metal",2,2]
     },
     {
-      "input": ["item","osv:immersiveengineering_lead_ore_quark_slate"],
+      "input": ["item","osv:immersiveengineering_lead_ore_3"],
       "solid": ["immersiveengineering:metal",1,2]
     },
     {
-      "input": ["item","techguns:basicore"],
-      "solid": ["techguns:itemshared",1,79]
-    },
-    {
-      "input": ["item","techguns:basicore",1,1],
-      "solid": ["techguns:itemshared",1,80]
-    },
-    {
-      "input": ["item","techguns:basicore",1,2],
-      "solid": ["techguns:itemshared",1,82]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_slate"],
-      "solid": ["biomesoplenty:gem",1,6]
-    },
-    {
-      "input": ["item","hbm:ore_gneiss_schrabidium",1,32767],
-      "solid": ["hbm:ingot_schrabidium"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_tin_ore",1,1],
+      "input": ["item","osv:thermalfoundation_tin_ore_quark_limestone",1,1],
       "solid": ["thermalfoundation:material",2,129]
     },
     {
-      "input": ["item","osv:thermalfoundation_tin_ore"],
+      "input": ["item","osv:thermalfoundation_tin_ore_quark_limestone"],
       "solid": ["thermalfoundation:material",1,129]
     },
     {
-      "input": ["item","hbm:ore_beryllium",1,32767],
-      "solid": ["hbm:ingot_beryllium"]
+      "input": ["item","osv:thermalfoundation_lead_ore_rustic_slate",1,1],
+      "solid": ["thermalfoundation:material",2,131]
     },
     {
-      "input": ["item","osv:immersiveengineering_aluminum_ore_5",1,1],
-      "solid": ["immersiveengineering:metal",2,1]
+      "input": ["item","osv:thermalfoundation_lead_ore_rustic_slate"],
+      "solid": ["thermalfoundation:material",1,131]
     },
     {
-      "input": ["item","osv:immersiveengineering_aluminum_ore_5"],
-      "solid": ["immersiveengineering:metal",1,1]
+      "input": ["item","osv:thermalfoundation_lead_ore_quark_limestone",1,1],
+      "solid": ["thermalfoundation:material",2,131]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_lead_ore_quark_limestone"],
+      "solid": ["thermalfoundation:material",1,131]
     },
     {
       "input": ["item","nuclearcraft:curium",1,2],
       "solid": ["nuclearcraft:curium"]
+    },
+    {
+      "input": ["item","hbm:ore_gneiss_iron",1,32767],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","hbm:arc_electrode_burnt",1,3],
+      "solid": ["hbm:ingot_saturnite"]
+    },
+    {
+      "input": ["item","hbm:arc_electrode_burnt",1,2],
+      "solid": ["hbm:ingot_desh"]
+    },
+    {
+      "input": ["item","hbm:arc_electrode_burnt",1,1],
+      "solid": ["hbm:ingot_lanthanium"]
+    },
+    {
+      "input": ["item","hbm:arc_electrode_burnt"],
+      "solid": ["hbm:ingot_graphite"]
     },
     {
       "input": ["item","nuclearcraft:curium",1,3],
@@ -3027,6 +2779,246 @@
       "solid": ["nuclearcraft:curium",1,15]
     },
     {
+      "input": ["item","osv:diamond_ore_rustic_slate",1,1],
+      "solid": ["minecraft:diamond",2]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore",1,1],
+      "solid": ["thermalfoundation:material",2,133]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore"],
+      "solid": ["thermalfoundation:material",1,133]
+    },
+    {
+      "input": ["item","osv:diamond_ore_rustic_slate"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_3",1,1],
+      "solid": ["biomesoplenty:gem",2,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_3"],
+      "solid": ["biomesoplenty:gem",1,1]
+    },
+    {
+      "input": ["item","hbm:powder_steel",1,32767],
+      "solid": ["hbm:ingot_steel"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_uranium_ore_3",1,1],
+      "solid": ["immersiveengineering:metal",2,5]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_uranium_ore_3"],
+      "solid": ["immersiveengineering:metal",1,5]
+    },
+    {
+      "input": ["item","osv:diamond_ore_quark_limestone",1,1],
+      "solid": ["minecraft:diamond",2]
+    },
+    {
+      "input": ["item","osv:diamond_ore_quark_limestone"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_5",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_5"],
+      "solid": ["biomesoplenty:gem",1,5]
+    },
+    {
+      "input": ["item","nyx:frezarite_crystal"],
+      "solid": ["nyx:frezarite_ingot"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore_1",1,1],
+      "solid": ["immersiveengineering:metal",2,3]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore_1"],
+      "solid": ["immersiveengineering:metal",1,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore",1,1],
+      "solid": ["biomesoplenty:gem",2,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore"],
+      "solid": ["biomesoplenty:gem",1,3]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore_5",1,1],
+      "solid": ["thermalfoundation:material",2,133]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore_5"],
+      "solid": ["thermalfoundation:material",1,133]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_marble",1,2],
+      "solid": ["minecraft:redstone",2]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_marble"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_copper_ore_quark_limestone",1,1],
+      "solid": ["thermalfoundation:material",2,128]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_copper_ore_quark_limestone"],
+      "solid": ["thermalfoundation:material",1,128]
+    },
+    {
+      "input": ["item","dynaores:raw_thorium232",1,32767],
+      "solid": ["hbm:ingot_th232"]
+    },
+    {
+      "input": ["item","hbm:powder_boron",1,32767],
+      "solid": ["hbm:ingot_boron"]
+    },
+    {
+      "input": ["item","hbm:powder_copper",1,32767],
+      "solid": ["hbm:ingot_copper"]
+    },
+    {
+      "input": ["item","hbm:ore_titanium",1,32767],
+      "solid": ["hbm:ingot_titanium"]
+    },
+    {
+      "input": ["item","hbm:ore_thorium",1,32767],
+      "solid": ["hbm:ingot_th232"]
+    },
+    {
+      "input": ["item","hbm:sand_boron"],
+      "solid": ["hbm:glass_boron"]
+    },
+    {
+      "input": ["item","qmd:copernicium",1,2],
+      "solid": ["qmd:copernicium"]
+    },
+    {
+      "input": ["item","qmd:copernicium",1,3],
+      "solid": ["qmd:copernicium"]
+    },
+    {
+      "input": ["item","hbm:powder_niobium",1,32767],
+      "solid": ["hbm:ingot_niobium"]
+    },
+    {
+      "input": ["item","hbm:powder_bakelite",1,32767],
+      "solid": ["hbm:ingot_bakelite"]
+    },
+    {
+      "input": ["item","osv:diamond_ore_quark_marble",1,1],
+      "solid": ["minecraft:diamond",2]
+    },
+    {
+      "input": ["item","osv:diamond_ore_quark_marble"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_1",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_1"],
+      "solid": ["biomesoplenty:gem",1,2]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_thorium",1,1],
+      "solid": ["nuclearcraft:pellet_thorium"]
+    },
+    {
+      "input": ["item","dynaores:raw_asbestos",1,32767],
+      "solid": ["hbm:ingot_asbestos"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_thorium",1,2],
+      "solid": ["nuclearcraft:pellet_thorium"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_slate"],
+      "solid": ["biomesoplenty:gem",1,1]
+    },
+    {
+      "input": ["item","osv:diamond_ore_5",1,1],
+      "solid": ["minecraft:diamond",2]
+    },
+    {
+      "input": ["item","osv:diamond_ore_5"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore_rustic_slate",1,1],
+      "solid": ["immersiveengineering:metal",2,3]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore_rustic_slate"],
+      "solid": ["immersiveengineering:metal",1,3]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_lead_ore_quark_slate",1,1],
+      "solid": ["immersiveengineering:metal",2,2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_lead_ore_quark_slate"],
+      "solid": ["immersiveengineering:metal",1,2]
+    },
+    {
+      "input": ["item","dynaores:raw_schrabidium",1,32767],
+      "solid": ["hbm:ingot_schrabidium"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_nickel_ore_quark_limestone",1,1],
+      "solid": ["immersiveengineering:metal",2,4]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_nickel_ore_quark_limestone"],
+      "solid": ["immersiveengineering:metal",1,4]
+    },
+    {
+      "input": ["item","minecraft:netherrack",1,32767],
+      "solid": ["minecraft:netherbrick"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_limestone",1,1],
+      "solid": ["biomesoplenty:gem",2,6]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_limestone"],
+      "solid": ["biomesoplenty:gem",1,6]
+    },
+    {
+      "input": ["item","hbm:powder_magnetized_tungsten",1,32767],
+      "solid": ["hbm:ingot_magnetized_tungsten"]
+    },
+    {
+      "input": ["item","dynaores:raw_uranium",1,32767],
+      "solid": ["nuclearcraft:ingot",1,4]
+    },
+    {
+      "input": ["item","hbm:powder_tcalloy",1,32767],
+      "solid": ["hbm:ingot_tcalloy"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore_3",1,1],
+      "solid": ["immersiveengineering:metal",2,3]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore_3"],
+      "solid": ["immersiveengineering:metal",1,3]
+    },
+    {
       "input": ["item","osv:thermalfoundation_silver_ore_quark_limestone",1,1],
       "solid": ["thermalfoundation:material",2,130]
     },
@@ -3035,176 +3027,104 @@
       "solid": ["thermalfoundation:material",1,130]
     },
     {
-      "input": ["item","dynaores:raw_zirconium",1,32767],
-      "solid": ["nuclearcraft:ingot",1,10]
-    },
-    {
-      "input": ["item","hbm:ore_cobalt",1,32767],
-      "solid": ["hbm:ingot_cobalt"]
-    },
-    {
-      "input": ["item","hbm:ore_nether_cobalt",1,32767],
-      "solid": ["hbm:ingot_cobalt"]
-    },
-    {
-      "input": ["item","hbm:waste_trinitite"],
-      "solid": ["hbm:glass_trinitite"]
-    },
-    {
-      "input": ["item","osv:diamond_ore_quark_limestone",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","nuclearcraft:compound",1,19],
-      "solid": ["libvulpes:productingot",1,3]
-    },
-    {
-      "input": ["item","osv:diamond_ore_quark_limestone"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","osv:coal_ore_quark_limestone",1,1],
-      "solid": ["minecraft:coal",2]
-    },
-    {
-      "input": ["item","osv:coal_ore_quark_limestone"],
-      "solid": ["minecraft:coal"]
-    },
-    {
-      "input": ["item","osv:gold_ore_rustic_slate",1,1],
-      "solid": ["minecraft:gold_ingot",2]
-    },
-    {
-      "input": ["item","osv:gold_ore_rustic_slate"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:gold_ore_quark_jasper",1,1],
-      "solid": ["minecraft:gold_ingot",2]
-    },
-    {
-      "input": ["item","osv:gold_ore_quark_jasper"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","nuclearcraft:neptunium",1,2],
-      "solid": ["nuclearcraft:neptunium"]
-    },
-    {
-      "input": ["item","nuclearcraft:neptunium",1,3],
-      "solid": ["nuclearcraft:neptunium"]
-    },
-    {
-      "input": ["item","nuclearcraft:neptunium",1,7],
-      "solid": ["nuclearcraft:neptunium",1,5]
-    },
-    {
-      "input": ["item","nuclearcraft:neptunium",1,8],
-      "solid": ["nuclearcraft:neptunium",1,5]
-    },
-    {
-      "input": ["item","hbm:powder_lithium",1,32767],
-      "solid": ["hbm:lithium"]
-    },
-    {
-      "input": ["item","osv:redstone_ore_quark_slate",1,2],
-      "solid": ["minecraft:redstone",2]
-    },
-    {
-      "input": ["item","osv:redstone_ore_quark_slate"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:emerald_ore_quark_slate",1,1],
-      "solid": ["minecraft:emerald",2]
-    },
-    {
-      "input": ["item","osv:emerald_ore_quark_slate"],
-      "solid": ["minecraft:emerald"]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_copper_ore",1,1],
+      "input": ["item","osv:immersiveengineering_copper_ore_quark_limestone",1,1],
       "solid": ["immersiveengineering:metal",2]
     },
     {
-      "input": ["item","hbm:ore_tungsten",1,32767],
-      "solid": ["hbm:ingot_tungsten"]
+      "input": ["item","osv:immersiveengineering_lead_ore_1",1,1],
+      "solid": ["immersiveengineering:metal",2,2]
     },
     {
-      "input": ["item","osv:immersiveengineering_copper_ore"],
+      "input": ["item","osv:immersiveengineering_lead_ore_1"],
+      "solid": ["immersiveengineering:metal",1,2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_copper_ore_quark_limestone"],
       "solid": ["immersiveengineering:metal"]
     },
     {
-      "input": ["item","osv:thermalfoundation_tin_ore_quark_slate",1,1],
-      "solid": ["thermalfoundation:material",2,129]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_tin_ore_quark_slate"],
-      "solid": ["thermalfoundation:material",1,129]
-    },
-    {
-      "input": ["item","ncsteamadditions:dust"],
-      "solid": ["qmd:ingot",1,7]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_nickel_ore_quark_marble",1,1],
-      "solid": ["immersiveengineering:metal",2,4]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_nickel_ore_quark_marble"],
-      "solid": ["immersiveengineering:metal",1,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_marble",1,1],
+      "input": ["item","osv:biomesoplenty_sapphire_ore_rustic_slate",1,1],
       "solid": ["biomesoplenty:gem",2,6]
     },
     {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_marble"],
+      "input": ["item","osv:biomesoplenty_sapphire_ore_rustic_slate"],
       "solid": ["biomesoplenty:gem",1,6]
     },
     {
-      "input": ["item","osv:biomesoplenty_topaz_ore_3",1,1],
-      "solid": ["biomesoplenty:gem",2,3]
+      "input": ["item","osv:diamond_ore_quark_slate",1,1],
+      "solid": ["minecraft:diamond",2]
     },
     {
-      "input": ["item","osv:biomesoplenty_topaz_ore_3"],
-      "solid": ["biomesoplenty:gem",1,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore",1,1],
-      "solid": ["biomesoplenty:gem",2,7]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore"],
-      "solid": ["biomesoplenty:gem",1,7]
-    },
-    {
-      "input": ["item","qmd:dust",1,7],
-      "solid": ["qmd:ingot",1,7]
-    },
-    {
-      "input": ["item","qmd:dust"],
-      "solid": ["qmd:ingot"]
-    },
-    {
-      "input": ["item","hbm:gravel_diamond"],
+      "input": ["item","osv:diamond_ore_quark_slate"],
       "solid": ["minecraft:diamond"]
     },
     {
-      "input": ["item","qmd:dust",1,1],
-      "solid": ["qmd:ingot",1,1]
+      "input": ["item","hbm:powder_australium",1,32767],
+      "solid": ["hbm:ingot_australium"]
     },
     {
-      "input": ["item","qmd:dust",1,2],
-      "solid": ["qmd:ingot",1,2]
+      "input": ["item","hbm:powder_uranium",1,32767],
+      "solid": ["hbm:ingot_uranium"]
+    },
+    {
+      "input": ["item","dynaores:raw_coltan",1,32767],
+      "solid": ["hbm:fragment_coltan"]
+    },
+    {
+      "input": ["item","nyx:star_block"],
+      "solid": ["nyx:cracked_star_block"]
+    },
+    {
+      "input": ["item","hbm:ball_resin",1,32767],
+      "solid": ["hbm:ingot_biorubber"]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore_quark_marble",1,1],
+      "solid": ["thermalfoundation:material",2,133]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore_quark_marble"],
+      "solid": ["thermalfoundation:material",1,133]
+    },
+    {
+      "input": ["item","hbm:ore_gneiss_schrabidium",1,32767],
+      "solid": ["hbm:ingot_schrabidium"]
+    },
+    {
+      "input": ["item","osv:lapis_ore_quark_limestone",1,1],
+      "solid": ["minecraft:dye",2,4]
+    },
+    {
+      "input": ["item","osv:lapis_ore_quark_limestone"],
+      "solid": ["minecraft:dye",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_5",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_5"],
+      "solid": ["biomesoplenty:gem",1,2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_nickel_ore_quark_slate",1,1],
+      "solid": ["immersiveengineering:metal",2,4]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_nickel_ore_quark_slate"],
+      "solid": ["immersiveengineering:metal",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_rustic_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_rustic_slate"],
+      "solid": ["biomesoplenty:gem",1,3]
     },
     {
       "input": ["item","nuclearcraft:fuel_americium",1,1],
       "solid": ["nuclearcraft:pellet_americium"]
-    },
-    {
-      "input": ["item","dynaores:raw_tungsten",1,32767],
-      "solid": ["qmd:ingot"]
     },
     {
       "input": ["item","nuclearcraft:fuel_americium",1,2],
@@ -3217,6 +3137,886 @@
     {
       "input": ["item","nuclearcraft:fuel_americium",1,6],
       "solid": ["nuclearcraft:pellet_americium",1,2]
+    },
+    {
+      "input": ["item","hbm:powder_actinium",1,32767],
+      "solid": ["hbm:ingot_actinium"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_uranium_ore_quark_limestone",1,1],
+      "solid": ["immersiveengineering:metal",2,5]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_uranium_ore_quark_limestone"],
+      "solid": ["immersiveengineering:metal",1,5]
+    },
+    {
+      "input": ["item","osv:gold_ore_quark_limestone",1,1],
+      "solid": ["minecraft:gold_ingot",2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_limestone",1,1],
+      "solid": ["biomesoplenty:gem",2,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_rustic_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_rustic_slate"],
+      "solid": ["biomesoplenty:gem",1,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_limestone"],
+      "solid": ["biomesoplenty:gem",1,1]
+    },
+    {
+      "input": ["item","hbm:ore_gneiss_lithium",1,32767],
+      "solid": ["hbm:lithium"]
+    },
+    {
+      "input": ["item","libvulpes:ore0"],
+      "solid": ["libvulpes:productdust"]
+    },
+    {
+      "input": ["item","libvulpes:ore0",1,4],
+      "solid": ["libvulpes:productingot",1,4]
+    },
+    {
+      "input": ["item","libvulpes:ore0",1,5],
+      "solid": ["libvulpes:productingot",1,5]
+    },
+    {
+      "input": ["item","libvulpes:ore0",1,9],
+      "solid": ["libvulpes:productingot",1,9]
+    },
+    {
+      "input": ["item","libvulpes:ore0",1,10],
+      "solid": ["libvulpes:productingot",1,10]
+    },
+    {
+      "input": ["item","osv:gold_ore_quark_limestone"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_tin_ore_3",1,1],
+      "solid": ["thermalfoundation:material",2,129]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_tin_ore_3"],
+      "solid": ["thermalfoundation:material",1,129]
+    },
+    {
+      "input": ["item","nuclearcraft:ingot2"],
+      "solid": ["nuclearcraft:ingot",1,10]
+    },
+    {
+      "input": ["item","nuclearcraft:ingot2",1,2],
+      "solid": ["thermalfoundation:material",1,129]
+    },
+    {
+      "input": ["item","hbm:powder_cobalt",1,32767],
+      "solid": ["hbm:ingot_cobalt"]
+    },
+    {
+      "input": ["item","hbm:powder_sr90",1,32767],
+      "solid": ["hbm:ingot_sr90"]
+    },
+    {
+      "input": ["item","nuclearcraft:ingot2",1,3],
+      "solid": ["thermalfoundation:material",1,133]
+    },
+    {
+      "input": ["item","nuclearcraft:ingot2",1,4],
+      "solid": ["qmd:ingot",1,4]
+    },
+    {
+      "input": ["item","nuclearcraft:ingot2",1,6],
+      "solid": ["thermalfoundation:material",1,135]
+    },
+    {
+      "input": ["item","osv:diamond_ore_3",1,1],
+      "solid": ["minecraft:diamond",2]
+    },
+    {
+      "input": ["item","osv:diamond_ore_3"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_nickel_ore_quark_jasper",1,1],
+      "solid": ["immersiveengineering:metal",2,4]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_nickel_ore_quark_jasper"],
+      "solid": ["immersiveengineering:metal",1,4]
+    },
+    {
+      "input": ["item","osv:emerald_ore_5",1,1],
+      "solid": ["minecraft:emerald",2]
+    },
+    {
+      "input": ["item","osv:emerald_ore_5"],
+      "solid": ["minecraft:emerald"]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore_quark_slate",1,1],
+      "solid": ["thermalfoundation:material",2,130]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore_quark_slate"],
+      "solid": ["thermalfoundation:material",1,130]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore_quark_jasper",1,1],
+      "solid": ["thermalfoundation:material",2,130]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_3",1,1],
+      "solid": ["biomesoplenty:gem",2,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_3"],
+      "solid": ["biomesoplenty:gem",1,3]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore_quark_jasper"],
+      "solid": ["thermalfoundation:material",1,130]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore",1,1],
+      "solid": ["immersiveengineering:metal",2,3]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore"],
+      "solid": ["immersiveengineering:metal",1,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_quark_marble",1,1],
+      "solid": ["biomesoplenty:gem",2,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_quark_marble"],
+      "solid": ["biomesoplenty:gem",1,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_1",1,1],
+      "solid": ["biomesoplenty:gem",2,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_1"],
+      "solid": ["biomesoplenty:gem",1,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_quark_jasper",1,1],
+      "solid": ["biomesoplenty:gem",2,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_quark_jasper"],
+      "solid": ["biomesoplenty:gem",1,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_quark_jasper",1,1],
+      "solid": ["biomesoplenty:gem",2,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_quark_jasper"],
+      "solid": ["biomesoplenty:gem",1,3]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_lead_ore_5",1,1],
+      "solid": ["thermalfoundation:material",2,131]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_lead_ore_5"],
+      "solid": ["thermalfoundation:material",1,131]
+    },
+    {
+      "input": ["item","dynaores:raw_magnesium",1,32767],
+      "solid": ["nuclearcraft:ingot",1,7]
+    },
+    {
+      "input": ["item","hbm:powder_ra226",1,32767],
+      "solid": ["hbm:ingot_ra226"]
+    },
+    {
+      "input": ["item","hbm:powder_tantalium",1,32767],
+      "solid": ["hbm:ingot_tantalium"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_curium",1,1],
+      "solid": ["nuclearcraft:pellet_curium"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_curium",1,2],
+      "solid": ["nuclearcraft:pellet_curium"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_curium",1,5],
+      "solid": ["nuclearcraft:pellet_curium",1,2]
+    },
+    {
+      "input": ["item","hbm:ore_nether_plutonium",1,32767],
+      "solid": ["hbm:ingot_plutonium"]
+    },
+    {
+      "input": ["item","techguns:itemshared",1,78],
+      "solid": ["techguns:itemshared",1,85]
+    },
+    {
+      "input": ["item","techguns:itemshared",1,50],
+      "solid": ["techguns:itemshared",1,83]
+    },
+    {
+      "input": ["item","techguns:itemshared",1,54],
+      "solid": ["techguns:itemshared",1,85]
+    },
+    {
+      "input": ["item","techguns:itemshared",1,51],
+      "solid": ["techguns:itemshared",1,84]
+    },
+    {
+      "input": ["item","hbm:sand_lead"],
+      "solid": ["hbm:glass_lead"]
+    },
+    {
+      "input": ["item","techguns:itemshared",1,46],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","techguns:itemshared",1,52],
+      "solid": ["techguns:itemshared",1,82]
+    },
+    {
+      "input": ["item","dynaores:raw_iridium",1,32767],
+      "solid": ["qmd:ingot",1,9]
+    },
+    {
+      "input": ["item","techguns:itemshared",1,48],
+      "solid": ["techguns:itemshared",1,80]
+    },
+    {
+      "input": ["item","techguns:itemshared",1,47],
+      "solid": ["techguns:itemshared",1,79]
+    },
+    {
+      "input": ["item","techguns:itemshared",1,49],
+      "solid": ["techguns:itemshared",1,81]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_curium",1,6],
+      "solid": ["nuclearcraft:pellet_curium",1,2]
+    },
+    {
+      "input": ["item","hbm:ore_lead",1,32767],
+      "solid": ["hbm:ingot_lead"]
+    },
+    {
+      "input": ["item","hbm:ore_gneiss_gold",1,32767],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_curium",1,9],
+      "solid": ["nuclearcraft:pellet_curium",1,4]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_curium",1,10],
+      "solid": ["nuclearcraft:pellet_curium",1,4]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_curium",1,13],
+      "solid": ["nuclearcraft:pellet_curium",1,6]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_curium",1,14],
+      "solid": ["nuclearcraft:pellet_curium",1,6]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_curium",1,17],
+      "solid": ["nuclearcraft:pellet_curium",1,8]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_curium",1,18],
+      "solid": ["nuclearcraft:pellet_curium",1,8]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_curium",1,21],
+      "solid": ["nuclearcraft:pellet_curium",1,10]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_curium",1,22],
+      "solid": ["nuclearcraft:pellet_curium",1,10]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_quark_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_quark_slate"],
+      "solid": ["biomesoplenty:gem",1,3]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_copper_ore_3",1,1],
+      "solid": ["immersiveengineering:metal",2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_copper_ore_3"],
+      "solid": ["immersiveengineering:metal"]
+    },
+    {
+      "input": ["item","hbm:powder_lithium",1,32767],
+      "solid": ["hbm:lithium"]
+    },
+    {
+      "input": ["item","hbm:powder_dineutronium",1,32767],
+      "solid": ["hbm:ingot_dineutronium"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_rustic_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_rustic_slate"],
+      "solid": ["biomesoplenty:gem",1,5]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_lead_ore",1,1],
+      "solid": ["immersiveengineering:metal",2,2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_lead_ore"],
+      "solid": ["immersiveengineering:metal",1,2]
+    },
+    {
+      "input": ["item","hbm:crystal_osmiridium",1,32767],
+      "solid": ["hbm:ingot_osmiridium"]
+    },
+    {
+      "input": ["item","dynaores:raw_zinc",1,32767],
+      "solid": ["ncsteamadditions:ingot"]
+    },
+    {
+      "input": ["item","hbm:powder_lead",1,32767],
+      "solid": ["hbm:ingot_lead"]
+    },
+    {
+      "input": ["item","hbm:powder_schrabidate",1,32767],
+      "solid": ["hbm:ingot_schrabidate"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_copper_ore_quark_marble",1,1],
+      "solid": ["immersiveengineering:metal",2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_copper_ore_quark_marble"],
+      "solid": ["immersiveengineering:metal"]
+    },
+    {
+      "input": ["item","hbm:ore_uranium_scorched",1,32767],
+      "solid": ["hbm:ingot_uranium"]
+    },
+    {
+      "input": ["item","osv:gold_ore_3",1,1],
+      "solid": ["minecraft:gold_ingot",2]
+    },
+    {
+      "input": ["item","osv:gold_ore_3"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:iron_ore_1",1,1],
+      "solid": ["minecraft:iron_ingot",2]
+    },
+    {
+      "input": ["item","osv:iron_ore_1"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_nickel_ore_3",1,1],
+      "solid": ["immersiveengineering:metal",2,4]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_nickel_ore_3"],
+      "solid": ["immersiveengineering:metal",1,4]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_uranium_ore_5",1,1],
+      "solid": ["immersiveengineering:metal",2,5]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_uranium_ore_5"],
+      "solid": ["immersiveengineering:metal",1,5]
+    },
+    {
+      "input": ["item","osv:gold_ore_quark_slate",1,1],
+      "solid": ["minecraft:gold_ingot",2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_copper_ore_rustic_slate",1,1],
+      "solid": ["immersiveengineering:metal",2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_copper_ore_rustic_slate"],
+      "solid": ["immersiveengineering:metal"]
+    },
+    {
+      "input": ["item","osv:gold_ore_quark_slate"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:lapis_ore",1,1],
+      "solid": ["minecraft:dye",2,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_jasper",1,1],
+      "solid": ["biomesoplenty:gem",2,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_jasper"],
+      "solid": ["biomesoplenty:gem",1,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_marble",1,1],
+      "solid": ["biomesoplenty:gem",2,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_quark_marble"],
+      "solid": ["biomesoplenty:gem",1,1]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_aluminum_ore_1",1,1],
+      "solid": ["immersiveengineering:metal",2,1]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_aluminum_ore_1"],
+      "solid": ["immersiveengineering:metal",1,1]
+    },
+    {
+      "input": ["item","osv:iron_ore_3",1,1],
+      "solid": ["minecraft:iron_ingot",2]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_plutonium",1,1],
+      "solid": ["nuclearcraft:pellet_plutonium"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_plutonium",1,2],
+      "solid": ["nuclearcraft:pellet_plutonium"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_plutonium",1,5],
+      "solid": ["nuclearcraft:pellet_plutonium",1,2]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_plutonium",1,6],
+      "solid": ["nuclearcraft:pellet_plutonium",1,2]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_plutonium",1,9],
+      "solid": ["nuclearcraft:pellet_plutonium",1,4]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_plutonium",1,10],
+      "solid": ["nuclearcraft:pellet_plutonium",1,4]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_plutonium",1,13],
+      "solid": ["nuclearcraft:pellet_plutonium",1,6]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_plutonium",1,14],
+      "solid": ["nuclearcraft:pellet_plutonium",1,6]
+    },
+    {
+      "input": ["item","osv:iron_ore_3"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_lead_ore_quark_marble",1,1],
+      "solid": ["immersiveengineering:metal",2,2]
+    },
+    {
+      "input": ["item","nuclearcraft:dust",1,8],
+      "solid": ["nuclearcraft:ingot",1,8]
+    },
+    {
+      "input": ["item","nuclearcraft:dust",1,7],
+      "solid": ["nuclearcraft:ingot",1,7]
+    },
+    {
+      "input": ["item","nuclearcraft:dust",1,6],
+      "solid": ["nuclearcraft:ingot",1,6]
+    },
+    {
+      "input": ["item","nuclearcraft:dust",1,5],
+      "solid": ["nuclearcraft:ingot",1,5]
+    },
+    {
+      "input": ["item","nuclearcraft:dust",1,4],
+      "solid": ["nuclearcraft:ingot",1,4]
+    },
+    {
+      "input": ["item","nuclearcraft:dust",1,3],
+      "solid": ["nuclearcraft:ingot",1,3]
+    },
+    {
+      "input": ["item","nuclearcraft:dust",1,9],
+      "solid": ["nuclearcraft:ingot",1,9]
+    },
+    {
+      "input": ["item","nuclearcraft:dust",1,10],
+      "solid": ["nuclearcraft:ingot",1,10]
+    },
+    {
+      "input": ["item","nuclearcraft:dust",1,11],
+      "solid": ["nuclearcraft:ingot",1,11]
+    },
+    {
+      "input": ["item","nuclearcraft:dust",1,14],
+      "solid": ["nuclearcraft:ingot",1,14]
+    },
+    {
+      "input": ["item","nuclearcraft:dust",1,15],
+      "solid": ["nuclearcraft:ingot",1,15]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_lead_ore_quark_marble"],
+      "solid": ["immersiveengineering:metal",1,2]
+    },
+    {
+      "input": ["item","nuclearcraft:ingot",1,15],
+      "solid": ["nuclearcraft:ingot",1,14]
+    },
+    {
+      "input": ["item","nuclearcraft:ingot",1,14],
+      "solid": ["nuclearcraft:ingot",1,11]
+    },
+    {
+      "input": ["item","osv:lapis_ore"],
+      "solid": ["minecraft:dye",1,4]
+    },
+    {
+      "input": ["item","hbm:powder_polymer",1,32767],
+      "solid": ["hbm:ingot_polymer"]
+    },
+    {
+      "input": ["item","hbm:powder_titanium",1,32767],
+      "solid": ["hbm:ingot_titanium"]
+    },
+    {
+      "input": ["item","nuclearcraft:berkelium",1,2],
+      "solid": ["nuclearcraft:berkelium"]
+    },
+    {
+      "input": ["item","nuclearcraft:berkelium",1,3],
+      "solid": ["nuclearcraft:berkelium"]
+    },
+    {
+      "input": ["item","nuclearcraft:berkelium",1,7],
+      "solid": ["nuclearcraft:berkelium",1,5]
+    },
+    {
+      "input": ["item","nuclearcraft:berkelium",1,8],
+      "solid": ["nuclearcraft:berkelium",1,5]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore_quark_marble",1,1],
+      "solid": ["thermalfoundation:material",2,130]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore_quark_marble"],
+      "solid": ["thermalfoundation:material",1,130]
+    },
+    {
+      "input": ["item","osv:gold_ore",1,1],
+      "solid": ["minecraft:gold_ingot",2]
+    },
+    {
+      "input": ["item","osv:gold_ore"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_rustic_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_rustic_slate"],
+      "solid": ["biomesoplenty:gem",1,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore",1,1],
+      "solid": ["biomesoplenty:gem",2,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore"],
+      "solid": ["biomesoplenty:gem",1,1]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_lead_ore",1,1],
+      "solid": ["thermalfoundation:material",2,131]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_lead_ore"],
+      "solid": ["thermalfoundation:material",1,131]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_aluminum_ore_5",1,1],
+      "solid": ["immersiveengineering:metal",2,1]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_aluminum_ore_5"],
+      "solid": ["immersiveengineering:metal",1,1]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_lead_ore_quark_jasper",1,1],
+      "solid": ["immersiveengineering:metal",2,2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_lead_ore_quark_jasper"],
+      "solid": ["immersiveengineering:metal",1,2]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore_quark_jasper",1,1],
+      "solid": ["thermalfoundation:material",2,133]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore_quark_jasper"],
+      "solid": ["thermalfoundation:material",1,133]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore_3",1,1],
+      "solid": ["thermalfoundation:material",2,133]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore_3"],
+      "solid": ["thermalfoundation:material",1,133]
+    },
+    {
+      "input": ["item","ncsteamadditions:dust"],
+      "solid": ["qmd:ingot",1,7]
+    },
+    {
+      "input": ["item","osv:emerald_ore_quark_slate",1,1],
+      "solid": ["minecraft:emerald",2]
+    },
+    {
+      "input": ["item","osv:emerald_ore_quark_slate"],
+      "solid": ["minecraft:emerald"]
+    },
+    {
+      "input": ["item","hbm:powder_dura_steel",1,32767],
+      "solid": ["hbm:ingot_dura_steel"]
+    },
+    {
+      "input": ["item","osv:iron_ore_quark_marble",1,1],
+      "solid": ["minecraft:iron_ingot",2]
+    },
+    {
+      "input": ["item","osv:iron_ore_quark_marble"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","rustic:dust_gold"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","minecraft:iron_ore",1,32767],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","dynaores:raw_borax",1,32767],
+      "solid": ["hbm:ingot_raw",1,501]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore"],
+      "solid": ["biomesoplenty:gem",1,5]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_nickel_ore_5",1,1],
+      "solid": ["immersiveengineering:metal",2,4]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_nickel_ore_5"],
+      "solid": ["immersiveengineering:metal",1,4]
+    },
+    {
+      "input": ["item","hbm:ore_schrabidium",1,32767],
+      "solid": ["hbm:ingot_schrabidium"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_copper_ore_1",1,1],
+      "solid": ["immersiveengineering:metal",2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_copper_ore_1"],
+      "solid": ["immersiveengineering:metal"]
+    },
+    {
+      "input": ["item","hbm:ore_beryllium",1,32767],
+      "solid": ["hbm:ingot_beryllium"]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_copper_ore_1",1,1],
+      "solid": ["thermalfoundation:material",2,128]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_copper_ore_1"],
+      "solid": ["thermalfoundation:material",1,128]
+    },
+    {
+      "input": ["item","dynaores:raw_cobalt",1,32767],
+      "solid": ["qmd:ingot",1,4]
+    },
+    {
+      "input": ["item","dynaores:raw_boron",1,32767],
+      "solid": ["nuclearcraft:ingot",1,5]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore_quark_slate",1,1],
+      "solid": ["immersiveengineering:metal",2,3]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore_quark_slate"],
+      "solid": ["immersiveengineering:metal",1,3]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore_quark_limestone",1,1],
+      "solid": ["thermalfoundation:material",2,133]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore_quark_limestone"],
+      "solid": ["thermalfoundation:material",1,133]
+    },
+    {
+      "input": ["item","nuclearcraft:ore",1,7],
+      "solid": ["nuclearcraft:ingot",1,7]
+    },
+    {
+      "input": ["item","nuclearcraft:ore",1,6],
+      "solid": ["nuclearcraft:ingot",1,6]
+    },
+    {
+      "input": ["item","nuclearcraft:ore",1,5],
+      "solid": ["nuclearcraft:ingot",1,5]
+    },
+    {
+      "input": ["item","nuclearcraft:ore",1,4],
+      "solid": ["nuclearcraft:ingot",1,4]
+    },
+    {
+      "input": ["item","nuclearcraft:ore",1,3],
+      "solid": ["nuclearcraft:ingot",1,3]
+    },
+    {
+      "input": ["item","nuclearcraft:ore",1,2],
+      "solid": ["thermalfoundation:material",1,131]
+    },
+    {
+      "input": ["item","nuclearcraft:ore",1,1],
+      "solid": ["thermalfoundation:material",1,129]
+    },
+    {
+      "input": ["item","nuclearcraft:ore"],
+      "solid": ["thermalfoundation:material",1,128]
+    },
+    {
+      "input": ["item","dynaores:raw_platinum",1,32767],
+      "solid": ["qmd:ingot",1,10]
+    },
+    {
+      "input": ["item","osv:coal_ore_rustic_slate",1,1],
+      "solid": ["minecraft:coal",2]
+    },
+    {
+      "input": ["item","osv:coal_ore_rustic_slate"],
+      "solid": ["minecraft:coal"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore_5",1,1],
+      "solid": ["immersiveengineering:metal",2,3]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore_5"],
+      "solid": ["immersiveengineering:metal",1,3]
+    },
+    {
+      "input": ["item","osv:lapis_ore_rustic_slate",1,1],
+      "solid": ["minecraft:dye",2,4]
+    },
+    {
+      "input": ["item","osv:lapis_ore_rustic_slate"],
+      "solid": ["minecraft:dye",1,4]
+    },
+    {
+      "input": ["item","hbm:powder_gold",1,32767],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","hbm:powder_schrabidium",1,32767],
+      "solid": ["hbm:ingot_schrabidium"]
+    },
+    {
+      "input": ["item","appliedenergistics2:material",1,51],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","appliedenergistics2:material",1,49],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_limestone",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_limestone"],
+      "solid": ["biomesoplenty:gem",1,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_3",1,1],
+      "solid": ["biomesoplenty:gem",2,6]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_3"],
+      "solid": ["biomesoplenty:gem",1,6]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_jasper",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_jasper"],
+      "solid": ["biomesoplenty:gem",1,2]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_tin_ore",1,1],
+      "solid": ["thermalfoundation:material",2,129]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_tin_ore"],
+      "solid": ["thermalfoundation:material",1,129]
+    },
+    {
+      "input": ["item","qmd:dust",1,7],
+      "solid": ["qmd:ingot",1,7]
+    },
+    {
+      "input": ["item","qmd:dust"],
+      "solid": ["qmd:ingot"]
+    },
+    {
+      "input": ["item","qmd:dust",1,1],
+      "solid": ["qmd:ingot",1,1]
+    },
+    {
+      "input": ["item","hbm:sand_uranium"],
+      "solid": ["hbm:glass_uranium"]
+    },
+    {
+      "input": ["item","qmd:dust",1,2],
+      "solid": ["qmd:ingot",1,2]
     },
     {
       "input": ["item","qmd:dust",1,3],
@@ -3255,936 +4055,48 @@
       "solid": ["qmd:ingot",1,15]
     },
     {
-      "input": ["item","osv:iron_ore_quark_slate",1,1],
-      "solid": ["minecraft:iron_ingot",2]
-    },
-    {
-      "input": ["item","osv:iron_ore_quark_slate"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:iron_ore_rustic_slate",1,1],
-      "solid": ["minecraft:iron_ingot",2]
-    },
-    {
-      "input": ["item","osv:iron_ore_rustic_slate"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_nickel_ore_5",1,1],
-      "solid": ["immersiveengineering:metal",2,4]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_nickel_ore_5"],
-      "solid": ["immersiveengineering:metal",1,4]
-    },
-    {
-      "input": ["item","nyx:frezarite_crystal"],
-      "solid": ["nyx:frezarite_ingot"]
-    },
-    {
-      "input": ["item","nuclearcraft:plutonium",1,2],
-      "solid": ["nuclearcraft:plutonium"]
-    },
-    {
-      "input": ["item","nuclearcraft:plutonium",1,3],
-      "solid": ["nuclearcraft:plutonium"]
-    },
-    {
-      "input": ["item","nuclearcraft:plutonium",1,7],
-      "solid": ["nuclearcraft:plutonium",1,5]
-    },
-    {
-      "input": ["item","nuclearcraft:plutonium",1,8],
-      "solid": ["nuclearcraft:plutonium",1,5]
-    },
-    {
-      "input": ["item","nuclearcraft:plutonium",1,12],
-      "solid": ["nuclearcraft:plutonium",1,10]
-    },
-    {
-      "input": ["item","nuclearcraft:plutonium",1,13],
-      "solid": ["nuclearcraft:plutonium",1,10]
-    },
-    {
-      "input": ["item","nuclearcraft:plutonium",1,17],
-      "solid": ["nuclearcraft:plutonium",1,15]
-    },
-    {
-      "input": ["item","nuclearcraft:plutonium",1,18],
-      "solid": ["nuclearcraft:plutonium",1,15]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_limestone",1,1],
-      "solid": ["biomesoplenty:gem",2,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_limestone"],
-      "solid": ["biomesoplenty:gem",1,4]
-    },
-    {
-      "input": ["item","osv:lapis_ore_rustic_slate",1,1],
-      "solid": ["minecraft:dye",2,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_jasper",1,1],
-      "solid": ["biomesoplenty:gem",2,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_jasper"],
-      "solid": ["biomesoplenty:gem",1,6]
-    },
-    {
-      "input": ["item","osv:lapis_ore_rustic_slate"],
-      "solid": ["minecraft:dye",1,4]
-    },
-    {
-      "input": ["item","osv:diamond_ore_quark_marble",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","osv:diamond_ore_quark_marble"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","hbm:sand_uranium"],
-      "solid": ["hbm:glass_uranium"]
-    },
-    {
-      "input": ["item","hbm:powder_calcium",1,32767],
-      "solid": ["hbm:ingot_calcium"]
-    },
-    {
-      "input": ["item","osv:coal_ore_rustic_slate",1,1],
-      "solid": ["minecraft:coal",2]
-    },
-    {
-      "input": ["item","osv:coal_ore_rustic_slate"],
-      "solid": ["minecraft:coal"]
-    },
-    {
-      "input": ["item","hbm:sand_lead"],
-      "solid": ["hbm:glass_lead"]
-    },
-    {
-      "input": ["item","hbm:powder_au198",1,32767],
-      "solid": ["hbm:ingot_au198"]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_copper_ore_3",1,1],
-      "solid": ["immersiveengineering:metal",2]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_copper_ore_3"],
-      "solid": ["immersiveengineering:metal"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore_rustic_slate",1,1],
-      "solid": ["thermalfoundation:material",2,130]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore_rustic_slate"],
-      "solid": ["thermalfoundation:material",1,130]
-    },
-    {
-      "input": ["item","hbm:ore_nether_uranium",1,32767],
-      "solid": ["hbm:ingot_uranium"]
-    },
-    {
-      "input": ["item","dynaores:raw_schrabidium",1,32767],
-      "solid": ["hbm:ingot_schrabidium"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_1",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_1"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_rustic_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_rustic_slate"],
-      "solid": ["biomesoplenty:gem",1,1]
-    },
-    {
-      "input": ["item","osv:emerald_ore_quark_limestone",1,1],
-      "solid": ["minecraft:emerald",2]
-    },
-    {
-      "input": ["item","osv:emerald_ore_quark_limestone"],
-      "solid": ["minecraft:emerald"]
-    },
-    {
-      "input": ["item","osv:gold_ore_1",1,1],
-      "solid": ["minecraft:gold_ingot",2]
-    },
-    {
-      "input": ["item","osv:gold_ore_1"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_aluminum_ore_quark_jasper",1,1],
-      "solid": ["immersiveengineering:metal",2,1]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_aluminum_ore_quark_jasper"],
-      "solid": ["immersiveengineering:metal",1,1]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_nickel_ore_rustic_slate",1,1],
-      "solid": ["immersiveengineering:metal",2,4]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_nickel_ore_rustic_slate"],
-      "solid": ["immersiveengineering:metal",1,4]
-    },
-    {
-      "input": ["item","osv:coal_ore_quark_jasper",1,1],
-      "solid": ["minecraft:coal",2]
-    },
-    {
-      "input": ["item","osv:coal_ore_quark_jasper"],
-      "solid": ["minecraft:coal"]
-    },
-    {
-      "input": ["item","dynaores:raw_uranium",1,32767],
-      "solid": ["nuclearcraft:ingot",1,4]
-    },
-    {
-      "input": ["item","hbm:ore_gneiss_copper",1,32767],
-      "solid": ["hbm:ingot_copper"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_1",1,1],
-      "solid": ["biomesoplenty:gem",2,7]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_1"],
-      "solid": ["biomesoplenty:gem",1,7]
-    },
-    {
-      "input": ["item","osv:iron_ore_quark_limestone",1,1],
-      "solid": ["minecraft:iron_ingot",2]
-    },
-    {
-      "input": ["item","osv:iron_ore_quark_limestone"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:emerald_ore_3",1,1],
-      "solid": ["minecraft:emerald",2]
-    },
-    {
-      "input": ["item","osv:emerald_ore_3"],
-      "solid": ["minecraft:emerald"]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_copper_ore_5",1,1],
-      "solid": ["immersiveengineering:metal",2]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_tin_ore_quark_limestone",1,1],
+      "input": ["item","osv:thermalfoundation_tin_ore_1",1,1],
       "solid": ["thermalfoundation:material",2,129]
     },
     {
-      "input": ["item","osv:thermalfoundation_tin_ore_quark_limestone"],
+      "input": ["item","osv:thermalfoundation_tin_ore_1"],
       "solid": ["thermalfoundation:material",1,129]
     },
     {
-      "input": ["item","hbm:powder_dura_steel",1,32767],
-      "solid": ["hbm:ingot_dura_steel"]
+      "input": ["item","hbm:powder_red_copper",1,32767],
+      "solid": ["hbm:ingot_red_copper"]
     },
     {
-      "input": ["item","osv:immersiveengineering_copper_ore_5"],
-      "solid": ["immersiveengineering:metal"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_tin_ore_quark_marble",1,1],
-      "solid": ["thermalfoundation:material",2,129]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_tin_ore_quark_marble"],
-      "solid": ["thermalfoundation:material",1,129]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_limestone",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","osv:diamond_ore_1",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","osv:diamond_ore_1"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_limestone"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","osv:lapis_ore",1,1],
-      "solid": ["minecraft:dye",2,4]
-    },
-    {
-      "input": ["item","osv:lapis_ore"],
-      "solid": ["minecraft:dye",1,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_marble",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_marble"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore_quark_jasper",1,1],
-      "solid": ["thermalfoundation:material",2,130]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore_quark_jasper"],
-      "solid": ["thermalfoundation:material",1,130]
-    },
-    {
-      "input": ["item","nuclearcraft:ore",1,7],
-      "solid": ["nuclearcraft:ingot",1,7]
-    },
-    {
-      "input": ["item","nuclearcraft:ore",1,6],
-      "solid": ["nuclearcraft:ingot",1,6]
-    },
-    {
-      "input": ["item","hbm:ore_gneiss_iron",1,32767],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","nuclearcraft:ore",1,5],
-      "solid": ["nuclearcraft:ingot",1,5]
-    },
-    {
-      "input": ["item","nuclearcraft:ore",1,4],
-      "solid": ["nuclearcraft:ingot",1,4]
-    },
-    {
-      "input": ["item","nuclearcraft:ore",1,3],
-      "solid": ["nuclearcraft:ingot",1,3]
-    },
-    {
-      "input": ["item","nuclearcraft:ore",1,2],
-      "solid": ["thermalfoundation:material",1,131]
-    },
-    {
-      "input": ["item","nuclearcraft:ore",1,1],
-      "solid": ["thermalfoundation:material",1,129]
-    },
-    {
-      "input": ["item","nuclearcraft:ore"],
-      "solid": ["thermalfoundation:material",1,128]
-    },
-    {
-      "input": ["item","hbm:ore_gneiss_gold",1,32767],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:diamond_ore_rustic_slate",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","osv:diamond_ore_rustic_slate"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_3",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_3"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_jasper",1,1],
-      "solid": ["biomesoplenty:gem",2,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_jasper"],
-      "solid": ["biomesoplenty:gem",1,4]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_aluminum_ore_rustic_slate",1,1],
-      "solid": ["immersiveengineering:metal",2,1]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_aluminum_ore_rustic_slate"],
-      "solid": ["immersiveengineering:metal",1,1]
-    },
-    {
-      "input": ["item","dynaores:raw_boron",1,32767],
-      "solid": ["nuclearcraft:ingot",1,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_5",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_5"],
-      "solid": ["biomesoplenty:gem",1,5]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_lead_ore_quark_jasper",1,1],
-      "solid": ["thermalfoundation:material",2,131]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_lead_ore_quark_jasper"],
-      "solid": ["thermalfoundation:material",1,131]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_aluminum_ore_quark_marble",1,1],
-      "solid": ["immersiveengineering:metal",2,1]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_aluminum_ore_quark_marble"],
-      "solid": ["immersiveengineering:metal",1,1]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_copper_ore_1",1,1],
-      "solid": ["immersiveengineering:metal",2]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_copper_ore_1"],
-      "solid": ["immersiveengineering:metal"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_limestone",1,1],
-      "solid": ["biomesoplenty:gem",2,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_limestone"],
-      "solid": ["biomesoplenty:gem",1,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_quark_jasper",1,1],
-      "solid": ["biomesoplenty:gem",2,7]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_quark_jasper"],
-      "solid": ["biomesoplenty:gem",1,7]
-    },
-    {
-      "input": ["item","hbm:powder_tungsten",1,32767],
+      "input": ["item","hbm:ore_nether_tungsten",1,32767],
       "solid": ["hbm:ingot_tungsten"]
     },
     {
-      "input": ["item","osv:immersiveengineering_nickel_ore",1,1],
-      "solid": ["immersiveengineering:metal",2,4]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_nickel_ore"],
-      "solid": ["immersiveengineering:metal",1,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_3",1,1],
-      "solid": ["biomesoplenty:gem",2,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_3"],
-      "solid": ["biomesoplenty:gem",1,1]
-    },
-    {
-      "input": ["item","rustic:dust_gold"],
+      "input": ["item","dynaores:raw_gold",1,32767],
       "solid": ["minecraft:gold_ingot"]
     },
     {
-      "input": ["item","nuclearcraft:dust",1,14],
-      "solid": ["nuclearcraft:ingot",1,14]
-    },
-    {
-      "input": ["item","nuclearcraft:dust",1,11],
-      "solid": ["nuclearcraft:ingot",1,11]
-    },
-    {
-      "input": ["item","nuclearcraft:dust",1,10],
-      "solid": ["nuclearcraft:ingot",1,10]
-    },
-    {
-      "input": ["item","nuclearcraft:dust",1,9],
-      "solid": ["nuclearcraft:ingot",1,9]
-    },
-    {
-      "input": ["item","nuclearcraft:dust",1,8],
-      "solid": ["nuclearcraft:ingot",1,8]
-    },
-    {
-      "input": ["item","nuclearcraft:dust",1,7],
-      "solid": ["nuclearcraft:ingot",1,7]
-    },
-    {
-      "input": ["item","nuclearcraft:dust",1,6],
-      "solid": ["nuclearcraft:ingot",1,6]
-    },
-    {
-      "input": ["item","nuclearcraft:dust",1,5],
-      "solid": ["nuclearcraft:ingot",1,5]
-    },
-    {
-      "input": ["item","nuclearcraft:dust",1,4],
-      "solid": ["nuclearcraft:ingot",1,4]
-    },
-    {
-      "input": ["item","nuclearcraft:dust",1,3],
-      "solid": ["nuclearcraft:ingot",1,3]
-    },
-    {
-      "input": ["item","hbm:powder_thorium",1,32767],
-      "solid": ["hbm:ingot_th232"]
-    },
-    {
-      "input": ["item","hbm:powder_combine_steel",1,32767],
-      "solid": ["hbm:ingot_combine_steel"]
-    },
-    {
-      "input": ["item","dynaores:raw_aluminum",1,32767],
-      "solid": ["nuclearcraft:ingot",1,12]
-    },
-    {
-      "input": ["item","nuclearcraft:dust",1,15],
-      "solid": ["nuclearcraft:ingot",1,15]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore",1,1],
-      "solid": ["immersiveengineering:metal",2,2]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore"],
-      "solid": ["immersiveengineering:metal",1,2]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_nickel_ore_rustic_slate",1,1],
-      "solid": ["thermalfoundation:material",2,133]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_nickel_ore_rustic_slate"],
-      "solid": ["thermalfoundation:material",1,133]
-    },
-    {
-      "input": ["item","qmd:dust2"],
-      "solid": ["qmd:ingot2"]
-    },
-    {
-      "input": ["item","minecraft:netherrack",1,32767],
-      "solid": ["minecraft:netherbrick"]
-    },
-    {
-      "input": ["item","qmd:dust2",1,1],
-      "solid": ["qmd:ingot2",1,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_5",1,1],
-      "solid": ["biomesoplenty:gem",2,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_5"],
-      "solid": ["biomesoplenty:gem",1,6]
-    },
-    {
-      "input": ["item","dynaores:raw_borax",1,32767],
-      "solid": ["hbm:ingot_raw",1,501]
-    },
-    {
-      "input": ["item","osv:redstone_ore_quark_marble",1,2],
+      "input": ["item","osv:redstone_ore_1",1,2],
       "solid": ["minecraft:redstone",2]
     },
     {
-      "input": ["item","osv:redstone_ore_quark_marble"],
+      "input": ["item","osv:redstone_ore_1"],
       "solid": ["minecraft:redstone"]
     },
     {
-      "input": ["item","osv:immersiveengineering_nickel_ore_quark_limestone",1,1],
-      "solid": ["immersiveengineering:metal",2,4]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_nickel_ore_quark_limestone"],
-      "solid": ["immersiveengineering:metal",1,4]
-    },
-    {
-      "input": ["item","osv:redstone_ore_3",1,2],
-      "solid": ["minecraft:redstone",2]
-    },
-    {
-      "input": ["item","osv:redstone_ore_3"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:coal_ore_quark_slate",1,1],
+      "input": ["item","osv:coal_ore_quark_marble",1,1],
       "solid": ["minecraft:coal",2]
     },
     {
-      "input": ["item","osv:coal_ore_quark_slate"],
+      "input": ["item","hbm:ore_uranium",1,32767],
+      "solid": ["hbm:ingot_uranium"]
+    },
+    {
+      "input": ["item","osv:coal_ore_quark_marble"],
       "solid": ["minecraft:coal"]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_uranium_ore_quark_jasper",1,1],
-      "solid": ["immersiveengineering:metal",2,5]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_uranium_ore_quark_jasper"],
-      "solid": ["immersiveengineering:metal",1,5]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore_quark_jasper",1,1],
-      "solid": ["immersiveengineering:metal",2,2]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore_quark_jasper"],
-      "solid": ["immersiveengineering:metal",1,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_quark_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,3]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_nickel_ore_1",1,1],
-      "solid": ["immersiveengineering:metal",2,4]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_nickel_ore_1"],
-      "solid": ["immersiveengineering:metal",1,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_quark_slate"],
-      "solid": ["biomesoplenty:gem",1,3]
-    },
-    {
-      "input": ["item","nuclearcraft:ingot",1,15],
-      "solid": ["nuclearcraft:ingot",1,14]
-    },
-    {
-      "input": ["item","nuclearcraft:ingot",1,14],
-      "solid": ["nuclearcraft:ingot",1,11]
-    },
-    {
-      "input": ["item","osv:gold_ore_5",1,1],
-      "solid": ["minecraft:gold_ingot",2]
-    },
-    {
-      "input": ["item","osv:gold_ore_5"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_rustic_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_rustic_slate"],
-      "solid": ["biomesoplenty:gem",1,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_rustic_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_rustic_slate"],
-      "solid": ["biomesoplenty:gem",1,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_jasper",1,1],
-      "solid": ["biomesoplenty:gem",2,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_jasper"],
-      "solid": ["biomesoplenty:gem",1,1]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_aluminum_ore_1",1,1],
-      "solid": ["immersiveengineering:metal",2,1]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_aluminum_ore_1"],
-      "solid": ["immersiveengineering:metal",1,1]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_curium",1,1],
-      "solid": ["nuclearcraft:pellet_curium"]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_curium",1,2],
-      "solid": ["nuclearcraft:pellet_curium"]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_curium",1,5],
-      "solid": ["nuclearcraft:pellet_curium",1,2]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_curium",1,6],
-      "solid": ["nuclearcraft:pellet_curium",1,2]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_curium",1,9],
-      "solid": ["nuclearcraft:pellet_curium",1,4]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_curium",1,10],
-      "solid": ["nuclearcraft:pellet_curium",1,4]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_curium",1,13],
-      "solid": ["nuclearcraft:pellet_curium",1,6]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_curium",1,14],
-      "solid": ["nuclearcraft:pellet_curium",1,6]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_curium",1,17],
-      "solid": ["nuclearcraft:pellet_curium",1,8]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_curium",1,18],
-      "solid": ["nuclearcraft:pellet_curium",1,8]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_curium",1,21],
-      "solid": ["nuclearcraft:pellet_curium",1,10]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_curium",1,22],
-      "solid": ["nuclearcraft:pellet_curium",1,10]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore_5",1,1],
-      "solid": ["immersiveengineering:metal",2,3]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore_5"],
-      "solid": ["immersiveengineering:metal",1,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","hbm:powder_cadmium",1,32767],
-      "solid": ["hbm:ingot_cadmium"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_tin_ore_rustic_slate",1,1],
-      "solid": ["thermalfoundation:material",2,129]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_tin_ore_rustic_slate"],
-      "solid": ["thermalfoundation:material",1,129]
-    },
-    {
-      "input": ["item","hbm:powder_beryllium",1,32767],
-      "solid": ["hbm:ingot_beryllium"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_1",1,1],
-      "solid": ["biomesoplenty:gem",2,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_1"],
-      "solid": ["biomesoplenty:gem",1,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","osv:iron_ore_1",1,1],
-      "solid": ["minecraft:iron_ingot",2]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_copper_ore_quark_jasper",1,1],
-      "solid": ["immersiveengineering:metal",2]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_copper_ore_quark_jasper"],
-      "solid": ["immersiveengineering:metal"]
-    },
-    {
-      "input": ["item","osv:iron_ore_1"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore_quark_jasper",1,1],
-      "solid": ["thermalfoundation:material",2,128]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore_quark_jasper"],
-      "solid": ["thermalfoundation:material",1,128]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore_rustic_slate",1,1],
-      "solid": ["immersiveengineering:metal",2,2]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore_rustic_slate"],
-      "solid": ["immersiveengineering:metal",1,2]
-    },
-    {
-      "input": ["item","hbm:powder_copper",1,32767],
-      "solid": ["hbm:ingot_copper"]
-    },
-    {
-      "input": ["item","hbm:powder_polonium",1,32767],
-      "solid": ["hbm:ingot_polonium"]
-    },
-    {
-      "input": ["item","osv:lapis_ore_quark_limestone",1,1],
-      "solid": ["minecraft:dye",2,4]
-    },
-    {
-      "input": ["item","osv:lapis_ore_quark_limestone"],
-      "solid": ["minecraft:dye",1,4]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_uranium_ore_5",1,1],
-      "solid": ["immersiveengineering:metal",2,5]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_uranium_ore_5"],
-      "solid": ["immersiveengineering:metal",1,5]
-    },
-    {
-      "input": ["item","libvulpes:ore0"],
-      "solid": ["libvulpes:productdust"]
-    },
-    {
-      "input": ["item","libvulpes:ore0",1,4],
-      "solid": ["libvulpes:productingot",1,4]
-    },
-    {
-      "input": ["item","libvulpes:ore0",1,5],
-      "solid": ["libvulpes:productingot",1,5]
-    },
-    {
-      "input": ["item","libvulpes:ore0",1,9],
-      "solid": ["libvulpes:productingot",1,9]
-    },
-    {
-      "input": ["item","libvulpes:ore0",1,10],
-      "solid": ["libvulpes:productingot",1,10]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore_1",1,1],
-      "solid": ["thermalfoundation:material",2,130]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore_1"],
-      "solid": ["thermalfoundation:material",1,130]
-    },
-    {
-      "input": ["item","nb:nether_gold_ore",1,32767],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore_quark_marble",1,1],
-      "solid": ["thermalfoundation:material",2,128]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore_quark_marble"],
-      "solid": ["thermalfoundation:material",1,128]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_slate"],
-      "solid": ["biomesoplenty:gem",1,5]
-    },
-    {
-      "input": ["item","hbm:powder_tantalium",1,32767],
-      "solid": ["hbm:ingot_tantalium"]
-    },
-    {
-      "input": ["item","nuclearcraft:part",1,21],
-      "solid": ["nuclearcraft:part",1,22]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_nickel_ore_1",1,1],
-      "solid": ["thermalfoundation:material",2,133]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore",1,1],
-      "solid": ["thermalfoundation:material",2,128]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore"],
-      "solid": ["thermalfoundation:material",1,128]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_nickel_ore_1"],
-      "solid": ["thermalfoundation:material",1,133]
-    },
-    {
-      "input": ["item","dynaores:raw_silver",1,32767],
-      "solid": ["nuclearcraft:ingot",1,13]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_5",1,1],
-      "solid": ["biomesoplenty:gem",2,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_5"],
-      "solid": ["biomesoplenty:gem",1,4]
-    },
-    {
-      "input": ["item","appliedenergistics2:material",1,51],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","appliedenergistics2:material",1,49],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_uranium_ore_1",1,1],
-      "solid": ["immersiveengineering:metal",2,5]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_uranium_ore_1"],
-      "solid": ["immersiveengineering:metal",1,5]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_tin_ore_quark_jasper",1,1],
-      "solid": ["thermalfoundation:material",2,129]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_tin_ore_quark_jasper"],
-      "solid": ["thermalfoundation:material",1,129]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_quark_limestone",1,1],
-      "solid": ["biomesoplenty:gem",2,7]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_quark_limestone"],
-      "solid": ["biomesoplenty:gem",1,7]
-    },
-    {
-      "input": ["item","osv:lapis_ore_quark_slate",1,1],
-      "solid": ["minecraft:dye",2,4]
-    },
-    {
-      "input": ["item","osv:lapis_ore_quark_slate"],
-      "solid": ["minecraft:dye",1,4]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore_quark_marble",1,1],
-      "solid": ["immersiveengineering:metal",2,2]
     },
     {
       "input": ["item","libvulpes:productdust",1,2],
       "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","hbm:powder_lead",1,32767],
-      "solid": ["hbm:ingot_lead"]
     },
     {
       "input": ["item","libvulpes:productdust",1,1],
@@ -4219,40 +4131,32 @@
       "solid": ["libvulpes:productingot",1,10]
     },
     {
-      "input": ["item","osv:immersiveengineering_lead_ore_quark_marble"],
-      "solid": ["immersiveengineering:metal",1,2]
+      "input": ["item","nyx:kreknorite_shard"],
+      "solid": ["nyx:kreknorite_ingot"]
     },
     {
-      "input": ["item","osv:immersiveengineering_nickel_ore_quark_slate",1,1],
-      "solid": ["immersiveengineering:metal",2,4]
+      "input": ["item","osv:diamond_ore",1,1],
+      "solid": ["minecraft:diamond",2]
     },
     {
-      "input": ["item","osv:immersiveengineering_nickel_ore_quark_slate"],
-      "solid": ["immersiveengineering:metal",1,4]
+      "input": ["item","osv:diamond_ore"],
+      "solid": ["minecraft:diamond"]
     },
     {
-      "input": ["item","osv:biomesoplenty_malachite_ore_3",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
+      "input": ["item","osv:coal_ore_3",1,1],
+      "solid": ["minecraft:coal",2]
     },
     {
-      "input": ["item","hbm:powder_tcalloy",1,32767],
-      "solid": ["hbm:ingot_tcalloy"]
+      "input": ["item","hbm:waste_trinitite_red"],
+      "solid": ["hbm:glass_trinitite"]
     },
     {
-      "input": ["item","osv:biomesoplenty_malachite_ore_3"],
-      "solid": ["biomesoplenty:gem",1,5]
+      "input": ["item","osv:coal_ore_3"],
+      "solid": ["minecraft:coal"]
     },
     {
-      "input": ["item","dynaores:raw_titanium",1,32767],
-      "solid": ["qmd:ingot",1,3]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore_quark_jasper",1,1],
-      "solid": ["immersiveengineering:metal",2,3]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore_quark_jasper"],
-      "solid": ["immersiveengineering:metal",1,3]
+      "input": ["item","hbm:powder_zirconium",1,32767],
+      "solid": ["hbm:ingot_zirconium"]
     },
     {
       "input": ["item","qmd:fuel_copernicium",1,1],
@@ -4263,268 +4167,260 @@
       "solid": ["qmd:pellet_copernicium"]
     },
     {
-      "input": ["item","osv:biomesoplenty_peridot_ore_rustic_slate",1,1],
+      "input": ["item","osv:biomesoplenty_topaz_ore_1",1,1],
+      "solid": ["biomesoplenty:gem",2,3]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_aluminum_ore_quark_marble",1,1],
+      "solid": ["immersiveengineering:metal",2,1]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_lead_ore_quark_marble",1,1],
+      "solid": ["thermalfoundation:material",2,131]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_lead_ore_quark_marble"],
+      "solid": ["thermalfoundation:material",1,131]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_aluminum_ore_quark_marble"],
+      "solid": ["immersiveengineering:metal",1,1]
+    },
+    {
+      "input": ["item","dynaores:raw_neodymium",1,32767],
+      "solid": ["qmd:ingot2",1,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_slate",1,1],
       "solid": ["biomesoplenty:gem",2,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_slate"],
+      "solid": ["biomesoplenty:gem",1,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_1"],
+      "solid": ["biomesoplenty:gem",1,3]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_lead_ore_3",1,1],
+      "solid": ["thermalfoundation:material",2,131]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_lead_ore_3"],
+      "solid": ["thermalfoundation:material",1,131]
+    },
+    {
+      "input": ["item","osv:iron_ore_quark_limestone",1,1],
+      "solid": ["minecraft:iron_ingot",2]
+    },
+    {
+      "input": ["item","osv:iron_ore_quark_limestone"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore_1",1,1],
+      "solid": ["thermalfoundation:material",2,133]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore_1"],
+      "solid": ["thermalfoundation:material",1,133]
+    },
+    {
+      "input": ["item","nuclearcraft:plutonium",1,2],
+      "solid": ["nuclearcraft:plutonium"]
+    },
+    {
+      "input": ["item","nuclearcraft:plutonium",1,3],
+      "solid": ["nuclearcraft:plutonium"]
+    },
+    {
+      "input": ["item","nuclearcraft:plutonium",1,7],
+      "solid": ["nuclearcraft:plutonium",1,5]
+    },
+    {
+      "input": ["item","nuclearcraft:plutonium",1,8],
+      "solid": ["nuclearcraft:plutonium",1,5]
+    },
+    {
+      "input": ["item","hbm:combine_scrap",1,32767],
+      "solid": ["hbm:ingot_combine_steel"]
+    },
+    {
+      "input": ["item","nuclearcraft:plutonium",1,12],
+      "solid": ["nuclearcraft:plutonium",1,10]
+    },
+    {
+      "input": ["item","nuclearcraft:plutonium",1,13],
+      "solid": ["nuclearcraft:plutonium",1,10]
+    },
+    {
+      "input": ["item","dynaores:raw_redstone",1,32767],
+      "solid": ["hbm:ingot_raw",1,1]
+    },
+    {
+      "input": ["item","nuclearcraft:plutonium",1,17],
+      "solid": ["nuclearcraft:plutonium",1,15]
+    },
+    {
+      "input": ["item","nuclearcraft:plutonium",1,18],
+      "solid": ["nuclearcraft:plutonium",1,15]
+    },
+    {
+      "input": ["item","osv:coal_ore_quark_limestone",1,1],
+      "solid": ["minecraft:coal",2]
+    },
+    {
+      "input": ["item","dynaores:raw_plutonium",1,32767],
+      "solid": ["hbm:ingot_plutonium"]
+    },
+    {
+      "input": ["item","osv:coal_ore_quark_limestone"],
+      "solid": ["minecraft:coal"]
+    },
+    {
+      "input": ["item","osv:lapis_ore_quark_marble",1,1],
+      "solid": ["minecraft:dye",2,4]
+    },
+    {
+      "input": ["item","osv:lapis_ore_quark_marble"],
+      "solid": ["minecraft:dye",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_marble",1,1],
+      "solid": ["biomesoplenty:gem",2,6]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_marble"],
+      "solid": ["biomesoplenty:gem",1,6]
+    },
+    {
+      "input": ["item","dynaores:raw_lithium",1,32767],
+      "solid": ["nuclearcraft:ingot",1,6]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_neptunium",1,1],
+      "solid": ["nuclearcraft:pellet_neptunium"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_neptunium",1,2],
+      "solid": ["nuclearcraft:pellet_neptunium"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_neptunium",1,5],
+      "solid": ["nuclearcraft:pellet_neptunium",1,2]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_neptunium",1,6],
+      "solid": ["nuclearcraft:pellet_neptunium",1,2]
+    },
+    {
+      "input": ["item","osv:redstone_ore_rustic_slate",1,2],
+      "solid": ["minecraft:redstone",2]
+    },
+    {
+      "input": ["item","osv:redstone_ore_rustic_slate"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","nyx:meteorite_shard"],
+      "solid": ["nyx:meteorite_ingot"]
     },
     {
       "input": ["item","osv:biomesoplenty_topaz_ore_quark_marble",1,1],
       "solid": ["biomesoplenty:gem",2,3]
     },
     {
-      "input": ["item","osv:thermalfoundation_copper_ore_5",1,1],
-      "solid": ["thermalfoundation:material",2,128]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore_5"],
-      "solid": ["thermalfoundation:material",1,128]
-    },
-    {
       "input": ["item","osv:biomesoplenty_topaz_ore_quark_marble"],
       "solid": ["biomesoplenty:gem",1,3]
-    },
-    {
-      "input": ["item","dynaores:raw_gold",1,32767],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_rustic_slate"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore_quark_slate",1,1],
-      "solid": ["immersiveengineering:metal",2,3]
-    },
-    {
-      "input": ["item","dynaores:raw_cobalt",1,32767],
-      "solid": ["qmd:ingot",1,4]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore_quark_slate"],
-      "solid": ["immersiveengineering:metal",1,3]
-    },
-    {
-      "input": ["item","hbm:powder_euphemium",1,32767],
-      "solid": ["hbm:ingot_euphemium"]
-    },
-    {
-      "input": ["item","nyx:star_block"],
-      "solid": ["nyx:cracked_star_block"]
-    },
-    {
-      "input": ["item","hbm:powder_niobium",1,32767],
-      "solid": ["hbm:ingot_niobium"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_nickel_ore_quark_limestone",1,1],
-      "solid": ["thermalfoundation:material",2,133]
-    },
-    {
-      "input": ["item","srparasites:bloody_iron_ingot"],
-      "solid": ["minecraft:iron_ingot"]
     },
     {
       "input": ["item","industrialrenewal:orevein_hematite",1,32767],
       "solid": ["minecraft:iron_ingot"]
     },
     {
-      "input": ["item","osv:redstone_ore",1,2],
-      "solid": ["minecraft:redstone",2]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_mixed",1,1],
-      "solid": ["nuclearcraft:pellet_mixed"]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_mixed",1,2],
-      "solid": ["nuclearcraft:pellet_mixed"]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_mixed",1,5],
-      "solid": ["nuclearcraft:pellet_mixed",1,2]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_mixed",1,6],
-      "solid": ["nuclearcraft:pellet_mixed",1,2]
-    },
-    {
-      "input": ["item","osv:redstone_ore"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_quark_marble",1,1],
-      "solid": ["biomesoplenty:gem",2,7]
-    },
-    {
-      "input": ["item","hbm:powder_dineutronium",1,32767],
-      "solid": ["hbm:ingot_dineutronium"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_quark_marble"],
-      "solid": ["biomesoplenty:gem",1,7]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_nickel_ore_quark_limestone"],
-      "solid": ["thermalfoundation:material",1,133]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_uranium_ore",1,1],
-      "solid": ["immersiveengineering:metal",2,5]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_uranium_ore"],
-      "solid": ["immersiveengineering:metal",1,5]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_thorium",1,1],
-      "solid": ["nuclearcraft:pellet_thorium"]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_thorium",1,2],
-      "solid": ["nuclearcraft:pellet_thorium"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore_3",1,1],
-      "solid": ["thermalfoundation:material",2,128]
-    },
-    {
-      "input": ["item","qmd:copernicium",1,2],
-      "solid": ["qmd:copernicium"]
-    },
-    {
-      "input": ["item","qmd:copernicium",1,3],
-      "solid": ["qmd:copernicium"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore_3"],
-      "solid": ["thermalfoundation:material",1,128]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore"],
-      "solid": ["biomesoplenty:gem",1,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_limestone",1,1],
-      "solid": ["biomesoplenty:gem",2,6]
-    },
-    {
-      "input": ["item","hbm:ore_thorium",1,32767],
-      "solid": ["hbm:ingot_th232"]
-    },
-    {
-      "input": ["item","osv:diamond_ore_5",1,1],
-      "solid": ["minecraft:diamond",2]
-    },
-    {
-      "input": ["item","osv:diamond_ore_5"],
-      "solid": ["minecraft:diamond"]
-    },
-    {
-      "input": ["item","hbm:powder_schrabidate",1,32767],
-      "solid": ["hbm:ingot_schrabidate"]
-    },
-    {
-      "input": ["item","nuclearcraft:berkelium",1,2],
-      "solid": ["nuclearcraft:berkelium"]
-    },
-    {
-      "input": ["item","nuclearcraft:berkelium",1,3],
-      "solid": ["nuclearcraft:berkelium"]
-    },
-    {
-      "input": ["item","hbm:powder_sr90",1,32767],
-      "solid": ["hbm:ingot_sr90"]
-    },
-    {
-      "input": ["item","nuclearcraft:berkelium",1,7],
-      "solid": ["nuclearcraft:berkelium",1,5]
-    },
-    {
-      "input": ["item","dynaores:raw_coltan",1,32767],
-      "solid": ["hbm:fragment_coltan"]
-    },
-    {
-      "input": ["item","nuclearcraft:berkelium",1,8],
-      "solid": ["nuclearcraft:berkelium",1,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_limestone"],
-      "solid": ["biomesoplenty:gem",1,6]
-    },
-    {
-      "input": ["item","osv:coal_ore_quark_marble",1,1],
+      "input": ["item","osv:coal_ore_quark_slate",1,1],
       "solid": ["minecraft:coal",2]
     },
     {
-      "input": ["item","hbm:powder_bismuth",1,32767],
-      "solid": ["hbm:ingot_bismuth"]
-    },
-    {
-      "input": ["item","osv:coal_ore_quark_marble"],
+      "input": ["item","osv:coal_ore_quark_slate"],
       "solid": ["minecraft:coal"]
     },
     {
-      "input": ["item","osv:immersiveengineering_uranium_ore_quark_slate",1,1],
-      "solid": ["immersiveengineering:metal",2,5]
+      "input": ["item","dynaores:raw_thorium",1,32767],
+      "solid": ["nuclearcraft:ingot",1,3]
     },
     {
-      "input": ["item","osv:immersiveengineering_uranium_ore_quark_slate"],
-      "solid": ["immersiveengineering:metal",1,5]
+      "input": ["item","hbm:ore_tungsten",1,32767],
+      "solid": ["hbm:ingot_tungsten"]
     },
     {
-      "input": ["item","hbm:powder_cobalt",1,32767],
-      "solid": ["hbm:ingot_cobalt"]
+      "input": ["item","osv:emerald_ore_quark_marble",1,1],
+      "solid": ["minecraft:emerald",2]
     },
     {
-      "input": ["item","osv:biomesoplenty_topaz_ore_rustic_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,3]
+      "input": ["item","osv:emerald_ore_quark_marble"],
+      "solid": ["minecraft:emerald"]
     },
     {
-      "input": ["item","osv:biomesoplenty_topaz_ore_rustic_slate"],
-      "solid": ["biomesoplenty:gem",1,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_rustic_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,7]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_amber_ore_rustic_slate"],
-      "solid": ["biomesoplenty:gem",1,7]
-    },
-    {
-      "input": ["item","hbm:powder_zirconium",1,32767],
-      "solid": ["hbm:ingot_zirconium"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_nickel_ore_quark_jasper",1,1],
-      "solid": ["thermalfoundation:material",2,133]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_nickel_ore_quark_jasper"],
-      "solid": ["thermalfoundation:material",1,133]
-    },
-    {
-      "input": ["item","dynaores:raw_asbestos",1,32767],
-      "solid": ["hbm:ingot_asbestos"]
-    },
-    {
-      "input": ["item","osv:lapis_ore_5",1,1],
+      "input": ["item","osv:lapis_ore_3",1,1],
       "solid": ["minecraft:dye",2,4]
     },
     {
-      "input": ["item","osv:lapis_ore_5"],
+      "input": ["item","osv:lapis_ore_3"],
       "solid": ["minecraft:dye",1,4]
     },
     {
-      "input": ["item","osv:thermalfoundation_lead_ore_quark_limestone",1,1],
+      "input": ["item","osv:coal_ore_5",1,1],
+      "solid": ["minecraft:coal",2]
+    },
+    {
+      "input": ["item","osv:coal_ore_5"],
+      "solid": ["minecraft:coal"]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_lead_ore_1",1,1],
       "solid": ["thermalfoundation:material",2,131]
     },
     {
-      "input": ["item","osv:thermalfoundation_lead_ore_quark_limestone"],
+      "input": ["item","osv:thermalfoundation_lead_ore_1"],
       "solid": ["thermalfoundation:material",1,131]
+    },
+    {
+      "input": ["item","osv:gold_ore_quark_jasper",1,1],
+      "solid": ["minecraft:gold_ingot",2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore_quark_jasper",1,1],
+      "solid": ["immersiveengineering:metal",2,3]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore_quark_jasper"],
+      "solid": ["immersiveengineering:metal",1,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_5",1,1],
+      "solid": ["biomesoplenty:gem",2,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_topaz_ore_5"],
+      "solid": ["biomesoplenty:gem",1,3]
+    },
+    {
+      "input": ["item","osv:gold_ore_quark_jasper"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","advancedrocketry:productdust"],
+      "solid": ["advancedrocketry:productingot"]
+    },
+    {
+      "input": ["item","dynaores:raw_iron",1,32767],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","advancedrocketry:productdust",1,1],
+      "solid": ["advancedrocketry:productingot",1,1]
     },
     {
       "input": ["item","osv:emerald_ore",1,1],
@@ -4535,24 +4431,188 @@
       "solid": ["minecraft:emerald"]
     },
     {
+      "input": ["item","hbm:ore_nether_schrabidium",1,32767],
+      "solid": ["hbm:ingot_schrabidium"]
+    },
+    {
+      "input": ["item","hbm:ore_nether_uranium",1,32767],
+      "solid": ["hbm:ingot_uranium"]
+    },
+    {
+      "input": ["item","osv:redstone_ore_5",1,2],
+      "solid": ["minecraft:redstone",2]
+    },
+    {
+      "input": ["item","osv:redstone_ore_5"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore_rustic_slate",1,1],
+      "solid": ["thermalfoundation:material",2,130]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore_rustic_slate"],
+      "solid": ["thermalfoundation:material",1,130]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_slate",1,2],
+      "solid": ["minecraft:redstone",2]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_slate"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","osv:lapis_ore_quark_jasper",1,1],
+      "solid": ["minecraft:dye",2,4]
+    },
+    {
+      "input": ["item","osv:lapis_ore_quark_jasper"],
+      "solid": ["minecraft:dye",1,4]
+    },
+    {
+      "input": ["item","hbm:powder_euphemium",1,32767],
+      "solid": ["hbm:ingot_euphemium"]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_copper_ore",1,1],
+      "solid": ["thermalfoundation:material",2,128]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_copper_ore"],
+      "solid": ["thermalfoundation:material",1,128]
+    },
+    {
+      "input": ["item","srparasites:bloody_iron_ingot"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_marble",1,1],
+      "solid": ["biomesoplenty:gem",2,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_marble"],
+      "solid": ["biomesoplenty:gem",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_jasper",1,1],
+      "solid": ["biomesoplenty:gem",2,6]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_jasper"],
+      "solid": ["biomesoplenty:gem",1,6]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_marble",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_marble"],
+      "solid": ["biomesoplenty:gem",1,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_5",1,1],
+      "solid": ["biomesoplenty:gem",2,6]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_5"],
+      "solid": ["biomesoplenty:gem",1,6]
+    },
+    {
+      "input": ["item","osv:emerald_ore_quark_jasper",1,1],
+      "solid": ["minecraft:emerald",2]
+    },
+    {
+      "input": ["item","osv:emerald_ore_quark_jasper"],
+      "solid": ["minecraft:emerald"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_rustic_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_rustic_slate"],
+      "solid": ["biomesoplenty:gem",1,7]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_nickel_ore_quark_marble",1,1],
+      "solid": ["immersiveengineering:metal",2,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_5",1,1],
+      "solid": ["biomesoplenty:gem",2,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_5"],
+      "solid": ["biomesoplenty:gem",1,1]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore_quark_slate",1,1],
+      "solid": ["thermalfoundation:material",2,133]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_nickel_ore_quark_slate"],
+      "solid": ["thermalfoundation:material",1,133]
+    },
+    {
       "input": ["item","osv:immersiveengineering_aluminum_ore",1,1],
       "solid": ["immersiveengineering:metal",2,1]
     },
     {
-      "input": ["item","osv:immersiveengineering_uranium_ore_quark_limestone",1,1],
-      "solid": ["immersiveengineering:metal",2,5]
+      "input": ["item","osv:immersiveengineering_aluminum_ore_quark_jasper",1,1],
+      "solid": ["immersiveengineering:metal",2,1]
     },
     {
-      "input": ["item","osv:immersiveengineering_uranium_ore_quark_limestone"],
-      "solid": ["immersiveengineering:metal",1,5]
+      "input": ["item","osv:immersiveengineering_aluminum_ore_quark_jasper"],
+      "solid": ["immersiveengineering:metal",1,1]
     },
     {
-      "input": ["item","osv:immersiveengineering_nickel_ore_3",1,1],
-      "solid": ["immersiveengineering:metal",2,4]
+      "input": ["item","hbm:powder_tungsten",1,32767],
+      "solid": ["hbm:ingot_tungsten"]
     },
     {
-      "input": ["item","osv:immersiveengineering_nickel_ore_3"],
-      "solid": ["immersiveengineering:metal",1,4]
+      "input": ["item","osv:redstone_ore",1,2],
+      "solid": ["minecraft:redstone",2]
+    },
+    {
+      "input": ["item","osv:redstone_ore"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_aluminum_ore"],
+      "solid": ["immersiveengineering:metal",1,1]
+    },
+    {
+      "input": ["item","osv:iron_ore",1,1],
+      "solid": ["minecraft:iron_ingot",2]
+    },
+    {
+      "input": ["item","osv:iron_ore"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_limestone",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_limestone"],
+      "solid": ["biomesoplenty:gem",1,2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_lead_ore_quark_limestone",1,1],
+      "solid": ["immersiveengineering:metal",2,2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_lead_ore_quark_limestone"],
+      "solid": ["immersiveengineering:metal",1,2]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_copper_ore_quark_jasper",1,1],
+      "solid": ["thermalfoundation:material",2,128]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_copper_ore_quark_jasper"],
+      "solid": ["thermalfoundation:material",1,128]
     },
     {
       "input": ["item","immersiveengineering:metal",1,9],
@@ -4563,20 +4623,12 @@
       "solid": ["immersiveengineering:metal",1,1]
     },
     {
-      "input": ["item","hbm:crystal_osmiridium",1,32767],
-      "solid": ["hbm:ingot_osmiridium"]
-    },
-    {
       "input": ["item","immersiveengineering:metal",1,11],
       "solid": ["immersiveengineering:metal",1,2]
     },
     {
       "input": ["item","immersiveengineering:metal",1,12],
       "solid": ["immersiveengineering:metal",1,3]
-    },
-    {
-      "input": ["item","hbm:ore_titanium",1,32767],
-      "solid": ["hbm:ingot_titanium"]
     },
     {
       "input": ["item","immersiveengineering:metal",1,13],
@@ -4607,376 +4659,8 @@
       "solid": ["minecraft:gold_ingot"]
     },
     {
-      "input": ["item","osv:immersiveengineering_aluminum_ore"],
-      "solid": ["immersiveengineering:metal",1,1]
-    },
-    {
-      "input": ["item","nuclearcraft:dust2"],
-      "solid": ["nuclearcraft:ingot2"]
-    },
-    {
-      "input": ["item","nuclearcraft:dust2",1,1],
-      "solid": ["nuclearcraft:ingot2",1,1]
-    },
-    {
-      "input": ["item","nuclearcraft:dust2",1,2],
-      "solid": ["nuclearcraft:ingot2",1,2]
-    },
-    {
-      "input": ["item","nuclearcraft:dust2",1,3],
-      "solid": ["nuclearcraft:ingot2",1,3]
-    },
-    {
-      "input": ["item","nuclearcraft:dust2",1,4],
-      "solid": ["nuclearcraft:ingot2",1,4]
-    },
-    {
-      "input": ["item","nuclearcraft:dust2",1,5],
-      "solid": ["nuclearcraft:ingot2",1,5]
-    },
-    {
-      "input": ["item","nuclearcraft:dust2",1,6],
-      "solid": ["nuclearcraft:ingot2",1,6]
-    },
-    {
-      "input": ["item","nuclearcraft:dust2",1,7],
-      "solid": ["nuclearcraft:ingot2",1,7]
-    },
-    {
-      "input": ["item","nuclearcraft:dust2",1,8],
-      "solid": ["nuclearcraft:ingot2",1,8]
-    },
-    {
-      "input": ["item","nuclearcraft:dust2",1,9],
-      "solid": ["nuclearcraft:ingot2",1,9]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_marble",1,1],
-      "solid": ["biomesoplenty:gem",2,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_marble"],
-      "solid": ["biomesoplenty:gem",1,4]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_uranium_ore_3",1,1],
-      "solid": ["immersiveengineering:metal",2,5]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_uranium_ore_3"],
-      "solid": ["immersiveengineering:metal",1,5]
-    },
-    {
-      "input": ["item","immersiveengineering:ore"],
-      "solid": ["immersiveengineering:metal"]
-    },
-    {
-      "input": ["item","immersiveengineering:ore",1,1],
-      "solid": ["immersiveengineering:metal",1,1]
-    },
-    {
-      "input": ["item","immersiveengineering:ore",1,2],
-      "solid": ["immersiveengineering:metal",1,2]
-    },
-    {
-      "input": ["item","immersiveengineering:ore",1,3],
-      "solid": ["immersiveengineering:metal",1,3]
-    },
-    {
-      "input": ["item","immersiveengineering:ore",1,4],
+      "input": ["item","osv:immersiveengineering_nickel_ore_quark_marble"],
       "solid": ["immersiveengineering:metal",1,4]
-    },
-    {
-      "input": ["item","immersiveengineering:ore",1,5],
-      "solid": ["immersiveengineering:metal",1,5]
-    },
-    {
-      "input": ["item","hbm:ball_resin",1,32767],
-      "solid": ["hbm:ingot_biorubber"]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore_quark_limestone",1,1],
-      "solid": ["immersiveengineering:metal",2,3]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore_quark_limestone"],
-      "solid": ["immersiveengineering:metal",1,3]
-    },
-    {
-      "input": ["item","hbm:waste_trinitite_red"],
-      "solid": ["hbm:glass_trinitite"]
-    },
-    {
-      "input": ["item","dynaores:raw_plutonium",1,32767],
-      "solid": ["hbm:ingot_plutonium"]
-    },
-    {
-      "input": ["item","dynaores:raw_thorium232",1,32767],
-      "solid": ["hbm:ingot_th232"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_1",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_1"],
-      "solid": ["biomesoplenty:gem",1,5]
-    },
-    {
-      "input": ["item","osv:redstone_ore_quark_jasper",1,2],
-      "solid": ["minecraft:redstone",2]
-    },
-    {
-      "input": ["item","osv:redstone_ore_quark_jasper"],
-      "solid": ["minecraft:redstone"]
-    },
-    {
-      "input": ["item","osv:emerald_ore_quark_marble",1,1],
-      "solid": ["minecraft:emerald",2]
-    },
-    {
-      "input": ["item","osv:emerald_ore_quark_marble"],
-      "solid": ["minecraft:emerald"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_tin_ore_3",1,1],
-      "solid": ["thermalfoundation:material",2,129]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore_quark_limestone",1,1],
-      "solid": ["immersiveengineering:metal",2,2]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore_quark_limestone"],
-      "solid": ["immersiveengineering:metal",1,2]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_tin_ore_3"],
-      "solid": ["thermalfoundation:material",1,129]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_berkelium",1,1],
-      "solid": ["nuclearcraft:pellet_berkelium"]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_berkelium",1,2],
-      "solid": ["nuclearcraft:pellet_berkelium"]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_berkelium",1,5],
-      "solid": ["nuclearcraft:pellet_berkelium",1,2]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_berkelium",1,6],
-      "solid": ["nuclearcraft:pellet_berkelium",1,2]
-    },
-    {
-      "input": ["item","osv:iron_ore_5",1,1],
-      "solid": ["minecraft:iron_ingot",2]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore",1,1],
-      "solid": ["thermalfoundation:material",2,130]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_neptunium",1,1],
-      "solid": ["nuclearcraft:pellet_neptunium"]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_neptunium",1,2],
-      "solid": ["nuclearcraft:pellet_neptunium"]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_neptunium",1,5],
-      "solid": ["nuclearcraft:pellet_neptunium",1,2]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_neptunium",1,6],
-      "solid": ["nuclearcraft:pellet_neptunium",1,2]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore_3",1,1],
-      "solid": ["immersiveengineering:metal",2,2]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_lead_ore_3"],
-      "solid": ["immersiveengineering:metal",1,2]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore"],
-      "solid": ["thermalfoundation:material",1,130]
-    },
-    {
-      "input": ["item","osv:coal_ore_1",1,1],
-      "solid": ["minecraft:coal",2]
-    },
-    {
-      "input": ["item","osv:coal_ore_1"],
-      "solid": ["minecraft:coal"]
-    },
-    {
-      "input": ["item","osv:iron_ore_5"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:coal_ore_3",1,1],
-      "solid": ["minecraft:coal",2]
-    },
-    {
-      "input": ["item","osv:coal_ore_3"],
-      "solid": ["minecraft:coal"]
-    },
-    {
-      "input": ["item","dynaores:raw_platinum",1,32767],
-      "solid": ["qmd:ingot",1,10]
-    },
-    {
-      "input": ["item","minecraft:iron_ore",1,32767],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_limestone",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_limestone"],
-      "solid": ["biomesoplenty:gem",1,5]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_copper_ore_quark_slate",1,1],
-      "solid": ["immersiveengineering:metal",2]
-    },
-    {
-      "input": ["item","dynaores:raw_iron",1,32767],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_copper_ore_quark_slate"],
-      "solid": ["immersiveengineering:metal"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_1",1,1],
-      "solid": ["biomesoplenty:gem",2,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_1"],
-      "solid": ["biomesoplenty:gem",1,4]
-    },
-    {
-      "input": ["item","minecraft:clay_ball",1,32767],
-      "solid": ["minecraft:brick"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_lead_ore_quark_marble",1,1],
-      "solid": ["thermalfoundation:material",2,131]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_lead_ore_quark_marble"],
-      "solid": ["thermalfoundation:material",1,131]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore_quark_slate",1,1],
-      "solid": ["thermalfoundation:material",2,130]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore_quark_slate"],
-      "solid": ["thermalfoundation:material",1,130]
-    },
-    {
-      "input": ["item","ncsteamadditions:ore"],
-      "solid": ["qmd:ingot",1,7]
-    },
-    {
-      "input": ["item","dynaores:raw_lithium",1,32767],
-      "solid": ["nuclearcraft:ingot",1,6]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_quark_limestone",1,1],
-      "solid": ["biomesoplenty:gem",2,3]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_topaz_ore_quark_limestone"],
-      "solid": ["biomesoplenty:gem",1,3]
-    },
-    {
-      "input": ["item","osv:gold_ore",1,1],
-      "solid": ["minecraft:gold_ingot",2]
-    },
-    {
-      "input": ["item","osv:gold_ore"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","hbm:powder_actinium",1,32767],
-      "solid": ["hbm:ingot_actinium"]
-    },
-    {
-      "input": ["item","hbm:powder_titanium",1,32767],
-      "solid": ["hbm:ingot_titanium"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_1",1,1],
-      "solid": ["biomesoplenty:gem",2,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore_1"],
-      "solid": ["biomesoplenty:gem",1,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_jasper",1,1],
-      "solid": ["biomesoplenty:gem",2,5]
-    },
-    {
-      "input": ["item","hbm:sand_polonium"],
-      "solid": ["hbm:glass_polonium"]
-    },
-    {
-      "input": ["item","osv:emerald_ore_5",1,1],
-      "solid": ["minecraft:emerald",2]
-    },
-    {
-      "input": ["item","osv:emerald_ore_5"],
-      "solid": ["minecraft:emerald"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_malachite_ore_quark_jasper"],
-      "solid": ["biomesoplenty:gem",1,5]
-    },
-    {
-      "input": ["item","hbm:ore_copper",1,32767],
-      "solid": ["hbm:ingot_copper"]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_nickel_ore_quark_jasper",1,1],
-      "solid": ["immersiveengineering:metal",2,4]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_nickel_ore_quark_jasper"],
-      "solid": ["immersiveengineering:metal",1,4]
-    },
-    {
-      "input": ["item","immersiveengineering:material",1,18],
-      "solid": ["immersiveengineering:material",1,19]
-    },
-    {
-      "input": ["item","hbm:powder_neptunium",1,32767],
-      "solid": ["hbm:ingot_neptunium"]
-    },
-    {
-      "input": ["item","osv:gold_ore_quark_slate",1,1],
-      "solid": ["minecraft:gold_ingot",2]
-    },
-    {
-      "input": ["item","osv:gold_ore_quark_slate"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_aluminum_ore_quark_limestone",1,1],
-      "solid": ["immersiveengineering:metal",2,1]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_aluminum_ore_quark_limestone"],
-      "solid": ["immersiveengineering:metal",1,1]
     },
     {
       "input": ["item","osv:biomesoplenty_amber_ore_quark_slate",1,1],
@@ -4987,168 +4671,524 @@
       "solid": ["biomesoplenty:gem",1,7]
     },
     {
-      "input": ["item","osv:thermalfoundation_nickel_ore_3",1,1],
-      "solid": ["thermalfoundation:material",2,133]
+      "input": ["item","osv:biomesoplenty_sapphire_ore",1,1],
+      "solid": ["biomesoplenty:gem",2,6]
     },
     {
-      "input": ["item","osv:thermalfoundation_nickel_ore_3"],
-      "solid": ["thermalfoundation:material",1,133]
+      "input": ["item","osv:biomesoplenty_sapphire_ore"],
+      "solid": ["biomesoplenty:gem",1,6]
     },
     {
-      "input": ["item","hbm:ore_gneiss_uranium",1,32767],
-      "solid": ["hbm:ingot_uranium"]
+      "input": ["item","osv:biomesoplenty_topaz_ore_quark_limestone",1,1],
+      "solid": ["biomesoplenty:gem",2,3]
     },
     {
-      "input": ["item","hbm:powder_uranium",1,32767],
-      "solid": ["hbm:ingot_uranium"]
+      "input": ["item","osv:biomesoplenty_topaz_ore_quark_limestone"],
+      "solid": ["biomesoplenty:gem",1,3]
     },
     {
-      "input": ["item","nuclearcraft:americium",1,2],
-      "solid": ["nuclearcraft:americium"]
+      "input": ["item","osv:immersiveengineering_nickel_ore",1,1],
+      "solid": ["immersiveengineering:metal",2,4]
     },
     {
-      "input": ["item","nuclearcraft:americium",1,3],
-      "solid": ["nuclearcraft:americium"]
+      "input": ["item","osv:immersiveengineering_nickel_ore"],
+      "solid": ["immersiveengineering:metal",1,4]
     },
     {
-      "input": ["item","nuclearcraft:americium",1,7],
-      "solid": ["nuclearcraft:americium",1,5]
-    },
-    {
-      "input": ["item","nuclearcraft:americium",1,8],
-      "solid": ["nuclearcraft:americium",1,5]
-    },
-    {
-      "input": ["item","nuclearcraft:americium",1,12],
-      "solid": ["nuclearcraft:americium",1,10]
-    },
-    {
-      "input": ["item","nuclearcraft:americium",1,13],
-      "solid": ["nuclearcraft:americium",1,10]
-    },
-    {
-      "input": ["item","hbm:powder_gold",1,32767],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","nyx:meteorite_shard"],
-      "solid": ["nyx:meteorite_ingot"]
-    },
-    {
-      "input": ["item","hbm:powder_steel",1,32767],
-      "solid": ["hbm:ingot_steel"]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_slate",1,1],
-      "solid": ["biomesoplenty:gem",2,2]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_peridot_ore_quark_slate"],
-      "solid": ["biomesoplenty:gem",1,2]
-    },
-    {
-      "input": ["item","hbm:ore_nether_schrabidium",1,32767],
-      "solid": ["hbm:ingot_schrabidium"]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_lead_ore_1",1,1],
-      "solid": ["thermalfoundation:material",2,131]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_lead_ore_1"],
-      "solid": ["thermalfoundation:material",1,131]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_lead_ore_5",1,1],
-      "solid": ["thermalfoundation:material",2,131]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_lead_ore_5"],
-      "solid": ["thermalfoundation:material",1,131]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_nickel_ore_quark_marble",1,1],
-      "solid": ["thermalfoundation:material",2,133]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_nickel_ore_quark_marble"],
-      "solid": ["thermalfoundation:material",1,133]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_lead_ore_rustic_slate",1,1],
-      "solid": ["thermalfoundation:material",2,131]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_3",1,1],
-      "solid": ["biomesoplenty:gem",2,4]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_tanzanite_ore_3"],
-      "solid": ["biomesoplenty:gem",1,4]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore_quark_marble",1,1],
-      "solid": ["thermalfoundation:material",2,130]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore_quark_marble"],
-      "solid": ["thermalfoundation:material",1,130]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_lead_ore_rustic_slate"],
-      "solid": ["thermalfoundation:material",1,131]
-    },
-    {
-      "input": ["item","dynaores:raw_malachite",1,32767],
-      "solid": ["hbm:chunk_ore",1,1]
-    },
-    {
-      "input": ["item","osv:emerald_ore_quark_jasper",1,1],
+      "input": ["item","osv:emerald_ore_3",1,1],
       "solid": ["minecraft:emerald",2]
     },
     {
-      "input": ["item","dynaores:raw_th232",1,32767],
-      "solid": ["hbm:ingot_th232"]
+      "input": ["item","osv:emerald_ore_3"],
+      "solid": ["minecraft:emerald"]
     },
     {
-      "input": ["item","osv:emerald_ore_quark_jasper"],
-      "solid": ["minecraft:emerald"]
+      "input": ["item","osv:immersiveengineering_silver_ore_quark_limestone",1,1],
+      "solid": ["immersiveengineering:metal",2,3]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore_quark_limestone"],
+      "solid": ["immersiveengineering:metal",1,3]
+    },
+    {
+      "input": ["item","osv:lapis_ore_5",1,1],
+      "solid": ["minecraft:dye",2,4]
+    },
+    {
+      "input": ["item","osv:lapis_ore_5"],
+      "solid": ["minecraft:dye",1,4]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_limestone",1,2],
+      "solid": ["minecraft:redstone",2]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_limestone"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_uranium_ore_quark_slate",1,1],
+      "solid": ["immersiveengineering:metal",2,5]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_uranium_ore_quark_slate"],
+      "solid": ["immersiveengineering:metal",1,5]
+    },
+    {
+      "input": ["item","osv:redstone_ore_3",1,2],
+      "solid": ["minecraft:redstone",2]
+    },
+    {
+      "input": ["item","osv:redstone_ore_3"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","dynaores:raw_beryllium",1,32767],
+      "solid": ["nuclearcraft:ingot",1,9]
+    },
+    {
+      "input": ["item","nuclearcraft:neptunium",1,2],
+      "solid": ["nuclearcraft:neptunium"]
+    },
+    {
+      "input": ["item","nuclearcraft:neptunium",1,3],
+      "solid": ["nuclearcraft:neptunium"]
+    },
+    {
+      "input": ["item","dynaores:raw_silver",1,32767],
+      "solid": ["nuclearcraft:ingot",1,13]
+    },
+    {
+      "input": ["item","nuclearcraft:neptunium",1,7],
+      "solid": ["nuclearcraft:neptunium",1,5]
+    },
+    {
+      "input": ["item","nuclearcraft:neptunium",1,8],
+      "solid": ["nuclearcraft:neptunium",1,5]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_californium",1,1],
+      "solid": ["nuclearcraft:pellet_californium"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_californium",1,2],
+      "solid": ["nuclearcraft:pellet_californium"]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_californium",1,5],
+      "solid": ["nuclearcraft:pellet_californium",1,2]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_californium",1,6],
+      "solid": ["nuclearcraft:pellet_californium",1,2]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_californium",1,9],
+      "solid": ["nuclearcraft:pellet_californium",1,4]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_californium",1,10],
+      "solid": ["nuclearcraft:pellet_californium",1,4]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_californium",1,13],
+      "solid": ["nuclearcraft:pellet_californium",1,6]
+    },
+    {
+      "input": ["item","nuclearcraft:fuel_californium",1,14],
+      "solid": ["nuclearcraft:pellet_californium",1,6]
+    },
+    {
+      "input": ["item","thermalfoundation:material",1,1],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","thermalfoundation:material"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_copper_ore_quark_slate",1,1],
+      "solid": ["thermalfoundation:material",2,128]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_copper_ore_quark_slate"],
+      "solid": ["thermalfoundation:material",1,128]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore",1,1],
+      "solid": ["thermalfoundation:material",2,130]
+    },
+    {
+      "input": ["item","hbm:gravel_diamond"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore"],
+      "solid": ["thermalfoundation:material",1,130]
+    },
+    {
+      "input": ["item","osv:iron_ore_rustic_slate",1,1],
+      "solid": ["minecraft:iron_ingot",2]
+    },
+    {
+      "input": ["item","industrialrenewal:chunk_hematite",1,32767],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:iron_ore_rustic_slate"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:diamond_ore_quark_jasper",1,1],
+      "solid": ["minecraft:diamond",2]
+    },
+    {
+      "input": ["item","osv:diamond_ore_quark_jasper"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","hbm:powder_desh",1,32767],
+      "solid": ["hbm:ingot_desh"]
+    },
+    {
+      "input": ["item","nuclearcraft:part",1,21],
+      "solid": ["nuclearcraft:part",1,22]
+    },
+    {
+      "input": ["item","osv:diamond_ore_1",1,1],
+      "solid": ["minecraft:diamond",2]
+    },
+    {
+      "input": ["item","osv:diamond_ore_1"],
+      "solid": ["minecraft:diamond"]
+    },
+    {
+      "input": ["item","hbm:waste_trinitite"],
+      "solid": ["hbm:glass_trinitite"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_silver_ore_quark_marble",1,1],
+      "solid": ["immersiveengineering:metal",2,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_1",1,1],
+      "solid": ["biomesoplenty:gem",2,1]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_ruby_ore_1"],
+      "solid": ["biomesoplenty:gem",1,1]
     },
     {
       "input": ["item","dynaores:raw_rare_earth",1,32767],
       "solid": ["hbm:chunk_ore"]
     },
     {
-      "input": ["item","dynaores:raw_thorium",1,32767],
-      "solid": ["nuclearcraft:ingot",1,3]
+      "input": ["item","osv:immersiveengineering_silver_ore_quark_marble"],
+      "solid": ["immersiveengineering:metal",1,3]
     },
     {
-      "input": ["item","osv:immersiveengineering_copper_ore_quark_marble",1,1],
-      "solid": ["immersiveengineering:metal",2]
+      "input": ["item","dynaores:raw_th232",1,32767],
+      "solid": ["hbm:ingot_th232"]
     },
     {
-      "input": ["item","osv:immersiveengineering_copper_ore_quark_marble"],
-      "solid": ["immersiveengineering:metal"]
+      "input": ["item","osv:immersiveengineering_lead_ore_5",1,1],
+      "solid": ["immersiveengineering:metal",2,2]
     },
     {
-      "input": ["item","osv:thermalfoundation_tin_ore_5",1,1],
+      "input": ["item","osv:immersiveengineering_lead_ore_5"],
+      "solid": ["immersiveengineering:metal",1,2]
+    },
+    {
+      "input": ["item","hbm:powder_cadmium",1,32767],
+      "solid": ["hbm:ingot_cadmium"]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore_5",1,1],
+      "solid": ["thermalfoundation:material",2,130]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore_5"],
+      "solid": ["thermalfoundation:material",1,130]
+    },
+    {
+      "input": ["item","hbm:scrap_plastic",1,32767],
+      "solid": ["hbm:ingot_polymer"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_3",1,1],
+      "solid": ["biomesoplenty:gem",2,7]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_lead_ore_quark_slate",1,1],
+      "solid": ["thermalfoundation:material",2,131]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_lead_ore_quark_slate"],
+      "solid": ["thermalfoundation:material",1,131]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_3"],
+      "solid": ["biomesoplenty:gem",1,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_3",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_3"],
+      "solid": ["biomesoplenty:gem",1,2]
+    },
+    {
+      "input": ["item","hbm:ore_gneiss_copper",1,32767],
+      "solid": ["hbm:ingot_copper"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_limestone",1,1],
+      "solid": ["biomesoplenty:gem",2,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_limestone"],
+      "solid": ["biomesoplenty:gem",1,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_5",1,1],
+      "solid": ["biomesoplenty:gem",2,7]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_amber_ore_5"],
+      "solid": ["biomesoplenty:gem",1,7]
+    },
+    {
+      "input": ["item","dynaores:raw_aluminum",1,32767],
+      "solid": ["nuclearcraft:ingot",1,12]
+    },
+    {
+      "input": ["item","dynaores:raw_titanium",1,32767],
+      "solid": ["qmd:ingot",1,3]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore_3",1,1],
+      "solid": ["thermalfoundation:material",2,130]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore_3"],
+      "solid": ["thermalfoundation:material",1,130]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_lead_ore_quark_jasper",1,1],
+      "solid": ["thermalfoundation:material",2,131]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_lead_ore_quark_jasper"],
+      "solid": ["thermalfoundation:material",1,131]
+    },
+    {
+      "input": ["item","nuclearcraft:compound",1,19],
+      "solid": ["libvulpes:productingot",1,3]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_jasper",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_jasper"],
+      "solid": ["biomesoplenty:gem",1,5]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_tin_ore_quark_marble",1,1],
       "solid": ["thermalfoundation:material",2,129]
     },
     {
-      "input": ["item","osv:thermalfoundation_tin_ore_5"],
+      "input": ["item","osv:thermalfoundation_tin_ore_quark_marble"],
       "solid": ["thermalfoundation:material",1,129]
     },
     {
-      "input": ["item","osv:thermalfoundation_nickel_ore_quark_slate",1,1],
-      "solid": ["thermalfoundation:material",2,133]
+      "input": ["item","osv:thermalfoundation_tin_ore_quark_slate",1,1],
+      "solid": ["thermalfoundation:material",2,129]
     },
     {
-      "input": ["item","osv:thermalfoundation_nickel_ore_quark_slate"],
-      "solid": ["thermalfoundation:material",1,133]
+      "input": ["item","osv:thermalfoundation_tin_ore_quark_slate"],
+      "solid": ["thermalfoundation:material",1,129]
     },
     {
-      "input": ["item","hbm:powder_bakelite",1,32767],
-      "solid": ["hbm:ingot_bakelite"]
+      "input": ["item","osv:immersiveengineering_nickel_ore_rustic_slate",1,1],
+      "solid": ["immersiveengineering:metal",2,4]
+    },
+    {
+      "input": ["item","osv:gold_ore_quark_marble",1,1],
+      "solid": ["minecraft:gold_ingot",2]
+    },
+    {
+      "input": ["item","osv:gold_ore_quark_marble"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_nickel_ore_rustic_slate"],
+      "solid": ["immersiveengineering:metal",1,4]
+    },
+    {
+      "input": ["item","osv:iron_ore_5",1,1],
+      "solid": ["minecraft:iron_ingot",2]
+    },
+    {
+      "input": ["item","osv:iron_ore_5"],
+      "solid": ["minecraft:iron_ingot"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,4]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_tanzanite_ore_quark_slate"],
+      "solid": ["biomesoplenty:gem",1,4]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_copper_ore_quark_slate",1,1],
+      "solid": ["immersiveengineering:metal",2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_copper_ore_quark_slate"],
+      "solid": ["immersiveengineering:metal"]
+    },
+    {
+      "input": ["item","osv:emerald_ore_1",1,1],
+      "solid": ["minecraft:emerald",2]
+    },
+    {
+      "input": ["item","osv:emerald_ore_1"],
+      "solid": ["minecraft:emerald"]
+    },
+    {
+      "input": ["item","hbm:powder_neptunium",1,32767],
+      "solid": ["hbm:ingot_neptunium"]
+    },
+    {
+      "input": ["item","osv:coal_ore_1",1,1],
+      "solid": ["minecraft:coal",2]
+    },
+    {
+      "input": ["item","dynaores:raw_malachite",1,32767],
+      "solid": ["hbm:chunk_ore",1,1]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_tin_ore_rustic_slate",1,1],
+      "solid": ["thermalfoundation:material",2,129]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_tin_ore_rustic_slate"],
+      "solid": ["thermalfoundation:material",1,129]
+    },
+    {
+      "input": ["item","osv:coal_ore_1"],
+      "solid": ["minecraft:coal"]
+    },
+    {
+      "input": ["item","hbm:powder_lanthanium",1,32767],
+      "solid": ["hbm:ingot_lanthanium"]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_uranium_ore_1",1,1],
+      "solid": ["immersiveengineering:metal",2,5]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_uranium_ore_1"],
+      "solid": ["immersiveengineering:metal",1,5]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore_1",1,1],
+      "solid": ["thermalfoundation:material",2,130]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_silver_ore_1"],
+      "solid": ["thermalfoundation:material",1,130]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_copper_ore_5",1,1],
+      "solid": ["thermalfoundation:material",2,128]
+    },
+    {
+      "input": ["item","hbm:ore_nether_uranium_scorched",1,32767],
+      "solid": ["hbm:ingot_uranium"]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_copper_ore_5"],
+      "solid": ["thermalfoundation:material",1,128]
+    },
+    {
+      "input": ["item","nb:nether_gold_ore",1,32767],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,5]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_malachite_ore_quark_slate"],
+      "solid": ["biomesoplenty:gem",1,5]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_lead_ore_rustic_slate",1,1],
+      "solid": ["immersiveengineering:metal",2,2]
+    },
+    {
+      "input": ["item","osv:immersiveengineering_lead_ore_rustic_slate"],
+      "solid": ["immersiveengineering:metal",1,2]
+    },
+    {
+      "input": ["item","osv:coal_ore_quark_jasper",1,1],
+      "solid": ["minecraft:coal",2]
+    },
+    {
+      "input": ["item","osv:coal_ore_quark_jasper"],
+      "solid": ["minecraft:coal"]
+    },
+    {
+      "input": ["item","hbm:powder_aluminium",1,32767],
+      "solid": ["hbm:ingot_aluminium"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_slate",1,1],
+      "solid": ["biomesoplenty:gem",2,6]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_sapphire_ore_quark_slate"],
+      "solid": ["biomesoplenty:gem",1,6]
+    },
+    {
+      "input": ["item","osv:gold_ore_1",1,1],
+      "solid": ["minecraft:gold_ingot",2]
+    },
+    {
+      "input": ["item","osv:gold_ore_1"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_jasper",1,2],
+      "solid": ["minecraft:redstone",2]
+    },
+    {
+      "input": ["item","osv:redstone_ore_quark_jasper"],
+      "solid": ["minecraft:redstone"]
+    },
+    {
+      "input": ["item","hbm:sand_polonium"],
+      "solid": ["hbm:glass_polonium"]
+    },
+    {
+      "input": ["item","immersiveengineering:ore"],
+      "solid": ["immersiveengineering:metal"]
+    },
+    {
+      "input": ["item","immersiveengineering:ore",1,1],
+      "solid": ["immersiveengineering:metal",1,1]
+    },
+    {
+      "input": ["item","hbm:powder_polonium",1,32767],
+      "solid": ["hbm:ingot_polonium"]
+    },
+    {
+      "input": ["item","hbm:ore_gneiss_uranium_scorched",1,32767],
+      "solid": ["hbm:ingot_uranium"]
     },
     {
       "input": ["item","nuclearcraft:uranium",1,2],
@@ -5175,72 +5215,72 @@
       "solid": ["nuclearcraft:uranium",1,10]
     },
     {
-      "input": ["item","osv:lapis_ore_1",1,1],
-      "solid": ["minecraft:dye",2,4]
+      "input": ["item","immersiveengineering:ore",1,2],
+      "solid": ["immersiveengineering:metal",1,2]
     },
     {
-      "input": ["item","osv:lapis_ore_1"],
-      "solid": ["minecraft:dye",1,4]
+      "input": ["item","immersiveengineering:ore",1,3],
+      "solid": ["immersiveengineering:metal",1,3]
     },
     {
-      "input": ["item","hbm:arc_electrode_burnt",1,3],
-      "solid": ["hbm:ingot_saturnite"]
+      "input": ["item","immersiveengineering:ore",1,4],
+      "solid": ["immersiveengineering:metal",1,4]
     },
     {
-      "input": ["item","hbm:arc_electrode_burnt",1,2],
-      "solid": ["hbm:ingot_desh"]
+      "input": ["item","immersiveengineering:ore",1,5],
+      "solid": ["immersiveengineering:metal",1,5]
     },
     {
-      "input": ["item","hbm:arc_electrode_burnt",1,1],
-      "solid": ["hbm:ingot_lanthanium"]
+      "input": ["item","hbm:ash_digamma"],
+      "solid": ["hbm:glass_ash"]
     },
     {
-      "input": ["item","hbm:arc_electrode_burnt"],
-      "solid": ["hbm:ingot_graphite"]
+      "input": ["item","futuremc:ancient_debris"],
+      "solid": ["futuremc:netherite_scrap"]
     },
     {
-      "input": ["item","osv:thermalfoundation_nickel_ore_5",1,1],
-      "solid": ["thermalfoundation:material",2,133]
+      "input": ["item","nuclearcraft:fuel_berkelium",1,1],
+      "solid": ["nuclearcraft:pellet_berkelium"]
     },
     {
-      "input": ["item","osv:thermalfoundation_nickel_ore_5"],
-      "solid": ["thermalfoundation:material",1,133]
+      "input": ["item","nuclearcraft:fuel_berkelium",1,2],
+      "solid": ["nuclearcraft:pellet_berkelium"]
     },
     {
-      "input": ["item","hbm:ore_gneiss_uranium_scorched",1,32767],
-      "solid": ["hbm:ingot_uranium"]
+      "input": ["item","nuclearcraft:fuel_berkelium",1,5],
+      "solid": ["nuclearcraft:pellet_berkelium",1,2]
     },
     {
-      "input": ["item","hbm:powder_red_copper",1,32767],
-      "solid": ["hbm:ingot_red_copper"]
+      "input": ["item","nuclearcraft:fuel_berkelium",1,6],
+      "solid": ["nuclearcraft:pellet_berkelium",1,2]
     },
     {
-      "input": ["item","dynaores:raw_magnesium",1,32767],
-      "solid": ["nuclearcraft:ingot",1,7]
+      "input": ["item","osv:immersiveengineering_uranium_ore_quark_marble",1,1],
+      "solid": ["immersiveengineering:metal",2,5]
     },
     {
-      "input": ["item","industrialrenewal:chunk_hematite",1,32767],
-      "solid": ["minecraft:iron_ingot"]
+      "input": ["item","osv:immersiveengineering_uranium_ore_quark_marble"],
+      "solid": ["immersiveengineering:metal",1,5]
     },
     {
-      "input": ["item","dynaores:raw_zinc",1,32767],
-      "solid": ["ncsteamadditions:ingot"]
+      "input": ["item","hbm:powder_au198",1,32767],
+      "solid": ["hbm:ingot_au198"]
     },
     {
-      "input": ["item","osv:iron_ore_quark_marble",1,1],
-      "solid": ["minecraft:iron_ingot",2]
+      "input": ["item","osv:coal_ore",1,1],
+      "solid": ["minecraft:coal",2]
     },
     {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_marble",1,1],
-      "solid": ["biomesoplenty:gem",2,1]
+      "input": ["item","osv:coal_ore"],
+      "solid": ["minecraft:coal"]
     },
     {
-      "input": ["item","osv:biomesoplenty_ruby_ore_quark_marble"],
-      "solid": ["biomesoplenty:gem",1,1]
+      "input": ["item","osv:immersiveengineering_copper_ore_5",1,1],
+      "solid": ["immersiveengineering:metal",2]
     },
     {
-      "input": ["item","osv:iron_ore_quark_marble"],
-      "solid": ["minecraft:iron_ingot"]
+      "input": ["item","osv:immersiveengineering_copper_ore_5"],
+      "solid": ["immersiveengineering:metal"]
     },
     {
       "input": ["item","osv:biomesoplenty_tanzanite_ore",1,1],
@@ -5251,160 +5291,120 @@
       "solid": ["biomesoplenty:gem",1,4]
     },
     {
-      "input": ["item","osv:immersiveengineering_silver_ore_rustic_slate",1,1],
-      "solid": ["immersiveengineering:metal",2,3]
+      "input": ["item","hbm:ore_copper",1,32767],
+      "solid": ["hbm:ingot_copper"]
     },
     {
-      "input": ["item","osv:immersiveengineering_silver_ore_rustic_slate"],
-      "solid": ["immersiveengineering:metal",1,3]
+      "input": ["item","dynaores:raw_australium",1,32767],
+      "solid": ["hbm:ingot_australium"]
     },
     {
-      "input": ["item","osv:immersiveengineering_uranium_ore_rustic_slate",1,1],
-      "solid": ["immersiveengineering:metal",2,5]
+      "input": ["item","immersiveengineering:material",1,18],
+      "solid": ["immersiveengineering:material",1,19]
     },
     {
-      "input": ["item","osv:immersiveengineering_uranium_ore_rustic_slate"],
-      "solid": ["immersiveengineering:metal",1,5]
+      "input": ["item","techguns:basicore"],
+      "solid": ["techguns:itemshared",1,79]
+    },
+    {
+      "input": ["item","hbm:powder_beryllium",1,32767],
+      "solid": ["hbm:ingot_beryllium"]
+    },
+    {
+      "input": ["item","techguns:basicore",1,1],
+      "solid": ["techguns:itemshared",1,80]
+    },
+    {
+      "input": ["item","techguns:basicore",1,2],
+      "solid": ["techguns:itemshared",1,82]
+    },
+    {
+      "input": ["item","dynaores:raw_tungsten",1,32767],
+      "solid": ["qmd:ingot"]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore"],
+      "solid": ["biomesoplenty:gem",1,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_marble",1,1],
+      "solid": ["biomesoplenty:gem",2,2]
+    },
+    {
+      "input": ["item","osv:biomesoplenty_peridot_ore_quark_marble"],
+      "solid": ["biomesoplenty:gem",1,2]
+    },
+    {
+      "input": ["item","osv:gold_ore_rustic_slate",1,1],
+      "solid": ["minecraft:gold_ingot",2]
+    },
+    {
+      "input": ["item","osv:gold_ore_rustic_slate"],
+      "solid": ["minecraft:gold_ingot"]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_tin_ore_quark_jasper",1,1],
+      "solid": ["thermalfoundation:material",2,129]
+    },
+    {
+      "input": ["item","osv:thermalfoundation_tin_ore_quark_jasper"],
+      "solid": ["thermalfoundation:material",1,129]
     },
     {
       "input": ["item","dynaores:raw_nickel",1,32767],
       "solid": ["qmd:ingot",1,5]
     },
     {
-      "input": ["item","hbm:powder_boron",1,32767],
-      "solid": ["hbm:ingot_boron"]
+      "input": ["item","osv:immersiveengineering_uranium_ore",1,1],
+      "solid": ["immersiveengineering:metal",2,5]
     },
     {
-      "input": ["item","nuclearcraft:fuel_plutonium",1,1],
-      "solid": ["nuclearcraft:pellet_plutonium"]
+      "input": ["item","osv:immersiveengineering_uranium_ore"],
+      "solid": ["immersiveengineering:metal",1,5]
     },
     {
-      "input": ["item","nuclearcraft:fuel_plutonium",1,2],
-      "solid": ["nuclearcraft:pellet_plutonium"]
+      "input": ["item","osv:immersiveengineering_copper_ore_quark_jasper",1,1],
+      "solid": ["immersiveengineering:metal",2]
     },
     {
-      "input": ["item","nuclearcraft:fuel_plutonium",1,5],
-      "solid": ["nuclearcraft:pellet_plutonium",1,2]
+      "input": ["item","osv:immersiveengineering_copper_ore_quark_jasper"],
+      "solid": ["immersiveengineering:metal"]
     },
     {
-      "input": ["item","nuclearcraft:fuel_plutonium",1,6],
-      "solid": ["nuclearcraft:pellet_plutonium",1,2]
+      "input": ["item","hbm:powder_combine_steel",1,32767],
+      "solid": ["hbm:ingot_combine_steel"]
     },
     {
-      "input": ["item","nuclearcraft:fuel_plutonium",1,9],
-      "solid": ["nuclearcraft:pellet_plutonium",1,4]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_plutonium",1,10],
-      "solid": ["nuclearcraft:pellet_plutonium",1,4]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_plutonium",1,13],
-      "solid": ["nuclearcraft:pellet_plutonium",1,6]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_plutonium",1,14],
-      "solid": ["nuclearcraft:pellet_plutonium",1,6]
-    },
-    {
-      "input": ["item","hbm:ore_uranium_scorched",1,32767],
-      "solid": ["hbm:ingot_uranium"]
-    },
-    {
-      "input": ["item","hbm:ore_nether_plutonium",1,32767],
-      "solid": ["hbm:ingot_plutonium"]
-    },
-    {
-      "input": ["item","thermalfoundation:material",1,1],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","thermalfoundation:material"],
-      "solid": ["minecraft:iron_ingot"]
-    },
-    {
-      "input": ["item","osv:gold_ore_quark_marble",1,1],
-      "solid": ["minecraft:gold_ingot",2]
-    },
-    {
-      "input": ["item","osv:gold_ore_quark_marble"],
-      "solid": ["minecraft:gold_ingot"]
-    },
-    {
-      "input": ["item","dynaores:raw_beryllium",1,32767],
-      "solid": ["nuclearcraft:ingot",1,9]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore_quark_marble",1,1],
-      "solid": ["immersiveengineering:metal",2,3]
-    },
-    {
-      "input": ["item","osv:immersiveengineering_silver_ore_quark_marble"],
-      "solid": ["immersiveengineering:metal",1,3]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore_3",1,1],
-      "solid": ["thermalfoundation:material",2,130]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_silver_ore_3"],
-      "solid": ["thermalfoundation:material",1,130]
-    },
-    {
-      "input": ["item","hbm:ore_uranium",1,32767],
-      "solid": ["hbm:ingot_uranium"]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_uranium",1,1],
-      "solid": ["nuclearcraft:pellet_uranium"]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_uranium",1,2],
-      "solid": ["nuclearcraft:pellet_uranium"]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_uranium",1,5],
-      "solid": ["nuclearcraft:pellet_uranium",1,2]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_uranium",1,6],
-      "solid": ["nuclearcraft:pellet_uranium",1,2]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_uranium",1,9],
-      "solid": ["nuclearcraft:pellet_uranium",1,4]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_uranium",1,10],
-      "solid": ["nuclearcraft:pellet_uranium",1,4]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_uranium",1,13],
-      "solid": ["nuclearcraft:pellet_uranium",1,6]
-    },
-    {
-      "input": ["item","nuclearcraft:fuel_uranium",1,14],
-      "solid": ["nuclearcraft:pellet_uranium",1,6]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore_quark_limestone",1,1],
+      "input": ["item","osv:thermalfoundation_copper_ore_quark_marble",1,1],
       "solid": ["thermalfoundation:material",2,128]
     },
     {
-      "input": ["item","osv:biomesoplenty_ruby_ore",1,1],
-      "solid": ["biomesoplenty:gem",2,1]
-    },
-    {
-      "input": ["item","osv:biomesoplenty_ruby_ore"],
-      "solid": ["biomesoplenty:gem",1,1]
-    },
-    {
-      "input": ["item","osv:thermalfoundation_copper_ore_quark_limestone"],
+      "input": ["item","osv:thermalfoundation_copper_ore_quark_marble"],
       "solid": ["thermalfoundation:material",1,128]
     },
     {
-      "input": ["item","hbm:ore_lead",1,32767],
-      "solid": ["hbm:ingot_lead"]
+      "input": ["item","nuclearcraft:dust2",1,4],
+      "solid": ["nuclearcraft:ingot2",1,4]
+    },
+    {
+      "input": ["item","nuclearcraft:dust2",1,5],
+      "solid": ["nuclearcraft:ingot2",1,5]
+    },
+    {
+      "input": ["item","nuclearcraft:dust2",1,6],
+      "solid": ["nuclearcraft:ingot2",1,6]
+    },
+    {
+      "input": ["item","nuclearcraft:dust2",1,7],
+      "solid": ["nuclearcraft:ingot2",1,7]
+    },
+    {
+      "input": ["item","nuclearcraft:dust2",1,8],
+      "solid": ["nuclearcraft:ingot2",1,8]
     }
   ]
 }

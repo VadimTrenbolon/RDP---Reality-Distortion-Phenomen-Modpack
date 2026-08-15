@@ -133,7 +133,6 @@ subwayPool.addItemEntry(<techguns:gaussrifle>, 20, 1, [Functions.setCount(1, 1)]
 subwayPool.addItemEntry(<techguns:nucleardeathray>, 10, 1, [Functions.setCount(1, 1)], []);
 subwayPool.addItemEntry(<techguns:tfg>, 10, 1, [Functions.setCount(1, 1)], []);
 subwayPool.addItemEntry(<techguns:mibgun>, 5, 1, [Functions.setCount(1, 1)], []);
-subwayPool.addItemEntry(<techguns:alienblaster>, 5, 1, [Functions.setCount(1, 1)], []);
 //titanium-340
 subwayPool.addItemEntry(<techguns:basicore:3>, 20, 1, [Functions.setCount(1, 2)], []);
 subwayPool.addItemEntry(<techguns:itemshared:78>, 20, 1, [Functions.setCount(1, 2)], []);
@@ -144,11 +143,7 @@ subwayPool.addItemEntry(<techguns:itemshared:67>, 20, 1, [Functions.setCount(1, 
 subwayPool.addItemEntry(<techguns:basicore:4>, 20, 1, [Functions.setCount(1, 2)], []);
 subwayPool.addItemEntry(<techguns:itemshared:97>, 20, 1, [Functions.setCount(1, 2)], []);
 subwayPool.addItemEntry(<techguns:itemshared:98>, 20, 1, [Functions.setCount(1, 2)], []);
-//meteor
-subwayPool.addItemEntry(<nyx:meteor_rock>, 20, 1, [Functions.setCount(1, 4)], []);
-subwayPool.addItemEntry(<nyx:meteor_shard>, 20, 1, [Functions.setCount(1, 4)], []);
-subwayPool.addItemEntry(<nyx:meteor_ingot>, 20, 1, [Functions.setCount(1, 4)], []);
-subwayPool.addItemEntry(<nyx:meteor_dust>, 20, 1, [Functions.setCount(1, 4)], []);
+
 //netherite
 subwayPool.addItemEntry(<futuremc:ancient_debris>, 20, 1, [Functions.setCount(1, 4)], []);
 subwayPool.addItemEntry(<futuremc:netherite_scrap>, 20, 1, [Functions.setCount(1, 4)], []);

@@ -138,6 +138,7 @@ appliedenergistics2:storage_biome
 nuclearcraft:nuclear_wasteland
 srparasites:biomeparasite_shrouded
 srparasites:biomeparasite_harlequin
+scp:biome106
 advancedrocketry:moon
 advancedrocketry:alien_forest
 advancedrocketry:hotdryrock
@@ -154,6 +155,9 @@ hbm:crater
 hbm:crater_inner
 hbm:crater_outer
 jeid:error_biome
+zerascp:scp8602
+zerascp:biome1499
+zerascp:biome1689
 nb:crimson_forest
 nb:warped_forest
 nb:soul_sand_valley

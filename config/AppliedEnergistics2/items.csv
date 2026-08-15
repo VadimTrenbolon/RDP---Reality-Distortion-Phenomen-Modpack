@@ -3635,7 +3635,7 @@ pressure:canister:0, Canister - Hot Eutectic NaK-Gold Mixture
 pressure:canister:0, Canister - Molten Prismarine
 pressure:canister:0, Canister - Eutectic NaK-Prismarine Mixture
 pressure:canister:0, Canister - Hot Eutectic NaK-Prismarine Mixture
-pressure:canister:0, Canister - Molten Slime
+pressure:canister:0, Canister - Slime
 pressure:canister:0, Canister - Eutectic NaK-Slime Mixture
 pressure:canister:0, Canister - Hot Eutectic NaK-Slime Mixture
 pressure:canister:0, Canister - Molten End Stone
@@ -3776,6 +3776,11 @@ pressure:canister:0, Canister - Fear Fluid
 pressure:canister:0, Canister - Creeper Acid
 pressure:canister:0, Canister - Rocket Fuel
 pressure:canister:0, Canister - Enriched Lava
+pressure:canister:0, Canister - SCP-354 (The Red Pool)
+pressure:canister:0, Canister - SCP-006 (Fountain of Youth)
+pressure:canister:0, Canister - Shadow Liquid
+pressure:canister:0, Canister - Swamp Water
+pressure:canister:0, Canister - Hydrochloric Acid
 pressure:configurator, Fluid Filter Configurator
 pressure:pipe, High Pressure Pipe
 pressure:check_valve, High Pressure Check Valve
@@ -9417,6 +9422,10 @@ appliedenergistics2:facade:0, Cable Facade - Sky Stone
 appliedenergistics2:facade:0, Cable Facade - Sky Stone Block
 appliedenergistics2:facade:0, Cable Facade - Sky Stone Brick
 appliedenergistics2:facade:0, Cable Facade - Sky Stone Small Brick
+appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
+appliedenergistics2:facade:0, Cable Facade - Lit Redstone Lamp
+appliedenergistics2:facade:0, Cable Facade - Blaze Lantern
+appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
 appliedenergistics2:facade:0, Cable Facade - Swamp Oak Leaves
 appliedenergistics2:facade:0, Cable Facade - White Cave Crystal
 appliedenergistics2:facade:0, Cable Facade - Ender Biotite Ore
@@ -9434,6 +9443,9 @@ appliedenergistics2:facade:0, Cable Facade - Elder Prismarine
 appliedenergistics2:facade:0, Cable Facade - Elder Sea Lantern
 appliedenergistics2:facade:0, Cable Facade - Glowcelium
 appliedenergistics2:facade:0, Cable Facade - Glowshroom
+appliedenergistics2:facade:0, Cable Facade - Sugar Block
+appliedenergistics2:facade:0, Cable Facade - Red Slime Block
+appliedenergistics2:facade:0, Cable Facade - Gravisand
 appliedenergistics2:facade:0, Cable Facade - Polished Sandstone
 appliedenergistics2:facade:0, Cable Facade - Polished Stone
 appliedenergistics2:facade:0, Cable Facade - White Stained Planks
@@ -9462,13 +9474,6 @@ appliedenergistics2:facade:0, Cable Facade - Soul Sandstone
 appliedenergistics2:facade:0, Cable Facade - Turf Block
 appliedenergistics2:facade:0, Cable Facade - Netherwrought Stone
 appliedenergistics2:facade:0, Cable Facade - White Quilted Wool
-appliedenergistics2:facade:0, Cable Facade - Sugar Block
-appliedenergistics2:facade:0, Cable Facade - Red Slime Block
-appliedenergistics2:facade:0, Cable Facade - Gravisand
-appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
-appliedenergistics2:facade:0, Cable Facade - Lit Redstone Lamp
-appliedenergistics2:facade:0, Cable Facade - Blaze Lantern
-appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
 appliedenergistics2:facade:0, Cable Facade - Dense Construction Block
 appliedenergistics2:facade:0, Cable Facade - Block of Aluminum
 appliedenergistics2:facade:0, Cable Facade - Block of Aluminum
@@ -12467,476 +12472,600 @@ appliedenergistics2:facade:0, Cable Facade - Cellular Specimen
 appliedenergistics2:facade:0, Cable Facade - Infected Specimen
 appliedenergistics2:facade:0, Cable Facade - World Purification Core
 appliedenergistics2:facade:0, Cable Facade - Crops Box
+appliedenergistics2:facade:0, Cable Facade - SCP-914 Clockworks Part
+appliedenergistics2:facade:0, Cable Facade - SCP-914 Chamber Part
+appliedenergistics2:facade:0, Cable Facade - Copper Tube
+appliedenergistics2:facade:0, Cable Facade - SCP-009 (Red Ice)
+appliedenergistics2:facade:0, Cable Facade - SCP-143 Leaves (The Bladewood Grove)
+appliedenergistics2:facade:0, Cable Facade - SCP-143 Log (The Bladewood Grove)
+appliedenergistics2:facade:0, Cable Facade - SCP-409 (Contagious Crystal)
+appliedenergistics2:facade:0, Cable Facade - SCP-087 Stair Platform (The Stairwell)
+appliedenergistics2:facade:0, Cable Facade - SCP-087 Wall (The Stairwell)
+appliedenergistics2:facade:0, Cable Facade - SCP-087-1 Spawner
+appliedenergistics2:facade:0, Cable Facade - Ceiling
+appliedenergistics2:facade:0, Cable Facade - Ceiling Grate
+appliedenergistics2:facade:0, Cable Facade - Ceiling Tile
+appliedenergistics2:facade:0, Cable Facade - Containment Floor
+appliedenergistics2:facade:0, Cable Facade - Floor A
+appliedenergistics2:facade:0, Cable Facade - Floor B
+appliedenergistics2:facade:0, Cable Facade - Plaster Wall
+appliedenergistics2:facade:0, Cable Facade - Foundation Vent
+appliedenergistics2:facade:0, Cable Facade - Wall A
+appliedenergistics2:facade:0, Cable Facade - Wall B
+appliedenergistics2:facade:0, Cable Facade - Wall C
+appliedenergistics2:facade:0, Cable Facade - Wall D
+appliedenergistics2:facade:0, Cable Facade - Wall E
+appliedenergistics2:facade:0, Cable Facade - Wall F
+appliedenergistics2:facade:0, Cable Facade - Wall G
+appliedenergistics2:facade:0, Cable Facade - White Wall
+appliedenergistics2:facade:0, Cable Facade - Reinforced Wall A
+appliedenergistics2:facade:0, Cable Facade - Reinforced Wall B
+appliedenergistics2:facade:0, Cable Facade - Reinforced Wall C
+appliedenergistics2:facade:0, Cable Facade - Steel
+appliedenergistics2:facade:0, Cable Facade - SCP-1162 (A Hole in the Wall)
+appliedenergistics2:facade:0, Cable Facade - Exterior Bottom
+appliedenergistics2:facade:0, Cable Facade - Exterior Middle
+appliedenergistics2:facade:0, Cable Facade - Exterior Top
+appliedenergistics2:facade:0, Cable Facade - Medical Bottom
+appliedenergistics2:facade:0, Cable Facade - Medical Middle
+appliedenergistics2:facade:0, Cable Facade - Office Bottom
+appliedenergistics2:facade:0, Cable Facade - Office Top
+appliedenergistics2:facade:0, Cable Facade - Pipe Wall
+appliedenergistics2:facade:0, Cable Facade - Old White Wall
+appliedenergistics2:facade:0, Cable Facade - Reinforced Iron
+appliedenergistics2:facade:0, Cable Facade - Sublevel Wall A
+appliedenergistics2:facade:0, Cable Facade - Sublevel Wall B
+appliedenergistics2:facade:0, Cable Facade - Sublevel Wall C
+appliedenergistics2:facade:0, Cable Facade - Reinforced Sublevel Wall A
+appliedenergistics2:facade:0, Cable Facade - Reinforced Sublevel Wall B
+appliedenergistics2:facade:0, Cable Facade - Reinforced Sublevel Wall C
+appliedenergistics2:facade:0, Cable Facade - Pocket Dimension Block
+appliedenergistics2:facade:0, Cable Facade - Pocket Dimension Corridor A
+appliedenergistics2:facade:0, Cable Facade - Pocket Dimension Corridor B
+appliedenergistics2:facade:0, Cable Facade - Pocket Dimension Corridor C
+appliedenergistics2:facade:0, Cable Facade - Pocket Dimension Corridor Floor
+appliedenergistics2:facade:0, Cable Facade - Pocket Dimension Floor
+appliedenergistics2:facade:0, Cable Facade - Bag Wall
+appliedenergistics2:facade:0, Cable Facade - Eye Block
+appliedenergistics2:facade:0, Cable Facade - Cogs (914)
+appliedenergistics2:facade:0, Cable Facade - Metal (914)
+appliedenergistics2:facade:0, Cable Facade - Vanqar Tree Leaves (860)
+appliedenergistics2:facade:0, Cable Facade - Vanqar Tree Log (860)
+appliedenergistics2:facade:0, Cable Facade - Path (860)
+appliedenergistics2:facade:0, Cable Facade - Dirt (860)
+appliedenergistics2:facade:0, Cable Facade - Telekill Ore
+appliedenergistics2:facade:0, Cable Facade - Gel Block
+appliedenergistics2:facade:0, Cable Facade - SCP-002 Metal (The "Living" Room)
+appliedenergistics2:facade:0, Cable Facade - Ventilation
+appliedenergistics2:facade:0, Cable Facade - Grate
+appliedenergistics2:facade:0, Cable Facade - Heat Resistant Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Telekill
+appliedenergistics2:facade:0, Cable Facade - SCP-143 Planks (The Bladewood Grove)
+appliedenergistics2:facade:0, Cable Facade - SCP-124 (Fertile Soil)
+appliedenergistics2:facade:0, Cable Facade - Cooler
+appliedenergistics2:facade:0, Cable Facade - SCP-553 Nest (Crystalline Butterflies)
+appliedenergistics2:facade:0, Cable Facade - White Pipe
+appliedenergistics2:facade:0, Cable Facade - Orange Pipe
+appliedenergistics2:facade:0, Cable Facade - Magenta Pipe
+appliedenergistics2:facade:0, Cable Facade - Light Blue Pipe
+appliedenergistics2:facade:0, Cable Facade - Yellow Pipe
+appliedenergistics2:facade:0, Cable Facade - Lime Pipe
+appliedenergistics2:facade:0, Cable Facade - Pink Pipe
+appliedenergistics2:facade:0, Cable Facade - Gray Pipe
+appliedenergistics2:facade:0, Cable Facade - Silver Pipe
+appliedenergistics2:facade:0, Cable Facade - Cyan Pipe
+appliedenergistics2:facade:0, Cable Facade - Purple Pipe
+appliedenergistics2:facade:0, Cable Facade - Blue Pipe
+appliedenergistics2:facade:0, Cable Facade - Brown Pipe
+appliedenergistics2:facade:0, Cable Facade - Green Pipe
+appliedenergistics2:facade:0, Cable Facade - Red Pipe
+appliedenergistics2:facade:0, Cable Facade - Black Pipe
+appliedenergistics2:facade:0, Cable Facade - Magnetized Block
+appliedenergistics2:facade:0, Cable Facade - Corroded Metal
+appliedenergistics2:facade:0, Cable Facade - Swamp Grass
+appliedenergistics2:facade:0, Cable Facade - Electric Wool
+appliedenergistics2:facade:0, Cable Facade - SCP-015 Connector (Pipe Nightmare)
+appliedenergistics2:facade:0, Cable Facade - Armory Top A
+appliedenergistics2:facade:0, Cable Facade - Armory Bottom A
+appliedenergistics2:facade:0, Cable Facade - Armory Top B
+appliedenergistics2:facade:0, Cable Facade - Armory Bottom B
+appliedenergistics2:facade:0, Cable Facade - Laboratory Top A
+appliedenergistics2:facade:0, Cable Facade - Laboratory Bottom A
+appliedenergistics2:facade:0, Cable Facade - Laboratory Top B
+appliedenergistics2:facade:0, Cable Facade - Laboratory Bottom B
+appliedenergistics2:facade:0, Cable Facade - Metal Panel A
+appliedenergistics2:facade:0, Cable Facade - Metal Panel B
+appliedenergistics2:facade:0, Cable Facade - Metal Panel C
+appliedenergistics2:facade:0, Cable Facade - Metal Sublevel
+appliedenergistics2:facade:0, Cable Facade - Green Panel A
+appliedenergistics2:facade:0, Cable Facade - Green Panel B
+appliedenergistics2:facade:0, Cable Facade - Green Panel C
+appliedenergistics2:facade:0, Cable Facade - Green Panel D
+appliedenergistics2:facade:0, Cable Facade - Metal Floor A
+appliedenergistics2:facade:0, Cable Facade - Metal Floor B
+appliedenergistics2:facade:0, Cable Facade - Metal Wall A
+appliedenergistics2:facade:0, Cable Facade - Metal Wall B
+appliedenergistics2:facade:0, Cable Facade - Steel Floor
+appliedenergistics2:facade:0, Cable Facade - Reinforced Granite
+appliedenergistics2:facade:0, Cable Facade - Reinforced Quartz
 appliedenergistics2:facade:0, Cable Facade - Hollowed Hivecoral
 appliedenergistics2:facade:0, Cable Facade - Infested Coral
-appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Tin Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Tin Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Gold Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Tin Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Coal Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Amber Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Coal Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Tin Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Amber Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Gold Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Coal Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Gold Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Tin Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Lead Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Amber Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Lead Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Iron Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Lead Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Amber Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Gold Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Iron Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Gold Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Coal Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Lead Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Tin Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Iron Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Lead Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Stone Puzzle Cube (345)
+appliedenergistics2:facade:0, Cable Facade - Bacon Cheeseburger that Demands Justification (3808)
+appliedenergistics2:facade:0, Cable Facade - ???
+appliedenergistics2:facade:0, Cable Facade - ???
+appliedenergistics2:facade:0, Cable Facade - Jade Ore
+appliedenergistics2:facade:0, Cable Facade - SCP-447
+appliedenergistics2:facade:0, Cable Facade - SCP-1689
+appliedenergistics2:facade:0, Cable Facade - Block Of Potatoes
 appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Slate)
 appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Lead Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Lead Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Lead Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Iron Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Tin Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Lead Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Iron Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Coal Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Lead Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Lead Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Amber Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Stone)
 appliedenergistics2:facade:0, Cable Facade - Lead Ore (Marble)
 appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Coal Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Tin Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Amber Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Limestone)
 appliedenergistics2:facade:0, Cable Facade - Gold Ore (Andesite)
 appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Andesite)
 appliedenergistics2:facade:0, Cable Facade - Silver Ore (Granite)
 appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Lead Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Iron Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Lead Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Lead Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Andesite)
 appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Slate)
 appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Coal Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Gold Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Lead Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Lead Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Tin Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Tin Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Amber Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Lead Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Tin Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Lead Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Coal Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Amber Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Gold Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Coal Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Tin Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Amber Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Iron Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Gold Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Amber Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Coal Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Gold Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Gold Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Iron Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Jasper)
 appliedenergistics2:facade:0, Cable Facade - Lead Ore (Marble)
 appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Tin Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Iron Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Coal Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Amber Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Diorite)
 appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Andesite)
 appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Andesite)
 appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Andesite)
 appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Gold Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Lead Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Stone)
 appliedenergistics2:facade:0, Cable Facade - Lead Ore (Slate)
 appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Tin Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Amber Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Iron Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Lead Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Gold Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Iron Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Amber Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Coal Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Amber Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Limestone)
-appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Silver Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Lead Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Copper Ore (Stone)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Marble)
 appliedenergistics2:facade:0, Cable Facade - Copper Ore (Jasper)
 appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Jasper)
-appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Slate)
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Gold Ore (Granite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Amber Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Amber Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Iron Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Lead Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Gold Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Lead Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Iron Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Amber Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Iron Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Tin Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Amber Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Amber Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Lead Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Coal Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Lead Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Ruby Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Ruby Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Gold Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Coal Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Lead Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Sapphire Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Sapphire Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Tin Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Uranium Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Uranium Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Iron Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Lead Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Lead Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Lapis Lazuli Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lapis Lazuli Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Coal Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Malachite Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Malachite Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Iron Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Slate)
 appliedenergistics2:facade:0, Cable Facade - Coal Ore (Stone)
 appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Peridot Ore (Stone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Peridot Ore (Stone)
 appliedenergistics2:facade:0, Cable Facade - Bauxite Ore (Diorite)
 appliedenergistics2:facade:0, Cable Facade - Dense§r Bauxite Ore (Diorite)
-appliedenergistics2:facade:0, Cable Facade - Coal Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Coal Ore (Marble)
-appliedenergistics2:facade:0, Cable Facade - Iron Ore (Andesite)
-appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Gold Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Gold Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Tin Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Limestone)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Diorite)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Copper Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Lead Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Diamond Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Diamond Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Tanzanite Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tanzanite Ore (Andesite)
+appliedenergistics2:facade:0, Cable Facade - Topaz Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Topaz Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Iron Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Iron Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Nickel Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Tin Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Tin Ore (Marble)
+appliedenergistics2:facade:0, Cable Facade - Lead Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Lead Ore (Jasper)
+appliedenergistics2:facade:0, Cable Facade - Redstone Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Redstone Ore (Granite)
+appliedenergistics2:facade:0, Cable Facade - Silver Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Silver Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Emerald Ore (Slate)
+appliedenergistics2:facade:0, Cable Facade - Dense§r Emerald Ore (Slate)
 appliedenergistics2:facade:0, Cable Facade - Block of Raw Iron
 appliedenergistics2:facade:0, Cable Facade - Block of Raw Gold
 appliedenergistics2:crystal_seed:0, Certus Quartz Seed
@@ -13169,6 +13298,123 @@ appliedenergistics2:part:380, ME Terminal
 appliedenergistics2:part:80, ME Toggle Bus
 antiqueatlas:empty_antique_atlas, Empty Antique Atlas
 antiqueatlas:antique_atlas:0, Antique Atlas #0
+quark:glass_shards:0, Glass Shard
+quark:glass_shards:1, White Glass Shard
+quark:glass_shards:2, Orange Glass Shard
+quark:glass_shards:3, Magenta Glass Shard
+quark:glass_shards:4, Light Blue Glass Shard
+quark:glass_shards:5, Yellow Glass Shard
+quark:glass_shards:6, Lime Glass Shard
+quark:glass_shards:7, Pink Glass Shard
+quark:glass_shards:8, Gray Glass Shard
+quark:glass_shards:9, Light Gray Glass Shard
+quark:glass_shards:10, Cyan Glass Shard
+quark:glass_shards:11, Purple Glass Shard
+quark:glass_shards:12, Blue Glass Shard
+quark:glass_shards:13, Brown Glass Shard
+quark:glass_shards:14, Green Glass Shard
+quark:glass_shards:15, Red Glass Shard
+quark:glass_shards:16, Black Glass Shard
+quark:spruce_trapdoor, tile.spruce_trapdoor.name
+quark:birch_trapdoor, tile.birch_trapdoor.name
+quark:jungle_trapdoor, tile.jungle_trapdoor.name
+quark:acacia_trapdoor, tile.acacia_trapdoor.name
+quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
+quark:paper_wall, tile.paper_wall.name
+quark:paper_wall_big, tile.paper_wall_big.name
+quark:paper_wall_sakura, tile.paper_wall_sakura.name
+quark:iron_ladder, tile.iron_ladder.name
+quark:paper_lantern:0, Paper Lamp
+quark:paper_lantern:1, Decorated Paper Lamp
+quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
+quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
+quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
+quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
+quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
+quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
+quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
+quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
+quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
+quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
+quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
+quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
+quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
+quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
+quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
+quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
+quark:custom_bookshelf:0, Spruce Bookshelf
+quark:custom_bookshelf:1, Birch Bookshelf
+quark:custom_bookshelf:2, Jungle Bookshelf
+quark:custom_bookshelf:3, Acacia Bookshelf
+quark:custom_bookshelf:4, Dark Oak Bookshelf
+quark:colored_item_frame:0, White Item Frame
+quark:colored_item_frame:1, Orange Item Frame
+quark:colored_item_frame:2, Magenta Item Frame
+quark:colored_item_frame:3, Light Blue Item Frame
+quark:colored_item_frame:4, Yellow Item Frame
+quark:colored_item_frame:5, Lime Item Frame
+quark:colored_item_frame:6, Pink Item Frame
+quark:colored_item_frame:7, Gray Item Frame
+quark:colored_item_frame:8, Light Gray Item Frame
+quark:colored_item_frame:9, Cyan Item Frame
+quark:colored_item_frame:10, Purple Item Frame
+quark:colored_item_frame:11, Blue Item Frame
+quark:colored_item_frame:12, Brown Item Frame
+quark:colored_item_frame:13, Green Item Frame
+quark:colored_item_frame:14, Red Item Frame
+quark:colored_item_frame:15, Black Item Frame
+quark:lit_lamp, tile.lit_lamp.name
+quark:custom_chest:0, Spruce Chest
+quark:custom_chest:1, Birch Chest
+quark:custom_chest:2, Jungle Chest
+quark:custom_chest:3, Acacia Chest
+quark:custom_chest:4, Dark Oak Chest
+quark:custom_chest_trap:0, Spruce Trapped Chest
+quark:custom_chest_trap:1, Birch Trapped Chest
+quark:custom_chest_trap:2, Jungle Trapped Chest
+quark:custom_chest_trap:3, Acacia Trapped Chest
+quark:custom_chest_trap:4, Dark Oak Trapped Chest
+quark:candle:0, White Candle
+quark:candle:1, Orange Candle
+quark:candle:2, Magenta Candle
+quark:candle:3, Light Blue Candle
+quark:candle:4, Yellow Candle
+quark:candle:5, Lime Candle
+quark:candle:6, Pink Candle
+quark:candle:7, Gray Candle
+quark:candle:8, Light Gray Candle
+quark:candle:9, Cyan Candle
+quark:candle:10, Purple Candle
+quark:candle:11, Blue Candle
+quark:candle:12, Brown Candle
+quark:candle:13, Green Candle
+quark:candle:14, Red Candle
+quark:candle:15, Black Candle
+quark:tallow, item.tallow.name
+quark:rope, tile.rope.name
+quark:blaze_lantern, tile.blaze_lantern.name
+quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
+quark:leaf_carpet:0, Oak Leaf Carpet
+quark:leaf_carpet:1, Spruce Leaf Carpet
+quark:leaf_carpet:2, Birch Leaf Carpet
+quark:leaf_carpet:3, Jungle Leaf Carpet
+quark:leaf_carpet:4, Acacia Leaf Carpet
+quark:leaf_carpet:5, Dark Oak Leaf Carpet
+quark:leaf_carpet:6, Swamp Oak Leaf Carpet
+quark:leaf_carpet:7, Blossoming Leaf Carpet
+quark:spruce_pressure_plate, tile.spruce_pressure_plate.name
+quark:birch_pressure_plate, tile.birch_pressure_plate.name
+quark:jungle_pressure_plate, tile.jungle_pressure_plate.name
+quark:acacia_pressure_plate, tile.acacia_pressure_plate.name
+quark:dark_oak_pressure_plate, tile.dark_oak_pressure_plate.name
+quark:spruce_button, tile.spruce_button.name
+quark:birch_button, tile.birch_button.name
+quark:jungle_button, tile.jungle_button.name
+quark:acacia_button, tile.acacia_button.name
+quark:dark_oak_button, tile.dark_oak_button.name
+quark:grate, tile.grate.name
+quark:charcoal_block, tile.charcoal_block.name
+quark:glass_item_frame, item.glass_item_frame.name
 quark:roots, tile.roots.name
 quark:root, item.root.name
 quark:roots_blue_flower, tile.roots_blue_flower.name
@@ -13294,6 +13540,56 @@ quark:glowshroom, tile.glowshroom.name
 quark:glowshroom_block, tile.glowshroom_block.name
 quark:soul_bead, item.soul_bead.name
 quark:smoker, tile.smoker.name
+quark:witch_hat, item.witch_hat.name
+quark:chute, tile.chute.name
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:iron_button, tile.iron_button.name
+quark:gold_button, tile.gold_button.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, Red Slime Block
+quark:color_slime:1, Blue Slime Block
+quark:color_slime:2, Cyan Slime Block
+quark:color_slime:3, Magenta Slime Block
+quark:color_slime:4, Yellow Slime Block
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
+quark:pickarang, item.pickarang.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, Slime in a Bucket
+quark:rune:0, White Rune
+quark:rune:1, Orange Rune
+quark:rune:2, Magenta Rune
+quark:rune:3, Light Blue Rune
+quark:rune:4, Yellow Rune
+quark:rune:5, Lime Rune
+quark:rune:6, Pink Rune
+quark:rune:7, Gray Rune
+quark:rune:8, Light Gray Rune
+quark:rune:9, Cyan Rune
+quark:rune:10, Purple Rune
+quark:rune:11, Blue Rune
+quark:rune:12, Brown Rune
+quark:rune:13, Green Rune
+quark:rune:14, Red Rune
+quark:rune:15, Black Rune
+quark:rune:16, Rainbow Rune
+quark:black_ash, tile.black_ash.name
+quark:ancient_tome, item.ancient_tome.name
+quark:horse_whistle, item.horse_whistle.name
+quark:soul_powder, item.soul_powder.name
+quark:parrot_egg:0, Red Parrot Egg
+quark:parrot_egg:1, Blue Parrot Egg
+quark:parrot_egg:2, Green Parrot Egg
+quark:parrot_egg:3, Cyan Parrot Egg
+quark:parrot_egg:4, Gray Parrot Egg
+quark:enderdragon_scale, item.enderdragon_scale.name
 quark:sandstone_new:0, Polished Sandstone
 quark:sandstone_new:1, Sandstone Bricks
 quark:sandstone_new:2, Polished Red Sandstone
@@ -13614,173 +13910,6 @@ quark:quilted_wool:12, Brown Quilted Wool
 quark:quilted_wool:13, Green Quilted Wool
 quark:quilted_wool:14, Red Quilted Wool
 quark:quilted_wool:15, Black Quilted Wool
-quark:chute, tile.chute.name
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:iron_button, tile.iron_button.name
-quark:gold_button, tile.gold_button.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:iron_rod, tile.iron_rod.name
-quark:color_slime:0, Red Slime Block
-quark:color_slime:1, Blue Slime Block
-quark:color_slime:2, Cyan Slime Block
-quark:color_slime:3, Magenta Slime Block
-quark:color_slime:4, Yellow Slime Block
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
-quark:pickarang, item.pickarang.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, Slime in a Bucket
-quark:rune:0, White Rune
-quark:rune:1, Orange Rune
-quark:rune:2, Magenta Rune
-quark:rune:3, Light Blue Rune
-quark:rune:4, Yellow Rune
-quark:rune:5, Lime Rune
-quark:rune:6, Pink Rune
-quark:rune:7, Gray Rune
-quark:rune:8, Light Gray Rune
-quark:rune:9, Cyan Rune
-quark:rune:10, Purple Rune
-quark:rune:11, Blue Rune
-quark:rune:12, Brown Rune
-quark:rune:13, Green Rune
-quark:rune:14, Red Rune
-quark:rune:15, Black Rune
-quark:rune:16, Rainbow Rune
-quark:black_ash, tile.black_ash.name
-quark:ancient_tome, item.ancient_tome.name
-quark:horse_whistle, item.horse_whistle.name
-quark:soul_powder, item.soul_powder.name
-quark:parrot_egg:0, Red Parrot Egg
-quark:parrot_egg:1, Blue Parrot Egg
-quark:parrot_egg:2, Green Parrot Egg
-quark:parrot_egg:3, Cyan Parrot Egg
-quark:parrot_egg:4, Gray Parrot Egg
-quark:enderdragon_scale, item.enderdragon_scale.name
-quark:witch_hat, item.witch_hat.name
-quark:glass_shards:0, Glass Shard
-quark:glass_shards:1, White Glass Shard
-quark:glass_shards:2, Orange Glass Shard
-quark:glass_shards:3, Magenta Glass Shard
-quark:glass_shards:4, Light Blue Glass Shard
-quark:glass_shards:5, Yellow Glass Shard
-quark:glass_shards:6, Lime Glass Shard
-quark:glass_shards:7, Pink Glass Shard
-quark:glass_shards:8, Gray Glass Shard
-quark:glass_shards:9, Light Gray Glass Shard
-quark:glass_shards:10, Cyan Glass Shard
-quark:glass_shards:11, Purple Glass Shard
-quark:glass_shards:12, Blue Glass Shard
-quark:glass_shards:13, Brown Glass Shard
-quark:glass_shards:14, Green Glass Shard
-quark:glass_shards:15, Red Glass Shard
-quark:glass_shards:16, Black Glass Shard
-quark:spruce_trapdoor, tile.spruce_trapdoor.name
-quark:birch_trapdoor, tile.birch_trapdoor.name
-quark:jungle_trapdoor, tile.jungle_trapdoor.name
-quark:acacia_trapdoor, tile.acacia_trapdoor.name
-quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
-quark:paper_wall, tile.paper_wall.name
-quark:paper_wall_big, tile.paper_wall_big.name
-quark:paper_wall_sakura, tile.paper_wall_sakura.name
-quark:iron_ladder, tile.iron_ladder.name
-quark:paper_lantern:0, Paper Lamp
-quark:paper_lantern:1, Decorated Paper Lamp
-quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
-quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
-quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
-quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
-quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
-quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
-quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
-quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
-quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
-quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
-quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
-quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
-quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
-quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
-quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
-quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
-quark:custom_bookshelf:0, Spruce Bookshelf
-quark:custom_bookshelf:1, Birch Bookshelf
-quark:custom_bookshelf:2, Jungle Bookshelf
-quark:custom_bookshelf:3, Acacia Bookshelf
-quark:custom_bookshelf:4, Dark Oak Bookshelf
-quark:colored_item_frame:0, White Item Frame
-quark:colored_item_frame:1, Orange Item Frame
-quark:colored_item_frame:2, Magenta Item Frame
-quark:colored_item_frame:3, Light Blue Item Frame
-quark:colored_item_frame:4, Yellow Item Frame
-quark:colored_item_frame:5, Lime Item Frame
-quark:colored_item_frame:6, Pink Item Frame
-quark:colored_item_frame:7, Gray Item Frame
-quark:colored_item_frame:8, Light Gray Item Frame
-quark:colored_item_frame:9, Cyan Item Frame
-quark:colored_item_frame:10, Purple Item Frame
-quark:colored_item_frame:11, Blue Item Frame
-quark:colored_item_frame:12, Brown Item Frame
-quark:colored_item_frame:13, Green Item Frame
-quark:colored_item_frame:14, Red Item Frame
-quark:colored_item_frame:15, Black Item Frame
-quark:lit_lamp, tile.lit_lamp.name
-quark:custom_chest:0, Spruce Chest
-quark:custom_chest:1, Birch Chest
-quark:custom_chest:2, Jungle Chest
-quark:custom_chest:3, Acacia Chest
-quark:custom_chest:4, Dark Oak Chest
-quark:custom_chest_trap:0, Spruce Trapped Chest
-quark:custom_chest_trap:1, Birch Trapped Chest
-quark:custom_chest_trap:2, Jungle Trapped Chest
-quark:custom_chest_trap:3, Acacia Trapped Chest
-quark:custom_chest_trap:4, Dark Oak Trapped Chest
-quark:candle:0, White Candle
-quark:candle:1, Orange Candle
-quark:candle:2, Magenta Candle
-quark:candle:3, Light Blue Candle
-quark:candle:4, Yellow Candle
-quark:candle:5, Lime Candle
-quark:candle:6, Pink Candle
-quark:candle:7, Gray Candle
-quark:candle:8, Light Gray Candle
-quark:candle:9, Cyan Candle
-quark:candle:10, Purple Candle
-quark:candle:11, Blue Candle
-quark:candle:12, Brown Candle
-quark:candle:13, Green Candle
-quark:candle:14, Red Candle
-quark:candle:15, Black Candle
-quark:tallow, item.tallow.name
-quark:rope, tile.rope.name
-quark:blaze_lantern, tile.blaze_lantern.name
-quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
-quark:leaf_carpet:0, Oak Leaf Carpet
-quark:leaf_carpet:1, Spruce Leaf Carpet
-quark:leaf_carpet:2, Birch Leaf Carpet
-quark:leaf_carpet:3, Jungle Leaf Carpet
-quark:leaf_carpet:4, Acacia Leaf Carpet
-quark:leaf_carpet:5, Dark Oak Leaf Carpet
-quark:leaf_carpet:6, Swamp Oak Leaf Carpet
-quark:leaf_carpet:7, Blossoming Leaf Carpet
-quark:spruce_pressure_plate, tile.spruce_pressure_plate.name
-quark:birch_pressure_plate, tile.birch_pressure_plate.name
-quark:jungle_pressure_plate, tile.jungle_pressure_plate.name
-quark:acacia_pressure_plate, tile.acacia_pressure_plate.name
-quark:dark_oak_pressure_plate, tile.dark_oak_pressure_plate.name
-quark:spruce_button, tile.spruce_button.name
-quark:birch_button, tile.birch_button.name
-quark:jungle_button, tile.jungle_button.name
-quark:acacia_button, tile.acacia_button.name
-quark:dark_oak_button, tile.dark_oak_button.name
-quark:grate, tile.grate.name
-quark:charcoal_block, tile.charcoal_block.name
-quark:glass_item_frame, item.glass_item_frame.name
 potionfingers:ring:0, Potion Ring
 potionfingers:ring:1, Potion Ring of Speed
 potionfingers:ring:1, Potion Ring of Haste
@@ -15163,35 +15292,6 @@ nb:black_bricks_slab_half:0, Blackstone Bricks Slab
 nb:polished_black_stone_slab_half:0, Polished Blackstone Slab
 nb:crimson_slab_half:0, Crimson Slab
 nb:warped_slab_half:0, Warped Slab
-oe:turtle_helmet, Turtle Shell
-oe:trident, Trident
-oe:turtle_scute, Scute
-oe:barnacle_shells, Barnacle Shells
-oe:nautilus_shell, Nautilus Shell
-oe:heart_of_the_sea, Heart of the Sea
-oe:pearl, Pearl
-oe:conch, Conch
-oe:magic_conch, Magic Conch
-oe:charm, Conduit Charm
-oe:glow_ink_sac, Glow Ink Sac
-oe:glow_item_frame, Glow Item Frame
-oe:bleak, Bleak Mulch
-oe:sponge_chunk, Sponge Chunk
-oe:sponge_chunk_wet, Damp Sponge Chunk
-oe:crab, Raw Crab
-oe:cooked_crab, Cooked Crab
-oe:crab_bisque, Crab Bisque
-oe:crustacean_shell, Crustacean Shell
-oe:lobster, Raw Lobster
-oe:cooked_lobster, Cooked Lobster
-oe:lobster_bisque, Lobster Bisque
-oe:blue_slime_ball, Tropical Slimeball
-oe:coconut_open, Cracked Coconut
-oe:dried_kelp, Dried Kelp
-oe:dried_dulse, Dried Dulse
-oe:palm_boat, Palm Boat
-oe:spawn_bucket, Bucket of %s
-oe:heavy_boots, Heavy Boots
 oe:guardian_spike, Guardian Spike
 oe:sea_pickle, Sea Pickle
 oe:turtle_egg, Turtle Egg
@@ -15265,6 +15365,35 @@ oe:shell_sand, Shelly Sand
 oe:tube_sponge, Tube Sponge
 oe:underwater_tnt, Underwater TNT
 oe:underwater_torch, Underwater Torch
+oe:turtle_helmet, Turtle Shell
+oe:trident, Trident
+oe:turtle_scute, Scute
+oe:barnacle_shells, Barnacle Shells
+oe:nautilus_shell, Nautilus Shell
+oe:heart_of_the_sea, Heart of the Sea
+oe:pearl, Pearl
+oe:conch, Conch
+oe:magic_conch, Magic Conch
+oe:charm, Conduit Charm
+oe:glow_ink_sac, Glow Ink Sac
+oe:glow_item_frame, Glow Item Frame
+oe:bleak, Bleak Mulch
+oe:sponge_chunk, Sponge Chunk
+oe:sponge_chunk_wet, Damp Sponge Chunk
+oe:crab, Raw Crab
+oe:cooked_crab, Cooked Crab
+oe:crab_bisque, Crab Bisque
+oe:crustacean_shell, Crustacean Shell
+oe:lobster, Raw Lobster
+oe:cooked_lobster, Cooked Lobster
+oe:lobster_bisque, Lobster Bisque
+oe:blue_slime_ball, Tropical Slimeball
+oe:coconut_open, Cracked Coconut
+oe:dried_kelp, Dried Kelp
+oe:dried_dulse, Dried Dulse
+oe:palm_boat, Palm Boat
+oe:spawn_bucket, Bucket of %s
+oe:heavy_boots, Heavy Boots
 rftools:smartwrench, Smart Wrench
 rftools:rftools_manual, RFTools Manual
 rftools:rftools_shape_manual, RFTools Shape Manual
@@ -15474,50 +15603,6 @@ spartanshields:shield_tc_void, Void Plated Shield
 spartanshields:shield_riot_enderio, Dark Steel Riot Shield
 spartanshields:shield_riot_rftools, Infused Riot Shield
 spartanshields:shield_flux_ra, Flux-Infused Shield
-srparasites:infested_furnace, Infested Furnace
-srparasites:parasiterubbleslabhalf:0, Concentrated Flesh Slab
-srparasites:parasiterubbleslabhalf:1, Fortified Bone Slab
-srparasites:parasiterubbleslabhalf:2, Hivestone Slab
-srparasites:parasiterubbleslabhalf:3, Hivestone Debris Slab
-srparasites:parasiterubbleslabhalf:4, Consumed Wood Slab
-srparasites:parasiterubbleslabhalf:5, Hivestone Brick Slab
-srparasites:parasiterubbleslabhalf:6, Hivesteel Slab
-srparasites:parasiterubbleslabhalf:7, Bleeding Obsidian Slab
-srparasites:parasitestainslabhalf:0, Hivesoil Slab
-srparasites:parasitestainslabhalf:1, Visceral Mud Slab
-srparasites:parasitestainslabhalf:2, Flesh Chunk Slab
-srparasites:parasitestainslabhalf:3, Compressed Artery Slab
-srparasites:parasitestainslabhalf:4, Mycelium Network Slab
-srparasites:parasitestainslabhalf:5, Contusion Slab
-srparasites:parasitestainslabhalf:6, Sacked Flesh Slab
-srparasites:relay_base, Relay Terminal §l|§r §oBottom
-srparasites:relay_middle, Relay Structure §l|§r §oMiddle
-srparasites:relay_roof, Relay Antennas §l|§r §oTop
-srparasites:relaycontroller, Relay Controller
-srparasites:flesh_stairs, Flesh Plank Stairs
-srparasites:cooked_flesh_stairs, Cooked Flesh Stairs
-srparasites:harleskinn_stairs, Harleskinn Stairs
-srparasites:bruisewood_plank_stairs, Bruisewood Plank Stairs
-srparasites:infested_sandstone_stairs, Infested Sandstone Stairs
-srparasites:goth_planks_stairs, Goth Planks Stairs
-srparasites:infested_planks_stairs, Infested Planks Stairs
-srparasites:frost_weathered_stone_stairs, Frost Weathered Stone Stairs
-srparasites:consumed_planks_stairs, Consumed Plank Stairs
-srparasites:infested_stone_bricks_stairs, Infested Stone Bricks Stairs
-srparasites:infested_polished_stone_bricks_stairs, Infested Polished Stone Bricks Stairs
-srparasites:infested_stone_stairs, Infested Stone Stairs
-srparasites:wheathered_bricks_stairs, Weathered Bricks Stairs
-srparasites:wheathered_cobblestone_stairs, Weathered Cobblestone Stairs
-srparasites:deadhead_plank_stairs, Deadhead Stairs
-srparasites:residue_stairs, Residue Brick Stairs
-srparasites:harleskinn_fence, Harleskinn Fence
-srparasites:infested_fence, Infested Fence
-srparasites:deadhead_fence, Deadhead Fence
-srparasites:goth_fence, Goth Fence
-srparasites:consumed_fence, Consumed Fence
-srparasites:bruisewood_fence, Bruisewood Fence
-srparasites:flesh_fence, Flesh Fence
-srparasites:cooked_flesh_fence, Cooked Flesh Fence
 srparasites:infestedstain, Infested Dirt
 srparasites:infestremain, Infested Residue
 srparasites:infestedtrunk, Infested Log
@@ -16052,6 +16137,50 @@ srparasites:hijacked_iron_leggings, Hijacked Iron Leggings
 srparasites:hijacked_iron_boots, Hijacked Iron Boots
 srparasites:discthree, §bSerenity
 srparasites:thornshade_decanter, §5Thornshade Decanter
+srparasites:infested_furnace, Infested Furnace
+srparasites:parasiterubbleslabhalf:0, Concentrated Flesh Slab
+srparasites:parasiterubbleslabhalf:1, Fortified Bone Slab
+srparasites:parasiterubbleslabhalf:2, Hivestone Slab
+srparasites:parasiterubbleslabhalf:3, Hivestone Debris Slab
+srparasites:parasiterubbleslabhalf:4, Consumed Wood Slab
+srparasites:parasiterubbleslabhalf:5, Hivestone Brick Slab
+srparasites:parasiterubbleslabhalf:6, Hivesteel Slab
+srparasites:parasiterubbleslabhalf:7, Bleeding Obsidian Slab
+srparasites:parasitestainslabhalf:0, Hivesoil Slab
+srparasites:parasitestainslabhalf:1, Visceral Mud Slab
+srparasites:parasitestainslabhalf:2, Flesh Chunk Slab
+srparasites:parasitestainslabhalf:3, Compressed Artery Slab
+srparasites:parasitestainslabhalf:4, Mycelium Network Slab
+srparasites:parasitestainslabhalf:5, Contusion Slab
+srparasites:parasitestainslabhalf:6, Sacked Flesh Slab
+srparasites:relay_base, Relay Terminal §l|§r §oBottom
+srparasites:relay_middle, Relay Structure §l|§r §oMiddle
+srparasites:relay_roof, Relay Antennas §l|§r §oTop
+srparasites:relaycontroller, Relay Controller
+srparasites:flesh_stairs, Flesh Plank Stairs
+srparasites:cooked_flesh_stairs, Cooked Flesh Stairs
+srparasites:harleskinn_stairs, Harleskinn Stairs
+srparasites:bruisewood_plank_stairs, Bruisewood Plank Stairs
+srparasites:infested_sandstone_stairs, Infested Sandstone Stairs
+srparasites:goth_planks_stairs, Goth Planks Stairs
+srparasites:infested_planks_stairs, Infested Planks Stairs
+srparasites:frost_weathered_stone_stairs, Frost Weathered Stone Stairs
+srparasites:consumed_planks_stairs, Consumed Plank Stairs
+srparasites:infested_stone_bricks_stairs, Infested Stone Bricks Stairs
+srparasites:infested_polished_stone_bricks_stairs, Infested Polished Stone Bricks Stairs
+srparasites:infested_stone_stairs, Infested Stone Stairs
+srparasites:wheathered_bricks_stairs, Weathered Bricks Stairs
+srparasites:wheathered_cobblestone_stairs, Weathered Cobblestone Stairs
+srparasites:deadhead_plank_stairs, Deadhead Stairs
+srparasites:residue_stairs, Residue Brick Stairs
+srparasites:harleskinn_fence, Harleskinn Fence
+srparasites:infested_fence, Infested Fence
+srparasites:deadhead_fence, Deadhead Fence
+srparasites:goth_fence, Goth Fence
+srparasites:consumed_fence, Consumed Fence
+srparasites:bruisewood_fence, Bruisewood Fence
+srparasites:flesh_fence, Flesh Fence
+srparasites:cooked_flesh_fence, Cooked Flesh Fence
 qualitytools:emerald_ring, Emerald Ring
 qualitytools:emerald_amulet, Emerald Amulet
 qualitytools:reforging_station, Reforging Station
@@ -16125,31 +16254,31 @@ rftoolsdim:structure_essence:8, Structure Swamp Hut Essence
 rftoolsdim:structure_essence:9, Structure Desert Temple Essence
 rftoolsdim:structure_essence:10, Structure Jungle Temple Essence
 rftoolsdim:structure_essence:11, Structure Igloo Essence
-rftoolsdim:known_dimlet:6, Terrain Dimlet (Flat)
-rftoolsdim:known_dimlet:9, Digit Dimlet (9)
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
-rftoolsdim:known_dimlet:5, Structure Dimlet (None)
-rftoolsdim:known_dimlet:6, Terrain Dimlet (Void)
-rftoolsdim:known_dimlet:10, Effect Dimlet (None)
-rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
-rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
 rftoolsdim:known_dimlet:4, Sky Dimlet (Normal night)
-rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal day)
-rftoolsdim:known_dimlet:13, Weather Dimlet (Default)
-rftoolsdim:known_dimlet:8, Time Dimlet (Normal)
-rftoolsdim:known_dimlet:9, Digit Dimlet (0)
+rftoolsdim:known_dimlet:6, Terrain Dimlet (Void)
 rftoolsdim:known_dimlet:7, Feature Dimlet (None)
-rftoolsdim:known_dimlet:9, Digit Dimlet (8)
-rftoolsdim:known_dimlet:9, Digit Dimlet (7)
-rftoolsdim:known_dimlet:9, Digit Dimlet (6)
-rftoolsdim:known_dimlet:9, Digit Dimlet (5)
-rftoolsdim:known_dimlet:9, Digit Dimlet (4)
+rftoolsdim:known_dimlet:3, Mob Dimlet (Default)
+rftoolsdim:known_dimlet:10, Effect Dimlet (None)
+rftoolsdim:known_dimlet:9, Digit Dimlet (1)
+rftoolsdim:known_dimlet:9, Digit Dimlet (0)
+rftoolsdim:known_dimlet:13, Weather Dimlet (Default)
 rftoolsdim:known_dimlet:9, Digit Dimlet (3)
 rftoolsdim:known_dimlet:9, Digit Dimlet (2)
+rftoolsdim:known_dimlet:9, Digit Dimlet (5)
+rftoolsdim:known_dimlet:9, Digit Dimlet (4)
+rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
+rftoolsdim:known_dimlet:9, Digit Dimlet (7)
+rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
+rftoolsdim:known_dimlet:9, Digit Dimlet (6)
+rftoolsdim:known_dimlet:9, Digit Dimlet (9)
+rftoolsdim:known_dimlet:9, Digit Dimlet (8)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
 rftoolsdim:known_dimlet:2, Material Dimlet (Stone)
-rftoolsdim:known_dimlet:3, Mob Dimlet (Default)
-rftoolsdim:known_dimlet:9, Digit Dimlet (1)
+rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
+rftoolsdim:known_dimlet:6, Terrain Dimlet (Flat)
+rftoolsdim:known_dimlet:5, Structure Dimlet (None)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal day)
+rftoolsdim:known_dimlet:8, Time Dimlet (Normal)
 rftoolsdim:efficiency_essence, Efficiency Essence
 rftoolsdim:mediocre_efficiency_essence, Mediocre Efficiency Essence
 rftoolsdim:empty_dimension_tab, Empty Dimension Tab
@@ -25887,6 +26016,223 @@ portalgun:item_portalgun:0, Portal Gun
 portalgun:item_portalgun:0, Portal Gun
 portalgun:item_portalgun:0, Portal Gun
 portalgun:item_portalgun:0, Portal Gun
+scp:020_container, SCP-020 Container
+scp:coffeemachine, SCP-294 (The Coffee Machine)
+scp:vending_machine, SCP-261 (Pan-Dimensional Vending)
+scp:clockwork_base, SCP-914 Clockworks Part
+scp:chamber_block, SCP-914 Chamber Part
+scp:copper_tube, Copper Tube
+scp:control_panel, SCP-914 (The Clockworks)
+scp:red_ice, SCP-009 (Red Ice)
+scp:metal914, Metal (914)
+scp:cogs914, Cogs (914)
+scp:tree_leaves, SCP-143 Leaves (The Bladewood Grove)
+scp:tree_trunk, SCP-143 Log (The Bladewood Grove)
+scp:sapling, SCP-143 Sapling (The Bladewood Grove)
+scp:sapling860, Vanqar Tree Sapling (860)
+scp:log860, Vanqar Tree Log (860)
+scp:path860, Path (860)
+scp:dirt860, Dirt (860)
+scp:leaves860, Vanqar Tree Leaves (860)
+scp:card_reader, Card Reader
+scp:replicating_crystal, SCP-409 (Contagious Crystal)
+scp:explosive_cactus, SCP-822 (Landmine Cacti)
+scp:stairs087, SCP-087 Stairs (The Stairwell)
+scp:wall087, SCP-087 Wall (The Stairwell)
+scp:platform087, SCP-087 Stair Platform (The Stairwell)
+scp:fence087, SCP-087 Fence (The Stairwell)
+scp:scp087_spawner, SCP-087-1 Spawner
+scp:document_machine, Document Crafter
+scp:foundationceiling, Ceiling
+scp:foundationceilinggrate, Ceiling Grate
+scp:foundationceilingtile, Ceiling Tile
+scp:foundationcontainmentfloor, Containment Floor
+scp:foundationfloora, Floor A
+scp:foundationfloorb, Floor B
+scp:foundationmeshfloor, Mesh Floor
+scp:foundationplasterwall, Plaster Wall
+scp:foundationvent, Foundation Vent
+scp:foundationwalla, Wall A
+scp:foundationwallb, Wall B
+scp:foundationwallc, Wall C
+scp:foundationwalld, Wall D
+scp:foundationwalle, Wall E
+scp:foundationwallf, Wall F
+scp:foundationwallg, Wall G
+scp:foundationwhitewall, White Wall
+scp:reinforcedwalla, Reinforced Wall A
+scp:reinforcedwallb, Reinforced Wall B
+scp:reinforcedwallc, Reinforced Wall C
+scp:steel, Steel
+scp:foundationexteriorbottom, Exterior Bottom
+scp:foundationexteriormiddle, Exterior Middle
+scp:foundationexteriortop, Exterior Top
+scp:foundationmedicalmiddle, Medical Middle
+scp:foundationmedicalbottom, Medical Bottom
+scp:foundationofficetop, Office Top
+scp:foundationofficebottom, Office Bottom
+scp:foundationpipewall, Pipe Wall
+scp:foundationoldwhitewall, Old White Wall
+scp:personal_computer, Personal Computer
+scp:sublevelwall, Sublevel Wall A
+scp:sublevelwall_b, Sublevel Wall B
+scp:sublevelwall_c, Sublevel Wall C
+scp:reinforced_sublevelwall_a, Reinforced Sublevel Wall A
+scp:reinforced_sublevelwall_b, Reinforced Sublevel Wall B
+scp:reinforced_sublevelwall_c, Reinforced Sublevel Wall C
+scp:pd, Pocket Dimension Block
+scp:pdcorridorc, Pocket Dimension Corridor C
+scp:pdcorridora, Pocket Dimension Corridor A
+scp:pdcorridorb, Pocket Dimension Corridor B
+scp:pdcorridorfloor, Pocket Dimension Corridor Floor
+scp:pdfloor, Pocket Dimension Floor
+scp:bag_wall, Bag Wall
+scp:eye, Eye Block
+scp:hole_in_the_wall, SCP-1162 (A Hole in the Wall)
+scp:reinforced_iron, Reinforced Iron
+scp:table, Table
+scp:lamp, Lamp
+scp:computer, Computer
+scp:scp330, SCP-330 (Take Only Two)
+scp:shelf, Shelf
+scp:file_cabinet, File Cabinet
+scp:item_plate, Item Display Plate
+scp:sliding_door, Sliding Door
+scp:sliding_door2, Containment Door
+scp:anti106door, Magnetized Door
+scp:bloodstone, SCP-472 (The Bloodstone)
+scp:infinite_pizza, SCP-458 (The Never-Ending Pizza Box)
+scp:small_lamp, Small Lamp
+scp:opaque_trapdoor, Opaque Trapdoor
+scp:telekill_ore, Telekill Ore
+scp:gel_block, Gel Block
+scp:living_room_flesh1, SCP-002 Flesh A (The "Living" Room)
+scp:living_room_flesh2, SCP-002 Flesh B (The "Living" Room)
+scp:living_room_flesh3, SCP-002 Flesh C (The "Living" Room)
+scp:living_room_flesh4, SCP-002 Flesh D (The "Living" Room)
+scp:living_room_metal, SCP-002 Metal (The "Living" Room)
+scp:ventilation, Ventilation
+scp:grate, Grate
+scp:sublevel_stairs, Sublevel Wall Stairs
+scp:wall_a_stairs, Wall A Stairs
+scp:floor_a_stairs, Floor A Stairs
+scp:floor_b_stairs, Floor B Stairs
+scp:white_wall_stairs, White Stairs
+scp:re_wall_a_stairs, Reinforced Wall A Stairs
+scp:re_wall_b_stairs, Reinforced Wall B Stairs
+scp:re_wall_c_stairs, Reinforced Wall C Stairs
+scp:008_container, SCP-008 Samples
+scp:heat_resistant_alloy, Heat Resistant Alloy
+scp:telekill_block, Block of Telekill
+scp:sturdy_planks, SCP-143 Planks (The Bladewood Grove)
+scp:blast_glass, Blast Resistant Glass
+scp:fertile_soil, SCP-124 (Fertile Soil)
+scp:hunter_in_the_dark, SCP-689 (Haunter in the Dark)
+scp:cooler, Cooler
+scp:butterfly_nest, SCP-553 Nest (Crystalline Butterflies)
+scp:living_room_coffee_table, Living Room Coffee Table
+scp:heavy_button, Heavy Button
+scp:ceiling_lamp, Ceiling Lamp
+scp:damaged_ceiling_lamp, Damaged Ceiling Lamp
+scp:corroded_metal, Corroded Metal
+scp:blocker106, Magnetized Block
+scp:living_room_plant_pot, Living Room Plant Pot
+scp:living_room_glass, Living Room Glass
+scp:one_way_glass_0, White Observation Pane
+scp:one_way_glass_1, Orange Observation Pane
+scp:one_way_glass_2, Magenta Observation Pane
+scp:one_way_glass_3, Light Blue Observation Pane
+scp:one_way_glass_4, Yellow Observation Pane
+scp:one_way_glass_5, Lime Observation Pane
+scp:one_way_glass_6, Pink Observation Pane
+scp:one_way_glass_7, Gray Observation Pane
+scp:one_way_glass_8, Silver Observation Pane
+scp:one_way_glass_9, Cyan Observation Pane
+scp:one_way_glass_10, Purple Observation Pane
+scp:one_way_glass_11, Blue  Observation Pane
+scp:one_way_glass_12, Brown Observation Pane
+scp:one_way_glass_13, Green Observation Pane
+scp:one_way_glass_14, Red Observation Pane
+scp:one_way_glass_15, Black Observation Pane
+scp:one_way_glass_cube_0, White Observation Glass
+scp:one_way_glass_cube_1, Orange Observation Glass
+scp:one_way_glass_cube_2, Magenta Observation Glass
+scp:one_way_glass_cube_3, Light Blue Observation Glass
+scp:one_way_glass_cube_4, Yellow Observation Glass
+scp:one_way_glass_cube_5, Lime Observation Glass
+scp:one_way_glass_cube_6, Pink Observation Glass
+scp:one_way_glass_cube_7, Gray Observation Glass
+scp:one_way_glass_cube_8, Silver Observation Glass
+scp:one_way_glass_cube_9, Cyan Observation Glass
+scp:one_way_glass_cube_10, Purple Observation Glass
+scp:one_way_glass_cube_11, Blue Observation Glass
+scp:one_way_glass_cube_12, Brown Observation Glass
+scp:one_way_glass_cube_13, Green Observation Glass
+scp:one_way_glass_cube_14, Red Observation Glass
+scp:one_way_glass_cube_15, Black Observation Glass
+scp:pipe_8, Silver Pipe
+scp:pipe_0, White Pipe
+scp:pipe_2, Magenta Pipe
+scp:pipe_1, Orange Pipe
+scp:pipe_7, Gray Pipe
+scp:pipe_4, Yellow Pipe
+scp:pipe_15, Black Pipe
+scp:pipe_3, Light Blue Pipe
+scp:pipe_10, Purple Pipe
+scp:pipe_14, Red Pipe
+scp:pipe_12, Brown Pipe
+scp:pipe_9, Cyan Pipe
+scp:pipe_13, Green Pipe
+scp:pipe_5, Lime Pipe
+scp:pipe_6, Pink Pipe
+scp:pipe_11, Blue Pipe
+scp:swamp_grass, Swamp Grass
+scp:002_tv, Living Room TV
+scp:electric_wool, Electric Wool
+scp:data_bank, Data Bank
+scp:siren, Siren
+scp:block_chair, Chair
+scp:block_chair2, Armed Chair
+scp:vermin_suppressor, SCP-997 (Vermin Suppressor)
+scp:chicken_coop143, SCP-143-FR (Mesozoic chicken coop)
+scp:scp079, SCP-079 (Old AI)
+scp:scp012, SCP-012 (A Bad Composition)
+scp:scp1074, SCP-1074 (Stendhal's Nightmare)
+scp:chains, Chains
+scp:containmentbox, Containment Box
+scp:scp902, SCP-902 (The Final Countdown)
+scp:pipeconnector, SCP-015 Connector (Pipe Nightmare)
+scp:foundationarmorytopa, Armory Top A
+scp:foundationarmorybottoma, Armory Bottom A
+scp:foundationarmorytopb, Armory Top B
+scp:foundationarmorybottomb, Armory Bottom B
+scp:foundationlaboratorytopa, Laboratory Top A
+scp:foundationlaboratorybottoma, Laboratory Bottom A
+scp:foundationlaboratorytopb, Laboratory Top B
+scp:foundationlaboratorybottomb, Laboratory Bottom B
+scp:foundationmetal_panel_a, Metal Panel A
+scp:foundationmetal_panel_b, Metal Panel B
+scp:foundationmetal_panel_c, Metal Panel C
+scp:foundationmetal_sublevel, Metal Sublevel
+scp:reinforcedgranite, Reinforced Granite
+scp:reinforcedquartz, Reinforced Quartz
+scp:toilet, Toilet
+scp:foundationgreen_panel_a, Green Panel A
+scp:foundationgreen_panel_b, Green Panel B
+scp:foundationgreen_panel_c, Green Panel C
+scp:foundationgreen_panel_d, Green Panel D
+scp:foundationmetal_floor_a, Metal Floor A
+scp:foundationmetal_floor_b, Metal Floor B
+scp:foundationmetal_wall_a, Metal Wall A
+scp:foundationmetal_wall_b, Metal Wall B
+scp:foundationsteelfloor, Steel Floor
+scp:pipenightmare, SCP-015 (Pipe Nightmare)
+scp:item_generator, SCP-1437 (A Hole to Another Place)
+scp:desk, Desk
+scp:fountain_of_youth_liquid, SCP-006 (Fountain of Youth)
+scp:spider_fluid, SCP-538 Liquid
+scp:swamp_water, tile.swamp_water.name
+scp:h_cl_fluid, tile.h_cl_fluid.name
 srpdeepseadanger:ada_horgo_drop, §bHammerhead Skull Piece
 srpdeepseadanger:ada_jomoi_drop, §bStinger Stinghead
 srpdeepseadanger:sprouter_drop, §6Sprouter Membrane
@@ -25999,473 +26345,784 @@ swparasites:buckler_shield_living, §eLiving Buckler
 swparasites:buckler_shield_sentient, §6Sentient Buckler
 swparasites:impaler_shield_living, §eLiving Impaler
 swparasites:impaler_shield_sentient, §6Sentient Impaler
-osv:biomesoplenty_topaz_ore_rustic_slate:0, Topaz Ore (Slate)
-osv:biomesoplenty_topaz_ore_rustic_slate:1, Dense§r Topaz Ore (Slate)
-osv:redstone_ore_1:0, Redstone Ore (Granite)
-osv:redstone_ore_1:1, Dense§r Redstone Ore (Granite)
-osv:redstone_ore_1:2, Dense§r Redstone Ore (Granite)
-osv:redstone_ore_1:3, Dense§r Redstone Ore (Granite)
-osv:immersiveengineering_copper_ore_quark_slate:0, Copper Ore (Slate)
-osv:immersiveengineering_copper_ore_quark_slate:1, Dense§r Copper Ore (Slate)
-osv:iron_ore_quark_limestone:0, Iron Ore (Limestone)
-osv:iron_ore_quark_limestone:1, Dense§r Iron Ore (Limestone)
-osv:gold_ore_quark_jasper:0, Gold Ore (Jasper)
-osv:gold_ore_quark_jasper:1, Dense§r Gold Ore (Jasper)
-osv:thermalfoundation_copper_ore_3:0, Copper Ore (Diorite)
-osv:thermalfoundation_copper_ore_3:1, Dense§r Copper Ore (Diorite)
-osv:thermalfoundation_nickel_ore_quark_slate:0, Nickel Ore (Slate)
-osv:thermalfoundation_nickel_ore_quark_slate:1, Dense§r Nickel Ore (Slate)
-osv:emerald_ore_quark_marble:0, Emerald Ore (Marble)
-osv:emerald_ore_quark_marble:1, Dense§r Emerald Ore (Marble)
-osv:biomesoplenty_malachite_ore_rustic_slate:0, Malachite Ore (Slate)
-osv:biomesoplenty_malachite_ore_rustic_slate:1, Dense§r Malachite Ore (Slate)
-osv:gold_ore_3:0, Gold Ore (Diorite)
-osv:gold_ore_3:1, Dense§r Gold Ore (Diorite)
-osv:biomesoplenty_tanzanite_ore_5:0, Tanzanite Ore (Andesite)
-osv:biomesoplenty_tanzanite_ore_5:1, Dense§r Tanzanite Ore (Andesite)
-osv:lapis_ore_1:0, Lapis Lazuli Ore (Granite)
-osv:lapis_ore_1:1, Dense§r Lapis Lazuli Ore (Granite)
-osv:immersiveengineering_aluminum_ore_quark_jasper:0, Bauxite Ore (Jasper)
-osv:immersiveengineering_aluminum_ore_quark_jasper:1, Dense§r Bauxite Ore (Jasper)
-osv:immersiveengineering_aluminum_ore_5:0, Bauxite Ore (Andesite)
-osv:immersiveengineering_aluminum_ore_5:1, Dense§r Bauxite Ore (Andesite)
-osv:biomesoplenty_sapphire_ore_quark_slate:0, Sapphire Ore (Slate)
-osv:biomesoplenty_sapphire_ore_quark_slate:1, Dense§r Sapphire Ore (Slate)
-osv:thermalfoundation_silver_ore_rustic_slate:0, Silver Ore (Slate)
-osv:thermalfoundation_silver_ore_rustic_slate:1, Dense§r Silver Ore (Slate)
-osv:biomesoplenty_topaz_ore_quark_marble:0, Topaz Ore (Marble)
-osv:biomesoplenty_topaz_ore_quark_marble:1, Dense§r Topaz Ore (Marble)
-osv:gold_ore_quark_slate:0, Gold Ore (Slate)
-osv:gold_ore_quark_slate:1, Dense§r Gold Ore (Slate)
-osv:thermalfoundation_lead_ore_quark_marble:0, Lead Ore (Marble)
-osv:thermalfoundation_lead_ore_quark_marble:1, Dense§r Lead Ore (Marble)
-osv:gold_ore_rustic_slate:0, Gold Ore (Slate)
-osv:gold_ore_rustic_slate:1, Dense§r Gold Ore (Slate)
-osv:biomesoplenty_peridot_ore_quark_limestone:0, Peridot Ore (Limestone)
-osv:biomesoplenty_peridot_ore_quark_limestone:1, Dense§r Peridot Ore (Limestone)
-osv:lapis_ore_quark_limestone:0, Lapis Lazuli Ore (Limestone)
-osv:lapis_ore_quark_limestone:1, Dense§r Lapis Lazuli Ore (Limestone)
-osv:immersiveengineering_aluminum_ore_quark_slate:0, Bauxite Ore (Slate)
-osv:immersiveengineering_aluminum_ore_quark_slate:1, Dense§r Bauxite Ore (Slate)
-osv:immersiveengineering_silver_ore_quark_marble:0, Silver Ore (Marble)
-osv:immersiveengineering_silver_ore_quark_marble:1, Dense§r Silver Ore (Marble)
+zerascp:scp012, A Bad Composition (012)
+zerascp:scp402, Obsidian Absorber (402)
+zerascp:scp357, Hungry Clay (357)
+zerascp:scp269, Dialysis Bracelet (269)
+zerascp:scp447, Ball of Green Slime (447-1)
+zerascp:scp714b, Jaded Ring (714)
+zerascp:scp1033ru, Circle of Protection (1033-RU)
+zerascp:scp113, The Gender-Switcher (113)
+zerascp:scp345, Stone Puzzle Cube (345)
+zerascp:scp012sl, Bang! (012-SL)
+zerascp:scp132, Broken Desert (132)
+zerascp:scp3890_portal, tile.scp3890_portal.name
+zerascp:scp3890, SCP-012-SLA
+zerascp:scp019it, E-15 Chimera (019-IT)
+zerascp:scp3808, Bacon Cheeseburger that Demands Justification (3808)
+zerascp:anomalousducka, Anomalous Duck
+zerascp:anomalousduckb, Anomalous Duck
+zerascp:anomalousduckc, Anomalous Duck
+zerascp:anomalousduckd, Anomalous Duck
+zerascp:anomalousducke, Anomalous Duck
+zerascp:anomalousduckf, Anomalous Duck
+zerascp:anomalousduckg, Anomalous Duck
+zerascp:anomalousduckh, Anomalous Duck
+zerascp:scp287, Clark's Third Favorite Sword (287)
+zerascp:scp055item, [unknown] (055)
+zerascp:scp001, Sheaf of Papers (001)
+zerascp:scp248, 110% (248)
+zerascp:scp310, Eternal Flame (310)
+zerascp:scp014j, A Fork (014-J)
+zerascp:scpj, Procrastinati (___-J)
+zerascp:scpbigegg, Big Egg (Big Egg)
+zerascp:scp007j, Unidentified Muffin Creature (007-J)
+zerascp:label, Label ___
+zerascp:label000, Label 000
+zerascp:label001, Label 001
+zerascp:label012, Label 012
+zerascp:label012sl, Label 012-SL
+zerascp:label014j, Label 014-J
+zerascp:label019it, Label 019-IT
+zerascp:label055, Label 055
+zerascp:label113, Label 113
+zerascp:label132, Label 132
+zerascp:label248, Label 248
+zerascp:label269, Label 269
+zerascp:label287, Label 287
+zerascp:label310, Label 310
+zerascp:label345, Label 345
+zerascp:label347, Label 347
+zerascp:label357, Label 357
+zerascp:label402, Label 402
+zerascp:label447, Label 447
+zerascp:label714, Label 714
+zerascp:label1033ru, Label 1033-RU
+zerascp:label3808, Label 3808
+zerascp:label3890, Label 3890
+zerascp:labelbigegg, Label Big Egg
+zerascp:labelduck, Label Duck
+zerascp:scp012block, A Bad Composition (012)
+zerascp:scp184, The Architect (184)
+zerascp:scp743, A Chocolate Fountain (743)
+zerascp:scp020, Unseen Mold (020)
+zerascp:scp215helmet, Paranoia-Inducing Spectacles (215)
+zerascp:scp205, Shadow Lamps (205)
+zerascp:scp789j, The Butt Ghost (789-J)
+zerascp:scp1074, Stendhal's Nightmare (1074)
+zerascp:scp1356, Rubber Ducky (1356)
+zerascp:egg006j, Spawn WHAT THE F*** IS THAT (006-J)
+zerascp:egg347, Spawn The Invisible Woman (347)
+zerascp:egg372, Spawn Peripheral Jumper (372)
+zerascp:egg895, Spawn Camera Disruption (895)
+zerascp:label006j, Label 006-J
+zerascp:label007j, Label 007-J
+zerascp:label020, Label 020
+zerascp:label184, Label 184
+zerascp:label205, Label 205
+zerascp:label215, Label 215
+zerascp:label372, Label 372
+zerascp:label743, Label 743
+zerascp:label789j, Label 789-J
+zerascp:label895, Label 895
+zerascp:label1074, Label 1074
+zerascp:label1356, Label 1356
+zerascp:scp860, Blue Key (860)
+zerascp:scp8601_portal, tile.scp8601_portal.name
+zerascp:scp8601, SCP-860
+zerascp:label860, Label 860
+zerascp:scp1499helmet, The Gas Mask (1499)
+zerascp:block1499tower, ???
+zerascp:block1499ground, ???
+zerascp:dimension1499_portal, tile.dimension1499_portal.name
+zerascp:dimension1499, SCP-1499
+zerascp:label1499, Label 1499
+zerascp:scp31081, SCP-3108-1
+zerascp:scp3108, The Nerfing Gun (3108)
+zerascp:label3108, Label 3108
+zerascp:scp19161, SCP-1916-1
+zerascp:scp19162, SCP-1916-2
+zerascp:scp19163, SCP-1916-3
+zerascp:scp19164, SCP-1916-4
+zerascp:scp19165, SCP-1916-5
+zerascp:scp19166, SCP-1916-6
+zerascp:scp1916, Zero-Gee-Whiz! Moon Rocks (1916)
+zerascp:label1916, Label 1916
+zerascp:egg527, Spawn Mr. Fish (527)
+zerascp:label527, Label 527
+zerascp:scp2396a, SCP-2396-A
+zerascp:egg2396, Spawn Ms. Sweetie (2396)
+zerascp:label2396, Label 2396
+zerascp:eggroombaduck, Spawn Roomba Duck
+zerascp:jadeore, Jade Ore
+zerascp:jade, Jade
+zerascp:diamondsword110, Diamond Sword (110%)
+zerascp:ironsword110, Iron Sword (110%)
+zerascp:stonesword110, Stone Sword (110%)
+zerascp:goldsword110, Gold Sword (110%)
+zerascp:woodensword110, Wooden Sword (110%)
+zerascp:scp357block, SCP-357 Block
+zerascp:slime, Slime Block
+zerascp:scp447block, SCP-447
+zerascp:scp463, SCP-463 (A Spoon that Bends People
+zerascp:label463, Label 463
+zerascp:scp038log, SCP-038 Log
+zerascp:scp2200, SCP-2200
+zerascp:scp1689, SCP-1689
+zerascp:blockofpotatoes, Block Of Potatoes
+zerascp:scp038sapling, SCP-038 Sapling
+zerascp:label038, Label 038
+zerascp:label2200, Label 2200
+zerascp:label1689, Label1689
+scp:document_safe, item.document_safe.name
+scp:document_euclid, item.document_euclid.name
+scp:document_keter, item.document_keter.name
+scp:document_thaumiel, item.document_thaumiel.name
+scp:panacea_pills, item.panacea_pills.name
+scp:super_toothbrush, item.super_toothbrush.name
+scp:water_canteen, item.water_canteen.name
+scp:processed_log, item.processed_log.name
+scp:tree_petals, item.tree_petals.name
+scp:tree_material, item.tree_material.name
+scp:hazard_suit, item.hazard_suit.name
+scp:vengefulapple, item.vengefulapple.name
+scp:sturdy_helmet, item.sturdy_helmet.name
+scp:sturdy_chestplate, item.sturdy_chestplate.name
+scp:sturdy_leggings, item.sturdy_leggings.name
+scp:sturdy_boots, item.sturdy_boots.name
+scp:sturdy_sword, item.sturdy_sword.name
+scp:sturdy_axe, item.sturdy_axe.name
+scp:sturdy_pickaxe, item.sturdy_pickaxe.name
+scp:sturdy_shovel, item.sturdy_shovel.name
+scp:sturdy_hoe, item.sturdy_hoe.name
+scp:ash, Pile of Ashes
+scp:burnt_bone, item.burnt_bone.name
+scp:door860, item.door860.name
+scp:valve_door, item.valve_door.name
+scp:door087, item.door087.name
+scp:blast_door, item.blast_door.name
+scp:office_door, item.office_door.name
+scp:door002, item.door002.name
+scp:label, item.label.name
+scp:level1card, item.level1card.name
+scp:level2card, item.level2card.name
+scp:level3card, item.level3card.name
+scp:level4card, item.level4card.name
+scp:level5card, item.level5card.name
+scp:screwdriver, Screwdriver
+scp:330a, item.330a.name
+scp:330b, item.330b.name
+scp:330c, item.330c.name
+scp:330d, item.330d.name
+scp:330e, item.330e.name
+scp:330f, item.330f.name
+scp:330g, item.330g.name
+scp:pizza, item.pizza.name
+scp:dragonegg:0, Blobworm Egg
+scp:dragonegg:1, Glowdrake Egg
+scp:dragonegg:2, Goowyvern Egg
+scp:dragonegg:3, Gunkwyvern Egg
+scp:dragonegg:4, Oozedrake Egg
+scp:dragonegg:5, Slimybelly Egg
+scp:organ:0, Heart
+scp:organ:1, Kidney
+scp:organ:2, Lung
+scp:nightvision_goggles, item.nightvision_goggles.name
+scp:battery, item.battery.name
+scp:3d_specs, item.3d_specs.name
+scp:disease_encyclopedia, item.disease_encyclopedia.name
+scp:cowbell, item.cowbell.name
+scp:flashlight, item.flashlight.name
+scp:paper_scrap, item.paper_scrap.name
+scp:recipe_viewer, item.recipe_viewer.name
+scp:syringe_empty, Empty Syringe
+scp:syringe, Syringe
+scp:arrow_proof_vest, item.arrow_proof_vest.name
+scp:unusual_battery, item.unusual_battery.name
+scp:unusual_ingot, item.unusual_ingot.name
+scp:blue_key, item.blue_key.name
+scp:telekill_diamond_helmet, item.telekill_diamond_helmet.name
+scp:telekill_diamond_chestplate, item.telekill_diamond_chestplate.name
+scp:telekill_diamond_leggings, item.telekill_diamond_leggings.name
+scp:telekill_diamond_boots, item.telekill_diamond_boots.name
+scp:telekill_sword, item.telekill_sword.name
+scp:telekill_axe, item.telekill_axe.name
+scp:telekill_pickaxe, item.telekill_pickaxe.name
+scp:telekill_shovel, item.telekill_shovel.name
+scp:telekill_hoe, item.telekill_hoe.name
+scp:monster_pot, item.monster_pot.name
+scp:broken_telekill_sword, item.broken_telekill_sword.name
+scp:deadly_painting, item.deadly_painting.name
+scp:skeleton_key, item.skeleton_key.name
+scp:chefs_knife, item.chefs_knife.name
+scp:spawn_egg, Spawn
+scp:living_room_lamp, item.living_room_lamp.name
+scp:living_room_arm_chair, item.living_room_arm_chair.name
+scp:living_room_table, item.living_room_table.name
+scp:bat_fur, item.bat_fur.name
+scp:teleport_tester, item.teleport_tester.name
+scp:cog, item.cog.name
+scp:blank_document, item.blank_document.name
+scp:info_tablet, item.info_tablet.name
+scp:plant_cow_seeds, item.plant_cow_seeds.name
+scp:thunder_meat, item.thunder_meat.name
+scp:raw_thunder_meat, item.raw_thunder_meat.name
+scp:pied_pipe, item.pied_pipe.name
+scp:baton, item.baton.name
+scp:cheese, Cheese
+scp:deathdocument, item.deathdocument.name
+scp:swat_helmet, item.swat_helmet.name
+scp:swat_chest, item.swat_chest.name
+scp:swat_leggings, item.swat_leggings.name
+scp:swat_boots, item.swat_boots.name
+scp:scp020vial, item.scp020vial.name
+scp:token_living_room, item.token_living_room.name
+scp:token_skeleton_key, item.token_skeleton_key.name
+scp:token_fountain_of_youth, item.token_fountain_of_youth.name
+scp:token_zombie_virus, item.token_zombie_virus.name
+scp:token_red_ice, item.token_red_ice.name
+scp:token_monster_pot, item.token_monster_pot.name
+scp:token_black_shuck, item.token_black_shuck.name
+scp:token_vermin_master, item.token_vermin_master.name
+scp:token_plague_doctor, item.token_plague_doctor.name
+scp:token_young_girl, item.token_young_girl.name
+scp:token_worlds_best_tothbrush, item.token_worlds_best_tothbrush.name
+scp:token_old_ai, item.token_old_ai.name
+scp:token_stairwell, item.token_stairwell.name
+scp:token_shy_guy, item.token_shy_guy.name
+scp:token_old_man, item.token_old_man.name
+scp:token_infinite_canteen, item.token_infinite_canteen.name
+scp:token_dragon_snails, item.token_dragon_snails.name
+scp:token_fertile_soil, item.token_fertile_soil.name
+scp:token_eye_pods, item.token_eye_pods.name
+scp:token_bladewood_grove, item.token_bladewood_grove.name
+scp:token_telekill_alloy, item.token_telekill_alloy.name
+scp:token_painting, item.token_painting.name
+scp:token_sculpture, item.token_sculpture.name
+scp:token_3d_specs, item.token_3d_specs.name
+scp:token_allosaurus, item.token_allosaurus.name
+scp:token_pan-dimensional_vending_machine, item.token_pan-dimensional_vending_machine.name
+scp:token_eyes_in_the_dark, item.token_eyes_in_the_dark.name
+scp:token_coffee_machine, item.token_coffee_machine.name
+scp:token_take_only_two, item.token_take_only_two.name
+scp:token_pterry_the_pterodactyl, item.token_pterry_the_pterodactyl.name
+scp:token_red_pool, item.token_red_pool.name
+scp:token_contagious_crystal, item.token_contagious_crystal.name
+scp:token_pizza_box, item.token_pizza_box.name
+scp:token_bloodstone, item.token_bloodstone.name
+scp:token_panacea, item.token_panacea.name
+scp:token_rusty_cowbell, item.token_rusty_cowbell.name
+scp:token_shadow_spiders, item.token_shadow_spiders.name
+scp:token_ice_spider, item.token_ice_spider.name
+scp:token_crystalline_butterflies, item.token_crystalline_butterflies.name
+scp:token_chefs_knife, item.token_chefs_knife.name
+scp:token_haunter_in_the_dark, item.token_haunter_in_the_dark.name
+scp:token_landmine_cactus, item.token_landmine_cactus.name
+scp:token_clockworks, item.token_clockworks.name
+scp:token_with_many_voices, item.token_with_many_voices.name
+scp:token_sleep_killer, item.token_sleep_killer.name
+scp:token_big_foot, item.token_big_foot.name
+scp:token_encyclopedia_of_diseases, item.token_encyclopedia_of_diseases.name
+scp:token_builder_bear, item.token_builder_bear.name
+scp:token_hole_in_the_wall, item.token_hole_in_the_wall.name
+scp:token_absence_of_shark, item.token_absence_of_shark.name
+scp:token_hole_to_another_place, item.token_hole_to_another_place.name
+scp:token_pink_flamingo, item.token_pink_flamingo.name
+scp:token4307, item.token4307.name
+scp:token143_fr, item.token143_fr.name
+scp:token160, item.token160.name
+scp:token529, item.token529.name
+scp:token573, item.token573.name
+scp:token594, item.token594.name
+scp:token718, item.token718.name
+scp:token811, item.token811.name
+scp:token843, item.token843.name
+scp:token912, item.token912.name
+scp:token997, item.token997.name
+scp:token2295, item.token2295.name
+scp:token3199, item.token3199.name
+scp:token682, item.token682.name
+scp:token059-fr, item.token059-fr.name
+scp:token015, item.token015.name
+scp:token524, item.token524.name
+scp:token012, item.token012.name
+scp:token1032-ru, item.token1032-ru.name
+scp:token2521, item.token2521.name
+scp:token2761, item.token2761.name
+scp:token902, item.token902.name
+scp:token020, item.token020.name
+scp:token1074, item.token1074.name
+scp:token098, item.token098.name
+scp:tranq_arrow, Tranquilizing Arrow
+scp:npctool, item.npctool.name
+scp:rodent_tail, item.rodent_tail.name
 osv:iron_ore_5:0, Iron Ore (Andesite)
 osv:iron_ore_5:1, Dense§r Iron Ore (Andesite)
-osv:immersiveengineering_silver_ore_rustic_slate:0, Silver Ore (Slate)
-osv:immersiveengineering_silver_ore_rustic_slate:1, Dense§r Silver Ore (Slate)
-osv:biomesoplenty_topaz_ore:0, Topaz Ore (Stone)
-osv:biomesoplenty_topaz_ore:1, Dense§r Topaz Ore (Stone)
-osv:iron_ore_rustic_slate:0, Iron Ore (Slate)
-osv:iron_ore_rustic_slate:1, Dense§r Iron Ore (Slate)
-osv:immersiveengineering_silver_ore_quark_jasper:0, Silver Ore (Jasper)
-osv:immersiveengineering_silver_ore_quark_jasper:1, Dense§r Silver Ore (Jasper)
-osv:redstone_ore_3:0, Redstone Ore (Diorite)
-osv:redstone_ore_3:1, Dense§r Redstone Ore (Diorite)
-osv:redstone_ore_3:2, Dense§r Redstone Ore (Diorite)
-osv:redstone_ore_3:3, Dense§r Redstone Ore (Diorite)
-osv:thermalfoundation_nickel_ore_1:0, Nickel Ore (Granite)
-osv:thermalfoundation_nickel_ore_1:1, Dense§r Nickel Ore (Granite)
-osv:biomesoplenty_tanzanite_ore_quark_marble:0, Tanzanite Ore (Marble)
-osv:biomesoplenty_tanzanite_ore_quark_marble:1, Dense§r Tanzanite Ore (Marble)
-osv:immersiveengineering_lead_ore_quark_limestone:0, Lead Ore (Limestone)
-osv:immersiveengineering_lead_ore_quark_limestone:1, Dense§r Lead Ore (Limestone)
-osv:thermalfoundation_silver_ore_5:0, Silver Ore (Andesite)
-osv:thermalfoundation_silver_ore_5:1, Dense§r Silver Ore (Andesite)
-osv:immersiveengineering_nickel_ore_quark_slate:0, Nickel Ore (Slate)
-osv:immersiveengineering_nickel_ore_quark_slate:1, Dense§r Nickel Ore (Slate)
-osv:thermalfoundation_tin_ore_quark_jasper:0, Tin Ore (Jasper)
-osv:thermalfoundation_tin_ore_quark_jasper:1, Dense§r Tin Ore (Jasper)
-osv:immersiveengineering_nickel_ore:0, Nickel Ore (Stone)
-osv:immersiveengineering_nickel_ore:1, Dense§r Nickel Ore (Stone)
-osv:thermalfoundation_silver_ore_3:0, Silver Ore (Diorite)
-osv:thermalfoundation_silver_ore_3:1, Dense§r Silver Ore (Diorite)
-osv:thermalfoundation_lead_ore:0, Lead Ore (Stone)
-osv:thermalfoundation_lead_ore:1, Dense§r Lead Ore (Stone)
-osv:biomesoplenty_ruby_ore_quark_slate:0, Ruby Ore (Slate)
-osv:biomesoplenty_ruby_ore_quark_slate:1, Dense§r Ruby Ore (Slate)
-osv:immersiveengineering_uranium_ore_1:0, Uranium Ore (Granite)
-osv:immersiveengineering_uranium_ore_1:1, Dense§r Uranium Ore (Granite)
-osv:immersiveengineering_nickel_ore_rustic_slate:0, Nickel Ore (Slate)
-osv:immersiveengineering_nickel_ore_rustic_slate:1, Dense§r Nickel Ore (Slate)
-osv:biomesoplenty_amber_ore_1:0, Amber Ore (Granite)
-osv:biomesoplenty_amber_ore_1:1, Dense§r Amber Ore (Granite)
-osv:immersiveengineering_silver_ore:0, Silver Ore (Stone)
-osv:immersiveengineering_silver_ore:1, Dense§r Silver Ore (Stone)
-osv:thermalfoundation_lead_ore_quark_limestone:0, Lead Ore (Limestone)
-osv:thermalfoundation_lead_ore_quark_limestone:1, Dense§r Lead Ore (Limestone)
-osv:biomesoplenty_tanzanite_ore_3:0, Tanzanite Ore (Diorite)
-osv:biomesoplenty_tanzanite_ore_3:1, Dense§r Tanzanite Ore (Diorite)
+osv:thermalfoundation_lead_ore_1:0, Lead Ore (Granite)
+osv:thermalfoundation_lead_ore_1:1, Dense§r Lead Ore (Granite)
+osv:immersiveengineering_lead_ore_quark_jasper:0, Lead Ore (Jasper)
+osv:immersiveengineering_lead_ore_quark_jasper:1, Dense§r Lead Ore (Jasper)
+osv:biomesoplenty_sapphire_ore:0, Sapphire Ore (Stone)
+osv:biomesoplenty_sapphire_ore:1, Dense§r Sapphire Ore (Stone)
+osv:gold_ore_3:0, Gold Ore (Diorite)
+osv:gold_ore_3:1, Dense§r Gold Ore (Diorite)
+osv:immersiveengineering_uranium_ore_quark_jasper:0, Uranium Ore (Jasper)
+osv:immersiveengineering_uranium_ore_quark_jasper:1, Dense§r Uranium Ore (Jasper)
+osv:biomesoplenty_malachite_ore_quark_limestone:0, Malachite Ore (Limestone)
+osv:biomesoplenty_malachite_ore_quark_limestone:1, Dense§r Malachite Ore (Limestone)
+osv:immersiveengineering_lead_ore:0, Lead Ore (Stone)
+osv:immersiveengineering_lead_ore:1, Dense§r Lead Ore (Stone)
+osv:thermalfoundation_copper_ore_quark_marble:0, Copper Ore (Marble)
+osv:thermalfoundation_copper_ore_quark_marble:1, Dense§r Copper Ore (Marble)
+osv:immersiveengineering_copper_ore_quark_slate:0, Copper Ore (Slate)
+osv:immersiveengineering_copper_ore_quark_slate:1, Dense§r Copper Ore (Slate)
+osv:biomesoplenty_peridot_ore_3:0, Peridot Ore (Diorite)
+osv:biomesoplenty_peridot_ore_3:1, Dense§r Peridot Ore (Diorite)
+osv:emerald_ore:0, Emerald Ore (Stone)
+osv:emerald_ore:1, Dense§r Emerald Ore (Stone)
+osv:immersiveengineering_copper_ore_quark_limestone:0, Copper Ore (Limestone)
+osv:immersiveengineering_copper_ore_quark_limestone:1, Dense§r Copper Ore (Limestone)
 osv:redstone_ore_quark_jasper:0, Redstone Ore (Jasper)
 osv:redstone_ore_quark_jasper:1, Dense§r Redstone Ore (Jasper)
 osv:redstone_ore_quark_jasper:2, Dense§r Redstone Ore (Jasper)
 osv:redstone_ore_quark_jasper:3, Dense§r Redstone Ore (Jasper)
-osv:lapis_ore_rustic_slate:0, Lapis Lazuli Ore (Slate)
-osv:lapis_ore_rustic_slate:1, Dense§r Lapis Lazuli Ore (Slate)
-osv:immersiveengineering_nickel_ore_5:0, Nickel Ore (Andesite)
-osv:immersiveengineering_nickel_ore_5:1, Dense§r Nickel Ore (Andesite)
-osv:biomesoplenty_ruby_ore_5:0, Ruby Ore (Andesite)
-osv:biomesoplenty_ruby_ore_5:1, Dense§r Ruby Ore (Andesite)
-osv:gold_ore_1:0, Gold Ore (Granite)
-osv:gold_ore_1:1, Dense§r Gold Ore (Granite)
-osv:immersiveengineering_uranium_ore_quark_jasper:0, Uranium Ore (Jasper)
-osv:immersiveengineering_uranium_ore_quark_jasper:1, Dense§r Uranium Ore (Jasper)
-osv:biomesoplenty_peridot_ore_quark_marble:0, Peridot Ore (Marble)
-osv:biomesoplenty_peridot_ore_quark_marble:1, Dense§r Peridot Ore (Marble)
-osv:thermalfoundation_lead_ore_3:0, Lead Ore (Diorite)
-osv:thermalfoundation_lead_ore_3:1, Dense§r Lead Ore (Diorite)
-osv:immersiveengineering_copper_ore_quark_jasper:0, Copper Ore (Jasper)
-osv:immersiveengineering_copper_ore_quark_jasper:1, Dense§r Copper Ore (Jasper)
-osv:biomesoplenty_amber_ore_5:0, Amber Ore (Andesite)
-osv:biomesoplenty_amber_ore_5:1, Dense§r Amber Ore (Andesite)
-osv:thermalfoundation_nickel_ore:0, Nickel Ore (Stone)
-osv:thermalfoundation_nickel_ore:1, Dense§r Nickel Ore (Stone)
-osv:biomesoplenty_topaz_ore_5:0, Topaz Ore (Andesite)
-osv:biomesoplenty_topaz_ore_5:1, Dense§r Topaz Ore (Andesite)
-osv:thermalfoundation_lead_ore_1:0, Lead Ore (Granite)
-osv:thermalfoundation_lead_ore_1:1, Dense§r Lead Ore (Granite)
-osv:thermalfoundation_nickel_ore_3:0, Nickel Ore (Diorite)
-osv:thermalfoundation_nickel_ore_3:1, Dense§r Nickel Ore (Diorite)
-osv:immersiveengineering_aluminum_ore_1:0, Bauxite Ore (Granite)
-osv:immersiveengineering_aluminum_ore_1:1, Dense§r Bauxite Ore (Granite)
-osv:thermalfoundation_silver_ore_quark_slate:0, Silver Ore (Slate)
-osv:thermalfoundation_silver_ore_quark_slate:1, Dense§r Silver Ore (Slate)
-osv:thermalfoundation_copper_ore_quark_limestone:0, Copper Ore (Limestone)
-osv:thermalfoundation_copper_ore_quark_limestone:1, Dense§r Copper Ore (Limestone)
-osv:immersiveengineering_lead_ore_3:0, Lead Ore (Diorite)
-osv:immersiveengineering_lead_ore_3:1, Dense§r Lead Ore (Diorite)
-osv:immersiveengineering_copper_ore_quark_marble:0, Copper Ore (Marble)
-osv:immersiveengineering_copper_ore_quark_marble:1, Dense§r Copper Ore (Marble)
-osv:diamond_ore_quark_limestone:0, Diamond Ore (Limestone)
-osv:diamond_ore_quark_limestone:1, Dense§r Diamond Ore (Limestone)
-osv:biomesoplenty_sapphire_ore_1:0, Sapphire Ore (Granite)
-osv:biomesoplenty_sapphire_ore_1:1, Dense§r Sapphire Ore (Granite)
-osv:coal_ore:0, Coal Ore (Stone)
-osv:coal_ore:1, Dense§r Coal Ore (Stone)
-osv:gold_ore_5:0, Gold Ore (Andesite)
-osv:gold_ore_5:1, Dense§r Gold Ore (Andesite)
-osv:thermalfoundation_tin_ore_rustic_slate:0, Tin Ore (Slate)
-osv:thermalfoundation_tin_ore_rustic_slate:1, Dense§r Tin Ore (Slate)
-osv:emerald_ore_rustic_slate:0, Emerald Ore (Slate)
-osv:emerald_ore_rustic_slate:1, Dense§r Emerald Ore (Slate)
-osv:biomesoplenty_sapphire_ore:0, Sapphire Ore (Stone)
-osv:biomesoplenty_sapphire_ore:1, Dense§r Sapphire Ore (Stone)
+osv:biomesoplenty_malachite_ore_quark_jasper:0, Malachite Ore (Jasper)
+osv:biomesoplenty_malachite_ore_quark_jasper:1, Dense§r Malachite Ore (Jasper)
 osv:biomesoplenty_ruby_ore:0, Ruby Ore (Stone)
 osv:biomesoplenty_ruby_ore:1, Dense§r Ruby Ore (Stone)
-osv:biomesoplenty_peridot_ore_1:0, Peridot Ore (Granite)
-osv:biomesoplenty_peridot_ore_1:1, Dense§r Peridot Ore (Granite)
-osv:immersiveengineering_copper_ore_3:0, Copper Ore (Diorite)
-osv:immersiveengineering_copper_ore_3:1, Dense§r Copper Ore (Diorite)
-osv:thermalfoundation_copper_ore_5:0, Copper Ore (Andesite)
-osv:thermalfoundation_copper_ore_5:1, Dense§r Copper Ore (Andesite)
-osv:immersiveengineering_nickel_ore_3:0, Nickel Ore (Diorite)
-osv:immersiveengineering_nickel_ore_3:1, Dense§r Nickel Ore (Diorite)
-osv:biomesoplenty_ruby_ore_quark_limestone:0, Ruby Ore (Limestone)
-osv:biomesoplenty_ruby_ore_quark_limestone:1, Dense§r Ruby Ore (Limestone)
-osv:immersiveengineering_lead_ore_rustic_slate:0, Lead Ore (Slate)
-osv:immersiveengineering_lead_ore_rustic_slate:1, Dense§r Lead Ore (Slate)
-osv:redstone_ore_quark_marble:0, Redstone Ore (Marble)
-osv:redstone_ore_quark_marble:1, Dense§r Redstone Ore (Marble)
-osv:redstone_ore_quark_marble:2, Dense§r Redstone Ore (Marble)
-osv:redstone_ore_quark_marble:3, Dense§r Redstone Ore (Marble)
-osv:thermalfoundation_copper_ore_1:0, Copper Ore (Granite)
-osv:thermalfoundation_copper_ore_1:1, Dense§r Copper Ore (Granite)
-osv:emerald_ore_quark_limestone:0, Emerald Ore (Limestone)
-osv:emerald_ore_quark_limestone:1, Dense§r Emerald Ore (Limestone)
-osv:biomesoplenty_peridot_ore_quark_jasper:0, Peridot Ore (Jasper)
-osv:biomesoplenty_peridot_ore_quark_jasper:1, Dense§r Peridot Ore (Jasper)
-osv:immersiveengineering_aluminum_ore_rustic_slate:0, Bauxite Ore (Slate)
-osv:immersiveengineering_aluminum_ore_rustic_slate:1, Dense§r Bauxite Ore (Slate)
-osv:immersiveengineering_uranium_ore_quark_marble:0, Uranium Ore (Marble)
-osv:immersiveengineering_uranium_ore_quark_marble:1, Dense§r Uranium Ore (Marble)
-osv:immersiveengineering_copper_ore_5:0, Copper Ore (Andesite)
-osv:immersiveengineering_copper_ore_5:1, Dense§r Copper Ore (Andesite)
-osv:emerald_ore:0, Emerald Ore (Stone)
-osv:emerald_ore:1, Dense§r Emerald Ore (Stone)
-osv:iron_ore_1:0, Iron Ore (Granite)
-osv:iron_ore_1:1, Dense§r Iron Ore (Granite)
-osv:biomesoplenty_malachite_ore_3:0, Malachite Ore (Diorite)
-osv:biomesoplenty_malachite_ore_3:1, Dense§r Malachite Ore (Diorite)
-osv:biomesoplenty_ruby_ore_quark_jasper:0, Ruby Ore (Jasper)
-osv:biomesoplenty_ruby_ore_quark_jasper:1, Dense§r Ruby Ore (Jasper)
-osv:biomesoplenty_ruby_ore_quark_marble:0, Ruby Ore (Marble)
-osv:biomesoplenty_ruby_ore_quark_marble:1, Dense§r Ruby Ore (Marble)
-osv:redstone_ore_quark_limestone:0, Redstone Ore (Limestone)
-osv:redstone_ore_quark_limestone:1, Dense§r Redstone Ore (Limestone)
-osv:redstone_ore_quark_limestone:2, Dense§r Redstone Ore (Limestone)
-osv:redstone_ore_quark_limestone:3, Dense§r Redstone Ore (Limestone)
-osv:lapis_ore_quark_marble:0, Lapis Lazuli Ore (Marble)
-osv:lapis_ore_quark_marble:1, Dense§r Lapis Lazuli Ore (Marble)
-osv:thermalfoundation_tin_ore_1:0, Tin Ore (Granite)
-osv:thermalfoundation_tin_ore_1:1, Dense§r Tin Ore (Granite)
-osv:biomesoplenty_sapphire_ore_quark_jasper:0, Sapphire Ore (Jasper)
-osv:biomesoplenty_sapphire_ore_quark_jasper:1, Dense§r Sapphire Ore (Jasper)
 osv:biomesoplenty_tanzanite_ore_rustic_slate:0, Tanzanite Ore (Slate)
 osv:biomesoplenty_tanzanite_ore_rustic_slate:1, Dense§r Tanzanite Ore (Slate)
-osv:immersiveengineering_lead_ore:0, Lead Ore (Stone)
-osv:immersiveengineering_lead_ore:1, Dense§r Lead Ore (Stone)
-osv:immersiveengineering_nickel_ore_quark_marble:0, Nickel Ore (Marble)
-osv:immersiveengineering_nickel_ore_quark_marble:1, Dense§r Nickel Ore (Marble)
-osv:biomesoplenty_topaz_ore_1:0, Topaz Ore (Granite)
-osv:biomesoplenty_topaz_ore_1:1, Dense§r Topaz Ore (Granite)
-osv:biomesoplenty_tanzanite_ore_1:0, Tanzanite Ore (Granite)
-osv:biomesoplenty_tanzanite_ore_1:1, Dense§r Tanzanite Ore (Granite)
-osv:emerald_ore_5:0, Emerald Ore (Andesite)
-osv:emerald_ore_5:1, Dense§r Emerald Ore (Andesite)
-osv:biomesoplenty_sapphire_ore_3:0, Sapphire Ore (Diorite)
-osv:biomesoplenty_sapphire_ore_3:1, Dense§r Sapphire Ore (Diorite)
-osv:thermalfoundation_tin_ore_quark_marble:0, Tin Ore (Marble)
-osv:thermalfoundation_tin_ore_quark_marble:1, Dense§r Tin Ore (Marble)
-osv:thermalfoundation_nickel_ore_5:0, Nickel Ore (Andesite)
-osv:thermalfoundation_nickel_ore_5:1, Dense§r Nickel Ore (Andesite)
-osv:biomesoplenty_peridot_ore_5:0, Peridot Ore (Andesite)
-osv:biomesoplenty_peridot_ore_5:1, Dense§r Peridot Ore (Andesite)
-osv:thermalfoundation_tin_ore_5:0, Tin Ore (Andesite)
-osv:thermalfoundation_tin_ore_5:1, Dense§r Tin Ore (Andesite)
-osv:lapis_ore_quark_slate:0, Lapis Lazuli Ore (Slate)
-osv:lapis_ore_quark_slate:1, Dense§r Lapis Lazuli Ore (Slate)
-osv:gold_ore_quark_marble:0, Gold Ore (Marble)
-osv:gold_ore_quark_marble:1, Dense§r Gold Ore (Marble)
-osv:immersiveengineering_silver_ore_3:0, Silver Ore (Diorite)
-osv:immersiveengineering_silver_ore_3:1, Dense§r Silver Ore (Diorite)
-osv:lapis_ore_quark_jasper:0, Lapis Lazuli Ore (Jasper)
-osv:lapis_ore_quark_jasper:1, Dense§r Lapis Lazuli Ore (Jasper)
-osv:thermalfoundation_copper_ore:0, Copper Ore (Stone)
-osv:thermalfoundation_copper_ore:1, Dense§r Copper Ore (Stone)
+osv:biomesoplenty_tanzanite_ore_quark_slate:0, Tanzanite Ore (Slate)
+osv:biomesoplenty_tanzanite_ore_quark_slate:1, Dense§r Tanzanite Ore (Slate)
+osv:thermalfoundation_tin_ore_1:0, Tin Ore (Granite)
+osv:thermalfoundation_tin_ore_1:1, Dense§r Tin Ore (Granite)
+osv:biomesoplenty_tanzanite_ore_quark_marble:0, Tanzanite Ore (Marble)
+osv:biomesoplenty_tanzanite_ore_quark_marble:1, Dense§r Tanzanite Ore (Marble)
+osv:immersiveengineering_uranium_ore_1:0, Uranium Ore (Granite)
+osv:immersiveengineering_uranium_ore_1:1, Dense§r Uranium Ore (Granite)
+osv:biomesoplenty_sapphire_ore_5:0, Sapphire Ore (Andesite)
+osv:biomesoplenty_sapphire_ore_5:1, Dense§r Sapphire Ore (Andesite)
+osv:immersiveengineering_silver_ore_rustic_slate:0, Silver Ore (Slate)
+osv:immersiveengineering_silver_ore_rustic_slate:1, Dense§r Silver Ore (Slate)
+osv:biomesoplenty_tanzanite_ore:0, Tanzanite Ore (Stone)
+osv:biomesoplenty_tanzanite_ore:1, Dense§r Tanzanite Ore (Stone)
 osv:thermalfoundation_tin_ore:0, Tin Ore (Stone)
 osv:thermalfoundation_tin_ore:1, Dense§r Tin Ore (Stone)
-osv:iron_ore_quark_jasper:0, Iron Ore (Jasper)
-osv:iron_ore_quark_jasper:1, Dense§r Iron Ore (Jasper)
-osv:immersiveengineering_lead_ore_1:0, Lead Ore (Granite)
-osv:immersiveengineering_lead_ore_1:1, Dense§r Lead Ore (Granite)
-osv:biomesoplenty_peridot_ore:0, Peridot Ore (Stone)
-osv:biomesoplenty_peridot_ore:1, Dense§r Peridot Ore (Stone)
-osv:lapis_ore_5:0, Lapis Lazuli Ore (Andesite)
-osv:lapis_ore_5:1, Dense§r Lapis Lazuli Ore (Andesite)
-osv:diamond_ore_rustic_slate:0, Diamond Ore (Slate)
-osv:diamond_ore_rustic_slate:1, Dense§r Diamond Ore (Slate)
-osv:diamond_ore_1:0, Diamond Ore (Granite)
-osv:diamond_ore_1:1, Dense§r Diamond Ore (Granite)
+osv:biomesoplenty_peridot_ore_5:0, Peridot Ore (Andesite)
+osv:biomesoplenty_peridot_ore_5:1, Dense§r Peridot Ore (Andesite)
+osv:immersiveengineering_lead_ore_quark_slate:0, Lead Ore (Slate)
+osv:immersiveengineering_lead_ore_quark_slate:1, Dense§r Lead Ore (Slate)
+osv:thermalfoundation_tin_ore_rustic_slate:0, Tin Ore (Slate)
+osv:thermalfoundation_tin_ore_rustic_slate:1, Dense§r Tin Ore (Slate)
+osv:thermalfoundation_silver_ore_quark_jasper:0, Silver Ore (Jasper)
+osv:thermalfoundation_silver_ore_quark_jasper:1, Dense§r Silver Ore (Jasper)
+osv:thermalfoundation_copper_ore_quark_jasper:0, Copper Ore (Jasper)
+osv:thermalfoundation_copper_ore_quark_jasper:1, Dense§r Copper Ore (Jasper)
+osv:immersiveengineering_silver_ore_quark_jasper:0, Silver Ore (Jasper)
+osv:immersiveengineering_silver_ore_quark_jasper:1, Dense§r Silver Ore (Jasper)
+osv:biomesoplenty_malachite_ore_3:0, Malachite Ore (Diorite)
+osv:biomesoplenty_malachite_ore_3:1, Dense§r Malachite Ore (Diorite)
+osv:biomesoplenty_amber_ore_quark_jasper:0, Amber Ore (Jasper)
+osv:biomesoplenty_amber_ore_quark_jasper:1, Dense§r Amber Ore (Jasper)
+osv:thermalfoundation_lead_ore_quark_marble:0, Lead Ore (Marble)
+osv:thermalfoundation_lead_ore_quark_marble:1, Dense§r Lead Ore (Marble)
+osv:gold_ore_rustic_slate:0, Gold Ore (Slate)
+osv:gold_ore_rustic_slate:1, Dense§r Gold Ore (Slate)
+osv:biomesoplenty_topaz_ore_quark_marble:0, Topaz Ore (Marble)
+osv:biomesoplenty_topaz_ore_quark_marble:1, Dense§r Topaz Ore (Marble)
+osv:diamond_ore_quark_marble:0, Diamond Ore (Marble)
+osv:diamond_ore_quark_marble:1, Dense§r Diamond Ore (Marble)
+osv:immersiveengineering_copper_ore_5:0, Copper Ore (Andesite)
+osv:immersiveengineering_copper_ore_5:1, Dense§r Copper Ore (Andesite)
+osv:thermalfoundation_copper_ore_quark_limestone:0, Copper Ore (Limestone)
+osv:thermalfoundation_copper_ore_quark_limestone:1, Dense§r Copper Ore (Limestone)
+osv:biomesoplenty_tanzanite_ore_quark_jasper:0, Tanzanite Ore (Jasper)
+osv:biomesoplenty_tanzanite_ore_quark_jasper:1, Dense§r Tanzanite Ore (Jasper)
+osv:emerald_ore_rustic_slate:0, Emerald Ore (Slate)
+osv:emerald_ore_rustic_slate:1, Dense§r Emerald Ore (Slate)
+osv:thermalfoundation_silver_ore_quark_marble:0, Silver Ore (Marble)
+osv:thermalfoundation_silver_ore_quark_marble:1, Dense§r Silver Ore (Marble)
+osv:biomesoplenty_malachite_ore:0, Malachite Ore (Stone)
+osv:biomesoplenty_malachite_ore:1, Dense§r Malachite Ore (Stone)
 osv:redstone_ore:0, Redstone Ore (Stone)
 osv:redstone_ore:1, Dense§r Redstone Ore (Stone)
 osv:redstone_ore:2, Dense§r Redstone Ore (Stone)
 osv:redstone_ore:3, Dense§r Redstone Ore (Stone)
-osv:biomesoplenty_ruby_ore_3:0, Ruby Ore (Diorite)
-osv:biomesoplenty_ruby_ore_3:1, Dense§r Ruby Ore (Diorite)
-osv:biomesoplenty_tanzanite_ore_quark_jasper:0, Tanzanite Ore (Jasper)
-osv:biomesoplenty_tanzanite_ore_quark_jasper:1, Dense§r Tanzanite Ore (Jasper)
-osv:biomesoplenty_malachite_ore_quark_marble:0, Malachite Ore (Marble)
-osv:biomesoplenty_malachite_ore_quark_marble:1, Dense§r Malachite Ore (Marble)
-osv:biomesoplenty_tanzanite_ore:0, Tanzanite Ore (Stone)
-osv:biomesoplenty_tanzanite_ore:1, Dense§r Tanzanite Ore (Stone)
-osv:diamond_ore_quark_jasper:0, Diamond Ore (Jasper)
-osv:diamond_ore_quark_jasper:1, Dense§r Diamond Ore (Jasper)
-osv:biomesoplenty_amber_ore_quark_jasper:0, Amber Ore (Jasper)
-osv:biomesoplenty_amber_ore_quark_jasper:1, Dense§r Amber Ore (Jasper)
-osv:immersiveengineering_copper_ore:0, Copper Ore (Stone)
-osv:immersiveengineering_copper_ore:1, Dense§r Copper Ore (Stone)
+osv:thermalfoundation_nickel_ore_5:0, Nickel Ore (Andesite)
+osv:thermalfoundation_nickel_ore_5:1, Dense§r Nickel Ore (Andesite)
+osv:immersiveengineering_copper_ore_3:0, Copper Ore (Diorite)
+osv:immersiveengineering_copper_ore_3:1, Dense§r Copper Ore (Diorite)
+osv:thermalfoundation_tin_ore_5:0, Tin Ore (Andesite)
+osv:thermalfoundation_tin_ore_5:1, Dense§r Tin Ore (Andesite)
+osv:iron_ore:0, Iron Ore (Stone)
+osv:iron_ore:1, Dense§r Iron Ore (Stone)
+osv:redstone_ore_1:0, Redstone Ore (Granite)
+osv:redstone_ore_1:1, Dense§r Redstone Ore (Granite)
+osv:redstone_ore_1:2, Dense§r Redstone Ore (Granite)
+osv:redstone_ore_1:3, Dense§r Redstone Ore (Granite)
 osv:redstone_ore_quark_slate:0, Redstone Ore (Slate)
 osv:redstone_ore_quark_slate:1, Dense§r Redstone Ore (Slate)
 osv:redstone_ore_quark_slate:2, Dense§r Redstone Ore (Slate)
 osv:redstone_ore_quark_slate:3, Dense§r Redstone Ore (Slate)
-osv:biomesoplenty_malachite_ore_quark_slate:0, Malachite Ore (Slate)
-osv:biomesoplenty_malachite_ore_quark_slate:1, Dense§r Malachite Ore (Slate)
-osv:biomesoplenty_sapphire_ore_5:0, Sapphire Ore (Andesite)
-osv:biomesoplenty_sapphire_ore_5:1, Dense§r Sapphire Ore (Andesite)
-osv:immersiveengineering_uranium_ore:0, Uranium Ore (Stone)
-osv:immersiveengineering_uranium_ore:1, Dense§r Uranium Ore (Stone)
+osv:immersiveengineering_nickel_ore:0, Nickel Ore (Stone)
+osv:immersiveengineering_nickel_ore:1, Dense§r Nickel Ore (Stone)
+osv:thermalfoundation_nickel_ore_3:0, Nickel Ore (Diorite)
+osv:thermalfoundation_nickel_ore_3:1, Dense§r Nickel Ore (Diorite)
+osv:biomesoplenty_sapphire_ore_1:0, Sapphire Ore (Granite)
+osv:biomesoplenty_sapphire_ore_1:1, Dense§r Sapphire Ore (Granite)
+osv:biomesoplenty_ruby_ore_quark_jasper:0, Ruby Ore (Jasper)
+osv:biomesoplenty_ruby_ore_quark_jasper:1, Dense§r Ruby Ore (Jasper)
+osv:thermalfoundation_lead_ore:0, Lead Ore (Stone)
+osv:thermalfoundation_lead_ore:1, Dense§r Lead Ore (Stone)
+osv:biomesoplenty_ruby_ore_quark_limestone:0, Ruby Ore (Limestone)
+osv:biomesoplenty_ruby_ore_quark_limestone:1, Dense§r Ruby Ore (Limestone)
+osv:immersiveengineering_lead_ore_1:0, Lead Ore (Granite)
+osv:immersiveengineering_lead_ore_1:1, Dense§r Lead Ore (Granite)
+osv:biomesoplenty_sapphire_ore_3:0, Sapphire Ore (Diorite)
+osv:biomesoplenty_sapphire_ore_3:1, Dense§r Sapphire Ore (Diorite)
+osv:immersiveengineering_silver_ore_quark_limestone:0, Silver Ore (Limestone)
+osv:immersiveengineering_silver_ore_quark_limestone:1, Dense§r Silver Ore (Limestone)
+osv:biomesoplenty_amber_ore_5:0, Amber Ore (Andesite)
+osv:biomesoplenty_amber_ore_5:1, Dense§r Amber Ore (Andesite)
+osv:thermalfoundation_lead_ore_rustic_slate:0, Lead Ore (Slate)
+osv:thermalfoundation_lead_ore_rustic_slate:1, Dense§r Lead Ore (Slate)
+osv:redstone_ore_3:0, Redstone Ore (Diorite)
+osv:redstone_ore_3:1, Dense§r Redstone Ore (Diorite)
+osv:redstone_ore_3:2, Dense§r Redstone Ore (Diorite)
+osv:redstone_ore_3:3, Dense§r Redstone Ore (Diorite)
+osv:thermalfoundation_lead_ore_5:0, Lead Ore (Andesite)
+osv:thermalfoundation_lead_ore_5:1, Dense§r Lead Ore (Andesite)
+osv:coal_ore_quark_slate:0, Coal Ore (Slate)
+osv:coal_ore_quark_slate:1, Dense§r Coal Ore (Slate)
+osv:biomesoplenty_tanzanite_ore_3:0, Tanzanite Ore (Diorite)
+osv:biomesoplenty_tanzanite_ore_3:1, Dense§r Tanzanite Ore (Diorite)
+osv:biomesoplenty_sapphire_ore_quark_slate:0, Sapphire Ore (Slate)
+osv:biomesoplenty_sapphire_ore_quark_slate:1, Dense§r Sapphire Ore (Slate)
+osv:biomesoplenty_peridot_ore:0, Peridot Ore (Stone)
+osv:biomesoplenty_peridot_ore:1, Dense§r Peridot Ore (Stone)
+osv:biomesoplenty_topaz_ore:0, Topaz Ore (Stone)
+osv:biomesoplenty_topaz_ore:1, Dense§r Topaz Ore (Stone)
+osv:emerald_ore_quark_limestone:0, Emerald Ore (Limestone)
+osv:emerald_ore_quark_limestone:1, Dense§r Emerald Ore (Limestone)
+osv:thermalfoundation_copper_ore_5:0, Copper Ore (Andesite)
+osv:thermalfoundation_copper_ore_5:1, Dense§r Copper Ore (Andesite)
+osv:biomesoplenty_amber_ore_3:0, Amber Ore (Diorite)
+osv:biomesoplenty_amber_ore_3:1, Dense§r Amber Ore (Diorite)
+osv:lapis_ore_5:0, Lapis Lazuli Ore (Andesite)
+osv:lapis_ore_5:1, Dense§r Lapis Lazuli Ore (Andesite)
 osv:emerald_ore_quark_slate:0, Emerald Ore (Slate)
 osv:emerald_ore_quark_slate:1, Dense§r Emerald Ore (Slate)
-osv:coal_ore_quark_jasper:0, Coal Ore (Jasper)
-osv:coal_ore_quark_jasper:1, Dense§r Coal Ore (Jasper)
-osv:immersiveengineering_nickel_ore_1:0, Nickel Ore (Granite)
-osv:immersiveengineering_nickel_ore_1:1, Dense§r Nickel Ore (Granite)
-osv:diamond_ore_quark_slate:0, Diamond Ore (Slate)
-osv:diamond_ore_quark_slate:1, Dense§r Diamond Ore (Slate)
-osv:thermalfoundation_copper_ore_quark_marble:0, Copper Ore (Marble)
-osv:thermalfoundation_copper_ore_quark_marble:1, Dense§r Copper Ore (Marble)
-osv:immersiveengineering_copper_ore_quark_limestone:0, Copper Ore (Limestone)
-osv:immersiveengineering_copper_ore_quark_limestone:1, Dense§r Copper Ore (Limestone)
-osv:diamond_ore_5:0, Diamond Ore (Andesite)
-osv:diamond_ore_5:1, Dense§r Diamond Ore (Andesite)
-osv:immersiveengineering_copper_ore_1:0, Copper Ore (Granite)
-osv:immersiveengineering_copper_ore_1:1, Dense§r Copper Ore (Granite)
-osv:coal_ore_quark_limestone:0, Coal Ore (Limestone)
-osv:coal_ore_quark_limestone:1, Dense§r Coal Ore (Limestone)
-osv:thermalfoundation_silver_ore_1:0, Silver Ore (Granite)
-osv:thermalfoundation_silver_ore_1:1, Dense§r Silver Ore (Granite)
-osv:diamond_ore:0, Diamond Ore (Stone)
-osv:diamond_ore:1, Dense§r Diamond Ore (Stone)
-osv:thermalfoundation_copper_ore_quark_jasper:0, Copper Ore (Jasper)
-osv:thermalfoundation_copper_ore_quark_jasper:1, Dense§r Copper Ore (Jasper)
-osv:thermalfoundation_nickel_ore_quark_jasper:0, Nickel Ore (Jasper)
-osv:thermalfoundation_nickel_ore_quark_jasper:1, Dense§r Nickel Ore (Jasper)
+osv:iron_ore_1:0, Iron Ore (Granite)
+osv:iron_ore_1:1, Dense§r Iron Ore (Granite)
+osv:biomesoplenty_malachite_ore_quark_slate:0, Malachite Ore (Slate)
+osv:biomesoplenty_malachite_ore_quark_slate:1, Dense§r Malachite Ore (Slate)
+osv:thermalfoundation_tin_ore_quark_marble:0, Tin Ore (Marble)
+osv:thermalfoundation_tin_ore_quark_marble:1, Dense§r Tin Ore (Marble)
+osv:biomesoplenty_topaz_ore_quark_limestone:0, Topaz Ore (Limestone)
+osv:biomesoplenty_topaz_ore_quark_limestone:1, Dense§r Topaz Ore (Limestone)
+osv:biomesoplenty_tanzanite_ore_1:0, Tanzanite Ore (Granite)
+osv:biomesoplenty_tanzanite_ore_1:1, Dense§r Tanzanite Ore (Granite)
+osv:biomesoplenty_malachite_ore_rustic_slate:0, Malachite Ore (Slate)
+osv:biomesoplenty_malachite_ore_rustic_slate:1, Dense§r Malachite Ore (Slate)
+osv:coal_ore_3:0, Coal Ore (Diorite)
+osv:coal_ore_3:1, Dense§r Coal Ore (Diorite)
+osv:diamond_ore_rustic_slate:0, Diamond Ore (Slate)
+osv:diamond_ore_rustic_slate:1, Dense§r Diamond Ore (Slate)
+osv:immersiveengineering_aluminum_ore_quark_marble:0, Bauxite Ore (Marble)
+osv:immersiveengineering_aluminum_ore_quark_marble:1, Dense§r Bauxite Ore (Marble)
 osv:thermalfoundation_silver_ore:0, Silver Ore (Stone)
 osv:thermalfoundation_silver_ore:1, Dense§r Silver Ore (Stone)
-osv:biomesoplenty_amber_ore_quark_slate:0, Amber Ore (Slate)
-osv:biomesoplenty_amber_ore_quark_slate:1, Dense§r Amber Ore (Slate)
-osv:lapis_ore:0, Lapis Lazuli Ore (Stone)
-osv:lapis_ore:1, Dense§r Lapis Lazuli Ore (Stone)
-osv:biomesoplenty_sapphire_ore_quark_limestone:0, Sapphire Ore (Limestone)
-osv:biomesoplenty_sapphire_ore_quark_limestone:1, Dense§r Sapphire Ore (Limestone)
-osv:biomesoplenty_tanzanite_ore_quark_slate:0, Tanzanite Ore (Slate)
-osv:biomesoplenty_tanzanite_ore_quark_slate:1, Dense§r Tanzanite Ore (Slate)
-osv:biomesoplenty_peridot_ore_rustic_slate:0, Peridot Ore (Slate)
-osv:biomesoplenty_peridot_ore_rustic_slate:1, Dense§r Peridot Ore (Slate)
-osv:biomesoplenty_sapphire_ore_quark_marble:0, Sapphire Ore (Marble)
-osv:biomesoplenty_sapphire_ore_quark_marble:1, Dense§r Sapphire Ore (Marble)
-osv:redstone_ore_5:0, Redstone Ore (Andesite)
-osv:redstone_ore_5:1, Dense§r Redstone Ore (Andesite)
-osv:redstone_ore_5:2, Dense§r Redstone Ore (Andesite)
-osv:redstone_ore_5:3, Dense§r Redstone Ore (Andesite)
-osv:thermalfoundation_nickel_ore_rustic_slate:0, Nickel Ore (Slate)
-osv:thermalfoundation_nickel_ore_rustic_slate:1, Dense§r Nickel Ore (Slate)
-osv:lapis_ore_3:0, Lapis Lazuli Ore (Diorite)
-osv:lapis_ore_3:1, Dense§r Lapis Lazuli Ore (Diorite)
+osv:thermalfoundation_lead_ore_quark_limestone:0, Lead Ore (Limestone)
+osv:thermalfoundation_lead_ore_quark_limestone:1, Dense§r Lead Ore (Limestone)
+osv:biomesoplenty_malachite_ore_quark_marble:0, Malachite Ore (Marble)
+osv:biomesoplenty_malachite_ore_quark_marble:1, Dense§r Malachite Ore (Marble)
+osv:biomesoplenty_ruby_ore_3:0, Ruby Ore (Diorite)
+osv:biomesoplenty_ruby_ore_3:1, Dense§r Ruby Ore (Diorite)
+osv:immersiveengineering_uranium_ore_3:0, Uranium Ore (Diorite)
+osv:immersiveengineering_uranium_ore_3:1, Dense§r Uranium Ore (Diorite)
+osv:thermalfoundation_nickel_ore_quark_limestone:0, Nickel Ore (Limestone)
+osv:thermalfoundation_nickel_ore_quark_limestone:1, Dense§r Nickel Ore (Limestone)
+osv:thermalfoundation_nickel_ore_1:0, Nickel Ore (Granite)
+osv:thermalfoundation_nickel_ore_1:1, Dense§r Nickel Ore (Granite)
+osv:emerald_ore_3:0, Emerald Ore (Diorite)
+osv:emerald_ore_3:1, Dense§r Emerald Ore (Diorite)
+osv:biomesoplenty_sapphire_ore_rustic_slate:0, Sapphire Ore (Slate)
+osv:biomesoplenty_sapphire_ore_rustic_slate:1, Dense§r Sapphire Ore (Slate)
+osv:iron_ore_quark_limestone:0, Iron Ore (Limestone)
+osv:iron_ore_quark_limestone:1, Dense§r Iron Ore (Limestone)
+osv:coal_ore_quark_limestone:0, Coal Ore (Limestone)
+osv:coal_ore_quark_limestone:1, Dense§r Coal Ore (Limestone)
+osv:thermalfoundation_lead_ore_3:0, Lead Ore (Diorite)
+osv:thermalfoundation_lead_ore_3:1, Dense§r Lead Ore (Diorite)
+osv:biomesoplenty_malachite_ore_5:0, Malachite Ore (Andesite)
+osv:biomesoplenty_malachite_ore_5:1, Dense§r Malachite Ore (Andesite)
+osv:biomesoplenty_topaz_ore_5:0, Topaz Ore (Andesite)
+osv:biomesoplenty_topaz_ore_5:1, Dense§r Topaz Ore (Andesite)
 osv:biomesoplenty_amber_ore_quark_marble:0, Amber Ore (Marble)
 osv:biomesoplenty_amber_ore_quark_marble:1, Dense§r Amber Ore (Marble)
-osv:coal_ore_rustic_slate:0, Coal Ore (Slate)
-osv:coal_ore_rustic_slate:1, Dense§r Coal Ore (Slate)
-osv:thermalfoundation_lead_ore_quark_jasper:0, Lead Ore (Jasper)
-osv:thermalfoundation_lead_ore_quark_jasper:1, Dense§r Lead Ore (Jasper)
-osv:immersiveengineering_nickel_ore_quark_limestone:0, Nickel Ore (Limestone)
-osv:immersiveengineering_nickel_ore_quark_limestone:1, Dense§r Nickel Ore (Limestone)
+osv:thermalfoundation_copper_ore_1:0, Copper Ore (Granite)
+osv:thermalfoundation_copper_ore_1:1, Dense§r Copper Ore (Granite)
+osv:gold_ore_quark_jasper:0, Gold Ore (Jasper)
+osv:gold_ore_quark_jasper:1, Dense§r Gold Ore (Jasper)
+osv:biomesoplenty_peridot_ore_1:0, Peridot Ore (Granite)
+osv:biomesoplenty_peridot_ore_1:1, Dense§r Peridot Ore (Granite)
+osv:diamond_ore_3:0, Diamond Ore (Diorite)
+osv:diamond_ore_3:1, Dense§r Diamond Ore (Diorite)
+osv:biomesoplenty_ruby_ore_quark_slate:0, Ruby Ore (Slate)
+osv:biomesoplenty_ruby_ore_quark_slate:1, Dense§r Ruby Ore (Slate)
+osv:redstone_ore_quark_marble:0, Redstone Ore (Marble)
+osv:redstone_ore_quark_marble:1, Dense§r Redstone Ore (Marble)
+osv:redstone_ore_quark_marble:2, Dense§r Redstone Ore (Marble)
+osv:redstone_ore_quark_marble:3, Dense§r Redstone Ore (Marble)
+osv:diamond_ore_quark_jasper:0, Diamond Ore (Jasper)
+osv:diamond_ore_quark_jasper:1, Dense§r Diamond Ore (Jasper)
+osv:thermalfoundation_copper_ore_quark_slate:0, Copper Ore (Slate)
+osv:thermalfoundation_copper_ore_quark_slate:1, Dense§r Copper Ore (Slate)
+osv:biomesoplenty_peridot_ore_rustic_slate:0, Peridot Ore (Slate)
+osv:biomesoplenty_peridot_ore_rustic_slate:1, Dense§r Peridot Ore (Slate)
+osv:immersiveengineering_aluminum_ore_5:0, Bauxite Ore (Andesite)
+osv:immersiveengineering_aluminum_ore_5:1, Dense§r Bauxite Ore (Andesite)
+osv:immersiveengineering_uranium_ore:0, Uranium Ore (Stone)
+osv:immersiveengineering_uranium_ore:1, Dense§r Uranium Ore (Stone)
+osv:biomesoplenty_peridot_ore_quark_limestone:0, Peridot Ore (Limestone)
+osv:biomesoplenty_peridot_ore_quark_limestone:1, Dense§r Peridot Ore (Limestone)
+osv:immersiveengineering_aluminum_ore_quark_limestone:0, Bauxite Ore (Limestone)
+osv:immersiveengineering_aluminum_ore_quark_limestone:1, Dense§r Bauxite Ore (Limestone)
+osv:iron_ore_3:0, Iron Ore (Diorite)
+osv:iron_ore_3:1, Dense§r Iron Ore (Diorite)
 osv:redstone_ore_rustic_slate:0, Redstone Ore (Slate)
 osv:redstone_ore_rustic_slate:1, Dense§r Redstone Ore (Slate)
 osv:redstone_ore_rustic_slate:2, Dense§r Redstone Ore (Slate)
 osv:redstone_ore_rustic_slate:3, Dense§r Redstone Ore (Slate)
-osv:biomesoplenty_topaz_ore_quark_jasper:0, Topaz Ore (Jasper)
-osv:biomesoplenty_topaz_ore_quark_jasper:1, Dense§r Topaz Ore (Jasper)
-osv:immersiveengineering_uranium_ore_quark_limestone:0, Uranium Ore (Limestone)
-osv:immersiveengineering_uranium_ore_quark_limestone:1, Dense§r Uranium Ore (Limestone)
-osv:thermalfoundation_tin_ore_quark_limestone:0, Tin Ore (Limestone)
-osv:thermalfoundation_tin_ore_quark_limestone:1, Dense§r Tin Ore (Limestone)
-osv:thermalfoundation_silver_ore_quark_limestone:0, Silver Ore (Limestone)
-osv:thermalfoundation_silver_ore_quark_limestone:1, Dense§r Silver Ore (Limestone)
-osv:biomesoplenty_ruby_ore_rustic_slate:0, Ruby Ore (Slate)
-osv:biomesoplenty_ruby_ore_rustic_slate:1, Dense§r Ruby Ore (Slate)
-osv:biomesoplenty_amber_ore_rustic_slate:0, Amber Ore (Slate)
-osv:biomesoplenty_amber_ore_rustic_slate:1, Dense§r Amber Ore (Slate)
-osv:biomesoplenty_malachite_ore_quark_jasper:0, Malachite Ore (Jasper)
-osv:biomesoplenty_malachite_ore_quark_jasper:1, Dense§r Malachite Ore (Jasper)
-osv:iron_ore:0, Iron Ore (Stone)
-osv:iron_ore:1, Dense§r Iron Ore (Stone)
 osv:immersiveengineering_nickel_ore_quark_jasper:0, Nickel Ore (Jasper)
 osv:immersiveengineering_nickel_ore_quark_jasper:1, Dense§r Nickel Ore (Jasper)
-osv:biomesoplenty_amber_ore:0, Amber Ore (Stone)
-osv:biomesoplenty_amber_ore:1, Dense§r Amber Ore (Stone)
-osv:biomesoplenty_topaz_ore_quark_slate:0, Topaz Ore (Slate)
-osv:biomesoplenty_topaz_ore_quark_slate:1, Dense§r Topaz Ore (Slate)
-osv:thermalfoundation_copper_ore_quark_slate:0, Copper Ore (Slate)
-osv:thermalfoundation_copper_ore_quark_slate:1, Dense§r Copper Ore (Slate)
-osv:coal_ore_1:0, Coal Ore (Granite)
-osv:coal_ore_1:1, Dense§r Coal Ore (Granite)
-osv:immersiveengineering_uranium_ore_3:0, Uranium Ore (Diorite)
-osv:immersiveengineering_uranium_ore_3:1, Dense§r Uranium Ore (Diorite)
-osv:coal_ore_3:0, Coal Ore (Diorite)
-osv:coal_ore_3:1, Dense§r Coal Ore (Diorite)
-osv:immersiveengineering_aluminum_ore_3:0, Bauxite Ore (Diorite)
-osv:immersiveengineering_aluminum_ore_3:1, Dense§r Bauxite Ore (Diorite)
-osv:diamond_ore_3:0, Diamond Ore (Diorite)
-osv:diamond_ore_3:1, Dense§r Diamond Ore (Diorite)
-osv:biomesoplenty_malachite_ore_quark_limestone:0, Malachite Ore (Limestone)
-osv:biomesoplenty_malachite_ore_quark_limestone:1, Dense§r Malachite Ore (Limestone)
-osv:gold_ore:0, Gold Ore (Stone)
-osv:gold_ore:1, Dense§r Gold Ore (Stone)
-osv:coal_ore_5:0, Coal Ore (Andesite)
-osv:coal_ore_5:1, Dense§r Coal Ore (Andesite)
-osv:immersiveengineering_aluminum_ore_quark_limestone:0, Bauxite Ore (Limestone)
-osv:immersiveengineering_aluminum_ore_quark_limestone:1, Dense§r Bauxite Ore (Limestone)
-osv:immersiveengineering_uranium_ore_quark_slate:0, Uranium Ore (Slate)
-osv:immersiveengineering_uranium_ore_quark_slate:1, Dense§r Uranium Ore (Slate)
-osv:immersiveengineering_lead_ore_5:0, Lead Ore (Andesite)
-osv:immersiveengineering_lead_ore_5:1, Dense§r Lead Ore (Andesite)
-osv:diamond_ore_quark_marble:0, Diamond Ore (Marble)
-osv:diamond_ore_quark_marble:1, Dense§r Diamond Ore (Marble)
-osv:thermalfoundation_tin_ore_3:0, Tin Ore (Diorite)
-osv:thermalfoundation_tin_ore_3:1, Dense§r Tin Ore (Diorite)
-osv:thermalfoundation_silver_ore_quark_marble:0, Silver Ore (Marble)
-osv:thermalfoundation_silver_ore_quark_marble:1, Dense§r Silver Ore (Marble)
-osv:biomesoplenty_peridot_ore_quark_slate:0, Peridot Ore (Slate)
-osv:biomesoplenty_peridot_ore_quark_slate:1, Dense§r Peridot Ore (Slate)
-osv:immersiveengineering_aluminum_ore:0, Bauxite Ore (Stone)
-osv:immersiveengineering_aluminum_ore:1, Dense§r Bauxite Ore (Stone)
-osv:coal_ore_quark_slate:0, Coal Ore (Slate)
-osv:coal_ore_quark_slate:1, Dense§r Coal Ore (Slate)
-osv:biomesoplenty_malachite_ore_1:0, Malachite Ore (Granite)
-osv:biomesoplenty_malachite_ore_1:1, Dense§r Malachite Ore (Granite)
-osv:immersiveengineering_silver_ore_quark_slate:0, Silver Ore (Slate)
-osv:immersiveengineering_silver_ore_quark_slate:1, Dense§r Silver Ore (Slate)
-osv:thermalfoundation_silver_ore_quark_jasper:0, Silver Ore (Jasper)
-osv:thermalfoundation_silver_ore_quark_jasper:1, Dense§r Silver Ore (Jasper)
-osv:immersiveengineering_silver_ore_1:0, Silver Ore (Granite)
-osv:immersiveengineering_silver_ore_1:1, Dense§r Silver Ore (Granite)
-osv:thermalfoundation_nickel_ore_quark_marble:0, Nickel Ore (Marble)
-osv:thermalfoundation_nickel_ore_quark_marble:1, Dense§r Nickel Ore (Marble)
-osv:biomesoplenty_sapphire_ore_rustic_slate:0, Sapphire Ore (Slate)
-osv:biomesoplenty_sapphire_ore_rustic_slate:1, Dense§r Sapphire Ore (Slate)
-osv:biomesoplenty_topaz_ore_quark_limestone:0, Topaz Ore (Limestone)
-osv:biomesoplenty_topaz_ore_quark_limestone:1, Dense§r Topaz Ore (Limestone)
-osv:emerald_ore_1:0, Emerald Ore (Granite)
-osv:emerald_ore_1:1, Dense§r Emerald Ore (Granite)
-osv:gold_ore_quark_limestone:0, Gold Ore (Limestone)
-osv:gold_ore_quark_limestone:1, Dense§r Gold Ore (Limestone)
-osv:thermalfoundation_copper_ore_rustic_slate:0, Copper Ore (Slate)
-osv:thermalfoundation_copper_ore_rustic_slate:1, Dense§r Copper Ore (Slate)
+osv:lapis_ore_quark_limestone:0, Lapis Lazuli Ore (Limestone)
+osv:lapis_ore_quark_limestone:1, Dense§r Lapis Lazuli Ore (Limestone)
 osv:iron_ore_quark_marble:0, Iron Ore (Marble)
 osv:iron_ore_quark_marble:1, Dense§r Iron Ore (Marble)
-osv:thermalfoundation_lead_ore_quark_slate:0, Lead Ore (Slate)
-osv:thermalfoundation_lead_ore_quark_slate:1, Dense§r Lead Ore (Slate)
-osv:biomesoplenty_malachite_ore:0, Malachite Ore (Stone)
-osv:biomesoplenty_malachite_ore:1, Dense§r Malachite Ore (Stone)
-osv:biomesoplenty_amber_ore_quark_limestone:0, Amber Ore (Limestone)
-osv:biomesoplenty_amber_ore_quark_limestone:1, Dense§r Amber Ore (Limestone)
-osv:immersiveengineering_uranium_ore_rustic_slate:0, Uranium Ore (Slate)
-osv:immersiveengineering_uranium_ore_rustic_slate:1, Dense§r Uranium Ore (Slate)
-osv:immersiveengineering_silver_ore_5:0, Silver Ore (Andesite)
-osv:immersiveengineering_silver_ore_5:1, Dense§r Silver Ore (Andesite)
+osv:immersiveengineering_aluminum_ore:0, Bauxite Ore (Stone)
+osv:immersiveengineering_aluminum_ore:1, Dense§r Bauxite Ore (Stone)
+osv:thermalfoundation_copper_ore_rustic_slate:0, Copper Ore (Slate)
+osv:thermalfoundation_copper_ore_rustic_slate:1, Dense§r Copper Ore (Slate)
+osv:lapis_ore_quark_marble:0, Lapis Lazuli Ore (Marble)
+osv:lapis_ore_quark_marble:1, Dense§r Lapis Lazuli Ore (Marble)
+osv:immersiveengineering_nickel_ore_rustic_slate:0, Nickel Ore (Slate)
+osv:immersiveengineering_nickel_ore_rustic_slate:1, Dense§r Nickel Ore (Slate)
+osv:immersiveengineering_nickel_ore_quark_marble:0, Nickel Ore (Marble)
+osv:immersiveengineering_nickel_ore_quark_marble:1, Dense§r Nickel Ore (Marble)
+osv:iron_ore_quark_jasper:0, Iron Ore (Jasper)
+osv:iron_ore_quark_jasper:1, Dense§r Iron Ore (Jasper)
+osv:immersiveengineering_copper_ore_quark_marble:0, Copper Ore (Marble)
+osv:immersiveengineering_copper_ore_quark_marble:1, Dense§r Copper Ore (Marble)
+osv:redstone_ore_5:0, Redstone Ore (Andesite)
+osv:redstone_ore_5:1, Dense§r Redstone Ore (Andesite)
+osv:redstone_ore_5:2, Dense§r Redstone Ore (Andesite)
+osv:redstone_ore_5:3, Dense§r Redstone Ore (Andesite)
+osv:thermalfoundation_nickel_ore:0, Nickel Ore (Stone)
+osv:thermalfoundation_nickel_ore:1, Dense§r Nickel Ore (Stone)
 osv:biomesoplenty_topaz_ore_3:0, Topaz Ore (Diorite)
 osv:biomesoplenty_topaz_ore_3:1, Dense§r Topaz Ore (Diorite)
-osv:biomesoplenty_ruby_ore_1:0, Ruby Ore (Granite)
-osv:biomesoplenty_ruby_ore_1:1, Dense§r Ruby Ore (Granite)
-osv:biomesoplenty_tanzanite_ore_quark_limestone:0, Tanzanite Ore (Limestone)
-osv:biomesoplenty_tanzanite_ore_quark_limestone:1, Dense§r Tanzanite Ore (Limestone)
-osv:thermalfoundation_lead_ore_5:0, Lead Ore (Andesite)
-osv:thermalfoundation_lead_ore_5:1, Dense§r Lead Ore (Andesite)
-osv:immersiveengineering_lead_ore_quark_slate:0, Lead Ore (Slate)
-osv:immersiveengineering_lead_ore_quark_slate:1, Dense§r Lead Ore (Slate)
-osv:immersiveengineering_lead_ore_quark_jasper:0, Lead Ore (Jasper)
-osv:immersiveengineering_lead_ore_quark_jasper:1, Dense§r Lead Ore (Jasper)
-osv:biomesoplenty_peridot_ore_3:0, Peridot Ore (Diorite)
-osv:biomesoplenty_peridot_ore_3:1, Dense§r Peridot Ore (Diorite)
-osv:immersiveengineering_silver_ore_quark_limestone:0, Silver Ore (Limestone)
-osv:immersiveengineering_silver_ore_quark_limestone:1, Dense§r Silver Ore (Limestone)
-osv:biomesoplenty_malachite_ore_5:0, Malachite Ore (Andesite)
-osv:biomesoplenty_malachite_ore_5:1, Dense§r Malachite Ore (Andesite)
-osv:coal_ore_quark_marble:0, Coal Ore (Marble)
-osv:coal_ore_quark_marble:1, Dense§r Coal Ore (Marble)
-osv:biomesoplenty_amber_ore_3:0, Amber Ore (Diorite)
-osv:biomesoplenty_amber_ore_3:1, Dense§r Amber Ore (Diorite)
-osv:thermalfoundation_nickel_ore_quark_limestone:0, Nickel Ore (Limestone)
-osv:thermalfoundation_nickel_ore_quark_limestone:1, Dense§r Nickel Ore (Limestone)
-osv:thermalfoundation_tin_ore_quark_slate:0, Tin Ore (Slate)
-osv:thermalfoundation_tin_ore_quark_slate:1, Dense§r Tin Ore (Slate)
-osv:immersiveengineering_copper_ore_rustic_slate:0, Copper Ore (Slate)
-osv:immersiveengineering_copper_ore_rustic_slate:1, Dense§r Copper Ore (Slate)
+osv:gold_ore_quark_slate:0, Gold Ore (Slate)
+osv:gold_ore_quark_slate:1, Dense§r Gold Ore (Slate)
+osv:thermalfoundation_nickel_ore_quark_jasper:0, Nickel Ore (Jasper)
+osv:thermalfoundation_nickel_ore_quark_jasper:1, Dense§r Nickel Ore (Jasper)
+osv:biomesoplenty_topaz_ore_quark_jasper:0, Topaz Ore (Jasper)
+osv:biomesoplenty_topaz_ore_quark_jasper:1, Dense§r Topaz Ore (Jasper)
+osv:thermalfoundation_silver_ore_5:0, Silver Ore (Andesite)
+osv:thermalfoundation_silver_ore_5:1, Dense§r Silver Ore (Andesite)
+osv:immersiveengineering_nickel_ore_5:0, Nickel Ore (Andesite)
+osv:immersiveengineering_nickel_ore_5:1, Dense§r Nickel Ore (Andesite)
+osv:lapis_ore_1:0, Lapis Lazuli Ore (Granite)
+osv:lapis_ore_1:1, Dense§r Lapis Lazuli Ore (Granite)
 osv:iron_ore_quark_slate:0, Iron Ore (Slate)
 osv:iron_ore_quark_slate:1, Dense§r Iron Ore (Slate)
+osv:immersiveengineering_lead_ore_3:0, Lead Ore (Diorite)
+osv:immersiveengineering_lead_ore_3:1, Dense§r Lead Ore (Diorite)
+osv:immersiveengineering_copper_ore:0, Copper Ore (Stone)
+osv:immersiveengineering_copper_ore:1, Dense§r Copper Ore (Stone)
+osv:emerald_ore_quark_marble:0, Emerald Ore (Marble)
+osv:emerald_ore_quark_marble:1, Dense§r Emerald Ore (Marble)
+osv:immersiveengineering_uranium_ore_quark_marble:0, Uranium Ore (Marble)
+osv:immersiveengineering_uranium_ore_quark_marble:1, Dense§r Uranium Ore (Marble)
+osv:immersiveengineering_copper_ore_rustic_slate:0, Copper Ore (Slate)
+osv:immersiveengineering_copper_ore_rustic_slate:1, Dense§r Copper Ore (Slate)
+osv:biomesoplenty_tanzanite_ore_quark_limestone:0, Tanzanite Ore (Limestone)
+osv:biomesoplenty_tanzanite_ore_quark_limestone:1, Dense§r Tanzanite Ore (Limestone)
+osv:immersiveengineering_silver_ore_quark_marble:0, Silver Ore (Marble)
+osv:immersiveengineering_silver_ore_quark_marble:1, Dense§r Silver Ore (Marble)
+osv:lapis_ore:0, Lapis Lazuli Ore (Stone)
+osv:lapis_ore:1, Dense§r Lapis Lazuli Ore (Stone)
+osv:biomesoplenty_sapphire_ore_quark_limestone:0, Sapphire Ore (Limestone)
+osv:biomesoplenty_sapphire_ore_quark_limestone:1, Dense§r Sapphire Ore (Limestone)
+osv:lapis_ore_quark_slate:0, Lapis Lazuli Ore (Slate)
+osv:lapis_ore_quark_slate:1, Dense§r Lapis Lazuli Ore (Slate)
+osv:lapis_ore_quark_jasper:0, Lapis Lazuli Ore (Jasper)
+osv:lapis_ore_quark_jasper:1, Dense§r Lapis Lazuli Ore (Jasper)
+osv:immersiveengineering_silver_ore:0, Silver Ore (Stone)
+osv:immersiveengineering_silver_ore:1, Dense§r Silver Ore (Stone)
+osv:immersiveengineering_uranium_ore_quark_limestone:0, Uranium Ore (Limestone)
+osv:immersiveengineering_uranium_ore_quark_limestone:1, Dense§r Uranium Ore (Limestone)
+osv:immersiveengineering_aluminum_ore_rustic_slate:0, Bauxite Ore (Slate)
+osv:immersiveengineering_aluminum_ore_rustic_slate:1, Dense§r Bauxite Ore (Slate)
+osv:thermalfoundation_silver_ore_rustic_slate:0, Silver Ore (Slate)
+osv:thermalfoundation_silver_ore_rustic_slate:1, Dense§r Silver Ore (Slate)
 osv:immersiveengineering_uranium_ore_5:0, Uranium Ore (Andesite)
 osv:immersiveengineering_uranium_ore_5:1, Dense§r Uranium Ore (Andesite)
+osv:biomesoplenty_topaz_ore_rustic_slate:0, Topaz Ore (Slate)
+osv:biomesoplenty_topaz_ore_rustic_slate:1, Dense§r Topaz Ore (Slate)
+osv:coal_ore:0, Coal Ore (Stone)
+osv:coal_ore:1, Dense§r Coal Ore (Stone)
+osv:biomesoplenty_tanzanite_ore_5:0, Tanzanite Ore (Andesite)
+osv:biomesoplenty_tanzanite_ore_5:1, Dense§r Tanzanite Ore (Andesite)
+osv:immersiveengineering_nickel_ore_1:0, Nickel Ore (Granite)
+osv:immersiveengineering_nickel_ore_1:1, Dense§r Nickel Ore (Granite)
+osv:thermalfoundation_tin_ore_quark_slate:0, Tin Ore (Slate)
+osv:thermalfoundation_tin_ore_quark_slate:1, Dense§r Tin Ore (Slate)
+osv:diamond_ore_1:0, Diamond Ore (Granite)
+osv:diamond_ore_1:1, Dense§r Diamond Ore (Granite)
+osv:coal_ore_5:0, Coal Ore (Andesite)
+osv:coal_ore_5:1, Dense§r Coal Ore (Andesite)
+osv:biomesoplenty_ruby_ore_5:0, Ruby Ore (Andesite)
+osv:biomesoplenty_ruby_ore_5:1, Dense§r Ruby Ore (Andesite)
+osv:gold_ore:0, Gold Ore (Stone)
+osv:gold_ore:1, Dense§r Gold Ore (Stone)
+osv:gold_ore_quark_marble:0, Gold Ore (Marble)
+osv:gold_ore_quark_marble:1, Dense§r Gold Ore (Marble)
+osv:coal_ore_quark_jasper:0, Coal Ore (Jasper)
+osv:coal_ore_quark_jasper:1, Dense§r Coal Ore (Jasper)
+osv:immersiveengineering_silver_ore_3:0, Silver Ore (Diorite)
+osv:immersiveengineering_silver_ore_3:1, Dense§r Silver Ore (Diorite)
+osv:thermalfoundation_silver_ore_quark_slate:0, Silver Ore (Slate)
+osv:thermalfoundation_silver_ore_quark_slate:1, Dense§r Silver Ore (Slate)
+osv:gold_ore_5:0, Gold Ore (Andesite)
+osv:gold_ore_5:1, Dense§r Gold Ore (Andesite)
+osv:immersiveengineering_copper_ore_1:0, Copper Ore (Granite)
+osv:immersiveengineering_copper_ore_1:1, Dense§r Copper Ore (Granite)
+osv:biomesoplenty_peridot_ore_quark_marble:0, Peridot Ore (Marble)
+osv:biomesoplenty_peridot_ore_quark_marble:1, Dense§r Peridot Ore (Marble)
+osv:gold_ore_1:0, Gold Ore (Granite)
+osv:gold_ore_1:1, Dense§r Gold Ore (Granite)
+osv:gold_ore_quark_limestone:0, Gold Ore (Limestone)
+osv:gold_ore_quark_limestone:1, Dense§r Gold Ore (Limestone)
+osv:redstone_ore_quark_limestone:0, Redstone Ore (Limestone)
+osv:redstone_ore_quark_limestone:1, Dense§r Redstone Ore (Limestone)
+osv:redstone_ore_quark_limestone:2, Dense§r Redstone Ore (Limestone)
+osv:redstone_ore_quark_limestone:3, Dense§r Redstone Ore (Limestone)
+osv:immersiveengineering_aluminum_ore_1:0, Bauxite Ore (Granite)
+osv:immersiveengineering_aluminum_ore_1:1, Dense§r Bauxite Ore (Granite)
+osv:thermalfoundation_copper_ore_3:0, Copper Ore (Diorite)
+osv:thermalfoundation_copper_ore_3:1, Dense§r Copper Ore (Diorite)
+osv:diamond_ore_quark_slate:0, Diamond Ore (Slate)
+osv:diamond_ore_quark_slate:1, Dense§r Diamond Ore (Slate)
+osv:biomesoplenty_sapphire_ore_quark_jasper:0, Sapphire Ore (Jasper)
+osv:biomesoplenty_sapphire_ore_quark_jasper:1, Dense§r Sapphire Ore (Jasper)
+osv:immersiveengineering_copper_ore_quark_jasper:0, Copper Ore (Jasper)
+osv:immersiveengineering_copper_ore_quark_jasper:1, Dense§r Copper Ore (Jasper)
+osv:immersiveengineering_aluminum_ore_quark_jasper:0, Bauxite Ore (Jasper)
+osv:immersiveengineering_aluminum_ore_quark_jasper:1, Dense§r Bauxite Ore (Jasper)
+osv:diamond_ore_quark_limestone:0, Diamond Ore (Limestone)
+osv:diamond_ore_quark_limestone:1, Dense§r Diamond Ore (Limestone)
+osv:biomesoplenty_sapphire_ore_quark_marble:0, Sapphire Ore (Marble)
+osv:biomesoplenty_sapphire_ore_quark_marble:1, Dense§r Sapphire Ore (Marble)
+osv:thermalfoundation_lead_ore_quark_jasper:0, Lead Ore (Jasper)
+osv:thermalfoundation_lead_ore_quark_jasper:1, Dense§r Lead Ore (Jasper)
+osv:thermalfoundation_silver_ore_1:0, Silver Ore (Granite)
+osv:thermalfoundation_silver_ore_1:1, Dense§r Silver Ore (Granite)
+osv:lapis_ore_rustic_slate:0, Lapis Lazuli Ore (Slate)
+osv:lapis_ore_rustic_slate:1, Dense§r Lapis Lazuli Ore (Slate)
+osv:immersiveengineering_lead_ore_quark_limestone:0, Lead Ore (Limestone)
+osv:immersiveengineering_lead_ore_quark_limestone:1, Dense§r Lead Ore (Limestone)
+osv:immersiveengineering_aluminum_ore_3:0, Bauxite Ore (Diorite)
+osv:immersiveengineering_aluminum_ore_3:1, Dense§r Bauxite Ore (Diorite)
+osv:emerald_ore_5:0, Emerald Ore (Andesite)
+osv:emerald_ore_5:1, Dense§r Emerald Ore (Andesite)
+osv:immersiveengineering_silver_ore_quark_slate:0, Silver Ore (Slate)
+osv:immersiveengineering_silver_ore_quark_slate:1, Dense§r Silver Ore (Slate)
+osv:thermalfoundation_nickel_ore_quark_slate:0, Nickel Ore (Slate)
+osv:thermalfoundation_nickel_ore_quark_slate:1, Dense§r Nickel Ore (Slate)
+osv:immersiveengineering_uranium_ore_quark_slate:0, Uranium Ore (Slate)
+osv:immersiveengineering_uranium_ore_quark_slate:1, Dense§r Uranium Ore (Slate)
+osv:biomesoplenty_amber_ore_1:0, Amber Ore (Granite)
+osv:biomesoplenty_amber_ore_1:1, Dense§r Amber Ore (Granite)
 osv:emerald_ore_quark_jasper:0, Emerald Ore (Jasper)
 osv:emerald_ore_quark_jasper:1, Dense§r Emerald Ore (Jasper)
-osv:immersiveengineering_aluminum_ore_quark_marble:0, Bauxite Ore (Marble)
-osv:immersiveengineering_aluminum_ore_quark_marble:1, Dense§r Bauxite Ore (Marble)
-osv:emerald_ore_3:0, Emerald Ore (Diorite)
-osv:emerald_ore_3:1, Dense§r Emerald Ore (Diorite)
-osv:iron_ore_3:0, Iron Ore (Diorite)
-osv:iron_ore_3:1, Dense§r Iron Ore (Diorite)
+osv:biomesoplenty_amber_ore:0, Amber Ore (Stone)
+osv:biomesoplenty_amber_ore:1, Dense§r Amber Ore (Stone)
+osv:diamond_ore:0, Diamond Ore (Stone)
+osv:diamond_ore:1, Dense§r Diamond Ore (Stone)
+osv:thermalfoundation_nickel_ore_quark_marble:0, Nickel Ore (Marble)
+osv:thermalfoundation_nickel_ore_quark_marble:1, Dense§r Nickel Ore (Marble)
+osv:thermalfoundation_tin_ore_quark_jasper:0, Tin Ore (Jasper)
+osv:thermalfoundation_tin_ore_quark_jasper:1, Dense§r Tin Ore (Jasper)
+osv:coal_ore_quark_marble:0, Coal Ore (Marble)
+osv:coal_ore_quark_marble:1, Dense§r Coal Ore (Marble)
+osv:thermalfoundation_silver_ore_quark_limestone:0, Silver Ore (Limestone)
+osv:thermalfoundation_silver_ore_quark_limestone:1, Dense§r Silver Ore (Limestone)
+osv:diamond_ore_5:0, Diamond Ore (Andesite)
+osv:diamond_ore_5:1, Dense§r Diamond Ore (Andesite)
+osv:immersiveengineering_aluminum_ore_quark_slate:0, Bauxite Ore (Slate)
+osv:immersiveengineering_aluminum_ore_quark_slate:1, Dense§r Bauxite Ore (Slate)
+osv:immersiveengineering_nickel_ore_quark_slate:0, Nickel Ore (Slate)
+osv:immersiveengineering_nickel_ore_quark_slate:1, Dense§r Nickel Ore (Slate)
+osv:biomesoplenty_ruby_ore_1:0, Ruby Ore (Granite)
+osv:biomesoplenty_ruby_ore_1:1, Dense§r Ruby Ore (Granite)
+osv:biomesoplenty_amber_ore_quark_limestone:0, Amber Ore (Limestone)
+osv:biomesoplenty_amber_ore_quark_limestone:1, Dense§r Amber Ore (Limestone)
+osv:iron_ore_rustic_slate:0, Iron Ore (Slate)
+osv:iron_ore_rustic_slate:1, Dense§r Iron Ore (Slate)
+osv:coal_ore_1:0, Coal Ore (Granite)
+osv:coal_ore_1:1, Dense§r Coal Ore (Granite)
+osv:immersiveengineering_silver_ore_1:0, Silver Ore (Granite)
+osv:immersiveengineering_silver_ore_1:1, Dense§r Silver Ore (Granite)
+osv:immersiveengineering_nickel_ore_3:0, Nickel Ore (Diorite)
+osv:immersiveengineering_nickel_ore_3:1, Dense§r Nickel Ore (Diorite)
+osv:thermalfoundation_tin_ore_3:0, Tin Ore (Diorite)
+osv:thermalfoundation_tin_ore_3:1, Dense§r Tin Ore (Diorite)
+osv:biomesoplenty_topaz_ore_1:0, Topaz Ore (Granite)
+osv:biomesoplenty_topaz_ore_1:1, Dense§r Topaz Ore (Granite)
+osv:thermalfoundation_tin_ore_quark_limestone:0, Tin Ore (Limestone)
+osv:thermalfoundation_tin_ore_quark_limestone:1, Dense§r Tin Ore (Limestone)
 osv:immersiveengineering_lead_ore_quark_marble:0, Lead Ore (Marble)
 osv:immersiveengineering_lead_ore_quark_marble:1, Dense§r Lead Ore (Marble)
-osv:thermalfoundation_lead_ore_rustic_slate:0, Lead Ore (Slate)
-osv:thermalfoundation_lead_ore_rustic_slate:1, Dense§r Lead Ore (Slate)
+osv:thermalfoundation_lead_ore_quark_slate:0, Lead Ore (Slate)
+osv:thermalfoundation_lead_ore_quark_slate:1, Dense§r Lead Ore (Slate)
+osv:biomesoplenty_ruby_ore_quark_marble:0, Ruby Ore (Marble)
+osv:biomesoplenty_ruby_ore_quark_marble:1, Dense§r Ruby Ore (Marble)
+osv:emerald_ore_1:0, Emerald Ore (Granite)
+osv:emerald_ore_1:1, Dense§r Emerald Ore (Granite)
+osv:biomesoplenty_amber_ore_rustic_slate:0, Amber Ore (Slate)
+osv:biomesoplenty_amber_ore_rustic_slate:1, Dense§r Amber Ore (Slate)
+osv:immersiveengineering_lead_ore_rustic_slate:0, Lead Ore (Slate)
+osv:immersiveengineering_lead_ore_rustic_slate:1, Dense§r Lead Ore (Slate)
+osv:biomesoplenty_peridot_ore_quark_slate:0, Peridot Ore (Slate)
+osv:biomesoplenty_peridot_ore_quark_slate:1, Dense§r Peridot Ore (Slate)
+osv:coal_ore_rustic_slate:0, Coal Ore (Slate)
+osv:coal_ore_rustic_slate:1, Dense§r Coal Ore (Slate)
+osv:biomesoplenty_topaz_ore_quark_slate:0, Topaz Ore (Slate)
+osv:biomesoplenty_topaz_ore_quark_slate:1, Dense§r Topaz Ore (Slate)
+osv:thermalfoundation_nickel_ore_rustic_slate:0, Nickel Ore (Slate)
+osv:thermalfoundation_nickel_ore_rustic_slate:1, Dense§r Nickel Ore (Slate)
+osv:biomesoplenty_malachite_ore_1:0, Malachite Ore (Granite)
+osv:biomesoplenty_malachite_ore_1:1, Dense§r Malachite Ore (Granite)
+osv:thermalfoundation_copper_ore:0, Copper Ore (Stone)
+osv:thermalfoundation_copper_ore:1, Dense§r Copper Ore (Stone)
+osv:immersiveengineering_silver_ore_5:0, Silver Ore (Andesite)
+osv:immersiveengineering_silver_ore_5:1, Dense§r Silver Ore (Andesite)
+osv:immersiveengineering_lead_ore_5:0, Lead Ore (Andesite)
+osv:immersiveengineering_lead_ore_5:1, Dense§r Lead Ore (Andesite)
+osv:immersiveengineering_uranium_ore_rustic_slate:0, Uranium Ore (Slate)
+osv:immersiveengineering_uranium_ore_rustic_slate:1, Dense§r Uranium Ore (Slate)
+osv:immersiveengineering_nickel_ore_quark_limestone:0, Nickel Ore (Limestone)
+osv:immersiveengineering_nickel_ore_quark_limestone:1, Dense§r Nickel Ore (Limestone)
+osv:biomesoplenty_peridot_ore_quark_jasper:0, Peridot Ore (Jasper)
+osv:biomesoplenty_peridot_ore_quark_jasper:1, Dense§r Peridot Ore (Jasper)
+osv:thermalfoundation_silver_ore_3:0, Silver Ore (Diorite)
+osv:thermalfoundation_silver_ore_3:1, Dense§r Silver Ore (Diorite)
+osv:biomesoplenty_ruby_ore_rustic_slate:0, Ruby Ore (Slate)
+osv:biomesoplenty_ruby_ore_rustic_slate:1, Dense§r Ruby Ore (Slate)
+osv:biomesoplenty_amber_ore_quark_slate:0, Amber Ore (Slate)
+osv:biomesoplenty_amber_ore_quark_slate:1, Dense§r Amber Ore (Slate)
+osv:lapis_ore_3:0, Lapis Lazuli Ore (Diorite)
+osv:lapis_ore_3:1, Dense§r Lapis Lazuli Ore (Diorite)
 dynaores:raw_gold, item.dynaores.RawGold.name
 dynaores:raw_gold_block, tile.dynaores.RawGoldBlock.name

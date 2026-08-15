@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "LUSH",
-    "WET",
-    "DENSE",
+    "SWAMP",
     "FOREST",
-    "SWAMP"
+    "LUSH",
+    "DENSE",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -238,27 +238,9 @@
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",
-      "Weight": 200,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityCreeperPhosgene",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityCreeperVolatile",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityCreeperGold",
       "Weight": 1,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [
@@ -405,8 +387,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "WET_TEMPERATE": 7,
-    "COLD_SWAMP": 5
+    "COLD_SWAMP": 5,
+    "WET_TEMPERATE": 7
   },
   "BOP Climate Weights": {
     "COLD_SWAMP": [

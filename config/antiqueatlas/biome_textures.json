@@ -155,7 +155,11 @@
     "minecraft:void": "END_VOID",
     "nuclearcraft:nuclear_wasteland": "DESERT",
     "randomthings:spectral": "PLAINS",
+    "scp:biome106": "PLAINS",
     "srparasites:biomeparasite_harlequin": "PLAINS",
-    "srparasites:biomeparasite_shrouded": "PLAINS"
+    "srparasites:biomeparasite_shrouded": "PLAINS",
+    "zerascp:biome1499": "PLAINS",
+    "zerascp:biome1689": "PLAINS",
+    "zerascp:scp8602": "DENSE_FOREST"
   }
 }

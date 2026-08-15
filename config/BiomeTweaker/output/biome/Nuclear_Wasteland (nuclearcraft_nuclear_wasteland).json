@@ -22,13 +22,13 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WASTELAND",
-    "HOT",
     "DRY",
-    "PLAINS",
+    "HOT",
+    "DEAD",
     "SPARSE",
+    "WASTELAND",
     "SAVANNA",
-    "DEAD"
+    "PLAINS"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
@@ -65,12 +65,6 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityPigeon",
-      "Weight": 1,
-      "Min Group Count": 5,
-      "Max Group Count": 10
     }
   ],
   "Spawnable Monsters": [
@@ -172,27 +166,9 @@
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",
-      "Weight": 200,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityCreeperPhosgene",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityCreeperVolatile",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityCreeperGold",
       "Weight": 1,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [],

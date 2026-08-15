@@ -22,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
-    "MUSHROOM"
+    "MUSHROOM",
+    "RARE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -49,7 +49,7 @@
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",
-      "Weight": 200,
+      "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 3
     }

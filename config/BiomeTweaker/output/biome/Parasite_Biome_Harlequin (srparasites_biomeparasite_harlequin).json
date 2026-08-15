@@ -22,9 +22,7 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "DRY",
-    "DEAD",
-    "WARM"
+    "SPOOKY"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -167,27 +165,9 @@
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",
-      "Weight": 0,
+      "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityCreeperPhosgene",
-      "Weight": 1,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityCreeperVolatile",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.hbm.entity.mob.EntityCreeperGold",
-      "Weight": 1,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [],
