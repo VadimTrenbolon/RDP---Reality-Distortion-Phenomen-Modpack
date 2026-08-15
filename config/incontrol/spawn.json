@@ -20,6 +20,7 @@
     },
 
 
+
     {
         "dimension": 1000,
         "mob": [
@@ -1350,7 +1351,7 @@
         "minheight": 400,
         "maxheight": 600,
         "conditions": {
-            "minspawndist": 500
+            "minspawndist": 600
         },
         "result": "allow"
     },
@@ -1418,5 +1419,15 @@
             "mindist": 800
         },
         "result": "allow"
+    },
+
+    {
+        "dimension": 1000,
+        "mob": [
+               "minecraft:cow",
+               "minecraft:sheep",
+               "minecraft:chicken"
+              ] ,
+        "result": "deny"
     }
 ]

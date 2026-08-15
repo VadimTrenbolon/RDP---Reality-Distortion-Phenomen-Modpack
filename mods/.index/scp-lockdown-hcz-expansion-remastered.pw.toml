@@ -1,0 +1,18 @@
+filename = 'SCP Lockdown HCZE Remastered Release Version 0.1.5.3.jar'
+name = 'SCP: Lockdown - HCZ Expansion Remastered'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'SCP Lockdown HCZE Remastered Release Version 0.1.5.3'
+
+[download]
+hash = '1a39d68c48cd21b48b7dca7e7719b4357d84ab2d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7264101
+project-id = 1389640

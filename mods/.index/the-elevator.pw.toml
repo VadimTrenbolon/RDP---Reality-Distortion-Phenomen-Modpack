@@ -1,0 +1,18 @@
+filename = 'The_elevator.jar'
+name = 'The elevator'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'The Elevator  [1.0-MC:1.12.2]'
+
+[download]
+hash = 'a463da2e39bc5d7dd39165722cb2359194eda0c9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3376015
+project-id = 500559
