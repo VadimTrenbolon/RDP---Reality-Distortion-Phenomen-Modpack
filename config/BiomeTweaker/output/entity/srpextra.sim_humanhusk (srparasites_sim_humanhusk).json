@@ -1,0 +1,6 @@
+
+{
+  "Name": "srpextra.sim_humanhusk",
+  "Registry ID": "srparasites:sim_humanhusk",
+  "Class": "energon.srpextra.entity.infected.EntityInfHumanHusk"
+}

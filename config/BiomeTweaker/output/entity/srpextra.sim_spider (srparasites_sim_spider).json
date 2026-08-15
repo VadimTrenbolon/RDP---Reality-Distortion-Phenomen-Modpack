@@ -1,0 +1,6 @@
+
+{
+  "Name": "srpextra.sim_spider",
+  "Registry ID": "srparasites:sim_spider",
+  "Class": "energon.srpextra.entity.infected.EntityInfSpider"
+}

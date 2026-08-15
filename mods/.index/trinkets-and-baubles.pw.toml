@@ -1,18 +1,18 @@
 filename = 'Trinkets and Baubles-Forge-1.12.2-0.33.2.jar'
 name = 'Trinkets and Baubles'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Trinkets and Baubles-Forge-1.12.2-0.33.2.jar'
+x-prismlauncher-version-number = '0.33.2'
 
 [download]
-hash = '0955fae06bff1a3b80783faaf0e34a9e58c2ecc8'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = '861cba29897a1324f40829df068dc3fe4807ae1a57398381e33821ed5040fac2c3a16f618b6d0dddf4aa1fdd62a5cbcf36d88a24ac1d0679731949ae28718f1b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qKP5oCti/versions/VQAqygHQ/Trinkets and Baubles-Forge-1.12.2-0.33.2.jar'
 
-[update.curseforge]
-file-id = 7997838
-project-id = 279900
+[update.modrinth]
+mod-id = 'qKP5oCti'
+version = 'VQAqygHQ'

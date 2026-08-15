@@ -1,0 +1,69 @@
+filename = 'ourotweaker-1.0.0.jar'
+name = 'OURO Tweaker'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ourotweaker-1.12.2-1.0.0.jar'
+
+[download]
+hash = '1627f419ae7d67d7bc0e33f6f24ac869e25d5399'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7919550
+project-id = 1509136
+
+[[x-prismlauncher-dependencies]]
+addonId = '888556'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '870276'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '253449'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '229105'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '315773'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '309344'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '311283'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '295319'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '224770'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '227795'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '286382'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306770'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '253456'
+type = 'OPTIONAL'

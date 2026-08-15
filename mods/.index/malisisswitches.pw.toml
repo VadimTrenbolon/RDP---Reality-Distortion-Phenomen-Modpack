@@ -1,0 +1,21 @@
+filename = 'malisisswitches-1.12.2-5.1.0.jar'
+name = 'MalisisSwitches'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'malisisswitches-1.12.2-5.1.0.jar'
+
+[download]
+hash = '2813ac945aa715038a0d46268bd1c5611557f880'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2526682
+project-id = 240828
+
+[[x-prismlauncher-dependencies]]
+addonId = '223896'
+type = 'REQUIRED'

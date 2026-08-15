@@ -1,18 +1,21 @@
-filename = 'RecurrentComplex-1.4.8.6.jar'
+filename = 'RecurrentComplex-1.4.8.7.jar'
 name = 'Recurrent Complex'
 side = ''
-x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'RecurrentComplex-1.4.8.6.jar'
+x-prismlauncher-version-number = 'RecurrentComplex-1.4.8.7.jar'
 
 [download]
-hash = '31059d070bee48368050cf774ea3e8f9caea0356'
+hash = '9b7eee3f3a71cb20a27490860812cd3ababc4258'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5615733
+file-id = 8562927
 project-id = 223150
+
+[[x-prismlauncher-dependencies]]
+addonId = '224535'
+type = 'REQUIRED'

@@ -1,0 +1,6 @@
+
+{
+  "Name": "entity_glyphid_digger",
+  "Registry ID": "hbm:entity_glyphid_digger",
+  "Class": "com.hbm.entity.mob.glyphid.EntityGlyphidDigger"
+}

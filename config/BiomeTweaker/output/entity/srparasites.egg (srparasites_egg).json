@@ -1,0 +1,6 @@
+
+{
+  "Name": "srparasites.egg",
+  "Registry ID": "srparasites:egg",
+  "Class": "com.maidnarch.srpcalamity.entity.monster.inborn.EntityXor"
+}

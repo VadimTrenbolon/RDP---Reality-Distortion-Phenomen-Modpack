@@ -4,4 +4,8 @@ minecraft:priest
 minecraft:smith
 minecraft:butcher
 minecraft:nitwit
+vtt:brewer
+vtt:redstoner
+vtt:tinkerer
 immersiveengineering:engineer
+ncsteamadditions:engineer

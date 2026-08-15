@@ -585,7 +585,6 @@
     "techguns:riot_shield": 850
   },
   "FEET": {
-    "avaritia:infinity_boots": 1,
     "conarm:boots": 1000,
     "draconicevolution:draconic_boots": 891,
     "draconicevolution:wyvern_boots": 897,
@@ -674,7 +673,6 @@
     "toughasnails:wool_boots": 960
   },
   "LEGS": {
-    "avaritia:infinity_pants": 1,
     "conarm:leggings": 1000,
     "draconicevolution:draconic_legs": 891,
     "draconicevolution:wyvern_legs": 897,
@@ -759,7 +757,6 @@
     "toughasnails:wool_leggings": 960
   },
   "CHEST": {
-    "avaritia:infinity_chestplate": 1,
     "conarm:chestplate": 1000,
     "draconicevolution:draconic_chest": 891,
     "draconicevolution:wyvern_chest": 897,
@@ -864,7 +861,6 @@
     "toughasnails:wool_chestplate": 960
   },
   "HEAD": {
-    "avaritia:infinity_helmet": 1,
     "conarm:helmet": 1000,
     "draconicevolution:draconic_helm": 891,
     "draconicevolution:wyvern_helm": 897,

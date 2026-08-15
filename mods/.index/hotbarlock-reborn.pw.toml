@@ -1,0 +1,18 @@
+filename = 'hotbarlock_1.0_MC_1.12-1.12.2.jar'
+name = 'HotbarLock Reborn'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'HotbarLock v1.0 MC 1.12-1.12.2'
+
+[download]
+hash = '34115921c5fd8c8c2f4fbfcf4e2d528475fe3a51'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3026325
+project-id = 400849

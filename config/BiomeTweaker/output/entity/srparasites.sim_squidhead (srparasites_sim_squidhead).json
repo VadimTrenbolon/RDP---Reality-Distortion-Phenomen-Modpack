@@ -1,0 +1,6 @@
+
+{
+  "Name": "srparasites.sim_squidhead",
+  "Registry ID": "srparasites:sim_squidhead",
+  "Class": "com.maidnarch.srpcalamity.entity.monster.infected.head.EntityInfSquidHead"
+}

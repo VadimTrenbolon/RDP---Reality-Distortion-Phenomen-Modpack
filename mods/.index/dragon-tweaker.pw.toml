@@ -1,5 +1,5 @@
 filename = 'dragontweaks-v1.1.jar'
-name = 'Dragon Tweaks'
+name = 'Dragon Tweaker'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]

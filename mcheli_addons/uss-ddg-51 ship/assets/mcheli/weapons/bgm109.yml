@@ -1,7 +1,7 @@
 DisplayName: BGM-109 Tomahawk [Cruise Missile]
 CanLoadChunks: true
 Type: rocket
-BaseDamage: 300
+BaseDamage: 400
 Ballistics:
   Acceleration: 3.0
   AccelerationInWater: 1.0

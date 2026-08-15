@@ -1,0 +1,21 @@
+filename = 'RLMixins-1.4.7.jar'
+name = 'RLMixins'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'RLMixins-1.4.7.jar'
+
+[download]
+hash = '8b875a0767dc21b9d37d43f55627091c84956466'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8151138
+project-id = 711730
+
+[[x-prismlauncher-dependencies]]
+addonId = '968474'
+type = 'REQUIRED'

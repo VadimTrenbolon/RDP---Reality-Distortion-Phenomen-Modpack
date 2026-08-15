@@ -1,0 +1,6 @@
+
+{
+  "Name": "entity_ntm_undead_soldier",
+  "Registry ID": "hbm:entity_ntm_undead_soldier",
+  "Class": "com.hbm.entity.mob.EntityUndeadSoldier"
+}

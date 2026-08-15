@@ -1,0 +1,18 @@
+filename = 'replant1.12.2-1.0.0.jar'
+name = 'Villager Replant'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'replant1.12.2-1.0.0.jar'
+
+[download]
+hash = 'b07692a654c202813b52ba3e54e32c4d0d8633f8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2858581
+project-id = 358174

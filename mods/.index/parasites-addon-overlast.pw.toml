@@ -1,18 +1,18 @@
-filename = 'OverLast-1.12.2-0.2.9B11.jar'
-name = 'Parasites Addon : OverLast'
+filename = 'OverLast-1.12.2-0.2.9B12.jar'
+name = 'OverLast'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'OverLast-1.12.2-0.2.9B11.jar'
+x-prismlauncher-version-number = 'OverLast-1.12.2-0.2.9B12.jar'
 
 [download]
-hash = 'bf1a6d45f4af1665f70bf43616883dd180a7232e'
+hash = '5312b781626c4413ba8cd566855b13c25bb0ecf7'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8324769
+file-id = 8552532
 project-id = 580404

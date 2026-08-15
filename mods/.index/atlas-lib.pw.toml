@@ -1,18 +1,18 @@
 filename = 'Atlas-Lib-1.12.2-1.1.11.jar'
 name = 'Atlas Lib'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.12.2-1.1.11'
+x-prismlauncher-version-number = 'Atlas-Lib-1.12.2-1.1.11.jar'
 
 [download]
-hash = '9368277aa9c96a24045bf76a83cc1d17a5b6cce0ec7be2bb499d8e2757ea256803de08016008de23c51b155a3c18ea574cc355ceb1ad43ad841a37d2417d73e5'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/G6VHtQr4/versions/UekJfJ7l/Atlas-Lib-1.12.2-1.1.11.jar'
+hash = '6d707db466168435050414a2ea65ccd700ec9c3e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'G6VHtQr4'
-version = 'UekJfJ7l'
+[update.curseforge]
+file-id = 8206890
+project-id = 463826

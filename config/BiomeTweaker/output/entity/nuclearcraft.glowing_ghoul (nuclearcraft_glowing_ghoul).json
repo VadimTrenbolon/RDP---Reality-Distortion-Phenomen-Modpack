@@ -1,0 +1,6 @@
+
+{
+  "Name": "nuclearcraft.glowing_ghoul",
+  "Registry ID": "nuclearcraft:glowing_ghoul",
+  "Class": "nc.entity.EntityFeralGhoul.Glowing"
+}

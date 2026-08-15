@@ -1,0 +1,25 @@
+filename = 'LootTweaker-0.5.1+MC1.12.2-DLS0.jar'
+name = 'LootTweaker'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.5.1'
+
+[download]
+hash = '595f85bd04b968c855f46d2028e84fcb9e4a16540faae104e3b8d4d3c1fe9570971c9e7bb5fd544c2b65485909d76f922e451b2bf52fbb1ea86380ff0d380c5e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/E9778jMA/versions/ulD07OO2/LootTweaker-0.5.1%2BMC1.12.2-DLS0.jar'
+
+[update.modrinth]
+mod-id = 'E9778jMA'
+version = 'ulD07OO2'
+
+[[x-prismlauncher-dependencies]]
+addonId = '6a16628x'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Xg35A4rS'
+type = 'REQUIRED'

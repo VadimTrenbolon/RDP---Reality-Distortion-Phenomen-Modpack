@@ -1,0 +1,21 @@
+filename = 'LootTableTweaker-1.12.2-1.1.17.jar'
+name = 'LootTableTweaker'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '1.1.17'
+
+[download]
+hash = 'b2b19e2a6f37dbe8d601ec8b93c4c6c38e75cfd35d4a26328491f5806082d5b36e6161e00113923db3314ccd247cd8d32c07a38a2ceb1989700e392be8b0cc28'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EWRcVRTL/versions/Pr2GhCYp/LootTableTweaker-1.12.2-1.1.17.jar'
+
+[update.modrinth]
+mod-id = 'EWRcVRTL'
+version = 'Pr2GhCYp'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Xg35A4rS'
+type = 'REQUIRED'

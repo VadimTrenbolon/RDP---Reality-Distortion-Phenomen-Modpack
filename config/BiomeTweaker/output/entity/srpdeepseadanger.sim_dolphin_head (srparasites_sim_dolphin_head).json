@@ -1,0 +1,6 @@
+
+{
+  "Name": "srpdeepseadanger.sim_dolphin_head",
+  "Registry ID": "srparasites:sim_dolphin_head",
+  "Class": "energon.srpdeepseadanger.entity.monster.infected.head.EntityInfDolphinHead"
+}

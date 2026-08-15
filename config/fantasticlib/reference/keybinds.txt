@@ -28,6 +28,7 @@ key.hotbar.7
 key.hotbar.8
 key.hotbar.9
 key.inventory
+cos.key.opencosarmorinventory
 equipmentcompare.key.showTooltips
 key.swapHands
 keybind.hammercorerenderstack
@@ -43,7 +44,6 @@ key.command
 
 key.categories.misc
 key.advancements
-key.fastEquip.desc
 key.spectatorOutlines
 key.death_history
 gnetum.config.keyMapping
@@ -51,6 +51,31 @@ key.screenshot
 key.smoothCamera
 key.fullscreen
 key.togglePerspective
+
+Advanced Rocketry
+Move Vehicle Down
+Move Vehicle Up
+Open Rocket GUI
+Rotate Vehicle Left
+Rotate Vehicle Right
+Toggle Jetpack
+Toggle RCS
+
+atlasextras.keybind.category
+atlasextras.keybind.openatlas
+atlasextras.keybind.togglehud
+
+key.appliedenergistics2.category
+key.open_wireless_crafting_terminal.desc
+key.open_wireless_fluid_terminal.desc
+key.open_wireless_interface_terminal.desc
+key.open_wireless_pattern_terminal.desc
+key.open_wireless_terminal.desc
+key.toggle_focus.desc
+
+Better Questing Unofficial
+key.betterquesting.quests
+key.betterquesting.back
 
 key.categories.buildingGadgets
 key.anchor
@@ -75,28 +100,21 @@ Options Gui
 key.cofh.category
 key.cofh.multimode
 
-cyberware.keybinds.category
-cyberware.keybinds.menu
+key.categories.exchangers
+key.exchangers.directional_placement_mode_toggle
+key.exchangers.mode_switch
+key.exchangers.range_switch
+key.exchangers.force_drop_items_mode_toggle
+key.exchangers.fuzzy_placement_mode_toggle
+key.exchangers.open_gui
+key.exchangers.void_items_mode_toggle
 
-Draconic Evolution
-key.draconicevolution.armorProfileChange
-key.draconicevolution.toolProfileChange
-key.draconicevolution.cycleAttackAOE
-key.draconicevolution.cycleDigAOE
-key.draconicevolution.placeItem
-key.draconicevolution.toggleFlight
-key.draconicevolution.toggleShields
-key.draconicevolution.toggleDislocator
-key.draconicevolution.toolConfig
+Extra Alchemy
+Toggle Magnetism Suppressor
 
 key.categories.FpsReducer
 FpsReducer.key.guiOpen
 FpsReducer.key.forceIdle
-
-key.categories.ftbmods
-key.ftbutilities.nbt
-key.ftbquests.quests
-key.ftbutilities.trash
 
 key.findme.category
 key.findme.search
@@ -104,16 +122,19 @@ key.findme.search
 First Aid
 keybinds.show_wounds
 
-Galacticraft
-Galaxy Map
-Open Spaceship Inventory
-Toggle Sensor Goggles Mode
+key.categories.groovyscript
+keybind.groovyscript.copy
+keybind.groovyscript.quick_reload
+keybind.groovyscript.reload
 
 HT's TreeChop
 treechop.key.cycle_sneak_behavior
 treechop.key.open_settings_overlay
 treechop.key.toggle_chopping
 treechop.key.toggle_felling
+
+HotbarLock
+Toggle Slot Lock
 
 key.categories.immersiverailroading
 ir_keys.increase_reverser
@@ -145,19 +166,14 @@ key.mount.inventory
 key.pets
 key.summoning
 
-Mekanism
-Boost
-Chest Mode Switch
-Head Mode Switch
-Item Mode Switch
-LFeet Mode Switch
-Legs Mode Switch
-Module Tweaker
-Show HUD
-Voice
-
 keys.cfm.category
 key.fart.desc
+
+key.categories.music_player
+key.music_player_gui
+key.music_player_next
+key.music_player_previous
+key.music_player_toggle
 
 key.categories.hbm
 key.categories.hbm.calculator
@@ -235,20 +251,8 @@ key.toggleFoVChanges
 key.togglePotionParticles
 key.toggleTimeOfDayOverlay
 
-Refined Storage
-key.refinedstorage.clearGridCraftingMatrix
-key.refinedstorage.focusSearchBar
-key.refinedstorage.openPortableGrid
-key.refinedstorage.openWirelessCraftingMonitor
-key.refinedstorage.openWirelessFluidGrid
-key.refinedstorage.openWirelessGrid
-
 retro_sophisticated_backpacks.key.category
 retro_sophisticated_backpacks.key.open_backpack.desc
-
-translationKey.category.scp
-Rotate stored structure
-translationKey.scp.nightvision_toggle
 
 key.zoom.catg
 key.zoom.desc
@@ -283,18 +287,6 @@ key.xat.trinket_gui.desc
 
 Universal Tweaks
 keybind.universaltweaks.clear_toasts
-
-key.categories.voicechat
-key.voice_chat_adjust_volumes
-key.disable_voice_chat
-key.voice_chat_group
-key.hide_icons
-key.mute_microphone
-key.push_to_talk
-key.voice_chat_toggle_recording
-key.voice_chat
-key.voice_chat_settings
-key.whisper
 
 WorldEdit
 WorldEdit Reference
@@ -332,9 +324,6 @@ gui.xaero_toggle_dimension
 gui.xaero_map_zoom_in
 gui.xaero_map_zoom_out
 
-key.weaponmaster_ydm.category
-key.weaponmaster_ydm.opengui
-
 flare.key.category
 flare.key.open_tick_tracking_menu
 flare.key.start_client_sampling
@@ -360,6 +349,13 @@ key.jei.toggleOverlay
 key.jei.toggleCheatMode
 key.jei.toggleEditMode
 
+key.categories.musictriggers
+key.musictriggers.gui
+
 key.categories.wingman
 key.wingman.panel
+
+scalinghealth
+Difficulty Meter - Show
+Difficulty Meter - Show Always
 

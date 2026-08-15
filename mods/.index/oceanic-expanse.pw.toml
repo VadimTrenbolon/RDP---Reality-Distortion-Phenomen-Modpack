@@ -1,21 +1,21 @@
 filename = 'OceanicExpanse-1.2.2.jar'
 name = 'Oceanic Expanse'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'OceanicExpanse-1.2.2.jar'
+x-prismlauncher-version-number = '1.2.2'
 
 [download]
-hash = '86b6cd29e92179711dbe7931c0c3503f3dd949d3'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = '33b6749bca94fdf299591f25af4cc7fd158a3fd9c6b7a35002f21d4f53ea59685bb5b75cd0415fb202ebc450bcfd595e65dbb1a2a405050d67c8e92ac7b47ad5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/W81ZzfUo/versions/JnAUI2fI/OceanicExpanse-1.2.2.jar'
 
-[update.curseforge]
-file-id = 7009970
-project-id = 840576
+[update.modrinth]
+mod-id = 'W81ZzfUo'
+version = 'JnAUI2fI'
 
 [[x-prismlauncher-dependencies]]
-addonId = '419286'
+addonId = 'G1ckZuWK'
 type = 'REQUIRED'

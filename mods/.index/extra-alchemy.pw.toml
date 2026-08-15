@@ -1,0 +1,33 @@
+filename = 'extraalchemy-forge-1.12-build11-0.5.4.jar'
+name = 'Extra Alchemy'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'extraalchemy-forge-1.12-build11-0.5.4.jar'
+
+[download]
+hash = 'e20b4ed19c9836be188df35b1d84b155ce4493fc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2937550
+project-id = 247357
+
+[[x-prismlauncher-dependencies]]
+addonId = '311561'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '227083'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '303759'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '286348'
+type = 'OPTIONAL'

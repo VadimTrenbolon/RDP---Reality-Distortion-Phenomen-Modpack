@@ -1,0 +1,6 @@
+
+{
+  "Name": "entity_glyphid",
+  "Registry ID": "hbm:entity_glyphid",
+  "Class": "com.hbm.entity.mob.glyphid.EntityGlyphid"
+}

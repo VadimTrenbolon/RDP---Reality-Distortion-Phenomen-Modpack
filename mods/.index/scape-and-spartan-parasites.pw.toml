@@ -1,18 +1,18 @@
-filename = 'swparasites-v4.jar'
+filename = 'swparasites-v5.jar'
 name = 'Scape and Spartan: Parasites'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'V4 '
+x-prismlauncher-version-number = 'swparasites-v5.jar'
 
 [download]
-hash = '115e18b4a25f2af7fa3d4c4410f892845ed63916'
+hash = '0205bf35142da6dedc0c0585fe1f8def61ec37d0'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6734796
+file-id = 8559515
 project-id = 1017208

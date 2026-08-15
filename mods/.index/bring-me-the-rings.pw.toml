@@ -1,0 +1,21 @@
+filename = 'BringMeTheRings-0.4.jar'
+name = 'Bring Me The Rings!'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BringMeTheRings-0.4.jar'
+
+[download]
+hash = '999a212c5401cf12f08d48ee5e337ec7e662f556'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2653339
+project-id = 309878
+
+[[x-prismlauncher-dependencies]]
+addonId = '227083'
+type = 'REQUIRED'

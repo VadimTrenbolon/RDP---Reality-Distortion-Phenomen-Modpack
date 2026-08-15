@@ -1,0 +1,53 @@
+filename = 'MetalChests-v6.1.0+mc1.12.2.jar'
+name = 'Metal Chests'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Release v6.1.0'
+
+[download]
+hash = '1ead9f82b0d391ea969df74d20f468f84db4b2d5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2751488
+project-id = 290145
+
+[[x-prismlauncher-dependencies]]
+addonId = '223094'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '78778'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '78608'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '243121'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '247135'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223628'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '69163'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '323527'
+type = 'REQUIRED'

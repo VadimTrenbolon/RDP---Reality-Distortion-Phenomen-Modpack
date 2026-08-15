@@ -1,0 +1,6 @@
+
+{
+  "Name": "entity_mob_phosgene_creeper",
+  "Registry ID": "hbm:entity_mob_phosgene_creeper",
+  "Class": "com.hbm.entity.mob.EntityCreeperPhosgene"
+}

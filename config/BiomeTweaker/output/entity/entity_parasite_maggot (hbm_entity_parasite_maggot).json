@@ -1,0 +1,6 @@
+
+{
+  "Name": "entity_parasite_maggot",
+  "Registry ID": "hbm:entity_parasite_maggot",
+  "Class": "com.hbm.entity.mob.EntityParasiteMaggot"
+}

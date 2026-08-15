@@ -558,6 +558,15 @@
       ]
     },
     {
+      "input": ["dict","oreCertusQuartz"],
+      "output": [
+        ["appliedenergistics2:material",3],
+        ["appliedenergistics2:material",3],
+        ["appliedenergistics2:material",3],
+        ["appliedenergistics2:material",3]
+      ]
+    },
+    {
       "input": ["item","hbm:bedrock_ore_new",1,402],
       "output": [
         ["hbm:bedrock_ore_fragment",5,4100],

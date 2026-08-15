@@ -1,19 +1,862 @@
 [
- {
-  "dimension": 0,
-  "mobs": [
+	{
+		"dimension": 0,
+		"mobs":	[
+			{
+				"mob": "techguns:zombiepoliceman",
+				"weight": 20,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			}
+		]
+	},
+
+	{
+		"dimension": 0,
+		"mobs":	[
+			{
+				"mob": "techguns:zombiesoldier",
+				"weight": 20,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			}
+		]
+	},
+
+	{
+		"dimension": 0,
+		"mobs":	[
+			{
+				"mob": "techguns:zombiefarmer",
+				"weight": 30,
+				"groupcountmin": 1,
+				"groupcountmax": 4
+			}
+		]
+	},
+
+	{
+		"dimension": 0,
+		"mobs":	[
+			{
+				"mob": "techguns:zombieminer",
+				"weight": 40,
+				"groupcountmin": 1,
+				"groupcountmax": 4
+			}
+		]
+	},
+
+	{
+		"dimension": -1,
+		"mobs":	[
+			{
+				"mob": "techguns:zombiepigmansoldier",
+				"weight": 20,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			}
+		]
+	},
+
+	{
+		"dimension": -1,
+		"mobs":	[
+			{
+				"mob": "techguns:cyberdemon",
+				"weight": 10,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		]
+	},
+
+	{
+		"dimension": 0,
+		"mobs":	[
+			{
+				"mob": "techguns:skeletonsoldier",
+				"weight": 20,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			}
+		]
+	},
+
+
+	{
+		"dimension": [
+            0,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,
+            33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,
+            62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91
+        ],
+		"mobs":	[
+			{
+				"mob": "techguns:supermutantbasic",
+				"weight": 10,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		]
+	},
+
+	{
+		"dimension": [3,12,22,31,34,41,54,58,63,73,87],
+		"mobs":	[
+			{
+				"mob": "techguns:supermutantheavy",
+				"weight": 10,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		]
+	},
+
+	{
+		"dimension": [3,12,22,31,34,41,58,62,69,79],
+		"mobs":	[
+			{
+				"mob": "techguns:supermutantelite",
+				"weight": 5,
+				"groupcountmin": 1,
+				"groupcountmax": 1
+			}
+		]
+	},
+	
+	{
+		"dimension": [-1, 1],
+		"mobs":	[
+			{
+				"mob": "techguns:stormtrooper",
+				"weight": 6,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		]
+	},
+
+	{
+		"dimension": [-1, 1],
+		"mobs":	[
+			{
+				"mob": "techguns:outcast",
+				"weight": 8,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		]
+	},
+
     {
-      "mob": "oe:dolphin",
-      "biome": [
-        "minecraft:warm_ocean",
-        "minecraft:lukewarm_ocean",
-		"minecraft:ocean",
-		"minecraft:deep_ocean"
-      ],
-      "weight": 1,
-      "groupcountmin": 2,
-      "groupcountmax": 3
-    }
-  ]
-}
+		"dimension": 0,
+		"mobs":	[
+			{
+				"mob": "techguns:stormtrooper",
+				"weight": 4,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		],
+        "conditions": {
+            "mindist": 1600,
+            "maxdist": 5000
+        }
+	},
+
+	{
+		"dimension": 0,
+		"mobs":	[
+			{
+				"mob": "techguns:outcast",
+				"weight": 4,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		],
+         "conditions": {
+            "mindist": 1200,
+            "maxdist": 5000
+        }
+	},
+
+
+    {
+    "dimension": 0,
+    "mobs": [
+        {
+            "mob": "techguns:bandit",
+            "weight": 9,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        }
+	]
+},
+
+{
+    "dimension": 0,
+    "mobs": [
+        {
+            "mob": "techguns:attackhelicopter",
+            "weight": 1,
+            "groupcountmin": 1,
+            "groupcountmax": 1
+        }
+    ]
+},
+
+{
+    "dimension": [0,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91],
+    "mobs": [
+        {
+            "mob": "techguns:supermutantbasic",
+            "weight": 4,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "techguns:supermutantheavy",
+            "weight": 3,
+            "groupcountmin": 1,
+            "groupcountmax": 1
+        }
+    ],
+    "conditions": {
+            "mindist": 1200,
+            "maxdist": 4000
+        }
+},
+
+{
+    "dimension": [3,12,22,31,34,41,58,62,69,79],
+    "mobs": [
+        {
+            "mob": "techguns:supermutantelite",
+            "weight": 5,
+            "groupcountmin": 1,
+            "groupcountmax": 1
+        }
+    ]
+},
+
+{
+    "dimension": [3,12,22,31,34,41,54,58,63,73,87],
+    "mobs": [
+        {
+            "mob": "techguns:stormtrooper",
+            "weight": 10,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "techguns:outcast",
+            "weight": 10,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        }
+    ]
+},
+
+{
+    "dimension": [3,12,22,31,34,41,58,62,69,79],
+    "mobs": [
+        {
+            "mob": "srparasites:warden",
+            "weight": 5,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:marauder",
+            "weight": 5,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:overseer",
+            "weight": 5,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:bomber_light",
+            "weight": 5,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:monarch",
+            "weight": 5,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        }
+    ]
+},
+
+{
+    "dimension": [1, 0],
+    "mobs": [
+        {
+            "mob": "srparasites:warden",
+            "weight": 2,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:marauder",
+            "weight": 2,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:overseer",
+            "weight": 2,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:bomber_light",
+            "weight": 2,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:monarch",
+            "weight": 2,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        }
+    ],
+    "conditions": {
+            "mindist": 1800
+        }
+},
+
+{
+    "dimension": [3,12,22,31,34,41,58,62,69,79],
+    "mobs": [
+        {
+            "mob": "srparasites:bomber_heavy",
+            "weight": 5,
+            "groupcountmin": 1,
+            "groupcountmax": 1
+        },
+        {
+            "mob": "srparasites:wraith",
+            "weight": 5,
+            "groupcountmin": 1,
+            "groupcountmax": 1
+        },
+        {
+            "mob": "srparasites:bogle",
+            "weight": 5,
+            "groupcountmin": 1,
+            "groupcountmax": 1
+        }
+    ]
+},
+
+{
+    "dimension": [3,12,22,31,34,41,58,62,69,79],
+    "mobs": [
+        {
+            "mob": "srparasites:carrier_heavy",
+            "weight": 10,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        }
+    ]
+},
+
+{
+    "dimension": 0,
+    "mobs": [
+        {
+            "mob": "srparasites:carrier_heavy",
+            "weight": 4,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        }
+    ]
+},
+
+{
+    "dimension": 0,
+    "mobs": [
+        {
+            "mob": "srparasites:carrier_light",
+            "weight": 8,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        }
+    ]
+},
+
+{
+    "dimension": [-1, 0, 1],
+    "mobs": [
+        {
+            "mob": "srparasites:rupter",
+            "weight": 10,
+            "groupcountmin": 1,
+            "groupcountmax": 6
+        }
+    ]
+},
+
+{
+
+"dimension": [
+            3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,
+            33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,
+            62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91
+        ],
+        "mobs": [
+        {
+            "mob": "srparasites:rupter",
+            "weight": 20,
+            "groupcountmin": 1,
+            "groupcountmax": 10
+        }
+    ]
+   },
+
+   {
+    "dimension": 0,
+    "mobs": [
+        {
+            "mob": "srparasites:sim_human",
+            "weight": 12,
+            "groupcountmin": 2,
+            "groupcountmax": 8
+        },
+        {
+            "mob": "srparasites:sim_villager",
+            "weight": 8,
+            "groupcountmin": 1,
+            "groupcountmax": 6
+        }
+    ]
+},
+
+{
+    "dimension": [0,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30],
+    "mobs": [
+        {
+            "mob": "srparasites:pri_yelloweye",
+            "weight": 4,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:pri_vermin",
+            "weight": 4,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        }
+    ]
+},
+
+{
+    "dimension": [0,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30],
+    "mobs": [
+        {
+            "mob": "srparasites:pri_longarms",
+            "weight": 3,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:pri_manducater",
+            "weight": 3,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:pri_reeker",
+            "weight": 3,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:pri_summoner",
+            "weight": 3,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:pri_bolster",
+            "weight": 1,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:pri_tozoon",
+            "weight": 2,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:pri_arachnida",
+            "weight": 3,
+            "groupcountmin": 2,
+            "groupcountmax": 1
+        }
+    ]
+},
+
+{
+    "dimension": [3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30],
+    "mobs": [
+        {
+            "mob": "srparasites:fer_bear",
+            "weight": 18,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:fer_cow",
+            "weight": 18,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:fer_horse",
+            "weight": 18,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:fer_human",
+            "weight": 18,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:fer_pig",
+            "weight": 18,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:fer_sheep",
+            "weight": 18,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:fer_villager",
+            "weight": 18,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        }
+    ]
+},
+
+{
+    "dimension": 0,
+    "mobs": [
+        {
+            "mob": "srparasites:fer_bear",
+            "weight": 6,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:fer_cow",
+            "weight": 6,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:fer_horse",
+            "weight": 6,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:fer_human",
+            "weight": 6,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:fer_pig",
+            "weight": 6,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:fer_sheep",
+            "weight": 6,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:fer_villager",
+            "weight": 6,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        }
+    ]
+},
+
+
+{
+    "dimension": 0,
+    "mobs": [
+        {
+            "mob": "srparasites:mar_human",
+            "weight": 4,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:mar_cow",
+            "weight": 3,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:mar_sheep",
+            "weight": 3,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:mar_bear",
+            "weight": 2,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        }
+    ]
+},
+
+
+{
+    "dimension": [3,12,22,31,34,41,58,62,69,79],
+    "mobs": [
+        {
+            "mob": "srparasites:ada_longarms",
+            "weight": 15,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:ada_manducater",
+            "weight": 15,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:ada_reeker",
+            "weight": 15,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:ada_yelloweye",
+            "weight": 15,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:ada_summoner",
+            "weight": 15,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        },
+        {
+            "mob": "srparasites:ada_bolster",
+            "weight": 12,
+            "groupcountmin": 1,
+            "groupcountmax": 1
+        }
+    ]
+},
+
+{
+    "dimension": [0,1],
+    "mobs": [
+        {
+            "mob": "srparasites:ada_longarms",
+            "weight": 4,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:ada_manducater",
+            "weight": 4,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:ada_reeker",
+            "weight": 4,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:ada_yelloweye",
+            "weight": 4,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:ada_summoner",
+            "weight": 4,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        },
+        {
+            "mob": "srparasites:ada_bolster",
+            "weight": 4,
+            "groupcountmin": 1,
+            "groupcountmax": 1
+        },
+        {
+            "mob": "srparasites:ada_viscera",
+            "weight": 4,
+            "groupcountmin": 1,
+            "groupcountmax": 1
+        }
+    ]
+},
+
+{
+    "dimension": [3,12,22,31,34,41,58,62,69,79],
+    "mobs": [
+        {
+            "mob": "srparasites:ada_arachnida",
+            "weight": 12,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        }
+    ]
+  },
+  {
+    "dimension": 0,
+    "mobs": [
+        {
+            "mob": "hbm:entity_nuclear_creeper",
+            "weight": 2,
+            "groupcountmin": 1,
+            "groupcountmax": 1
+        }
+    ]
+  },
+
+  {
+    "dimension": 0,
+    "mobs": [
+        {
+            "mob": "hbm:entity_ntm_radiation_blaze",
+            "weight": 3,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        }
+    ]
+  },
+
+  {
+    "dimension": -1,
+    "mobs": [
+        {
+            "mob": "hbm:entity_ntm_radiation_blaze",
+            "weight": 6,
+            "groupcountmin": 2,
+            "groupcountmax": 3
+        }
+    ]
+  },
+
+
+
+{
+  "dimension": [0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30],
+   "mobs": [
+        {
+            "mob": "hbm:entity_black_hole",
+            "weight": 2,
+            "groupcountmin": 1,
+            "groupcountmax": 1
+        }
+     ]
+   },
+
+
+   {
+     "dimension": 1000,
+      "mobs": [
+        {
+            "mob": [
+            "srparasites:ada_longarms",
+            "srparasites:ada_manducater",
+            "srparasites:ada_reeker",
+            "srparasites:ada_yelloweye",
+            "srparasites:ada_summoner",
+            "srparasites:ada_bolster",
+            "srparasites:ada_arachnida"
+        ],
+            "weight": 15,
+            "groupcountmin": 3,
+            "groupcountmax": 6
+        }
+     ]
+   },
+
+   {
+     "dimension": 1000,
+      "mobs": [
+        {
+        "mob": [
+           "srparasites:overseer",
+           "srparasites:vigilante",
+           "srparasites:warden",
+           "srparasites:bomber_light",
+           "srparasites:marauder",
+           "srparasites:monarch",
+           "srparasites:grunt",
+           "srparasites:bomber_heavy",
+           "srparasites:wraith",
+           "srparasites:bogle",
+           "srparasites:haunter",
+           "srparasites:carrier_colony",
+           "srparasites:succor",
+           "srparasites:seeker",
+           "srparasites:anc_dreadnaut",
+           "srparasites:anc_overlord"
+        ],
+            "weight": 10,
+            "groupcountmin": 1,
+            "groupcountmax": 2
+        }
+     ]
+   },
+
+
+   {
+     "dimension": 1000,
+      "mobs": [
+        {
+        "mob": ["srparasites:airscrew"],
+            "weight": 10,
+            "groupcountmin": 1,
+            "groupcountmax": 3
+        }
+     ]
+   },
+
+
+   {
+     "dimension": [0, 1000],
+      "mobs": [
+        {
+        "mob": ["srparasites:wendigo"],
+            "weight": 2,
+            "groupcountmin": 1,
+            "groupcountmax": 1
+        }
+     ]
+   }
 ]

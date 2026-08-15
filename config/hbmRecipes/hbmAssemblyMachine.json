@@ -92,19 +92,6 @@
       "autoSwitchGroup": "autoswitch.plates"
     },
     {
-      "name": "ass.platealloy",
-      "inputItem": [
-        ["dict","ingotAdvancedAlloy"]
-      ],
-      "outputItem": [
-        ["single",["hbm:plate_advanced_alloy"]]
-      ],
-      "duration": 60,
-      "power": 100,
-      "blueprintpool": "alt.plates",
-      "autoSwitchGroup": "autoswitch.plates"
-    },
-    {
       "name": "ass.plateschrab",
       "inputItem": [
         ["dict","ingotSchrabidium"]
@@ -185,12 +172,12 @@
     {
       "name": "ass.platemixed",
       "inputItem": [
-        ["dict","plateAdvancedAlloy",2],
+        ["dict","plateCopper",2],
         ["dict","plateTungCar"],
         ["dict","plateSaturnite"]
       ],
       "outputItem": [
-        ["single",["hbm:plate_mixed",6]]
+        ["single",["hbm:plate_mixed",4]]
       ],
       "duration": 50,
       "power": 100
@@ -230,34 +217,6 @@
         ["single",["hbm:plate_bismuth"]]
       ],
       "duration": 200,
-      "power": 100
-    },
-    {
-      "name": "ass.plateeuphemium",
-      "inputItem": [
-        ["dict","ingotEuphemium",4],
-        ["dict","dustAstatine",3],
-        ["dict","dustBismuth"],
-        ["dict","gemVolcanic"],
-        ["dict","ingotOsmiridium"]
-      ],
-      "outputItem": [
-        ["single",["hbm:plate_euphemium"]]
-      ],
-      "duration": 600,
-      "power": 100
-    },
-    {
-      "name": "ass.platednt",
-      "inputItem": [
-        ["dict","ingotDineutronium",4],
-        ["item","hbm:powder_spark_mix",2],
-        ["dict","ingotWorkersAlloy"]
-      ],
-      "outputItem": [
-        ["single",["hbm:plate_dineutronium",4]]
-      ],
-      "duration": 600,
       "power": 100
     },
     {
@@ -375,6 +334,34 @@
       "power": 250000
     },
     {
+      "name": "ass.explastic",
+      "inputItem": [
+        ["dict","ingotAnyHardPlastic",4],
+        ["dict","ingotAnyPlastic",16],
+        ["dict","ingotAnyRubber",8]
+      ],
+      "inputFluid": [
+        ["SOLVENT",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item_expensive",1,7]]
+      ],
+      "duration": 600,
+      "power": 20000
+    },
+    {
+      "name": "ass.exgold",
+      "inputItem": [
+        ["dict","dustGold",64],
+        ["dict","dustGold",64]
+      ],
+      "outputItem": [
+        ["single",["hbm:item_expensive",1,8]]
+      ],
+      "duration": 600,
+      "power": 10000
+    },
+    {
       "name": "ass.hazcloth",
       "inputItem": [
         ["dict","dustLead",4],
@@ -410,6 +397,106 @@
       ],
       "duration": 50,
       "power": 100
+    },
+    {
+      "name": "ass.chip",
+      "inputItem": [
+        ["item","hbm:plate_polymer"],
+        ["item","hbm:circuit",1,4],
+        ["dict","wireFineGold"]
+      ],
+      "outputItem": [
+        ["single",["hbm:circuit",1,5]]
+      ],
+      "duration": 50,
+      "power": 250
+    },
+    {
+      "name": "ass.chipBismoid",
+      "inputItem": [
+        ["item","hbm:plate_polymer",2],
+        ["item","hbm:circuit",2,4],
+        ["dict","nuggetAnyBismoid"],
+        ["dict","wireFineGold",2]
+      ],
+      "outputItem": [
+        ["single",["hbm:circuit",1,6]]
+      ],
+      "duration": 100,
+      "power": 1500
+    },
+    {
+      "name": "ass.chipQuantum",
+      "inputItem": [
+        ["dict","ingotAnyHardPlastic",2],
+        ["dict","wireDenseBSCCO"],
+        ["item","hbm:pellet_charged"],
+        ["dict","wireFineGold",8]
+      ],
+      "outputItem": [
+        ["single",["hbm:circuit",1,16]]
+      ],
+      "duration": 200,
+      "power": 15000
+    },
+    {
+      "name": "ass.atomicClock",
+      "inputItem": [
+        ["dict","ingotAnyPlastic",2],
+        ["item","hbm:circuit",3,5],
+        ["dict","dustStrontium"]
+      ],
+      "outputItem": [
+        ["single",["hbm:circuit",1,18]]
+      ],
+      "duration": 300,
+      "power": 1000
+    },
+    {
+      "name": "ass.analogAlt",
+      "inputItem": [
+        ["item","hbm:circuit",4,3],
+        ["dict","ingotAnyPlastic",4],
+        ["dict","wireFineTungsten",8],
+        ["dict","ingotNiobium"]
+      ],
+      "outputItem": [
+        ["single",["hbm:circuit",1,7]]
+      ],
+      "duration": 200,
+      "power": 250,
+      "named": true,
+      "blueprintpool": "alt..circuit"
+    },
+    {
+      "name": "ass.factorioChip",
+      "inputItem": [
+        ["dict","ingotRubber",2],
+        ["dict","plateIron",4],
+        ["dict","wireFineCopper",8]
+      ],
+      "outputItem": [
+        ["single",["hbm:circuit",1,8]]
+      ],
+      "duration": 300,
+      "power": 20000,
+      "named": true,
+      "blueprintpool": "alt..circuit"
+    },
+    {
+      "name": "ass.atomicClockAlt",
+      "inputItem": [
+        ["dict","ingotAnyPlastic",4],
+        ["item","hbm:circuit",3,5],
+        ["dict","dustCaesium137"]
+      ],
+      "outputItem": [
+        ["single",["hbm:circuit",4,18]]
+      ],
+      "duration": 300,
+      "power": 20000,
+      "named": true,
+      "blueprintpool": "alt..circuit"
     },
     {
       "name": "ass.centrifugetower",
@@ -540,7 +627,8 @@
         ["single",["hbm:part_lithium",8]]
       ],
       "duration": 40,
-      "power": 100
+      "power": 100,
+      "autoSwitchGroup": "autoswitch.cyclotron"
     },
     {
       "name": "ass.partberyl",
@@ -551,7 +639,8 @@
         ["single",["hbm:part_beryllium",8]]
       ],
       "duration": 40,
-      "power": 100
+      "power": 100,
+      "autoSwitchGroup": "autoswitch.cyclotron"
     },
     {
       "name": "ass.partcoal",
@@ -562,7 +651,8 @@
         ["single",["hbm:part_carbon",8]]
       ],
       "duration": 40,
-      "power": 100
+      "power": 100,
+      "autoSwitchGroup": "autoswitch.cyclotron"
     },
     {
       "name": "ass.partcop",
@@ -573,7 +663,8 @@
         ["single",["hbm:part_copper",8]]
       ],
       "duration": 40,
-      "power": 100
+      "power": 100,
+      "autoSwitchGroup": "autoswitch.cyclotron"
     },
     {
       "name": "ass.partplut",
@@ -584,7 +675,8 @@
         ["single",["hbm:part_plutonium",8]]
       ],
       "duration": 40,
-      "power": 100
+      "power": 100,
+      "autoSwitchGroup": "autoswitch.cyclotron"
     },
     {
       "name": "ass.cmbtile",
@@ -683,9 +775,8 @@
     {
       "name": "ass.blastdoor",
       "inputItem": [
-        ["dict","ingotSteel",8],
+        ["dict","ingotSteel",12],
         ["dict","plateLead",6],
-        ["dict","plateAdvancedAlloy",6],
         ["dict","ingotAnyRubber",2],
         ["dict","boltDuraSteel",8],
         ["item","hbm:motor"]
@@ -700,7 +791,6 @@
       "name": "ass.firedoor",
       "inputItem": [
         ["dict","plateSteel",16],
-        ["dict","plateAdvancedAlloy",8],
         ["dict","boltDuraSteel",8],
         ["item","hbm:motor",2]
       ],
@@ -715,11 +805,9 @@
       "inputItem": [
         ["item","hbm:cmb_brick_reinforced",16],
         ["dict","plateSteel",64],
-        ["dict","plateAdvancedAlloy",40],
         ["dict","ingotAnyRubber",36],
-        ["dict","blockSteel",24],
+        ["dict","blockSteel",32],
         ["item","hbm:motor_desh",16],
-        ["dict","boltDuraSteel",16],
         ["dict","dyeYellow",4]
       ],
       "outputItem": [
@@ -740,6 +828,22 @@
       ],
       "outputItem": [
         ["single",["hbm:sliding_blast_door"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
+      "name": "ass.slidingdoor_legacy",
+      "inputItem": [
+        ["dict","plateSteel",16],
+        ["dict","ingotTungsten",8],
+        ["item","hbm:reinforced_glass",4],
+        ["dict","ingotAnyRubber",4],
+        ["dict","boltDuraSteel",16],
+        ["item","hbm:motor",2]
+      ],
+      "outputItem": [
+        ["single",["hbm:sliding_blast_door_legacy"]]
       ],
       "duration": 200,
       "power": 100
@@ -775,8 +879,7 @@
     {
       "name": "ass.qedoor",
       "inputItem": [
-        ["dict","plateTripleSteel",4],
-        ["dict","plateAdvancedAlloy",4],
+        ["dict","plateTripleSteel",6],
         ["item","hbm:plate_polymer",8],
         ["item","hbm:motor",2],
         ["dict","boltDuraSteel",32],
@@ -808,7 +911,6 @@
       "name": "ass.roundairlock",
       "inputItem": [
         ["dict","plateTripleSteel",12],
-        ["dict","plateAdvancedAlloy",8],
         ["item","hbm:plate_polymer",16],
         ["item","hbm:motor",4],
         ["dict","boltDuraSteel",16],
@@ -824,7 +926,6 @@
       "name": "ass.secureaccess",
       "inputItem": [
         ["dict","plateTripleSteel",12],
-        ["dict","plateAdvancedAlloy",16],
         ["item","hbm:plate_polymer",8],
         ["item","hbm:motor",4],
         ["dict","boltDuraSteel",32],
@@ -956,7 +1057,7 @@
     {
       "name": "ass.shredder",
       "inputItem": [
-        ["item","hbm:item_expensive"],
+        ["dict","plateSteel",8],
         ["dict","plateCopper",4],
         ["item","hbm:motor",2]
       ],
@@ -983,12 +1084,12 @@
     {
       "name": "ass.chemplant",
       "inputItem": [
-        ["item","hbm:item_expensive",3],
+        ["dict","ingotSteel",8],
         ["dict","ntmpipeCopper",2],
         ["item","hbm:plate_polymer",16],
         ["item","hbm:motor",2],
         ["item","hbm:coil_tungsten",2],
-        ["item","hbm:circuit",3,7]
+        ["item","hbm:circuit",1,7]
       ],
       "outputItem": [
         ["single",["hbm:machine_chemical_plant"]]
@@ -999,11 +1100,11 @@
     {
       "name": "ass.purex",
       "inputItem": [
-        ["item","hbm:item_expensive",2,3],
         ["dict","shellSteel",4],
-        ["dict","ntmpipeRubber",12],
-        ["item","hbm:motor_desh",3],
-        ["item","hbm:item_expensive",2,2]
+        ["dict","ntmpipeRubber",8],
+        ["dict","plateTripleLead",4],
+        ["item","hbm:motor_desh"],
+        ["item","hbm:circuit",4,8]
       ],
       "outputItem": [
         ["single",["hbm:machine_purex"]]
@@ -1014,10 +1115,10 @@
     {
       "name": "ass.precass",
       "inputItem": [
-        ["item","hbm:item_expensive",4],
+        ["dict","plateTripleSteel",8],
         ["dict","ingotZirconium",8],
         ["item","hbm:motor",4],
-        ["item","hbm:circuit",8,10]
+        ["item","hbm:circuit",4,10]
       ],
       "outputItem": [
         ["single",["hbm:machine_precass"]]
@@ -1030,8 +1131,8 @@
       "inputItem": [
         ["item","hbm:centrifuge_element"],
         ["dict","ingotAnyPlastic",4],
-        ["item","hbm:item_expensive",3],
-        ["dict","plateTripleCopper",4],
+        ["dict","plateSteel",8],
+        ["dict","plateCopper",4],
         ["item","hbm:circuit",1,7]
       ],
       "outputItem": [
@@ -1044,9 +1145,10 @@
       "name": "ass.gascent",
       "inputItem": [
         ["item","hbm:centrifuge_element",4],
-        ["dict","plateSextupleSteel",4],
-        ["item","hbm:item_expensive",1,1],
-        ["item","hbm:item_expensive",1,2]
+        ["dict","ingotAnyPlastic",8],
+        ["dict","ingotWorkersAlloy",2],
+        ["dict","plateSteel",8],
+        ["item","hbm:circuit",1,9]
       ],
       "outputItem": [
         ["single",["hbm:machine_gascent"]]
@@ -1058,10 +1160,11 @@
       "name": "ass.arcfurnace",
       "inputItem": [
         ["dict","unknownConcrete",12],
-        ["item","hbm:item_expensive",4,1],
+        ["dict","ingotAnyPlastic",8],
         ["item","hbm:ingot_firebrick",16],
+        ["dict","plateTripleSteel",8],
         ["item","hbm:machine_transformer"],
-        ["item","hbm:circuit",3,7]
+        ["item","hbm:circuit",1,7]
       ],
       "outputItem": [
         ["single",["hbm:machine_arc_furnace"]]
@@ -1072,10 +1175,11 @@
     {
       "name": "ass.acidizer",
       "inputItem": [
-        ["item","hbm:item_expensive",2,1],
+        ["dict","plateSextupleSteel",2],
         ["dict","shellTitanium",3],
+        ["dict","ingotWorkersAlloy",4],
         ["item","hbm:motor"],
-        ["item","hbm:item_expensive",1,2]
+        ["item","hbm:circuit",2,8]
       ],
       "outputItem": [
         ["single",["hbm:machine_crystallizer"]]
@@ -1086,12 +1190,13 @@
     {
       "name": "ass.electrolyzer",
       "inputItem": [
-        ["item","hbm:item_expensive",4,1],
+        ["dict","plateTripleSteel",8],
+        ["dict","plateCopper",16],
         ["dict","shellTitanium",3],
         ["dict","ingotRubber",8],
         ["item","hbm:ingot_firebrick",16],
         ["item","hbm:coil_copper",16],
-        ["item","hbm:item_expensive",4,2]
+        ["item","hbm:circuit",8,8]
       ],
       "outputItem": [
         ["single",["hbm:machine_electrolyser"]]
@@ -1116,9 +1221,10 @@
     {
       "name": "ass.derrick",
       "inputItem": [
-        ["item","hbm:item_expensive",2],
+        ["dict","plateSteel",8],
+        ["dict","plateTripleCopper",2],
         ["dict","ntmpipeSteel",4],
-        ["item","hbm:motor",3],
+        ["item","hbm:motor"],
         ["item","hbm:drill_titanium"]
       ],
       "outputItem": [
@@ -1130,9 +1236,10 @@
     {
       "name": "ass.pumpjack",
       "inputItem": [
-        ["item","hbm:item_expensive",1,1],
+        ["dict","plateDuraSteel",8],
+        ["dict","plateSextupleSteel",8],
         ["dict","ntmpipeSteel",12],
-        ["item","hbm:motor_desh",3],
+        ["item","hbm:motor_desh"],
         ["item","hbm:drill_titanium"]
       ],
       "outputItem": [
@@ -1144,13 +1251,13 @@
     {
       "name": "ass.fracker",
       "inputItem": [
-        ["item","hbm:item_expensive",4,1],
-        ["item","hbm:item_expensive",2,4],
+        ["dict","shellSteel",24],
         ["dict","ntmpipeSteel",12],
         ["item","hbm:concrete_smooth",64],
         ["item","hbm:drill_titanium"],
-        ["item","hbm:motor_desh",5],
-        ["item","hbm:item_expensive",4,2]
+        ["item","hbm:motor_desh",2],
+        ["item","hbm:plate_desh",24],
+        ["item","hbm:circuit",16,1]
       ],
       "outputItem": [
         ["single",["hbm:machine_fracking_tower"]]
@@ -1161,8 +1268,9 @@
     {
       "name": "ass.flarestack",
       "inputItem": [
-        ["item","hbm:item_expensive",8],
+        ["dict","plateSteel",12],
         ["dict","plateCopper",4],
+        ["dict","shellSteel",4],
         ["item","hbm:thermo_element",3]
       ],
       "outputItem": [
@@ -1174,10 +1282,12 @@
     {
       "name": "ass.refinery",
       "inputItem": [
-        ["item","hbm:item_expensive",4],
+        ["dict","plateSextupleSteel",3],
+        ["dict","plateCopper",8],
+        ["dict","shellSteel",4],
         ["dict","ntmpipeSteel",12],
         ["item","hbm:plate_polymer",8],
-        ["item","hbm:circuit",5,7]
+        ["item","hbm:circuit",3,7]
       ],
       "outputItem": [
         ["single",["hbm:machine_refinery"]]
@@ -1188,9 +1298,9 @@
     {
       "name": "ass.crackingtower",
       "inputItem": [
-        ["item","hbm:item_expensive",2,1],
-        ["item","hbm:item_expensive",8],
-        ["dict","ingotAnyPlastic",16],
+        ["item","hbm:steel_scaffold",16],
+        ["dict","shellSteel",6],
+        ["dict","ingotWorkersAlloy",12],
         ["dict","ingotNiobium",4]
       ],
       "outputItem": [
@@ -1202,10 +1312,11 @@
     {
       "name": "ass.radiolysis",
       "inputItem": [
-        ["item","hbm:item_expensive",2,1],
-        ["item","hbm:item_expensive",4,3],
+        ["dict","shellSteel",4],
+        ["dict","ingotAnyResistantAlloy",4],
+        ["dict","plateLead",12],
         ["dict","plateTripleCopper",4],
-        ["dict","ingotRubber",16],
+        ["dict","ingotRubber",8],
         ["item","hbm:thermo_element",8]
       ],
       "outputItem": [
@@ -1217,9 +1328,10 @@
     {
       "name": "ass.coker",
       "inputItem": [
-        ["item","hbm:item_expensive",4,1],
-        ["item","hbm:item_expensive",8],
-        ["dict","ingotRubber",16],
+        ["dict","plateSextupleSteel",8],
+        ["dict","shellSteel",4],
+        ["dict","plateCopper",8],
+        ["dict","ingotRubber",4],
         ["dict","ingotNiobium",4]
       ],
       "outputItem": [
@@ -1231,12 +1343,13 @@
     {
       "name": "ass.vaccumrefinery",
       "inputItem": [
-        ["item","hbm:item_expensive",2,6],
-        ["item","hbm:item_expensive",2,4],
-        ["dict","ntmpipeDuraSteel",16],
+        ["dict","plateTripleSteel",16],
+        ["dict","plateCopper",16],
+        ["dict","ingotAnyResistantAlloy",4],
+        ["item","hbm:sphere_steel"],
+        ["dict","ntmpipeSteel",12],
         ["item","hbm:motor_desh",3],
-        ["item","hbm:circuit",16,6],
-        ["item","hbm:item_expensive",1,5]
+        ["item","hbm:circuit",4,6]
       ],
       "outputItem": [
         ["single",["hbm:machine_vacuum_distill"]]
@@ -1247,13 +1360,14 @@
     {
       "name": "ass.reformer",
       "inputItem": [
-        ["item","hbm:item_expensive",2,6],
+        ["dict","plateTripleSteel",12],
+        ["dict","plateCopper",8],
         ["dict","ingotNiobium",8],
         ["dict","ingotAnyResistantAlloy",4],
-        ["dict","ntmpipeDuraSteel",16],
-        ["item","hbm:motor",8],
-        ["item","hbm:circuit",4,11],
-        ["item","hbm:item_expensive",1,5]
+        ["dict","shellSteel",3],
+        ["dict","ntmpipeSteel",8],
+        ["item","hbm:motor"],
+        ["item","hbm:circuit",1,11]
       ],
       "outputItem": [
         ["single",["hbm:machine_catalytic_reformer"]]
@@ -1264,13 +1378,14 @@
     {
       "name": "ass.hydrotreater",
       "inputItem": [
-        ["item","hbm:item_expensive",2,6],
+        ["dict","plateSextupleSteel",8],
+        ["dict","plateTripleCopper",4],
         ["dict","ingotNiobium",8],
         ["dict","ingotAnyResistantAlloy",4],
-        ["dict","ntmpipeDuraSteel",16],
-        ["item","hbm:motor_desh",8],
-        ["item","hbm:circuit",4,11],
-        ["item","hbm:item_expensive",1,5]
+        ["dict","shellSteel",2],
+        ["dict","ntmpipeSteel",8],
+        ["item","hbm:motor_desh",2],
+        ["item","hbm:circuit",1,11]
       ],
       "outputItem": [
         ["single",["hbm:machine_hydrotreater"]]
@@ -1281,12 +1396,12 @@
     {
       "name": "ass.pyrooven",
       "inputItem": [
-        ["item","hbm:item_expensive",6,6],
-        ["dict","ingotAnyHardPlastic",32],
+        ["dict","plateSextupleSteel",16],
+        ["dict","ingotAnyHardPlastic",16],
         ["item","hbm:ingot_cft",4],
-        ["item","hbm:motor_bismuth",4],
-        ["item","hbm:circuit",4,11],
-        ["item","hbm:item_expensive",2,5]
+        ["dict","ntmpipeCopper",12],
+        ["item","hbm:motor_desh"],
+        ["item","hbm:circuit",1,11]
       ],
       "outputItem": [
         ["single",["hbm:machine_pyrooven"]]
@@ -1297,9 +1412,11 @@
     {
       "name": "ass.liquefactor",
       "inputItem": [
-        ["item","hbm:item_expensive",1,1],
-        ["dict","unknownTar",16],
-        ["item","hbm:circuit",16,1]
+        ["dict","shellSteel",4],
+        ["dict","plateCopper",12],
+        ["dict","unknownTar",4],
+        ["item","hbm:circuit",12,1],
+        ["item","hbm:coil_tungsten",8]
       ],
       "outputItem": [
         ["single",["hbm:machine_liquefactor"]]
@@ -1310,9 +1427,11 @@
     {
       "name": "ass.solidifier",
       "inputItem": [
-        ["item","hbm:item_expensive",1,1],
-        ["dict","ingotAnyPlastic",16],
-        ["item","hbm:circuit",16,1]
+        ["dict","shellSteel",4],
+        ["dict","plateAluminum",12],
+        ["dict","ingotAnyPlastic",4],
+        ["item","hbm:circuit",12,1],
+        ["item","hbm:coil_copper",4]
       ],
       "outputItem": [
         ["single",["hbm:machine_solidifier"]]
@@ -1323,10 +1442,11 @@
     {
       "name": "ass.compressor",
       "inputItem": [
-        ["item","hbm:item_expensive",3],
-        ["dict","shellSteel",4],
+        ["dict","plateTripleSteel",8],
+        ["dict","plateCopper",4],
+        ["dict","shellSteel",2],
         ["item","hbm:motor",3],
-        ["item","hbm:circuit",3,7]
+        ["item","hbm:circuit",1,7]
       ],
       "outputItem": [
         ["single",["hbm:machine_compressor"]]
@@ -1337,10 +1457,11 @@
     {
       "name": "ass.compactcompressor",
       "inputItem": [
-        ["item","hbm:item_expensive",4],
-        ["dict","ntmpipeCopper",16],
-        ["item","hbm:motor",3],
-        ["item","hbm:item_expensive",1,2]
+        ["dict","plateTripleSteel",8],
+        ["dict","shellTitanium",4],
+        ["dict","ntmpipeCopper",4],
+        ["item","hbm:motor",2],
+        ["item","hbm:circuit",4,8]
       ],
       "outputItem": [
         ["single",["hbm:machine_compressor_compact"]]
@@ -1351,9 +1472,10 @@
     {
       "name": "ass.epress",
       "inputItem": [
-        ["item","hbm:item_expensive",1,1],
-        ["item","hbm:part_generic",4,1],
-        ["item","hbm:circuit",4,8]
+        ["dict","plateSteel",8],
+        ["dict","ingotAnyRubber",4],
+        ["item","hbm:part_generic",2,1],
+        ["item","hbm:circuit",1,8]
       ],
       "outputItem": [
         ["single",["hbm:machine_epress"]]
@@ -1364,11 +1486,13 @@
     {
       "name": "ass.fel",
       "inputItem": [
-        ["item","hbm:item_expensive",3,4],
-        ["dict","wireDenseAdvancedAlloy",64],
+        ["item","hbm:battery_pack",1,2],
+        ["dict","wireDenseGold",64],
+        ["dict","plateTripleSteel",12],
         ["dict","ingotAnyPlastic",16],
         ["item","hbm:part_generic",4,5],
-        ["item","hbm:item_expensive",3,2]
+        ["item","hbm:circuit",16,1],
+        ["item","hbm:circuit",4,8]
       ],
       "outputItem": [
         ["single",["hbm:machine_fel"]]
@@ -1379,9 +1503,11 @@
     {
       "name": "ass.silex",
       "inputItem": [
-        ["item","hbm:item_expensive",2,4],
         ["item","hbm:glass_quartz",16],
-        ["dict","ingotRubber",16]
+        ["dict","plateTripleSteel",8],
+        ["dict","ingotWorkersAlloy",4],
+        ["dict","ingotRubber",8],
+        ["dict","ntmpipeSteel",8]
       ],
       "outputItem": [
         ["single",["hbm:machine_silex"]]
@@ -1546,11 +1672,13 @@
     {
       "name": "ass.mininglaser",
       "inputItem": [
-        ["item","hbm:item_expensive",4,1],
+        ["dict","plateSteel",16],
+        ["dict","shellTitanium",4],
         ["dict","plateDuraSteel",4],
-        ["item","hbm:crystal_redstone",12],
-        ["dict","ingotAnyPlastic",16],
-        ["item","hbm:motor_desh",3]
+        ["item","hbm:crystal_redstone",3],
+        ["item","minecraft:diamond",3],
+        ["dict","ingotAnyPlastic",8],
+        ["item","hbm:motor",3]
       ],
       "outputItem": [
         ["single",["hbm:machine_mining_laser"]]
@@ -1562,7 +1690,7 @@
       "name": "ass.teleporter",
       "inputItem": [
         ["dict","plateTitanium",12],
-        ["dict","plateAdvancedAlloy",12],
+        ["dict","plateDuraSteel",12],
         ["dict","wireFineGold",32],
         ["item","hbm:entanglement_kit"],
         ["item","hbm:battery_pack",1,2]
@@ -1576,10 +1704,11 @@
     {
       "name": "ass.radar",
       "inputItem": [
-        ["item","hbm:item_expensive",2,1],
-        ["item","hbm:magnetron",16],
-        ["item","hbm:motor",3],
-        ["item","hbm:item_expensive",2,2],
+        ["dict","plateSteel",12],
+        ["dict","ingotAnyRubber",12],
+        ["item","hbm:magnetron",5],
+        ["item","hbm:motor"],
+        ["item","hbm:circuit",8,8],
         ["item","hbm:crt_display",4]
       ],
       "outputItem": [
@@ -1591,12 +1720,12 @@
     {
       "name": "ass.radarlarge",
       "inputItem": [
-        ["item","hbm:item_expensive",4,1],
-        ["dict","ingotAnyResistantAlloy",8],
+        ["dict","plateSextupleSteel",6],
+        ["dict","ingotAnyResistantAlloy",4],
         ["dict","ingotAnyRubber",24],
         ["item","hbm:magnetron",16],
-        ["item","hbm:motor_desh",3],
-        ["item","hbm:item_expensive",6,2],
+        ["item","hbm:motor_desh"],
+        ["item","hbm:circuit",4,9],
         ["item","hbm:crt_display",4]
       ],
       "outputItem": [
@@ -1608,7 +1737,7 @@
     {
       "name": "ass.forcefield",
       "inputItem": [
-        ["dict","plateAdvancedAlloy",8],
+        ["dict","plateDuraSteel",8],
         ["item","hbm:plate_desh",4],
         ["item","hbm:coil_gold_torus",6],
         ["item","hbm:coil_magnetized_tungsten",12],
@@ -1625,26 +1754,12 @@
       "power": 100
     },
     {
-      "name": "ass.difurnacertg",
-      "inputItem": [
-        ["item","hbm:rtg_unit",3],
-        ["dict","ingotWorkersAlloy",4],
-        ["dict","plateLead",6],
-        ["dict","plateTungCar",8],
-        ["dict","plateCopper",12]
-      ],
-      "outputItem": [
-        ["single",["hbm:machine_difurnace_rtg_off"]]
-      ],
-      "duration": 200,
-      "power": 100
-    },
-    {
       "name": "ass.strandcaster",
       "inputItem": [
-        ["item","hbm:item_expensive",1,1],
         ["item","hbm:ingot_firebrick",16],
-        ["dict","shellSteel",4],
+        ["dict","plateTripleSteel",6],
+        ["dict","plateSextupleCopper",2],
+        ["dict","shellSteel",2],
         ["dict","unknownConcrete",8]
       ],
       "outputItem": [
@@ -1656,13 +1771,13 @@
     {
       "name": "ass.assemfac",
       "inputItem": [
-        ["item","hbm:item_expensive",4,1],
-        ["dict","ingotAnyResistantAlloy",16],
+        ["dict","ingotDuraSteel",16],
+        ["dict","ingotAnyResistantAlloy",8],
         ["dict","ingotRubber",16],
         ["dict","ingotBoron",8],
         ["dict","shellSteel",4],
-        ["item","hbm:motor",24],
-        ["item","hbm:item_expensive",4,2]
+        ["item","hbm:motor",12],
+        ["item","hbm:circuit",16,8]
       ],
       "outputItem": [
         ["single",["hbm:machine_assembly_factory"]]
@@ -1673,13 +1788,14 @@
     {
       "name": "ass.chemfac",
       "inputItem": [
-        ["item","hbm:item_expensive",4,1],
-        ["dict","ingotAnyResistantAlloy",16],
+        ["dict","ingotDuraSteel",16],
+        ["dict","ingotAnyResistantAlloy",8],
         ["dict","ingotRubber",16],
         ["dict","shellSteel",12],
-        ["dict","ntmpipeCopper",16],
-        ["item","hbm:motor_desh",16],
-        ["item","hbm:item_expensive",4,2]
+        ["dict","ntmpipeCopper",8],
+        ["item","hbm:motor_desh",4],
+        ["item","hbm:coil_tungsten",16],
+        ["item","hbm:circuit",16,8]
       ],
       "outputItem": [
         ["single",["hbm:machine_chemical_factory"]]
@@ -1690,8 +1806,8 @@
     {
       "name": "ass.dieselgen",
       "inputItem": [
-        ["item","hbm:item_expensive"],
-        ["dict","ntmpipeCopper",2],
+        ["dict","shellSteel"],
+        ["dict","plateTripleCopper",2],
         ["item","hbm:coil_copper",4]
       ],
       "outputItem": [
@@ -1703,10 +1819,11 @@
     {
       "name": "ass.combustiongen",
       "inputItem": [
-        ["item","hbm:item_expensive",2,1],
-        ["dict","wireDenseGold",16],
+        ["dict","plateSteel",16],
+        ["dict","ingotCopper",12],
+        ["dict","wireDenseGold",8],
         ["item","hbm:canister_empty",4],
-        ["item","hbm:item_expensive",1,2]
+        ["item","hbm:circuit",1,8]
       ],
       "outputItem": [
         ["single",["hbm:machine_combustion_engine"]]
@@ -1775,11 +1892,12 @@
     {
       "name": "ass.turbofan",
       "inputItem": [
-        ["item","hbm:item_expensive",3,1],
-        ["dict","ingotAnyPlastic",16],
-        ["item","hbm:turbine_tungsten",3],
-        ["dict","wireDenseGold",16],
-        ["item","hbm:item_expensive",3,2]
+        ["dict","shellTitanium",8],
+        ["dict","ntmpipeDuraSteel",4],
+        ["dict","ingotAnyPlastic",12],
+        ["item","hbm:turbine_tungsten"],
+        ["dict","wireDenseGold",12],
+        ["item","hbm:circuit",3,8]
       ],
       "outputItem": [
         ["single",["hbm:machine_turbofan"]]
@@ -1790,11 +1908,13 @@
     {
       "name": "ass.gasturbine",
       "inputItem": [
-        ["item","hbm:item_expensive",4,1],
-        ["dict","wireDenseGold",16],
-        ["dict","ntmpipeDuraSteel",16],
-        ["item","hbm:turbine_tungsten",2],
-        ["item","hbm:item_expensive",3,2]
+        ["dict","shellSteel",10],
+        ["dict","wireDenseGold",12],
+        ["dict","ntmpipeDuraSteel",4],
+        ["dict","ntmpipeSteel",4],
+        ["item","hbm:turbine_tungsten"],
+        ["item","hbm:ingot_rubber",12],
+        ["item","hbm:circuit",3,8]
       ],
       "outputItem": [
         ["single",["hbm:machine_turbine_gas"]]
@@ -1805,9 +1925,11 @@
     {
       "name": "ass.hephaestus",
       "inputItem": [
-        ["item","hbm:item_expensive",8,1],
-        ["dict","ingotNiobium",16],
-        ["dict","ingotRubber",16],
+        ["dict","ntmpipeSteel",12],
+        ["dict","ingotSteel",24],
+        ["dict","plateCopper",24],
+        ["dict","ingotNiobium",4],
+        ["dict","ingotRubber",12],
         ["item","hbm:glass_quartz",16]
       ],
       "outputItem": [
@@ -1819,11 +1941,13 @@
     {
       "name": "ass.iturbine",
       "inputItem": [
-        ["item","hbm:item_expensive",4,1],
-        ["item","hbm:turbine_titanium",3],
-        ["dict","wireDenseGold",16],
-        ["dict","ntmpipeDuraSteel",16],
-        ["item","hbm:item_expensive",3,2]
+        ["dict","plateSteel",12],
+        ["dict","ingotRubber",4],
+        ["item","hbm:turbine_titanium",2],
+        ["dict","wireDenseGold",6],
+        ["dict","ntmpipeDuraSteel",3],
+        ["dict","ntmpipeSteel",4],
+        ["item","hbm:circuit",4,8]
       ],
       "outputItem": [
         ["single",["hbm:machine_industrial_turbine"]]
@@ -1834,12 +1958,16 @@
     {
       "name": "ass.leviturbine",
       "inputItem": [
-        ["item","hbm:item_expensive",8,1],
-        ["item","hbm:item_expensive",4,4],
+        ["dict","shellSteel",6],
+        ["dict","plateSextupleSteel",16],
+        ["dict","plateTitanium",12],
+        ["dict","ingotAnyResistantAlloy",16],
         ["item","hbm:turbine_tungsten",5],
-        ["item","hbm:turbine_titanium",12],
+        ["item","hbm:turbine_titanium",3],
         ["item","hbm:flywheel_beryllium"],
-        ["dict","wireDenseGold",64]
+        ["dict","wireDenseGold",48],
+        ["dict","ntmpipeDuraSteel",16],
+        ["dict","ntmpipeSteel",16]
       ],
       "outputItem": [
         ["single",["hbm:machine_chungus"]]
@@ -1850,12 +1978,14 @@
     {
       "name": "ass.radgen",
       "inputItem": [
-        ["item","hbm:item_expensive",4,1],
-        ["item","hbm:coil_magnetized_tungsten",16],
+        ["dict","ingotSteel",8],
+        ["dict","plateSteel",32],
+        ["item","hbm:coil_magnetized_tungsten",6],
+        ["dict","wireFineMagnetizedTungsten",24],
+        ["item","hbm:circuit",16,8],
         ["item","hbm:reactor_core",3],
         ["dict","ingotStarmetal"],
-        ["dict","dyeRed"],
-        ["item","hbm:item_expensive",3,2]
+        ["dict","dyeRed"]
       ],
       "outputItem": [
         ["single",["hbm:machine_radgen"]]
@@ -1867,10 +1997,12 @@
     {
       "name": "ass.hpcondenser",
       "inputItem": [
-        ["item","hbm:item_expensive",4,4],
-        ["item","hbm:motor_desh",5],
+        ["dict","plateSextupleSteel",8],
+        ["dict","plateSextupleAnyResistantAlloy",4],
+        ["dict","plateCopper",16],
+        ["item","hbm:motor_desh",3],
         ["dict","ntmpipeSteel",24],
-        ["dict","container1000lubricant",16]
+        ["dict","container1000lubricant",4]
       ],
       "outputItem": [
         ["single",["hbm:machine_condenser_powered"]]
@@ -1948,32 +2080,10 @@
       "power": 100000
     },
     {
-      "name": "ass.fensusan",
-      "inputItem": [
-        ["item","hbm:ingot_electronium",64],
-        ["item","hbm:battery_pack",1,5],
-        ["item","hbm:item_expensive",64,6],
-        ["item","hbm:item_expensive",64,4],
-        ["dict","plateSextupleOsmiridium",64],
-        ["dict","plateSextupleOsmiridium",64],
-        ["dict","plateSextupleOsmiridium",64],
-        ["dict","plateTripleAnyBismoidBronze",64],
-        ["dict","plateTripleCMBSteel",64],
-        ["item","hbm:ingot_u238m2"],
-        ["item","hbm:ingot_cft",64],
-        ["item","hbm:ingot_cft",64]
-      ],
-      "outputItem": [
-        ["single",["hbm:machine_battery_redd"]]
-      ],
-      "duration": 1200,
-      "power": 100
-    },
-    {
       "name": "ass.tank",
       "inputItem": [
-        ["item","hbm:item_expensive",4],
-        ["dict","unknownTar",16]
+        ["dict","plateSteel",8],
+        ["dict","shellSteel",4]
       ],
       "outputItem": [
         ["single",["hbm:machine_fluidtank"]]
@@ -1984,7 +2094,8 @@
     {
       "name": "ass.bat9k",
       "inputItem": [
-        ["item","hbm:item_expensive",4,4],
+        ["dict","plateSteel",16],
+        ["dict","plateSextupleAnyResistantAlloy",2],
         ["item","hbm:steel_scaffold",16],
         ["dict","unknownTar",16]
       ],
@@ -1995,11 +2106,24 @@
       "power": 100
     },
     {
+      "name": "ass.bigasstank",
+      "inputItem": [
+        ["dict","plateSteel",16],
+        ["dict","plateSextupleAnyResistantAlloy",4],
+        ["item","hbm:steel_scaffold",16]
+      ],
+      "outputItem": [
+        ["single",["hbm:machine_bigasstank"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
       "name": "ass.orbus",
       "inputItem": [
-        ["item","hbm:item_expensive",8,4],
-        ["dict","plateTripleSaturnite",16],
-        ["item","hbm:coil_advanced_alloy",24],
+        ["dict","plateSextupleAnyResistantAlloy",8],
+        ["dict","plateTripleSaturnite",4],
+        ["dict","wireDenseBSCCO",8],
         ["item","hbm:battery_sc",1,6]
       ],
       "outputItem": [
@@ -2011,11 +2135,15 @@
     {
       "name": "ass.cyclotron",
       "inputItem": [
-        ["item","hbm:item_expensive",8,4],
+        ["item","hbm:battery_pack",1,2],
         ["dict","wireDenseNeodymium",32],
-        ["dict","plateSextupleAluminum",16],
-        ["dict","ingotRubber",32],
-        ["item","hbm:item_expensive",8,2]
+        ["dict","plateTripleSteel",16],
+        ["dict","plateSteel",32],
+        ["dict","plateAluminum",32],
+        ["dict","ingotAnyPlastic",24],
+        ["dict","ingotRubber",24],
+        ["dict","plateTripleCopper",8],
+        ["item","hbm:circuit",16,8]
       ],
       "outputItem": [
         ["single",["hbm:machine_cyclotron"]]
@@ -2026,7 +2154,7 @@
     {
       "name": "ass.beamline",
       "inputItem": [
-        ["item","hbm:item_expensive",4],
+        ["dict","plateTripleSteel",8],
         ["dict","plateCopper",16],
         ["dict","wireDenseGold",4]
       ],
@@ -2040,7 +2168,7 @@
       "name": "ass.rfc",
       "inputItem": [
         ["item","hbm:pa_beamline",3],
-        ["item","hbm:item_expensive",4,3],
+        ["dict","plateTripleSteel",16],
         ["dict","plateCopper",64],
         ["dict","ingotAnyHardPlastic",16],
         ["item","hbm:magnetron",16]
@@ -2055,10 +2183,9 @@
       "name": "ass.quadrupole",
       "inputItem": [
         ["item","hbm:pa_beamline"],
-        ["item","hbm:item_expensive",4,3],
+        ["dict","plateTripleSteel",16],
         ["dict","ingotAnyHardPlastic",16],
-        ["item","hbm:circuit",4,11],
-        ["item","hbm:item_expensive",1,5]
+        ["item","hbm:circuit",1,11]
       ],
       "outputItem": [
         ["single",["hbm:pa_quadrupole"]]
@@ -2070,10 +2197,9 @@
       "name": "ass.dipole",
       "inputItem": [
         ["item","hbm:pa_beamline",2],
-        ["item","hbm:item_expensive",4,3],
+        ["dict","plateTripleSteel",16],
         ["dict","ingotAnyHardPlastic",32],
-        ["item","hbm:circuit",16,11],
-        ["item","hbm:item_expensive",1,5]
+        ["item","hbm:circuit",4,11]
       ],
       "outputItem": [
         ["single",["hbm:pa_dipole"]]
@@ -2085,11 +2211,10 @@
       "name": "ass.source",
       "inputItem": [
         ["item","hbm:pa_beamline",3],
-        ["item","hbm:item_expensive",16,3],
+        ["dict","plateTripleSteel",16],
         ["dict","ingotAnyHardPlastic",16],
         ["item","hbm:magnetron",16],
-        ["item","hbm:circuit",4,15],
-        ["item","hbm:item_expensive",4,5]
+        ["item","hbm:circuit",1,15]
       ],
       "outputItem": [
         ["single",["hbm:pa_source"]]
@@ -2101,11 +2226,10 @@
       "name": "ass.detector",
       "inputItem": [
         ["item","hbm:pa_beamline",3],
-        ["item","hbm:item_expensive",32,3],
-        ["dict","wireDenseGold",64],
+        ["dict","plateTripleSteel",24],
+        ["dict","wireDenseGold",16],
         ["dict","ingotAnyHardPlastic",16],
-        ["item","hbm:circuit",4,15],
-        ["item","hbm:item_expensive",8,5]
+        ["item","hbm:circuit",4,15]
       ],
       "outputItem": [
         ["single",["hbm:pa_detector"]]
@@ -2165,11 +2289,14 @@
     {
       "name": "ass.exposurechamber",
       "inputItem": [
-        ["item","hbm:item_expensive",8,3],
-        ["dict","ingotAnyHardPlastic",24],
-        ["dict","wireDenseAdvancedAlloy",32],
+        ["dict","plateTripleAluminum",12],
+        ["dict","ingotAnyResistantAlloy",4],
+        ["dict","ingotAnyHardPlastic",12],
+        ["dict","wireDenseGold",32],
+        ["item","hbm:motor_desh",2],
         ["item","hbm:circuit",4,11],
-        ["item","hbm:item_expensive",2,5]
+        ["item","hbm:battery_pack",1,9],
+        ["item","hbm:glass_quartz",16]
       ],
       "outputItem": [
         ["single",["hbm:machine_exposure_chamber"]]
@@ -2180,9 +2307,11 @@
     {
       "name": "ass.breedingreactor",
       "inputItem": [
-        ["item","hbm:item_expensive",4,3],
         ["item","hbm:reactor_core"],
-        ["dict","ingotAsbestos",16],
+        ["dict","ingotSteel",12],
+        ["dict","plateLead",16],
+        ["item","hbm:reinforced_glass",4],
+        ["dict","ingotAsbestos",4],
         ["dict","ingotAnyResistantAlloy",4],
         ["item","hbm:crt_display"]
       ],
@@ -2195,10 +2324,13 @@
     {
       "name": "ass.researchreactor",
       "inputItem": [
-        ["item","hbm:item_expensive",4,4],
+        ["dict","ingotSteel",8],
+        ["dict","ingotAnyResistantAlloy",4],
         ["item","hbm:motor_desh",2],
+        ["dict","ingotBoron",5],
+        ["dict","plateLead",8],
         ["item","hbm:crt_display",3],
-        ["item","hbm:item_expensive",2,2]
+        ["item","hbm:circuit",4,8]
       ],
       "outputItem": [
         ["single",["hbm:machine_reactor_small_new"]]
@@ -2209,11 +2341,13 @@
     {
       "name": "ass.cirnox",
       "inputItem": [
-        ["item","hbm:item_expensive",4,3],
+        ["dict","shellSteel",4],
+        ["dict","ntmpipeSteel",8],
+        ["dict","ingotBoron",8],
         ["dict","ingotGraphite",16],
         ["dict","ingotRubber",16],
         ["dict","unknownConcrete",16],
-        ["item","hbm:item_expensive",2,2]
+        ["item","hbm:circuit",4,8]
       ],
       "outputItem": [
         ["single",["hbm:machine_zirnox"]]
@@ -2225,8 +2359,9 @@
       "name": "ass.rbmk",
       "inputItem": [
         ["item","hbm:concrete_asbestos",4],
-        ["item","hbm:item_expensive",1,4],
-        ["dict","plateCopper",16]
+        ["dict","plateTripleSteel",2],
+        ["dict","plateCopper",4],
+        ["dict","ingotRubber",2]
       ],
       "outputItem": [
         ["single",["hbm:rbmk_blank"]]
@@ -2237,8 +2372,10 @@
     {
       "name": "ass.rbmkautoloader",
       "inputItem": [
-        ["item","hbm:item_expensive",4,4],
-        ["item","hbm:motor_desh",3]
+        ["dict","plateSextupleSteel",4],
+        ["dict","plateTripleLead",4],
+        ["dict","ingotBoron",4],
+        ["item","hbm:motor",3]
       ],
       "outputItem": [
         ["single",["hbm:rbmk_autoloader"]]
@@ -2249,7 +2386,7 @@
     {
       "name": "ass.pwrfuel",
       "inputItem": [
-        ["item","hbm:item_expensive",1,3],
+        ["dict","plateTripleLead",4],
         ["dict","plateSextupleZirconium",2]
       ],
       "outputItem": [
@@ -2261,7 +2398,7 @@
     {
       "name": "ass.pwrcontrol",
       "inputItem": [
-        ["item","hbm:item_expensive"],
+        ["dict","plateTripleSteel",2],
         ["dict","ingotBoron",4],
         ["item","hbm:motor"]
       ],
@@ -2274,8 +2411,8 @@
     {
       "name": "ass.pwrchannel",
       "inputItem": [
-        ["item","hbm:item_expensive",2],
-        ["dict","ntmpipeSteel",4]
+        ["dict","ntmpipeSteel",4],
+        ["dict","plateCopper",4]
       ],
       "outputItem": [
         ["single",["hbm:pwr_channel",4]]
@@ -2286,11 +2423,8 @@
     {
       "name": "ass.pwrheatex",
       "inputItem": [
-        ["item","hbm:item_expensive",2],
-        ["dict","plateTripleCopper",4]
-      ],
-      "inputFluid": [
-        ["PERFLUOROMETHYL",4000]
+        ["dict","plateTripleCopper",4],
+        ["item","hbm:motor"]
       ],
       "outputItem": [
         ["single",["hbm:pwr_heatex",4]]
@@ -2302,7 +2436,7 @@
       "name": "ass.pwrheatsink",
       "inputItem": [
         ["dict","plateTripleSaturnite",4],
-        ["item","hbm:item_expensive",1,4]
+        ["dict","plateTripleCopper",4]
       ],
       "outputItem": [
         ["single",["hbm:pwr_heatsink",4]]
@@ -2313,8 +2447,20 @@
     {
       "name": "ass.pwrreflector",
       "inputItem": [
-        ["item","hbm:item_expensive"],
-        ["dict","plateTungCar",16]
+        ["dict","plateTripleSteel",2],
+        ["dict","plateTungCar",4]
+      ],
+      "outputItem": [
+        ["single",["hbm:pwr_reflector",4]]
+      ],
+      "duration": 200,
+      "power": 500
+    },
+    {
+      "name": "ass.pwrreflectoralt",
+      "inputItem": [
+        ["dict","plateTripleSteel",2],
+        ["dict","plateWeaponSteel",16]
       ],
       "outputItem": [
         ["single",["hbm:pwr_reflector",4]]
@@ -2325,7 +2471,7 @@
     {
       "name": "ass.pwrcasing",
       "inputItem": [
-        ["item","hbm:item_expensive",1,3],
+        ["dict","plateLead",4],
         ["dict","unknownConcrete",4]
       ],
       "outputItem": [
@@ -2337,8 +2483,9 @@
     {
       "name": "ass.pwrcontroller",
       "inputItem": [
-        ["item","hbm:item_expensive",1,3],
-        ["item","hbm:item_expensive",3,2]
+        ["dict","plateTripleLead",4],
+        ["dict","ingotRubber",4],
+        ["item","hbm:circuit",4,8]
       ],
       "outputItem": [
         ["single",["hbm:pwr_controller"]]
@@ -2349,7 +2496,7 @@
     {
       "name": "ass.pwrport",
       "inputItem": [
-        ["item","hbm:item_expensive",1,3],
+        ["dict","plateLead",4],
         ["dict","unknownConcrete",4],
         ["dict","ntmpipeSteel",4]
       ],
@@ -2362,7 +2509,6 @@
     {
       "name": "ass.pwrneutronsource",
       "inputItem": [
-        ["item","hbm:item_expensive",1,3],
         ["dict","plateSextupleZirconium"],
         ["item","hbm:billet_ra226be",3]
       ],
@@ -2375,9 +2521,9 @@
     {
       "name": "ass.fusioncore",
       "inputItem": [
-        ["item","hbm:item_expensive",8,4],
-        ["item","hbm:item_expensive",8,7],
-        ["item","hbm:circuit",16,11]
+        ["dict","plateSextupleAnyResistantAlloy",8],
+        ["dict","ingotAnyHardPlastic",32],
+        ["item","hbm:circuit",8,11]
       ],
       "outputItem": [
         ["single",["hbm:struct_torus_core"]]
@@ -2388,9 +2534,10 @@
     {
       "name": "ass.fusionbscco",
       "inputItem": [
-        ["dict","wireDenseBSCCO",4],
-        ["item","hbm:item_expensive",1,4],
-        ["item","hbm:item_expensive",1,7]
+        ["dict","wireDenseBSCCO"],
+        ["dict","ntmpipeCopper"],
+        ["dict","ingotAnyResistantAlloy"],
+        ["dict","ingotAnyPlastic",4]
       ],
       "outputItem": [
         ["single",["hbm:fusion_component",2]]
@@ -2401,8 +2548,8 @@
     {
       "name": "ass.fusionblanket",
       "inputItem": [
-        ["dict","plateSextupleTungsten",4],
-        ["item","hbm:item_expensive",1,1],
+        ["dict","plateSextupleTungsten"],
+        ["dict","plateSextupleSteel",2],
         ["dict","ingotBeryllium",4]
       ],
       "outputItem": [
@@ -2414,9 +2561,10 @@
     {
       "name": "ass.fusionpipes",
       "inputItem": [
-        ["item","hbm:item_expensive",1,7],
-        ["dict","ntmpipeCopper",4],
-        ["item","hbm:item_expensive",1,2]
+        ["dict","ingotAnyHardPlastic",4],
+        ["dict","ntmpipeCopper",2],
+        ["item","hbm:motor",2],
+        ["item","hbm:circuit",1,8]
       ],
       "outputItem": [
         ["single",["hbm:fusion_component",4,3]]
@@ -2427,10 +2575,12 @@
     {
       "name": "ass.fusionklystron",
       "inputItem": [
-        ["dict","wireDenseBSCCO",32],
-        ["item","hbm:item_expensive",16,4],
-        ["item","hbm:item_expensive",8,7],
-        ["item","hbm:item_expensive",1,5]
+        ["dict","plateSextupleTungsten",4],
+        ["dict","plateTripleAnyResistantAlloy",16],
+        ["dict","plateCopper",32],
+        ["dict","ingotAnyHardPlastic",16],
+        ["dict","wireDenseBSCCO",8],
+        ["item","hbm:circuit",2,11]
       ],
       "outputItem": [
         ["single",["hbm:fusion_klystron"]]
@@ -2441,9 +2591,10 @@
     {
       "name": "ass.fusioncollector",
       "inputItem": [
-        ["item","hbm:item_expensive",2,4],
-        ["dict","ingotGraphite",64],
-        ["item","hbm:item_expensive",4,7]
+        ["dict","plateTripleAnyResistantAlloy",4],
+        ["dict","plateSteel",16],
+        ["dict","ingotGraphite",16],
+        ["dict","ingotAnyHardPlastic",4]
       ],
       "outputItem": [
         ["single",["hbm:fusion_collector"]]
@@ -2454,9 +2605,10 @@
     {
       "name": "ass.fusionbreeder",
       "inputItem": [
-        ["item","hbm:item_expensive",4,4],
-        ["dict","ingotBoron",64],
-        ["item","hbm:item_expensive",4,7]
+        ["dict","plateTripleAnyResistantAlloy",4],
+        ["dict","ntmpipeSteel",4],
+        ["dict","ingotBoron",16],
+        ["dict","ingotAnyHardPlastic",16]
       ],
       "outputItem": [
         ["single",["hbm:fusion_breeder"]]
@@ -2467,9 +2619,10 @@
     {
       "name": "ass.fusionboiler",
       "inputItem": [
-        ["item","hbm:item_expensive",8,4],
-        ["item","hbm:item_expensive",8,1],
-        ["item","hbm:item_expensive",16,7]
+        ["dict","plateTripleAnyResistantAlloy",16],
+        ["dict","shellCopper",16],
+        ["dict","ntmpipeSteel",8],
+        ["dict","ingotAnyHardPlastic",16]
       ],
       "outputItem": [
         ["single",["hbm:fusion_boiler"]]
@@ -2480,10 +2633,11 @@
     {
       "name": "ass.fusionmhdt",
       "inputItem": [
-        ["item","hbm:item_expensive",16,4],
-        ["item","hbm:item_expensive",16,7],
-        ["dict","plateTripleAnyBismoidBronze",32],
-        ["item","hbm:circuit",8,15]
+        ["dict","plateSextupleAnyResistantAlloy",16],
+        ["dict","plateSextupleCopper",64],
+        ["dict","plateTripleAnyBismoidBronze",16],
+        ["dict","wireDenseSchrabidate",64],
+        ["item","hbm:circuit",4,15]
       ],
       "outputItem": [
         ["single",["hbm:fusion_mhdt"]]
@@ -2494,9 +2648,10 @@
     {
       "name": "ass.fusioncoupler",
       "inputItem": [
-        ["item","hbm:item_expensive",4,4],
+        ["dict","plateSextupleAnyResistantAlloy",4],
+        ["dict","plateCopper",32],
         ["dict","wireDenseBSCCO",16],
-        ["item","hbm:item_expensive",2,5]
+        ["item","hbm:circuit",4,11]
       ],
       "outputItem": [
         ["single",["hbm:fusion_coupler"]]
@@ -2505,10 +2660,25 @@
       "power": 100
     },
     {
+      "name": "ass.fusionplasmaforge",
+      "inputItem": [
+        ["dict","plateSextupleAnyResistantAlloy",8],
+        ["dict","wireDenseBSCCO",32],
+        ["dict","plateTripleAnyBismoidBronze",16],
+        ["item","hbm:circuit",4,11]
+      ],
+      "outputItem": [
+        ["single",["hbm:fusion_plasma_forge"]]
+      ],
+      "duration": 1200,
+      "power": 100
+    },
+    {
       "name": "ass.watzrod",
       "inputItem": [
-        ["item","hbm:item_expensive",3,4],
-        ["dict","ingotSaturnite",6],
+        ["dict","plateTripleSteel",2],
+        ["dict","ingotZirconium",2],
+        ["dict","ingotSaturnite",2],
         ["dict","ingotAnyHardPlastic",4]
       ],
       "outputItem": [
@@ -2520,8 +2690,9 @@
     {
       "name": "ass.watzcooler",
       "inputItem": [
-        ["item","hbm:item_expensive",3,4],
-        ["dict","ingotRubber",8]
+        ["dict","plateTripleSteel",2],
+        ["dict","plateTripleCopper",4],
+        ["dict","ingotRubber",2]
       ],
       "outputItem": [
         ["single",["hbm:watz_cooler",3]]
@@ -2532,172 +2703,14 @@
     {
       "name": "ass.watzcasing",
       "inputItem": [
-        ["item","hbm:item_expensive",6,3],
-        ["dict","plateSextupleAnyResistantAlloy"]
+        ["dict","plateSextupleAnyResistantAlloy"],
+        ["dict","ingotBoron",3],
+        ["dict","plateSextupleSteel",2]
       ],
       "outputItem": [
         ["single",["hbm:watz_casing",3]]
       ],
       "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "ass.icfcell",
-      "inputItem": [
-        ["item","hbm:item_expensive",2,6],
-        ["item","hbm:ingot_cft",8],
-        ["item","hbm:glass_quartz",16]
-      ],
-      "outputItem": [
-        ["single",["hbm:icf_laser_component",1,2]]
-      ],
-      "duration": 200,
-      "power": 100
-    },
-    {
-      "name": "ass.icfemitter",
-      "inputItem": [
-        ["dict","plateSextupleTungsten",8],
-        ["dict","wireDenseMagnetizedTungsten",16]
-      ],
-      "inputFluid": [
-        ["XENON",16000]
-      ],
-      "outputItem": [
-        ["single",["hbm:icf_laser_component",1,3]]
-      ],
-      "duration": 200,
-      "power": 100
-    },
-    {
-      "name": "ass.icfcapacitor",
-      "inputItem": [
-        ["item","hbm:item_expensive",3,4],
-        ["dict","wireDenseNeodymium",16],
-        ["dict","wireDenseSchrabidate",2]
-      ],
-      "outputItem": [
-        ["single",["hbm:icf_laser_component",1,4]]
-      ],
-      "duration": 200,
-      "power": 100
-    },
-    {
-      "name": "ass.icfturbo",
-      "inputItem": [
-        ["dict","plateSextupleAnyResistantAlloy",8],
-        ["dict","wireDenseDineutronium",8],
-        ["dict","wireDenseSchrabidate",4]
-      ],
-      "outputItem": [
-        ["single",["hbm:icf_laser_component",1,5]]
-      ],
-      "duration": 200,
-      "power": 100
-    },
-    {
-      "name": "ass.icfcasing",
-      "inputItem": [
-        ["item","hbm:item_expensive",4,6],
-        ["dict","plateTripleSaturnite",4],
-        ["dict","ingotAnyHardPlastic",16]
-      ],
-      "outputItem": [
-        ["single",["hbm:icf_laser_component"]]
-      ],
-      "duration": 200,
-      "power": 100
-    },
-    {
-      "name": "ass.icfport",
-      "inputItem": [
-        ["item","hbm:item_expensive",4,6],
-        ["dict","ingotAnyHardPlastic",16],
-        ["dict","wireDenseNeodymium",16]
-      ],
-      "outputItem": [
-        ["single",["hbm:icf_laser_component",1,1]]
-      ],
-      "duration": 200,
-      "power": 100
-    },
-    {
-      "name": "ass.icfcontroller",
-      "inputItem": [
-        ["item","hbm:item_expensive",4,6],
-        ["item","hbm:ingot_cft",16],
-        ["dict","ingotAnyHardPlastic",16],
-        ["item","hbm:circuit",32,11],
-        ["item","hbm:item_expensive",4,5]
-      ],
-      "outputItem": [
-        ["single",["hbm:icf_controller"]]
-      ],
-      "duration": 200,
-      "power": 100
-    },
-    {
-      "name": "ass.icfscaffold",
-      "inputItem": [
-        ["item","hbm:item_expensive",8]
-      ],
-      "outputItem": [
-        ["single",["hbm:icf_component"]]
-      ],
-      "duration": 200,
-      "power": 100
-    },
-    {
-      "name": "ass.icfvessel",
-      "inputItem": [
-        ["item","hbm:ingot_cft"],
-        ["dict","plateTripleCMBSteel"],
-        ["dict","plateSextupleTungsten",2]
-      ],
-      "outputItem": [
-        ["single",["hbm:icf_component",1,1]]
-      ],
-      "duration": 200,
-      "power": 100
-    },
-    {
-      "name": "ass.icfstructural",
-      "inputItem": [
-        ["item","hbm:item_expensive",1,6],
-        ["dict","plateSextupleSteel",8]
-      ],
-      "outputItem": [
-        ["single",["hbm:icf_component",1,3]]
-      ],
-      "duration": 200,
-      "power": 100
-    },
-    {
-      "name": "ass.icfcore",
-      "inputItem": [
-        ["item","hbm:item_expensive",16,6],
-        ["dict","plateSextupleCMBSteel",16],
-        ["dict","wireDenseSchrabidate",32],
-        ["item","hbm:circuit",32,15],
-        ["item","hbm:item_expensive",16,5]
-      ],
-      "outputItem": [
-        ["single",["hbm:struct_icf_core"]]
-      ],
-      "duration": 1200,
-      "power": 100
-    },
-    {
-      "name": "ass.icfpress",
-      "inputItem": [
-        ["dict","plateTripleGold",8],
-        ["item","hbm:motor",4],
-        ["item","hbm:circuit",1,11]
-      ],
-      "outputItem": [
-        ["single",["hbm:machine_icf_press"]]
-      ],
-      "duration": 200,
       "power": 100
     },
     {
@@ -3021,9 +3034,8 @@
       "name": "ass.explosivelenses1",
       "inputItem": [
         ["dict","plateAluminum",8],
-        ["dict","wireFineGold",16],
         ["item","hbm:det_cord",8],
-        ["dict","plateCopper",2],
+        ["dict","plateSaturnite",2],
         ["dict","ingotAnyHighexplosive",20],
         ["dict","ingotAnyPlastic",4]
       ],
@@ -3037,9 +3049,8 @@
       "name": "ass.explosivelenses2",
       "inputItem": [
         ["dict","plateAluminum",8],
-        ["dict","wireFineMingrade",16],
         ["dict","ingotAnyPlasticexplosive",4],
-        ["dict","plateCopper",2],
+        ["item","hbm:neutron_reflector",2],
         ["item","hbm:ball_tatb",16],
         ["dict","ingotRubber",2]
       ],
@@ -3052,8 +3063,7 @@
     {
       "name": "ass.wiring",
       "inputItem": [
-        ["dict","plateIron"],
-        ["dict","wireFineGold",12]
+        ["dict","wireFineGold",24]
       ],
       "outputItem": [
         ["single",["hbm:gadget_wireing"]]
@@ -3138,9 +3148,8 @@
     {
       "name": "ass.manigniter",
       "inputItem": [
-        ["dict","plateSteel",6],
-        ["item","hbm:circuit",1,9],
-        ["dict","wireFineMingrade",9]
+        ["item","hbm:circuit",3,9],
+        ["dict","wireFineGold",24]
       ],
       "outputItem": [
         ["single",["hbm:man_igniter"]]
@@ -3164,7 +3173,7 @@
       "name": "ass.mikecore",
       "inputItem": [
         ["dict","nuggetUranium238",24],
-        ["dict","ingotLead",6]
+        ["dict","plateLead",6]
       ],
       "outputItem": [
         ["single",["hbm:mike_core"]]
@@ -3175,8 +3184,8 @@
     {
       "name": "ass.mikedeut",
       "inputItem": [
-        ["dict","plateIron",12],
-        ["dict","plateSteel",16]
+        ["dict","plateWeaponSteel",16],
+        ["dict","plateTitanium",16]
       ],
       "inputFluid": [
         ["DEUTERIUM",10000]
@@ -3188,9 +3197,43 @@
       "power": 100
     },
     {
+      "name": "ass.tsarcore",
+      "inputItem": [
+        ["item","hbm:mike_deut"],
+        ["dict","ingotLithium",9],
+        ["item","hbm:cell",1,9],
+        ["dict","nuggetPlutonium239"],
+        ["dict","nuggetBeryllium"],
+        ["dict","plateLead",12],
+        ["dict","shellTitanium",2]
+      ],
+      "outputItem": [
+        ["single",["hbm:tsar_core"]]
+      ],
+      "duration": 1200,
+      "power": 100
+    },
+    {
+      "name": "ass.tsarcore1",
+      "inputItem": [
+        ["item","hbm:tank_steel"],
+        ["item","hbm:fluid_pack_full",42,8],
+        ["item","hbm:fluid_pack_full",40,9],
+        ["dict","nuggetPlutonium239"],
+        ["dict","nuggetBeryllium"],
+        ["dict","plateLead",12],
+        ["dict","shellTitanium",2]
+      ],
+      "outputItem": [
+        ["single",["hbm:tsar_core"]]
+      ],
+      "duration": 1200,
+      "power": 100
+    },
+    {
       "name": "ass.mikecooler",
       "inputItem": [
-        ["dict","plateIron",8],
+        ["dict","plateDuraSteel",8],
         ["item","hbm:coil_copper",5],
         ["item","hbm:coil_tungsten",5],
         ["item","hbm:motor",2]
@@ -3244,7 +3287,7 @@
       "name": "ass.soliniumigniter",
       "inputItem": [
         ["dict","plateTitanium",4],
-        ["dict","wireFineAdvancedAlloy",2],
+        ["dict","wireFineMingrade",8],
         ["item","hbm:circuit",1,9],
         ["item","hbm:coil_gold"]
       ],
@@ -3279,169 +3322,6 @@
         ["single",["hbm:solinium_propellant"]]
       ],
       "duration": 300,
-      "power": 100
-    },
-    {
-      "name": "ass.incgrenade",
-      "inputItem": [
-        ["item","hbm:grenade_frag"],
-        ["dict","dustRedPhosphorus"],
-        ["dict","plateCopper",2]
-      ],
-      "outputItem": [
-        ["single",["hbm:grenade_fire"]]
-      ],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "ass.shrapgrenade",
-      "inputItem": [
-        ["item","hbm:grenade_frag"],
-        ["item","hbm:pellet_buckshot"],
-        ["dict","plateSteel",2]
-      ],
-      "outputItem": [
-        ["single",["hbm:grenade_shrapnel"]]
-      ],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "ass.clustergrenade",
-      "inputItem": [
-        ["item","hbm:grenade_frag"],
-        ["item","hbm:pellet_cluster"],
-        ["dict","plateSteel",2]
-      ],
-      "outputItem": [
-        ["single",["hbm:grenade_cluster"]]
-      ],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "ass.signalflare",
-      "inputItem": [
-        ["item","hbm:grenade_generic"],
-        ["item","minecraft:glowstone_dust"],
-        ["dict","plateAluminum",2]
-      ],
-      "outputItem": [
-        ["single",["hbm:grenade_flare"]]
-      ],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "ass.electricgrenade",
-      "inputItem": [
-        ["item","hbm:grenade_generic"],
-        ["item","hbm:circuit",3,1],
-        ["dict","plateGold",2]
-      ],
-      "outputItem": [
-        ["single",["hbm:grenade_electric"]]
-      ],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "ass.pulsegrenade",
-      "inputItem": [
-        ["dict","plateSteel"],
-        ["dict","plateIron",3],
-        ["dict","wireFineMingrade",6],
-        ["item","minecraft:diamond"]
-      ],
-      "outputItem": [
-        ["single",["hbm:grenade_pulse",4]]
-      ],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "ass.plasmagrenade",
-      "inputItem": [
-        ["dict","plateSteel",3],
-        ["dict","plateAdvancedAlloy"],
-        ["item","hbm:coil_advanced_torus"],
-        ["item","hbm:cell",1,9],
-        ["item","hbm:cell",1,9]
-      ],
-      "outputItem": [
-        ["single",["hbm:grenade_plasma",2]]
-      ],
-      "duration": 200,
-      "power": 100
-    },
-    {
-      "name": "ass.taugrenade",
-      "inputItem": [
-        ["dict","plateLead",3],
-        ["dict","plateAdvancedAlloy"],
-        ["item","hbm:coil_advanced_torus"],
-        ["item","hbm:ammo_standard",1,70]
-      ],
-      "outputItem": [
-        ["single",["hbm:grenade_tau",2]]
-      ],
-      "duration": 200,
-      "power": 100
-    },
-    {
-      "name": "ass.schrabgrenade",
-      "inputItem": [
-        ["item","hbm:grenade_flare"],
-        ["dict","dustSchrabidium"],
-        ["dict","plateTungCar",2]
-      ],
-      "outputItem": [
-        ["single",["hbm:grenade_schrabidium"]]
-      ],
-      "duration": 200,
-      "power": 100
-    },
-    {
-      "name": "ass.nukagrenade",
-      "inputItem": [
-        ["dict","plateIron"],
-        ["dict","plateSteel"],
-        ["dict","nuggetPlutonium239",2],
-        ["dict","wireFineMingrade",2]
-      ],
-      "outputItem": [
-        ["single",["hbm:grenade_nuclear"]]
-      ],
-      "duration": 600,
-      "power": 100
-    },
-    {
-      "name": "ass.zomggrenade",
-      "inputItem": [
-        ["item","hbm:plate_paa",3],
-        ["dict","plateTungCar"],
-        ["item","hbm:coil_magnetized_tungsten",3],
-        ["item","hbm:powder_power",3]
-      ],
-      "outputItem": [
-        ["single",["hbm:grenade_zomg"]]
-      ],
-      "duration": 600,
-      "power": 100
-    },
-    {
-      "name": "ass.bholegrenade",
-      "inputItem": [
-        ["dict","ingotAnyPlastic",6],
-        ["dict","plateTungCar",3],
-        ["item","hbm:coil_magnetized_tungsten",2],
-        ["item","hbm:black_hole"]
-      ],
-      "outputItem": [
-        ["single",["hbm:grenade_black_hole"]]
-      ],
-      "duration": 1200,
       "power": 100
     },
     {
@@ -4314,6 +4194,194 @@
       "power": 100
     },
     {
+      "name": "ass.mpf10kero",
+      "inputItem": [
+        ["item","hbm:seg_10",2],
+        ["dict","plateAluminum",12],
+        ["dict","plateSteel",3]
+      ],
+      "outputItem": [
+        ["single",["hbm:mp_fuselage_10_kerosene"]]
+      ],
+      "duration": 100,
+      "power": 100
+    },
+    {
+      "name": "ass.mpf10kerolong",
+      "inputItem": [
+        ["item","hbm:seg_10",2],
+        ["dict","plateAluminum",16],
+        ["dict","plateSteel",6]
+      ],
+      "outputItem": [
+        ["single",["hbm:mp_fuselage_10_kerosene"]]
+      ],
+      "duration": 100,
+      "power": 100
+    },
+    {
+      "name": "ass.mpf10solid",
+      "inputItem": [
+        ["item","hbm:seg_10",2],
+        ["dict","plateTitanium",12],
+        ["dict","plateSteel",3]
+      ],
+      "outputItem": [
+        ["single",["hbm:mp_fuselage_10_solid"]]
+      ],
+      "duration": 100,
+      "power": 100
+    },
+    {
+      "name": "ass.mpf10solidlong",
+      "inputItem": [
+        ["item","hbm:seg_10",2],
+        ["dict","plateTitanium",16],
+        ["dict","plateSteel",6]
+      ],
+      "outputItem": [
+        ["single",["hbm:mp_fuselage_10_solid"]]
+      ],
+      "duration": 100,
+      "power": 100
+    },
+    {
+      "name": "ass.mpf10xenon",
+      "inputItem": [
+        ["item","hbm:seg_10",2],
+        ["dict","plateCopper",12],
+        ["dict","plateSteel",3]
+      ],
+      "outputItem": [
+        ["single",["hbm:mp_fuselage_10_xenon"]]
+      ],
+      "duration": 100,
+      "power": 100
+    },
+    {
+      "name": "ass.mpf1015kero",
+      "inputItem": [
+        ["item","hbm:seg_10"],
+        ["item","hbm:seg_15"],
+        ["dict","plateAluminum",24],
+        ["dict","plateSteel",8]
+      ],
+      "outputItem": [
+        ["single",["hbm:mp_fuselage_10_15_kerosene"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
+      "name": "ass.mpf1015solid",
+      "inputItem": [
+        ["item","hbm:seg_10"],
+        ["item","hbm:seg_15"],
+        ["dict","plateTitanium",24],
+        ["dict","plateSteel",8]
+      ],
+      "outputItem": [
+        ["single",["hbm:mp_fuselage_10_15_solid"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
+      "name": "ass.mpf1015hydro",
+      "inputItem": [
+        ["item","hbm:seg_10"],
+        ["item","hbm:seg_15"],
+        ["dict","plateCopper",24],
+        ["dict","plateSteel",8]
+      ],
+      "outputItem": [
+        ["single",["hbm:mp_fuselage_10_15_hydrogen"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
+      "name": "ass.mpf1015bf",
+      "inputItem": [
+        ["item","hbm:seg_10"],
+        ["item","hbm:seg_15"],
+        ["dict","plateSaturnite",24],
+        ["dict","plateSteel",8]
+      ],
+      "outputItem": [
+        ["single",["hbm:mp_fuselage_10_15_balefire"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
+      "name": "ass.mpf15kero",
+      "inputItem": [
+        ["item","hbm:seg_15",2],
+        ["dict","plateAluminum",32],
+        ["dict","plateSteel",12]
+      ],
+      "outputItem": [
+        ["single",["hbm:mp_fuselage_15_kerosene"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
+      "name": "ass.mpf15solid",
+      "inputItem": [
+        ["item","hbm:seg_15",2],
+        ["dict","plateTitanium",32],
+        ["dict","plateSteel",12]
+      ],
+      "outputItem": [
+        ["single",["hbm:mp_fuselage_15_solid"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
+      "name": "ass.mpf15hydro",
+      "inputItem": [
+        ["item","hbm:seg_15",2],
+        ["dict","plateCopper",32],
+        ["dict","plateSteel",12]
+      ],
+      "outputItem": [
+        ["single",["hbm:mp_fuselage_15_hydrogen"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
+      "name": "ass.mpf1520kero",
+      "inputItem": [
+        ["item","hbm:seg_15"],
+        ["item","hbm:seg_20"],
+        ["dict","plateAluminum",48],
+        ["dict","plateSteel",16]
+      ],
+      "outputItem": [
+        ["single",["hbm:mp_fuselage_15_20_kerosene"]]
+      ],
+      "duration": 400,
+      "power": 100
+    },
+    {
+      "name": "ass.mpf1520solid",
+      "inputItem": [
+        ["item","hbm:seg_15"],
+        ["item","hbm:seg_20"],
+        ["dict","plateTitanium",48],
+        ["dict","plateSteel",16]
+      ],
+      "outputItem": [
+        ["single",["hbm:mp_fuselage_15_20_solid"]]
+      ],
+      "duration": 400,
+      "power": 100
+    },
+    {
       "name": "ass.mpw10he",
       "inputItem": [
         ["item","hbm:seg_10"],
@@ -4409,7 +4477,7 @@
         ["item","hbm:seg_10"],
         ["dict","plateSteel",12],
         ["item","hbm:det_cord",2],
-        ["item","hbm:grenade_pink_cloud",2]
+        ["item","hbm:powder_magic",16]
       ],
       "outputItem": [
         ["single",["hbm:mp_warhead_10_cloud"]]
@@ -4491,28 +4559,6 @@
         ["single",["hbm:mp_warhead_15_balefire"]]
       ],
       "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.schrabhammer",
-      "inputItem": [
-        ["dict","blockSchrabidium",35],
-        ["item","hbm:billet_yharonite",64],
-        ["item","hbm:billet_yharonite",64],
-        ["item","hbm:coin_ufo"],
-        ["item","hbm:fragment_meteorite",64],
-        ["item","hbm:fragment_meteorite",64],
-        ["item","hbm:fragment_meteorite",64],
-        ["item","hbm:fragment_meteorite",64],
-        ["item","hbm:fragment_meteorite",64],
-        ["item","hbm:fragment_meteorite",64],
-        ["item","hbm:fragment_meteorite",64],
-        ["item","hbm:fragment_meteorite",64]
-      ],
-      "outputItem": [
-        ["single",["hbm:schrabidium_hammer"]]
-      ],
-      "duration": 6000,
       "power": 100
     },
     {
@@ -4644,7 +4690,7 @@
       "inputItem": [
         ["dict","ingotRubber",12],
         ["dict","shellTitanium",3],
-        ["item","hbm:thruster_large"],
+        ["item","hbm:thruster_medium"],
         ["item","hbm:part_generic",8,3],
         ["item","hbm:plate_desh",4],
         ["item","hbm:fluid_barrel_full",1,22],
@@ -4773,27 +4819,23 @@
       "power": 100
     },
     {
-      "name": "ass.gerald",
+      "name": "ass.satellitelunarminer",
       "inputItem": [
-        ["dict","plateTripleSchrabidate",64],
-        ["dict","wireDenseBSCCO",64],
-        ["item","hbm:det_nuke",64],
-        ["item","hbm:item_expensive",64,6],
-        ["item","hbm:item_expensive",64,6],
-        ["item","hbm:item_expensive",64,6],
-        ["item","hbm:part_generic",64,4],
-        ["item","hbm:part_generic",64,4],
-        ["item","hbm:part_generic",64,4],
-        ["item","hbm:circuit",64,17],
-        ["item","hbm:item_expensive",64,5],
-        ["item","hbm:coin_ufo"]
+        ["item","hbm:ingot_meteorite",4],
+        ["item","hbm:plate_desh",4],
+        ["item","hbm:motor",2],
+        ["item","hbm:drill_titanium",2],
+        ["item","hbm:circuit",8,9],
+        ["item","hbm:fluid_barrel_full",1,22],
+        ["item","hbm:thruster_small"],
+        ["item","hbm:photo_panel",12],
+        ["item","hbm:battery_pack",1,2]
       ],
       "outputItem": [
-        ["single",["hbm:sat_gerald"]]
+        ["single",["hbm:sat_lunar_miner"]]
       ],
-      "duration": 6000,
-      "power": 100,
-      "blueprintpool": "discover.gerald"
+      "duration": 600,
+      "power": 100
     },
     {
       "name": "ass.emptypackage",
@@ -4834,7 +4876,36 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,152]
+      "icon": ["hbm:fluid_icon",1,152,"{fill:32000,pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.airblast",
+      "inputItem": [
+        ["item","hbm:fluid_pack_empty"]
+      ],
+      "inputFluid": [
+        ["AIRBLAST",32000]
+      ],
+      "outputItem": [
+        ["single",["hbm:fluid_pack_full",1,155]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.airblast",
+      "inputItem": [
+        ["item","hbm:fluid_pack_full",1,155]
+      ],
+      "outputItem": [
+        ["single",["hbm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["AIRBLAST",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbm:fluid_icon",1,155,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.water",
@@ -4863,7 +4934,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,1]
+      "icon": ["hbm:fluid_icon",1,1,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.heavywater",
@@ -4892,7 +4963,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,60]
+      "icon": ["hbm:fluid_icon",1,60,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.heavywater_hot",
@@ -4921,7 +4992,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,125]
+      "icon": ["hbm:fluid_icon",1,125,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.lava",
@@ -4950,7 +5021,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,7]
+      "icon": ["hbm:fluid_icon",1,7,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.steam",
@@ -4979,7 +5050,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,2]
+      "icon": ["hbm:fluid_icon",1,2,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.hotsteam",
@@ -5008,7 +5079,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,3]
+      "icon": ["hbm:fluid_icon",1,3,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.superhotsteam",
@@ -5037,7 +5108,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,4]
+      "icon": ["hbm:fluid_icon",1,4,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.ultrahotsteam",
@@ -5066,7 +5137,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,5]
+      "icon": ["hbm:fluid_icon",1,5,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.carbondioxide",
@@ -5095,7 +5166,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,55]
+      "icon": ["hbm:fluid_icon",1,55,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.coolant",
@@ -5124,7 +5195,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,6]
+      "icon": ["hbm:fluid_icon",1,6,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.coolant_hot",
@@ -5153,7 +5224,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,76]
+      "icon": ["hbm:fluid_icon",1,76,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.perfluoromethyl",
@@ -5182,7 +5253,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,145]
+      "icon": ["hbm:fluid_icon",1,145,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.perfluoromethyl_cold",
@@ -5211,7 +5282,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,146]
+      "icon": ["hbm:fluid_icon",1,146,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.perfluoromethyl_hot",
@@ -5240,7 +5311,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,147]
+      "icon": ["hbm:fluid_icon",1,147,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.cryogel",
@@ -5269,7 +5340,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,37]
+      "icon": ["hbm:fluid_icon",1,37,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.mug",
@@ -5298,7 +5369,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,77]
+      "icon": ["hbm:fluid_icon",1,77,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.mug_hot",
@@ -5327,7 +5398,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,78]
+      "icon": ["hbm:fluid_icon",1,78,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.blood",
@@ -5356,7 +5427,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,84]
+      "icon": ["hbm:fluid_icon",1,84,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.blood_hot",
@@ -5385,7 +5456,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,85]
+      "icon": ["hbm:fluid_icon",1,85,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.sodium",
@@ -5414,7 +5485,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,126]
+      "icon": ["hbm:fluid_icon",1,126,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.sodium_hot",
@@ -5443,7 +5514,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,127]
+      "icon": ["hbm:fluid_icon",1,127,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.lead",
@@ -5472,7 +5543,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,143]
+      "icon": ["hbm:fluid_icon",1,143,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.lead_hot",
@@ -5501,7 +5572,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,144]
+      "icon": ["hbm:fluid_icon",1,144,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.thorium_salt",
@@ -5530,7 +5601,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,128]
+      "icon": ["hbm:fluid_icon",1,128,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.thorium_salt_hot",
@@ -5559,7 +5630,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,129]
+      "icon": ["hbm:fluid_icon",1,129,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.thorium_salt_depleted",
@@ -5588,7 +5659,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,130]
+      "icon": ["hbm:fluid_icon",1,130,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.hydrogen",
@@ -5617,7 +5688,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,38]
+      "icon": ["hbm:fluid_icon",1,38,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.deuterium",
@@ -5646,7 +5717,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,8]
+      "icon": ["hbm:fluid_icon",1,8,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.tritium",
@@ -5675,7 +5746,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,9]
+      "icon": ["hbm:fluid_icon",1,9,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.helium3",
@@ -5704,7 +5775,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,57]
+      "icon": ["hbm:fluid_icon",1,57,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.helium4",
@@ -5733,7 +5804,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,124]
+      "icon": ["hbm:fluid_icon",1,124,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.oxygen",
@@ -5762,7 +5833,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,39]
+      "icon": ["hbm:fluid_icon",1,39,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.xenon",
@@ -5791,7 +5862,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,40]
+      "icon": ["hbm:fluid_icon",1,40,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.chlorine",
@@ -5820,7 +5891,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,90]
+      "icon": ["hbm:fluid_icon",1,90,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.mercury",
@@ -5849,7 +5920,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,42]
+      "icon": ["hbm:fluid_icon",1,42,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.oil",
@@ -5878,7 +5949,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,10]
+      "icon": ["hbm:fluid_icon",1,10,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.oil_ds",
@@ -5907,7 +5978,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,134]
+      "icon": ["hbm:fluid_icon",1,134,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.crackoil",
@@ -5936,7 +6007,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,61]
+      "icon": ["hbm:fluid_icon",1,61,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.crackoil_ds",
@@ -5965,7 +6036,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,136]
+      "icon": ["hbm:fluid_icon",1,136,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.coaloil",
@@ -5994,7 +6065,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,62]
+      "icon": ["hbm:fluid_icon",1,62,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.oil_coker",
@@ -6023,7 +6094,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,105]
+      "icon": ["hbm:fluid_icon",1,105,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.hotoil",
@@ -6052,7 +6123,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,11]
+      "icon": ["hbm:fluid_icon",1,11,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.hotoil_ds",
@@ -6081,7 +6152,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,135]
+      "icon": ["hbm:fluid_icon",1,135,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.hotcrackoil",
@@ -6110,7 +6181,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,63]
+      "icon": ["hbm:fluid_icon",1,63,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.hotcrackoil_ds",
@@ -6139,7 +6210,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,137]
+      "icon": ["hbm:fluid_icon",1,137,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.heavyoil",
@@ -6168,7 +6239,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,12]
+      "icon": ["hbm:fluid_icon",1,12,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.heavyoil_vacuum",
@@ -6197,7 +6268,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,91]
+      "icon": ["hbm:fluid_icon",1,91,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.naphtha",
@@ -6226,7 +6297,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,19]
+      "icon": ["hbm:fluid_icon",1,19,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.naphtha_ds",
@@ -6255,7 +6326,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,138]
+      "icon": ["hbm:fluid_icon",1,138,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.naphtha_crack",
@@ -6284,7 +6355,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,64]
+      "icon": ["hbm:fluid_icon",1,64,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.naphtha_coker",
@@ -6313,7 +6384,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,106]
+      "icon": ["hbm:fluid_icon",1,106,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.reformate",
@@ -6342,7 +6413,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,92]
+      "icon": ["hbm:fluid_icon",1,92,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.lightoil",
@@ -6371,7 +6442,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,21]
+      "icon": ["hbm:fluid_icon",1,21,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.lightoil_ds",
@@ -6400,7 +6471,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,139]
+      "icon": ["hbm:fluid_icon",1,139,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.lightoil_crack",
@@ -6429,7 +6500,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,65]
+      "icon": ["hbm:fluid_icon",1,65,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.lightoil_vacuum",
@@ -6458,7 +6529,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,93]
+      "icon": ["hbm:fluid_icon",1,93,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.bitumen",
@@ -6487,7 +6558,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,13]
+      "icon": ["hbm:fluid_icon",1,13,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.smear",
@@ -6516,7 +6587,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,14]
+      "icon": ["hbm:fluid_icon",1,14,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.heatingoil",
@@ -6545,7 +6616,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,15]
+      "icon": ["hbm:fluid_icon",1,15,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.heatingoil_vacuum",
@@ -6574,7 +6645,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,96]
+      "icon": ["hbm:fluid_icon",1,96,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.reclaimed",
@@ -6603,7 +6674,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,16]
+      "icon": ["hbm:fluid_icon",1,16,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.lubricant",
@@ -6632,7 +6703,36 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,18]
+      "icon": ["hbm:fluid_icon",1,18,"{fill:32000,pressure:0}"]
+    },
+    {
+      "name": "ass.packagehbmfluid.flue",
+      "inputItem": [
+        ["item","hbm:fluid_pack_empty"]
+      ],
+      "inputFluid": [
+        ["FLUE",32000]
+      ],
+      "outputItem": [
+        ["single",["hbm:fluid_pack_full",1,156]]
+      ],
+      "duration": 40,
+      "power": 100
+    },
+    {
+      "name": "ass.unpackagehbmfluid.flue",
+      "inputItem": [
+        ["item","hbm:fluid_pack_full",1,156]
+      ],
+      "outputItem": [
+        ["single",["hbm:fluid_pack_empty"]]
+      ],
+      "outputFluid": [
+        ["FLUE",32000]
+      ],
+      "duration": 40,
+      "power": 100,
+      "icon": ["hbm:fluid_icon",1,156,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.gas",
@@ -6661,7 +6761,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,23]
+      "icon": ["hbm:fluid_icon",1,23,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.gas_coker",
@@ -6690,7 +6790,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,107]
+      "icon": ["hbm:fluid_icon",1,107,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.petroleum",
@@ -6719,7 +6819,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,24]
+      "icon": ["hbm:fluid_icon",1,24,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.sourgas",
@@ -6748,7 +6848,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,94]
+      "icon": ["hbm:fluid_icon",1,94,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.lpg",
@@ -6777,7 +6877,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,25]
+      "icon": ["hbm:fluid_icon",1,25,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.syngas",
@@ -6806,7 +6906,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,86]
+      "icon": ["hbm:fluid_icon",1,86,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.oxyhydrogen",
@@ -6835,7 +6935,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,87]
+      "icon": ["hbm:fluid_icon",1,87,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.aromatics",
@@ -6864,7 +6964,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,67]
+      "icon": ["hbm:fluid_icon",1,67,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.unsaturateds",
@@ -6893,7 +6993,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,68]
+      "icon": ["hbm:fluid_icon",1,68,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.xylene",
@@ -6922,7 +7022,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,95]
+      "icon": ["hbm:fluid_icon",1,95,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.reformgas",
@@ -6951,7 +7051,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,100]
+      "icon": ["hbm:fluid_icon",1,100,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.diesel",
@@ -6980,7 +7080,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,20]
+      "icon": ["hbm:fluid_icon",1,20,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.diesel_reform",
@@ -7009,7 +7109,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,97]
+      "icon": ["hbm:fluid_icon",1,97,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.diesel_crack",
@@ -7038,7 +7138,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,66]
+      "icon": ["hbm:fluid_icon",1,66,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.diesel_crack_reform",
@@ -7067,7 +7167,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,98]
+      "icon": ["hbm:fluid_icon",1,98,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.kerosene",
@@ -7096,7 +7196,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,22]
+      "icon": ["hbm:fluid_icon",1,22,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.kerosene_reform",
@@ -7125,7 +7225,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,99]
+      "icon": ["hbm:fluid_icon",1,99,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.petroil",
@@ -7154,7 +7254,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,17]
+      "icon": ["hbm:fluid_icon",1,17,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.petroil_leaded",
@@ -7183,7 +7283,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,72]
+      "icon": ["hbm:fluid_icon",1,72,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.gasoline",
@@ -7212,7 +7312,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,46]
+      "icon": ["hbm:fluid_icon",1,46,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.gasoline_leaded",
@@ -7241,7 +7341,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,73]
+      "icon": ["hbm:fluid_icon",1,73,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.coalgas",
@@ -7270,7 +7370,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,47]
+      "icon": ["hbm:fluid_icon",1,47,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.coalgas_leaded",
@@ -7299,7 +7399,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,74]
+      "icon": ["hbm:fluid_icon",1,74,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.coalcreosote",
@@ -7328,7 +7428,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,80]
+      "icon": ["hbm:fluid_icon",1,80,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.woodoil",
@@ -7357,7 +7457,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,79]
+      "icon": ["hbm:fluid_icon",1,79,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.biogas",
@@ -7386,7 +7486,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,26]
+      "icon": ["hbm:fluid_icon",1,26,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.biofuel",
@@ -7415,7 +7515,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,27]
+      "icon": ["hbm:fluid_icon",1,27,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.ethanol",
@@ -7444,7 +7544,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,59]
+      "icon": ["hbm:fluid_icon",1,59,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.fishoil",
@@ -7473,7 +7573,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,111]
+      "icon": ["hbm:fluid_icon",1,111,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.sunfloweroil",
@@ -7502,7 +7602,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,112]
+      "icon": ["hbm:fluid_icon",1,112,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.nitan",
@@ -7531,7 +7631,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,28]
+      "icon": ["hbm:fluid_icon",1,28,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.dhc",
@@ -7560,7 +7660,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,154]
+      "icon": ["hbm:fluid_icon",1,154,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.balefire",
@@ -7589,7 +7689,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,41]
+      "icon": ["hbm:fluid_icon",1,41,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.salient",
@@ -7618,7 +7718,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,69]
+      "icon": ["hbm:fluid_icon",1,69,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.seedslurry",
@@ -7647,7 +7747,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,81]
+      "icon": ["hbm:fluid_icon",1,81,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.colloid",
@@ -7676,7 +7776,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,101]
+      "icon": ["hbm:fluid_icon",1,101,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.vitriol",
@@ -7705,7 +7805,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,141]
+      "icon": ["hbm:fluid_icon",1,141,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.slop",
@@ -7734,7 +7834,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,142]
+      "icon": ["hbm:fluid_icon",1,142,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.iongel",
@@ -7763,7 +7863,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,104]
+      "icon": ["hbm:fluid_icon",1,104,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.peroxide",
@@ -7792,7 +7892,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,35]
+      "icon": ["hbm:fluid_icon",1,35,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.sulfuric_acid",
@@ -7821,7 +7921,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,75]
+      "icon": ["hbm:fluid_icon",1,75,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.nitric_acid",
@@ -7850,7 +7950,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,82]
+      "icon": ["hbm:fluid_icon",1,82,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.solvent",
@@ -7879,7 +7979,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,83]
+      "icon": ["hbm:fluid_icon",1,83,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.radiosolvent",
@@ -7908,7 +8008,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,88]
+      "icon": ["hbm:fluid_icon",1,88,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.schrabidic",
@@ -7937,7 +8037,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,32]
+      "icon": ["hbm:fluid_icon",1,32,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.uf6",
@@ -7966,7 +8066,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,29]
+      "icon": ["hbm:fluid_icon",1,29,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.puf6",
@@ -7995,7 +8095,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,30]
+      "icon": ["hbm:fluid_icon",1,30,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.sas3",
@@ -8024,7 +8124,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,31]
+      "icon": ["hbm:fluid_icon",1,31,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.pain",
@@ -8053,7 +8153,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,43]
+      "icon": ["hbm:fluid_icon",1,43,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.death",
@@ -8082,7 +8182,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,58]
+      "icon": ["hbm:fluid_icon",1,58,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.watz",
@@ -8111,7 +8211,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,36]
+      "icon": ["hbm:fluid_icon",1,36,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.redmud",
@@ -8140,7 +8240,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,114]
+      "icon": ["hbm:fluid_icon",1,114,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.fullerene",
@@ -8169,7 +8269,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,131]
+      "icon": ["hbm:fluid_icon",1,131,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.egg",
@@ -8198,7 +8298,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,108]
+      "icon": ["hbm:fluid_icon",1,108,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.cholesterol",
@@ -8227,7 +8327,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,109]
+      "icon": ["hbm:fluid_icon",1,109,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.sodium_aluminate",
@@ -8256,7 +8356,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,149]
+      "icon": ["hbm:fluid_icon",1,149,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.bauxite_solution",
@@ -8285,7 +8385,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,150]
+      "icon": ["hbm:fluid_icon",1,150,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.alumina",
@@ -8314,7 +8414,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,151]
+      "icon": ["hbm:fluid_icon",1,151,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.concrete",
@@ -8343,7 +8443,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,153]
+      "icon": ["hbm:fluid_icon",1,153,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.fracksol",
@@ -8372,7 +8472,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,49]
+      "icon": ["hbm:fluid_icon",1,49,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.lye",
@@ -8401,7 +8501,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,148]
+      "icon": ["hbm:fluid_icon",1,148,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.phosgene",
@@ -8430,7 +8530,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,102]
+      "icon": ["hbm:fluid_icon",1,102,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.mustardgas",
@@ -8459,7 +8559,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,103]
+      "icon": ["hbm:fluid_icon",1,103,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.estradiol",
@@ -8488,7 +8588,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,110]
+      "icon": ["hbm:fluid_icon",1,110,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.nitroglycerin",
@@ -8517,7 +8617,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,113]
+      "icon": ["hbm:fluid_icon",1,113,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.amat",
@@ -8546,7 +8646,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,33]
+      "icon": ["hbm:fluid_icon",1,33,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.aschrab",
@@ -8575,7 +8675,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,34]
+      "icon": ["hbm:fluid_icon",1,34,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.xpjuice",
@@ -8604,7 +8704,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,70]
+      "icon": ["hbm:fluid_icon",1,70,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.enderjuice",
@@ -8633,7 +8733,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,71]
+      "icon": ["hbm:fluid_icon",1,71,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.stellar_flux",
@@ -8662,7 +8762,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,140]
+      "icon": ["hbm:fluid_icon",1,140,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.pheromone",
@@ -8691,7 +8791,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,132]
+      "icon": ["hbm:fluid_icon",1,132,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.pheromone_m",
@@ -8720,7 +8820,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,133]
+      "icon": ["hbm:fluid_icon",1,133,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.hydrazine",
@@ -8749,1747 +8849,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,89]
-    },
-    {
-      "name": "ass.packagehbmfluid.earthair",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["EARTHAIR",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4000]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.earthair",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["EARTHAIR",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4000]
-    },
-    {
-      "name": "ass.packagehbmfluid.ccl",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["CCL",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4001]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.ccl",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4001]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["CCL",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4001]
-    },
-    {
-      "name": "ass.packagehbmfluid.chloroethane",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["CHLOROETHANE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4002]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.chloroethane",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4002]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["CHLOROETHANE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4002]
-    },
-    {
-      "name": "ass.packagehbmfluid.cbenz",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["CBENZ",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4003]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.cbenz",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4003]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["CBENZ",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4003]
-    },
-    {
-      "name": "ass.packagehbmfluid.vinyl",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["VINYL",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4004]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.vinyl",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4004]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["VINYL",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4004]
-    },
-    {
-      "name": "ass.packagehbmfluid.aqueous_copper",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["AQUEOUS_COPPER",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4005]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.aqueous_copper",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4005]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["AQUEOUS_COPPER",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4005]
-    },
-    {
-      "name": "ass.packagehbmfluid.aqueous_nickel",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["AQUEOUS_NICKEL",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4006]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.aqueous_nickel",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4006]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["AQUEOUS_NICKEL",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4006]
-    },
-    {
-      "name": "ass.packagehbmfluid.coppersulfate",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["COPPERSULFATE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4007]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.coppersulfate",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4007]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["COPPERSULFATE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4007]
-    },
-    {
-      "name": "ass.packagehbmfluid.brine",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["BRINE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4008]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.brine",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4008]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["BRINE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4008]
-    },
-    {
-      "name": "ass.packagehbmfluid.conglomera",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["CONGLOMERA",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4009]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.conglomera",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4009]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["CONGLOMERA",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4009]
-    },
-    {
-      "name": "ass.packagehbmfluid.hgas",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["HGAS",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4010]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.hgas",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4010]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["HGAS",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4010]
-    },
-    {
-      "name": "ass.packagehbmfluid.halolight",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["HALOLIGHT",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4011]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.halolight",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4011]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["HALOLIGHT",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4011]
-    },
-    {
-      "name": "ass.packagehbmfluid.lithcarbonate",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["LITHCARBONATE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4012]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.lithcarbonate",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4012]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["LITHCARBONATE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4012]
-    },
-    {
-      "name": "ass.packagehbmfluid.tcrude",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["TCRUDE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4013]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.tcrude",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4013]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["TCRUDE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4013]
-    },
-    {
-      "name": "ass.packagehbmfluid.elbowgrease",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["ELBOWGREASE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4014]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.elbowgrease",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4014]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["ELBOWGREASE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4014]
-    },
-    {
-      "name": "ass.packagehbmfluid.nmasstetranol",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["NMASSTETRANOL",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4015]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.nmasstetranol",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4015]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["NMASSTETRANOL",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4015]
-    },
-    {
-      "name": "ass.packagehbmfluid.nmass",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["NMASS",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4016]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.nmass",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4016]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["NMASS",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4016]
-    },
-    {
-      "name": "ass.packagehbmfluid.scutterblood",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["SCUTTERBLOOD",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4017]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.scutterblood",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4017]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["SCUTTERBLOOD",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4017]
-    },
-    {
-      "name": "ass.packagehbmfluid.htco4",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["HTCO4",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4018]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.htco4",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4018]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["HTCO4",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4018]
-    },
-    {
-      "name": "ass.packagehbmfluid.neon",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["NEON",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4019]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.neon",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4019]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["NEON",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4019]
-    },
-    {
-      "name": "ass.packagehbmfluid.argon",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["ARGON",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4020]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.argon",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4020]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["ARGON",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4020]
-    },
-    {
-      "name": "ass.packagehbmfluid.krypton",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["KRYPTON",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4021]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.krypton",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4021]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["KRYPTON",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4021]
-    },
-    {
-      "name": "ass.packagehbmfluid.coffee",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["COFFEE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4022]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.coffee",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4022]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["COFFEE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4022]
-    },
-    {
-      "name": "ass.packagehbmfluid.tea",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["TEA",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4023]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.tea",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4023]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["TEA",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4023]
-    },
-    {
-      "name": "ass.packagehbmfluid.honey",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["HONEY",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4024]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.honey",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4024]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["HONEY",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4024]
-    },
-    {
-      "name": "ass.packagehbmfluid.oliveoil",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["OLIVEOIL",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4025]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.oliveoil",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4025]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["OLIVEOIL",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4025]
-    },
-    {
-      "name": "ass.packagehbmfluid.fluorine",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["FLUORINE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4026]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.fluorine",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4026]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["FLUORINE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4026]
-    },
-    {
-      "name": "ass.packagehbmfluid.dunaair",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["DUNAAIR",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4027]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.dunaair",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4027]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["DUNAAIR",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4027]
-    },
-    {
-      "name": "ass.packagehbmfluid.tektoair",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["TEKTOAIR",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4028]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.tektoair",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4028]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["TEKTOAIR",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4028]
-    },
-    {
-      "name": "ass.packagehbmfluid.joolgas",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["JOOLGAS",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4029]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.joolgas",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4029]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["JOOLGAS",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4029]
-    },
-    {
-      "name": "ass.packagehbmfluid.sarnusgas",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["SARNUSGAS",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4030]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.sarnusgas",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4030]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["SARNUSGAS",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4030]
-    },
-    {
-      "name": "ass.packagehbmfluid.ugas",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["UGAS",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4031]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.ugas",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4031]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["UGAS",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4031]
-    },
-    {
-      "name": "ass.packagehbmfluid.ngas",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["NGAS",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4032]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.ngas",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4032]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["NGAS",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4032]
-    },
-    {
-      "name": "ass.packagehbmfluid.milk",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["MILK",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4033]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.milk",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4033]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["MILK",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4033]
-    },
-    {
-      "name": "ass.packagehbmfluid.smilk",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["SMILK",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4034]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.smilk",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4034]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["SMILK",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4034]
-    },
-    {
-      "name": "ass.packagehbmfluid.eveair",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["EVEAIR",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4035]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.eveair",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4035]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["EVEAIR",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4035]
-    },
-    {
-      "name": "ass.packagehbmfluid.kmno4",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["KMnO4",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4036]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.kmno4",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4036]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["KMnO4",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4036]
-    },
-    {
-      "name": "ass.packagehbmfluid.chloromethane",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["CHLOROMETHANE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4037]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.chloromethane",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4037]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["CHLOROMETHANE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4037]
-    },
-    {
-      "name": "ass.packagehbmfluid.methanol",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["METHANOL",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4038]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.methanol",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4038]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["METHANOL",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4038]
-    },
-    {
-      "name": "ass.packagehbmfluid.bromine",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["BROMINE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4039]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.bromine",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4039]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["BROMINE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4039]
-    },
-    {
-      "name": "ass.packagehbmfluid.methylene",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["METHYLENE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4040]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.methylene",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4040]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["METHYLENE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4040]
-    },
-    {
-      "name": "ass.packagehbmfluid.polythylene",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["POLYTHYLENE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4041]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.polythylene",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4041]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["POLYTHYLENE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4041]
-    },
-    {
-      "name": "ass.packagehbmfluid.hcl",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["HCL",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4042]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.hcl",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4042]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["HCL",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4042]
-    },
-    {
-      "name": "ass.packagehbmfluid.ammonia",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["AMMONIA",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4043]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.ammonia",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4043]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["AMMONIA",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4043]
-    },
-    {
-      "name": "ass.packagehbmfluid.bloodgas",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["BLOODGAS",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4044]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.bloodgas",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4044]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["BLOODGAS",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4044]
-    },
-    {
-      "name": "ass.packagehbmfluid.minsol",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["MINSOL",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4045]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.minsol",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4045]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["MINSOL",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4045]
-    },
-    {
-      "name": "ass.packagehbmfluid.nitrogen",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["NITROGEN",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4046]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.nitrogen",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4046]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["NITROGEN",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4046]
-    },
-    {
-      "name": "ass.packagehbmfluid.emilk",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["EMILK",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4047]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.emilk",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4047]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["EMILK",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4047]
-    },
-    {
-      "name": "ass.packagehbmfluid.cmilk",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["CMILK",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4048]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.cmilk",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4048]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["CMILK",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4048]
-    },
-    {
-      "name": "ass.packagehbmfluid.cream",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["CREAM",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4049]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.cream",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4049]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["CREAM",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4049]
-    },
-    {
-      "name": "ass.packagehbmfluid.dicyanoacetylene",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["DICYANOACETYLENE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4050]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.dicyanoacetylene",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4050]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["DICYANOACETYLENE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4050]
-    },
-    {
-      "name": "ass.packagehbmfluid.morkite",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["MORKITE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4051]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.morkite",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4051]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["MORKITE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4051]
-    },
-    {
-      "name": "ass.packagehbmfluid.morkine",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["MORKINE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4052]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.morkine",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4052]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["MORKINE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4052]
-    },
-    {
-      "name": "ass.packagehbmfluid.mslurry",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["MSLURRY",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4053]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.mslurry",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4053]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["MSLURRY",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4053]
-    },
-    {
-      "name": "ass.packagehbmfluid.uranium_bromide",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["URANIUM_BROMIDE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4055]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.uranium_bromide",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4055]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["URANIUM_BROMIDE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4055]
-    },
-    {
-      "name": "ass.packagehbmfluid.plutonium_bromide",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["PLUTONIUM_BROMIDE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4056]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.plutonium_bromide",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4056]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["PLUTONIUM_BROMIDE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4056]
-    },
-    {
-      "name": "ass.packagehbmfluid.schrabidium_bromide",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["SCHRABIDIUM_BROMIDE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4057]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.schrabidium_bromide",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4057]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["SCHRABIDIUM_BROMIDE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4057]
-    },
-    {
-      "name": "ass.packagehbmfluid.thorium_bromide",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["THORIUM_BROMIDE",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4058]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.thorium_bromide",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4058]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["THORIUM_BROMIDE",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4058]
-    },
-    {
-      "name": "ass.packagehbmfluid.gaseous_hydrogen",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["GASEOUS_HYDROGEN",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4063]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.gaseous_hydrogen",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4063]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["GASEOUS_HYDROGEN",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4063]
-    },
-    {
-      "name": "ass.packagehbmfluid.lithydro",
-      "inputItem": [
-        ["item","hbm:fluid_pack_empty"]
-      ],
-      "inputFluid": [
-        ["LITHYDRO",32000]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_full",1,4065]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
-      "name": "ass.unpackagehbmfluid.lithydro",
-      "inputItem": [
-        ["item","hbm:fluid_pack_full",1,4065]
-      ],
-      "outputItem": [
-        ["single",["hbm:fluid_pack_empty"]]
-      ],
-      "outputFluid": [
-        ["LITHYDRO",32000]
-      ],
-      "duration": 40,
-      "power": 100,
-      "icon": ["hbm:fluid_icon",1,4065]
+      "icon": ["hbm:fluid_icon",1,89,"{fill:32000,pressure:0}"]
     },
     {
       "name": "ass.packagehbmfluid.custom_demo",
@@ -10518,1210 +8878,7 @@
       ],
       "duration": 40,
       "power": 100,
-      "icon": ["hbm:fluid_icon",1,1000]
-    },
-    {
-      "name": "ass.platenickel",
-      "inputItem": [
-        ["dict","ingotNickelPure"]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:plate_nickel"]]
-      ],
-      "duration": 60,
-      "power": 100,
-      "blueprintpool": "alt.plates",
-      "autoSwitchGroup": "autoswitch.plates"
-    },
-    {
-      "name": "ass.platestainless",
-      "inputItem": [
-        ["dict","ingotStainlessSteel"]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:plate_stainless"]]
-      ],
-      "duration": 60,
-      "power": 100,
-      "blueprintpool": "alt.plates",
-      "autoSwitchGroup": "autoswitch.plates"
-    },
-    {
-      "name": "ass.dysonlauncher",
-      "inputItem": [
-        ["dict","plateSextupleOsmiridium",4],
-        ["dict","plateStainlessSteel",64],
-        ["item","hbm:steel_scaffold",64],
-        ["item","hbm:steel_scaffold",64],
-        ["item","hbmspace:turbine_syngas",8],
-        ["item","hbm:machine_transformer_dnt",2],
-        ["item","hbm:plate_dineutronium",8],
-        ["item","hbm:circuit",1,17]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:dyson_launcher"]]
-      ],
-      "duration": 6000,
-      "power": 100
-    },
-    {
-      "name": "ass.dysonreceiver",
-      "inputItem": [
-        ["dict","plateSextupleOsmiridium",2],
-        ["dict","plateSextupleTungsten",4],
-        ["item","hbm:steel_scaffold",32],
-        ["item","hbm:crystal_xen"],
-        ["item","hbm:hadron_coil_alloy",16],
-        ["item","hbm:circuit",4,15],
-        ["dict","wireDenseBSCCO",64],
-        ["dict","wireDenseBSCCO",64]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:dyson_receiver"]]
-      ],
-      "duration": 6000,
-      "power": 100
-    },
-    {
-      "name": "ass.dysonconverterhe",
-      "inputItem": [
-        ["dict","plateSextupleOsmiridium",2],
-        ["dict","wireDenseAdvancedAlloy",64],
-        ["dict","wireDenseGold",16],
-        ["item","hbm:machine_transformer_dnt",4],
-        ["item","hbm:circuit",8,11]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:dyson_converter_he"]]
-      ],
-      "duration": 6000,
-      "power": 100
-    },
-    {
-      "name": "ass.dysonconvertertu",
-      "inputItem": [
-        ["dict","plateSextupleOsmiridium",2],
-        ["dict","plateSextupleTungsten",8],
-        ["item","hbm:machine_transformer_dnt",4],
-        ["item","hbm:circuit",8,11],
-        ["dict","ntmpipeSteel",12]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:dyson_converter_tu"]]
-      ],
-      "duration": 6000,
-      "power": 100
-    },
-    {
-      "name": "ass.dysonconverteranatmo",
-      "inputItem": [
-        ["dict","plateSextupleOsmiridium",2],
-        ["item","hbmspace:turbine_syngas",16],
-        ["dict","plateSextupleTungsten",8],
-        ["item","hbm:machine_transformer_dnt",4],
-        ["item","hbm:circuit",8,11]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:dyson_converter_anatmogenesis"]]
-      ],
-      "duration": 6000,
-      "power": 100
-    },
-    {
-      "name": "ass.dysonmember",
-      "inputItem": [
-        ["dict","plateSextupleTungsten"],
-        ["dict","ingotAnyHardPlastic",2],
-        ["item","hbmspace:beryllium_mirror"],
-        ["dict","wireDenseGold",2],
-        ["dict","wireFineAdvancedAlloy",32],
-        ["dict","plateStainlessSteel",4],
-        ["item","hbm:circuit",2,10],
-        ["item","hbmspace:circuit",1,8]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:swarm_member"]]
-      ],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "ass.satdysonrelay",
-      "inputItem": [
-        ["dict","plateSaturnite",24],
-        ["item","hbm:motor_bismuth",2],
-        ["item","hbm:circuit",8,9],
-        ["item","hbm:fluid_barrel_full",1,22],
-        ["item","hbm:thruster_small"],
-        ["dict","wireDenseBSCCO",64],
-        ["item","hbm:machine_transformer_dnt"]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:sat_dyson_relay"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.magma",
-      "inputItem": [
-        ["item","hbm:steel_scaffold",8],
-        ["dict","plateSextupleTungsten",2],
-        ["dict","plateSteel",32],
-        ["item","hbm:drill_titanium"],
-        ["item","hbm:motor_bismuth"],
-        ["item","hbmspace:circuit",8,7]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:machine_magma"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.hydrobay",
-      "inputItem": [
-        ["dict","plateStainlessSteel",16],
-        ["dict","container16000water"],
-        ["dict","ntmpipeSteel",6],
-        ["dict","blockGlassColorless",8],
-        ["item","minecraft:dirt",8],
-        ["dict","ingotAnyPlastic",2]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:hydrobay"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.radiator",
-      "inputItem": [
-        ["dict","plateTripleAluminum",6],
-        ["dict","plateStainlessSteel",6],
-        ["dict","ntmpipeCopper",4],
-        ["item","hbm:thermo_element",3]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:machine_radiator"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.milkreformer",
-      "inputItem": [
-        ["dict","plateTripleSteel",14],
-        ["dict","ingotSteel",2],
-        ["item","hbm:motor",2],
-        ["dict","ntmpipeSteel",8]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:machine_milk_reformer"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.algaefilm",
-      "inputItem": [
-        ["dict","plateAluminum",8],
-        ["item","hbmspace:saltleaf",16],
-        ["item","hbm:fan"],
-        ["item","hbm:steel_beam",4],
-        ["item","hbm:fence_metal",2]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:algae_film"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.airscrubber",
-      "inputItem": [
-        ["dict","plateStainlessSteel",6],
-        ["dict","dustCalcium",4],
-        ["dict","dustLithium",12],
-        ["item","hbm:motor"],
-        ["item","hbm:blades_titanium"],
-        ["item","hbm:blades_titanium"]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:air_scrubber"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.alkylation",
-      "inputItem": [
-        ["dict","unknownConcrete",12],
-        ["dict","plateStainlessSteel",12],
-        ["dict","shellSteel",6],
-        ["item","hbm:circuit",8,1],
-        ["item","hbm:catalyst_clay",12],
-        ["item","hbm:coil_tungsten",4]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:machine_alkylation"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.cryodistil",
-      "inputItem": [
-        ["dict","plateTripleSteel",2],
-        ["dict","unknownConcrete",4],
-        ["dict","plateStainlessSteel",12],
-        ["dict","ingotAnyPlastic",4],
-        ["item","hbm:battery_pack"],
-        ["item","hbm:coil_copper",4]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:machine_cryo_distill"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.transporterrocket",
-      "inputItem": [
-        ["dict","plateTripleSteel",2],
-        ["dict","plateSextupleTitanium",4],
-        ["item","hbm:crate_iron",2],
-        ["item","hbm:thruster_small"],
-        ["item","hbmspace:circuit",1,1]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:transporter_rocket",2]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.gasdock",
-      "inputItem": [
-        ["dict","plateSextupleSteel",5],
-        ["dict","ingotAnyRubber",4],
-        ["item","hbm:thruster_small"],
-        ["item","hbmspace:circuit",1,2]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:gas_dock"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.stardar",
-      "inputItem": [
-        ["item","hbm:motor",4],
-        ["item","hbm:sat_head_radar"],
-        ["dict","unknownConcrete",16],
-        ["item","hbm:steel_scaffold",8],
-        ["item","hbm:circuit",4,8]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:machine_stardar"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.driveprocessor",
-      "inputItem": [
-        ["dict","ingotAnyRubber",2],
-        ["dict","wireFineCopper",4],
-        ["dict","dustIron",3],
-        ["item","hbm:crt_display",2],
-        ["item","hbm:circuit",2,8]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:machine_drive_processor"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.vacuumcircuit",
-      "inputItem": [
-        ["dict","plateSextupleSteel",2],
-        ["dict","wireFineTungsten",4],
-        ["item","hbm:circuit",1,9]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:machine_vacuum_circuit"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.solarpanel",
-      "inputItem": [
-        ["dict","plateStainlessSteel",4],
-        ["item","hbm:photo_panel",4],
-        ["dict","ingotAnyPlastic",2],
-        ["dict","wireFineMingrade",8]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:machine_solar"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.launchpadrocket",
-      "inputItem": [
-        ["dict","plateSextupleSteel",12],
-        ["dict","ntmpipeAluminum",24],
-        ["dict","unknownConcrete",64],
-        ["dict","unknownConcrete",64],
-        ["dict","ingotAnyPlastic",16],
-        ["item","hbm:steel_scaffold",64],
-        ["item","hbmspace:circuit",4,1]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:launch_pad_rocket"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.rocketassembly",
-      "inputItem": [
-        ["dict","plateTripleSteel",8],
-        ["dict","ntmpipeSteel",12],
-        ["dict","unknownConcrete",16],
-        ["dict","ingotAnyPlastic",8],
-        ["item","hbm:steel_scaffold",64],
-        ["item","hbm:circuit",4,8]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:machine_rocket_assembly"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.orrery",
-      "inputItem": [
-        ["dict","blockGlass",16],
-        ["item","hbm:circuit",12,9]
-      ],
-      "inputFluid": [
-        ["TRITIUM",2000]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:orrery"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.orbitalstationport",
-      "inputItem": [
-        ["dict","plateSextupleTitanium",6],
-        ["item","hbm:motor",4],
-        ["dict","blockGlassColorless",8],
-        ["dict","ingotAnyPlastic",8],
-        ["item","hbm:circuit",4,8],
-        ["dict","plateStainlessSteel",4]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:orbital_station_port"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.orbitalstationlauncher",
-      "inputItem": [
-        ["dict","plateSextupleTitanium",6],
-        ["item","hbm:motor",4],
-        ["dict","blockGlassColorless",8],
-        ["dict","ingotAnyPlastic",8],
-        ["item","hbm:circuit",2,9],
-        ["dict","plateStainlessSteel",4]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:orbital_station_launcher"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.rpstationcore20",
-      "inputItem": [
-        ["item","hbmspace:orbital_station_port"],
-        ["dict","plateTripleAluminum",4],
-        ["item","hbmspace:circuit",1,2]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:rp_sc_20"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.rppod20",
-      "inputItem": [
-        ["dict","shellAluminum",4],
-        ["dict","plateStainlessSteel",8],
-        ["dict","ingotFiberglass",4],
-        ["dict","ingotAnyPlastic",2],
-        ["item","hbmspace:circuit",1,2],
-        ["item","hbm:thruster_small",4]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:rp_pod_20"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.orbitalstationcomputer",
-      "inputItem": [
-        ["dict","plateTripleAluminum",4],
-        ["dict","plateStainlessSteel",4],
-        ["dict","ingotAnyHardPlastic",2],
-        ["dict","blockGlassColorless"],
-        ["dict","dustQuartz",4],
-        ["item","hbmspace:circuit",4,9],
-        ["item","hbmspace:circuit",4,1]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:orbital_station_computer"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.lpw2",
-      "inputItem": [
-        ["dict","plateSextupleSteel",16],
-        ["dict","boltSteel",32],
-        ["dict","shellTitanium",8],
-        ["item","hbm:motor_desh",2],
-        ["item","hbm:coil_advanced_alloy",8],
-        ["dict","ingotAnyHardPlastic",8],
-        ["item","hbm:circuit",2,9],
-        ["dict","ntmpipeCopper",4]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:machine_lpw2"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.htr3",
-      "inputItem": [
-        ["dict","plateSextupleAnyResistantAlloy",4],
-        ["dict","boltDuraSteel",16],
-        ["dict","plateSextupleTungsten",8],
-        ["item","hbm:motor_bismuth"],
-        ["dict","ingotAnyHardPlastic",8],
-        ["item","hbmspace:circuit",2,1],
-        ["dict","ntmpipeDuraSteel",8]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:machine_htr3"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.htrf4",
-      "inputItem": [
-        ["dict","plateTripleSaturnite",8],
-        ["dict","boltDuraSteel",16],
-        ["dict","plateSextupleTungsten",8],
-        ["item","hbm:motor_bismuth"],
-        ["dict","ingotAnyHardPlastic",8],
-        ["item","hbm:circuit",1,11],
-        ["item","hbm:hadron_coil_alloy",24]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:machine_htrf4"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_10_kerosene",
-      "inputItem": [
-        ["item","hbm:seg_10"],
-        ["dict","ntmpipeSteel"],
-        ["dict","ingotTungsten",4],
-        ["dict","plateSteel",4]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_10_kerosene"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_10_solid",
-      "inputItem": [
-        ["item","hbm:seg_10"],
-        ["item","hbm:coil_tungsten"],
-        ["dict","ingotDuraSteel",4],
-        ["dict","plateSteel",4]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_10_solid"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_10_xenon",
-      "inputItem": [
-        ["item","hbm:seg_10"],
-        ["dict","plateSteel",4],
-        ["dict","ntmpipeSteel",12],
-        ["item","hbm:arc_electrode",4,1]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_10_xenon"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_15_kerosene",
-      "inputItem": [
-        ["item","hbm:seg_15"],
-        ["dict","ntmpipeSteel"],
-        ["dict","ingotTungsten",8],
-        ["dict","plateSteel",6],
-        ["dict","ingotWorkersAlloy",4]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_15_kerosene"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_15_kerosene_dual",
-      "inputItem": [
-        ["item","hbm:seg_15"],
-        ["dict","ntmpipeSteel"],
-        ["dict","ingotTungsten",4],
-        ["dict","plateSteel",6],
-        ["dict","ingotWorkersAlloy"]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_15_kerosene_dual"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_15_kerosene_triple",
-      "inputItem": [
-        ["item","hbm:seg_15"],
-        ["dict","ntmpipeSteel"],
-        ["dict","ingotTungsten",6],
-        ["dict","plateSteel",6],
-        ["dict","ingotWorkersAlloy",2]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_15_kerosene_triple"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_15_solid",
-      "inputItem": [
-        ["item","hbm:seg_15"],
-        ["dict","plateSteel",6],
-        ["dict","ingotDuraSteel",6],
-        ["item","hbm:coil_tungsten",3]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_15_solid"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_15_solid_hexdecuple",
-      "inputItem": [
-        ["item","hbm:seg_15"],
-        ["dict","plateSteel",6],
-        ["dict","ingotDuraSteel",12],
-        ["item","hbm:coil_tungsten",6]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_15_solid_hexdecuple"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_15_hydrogen",
-      "inputItem": [
-        ["item","hbm:seg_15"],
-        ["dict","ntmpipeSteel"],
-        ["dict","ingotTungsten",8],
-        ["dict","plateSteel",6],
-        ["dict","ingotSaturnite",4]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_15_hydrogen"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_15_hydrogen_dual",
-      "inputItem": [
-        ["item","hbm:seg_15"],
-        ["dict","ntmpipeSteel"],
-        ["dict","ingotTungsten",4],
-        ["dict","plateSteel",6],
-        ["dict","ingotSaturnite"]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_15_hydrogen_dual"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_15_balefire_short",
-      "inputItem": [
-        ["item","hbm:seg_15"],
-        ["item","hbm:plate_polymer",8],
-        ["item","hbm:pwr_fuelrod"],
-        ["dict","ingotWorkersAlloy",8],
-        ["dict","plateSaturnite",12],
-        ["dict","plateTripleCopper",2],
-        ["item","hbm:ingot_uranium_fuel",4]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_15_balefire_short"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_15_balefire",
-      "inputItem": [
-        ["item","hbm:seg_15"],
-        ["item","hbm:plate_polymer",16],
-        ["item","hbm:pwr_fuelrod",2],
-        ["dict","ingotWorkersAlloy",16],
-        ["dict","plateSaturnite",24],
-        ["dict","plateTripleCopper",4],
-        ["item","hbm:ingot_uranium_fuel",8]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_15_balefire"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_15_balefire_large",
-      "inputItem": [
-        ["item","hbm:seg_15"],
-        ["item","hbm:plate_polymer",16],
-        ["item","hbm:pwr_fuelrod",2],
-        ["dict","ingotWorkersAlloy",24],
-        ["dict","plateSaturnite",32],
-        ["dict","plateTripleCopper",4],
-        ["item","hbm:ingot_uranium_fuel",8]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_15_balefire_large"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_20_kerosene",
-      "inputItem": [
-        ["item","hbm:seg_20"],
-        ["dict","ntmpipeSteel"],
-        ["dict","ingotTungsten",8],
-        ["dict","plateSteel",6],
-        ["dict","ingotWorkersAlloy",2]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_20_kerosene"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_20_kerosene_dual",
-      "inputItem": [
-        ["item","hbm:seg_20"],
-        ["dict","ntmpipeSteel"],
-        ["dict","ingotTungsten",12],
-        ["dict","plateSteel",8],
-        ["dict","ingotWorkersAlloy",4]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_20_kerosene_dual"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_20_kerosene_triple",
-      "inputItem": [
-        ["item","hbm:seg_20"],
-        ["dict","ntmpipeSteel"],
-        ["dict","ingotTungsten",16],
-        ["dict","plateSteel",12],
-        ["dict","ingotWorkersAlloy",6]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_20_kerosene_triple"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_20_methalox",
-      "inputItem": [
-        ["item","hbm:seg_20"],
-        ["dict","ntmpipeSteel"],
-        ["dict","ingotTungsten",8],
-        ["dict","plateSteel",6],
-        ["dict","ingotWorkersAlloy",2]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:mp_thruster_20_methalox"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_20_methalox_dual",
-      "inputItem": [
-        ["item","hbm:seg_20"],
-        ["dict","ntmpipeSteel"],
-        ["dict","ingotTungsten",12],
-        ["dict","plateSteel",8],
-        ["dict","ingotWorkersAlloy",4]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:mp_thruster_20_methalox_dual"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_20_methalox_triple",
-      "inputItem": [
-        ["item","hbm:seg_20"],
-        ["dict","ntmpipeSteel"],
-        ["dict","ingotTungsten",16],
-        ["dict","plateSteel",12],
-        ["dict","ingotWorkersAlloy",6]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:mp_thruster_20_methalox_triple"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_20_hydrogen",
-      "inputItem": [
-        ["item","hbm:seg_20"],
-        ["dict","ntmpipeSteel"],
-        ["dict","ingotTungsten",8],
-        ["dict","plateSteel",6],
-        ["dict","ingotSaturnite",2]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:mp_thruster_20_hydrogen"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_20_hydrogen_dual",
-      "inputItem": [
-        ["item","hbm:seg_20"],
-        ["dict","ntmpipeSteel"],
-        ["dict","ingotTungsten",12],
-        ["dict","plateSteel",8],
-        ["dict","ingotSaturnite",4]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:mp_thruster_20_hydrogen_dual"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_20_hydrogen_triple",
-      "inputItem": [
-        ["item","hbm:seg_20"],
-        ["dict","ntmpipeSteel"],
-        ["dict","ingotTungsten",16],
-        ["dict","plateSteel",12],
-        ["dict","ingotSaturnite",6]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:mp_thruster_20_hydrogen_triple"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_20_solid",
-      "inputItem": [
-        ["item","hbm:seg_20"],
-        ["item","hbm:coil_tungsten",8],
-        ["dict","ingotDuraSteel",16],
-        ["dict","plateSteel"]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_20_solid"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_20_solid_multi",
-      "inputItem": [
-        ["item","hbm:seg_20"],
-        ["item","hbm:coil_tungsten",12],
-        ["dict","ingotDuraSteel",18],
-        ["dict","plateSteel"]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_20_solid_multi"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_thruster_20_solid_multier",
-      "inputItem": [
-        ["item","hbm:seg_20"],
-        ["item","hbm:coil_tungsten",16],
-        ["dict","ingotDuraSteel",20],
-        ["dict","plateSteel"]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_thruster_20_solid_multier"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_fuselage_10_kerosene",
-      "inputItem": [
-        ["item","hbm:seg_10",2],
-        ["item","hbm:steel_scaffold",3],
-        ["dict","plateTitanium",12],
-        ["dict","plateSteel",3]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_fuselage_10_kerosene"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_fuselage_10_solid",
-      "inputItem": [
-        ["item","hbm:seg_10",2],
-        ["item","hbm:steel_scaffold",3],
-        ["dict","plateTitanium",12],
-        ["dict","plateAluminum",3]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_fuselage_10_solid"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_fuselage_10_xenon",
-      "inputItem": [
-        ["item","hbm:seg_10",2],
-        ["item","hbm:steel_scaffold",3],
-        ["dict","plateTitanium",12],
-        ["dict","plateTripleCopper",3]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_fuselage_10_xenon"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_fuselage_10_long_kerosene",
-      "inputItem": [
-        ["item","hbm:seg_10",2],
-        ["item","hbm:steel_scaffold",6],
-        ["dict","plateTitanium",24],
-        ["dict","plateSteel",6]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_fuselage_10_long_kerosene"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_fuselage_10_long_solid",
-      "inputItem": [
-        ["item","hbm:seg_10",2],
-        ["item","hbm:steel_scaffold",6],
-        ["dict","plateTitanium",24],
-        ["dict","plateAluminum",6]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_fuselage_10_long_solid"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_fuselage_10_15_kerosene",
-      "inputItem": [
-        ["item","hbm:seg_10"],
-        ["item","hbm:seg_15"],
-        ["item","hbm:steel_scaffold",9],
-        ["dict","plateTitanium",36],
-        ["dict","plateSteel",9]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_fuselage_10_15_kerosene"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_fuselage_10_15_solid",
-      "inputItem": [
-        ["item","hbm:seg_10"],
-        ["item","hbm:seg_15"],
-        ["item","hbm:steel_scaffold",9],
-        ["dict","plateTitanium",36],
-        ["dict","plateAluminum",9]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_fuselage_10_15_solid"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_fuselage_10_15_hydrogen",
-      "inputItem": [
-        ["item","hbm:seg_10"],
-        ["item","hbm:seg_15"],
-        ["item","hbm:steel_scaffold",9],
-        ["dict","plateTitanium",36],
-        ["dict","plateIron",9]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_fuselage_10_15_hydrogen"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_fuselage_10_15_balefire",
-      "inputItem": [
-        ["item","hbm:seg_10"],
-        ["item","hbm:seg_15"],
-        ["item","hbm:steel_scaffold",9],
-        ["dict","plateTitanium",36],
-        ["dict","plateSaturnite",9]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_fuselage_10_15_balefire"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_fuselage_15_kerosene",
-      "inputItem": [
-        ["item","hbm:seg_15",2],
-        ["item","hbm:steel_scaffold",12],
-        ["dict","plateTitanium",48],
-        ["dict","plateSteel"]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_fuselage_15_kerosene"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_fuselage_15_solid",
-      "inputItem": [
-        ["item","hbm:seg_15",2],
-        ["item","hbm:steel_scaffold",12],
-        ["dict","plateTitanium",48],
-        ["dict","plateAluminum"]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_fuselage_15_solid"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_fuselage_15_hydrogen",
-      "inputItem": [
-        ["item","hbm:seg_15",2],
-        ["item","hbm:steel_scaffold",12],
-        ["dict","plateTitanium",48],
-        ["dict","plateIron"]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_fuselage_15_hydrogen"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_fuselage_15_20_kerosene",
-      "inputItem": [
-        ["item","hbm:seg_15"],
-        ["item","hbm:seg_20"],
-        ["item","hbm:steel_scaffold",16],
-        ["dict","plateTitanium",64],
-        ["dict","plateSteel"]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_fuselage_15_20_kerosene"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.mp_fuselage_15_20_solid",
-      "inputItem": [
-        ["item","hbm:seg_15"],
-        ["item","hbm:seg_20"],
-        ["item","hbm:steel_scaffold",16],
-        ["dict","plateTitanium",64],
-        ["dict","plateAluminum"]
-      ],
-      "outputItem": [
-        ["single",["hbm:mp_fuselage_15_20_solid"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.rp_fuselage_20_12",
-      "inputItem": [
-        ["item","hbm:seg_20",2],
-        ["item","hbm:steel_scaffold",16],
-        ["dict","shellTitanium",12],
-        ["dict","plateSextupleAluminum",8]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:rp_f_20_12"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.rp_fuselage_20_6",
-      "inputItem": [
-        ["item","hbm:seg_20",2],
-        ["item","hbm:steel_scaffold",8],
-        ["dict","shellTitanium",6],
-        ["dict","plateSextupleAluminum",4]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:rp_f_20_6"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.rp_fuselage_20_3",
-      "inputItem": [
-        ["item","hbm:seg_20",2],
-        ["item","hbm:steel_scaffold",4],
-        ["dict","shellTitanium",3],
-        ["dict","plateSextupleAluminum",2]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:rp_f_20_3"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.rp_fuselage_20_1",
-      "inputItem": [
-        ["item","hbm:seg_20",2],
-        ["item","hbm:steel_scaffold",2],
-        ["dict","shellTitanium"],
-        ["dict","plateSextupleAluminum"]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:rp_f_20_1"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.rp_fuselage_20_12_hydrazine",
-      "inputItem": [
-        ["item","hbm:seg_20",2],
-        ["dict","shellTitanium",12],
-        ["dict","plateSextupleAluminum",16],
-        ["dict","ingotPolymer",8]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:mp_fuselage_20_hydrazine"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.rp_capsule_20",
-      "inputItem": [
-        ["item","hbm:rocket_fuel",8],
-        ["item","hbm:thruster_small",4],
-        ["item","hbmspace:circuit",1,1],
-        ["dict","ingotAnyRubber",16],
-        ["dict","shellAluminum",4],
-        ["dict","ingotFiberglass",12]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:rp_c_20"]]
-      ],
-      "duration": 600,
-      "power": 100
-    },
-    {
-      "name": "ass.rp_legs_20",
-      "inputItem": [
-        ["dict","ntmpipeSteel",4],
-        ["dict","plateAluminum",8],
-        ["item","hbm:motor",4]
-      ],
-      "outputItem": [
-        ["single",["hbmspace:rp_l_20"]]
-      ],
-      "duration": 200,
-      "power": 100
+      "icon": ["hbm:fluid_icon",1,1000,"{fill:32000,pressure:0}"]
     },
     {
       "name": "mcheli.cessna172",
@@ -12895,25 +10052,6 @@
       ],
       "duration": 600,
       "power": 1500
-    },
-    {
-      "name": "mcheli.m142",
-      "inputItem": [
-        ["item","hbm:plate_mixed",12],
-        ["item","hbm:plate_dura_steel",20],
-        ["dict","plateTripleFerrouranium",4],
-        ["dict","gunMechanismGunMetal",3],
-        ["item","hbm:motor_desh",1],
-        ["item","hbm:circuit",2,9],
-        ["item","hbm:sat_interface",1],
-        ["item","hbm:battery_pack",3],
-        ["dict","ingotAnyPlastic",8]
-      ],
-      "outputItem": [
-        ["single",["mcheli:m142"]]
-      ],
-      "duration": 520,
-      "power": 1250
     },
     {
       "name": "mcheli.m26",

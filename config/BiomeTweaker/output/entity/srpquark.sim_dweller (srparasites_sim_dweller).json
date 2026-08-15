@@ -1,0 +1,6 @@
+
+{
+  "Name": "srpquark.sim_dweller",
+  "Registry ID": "srparasites:sim_dweller",
+  "Class": "energon.srpquark.entity.EntityInfDweller"
+}

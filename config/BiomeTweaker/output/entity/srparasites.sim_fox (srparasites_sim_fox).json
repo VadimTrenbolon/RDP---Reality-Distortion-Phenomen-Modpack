@@ -1,0 +1,6 @@
+
+{
+  "Name": "srparasites.sim_fox",
+  "Registry ID": "srparasites:sim_fox",
+  "Class": "com.maidnarch.srpcalamity.entity.monster.infected.EntityInfFox"
+}

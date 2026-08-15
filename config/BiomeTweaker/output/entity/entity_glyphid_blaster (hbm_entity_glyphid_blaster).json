@@ -1,0 +1,6 @@
+
+{
+  "Name": "entity_glyphid_blaster",
+  "Registry ID": "hbm:entity_glyphid_blaster",
+  "Class": "com.hbm.entity.mob.glyphid.EntityGlyphidBlaster"
+}

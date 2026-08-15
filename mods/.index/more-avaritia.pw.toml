@@ -1,0 +1,89 @@
+filename = 'moreavaritia-mc1.12.2-v1.5.jar'
+name = 'More Avaritia'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'More Avaritia MC 1.12.2 v1.5'
+
+[download]
+hash = 'e999ad3bddde75a857f35e0f76cb7282d41d6395'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4058469
+project-id = 271236
+
+[[x-prismlauncher-dependencies]]
+addonId = '272514'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '224791'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '64578'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '252714'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '225643'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '283377'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223565'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '225561'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '250277'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '241665'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '228609'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '243076'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '224641'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223852'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '69163'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '74072'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '261348'
+type = 'REQUIRED'

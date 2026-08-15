@@ -1,0 +1,6 @@
+
+{
+  "Name": "entity_mob_volatile_creeper",
+  "Registry ID": "hbm:entity_mob_volatile_creeper",
+  "Class": "com.hbm.entity.mob.EntityCreeperVolatile"
+}

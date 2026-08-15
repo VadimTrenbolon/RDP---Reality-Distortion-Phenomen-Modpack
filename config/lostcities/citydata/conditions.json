@@ -1,0 +1,68 @@
+[
+  {
+    "type": "condition",
+    "name": "easymobs",
+    "values": [
+      {
+        "factor": 1,
+        "value": "srparasites:grunt"
+      },
+      {
+        "factor": 1,
+        "value": "roughmobsrevamped:bossskeleton"
+      },
+      {
+        "factor": 1,
+        "value": "mutantbeasts:spider_pig"
+      }
+    ]
+  },
+  {
+    "type": "condition",
+    "name": "hardmobs",
+    "values": [
+      {
+        "factor": 1,
+        "value": "srparasites:sim_mutant_zombie"
+      },
+      {
+        "factor": 1,
+        "value": "minecraft:cave_spider"
+      }
+    ]
+  },
+  {
+    "type": "condition",
+    "name": "chestloot",
+    "values": [
+      {
+        "factor": 60,
+        "value": "lt:highrise",
+        "range": "10,100"
+      },
+      {
+        "factor": 60,
+        "value": "lt:basement",
+        "range": "-100,-1"
+      },
+      {
+        "factor": 40,
+        "value": "lt:subway",
+        "inpart": "rail_dungeon1"
+      },
+      {
+        "factor": 60,
+        "value": "lt:subway",
+        "inpart": "rail_dungeon2"
+      },
+      {
+        "factor": 20,
+        "value": "lt:generic"
+      },
+      {
+        "factor": 5,
+        "value": "lt:rare"
+      }
+    ]
+  }
+]

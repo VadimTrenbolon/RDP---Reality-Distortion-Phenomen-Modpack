@@ -1,0 +1,6 @@
+
+{
+  "Name": "srpextra.sim_ocelot",
+  "Registry ID": "srparasites:sim_ocelot",
+  "Class": "energon.srpextra.entity.infected.EntityInfOcelot"
+}

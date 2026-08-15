@@ -1,0 +1,18 @@
+filename = 'VillagerTrades-1.12.2-0.6.5.jar'
+name = 'Villager Trade Tables - Emerald Edition'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'VillagerTrades-1.12.2-0.6.5.jar'
+
+[download]
+hash = '827aaf777f361534dc711858e0f0ec3fdb7138d1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3556724
+project-id = 554861

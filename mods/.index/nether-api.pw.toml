@@ -1,18 +1,18 @@
 filename = 'Nether-API-v1.4.5-mc1.12.2.jar'
 name = 'Nether API'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Nether-API-v1.4.5-mc1.12.2.jar'
+x-prismlauncher-version-number = '1.4.5'
 
 [download]
-hash = 'fdd4caa9d5da0f05f9c17ca777a8a3b45190071f'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = 'eb2d4633d9678c677c0fcabbbabf63d61174fcf79e1e3543e1393acdaad41681870c4b21649447aa5db3142594f4bbdb00eb1095403e89d436640d2286209f73'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/65qOM4nb/versions/clN34FLQ/Nether-API-v1.4.5-mc1.12.2.jar'
 
-[update.curseforge]
-file-id = 8201135
-project-id = 1306115
+[update.modrinth]
+mod-id = '65qOM4nb'
+version = 'clN34FLQ'

@@ -133,23 +133,27 @@ biomesoplenty:fungi_forest
 biomesoplenty:phantasmagoric_inferno
 biomesoplenty:undergarden
 biomesoplenty:visceral_heap
-galacticraftcore:outer space
-galacticraftplanets:outer space 1
-galacticraftplanets:outer space 2
-asmodeuscore:-=|worldengine|=-
-asmodeuscore:-=|worldengine 2|=-
+randomthings:spectral
+appliedenergistics2:storage_biome
+nuclearcraft:nuclear_wasteland
 srparasites:biomeparasite_shrouded
 srparasites:biomeparasite_harlequin
-scp:biome106
+advancedrocketry:moon
+advancedrocketry:alien_forest
+advancedrocketry:hotdryrock
+advancedrocketry:space
+advancedrocketry:stormland
+advancedrocketry:crystalchasms
+advancedrocketry:deepswamp
+advancedrocketry:marsh
+advancedrocketry:oceanspires
+advancedrocketry:moondark
+advancedrocketry:volcanic
+advancedrocketry:volcanicbarren
 hbm:crater
 hbm:crater_inner
 hbm:crater_outer
 jeid:error_biome
-area_79_extras:past
-area_79_extras:nightmarebiome
-zerascp:scp8602
-zerascp:biome1499
-zerascp:biome1689
 nb:crimson_forest
 nb:warped_forest
 nb:soul_sand_valley

@@ -1,0 +1,18 @@
+filename = 'disenchanter[1.12]1.8.jar'
+name = 'Disenchanter (The Disenchanter Mod)'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'DisenchanterMod - 1.8 for 1.12'
+
+[download]
+hash = '0d76f6f183e8098be5d073e8fdaa0751bd3d5552'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3519704
+project-id = 245769

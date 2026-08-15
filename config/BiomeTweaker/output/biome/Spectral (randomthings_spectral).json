@@ -1,0 +1,79 @@
+
+{
+  "ID": 113,
+  "Name": "Spectral",
+  "Resource Location": "randomthings:spectral",
+  "Class": "lumien.randomthings.biomes.BiomeSpectral",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Ocean Top Block": "minecraft:gravel",
+  "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]"
+  ],
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "15348",
+  "Temperature": 0.2,
+  "Humidity": 0.5,
+  "Water Tint": 15348,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "MAGICAL"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
+      "Weight": 200,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.hbm.entity.mob.EntityCreeperPhosgene",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.hbm.entity.mob.EntityCreeperVolatile",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.hbm.entity.mob.EntityCreeperGold",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

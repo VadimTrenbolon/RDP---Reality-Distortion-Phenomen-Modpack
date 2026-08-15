@@ -1,0 +1,6 @@
+
+{
+  "Name": "entity_pigeon",
+  "Registry ID": "hbm:entity_pigeon",
+  "Class": "com.hbm.entity.mob.EntityPigeon"
+}

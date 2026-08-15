@@ -1,0 +1,235 @@
+
+{
+  "ID": 115,
+  "Name": "Nuclear Wasteland",
+  "Resource Location": "nuclearcraft:nuclear_wasteland",
+  "Class": "nc.worldgen.biome.BiomeNuclearWasteland",
+  "Root Height": 0.12,
+  "Height Variation": 0.02,
+  "Top Block": "nuclearcraft:wasteland_earth",
+  "Filler Block": "minecraft:sand[variant\u003dsand]",
+  "Ocean Top Block": "minecraft:gravel",
+  "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]"
+  ],
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "1642752",
+  "Temperature": 2.0,
+  "Humidity": 0.5,
+  "Water Tint": 1642752,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "WASTELAND",
+    "HOT",
+    "DRY",
+    "PLAINS",
+    "SPARSE",
+    "SAVANNA",
+    "DEAD"
+  ],
+  "BiomeManager Entries": {
+    "DESERT Weights": [
+      5
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityArisaur",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycaniteadditions.core.entity.creature.entitymbielu",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityJoust",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycaniteadditions.core.entity.creature.entityngobou",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityMaka",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.hbm.entity.mob.EntityPigeon",
+      "Weight": 1,
+      "Min Group Count": 5,
+      "Max Group Count": 10
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "nc.entity.EntityFeralGhoul",
+      "Weight": 32767,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "nc.entity.EntityFeralGhoul$Glowing",
+      "Weight": 32767,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityBarghest",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityKobold",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityCrusk",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityZoataur",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityGorgomite",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityCryptkeeper",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityQuillbeast",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityClink",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntitySutiramu",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityErepede",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityVentoraptor",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityNecrovore",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycanitesmobs.core.entity.creature.EntityFeradon",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.lycaniteadditions.core.entity.creature.entitymammorith",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "techguns.entities.npcs.TGDummySpawn",
+      "Weight": 200,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.hbm.entity.mob.EntityCreeperPhosgene",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.hbm.entity.mob.EntityCreeperVolatile",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.hbm.entity.mob.EntityCreeperGold",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": true,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "TROPICAL": [
+      5
+    ],
+    "SAVANNA": [
+      5
+    ],
+    "HOT_DESERT": [
+      5
+    ],
+    "WASTELAND": [
+      5
+    ]
+  },
+  "BOP Island Weight": 0
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "srpextra.hi_creeper",
+  "Registry ID": "srparasites:hi_creeper",
+  "Class": "energon.srpextra.entity.hijacked.EntityHiCreeper"
+}

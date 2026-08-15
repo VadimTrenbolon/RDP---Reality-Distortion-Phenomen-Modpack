@@ -1,0 +1,29 @@
+filename = 'pressure-1.3.1.9-mc1.12.2.jar'
+name = 'Pressure Pipes'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = 'Pressure Pipes 1.3.1.9 (MC 1.12.2)'
+
+[download]
+hash = '5a067d4b289f50c9b3915bb1c69ffdb65eac5078'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2490064
+project-id = 221214
+
+[[x-prismlauncher-dependencies]]
+addonId = '70496'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '73488'
+type = 'OPTIONAL'

@@ -1,0 +1,6 @@
+
+{
+  "Name": "srpquark.sim_archaeologist",
+  "Registry ID": "srparasites:sim_archaeologist",
+  "Class": "energon.srpquark.entity.EntityInfArchaeologist"
+}

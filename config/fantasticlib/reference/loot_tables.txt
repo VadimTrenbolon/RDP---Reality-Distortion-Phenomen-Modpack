@@ -18,6 +18,7 @@ minecraft:entities/creeper
 minecraft:entities/skeleton_horse
 minecraft:entities/zombie_villager
 minecraft:entities/sheep/red
+thermalfoundation:entities/blizz
 minecraft:entities/horse
 minecraft:entities/guardian
 minecraft:entities/slime
@@ -33,6 +34,7 @@ minecraft:entities/sheep
 minecraft:entities/sheep/orange
 minecraft:entities/sheep/lime
 minecraft:entities/mushroom_cow
+charm:entities/spectre
 mutantbeasts:entities/mutant_snow_golem
 techguns:blocks/military_crate_ammo
 minecraft:chests/stronghold_library
@@ -51,6 +53,7 @@ minecraft:entities/chicken
 minecraft:entities/zombie_pigman
 minecraft:entities/cow
 minecraft:entities/pig
+nuclearcraft:chests/vault
 spartanweaponry:inject/village_blacksmith
 champions:champion_loot
 minecraft:chests/spawn_bonus_chest
@@ -61,6 +64,7 @@ techguns:blocks/military_crate_gun
 minecraft:entities/skeleton
 minecraft:entities/enderman
 minecraft:entities/stray
+lostcities:chests/raildungeonchest
 minecraft:entities/sheep/magenta
 minecraft:entities/squid
 minecraft:entities/shulker
@@ -70,12 +74,12 @@ minecraft:entities/sheep/green
 minecraft:entities/wither_skeleton
 minecraft:gameplay/fishing/fish
 minecraft:chests/igloo_chest
+thermalfoundation:entities/basalz
 quark:entities/stoneling
 techguns:blocks/military_crate_medical
 minecraft:entities/snowman
 minecraft:entities/sheep/blue
 minecraft:chests/stronghold_crossing
-galacticraftcore:crashed_probe
 minecraft:gameplay/fishing/junk
 minecraft:entities/donkey
 mutantbeasts:entities/creeper_minion
@@ -84,6 +88,8 @@ minecraft:entities/rabbit
 minecraft:entities/villager
 minecraft:entities/spider
 minecraft:entities/polar_bear
+lootchests:serious_loot
+lostcities:chests/lostcitychest
 minecraft:entities/ender_dragon
 minecraft:entities/zombie_horse
 minecraft:entities/parrot
@@ -95,6 +101,7 @@ techguns:blocks/military_crate_explosives
 minecraft:chests/jungle_temple_dispenser
 minecraft:chests/woodland_mansion
 immersiveengineering:chests/stronghold_library
+thermalfoundation:entities/blitz
 minecraft:entities/magma_cube
 minecraft:entities/vindication_illager
 minecraft:entities/sheep/pink

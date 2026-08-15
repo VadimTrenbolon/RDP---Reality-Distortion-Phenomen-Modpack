@@ -1,0 +1,29 @@
+filename = 'baubley-heart-canisters-1.12.2-2.0.3.jar'
+name = 'Baubley Heart Canisters'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'baubley-heart-canisters-1.12.2-2.0.3.jar'
+
+[download]
+hash = '63a0872773dd016896d8458ae6684ed824240db2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2721067
+project-id = 282947
+
+[[x-prismlauncher-dependencies]]
+addonId = '227083'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '74924'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '74072'
+type = 'OPTIONAL'

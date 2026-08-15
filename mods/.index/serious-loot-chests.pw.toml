@@ -1,0 +1,18 @@
+filename = 'lootchests-1.2.5.jar'
+name = "SeriousCreeper's Loot Chests"
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'lootchests-1.2.5.jar'
+
+[download]
+hash = 'e015ab49a2fa37de58b89a49e550bfbd1a8db045'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2682989
+project-id = 267344

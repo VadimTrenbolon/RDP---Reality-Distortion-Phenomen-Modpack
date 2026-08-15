@@ -1,0 +1,6 @@
+
+{
+  "Name": "srparasites.sim_pillager",
+  "Registry ID": "srparasites:sim_pillager",
+  "Class": "com.maidnarch.srpcalamity.entity.monster.infected.EntityInfPillager"
+}

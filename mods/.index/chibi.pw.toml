@@ -1,5 +1,5 @@
 filename = 'loliasm-5.33.jar'
-name = 'LoliASM'
+name = 'Chibi'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]

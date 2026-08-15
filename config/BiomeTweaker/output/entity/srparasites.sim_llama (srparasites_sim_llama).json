@@ -1,0 +1,6 @@
+
+{
+  "Name": "srparasites.sim_llama",
+  "Registry ID": "srparasites:sim_llama",
+  "Class": "com.maidnarch.srpcalamity.entity.monster.infected.EntityInfLlama"
+}

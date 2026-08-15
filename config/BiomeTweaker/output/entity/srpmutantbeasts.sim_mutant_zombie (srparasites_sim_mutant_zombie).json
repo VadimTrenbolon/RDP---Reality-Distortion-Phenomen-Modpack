@@ -1,0 +1,6 @@
+
+{
+  "Name": "srpmutantbeasts.sim_mutant_zombie",
+  "Registry ID": "srparasites:sim_mutant_zombie",
+  "Class": "energon.srpmutantbeasts.entity.EntityInfMutantZombie"
+}

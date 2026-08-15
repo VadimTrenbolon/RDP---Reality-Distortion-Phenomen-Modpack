@@ -1,0 +1,6 @@
+
+{
+  "Name": "parasight",
+  "Registry ID": "lycanitesmobs:parasight",
+  "Class": "com.lycaniteadditions.core.entity.creature.entityparasight"
+}

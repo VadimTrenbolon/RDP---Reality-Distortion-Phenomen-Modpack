@@ -1,0 +1,6 @@
+
+{
+  "Name": "srpmutantbeasts.sim_mutant_enderman",
+  "Registry ID": "srparasites:sim_mutant_enderman",
+  "Class": "energon.srpmutantbeasts.entity.EntityInfMutantEnderman"
+}

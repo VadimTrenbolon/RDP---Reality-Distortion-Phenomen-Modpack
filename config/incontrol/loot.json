@@ -1,1 +1,18 @@
-[]
+[
+    {
+        "mob": "minecraft:zombie",
+        "player": true,
+        "item": "thermalfoundation:material@224",
+        "itemcount": "1-2/2-4/4-8",
+        "random": "0.15"
+    },
+
+
+    {
+        "mod": "techguns",
+        "player": true,
+        "item": "thermalfoundation:material@224",
+        "itemcount": "1-2/2-4/4-8",
+        "random": "0.6"
+    }
+]

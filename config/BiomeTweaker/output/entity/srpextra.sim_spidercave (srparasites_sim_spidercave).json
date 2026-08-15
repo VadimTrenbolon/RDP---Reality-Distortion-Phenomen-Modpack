@@ -1,0 +1,6 @@
+
+{
+  "Name": "srpextra.sim_spidercave",
+  "Registry ID": "srparasites:sim_spidercave",
+  "Class": "energon.srpextra.entity.infected.EntityInfSpiderCave"
+}

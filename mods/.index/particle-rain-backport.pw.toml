@@ -1,0 +1,18 @@
+filename = 'particlerain-0.1.8.jar'
+name = 'Particle Rain (Backport)'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'particlerain-0.1.8.jar'
+
+[download]
+hash = 'd2a6f12f32c599f8b6a70eaffdd2d4c6d583b2f3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8509000
+project-id = 1481047

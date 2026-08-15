@@ -1,0 +1,6 @@
+
+{
+  "Name": "gargoyle",
+  "Registry ID": "lycanitesmobs:gargoyle",
+  "Class": "com.lycaniteadditions.core.entity.creature.entitygargoyle"
+}

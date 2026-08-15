@@ -1,0 +1,25 @@
+filename = 'improved_mobs_scaling_health_integration-1.1.jar'
+name = 'ImprovedMobs & ScalingHealth Integration'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'improved_mobs_scaling_health_integration-1.1.jar'
+
+[download]
+hash = 'b502bf00f23e87ee15107a5c807527c34268b732'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7893076
+project-id = 1177435
+
+[[x-prismlauncher-dependencies]]
+addonId = '248027'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '282639'
+type = 'REQUIRED'

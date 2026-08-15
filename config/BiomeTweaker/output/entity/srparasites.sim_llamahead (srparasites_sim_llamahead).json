@@ -1,0 +1,6 @@
+
+{
+  "Name": "srparasites.sim_llamahead",
+  "Registry ID": "srparasites:sim_llamahead",
+  "Class": "com.maidnarch.srpcalamity.entity.monster.infected.head.EntityInfLlamaHead"
+}

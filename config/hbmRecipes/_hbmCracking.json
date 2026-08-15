@@ -7,29 +7,9 @@
       "output2": ["REFORMGAS",20]
     },
     {
-      "input": "GAS",
-      "output1": ["PETROLEUM",30],
-      "output2": ["UNSATURATEDS",20]
-    },
-    {
-      "input": "REFORMATE",
-      "output1": ["UNSATURATEDS",40],
-      "output2": ["REFORMGAS",60]
-    },
-    {
-      "input": "SMEAR",
-      "output1": ["NAPHTHA",60],
-      "output2": ["PETROLEUM",40]
-    },
-    {
       "input": "KEROSENE",
       "output1": ["PETROLEUM",60],
       "output2": ["NONE",0]
-    },
-    {
-      "input": "DIESEL",
-      "output1": ["KEROSENE",40],
-      "output2": ["PETROLEUM",30]
     },
     {
       "input": "XYLENE",
@@ -37,14 +17,24 @@
       "output2": ["PETROLEUM",20]
     },
     {
-      "input": "OIL",
-      "output1": ["CRACKOIL",80],
-      "output2": ["PETROLEUM",20]
+      "input": "REFORMATE",
+      "output1": ["UNSATURATEDS",40],
+      "output2": ["REFORMGAS",60]
     },
     {
       "input": "BITUMEN",
       "output1": ["OIL",80],
       "output2": ["AROMATICS",20]
+    },
+    {
+      "input": "SMEAR",
+      "output1": ["NAPHTHA",60],
+      "output2": ["PETROLEUM",40]
+    },
+    {
+      "input": "GAS",
+      "output1": ["PETROLEUM",30],
+      "output2": ["UNSATURATEDS",20]
     },
     {
       "input": "WOODOIL",
@@ -53,6 +43,16 @@
     },
     {
       "input": "DIESEL_CRACK",
+      "output1": ["KEROSENE",40],
+      "output2": ["PETROLEUM",30]
+    },
+    {
+      "input": "OIL",
+      "output1": ["CRACKOIL",80],
+      "output2": ["PETROLEUM",20]
+    },
+    {
+      "input": "DIESEL",
       "output1": ["KEROSENE",40],
       "output2": ["PETROLEUM",30]
     }

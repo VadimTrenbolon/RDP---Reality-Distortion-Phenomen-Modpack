@@ -1,0 +1,25 @@
+filename = 'brokenwings-3.0.0.jar'
+name = 'Broken Wings'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'brokenwings-3.0.0.jar'
+
+[download]
+hash = 'b51560ae22cfb765da56651f08db3c3aa29612aa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3247511
+project-id = 293704
+
+[[x-prismlauncher-dependencies]]
+addonId = '227083'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '302584'
+type = 'OPTIONAL'

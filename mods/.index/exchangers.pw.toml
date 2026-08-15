@@ -1,0 +1,53 @@
+filename = 'Exchangers-1.12.2-2.10.3.jar'
+name = 'Exchangers'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Exchangers-1.12.2-2.10.3.jar'
+
+[download]
+hash = '1b09fcd6af83161ec9c6647735bebac1834b849f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4732479
+project-id = 270183
+
+[[x-prismlauncher-dependencies]]
+addonId = '69163'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '246760'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '304346'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '64578'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '69162'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '222880'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '231951'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '268560'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '356646'
+type = 'REQUIRED'

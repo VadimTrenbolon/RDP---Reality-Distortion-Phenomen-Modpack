@@ -1,0 +1,29 @@
+filename = 'ImmersiveCables-1.12.2-1.3.2.jar'
+name = 'Immersive Cables'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ImmersiveCables-1.12.2-1.3.2.jar'
+
+[download]
+hash = '6014479ece04c24cef12a312ceaf300a9af448e7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2595013
+project-id = 283992
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '243076'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '231951'
+type = 'REQUIRED'

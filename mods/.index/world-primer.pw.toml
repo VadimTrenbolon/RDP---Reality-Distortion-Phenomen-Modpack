@@ -1,0 +1,18 @@
+filename = 'worldprimer-1.12.2-0.6.0-dev.20200122.211517.jar'
+name = 'World Primer'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'worldprimer-1.12.2-0.6.0-dev.20200122.211517.jar'
+
+[download]
+hash = '4a8a76e897b0b03623b51f5f0d737cd36e237e54'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2866063
+project-id = 258911

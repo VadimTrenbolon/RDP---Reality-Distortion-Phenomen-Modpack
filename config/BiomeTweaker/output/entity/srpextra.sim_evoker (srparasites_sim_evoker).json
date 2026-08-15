@@ -1,0 +1,6 @@
+
+{
+  "Name": "srpextra.sim_evoker",
+  "Registry ID": "srparasites:sim_evoker",
+  "Class": "energon.srpextra.entity.infected.EntityInfEvoker"
+}

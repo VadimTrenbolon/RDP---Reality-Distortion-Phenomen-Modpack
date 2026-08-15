@@ -1,0 +1,22 @@
+filename = 'rflux-1.12-0.4.0.jar'
+name = 'RF Lux'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.12-0.4.0'
+
+[download]
+hash = 'cb1bd118d714c2f3c413bb0889a0c0a22b25ae102aa547b9ca7702bb2470826db8890a2cde7a5183aa3d311531bfb4fe44a5f130cda21ec230ca4dea6209f0b4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Eqbno2G6/versions/KwVYUnM2/rflux-1.12-0.4.0.jar'
+
+[update.modrinth]
+mod-id = 'Eqbno2G6'
+version = 'KwVYUnM2'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1Zu0uTEE'
+type = 'REQUIRED'
+version = 'KOV8fkZb'

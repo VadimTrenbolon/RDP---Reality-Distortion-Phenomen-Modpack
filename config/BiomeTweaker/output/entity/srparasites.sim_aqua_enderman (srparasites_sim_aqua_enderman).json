@@ -1,0 +1,6 @@
+
+{
+  "Name": "srparasites.sim_aqua_enderman",
+  "Registry ID": "srparasites:sim_aqua_enderman",
+  "Class": "com.maidnarch.srpcalamity.entity.monster.infected.EntityInfEndermanAqua"
+}
