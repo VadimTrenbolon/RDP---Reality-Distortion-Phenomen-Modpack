@@ -15,8 +15,6 @@ val harlequin = forBiomes("srparasites:biomeparasite_harlequin");
 harlequin.set("temperature", 0.85);
 harlequin.set("humidity", 0.35);
 
-harlequin.removeDictionaryTypes("SPOOKY");
-
 harlequin.addDictionaryTypes("DRY");
 harlequin.addDictionaryTypes("DEAD");
 
@@ -49,4 +47,4 @@ harlequin.set("fillerBlock", "srparasites:harleskinn_block");
 
 # Register as a warm biome.
 # Higher weight = more frequent.
-harlequin.addToGeneration("DRY", 2);
+harlequin.addToGeneration("DRY", 4);

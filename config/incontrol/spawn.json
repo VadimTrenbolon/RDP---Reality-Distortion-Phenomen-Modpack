@@ -1429,5 +1429,31 @@
                "minecraft:chicken"
               ] ,
         "result": "deny"
+    },
+
+
+
+    {
+        "biome": "srparasites:biomeparasite_harlequin",
+        "mod": "minecraft",
+        "result": "deny"
+    },
+
+    {
+        "biome": "srparasites:biomeparasite_harlequin",
+        "mod": "techguns",
+        "result": "deny"
+    },
+
+    {
+        "biome": "srparasites:biomeparasite_shrouded",
+        "mod": "minecraft",
+        "result": "deny"
+    },
+
+    {
+        "biome": "srparasites:biomeparasite_shrouded",
+        "mod": "techguns",
+        "result": "deny"
     }
 ]

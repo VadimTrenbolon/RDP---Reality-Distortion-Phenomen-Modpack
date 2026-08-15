@@ -1,6 +1,6 @@
 
 {
-  "ID": 143,
+  "ID": 145,
   "Name": "SCP-860-1",
   "Resource Location": "zerascp:scp8602",
   "Class": "net.mcreator.zerascp.MCreatorSCP8602$BiomeGenCustom",

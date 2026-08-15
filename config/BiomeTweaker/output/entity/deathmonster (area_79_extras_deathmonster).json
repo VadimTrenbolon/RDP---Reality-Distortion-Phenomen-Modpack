@@ -1,0 +1,6 @@
+
+{
+  "Name": "deathmonster",
+  "Registry ID": "area_79_extras:deathmonster",
+  "Class": "net.mcreator.area_79_extras.MCreatorDeathMonster.EntityCustom"
+}

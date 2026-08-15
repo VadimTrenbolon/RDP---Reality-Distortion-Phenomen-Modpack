@@ -1,0 +1,6 @@
+
+{
+  "Name": "flameagent",
+  "Registry ID": "area_79_extras:flameagent",
+  "Class": "net.mcreator.area_79_extras.MCreatorFlameAgent.EntityCustom"
+}

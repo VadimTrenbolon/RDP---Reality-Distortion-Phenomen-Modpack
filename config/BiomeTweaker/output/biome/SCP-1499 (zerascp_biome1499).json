@@ -1,6 +1,6 @@
 
 {
-  "ID": 144,
+  "ID": 146,
   "Name": "SCP-1499",
   "Resource Location": "zerascp:biome1499",
   "Class": "net.mcreator.zerascp.MCreatorBiome1499$BiomeGenCustom",

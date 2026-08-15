@@ -247,6 +247,11 @@ hbm:potion.hbm_phosphorus
 hbm:potion.hbm_stability
 hbm:potion.hbm_potionsickness
 hbm:potion.hbm_death
+area_79_extras:nightmares
+area_79_extras:clockwork
+area_79_extras:rp
+area_79_extras:tranquility
+area_79_extras:h
 xaeroworldmap:no_world_map
 xaeroworldmap:no_world_map_harmful
 xaeroworldmap:no_cave_maps

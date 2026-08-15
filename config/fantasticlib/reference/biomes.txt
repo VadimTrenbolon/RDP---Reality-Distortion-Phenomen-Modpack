@@ -155,6 +155,8 @@ hbm:crater
 hbm:crater_inner
 hbm:crater_outer
 jeid:error_biome
+area_79_extras:past
+area_79_extras:nightmarebiome
 zerascp:scp8602
 zerascp:biome1499
 zerascp:biome1689

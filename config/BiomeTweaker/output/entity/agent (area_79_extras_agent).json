@@ -1,0 +1,6 @@
+
+{
+  "Name": "agent",
+  "Registry ID": "area_79_extras:agent",
+  "Class": "net.mcreator.area_79_extras.MCreatorAgent.EntityCustom"
+}

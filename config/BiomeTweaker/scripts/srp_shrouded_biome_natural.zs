@@ -48,4 +48,4 @@ Shrouded.set("spawnableCaveCreatureList", []);
 
 # Add to the COOL biome generation pool.
 # Low weight = rare biome.
-shrouded.addToGeneration("COOL", 3);
+shrouded.addToGeneration("COOL", 4);
