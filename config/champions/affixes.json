@@ -38,7 +38,7 @@
     "identifier": "reflecting",
     "enabled": true,
     "entityBlacklist": [],
-    "alwaysOnEntity": [],
+    "alwaysOnEntity": ["scp:scp682"],
     "tier": 1
   },
   {
@@ -66,14 +66,14 @@
     "identifier": "lively",
     "enabled": true,
     "entityBlacklist": [],
-    "alwaysOnEntity": [],
+    "alwaysOnEntity": ["scp:scp682"],
     "tier": 1
   },
   {
     "identifier": "adaptable",
     "enabled": true,
     "entityBlacklist": [],
-    "alwaysOnEntity": [],
+    "alwaysOnEntity": ["scp:scp682"],
     "tier": 1
   },
   {
@@ -94,7 +94,7 @@
     "identifier": "shielding",
     "enabled": true,
     "entityBlacklist": [],
-    "alwaysOnEntity": [],
+    "alwaysOnEntity": ["scp:scp682"],
     "tier": 1
   },
   {

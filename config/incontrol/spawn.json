@@ -1299,7 +1299,13 @@
 
     {
         "mob": "hbm:entity_black_hole",
-        "dimension": [0,1,12,13,14,15,16,17,18,19,20,21],
+        "dimension": [0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,
+            17,18,19,20,21,22,23,24,25,26,27,28,29,30,
+            31,32,33,34,35,36,37,38,39,40,41,42,43,44,
+            45,46,47,48,49,50,51,52,53,54,55,56,57,58,
+            59,60,61,62,63,64,65,66,67,68,69,70,71,72,
+            73,74,75,76,77,78,79,80,81,82,83,84,85,86,
+            87,88,89,90,91],
         "random": 0.00035,
         "minheight": 15,
         "maxheight": 300,
@@ -1307,6 +1313,44 @@
         "maxlight": 15,
         "conditions": {
             "minspawndist": 1000
+        },
+        "result": "allow"
+    },
+
+
+     {
+        "mob": "hbm:entity_black_hole",
+        "dimension": 1000,
+        "random": 0.0035,
+        "seesky": true,
+        "conditions": {
+            "minspawndist": 200,
+            "maxspawndist": 1800
+        },
+        "result": "allow"
+    },
+
+    {
+        "mob": "hbm:entity_digamma_quasar",
+        "dimension": 1000,
+        "random": 0.0035,
+        "seesky": true,
+        "conditions": {
+            "minspawndist": 800
+        },
+        "result": "allow"
+    },
+
+
+     {
+        "mob": "hbm:entity_burning_foeq",
+        "dimension": 1000,
+        "random": 0.0035,
+        "seesky": true,
+        "minheight": 400,
+        "maxheight": 600,
+        "conditions": {
+            "minspawndist": 500
         },
         "result": "allow"
     },
@@ -1327,7 +1371,7 @@
         "minheight": 15,
         "maxheight": 55,
         "minlight": 0,
-        "maxlight": 4,
+        "maxlight": 7,
         "conditions": {
             "mindist": 128,
             "maxdist": 512
@@ -1372,19 +1416,6 @@
         },
          "conditions": {
             "mindist": 800
-        },
-        "result": "allow"
-    },
-
-
-    {
-        "mob": "hbm:entity_black_hole",
-        "dimension": 1000,
-        "random": 0.00075,
-        "seesky": true,
-        "maxheight": 200,
-        "conditions": {
-            "minspawndist": 100
         },
         "result": "allow"
     }
