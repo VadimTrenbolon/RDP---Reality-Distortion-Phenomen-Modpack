@@ -23,11 +23,11 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "SPARSE",
-    "SNOWY",
     "COLD",
+    "FOREST",
+    "SNOWY",
     "DRY",
-    "MOUNTAIN",
-    "FOREST"
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

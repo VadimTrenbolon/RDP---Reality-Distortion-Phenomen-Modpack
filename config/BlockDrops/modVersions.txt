@@ -196,7 +196,6 @@
   "entitydistance": "1.0.3",
   "mcjtylib_ng": "3.5.5",
   "biometweaker": "3.2.369",
-  "the_elevator": "1.0",
   "equipmentcompare": "1.3.3",
   "redcore": "0.7.1",
   "brokenwings": "2.0.0",

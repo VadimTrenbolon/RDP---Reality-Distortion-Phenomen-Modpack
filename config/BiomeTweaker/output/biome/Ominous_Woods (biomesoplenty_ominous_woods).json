@@ -23,12 +23,12 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DENSE",
-    "SPOOKY",
+    "FOREST",
     "DEAD",
-    "RARE",
-    "WET",
     "MAGICAL",
-    "FOREST"
+    "SPOOKY",
+    "RARE",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
