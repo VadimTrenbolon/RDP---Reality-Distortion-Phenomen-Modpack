@@ -1,4 +1,4 @@
-{
+﻿{
   "version": 2,
   "inventoryGeneratorID": "TGSmall",
   "items": [
@@ -68,6 +68,7 @@
       "max": 14,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -77,6 +78,7 @@
       "max": 6,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -86,6 +88,7 @@
       "max": 6,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -95,6 +98,7 @@
       "max": 4,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -206,6 +210,7 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -215,6 +220,7 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -224,6 +230,7 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -233,6 +240,7 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -413,6 +421,7 @@
       "max": 9,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     }

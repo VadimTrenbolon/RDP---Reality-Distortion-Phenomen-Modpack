@@ -1,4 +1,4 @@
-{
+﻿{
   "version": 2,
   "inventoryGeneratorID": "TGNoAmmo",
   "items": [
@@ -88,6 +88,7 @@
       "max": 12,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -97,6 +98,7 @@
       "max": 12,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -106,6 +108,7 @@
       "max": 12,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -115,6 +118,7 @@
       "max": 12,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     }

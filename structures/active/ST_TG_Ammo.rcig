@@ -1,4 +1,4 @@
-{
+﻿{
   "version": 2,
   "inventoryGeneratorID": "TGAmmo",
   "items": [
@@ -397,6 +397,7 @@
       "max": 4,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -416,6 +417,7 @@
       "max": 6,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -425,6 +427,7 @@
       "max": 6,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -434,6 +437,7 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -443,6 +447,7 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -452,6 +457,7 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -471,6 +477,7 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },

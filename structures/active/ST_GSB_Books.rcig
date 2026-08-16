@@ -1,4 +1,4 @@
-{
+﻿{
   "version": 2,
   "inventoryGeneratorID": "GSBooks",
   "items": [
@@ -28,17 +28,6 @@
             "Send": {
               "nbtType": "int",
               "nbt": 1000
-            },
-            "SideCache": {
-              "nbtType": "byteArray",
-              "nbt": [
-                2,
-                1,
-                1,
-                1,
-                1,
-                1
-              ]
             },
             "Creative": {
               "nbtType": "byte",
@@ -83,17 +72,6 @@
               "nbtType": "int",
               "nbt": 4000
             },
-            "SideCache": {
-              "nbtType": "byteArray",
-              "nbt": [
-                2,
-                1,
-                1,
-                1,
-                1,
-                1
-              ]
-            },
             "Creative": {
               "nbtType": "byte",
               "nbt": 0
@@ -136,17 +114,6 @@
             "Send": {
               "nbtType": "int",
               "nbt": 9000
-            },
-            "SideCache": {
-              "nbtType": "byteArray",
-              "nbt": [
-                2,
-                1,
-                1,
-                1,
-                1,
-                1
-              ]
             },
             "Creative": {
               "nbtType": "byte",
@@ -191,17 +158,6 @@
               "nbtType": "int",
               "nbt": 16000
             },
-            "SideCache": {
-              "nbtType": "byteArray",
-              "nbt": [
-                2,
-                1,
-                1,
-                1,
-                1,
-                1
-              ]
-            },
             "Creative": {
               "nbtType": "byte",
               "nbt": 0
@@ -244,17 +200,6 @@
             "Send": {
               "nbtType": "int",
               "nbt": 25000
-            },
-            "SideCache": {
-              "nbtType": "byteArray",
-              "nbt": [
-                2,
-                1,
-                1,
-                1,
-                1,
-                1
-              ]
             },
             "Creative": {
               "nbtType": "byte",

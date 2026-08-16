@@ -1,4 +1,4 @@
-{
+﻿{
   "version": 2,
   "inventoryGeneratorID": "TGTAmmo",
   "items": [
@@ -8,6 +8,7 @@
       "max": 32,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -17,6 +18,7 @@
       "max": 16,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -26,6 +28,7 @@
       "max": 32,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -35,6 +38,7 @@
       "max": 16,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -104,6 +108,7 @@
       "max": 16,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -123,6 +128,7 @@
       "max": 2,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -142,6 +148,7 @@
       "max": 8,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -171,6 +178,7 @@
       "max": 16,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -190,6 +198,7 @@
       "max": 16,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
@@ -209,6 +218,7 @@
       "max": 8,
       "item": {
         "id": "techguns:itemshared",
+        "damage": 0,
         "count": 1
       }
     },
